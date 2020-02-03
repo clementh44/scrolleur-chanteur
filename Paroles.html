@@ -1,0 +1,140 @@
+<html>
+<head>
+	<!-- By Clément Horhant - c.horhant[@]gmail.com - https://github.com/clementh44 -->
+
+	<!-- JQuery -->
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"/>
+
+	<!-- Perso -->
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<script type="text/javascript" src="js/chants.js"></script>
+	<script type="text/javascript" src="js/paroles.js"></script>
+
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<title>Paroles</title>
+</head>
+<body class="black-theme">
+	<!-- Alerte d'aide refermable -->
+	<div class="alert alert-warning alert-dismissible fade show m-4" style="font-size:16px;" role="alert">
+		<strong><i class="fas fa-info-circle"></i> À noter</strong><br/>
+		- Actions dispos en bas à droite : <i class="fa fa-sort-alpha-up" aria-hidden="true" title="Retourner au sommaire ici en haut de la page"></i> | <i class="far fa-eye-slash" aria-hidden="true" title="Afficher fond noir ou blanc en fonction du style choisi"></i> | <i class="fas fa-search" title="Recherche et ajoute le chant suivant au bouton d'après ->"></i> | <i class="fas fa-step-forward" aria-hidden="true" title="Affiche le chant suivant (rechercher d'abord)"></i><br/>
+		- Chaque bouton a une description si on laisse la souris dessus.<br/>
+		- Possibilité de cacher/afficher un <strong>couplet</strong> en cliquant dessus.<br/>
+		- Possibilité d'activer/désactiver un <strong>refrain</strong> 'volant' en cliquant dessus.<br/>
+		- Actualiser la page remet tout à zéro<br/>
+		- <a href="Ajouter chant.html" target="_blank">NOUVEAU ! Ajouter un chant en utilisant le formulaire</a><br/>
+		- <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank">Contribuer au projet <i class="fab fa-github"></i></a> <br/>
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<i class="fas fa-times"></i>
+		</button>
+	</div>
+
+	<!-- Boutons d'actions -->
+	<div class="btn-group btn-group-sm scroll-buttons" style="z-index:200;">
+		<a href="#" id="topBtn" class="btn btn-outline-secondary btn-sm" title="Retourner au sommaire">
+			<i class="fa fa-sort-alpha-up" aria-hidden="true"></i>
+		</a>
+		<button onclick="goToBottom()" id="bottomBtn" class="btn btn-outline-secondary btn-sm" title="Afficher fond noir ou blanc">
+			<i class="far fa-eye-slash" aria-hidden="true"></i>
+		</button>
+
+		<div class="btn-group dropdown dropup" role="group">
+			<button type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Recherche et ajoute le chant suivant ->">
+				<i class="fas fa-search"></i>
+			</button>
+			<div id="dropdownList" class="dropdown-menu text-light bg-dark" >
+				<input type="text" class="form-control" placeholder="Rechercher..." id="searchInput"  style="font-size: x-small;"/>
+
+				<div id="filterList" style="height: 250px; overflow: scroll; width: 200px; font-size: x-small;">
+					<!-- Affichage liste des titres pour les filtrer -->
+				</div>
+			</div>
+		</div>
+
+		<a id="nextBtn" href="#" class="btn btn-outline-secondary btn-sm disabled" role="button" title="Affiche le chant suivant (rechercher d'abord)">
+			<i class="fas fa-step-forward" aria-hidden="true"></i>
+		</a>
+	</div>
+
+	<!-- Boutons de paramètres -->
+	<div id="paramButtons" class="btn-group" role="group">
+		<button onclick="toggleTopButtons(this)" type="button" class="btn btn-secondary" title="Attacher/Détacher ces boutons de la fenêtre">
+			<i class="fas fa-thumbtack"></i>
+		</button>
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Changement du thème de la page">
+				<i class="fas fa-palette"></i>
+			</button>
+			<div class="dropdown-menu">
+				<button class="btn dropdown-item" onclick="changeTheme('black-theme')" style="background-color: black; color: white;">Blanc sur noir</button>
+				<button class="btn dropdown-item" onclick="changeTheme('white-theme')" style="background-color: white; color: black;">Noir sur blanc</button>
+			</div>
+		</div>
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Changement des marges des paroles : niveau 0 = pas de marge à gauche">
+				<i class="fas fa-outdent"></i>
+			</button>
+			<div class="dropdown-menu">
+				<button class="btn dropdown-item" onclick="changeMargin('margin-size-1')">Marges niveau 3</button>
+				<button class="btn dropdown-item" onclick="changeMargin('margin-size-2')">Marges niveau 2</button>
+				<button class="btn dropdown-item" onclick="changeMargin('margin-size-3')">Marges niveau 1</button>
+				<button class="btn dropdown-item" onclick="changeMargin('margin-size-4')">Marges niveau 0</button>
+			</div>
+		</div>
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Autres paramètres">
+				<i class="fas fa-cogs"></i>
+			</button>
+			<div class="dropdown-menu">
+				<button class="btn dropdown-item" onclick="toggleRefrain(this)" title="Active ou désactive les refrains qui restent toujours affichés quand on défile"><i class="far fa-check-square"></i> Refrains "flottants"</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Index alphabetique -->
+	<div class="alphabet">
+		<a href="#a"><span>A</span></a>
+		<a href="#b"><span>B</span></a>
+		<a href="#c"><span>C</span></a>
+		<a href="#d"><span>D</span></a>
+		<a href="#e"><span>E</span></a>
+		<a href="#f"><span>F</span></a>
+		<a href="#g"><span>G</span></a>
+		<a href="#h"><span>H</span></a>
+		<a href="#i"><span>I</span></a>
+		<a href="#j"><span>J</span></a>
+		<a href="#k"><span>K</span></a>
+		<a href="#l"><span>L</span></a>
+		<a href="#m"><span>M</span></a>
+		<a href="#n"><span>N</span></a>
+		<a href="#o"><span>O</span></a>
+		<a href="#p"><span>P</span></a>
+		<a href="#q"><span>Q</span></a>
+		<a href="#r"><span>R</span></a>
+		<a href="#s"><span>S</span></a>
+		<a href="#t"><span>T</span></a>
+		<a href="#u"><span>U</span></a>
+		<a href="#v"><span>V</span></a>
+		<a href="#w"><span>W</span></a>
+		<a href="#x"><span>X</span></a>
+		<a href="#y"><span>Y</span></a>
+		<a href="#z"><span>Z</span></a>
+	</div>
+
+	<br/>
+	<div id="sommaire" class="sommaire">
+	</div>
+
+	<div class="separator"></div>
+
+	<div id="listeParoles" class="margin-size-1"></div>
+</body>
+</html>

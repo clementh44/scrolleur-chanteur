@@ -1,0 +1,80 @@
+<html>
+<head>
+  <!-- By Clément Horhant - c.horhant[@]gmail.com -->
+
+  <!-- JQuery -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"/>
+
+  <!-- Perso -->
+  <script type="text/javascript" src="js/chantForm.js"></script>
+
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <title>Paroles</title>
+</head>
+<body style="font-size: inherit;">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="form-group">
+          <label for="formChantTitre">Titre du chant</label>
+          <input type="text" class="form-control" id="formChantTitre" placeholder="Titre du chant" onkeyup="updateChantId(this)">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="form-group">
+          <label for="formChantId">Identifiant du chant</label>
+          <input type="text" class="form-control" id="formChantId" placeholder="identifiant-du-chant">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <form id="chantForm">
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <form>
+          <div class="form-group">
+            <label for="formType">Type à ajouter</label>
+            <div class="input-group">
+              <select class="custom-select" id="formType">
+                <option>Refrain</option>
+                <option>Couplet</option>
+                <option>Traduction</option>
+              </select>
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button" onclick="addElement()"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm">
+        <div id="alert"></div>
+        <button class="btn btn-primary" type="button" onclick="validateForm()">Générer le chant</button>
+        <textarea id="resultArea" class="form-control" rows="20"></textarea>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

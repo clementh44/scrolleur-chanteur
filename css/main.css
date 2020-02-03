@@ -1,0 +1,201 @@
+/*initialisation des polices*/
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Starter Set/CMGSans-Regular.ttf');
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Starter Set/CMGSans-Italic.ttf');
+    font-style: italic;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Starter Set/CMGSans-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Starter Set/CMGSans-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-LightItalic.ttf');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-ExtraLight.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-ExtraLightItalic.ttf');
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-Thin.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-ThinItalic.ttf');
+    font-style: italic;
+    font-weight: 100;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-Cn.ttf');
+    font-stretch: condensed;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-MediumCn.ttf');
+    font-stretch: condensed;
+    font-weight: 500;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-SemiBoldCn.ttf');
+    font-stretch: condensed;
+    font-weight: 600;
+}
+@font-face {
+    font-family: CMGSans;
+    src: url('CMG Sans/Extended Set/CMGSans-BoldCn.ttf');
+    font-stretch: condensed;
+    font-weight: 700;
+}
+
+/*BODY*/
+body{
+	font-size: 2em;
+	font-family: CMGSans;
+}
+
+/*Thèmes*/
+body.black-theme {
+	background-color: black;
+	color: white;
+}
+body.white-theme {
+	background-color: white;
+	color: black;
+}
+
+/*SOMMAIRE*/
+.sommaire {
+	margin-left: 20px;
+    font-weight: 100;
+}
+
+/*BOUTONS PARAMETRES*/
+#paramButtons {
+    z-index: 200;
+}
+
+/*BOUTONS ACTIONS*/
+.scroll-buttons {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.3;
+    transition: opacity 2s;
+    transition-delay: 1s;
+}
+
+.scroll-buttons:hover {
+    opacity: 1;
+    transition: opacity 0s;
+    transition-delay: 0s;
+}
+
+/*PAROLES*/
+.paroles-block {
+	
+}
+
+.paroles-block .titre {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 2em;
+}
+
+.paroles-block .refrain {
+	font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.sticky {
+    top: 0px;
+    position: sticky;
+    z-index: 100;
+}
+
+body.black-theme .paroles-block .refrain {
+    background-color: black;
+}
+
+body.white-theme .paroles-block .refrain {
+    background-color: white;
+}
+
+.paroles-block .couplet {
+	margin-bottom: 10px;
+}
+
+.traduction {
+    font-style: italic;
+    font-size: smaller;
+    margin-left: 1em;
+    font-weight: 100;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.hide {
+    opacity: 0.1;
+    transition: opacity 1s;
+}
+
+/*Reglage des marges*/
+#listeParoles.margin-size-1 > .paroles-block {
+    margin-left: 20px;
+}
+#listeParoles.margin-size-1 > .paroles-block .refrain{
+    padding-left: 2em;
+}
+
+#listeParoles.margin-size-2 > .paroles-block {
+    margin-left: 10px;
+}
+#listeParoles.margin-size-2 > .paroles-block .refrain{
+    padding-left: 1.5em;
+}
+
+#listeParoles.margin-size-3 > .paroles-block {
+    margin-left: 0px;
+}
+#listeParoles.margin-size-3 > .paroles-block .refrain{
+    padding-left: 1em;
+}
+
+#listeParoles.margin-size-4 > .paroles-block {
+    margin-left: 0px;
+}
+#listeParoles.margin-size-4 > .paroles-block .refrain{
+    padding-left: 0.5em;
+}
