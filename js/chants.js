@@ -938,12 +938,16 @@ var chants = [
 {
 	"id": "jour-de-joie",
 	"titre": "Jour de joie",
-	"paroles": {
-		"block": {
-			"type": "couplet",
-			"text": "Jour de joie, jour de victoire,\nIl étend sa main d'en-haut,\nMe retire des grandes eaux\nIl me saisit et me délivre.\nL'Eternel est mon appui\nDevant tous mes ennemis\nDieu se lève avec éclat\nEt il marche devant moi."
-		}
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Jour de joie, jour de victoire,\nIl étend sa main d'en-haut,\nMe retire des grandes eaux\nIl me saisit et me délivre."
+	},
+	{
+		"type": "couplet",
+		"text": "L'Eternel est mon appui\nDevant tous mes ennemis\nDieu se lève avec éclat\nEt il marche devant moi."
 	}
+	]
 },
 {
 	"id": "jubilez-criez-de-joie",
@@ -1016,12 +1020,12 @@ var chants = [
 {
 	"id": "la-tenebre-nest-point-tenebre",
 	"titre": "La ténèbre n'est point ténèbre",
-	"paroles": {
-		"block": {
-			"type": "couplet",
-			"text": "La ténèbre n'est point ténèbre devant toi.\nLa nuit comme le jour est lumière."
-		}
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "La ténèbre n'est point ténèbre devant toi.\nLa nuit comme le jour est lumière."
 	}
+	]
 },
 {
 	"id": "mendiez",
@@ -1384,12 +1388,12 @@ var chants = [
 {
 	"id": "prosternez-vous",
 	"titre": "Prosternez-vous",
-	"paroles": {
-		"block": {
-			"type": "couplet",
-			"text": "Prosternez-vous devant votre Roi,\nAcclamez-le de tout votre cœur.\nFaites monter vers sa majesté\nDes chants de gloire,\nPour votre Roi des rois."
-		}
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Prosternez-vous devant votre Roi,\nAcclamez-le de tout votre cœur.\nFaites monter vers sa majesté\nDes chants de gloire,\nPour votre Roi des rois."
 	}
+	]
 },
 {
 	"id": "psaume-de-la-creation",
@@ -1822,12 +1826,12 @@ var chants = [
 {
 	"id": "si-tuvieras-fe",
 	"titre": "Si tuvieras fe",
-	"paroles": {
-		"block": {
-			"type": "couplet",
-			"text": "Si tuvieras fe como un granito de mostaza, eso lo dice el Señor (bis)\nTu lo dirìas, a la montaña : \" muevete, muevete ! \" (bis)\nY la montaña se moverà, se moverà (bis)\nFluye, Fluye, Espiritu Santo. (bis)"
-		}
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Si tuvieras fe como un granito de mostaza, eso lo dice el Señor (bis)\nTu lo dirìas, a la montaña : \" muevete, muevete ! \" (bis)\nY la montaña se moverà, se moverà (bis)\nFluye, Fluye, Espiritu Santo. (bis)"
 	}
+	]
 },
 {
 	"id": "simplement-je-mabandonne",
@@ -1902,16 +1906,6 @@ var chants = [
 		"text": "5 - Dans sa gloire, Dieu t'a accueillie\nAuprès de lui.\nTu deviens, joie de l'Éternel,\nReine du Ciel !"
 	}
 	]
-},
-{
-	"id": "un-chemin-sort-de-mes-pieds",
-	"titre": "Un chemin sort de mes pieds",
-	"paroles": {
-		"block": {
-			"type": "refrain",
-			"text": "Un chemin sort de mes pieds\nJ'avance\nJe vais sur le plus inconnu des chemins\nCelui qui sort de moi"
-		}
-	}
 },
 {
 	"id": "venez-chantons-notre-dieu",
@@ -2268,12 +2262,12 @@ var chants = [
 {
 	"id": "vous-serez-vraiment-grands",
 	"titre": "Vous serez vraiment grands",
-	"paroles": {
-		"block": {
-			"type": "refrain",
-			"text": "Vous serez vraiment grands,\ndans la mesure où vous êtes petits,\nVous serez alors grands dans l'Amour,\nvous serez alors grands dans l'Amour."
-		}
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Vous serez vraiment grands,\ndans la mesure où vous êtes petits,\nVous serez alors grands dans l'Amour,\nvous serez alors grands dans l'Amour."
 	}
+	]
 },
 {
 	"id": "repands-ton-feu",
@@ -2316,12 +2310,12 @@ var chants = [
 {
 	"id": "viens-esprit-saint-mets-en-nous-ton-feu",
 	"titre": "Viens Esprit Saint mets en nous ton feu",
-	"paroles": {
-		"block": {
-			"type": "refrain",
-			"text": "Viens, Esprit Saint,\nMets en nous ton feu,\nFais de nous des disciples!\nOooh viens..."
-		}
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Viens, Esprit Saint,\nMets en nous ton feu,\nFais de nous des disciples!\nOooh viens..."
 	}
+	]
 },
 {
 	"id": "lesprit-sain-qui-nous-est-donne",
@@ -2642,12 +2636,12 @@ var chants = [
 {
 	"id": "jesus-toi-qui-as-promis",
 	"titre": "Jésus, toi qui as promis",
-	"paroles": {
-		"block": {
-			"type": "refrain",
-			"text": "Jésus, toi qui as promis d'envoyer l'Esprit\nÀ ceux qui te prient,\nÔ Dieu, pour porter au monde ton feu,\nVoici l'offrande de nos vies."
-		}
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Jésus, toi qui as promis d'envoyer l'Esprit\nÀ ceux qui te prient,\nÔ Dieu, pour porter au monde ton feu,\nVoici l'offrande de nos vies."
 	}
+	]
 },
 {
 	"id": "le-seigneur-nous-a-aimes",
@@ -2728,7 +2722,7 @@ var chants = [
 	"titre": "(Messe) Kyrie",
 	"paroles": [
 	{
-		"type": "refrain",
+		"type": "couplet",
 		"text": "Kyrie eleison x3\nChriste eleison x3\nKyrie eleison x3"
 	}
 	]

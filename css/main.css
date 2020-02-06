@@ -134,6 +134,7 @@ body.white-theme {
 .paroles-block .refrain {
 	font-weight: bold;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .sticky {
@@ -152,6 +153,7 @@ body.white-theme .paroles-block .refrain {
 
 .paroles-block .couplet {
 	margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .traduction {

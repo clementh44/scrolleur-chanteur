@@ -7,8 +7,11 @@ Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou tem
  - Ouvrir Paroles.html (cela s'ouvre avec un navigateur internet)
 
 
+## Aperçu
+![aperçu de la page](https://media.giphy.com/media/SUtin2dmPZqqX6elFc/giphy.gif)
+
 ## Comment ajouter un chant ?
-les chants sont listés dans le fichier "chants.json"
+les chants sont listés dans le dossier "*js*" dans le fichier "*chants.js*"
  - utiliser le formulaire dans "Ajouter chant.html" OU reprendre le modèle à la main
  - puis insérer le chant sans faire attention à l'ordre (tri automatique avec l'identifiant 'id')
 
@@ -55,10 +58,10 @@ Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotion
 
 ## ToDo
 - paramètre taille police ; zoom ?
-- supprimer les icon en trop (https://fontawesome.com/)
-- voir possibilité d'insérer un fond : photo ou vidéo
+- voir la possibilité d'insérer un fond : photo ou vidéo
 - ajouter une liste de chants : une pile de chants à personnaliser pour préparer l'ordre à l'avance
 - ajout automatique du chant dans le fichier
+- possibilité de choisir son fichier de chants
 
 
 ## Changelog
@@ -248,4 +251,10 @@ Passsage en html/js pour une plus large compatibilité
   amélioration des scripts
   amélioration des boutons de personnalisation (en haut)
   création d'un formulaire pour insérer un chant !!!
+```
+
+**06/02/2020 v3.0.1 :**
+```
+  corrections : nom de la page d'ajout de chant, bug manque de PopperJs, bug de mise à jour des espaces vides, bug sur certains chants
+  ajouts : curseur en mode pointeur sur les couplets et refrains (puisque cliquables), super aperçu en .gif
 ```

@@ -1,6 +1,6 @@
 {
   "name": "@clementh44/scrolleur-chanteur",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Pour faire \"scroller\" les chants pour... chanter",
   "main": "Paroles.html",
   "scripts": {
@@ -23,6 +23,6 @@
     "jquery": "^3.4.1"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   }
 }

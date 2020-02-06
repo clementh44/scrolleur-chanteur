@@ -149,7 +149,7 @@ function main() {
 	$("#listeParoles").html(chantsHtml.join(''));
 
     //Mise à jour constante des parties vides pour suivre la taille de la fenêtre
-    $(window).resize(updateSeparator());
+    $(window).resize(updateSeparator);
     updateSeparator();
 
     //Clic sur couplet = cacher/montrer
