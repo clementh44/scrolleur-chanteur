@@ -1178,8 +1178,8 @@ var chants = [
 	]
 },
 {
-	"id": "notre-pere-glorious",
-	"titre": "Notre Père (Glorious)",
+	"id": "notre-pere",
+	"titre": "Notre Père",
 	"paroles": [
 	{
 		"type": "couplet",
@@ -2737,7 +2737,7 @@ var chants = [
 	},
 	{
 		"type": "couplet",
-		"text": "1 - Pour tes merveilles, Seigneur Dieu, Ton peuple de rend grâce !\nAmi des hommes, sois béni pour ton Règne sui vient !"
+		"text": "1 - Pour tes merveilles, Seigneur Dieu, Ton peuple te rend grâce !\nAmi des hommes, sois béni pour ton Règne sui vient !"
 	},
 	{
 		"type": "couplet",
@@ -2768,8 +2768,8 @@ var chants = [
 	]
 },
 {
-	"id": "messe-5-colombiere-sanctus-saint-le-seigneur",
-	"titre": "(Messe Colombière) Sanctus",
+	"id": "messe-5-colombiere-emmaus-sanctus-saint-le-seigneur",
+	"titre": "(Messe Colombière, Emmaüs) Sanctus",
 	"paroles": [
 	{
 		"type": "refrain",
@@ -2836,6 +2836,198 @@ var chants = [
 	{
 		"type": "couplet",
 		"text": "4 - Seigneur, pour nous tu t'abaisses\nTu revêts notre faiblesse\nToi Jésus vrai Dieu fait homme, ô Emmanuel !"
+	}
+	]
+},
+{
+	"id": "dieu-nous-a-tous-appeles-nous-sommes-le-corps-du-christ",
+	"titre": "Dieu nous a tous appelés (Nous sommes le corps du Christ)",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Nous sommes le corps du Christ,\nChacun de nous est un membre de ce corps\nChacun reçoit la grâce de l’Esprit, Pour le bien du corps entier. (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Dieu nous a tous appelés à tenir la même espérance,\npour former un seul corps baptisé dans l'Esprit.\nDieu nous a tous appelés à la même sainteté,\npour former un seul corps baptisé dans l'Esprit."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Dieu nous a tous appelés des ténèbres à sa lumière,\npour former un seul corps baptisé dans l'Esprit.\nDieu nous a tous appelés à l'amour et au pardon,\npour former un seul corps baptisé dans l'Esprit."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Dieu nous a tous appelés à chanter sa libre louange,\npour former un seul corps baptisé dans l'Esprit.\nDieu nous a tous appelés à l'union avec son Fils,\npour former un seul corps baptisé dans l'Esprit."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Dieu nous a tous appelés à la paix que donne sa grâce,\npour former un seul corps baptisé dans l'Esprit.\nDieu nous a tous appelés sous la croix de Jésus Christ,\npour former un seul corps baptisé dans l'Esprit."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Dieu nous a tous appelés au salut par la renaissance,\npour former un seul corps baptisé dans l'Esprit.\nDieu nous a tous appelés au salut par l'Esprit Saint,\npour former un seul corps baptisé dans l'Esprit."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Dieu nous a tous appelés à la gloire de son Royaume,\npour former un seul corps baptisé dans l'Esprit.\nDieu nous a tous appelés pour les noces de l'Agneau,\npour former un seul corps baptisé dans l'Esprit."
+	}
+	]
+},
+{
+	"id": "messe-6-emmaus-anamnese",
+	"titre": "(Messe Emmaüs) Anamnèse",
+	"paroles": [
+	{
+		"type": "traduction",
+		"text": "Il est grand le mystère de la foi"
+	},
+	{
+		"type": "refrain",
+		"text": "Tu étais mort, Tu es vivant, O ressuscité !\nNous attendons ta venue dans la gloire, Viens, Seigneur Jésus !"
+	}
+	]
+},
+{
+	"id": "tu-fais-ta-demeure-en-nous-tu-es-la-present-livre-pour-nous",
+	"titre": "Tu fais ta demeure en nous",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Tu es là présent, livré pour nous.\nToi le tout-petit, le serviteur.\nToi, le Tout-Puissant, humblement tu t´abaisses.\nTu fais ta demeure en nous Seigneur."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Le pain que nous mangeons, le vin que nous buvons,\nC'est ton corps et ton sang,\nTu nous livres ta vie, tu nous ouvres ton cœur,\nTu fais ta demeure en nous Seigneur."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Par le don de ta vie, tu désires aujourd'hui\nReposer en nos cœurs,\nBrûlé de charité, assoiffé d'être aimé,\nTu fais ta demeure en nous Seigneur."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Unis à ton Amour, tu nous veux pour toujours\nOstensoirs du Sauveur,\nEn notre humanité, tu rejoins l'égaré,\nTu fais ta demeure en nous Seigneur."
+	}
+	]
+},
+{
+	"id": "esprit-de-pentecote-souffle-de-dieu",
+	"titre": "Esprit de Pentecôte, souffle de Dieu",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Esprit de Pentecôte, Souffle de Dieu,\nVois ton Église aujourd'hui rassemblée,\nEsprit de Pentecôte, Souffle d'amour,\nEmporte-nous dans ton élan,\nEmporte-nous dans ton élan."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Peuple de Dieu nourri de sa Parole,\nPeuple de Dieu vivant de l'Évangile,\nPeuple de Dieu se partageant le pain,\nPeuple de Dieu devenu Corps du Christ."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Peuple de Dieu aux écoutes du monde,\nPeuple de Dieu partageant ses combats\nPeuple de Dieu solidaire des hommes,\nPeuple de Dieu assoiffé de justice."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Peuple de Dieu engagé dans l'histoire,\nPeuple de Dieu témoin de son Royaume,\nPeuple de Dieu portant l'espoir des hommes,\nPeuple de Dieu bâtissant l'avenir."
+	}
+	]
+},
+{
+	"id": "jai-vu-des-fleuves-deau-vive",
+	"titre": "J'ai vu des fleuves d'eau vive",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - J'ai vu des fleuves d'eau vive,\nAlléluia (bis)\nJaillir du côté du temple,\nAlléluia (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - J'ai vu la source du temple,\nAlléluia ! (bis)\nGrandir en un fleuve immense,\nAlléluia ! (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Tous ceux que lave l'eau vive,\nAlléluia ! (bis)\nAcclament et chantent ta gloire,\nAlléluia ! (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Ton cœur, Jésus est la source,\nAlléluia ! (bis)\nD'où coule l'eau de la grâce,\nAlléluia ! (bis)"
+	}
+	]
+},
+{
+	"id": "messe-2-soleil-des-nations-gloire-a-dieu",
+	"titre": "(Messe Soleil des Nations) Gloire à Dieu",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Gloire à Dieu, paix aux hommes, joie du ciel sur la Terre ! (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Pour tes merveilles, Seigneur Dieu, ton peuple te rend grâce.\nAmi des hommes, sois béni pour ton Règne qui vient !"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - À toi les chants de fête, par ton Fils bien-aimé, dans l’Esprit.\nSauveur du monde, Jésus Christ, écoute nos prières !"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Agneau de Dieu, vainqueur du mal, sauve-nous du péché.\nDieu saint, splendeur du Père, Dieu vivant, le Très-Haut, le Seigneur !"
+	}
+	]
+},
+{
+	"id": "messe-5-soleil-des-nations-sanctus",
+	"titre": "(Messe Soleil des Nations) Sanctus",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Saint, le Seigneur, Saint, le Seigneur, Saint, le Seigneur, Dieu de l'univers"
+	},
+	{
+		"type": "couplet",
+		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna, Hosanna au plus haut des cieux !"
+	},
+	{
+		"type": "couplet",
+		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna, Hosanna au plus haut des cieux !"
+	}
+	]
+},
+{
+	"id": "devenez-ce-que-vous-recevez",
+	"titre": "Devenez ce que vous recevez",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Devenez ce que vous recevez,\nDevenez le corps du Christ,\nDevenez ce que vous recevez,\nVous êtes le corps du Christ."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Baptisés en un seul Esprit,\nNous ne formons tous qu'un seul corps,\nAbreuvés de l'unique Esprit,\nNous n'avons qu'un seul Dieu et Père."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Rassasiés par le pain de Vie,\nNous n'avons qu'un cœur et qu'une âme ,\nFortifiés par l'amour du Christ,\nNous pouvons aimer comme il aime."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Purifiés par le sang du Christ,\nEt réconciliés avec Dieu,\nSanctifiés par la vie du Christ,\nNous goûtons la joie du Royaume."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Rassemblés à la même table,\nNous formons un peuple nouveau :\nBienheureux sont les invités\nAu festin des Noce(s) éternelles."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Appelés par Dieu notre Père\nÀ devenir saints comme lui,\nNous avons revêtu le Christ,\nNous portons la robe nuptiale."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Envoyés par l'Esprit de Dieu\nEt comblés de dons spirituels,\nNous marchons dans l'amour du Christ,\nAnnonçant la Bonne Nouvelle."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Rendons gloire à Dieu notre Père,\nPar Jésus son Fils Bien-Aimé,\nDans l'Esprit, notre communion\nQui fait toutes choses nouvelles."
 	}
 	]
 }

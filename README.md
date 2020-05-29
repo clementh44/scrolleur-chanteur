@@ -58,7 +58,6 @@ Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotion
 
 ## ToDo
 - paramètre taille police ; zoom ?
-- voir la possibilité d'insérer un fond : photo ou vidéo
 - ajouter une liste de chants : une pile de chants à personnaliser pour préparer l'ordre à l'avance
 - ajout automatique du chant dans le fichier
 - possibilité de choisir son fichier de chants
@@ -257,4 +256,21 @@ Passsage en html/js pour une plus large compatibilité
 ```
   corrections : nom de la page d'ajout de chant, bug manque de PopperJs, bug de mise à jour des espaces vides, bug sur certains chants
   ajouts : curseur en mode pointeur sur les couplets et refrains (puisque cliquables), super aperçu en .gif
+```
+
+**29/05/2020 v3.1.0 : (Pentecôte)**
+```
+  ajout de l'arrière-plan personnalisable avec une image ou une vidéo :
+    > 1 bouton pour importer le fichier depuis son ordinateur (vidéo mp4, webm ou ogg)
+    > 1 bouton pour supprimer l'arrière-plan avec un fondu
+    > l'action "afficher fond" supprime l'arrière-plan avec un fondu
+  passage au jQuery non slim pour utiliser les animations
+
+  + Dieu nous a tous appelés (Nous sommes le corps du Christ)
+  + Anamnese Emmaus
+  + Tu fais ta demeure en nous
+  + Esprit de Pentecôte, souffle de Dieu
+  + J'ai vu des fleuves d'eau vive
+  + Messe Soleil des Nations (Gloire à Dieu, Sanctus)
+  + Devenez ce que vous recevez
 ```

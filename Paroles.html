@@ -4,7 +4,7 @@
 	<!-- By Clément Horhant - c.horhant[@]gmail.com - https://github.com/clementh44 -->
 
 	<!-- JQuery -->
-	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
@@ -23,6 +23,8 @@
 	<title>Paroles</title>
 </head>
 <body class="black-theme">
+	<div id="customBackground"></div>
+
 	<!-- Alerte d'aide refermable -->
 	<div class="alert alert-warning alert-dismissible fade show m-4" style="font-size:16px;" role="alert">
 		<strong><i class="fas fa-info-circle"></i> À noter</strong><br/>
@@ -95,7 +97,17 @@
 				<i class="fas fa-cogs"></i>
 			</button>
 			<div class="dropdown-menu">
-				<button class="btn dropdown-item" onclick="toggleRefrain(this)" title="Active ou désactive les refrains qui restent toujours affichés quand on défile"><i class="far fa-check-square"></i> Refrains "flottants"</button>
+				<button class="btn dropdown-item" id="paramStickyRefrain" onclick="toggleRefrain(this)" title="Active ou désactive les refrains qui restent toujours affichés quand on défile"><i class="far fa-check-square"></i> Refrains "flottants"</button>
+			</div>
+		</div>
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Gérer l'arrière plan (photo/vidéo)">
+				<i class="fas fa-photo-video"></i>
+			</button>
+			<div class="dropdown-menu">
+				<button class="btn dropdown-item" onclick="$('#customBackgroundInput').click()" title="A ECRIRE"><i class="fas fa-file-import"></i>Importer une vidéo ou une photo</button>
+				<input class="btn dropdown-item" onchange="changeCustomBackground(this.files[0])" type="file" id="customBackgroundInput" accept="image/*, video/webm, video/mp4, video/ogg" hidden></input>
+				<button class="btn dropdown-item" onclick="cleanBackground(this)" title="A ECRIRE"><i class="fas fa-trash-alt"></i> Supprimer l'arrière-plan</button>
 			</div>
 		</div>
 	</div>

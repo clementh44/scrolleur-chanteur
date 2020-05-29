@@ -1,6 +1,6 @@
 {
   "name": "@clementh44/scrolleur-chanteur",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Pour faire \"scroller\" les chants pour... chanter",
   "main": "Paroles.html",
   "scripts": {

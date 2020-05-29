@@ -92,6 +92,21 @@ body.white-theme {
 	color: black;
 }
 
+/*vidéo ou photo d'arrière plan A REVOIR !!!!!!!!!!!!!!!!!*/
+#customBackgroundElement {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 110%;
+    max-height: 110%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
 /*SOMMAIRE*/
 .sommaire {
 	margin-left: 20px;
@@ -143,11 +158,11 @@ body.white-theme {
     z-index: 100;
 }
 
-body.black-theme .paroles-block .refrain {
+body.black-theme .paroles-block .refrain.sticky {
     background-color: black;
 }
 
-body.white-theme .paroles-block .refrain {
+body.white-theme .paroles-block .refrain.sticky {
     background-color: white;
 }
 

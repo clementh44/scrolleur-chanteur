@@ -27,10 +27,46 @@ function toggleRefrain(element) {
 	$(element).children("i").toggleClass("fa-square fa-check-square");
 }
 
+/*modification de l'arrière-plan par une vidéo ou une photo*/
+function changeCustomBackground(file) {
+    var reader = new FileReader(),
+        div = $("#customBackground");
+
+    if (file.type.includes("video")) {
+        cleanBackground();
+        reader.addEventListener('load', function() {
+            div.append("<video id='customBackgroundElement' autoplay loop muted><source src='"+this.result+"'></video>");
+        });
+
+        reader.readAsDataURL(file);
+    } else{
+        if (file.type.includes("image")) {
+            cleanBackground();
+            reader.addEventListener('load', function() {
+                div.append("<img id='customBackgroundElement' src='"+this.result+"'></img>");
+            });
+
+            reader.readAsDataURL(file);
+        };
+    };
+
+    /*les refrains ne doivent pas être volant (cela affiche un fond sinon)*/
+    $(".refrain").removeClass("sticky");
+    $("#paramStickyRefrain").children("i").toggleClass("fa-square fa-check-square");
+}
+
+/*suppression en fondu de l'arrière-plan*/
+function cleanBackground() {
+    $("#customBackgroundElement").fadeOut(1000, function() {
+        $("#customBackgroundElement").remove();
+    });
+}
+
 /*affichage ecran noir (tout en bas de la page)*/
 function goToBottom () {
 	document.documentElement.scrollTop = document.body.scrollHeight;
 	document.body.scrollTop = document.body.scrollHeight;
+    //cleanBackground(); //Suppression de l'arrière plan à ce moment là ? mettre en paramètre ?
 }
 
 //https://gist.github.com/oziks/3664787
