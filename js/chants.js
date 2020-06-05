@@ -2768,8 +2768,8 @@ var chants = [
 	]
 },
 {
-	"id": "messe-5-colombiere-emmaus-sanctus-saint-le-seigneur",
-	"titre": "(Messe Colombière, Emmaüs) Sanctus",
+	"id": "messe-5-colombiere-emmaus-partage-sanctus-saint-le-seigneur",
+	"titre": "(Messe Colombière, Emmaüs, Partage) Sanctus",
 	"paroles": [
 	{
 		"type": "refrain",
@@ -3028,6 +3028,152 @@ var chants = [
 	{
 		"type": "couplet",
 		"text": "7 - Rendons gloire à Dieu notre Père,\nPar Jésus son Fils Bien-Aimé,\nDans l'Esprit, notre communion\nQui fait toutes choses nouvelles."
+	}
+	]
+},
+{
+	"id": "viens-esprit-saint-veni-sancte-spiritus",
+	"titre": "Viens Esprit Saint (Veni Sancte Spiritus)",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - Viens, Esprit Saint, viens en nos cœurs\nEt envoie du haut du ciel\nUn rayon de ta lumière"
+	},
+	{
+		"type": "refrain",
+		"text": "Veni Sancte Spiritus"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Viens en nous, viens père des pauvres,\nViens, dispensateur des dons,\nViens, lumière de nos cœurs."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Consolateur souverain,\nHôte très doux de nos âmes,\nAdoucissante fraîcheur."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Dans le labeur, le repos,\nDans la fièvre, la fraîcheur,\nDans les pleurs, le réconfort."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Ô lumière bienheureuse,\nViens remplir jusqu’à l’intime\nLe cœur de tous tes fidèles"
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Sans ta puissance divine,\nIl n’est rien en aucun homme,\nRien qui ne soit perverti."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Lave ce qui est souillé,\nBaigne ce qui est aride,\nGuéris ce qui est blessé."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Assouplis ce qui est raide,\nRéchauffe ce qui est froid,\nRends droit ce qui est faussé."
+	},
+	{
+		"type": "couplet",
+		"text": "9 - À tous ceux qui ont la foi,\nEt qui en toi se confient,\nDonne tes sept dons sacrés."
+	},
+	{
+		"type": "couplet",
+		"text": "10 - Donne mérite et vertu,\nDonne le salut final,\nDonne la joie éternelle."
+	}
+	]
+},
+{
+	"id": "lesprit-de-dieu-repose-sur-moi",
+	"titre": "L'Esprit de Dieu repose sur moi",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "L'Esprit de Dieu repose sur moi,\nL'Esprit de Dieu m'a consacré,\nL'Esprit de Dieu m'a envoyé proclamer la paix, la joie."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - L'Esprit de Dieu m'a choisi\nPour étendre le Règne du Christ parmi les nations,\nPour proclamer la Bonne Nouvelle à ses pauvres.\nJ'exulte de joie en Dieu, mon Sauveur !"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - L'Esprit de Dieu m'a choisi\nPour étendre le Règne du Christ parmi les nations,\nPour annoncer la grâce de la délivrance.\nJ'exulte de joie en Dieu, mon Sauveur !"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - L'Esprit de Dieu m'a choisi\nPour étendre le Règne du Christ parmi les nations,\nPour accueillir le Pauvre qui pleure et qui peine ;\nJ'exulte de joie en Dieu, mon Sauveur !"
+	},
+	{
+		"type": "couplet",
+		"text": "4 - L'Esprit de Dieu m'a choisi\nPour étendre le Règne du Christ parmi les nations,\nPour annoncer la grâce de la délivrance.\nJ'exulte de joie en Dieu, mon Sauveur !"
+	},
+	{
+		"type": "couplet",
+		"text": "5 - L'Esprit de Dieu m'a choisi\nPour étendre le Règne du Christ parmi les nations,\nPour célébrer sa gloire parmi tous les peuples,\nJ'exulte de joie en Dieu, mon Sauveur !"
+	}
+	]
+},
+{
+	"id": "peuple-de-baptises",
+	"titre": "Peuple de baptisés",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Peuple de baptisés, marche vers ta lumière :\nLe Christ est ressuscité ! Alléluia ! Alléluia !"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Notre Père nous aime avec tendresse,\nEt cet amour est vivant pour les siècles.\nQue son peuple le dise à l´univers.\nIl rachète et rassemble tous les hommes."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - A tous ceux qui marchaient dans la tristesse,\nLa solitude, la faim, les ténèbres,\nLe Seigneur a donné son réconfort,\nLes guidant sur sa route de lumière."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Proclamons la bonté de notre Père,\nEt les merveilles de Dieu pour les hommes.\nPlus de faim, plus de soif et plus de peur :\nCar sans cesse Il nous comble avec largesse."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Et tous ceux qui lui disent leur détresse,\nEn invoquant son secours et sa grâce,\nLe Seigneur les délivre de la peur,\nLes tirant de la mort et des ténèbres."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Et tous ceux qui demeurent dans l´angoisse,\nOu déprimés, accablés par leurs fautes,\nLe Seigneur les guérit, leur donne vie,\nLeur envoie son pardon et sa Parole."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Rendons gloire et louange à notre Père,\nA Jésus Christ qui rachète les hommes,\nA l´Esprit qui demeure dans nos coeurs,\nMaintenant, pour toujours et dans les siècles."
+	}
+	]
+},
+{
+	"id": "messe-2-du-partage-gloire-a-dieu",
+	"titre": "(Messe du Partage) Gloire à Dieu",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Gloire à Dieu, au plus haut des cieux,\nEt paix sur la terre aux hommes qu'il aime.\nNous te louons, nous te bénissons, nous t'adorons,\nNous te glorifions, nous te rendons grâce, pour ton immense gloire,\nSeigneur Dieu, Roi du ciel, Dieu le Père tout-puissant.\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;\nToi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous.\nCar toi seul es saint,\nToi seul es Seigneur,\nToi seul es le Très-Haut : Jésus Christ, avec le Saint-Esprit\nDans la gloire de Dieu le Père. Amen."
+	}
+	]
+},
+{
+	"id": "a-limage-de-ton-amour",
+	"titre": "À l'image de ton amour",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - Seigneur Jésus, Tu nous as dit :\n\"Je vous laisse un commandement nouveau :\nMes amis, aimez-vous les uns les autres.\nÉcoutez mes paroles et vous vivrez\"."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Devant la haine, le mépris, la guerre,\nDevant les injustices, les détresses,\nAu milieu de notre indifférence,\nÔ Jésus, rappelle-nous ta Parole."
+	},
+	{
+		"type": "refrain",
+		"text": "Fais-nous semer ton Évangile,\nFais de nous des artisans d'unité,\nFais de nous des témoins de ton pardon,\nA l'image de ton amour."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Tu as versé ton sang sur une croix,\nPour tous les hommes de toutes les races,\nApprends-nous à nous réconcilier,\nCar nous sommes tous enfants d'un même Père."
 	}
 	]
 }

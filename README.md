@@ -279,3 +279,12 @@ Passsage en html/js pour une plus large compatibilité
 ```
   ajout des explications directement avec le formulaire de création d'un chant
 ```
+
+**05/06/2020 v3.2.1**
+```
+  + Viens Esprit Saint (Veni Sancte Spiritus)
+  + L'Esprit de Dieu repose sur moi
+  + Messe du Partage
+  + À l'image de ton amour
+  + Peuple de baptisés
+```
