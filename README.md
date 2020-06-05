@@ -274,3 +274,8 @@ Passsage en html/js pour une plus large compatibilité
   + Messe Soleil des Nations (Gloire à Dieu, Sanctus)
   + Devenez ce que vous recevez
 ```
+
+**05/06/2020 v3.2.0**
+```
+  ajout des explications directement avec le formulaire de création d'un chant
+```
