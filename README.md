@@ -62,7 +62,7 @@ Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotion
 - ajout automatique du chant dans le fichier
 - possibilité de choisir son fichier de chants (base de données)
 - ajouter une page de cadrage : cadrillage + dimension de la vue pour adapter à une projection par exemple
-- page formulaire : ajout refrain/couplet/traduction en boutons ; bouton pour reset le formulaire
+- page formulaire : ajout bouton pour reset le formulaire
 
 
 ## Changelog
@@ -298,4 +298,10 @@ Passsage en html/js pour une plus large compatibilité
   ajout explications pour l'ordinaire
   + Credo symbole de Nicée
   + couplets La Première en chemin
+```
+
+**08/06/2020 v3.2.3**
+```
+  correction de jquery pour la page du formulaire
+  changement des boutons du formulaire
 ```

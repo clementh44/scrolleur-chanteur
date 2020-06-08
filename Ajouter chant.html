@@ -4,7 +4,7 @@
   <!-- By Clément Horhant - c.horhant[@]gmail.com -->
 
   <!-- JQuery -->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
@@ -118,16 +118,11 @@
       <div class="col-sm">
         <form>
           <div class="form-group">
-            <label for="formType">Type à ajouter</label>
-            <div class="input-group">
-              <select class="custom-select" id="formType">
-                <option>Refrain</option>
-                <option>Couplet</option>
-                <option>Traduction</option>
-              </select>
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button" onclick="addElement()"><i class="fas fa-plus"></i></button>
-              </div>
+            <label for="formType">Ajouter un bloc : </label>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button class="btn btn-outline-primary" type="button" onclick="addElement('Refrain')">Refrain</button>
+              <button class="btn btn-outline-primary" type="button" onclick="addElement('Couplet')">Couplet</button>
+              <button class="btn btn-outline-primary" type="button" onclick="addElement('Traduction')">Traduction</button>
             </div>
           </div>
         </form>

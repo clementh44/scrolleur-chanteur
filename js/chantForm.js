@@ -2,8 +2,8 @@ function updateChantId(element) {
 	$("#formChantId").val($(element).val().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f|'|(|)|"|&|!|.|,|;|:]/g, "").replace(/ /g, "-")); 
 }
 
-function addElement() {
-	$("#chantForm").append('<div class="form-group form-element"> <label>'+$("#formType").val()+'</label> <button type="button" class="close" onclick="removeElement(this)"><i class="fas fa-times"></i></button> <textarea class="form-control" rows="5" required></textarea> </div>');
+function addElement(label) {
+	$("#chantForm").append('<div class="form-group form-element"> <label>'+label+'</label> <button type="button" class="close" onclick="removeElement(this)"><i class="fas fa-times"></i></button> <textarea class="form-control" rows="5" required></textarea> </div>');
 }
 
 function removeElement(element) {
