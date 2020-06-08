@@ -49,7 +49,7 @@ function validateForm() {
 		result += '\t}';
 	});
 
-	result += '\n\t]\n}\n'
+	result += '\n\t]\n}'
 
 	//affichage du résultat
 	$("#resultArea").val(result);

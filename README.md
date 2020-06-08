@@ -60,7 +60,9 @@ Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotion
 - paramètre taille police ; zoom ?
 - ajouter une liste de chants : une pile de chants à personnaliser pour préparer l'ordre à l'avance
 - ajout automatique du chant dans le fichier
-- possibilité de choisir son fichier de chants
+- possibilité de choisir son fichier de chants (base de données)
+- ajouter une page de cadrage : cadrillage + dimension de la vue pour adapter à une projection par exemple
+- page formulaire : ajout refrain/couplet/traduction en boutons ; bouton pour reset le formulaire
 
 
 ## Changelog
@@ -287,4 +289,13 @@ Passsage en html/js pour une plus large compatibilité
   + Messe du Partage
   + À l'image de ton amour
   + Peuple de baptisés
+```
+
+**08/06/2020 v3.2.2**
+```
+  mise à jour des packages
+  corrections (Notre Père, caractère apostrophe)
+  ajout explications pour l'ordinaire
+  + Credo symbole de Nicée
+  + couplets La Première en chemin
 ```

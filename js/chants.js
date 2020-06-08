@@ -985,7 +985,7 @@ var chants = [
 	"paroles": [
 	{
 		"type": "couplet",
-		"text": "1 - La première en chemin, Marie tu nous entraînes\nA risquer notre \"oui\" aux imprévus de Dieu.\nEt voici qu'est semée en l'argile incertaine\nDe notre humanité, Jésus-Christ, Fils de Dieu."
+		"text": "1 - La première en chemin, Marie tu nous entraînes\nA risquer notre \"oui\" aux imprévus de Dieu.\nEt voici qu'est semé en l'argile incertaine\nDe notre humanité, Jésus-Christ, Fils de Dieu."
 	},
 	{
 		"type": "refrain",
@@ -993,7 +993,7 @@ var chants = [
 	},
 	{
 		"type": "couplet",
-		"text": "2 - La première en chemin, en hâte tu t'élances,\nProphète de Celui qui a pris corps en toi.\nLa parole a surgi, tu es sa résonance\nEt tu franchis des monts pour en porter la voix."
+		"text": "2 - La première en chemin, joyeuse, tu t'élances,\nProphète de Celui qui a pris corps en toi.\nLa parole a surgi, tu es sa résonance\nEt tu franchis des monts pour en porter la voix."
 	},
 	{
 		"type": "refrain",
@@ -1001,7 +1001,15 @@ var chants = [
 	},
 	{
 		"type": "couplet",
-		"text": "3 - La première en chemin, pour suivre au Golgotha\nLe fils de ton amour que tous ont condamné,\nTu te tiens là, debout, au plus près de la Croix\nPour recueillir la vie de son cœur transpercé."
+		"text": "3 - La première en chemin, Tu provoques le signe\nEt l'heure pour Jésus de se manifester\n\"Tout ce qu'il vous dira, faites-le\" et nos vignes\nSans saveur et sans fruit, en sont renouvelées."
+	},
+	{
+		"type": "refrain",
+		"text": "Marche avec nous, Marie,\naux chemins de l'écoute,\nIls sont chemins vers Dieu (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "4 - La première en chemin, pour suivre au Golgotha\nLe fils de ton amour que tous ont condamné,\nTu te tiens là, debout, au plus près de la Croix\nPour recueillir la vie de son cœur transpercé."
 	},
 	{
 		"type": "refrain",
@@ -1009,11 +1017,27 @@ var chants = [
 	},
 	{
 		"type": "couplet",
-		"text": "4 - La première en chemin avec l'Eglise en marche\nDès les commencements, tu appelles l'Esprit!\nEn ce monde aujourd'hui, assure notre marche;\nQue grandisse le corps de ton fils Jésus-Christ"
+		"text": "5 - La première en chemin, brille ton espérance\nDans ton coeur déchiré et la nuit du tombeau.\nHeureuse toi qui crois d'une absolue confiance;\nSans savoir et sans toucher, tu sais le jour nouveau."
+	},
+	{
+		"type": "refrain",
+		"text": "Marche avec nous, Marie,\naux chemins d'espérance,\nIls sont chemins vers Dieu (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "6 - La première en chemin avec l'Eglise en marche\nDès les commencements, tu appelles l'Esprit!\nEn ce monde aujourd'hui, assure notre marche;\nQue grandisse le corps de ton fils Jésus-Christ"
 	},
 	{
 		"type": "refrain",
 		"text": "Marche avec nous, Marie,\nAux chemins de ce monde,\nIls sont chemin vers Dieu (bis)."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - La première en chemin, aux rives bienheureuses\nTu précèdes, Marie, toute l'humanité.\nDu royaume accompli tu es pierre précieuse\nRevêtue du soleil, en Dieu transfigurée !"
+	},
+	{
+		"type": "refrain",
+		"text": "Marche avec nous, Marie,\naux chemins de nos vies,\nIls sont chemins vers Dieu (bis)"
 	}
 	]
 },
@@ -1183,7 +1207,7 @@ var chants = [
 	"paroles": [
 	{
 		"type": "couplet",
-		"text": "Notre père qui est aux cieux,\nque ton nom soit sanctifié,\nque ton règne vienne,\nque ta volonté soit faite\nsur la terre comme au ciel."
+		"text": "Notre père qui es aux cieux,\nque ton nom soit sanctifié,\nque ton règne vienne,\nque ta volonté soit faite\nsur la terre comme au ciel."
 	},
 	{
 		"type": "couplet",
@@ -1200,10 +1224,6 @@ var chants = [
 	{
 		"type": "couplet",
 		"text": "Amen"
-	},
-	{
-		"type": "refrain",
-		"text": "Abba Père"
 	}
 	]
 },
@@ -2893,7 +2913,7 @@ var chants = [
 	"paroles": [
 	{
 		"type": "refrain",
-		"text": "Tu es là présent, livré pour nous.\nToi le tout-petit, le serviteur.\nToi, le Tout-Puissant, humblement tu t´abaisses.\nTu fais ta demeure en nous Seigneur."
+		"text": "Tu es là présent, livré pour nous.\nToi le tout-petit, le serviteur.\nToi, le Tout-Puissant, humblement tu t'abaisses.\nTu fais ta demeure en nous Seigneur."
 	},
 	{
 		"type": "couplet",
@@ -3121,7 +3141,7 @@ var chants = [
 	},
 	{
 		"type": "couplet",
-		"text": "1 - Notre Père nous aime avec tendresse,\nEt cet amour est vivant pour les siècles.\nQue son peuple le dise à l´univers.\nIl rachète et rassemble tous les hommes."
+		"text": "1 - Notre Père nous aime avec tendresse,\nEt cet amour est vivant pour les siècles.\nQue son peuple le dise à l'univers.\nIl rachète et rassemble tous les hommes."
 	},
 	{
 		"type": "couplet",
@@ -3137,11 +3157,11 @@ var chants = [
 	},
 	{
 		"type": "couplet",
-		"text": "5 - Et tous ceux qui demeurent dans l´angoisse,\nOu déprimés, accablés par leurs fautes,\nLe Seigneur les guérit, leur donne vie,\nLeur envoie son pardon et sa Parole."
+		"text": "5 - Et tous ceux qui demeurent dans l'angoisse,\nOu déprimés, accablés par leurs fautes,\nLe Seigneur les guérit, leur donne vie,\nLeur envoie son pardon et sa Parole."
 	},
 	{
 		"type": "couplet",
-		"text": "6 - Rendons gloire et louange à notre Père,\nA Jésus Christ qui rachète les hommes,\nA l´Esprit qui demeure dans nos coeurs,\nMaintenant, pour toujours et dans les siècles."
+		"text": "6 - Rendons gloire et louange à notre Père,\nA Jésus Christ qui rachète les hommes,\nA l'Esprit qui demeure dans nos coeurs,\nMaintenant, pour toujours et dans les siècles."
 	}
 	]
 },
@@ -3174,6 +3194,60 @@ var chants = [
 	{
 		"type": "couplet",
 		"text": "3 - Tu as versé ton sang sur une croix,\nPour tous les hommes de toutes les races,\nApprends-nous à nous réconcilier,\nCar nous sommes tous enfants d'un même Père."
+	}
+	]
+},
+{
+	"id": "messe-4-je-crois-en-dieu-symbole-de-nicee",
+	"titre": "Je crois en Dieu (Symbole de Nicée)",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Je crois en un seul Dieu, le Père tout puissant,\ncréateur du ciel et de la terre, de l’univers visible et invisible,"
+	},
+	{
+		"type": "couplet",
+		"text": "Je crois en un seul Seigneur, Jésus Christ,\nle Fils unique de Dieu, né du Père avant tous les siècles :"
+	},
+	{
+		"type": "couplet",
+		"text": "Il est Dieu, né de Dieu,\nlumière, née de la lumière,\nvrai Dieu, né du vrai Dieu"
+	},
+	{
+		"type": "couplet",
+		"text": "Engendré non pas créé,\nde même nature que le Père ;\net par lui tout a été fait."
+	},
+	{
+		"type": "couplet",
+		"text": "Pour nous les hommes, et pour notre salut,\nil descendit du ciel;\nPar l’Esprit Saint, il a pris chair de la Vierge Marie, et s’est fait homme."
+	},
+	{
+		"type": "couplet",
+		"text": "Crucifié pour nous sous Ponce Pilate,\nIl souffrit sa passion et fut mis au tombeau."
+	},
+	{
+		"type": "couplet",
+		"text": "Il ressuscita le troisième jour,\nconformément aux Ecritures, et il monta au ciel;\nil est assis à la droite du Père."
+	},
+	{
+		"type": "couplet",
+		"text": "Il reviendra dans la gloire, pour juger les vivants et les morts\net son règne n’aura pas de fin."
+	},
+	{
+		"type": "couplet",
+		"text": "Je crois en l’Esprit Saint, qui est Seigneur et qui donne la vie;\nil procède du Père et du Fils."
+	},
+	{
+		"type": "couplet",
+		"text": "Avec le Père et le Fils, il reçoit même adoration et même gloire;\nil a parlé par les prophètes."
+	},
+	{
+		"type": "couplet",
+		"text": "Je crois en l’Eglise, une, sainte, catholique et apostolique.\nJe reconnais un seul baptême pour le pardon des péchés.\nJ’attends la résurrection des morts, et la vie du monde à venir."
+	},
+	{
+		"type": "couplet",
+		"text": "Amen"
 	}
 	]
 }
