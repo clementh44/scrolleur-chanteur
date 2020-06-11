@@ -305,3 +305,13 @@ Passsage en html/js pour une plus large compatibilité
   correction de jquery pour la page du formulaire
   changement des boutons du formulaire
 ```
+
+**11/06/2020 v3.2.4**
+```
+  + Peuple de Dieu, marche joyeux
+  + Celui qui a mangé de ce pain
+  + Tournez les yeux vers le Seigneur
+  + Pour l'appel à rejoindre ton peuple
+  + Messe de la Trinité (Gloria, Sanctus, Agnus)
+  + N'ayons pas peur de vivre au monde
+```

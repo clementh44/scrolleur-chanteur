@@ -3250,6 +3250,250 @@ var chants = [
 		"text": "Amen"
 	}
 	]
+},
+{
+	"id": "peuple-de-dieu-marche-joyeux",
+	"titre": "Peuple de Dieu, marche joyeux",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Peuple de Dieu, marche joyeux,\nAlléluia ! Alléluia !\nPeuple de Dieu, marche joyeux,\nCar le Seigneur est avec toi."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Dieu t’a choisi parmi les peuples :\nPas un qu’il ait ainsi traité.\nEn redisant partout son oeuvre,\nSois le témoin de sa bonté."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Dieu t’a formé dans sa Parole\nEt t’a fait part de son dessein :\nAnnonce-le à tous les hommes\nPour qu’en son peuple ils ne soient qu’un."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Tu es le peuple de l’Alliance,\nMarqué du sceau de Jésus-Christ :\nMets en lui seul ton espérance\nPour que ce monde vienne à lui."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Dieu t’a tiré de l’esclavage,\nIl t’a rendu ta liberté.\nEn souvenir de ton passage,\nBrise les liens des opprimés."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Dieu t’a lavé de toute offense,\nEn te marquant du sang sauveur.\nIl s’est chargé de tes souffrances :\nSouffre avec lui pour les pécheurs."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Tu as passé par le baptême :\nTu es le corps du Bien-Aimé.\nCompte sur Dieu, ton Dieu lui-même\nA fait de toi son envoyé."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Dieu t’a nourri avec largesse\nQuand tu errais aux lieux déserts :\nVois ton prochain dans la détresse,\nSecours en lui ta propre chair."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Dieu a dressé pour toi la table,\nVers l’abondance, il t’a conduit :\nÀ toi de faire le partage\nDu pain des hommes aujourd’hui."
+	},
+	{
+		"type": "couplet",
+		"text": "9 - Pour transformer le coeur du monde,\nLe corps du Christ est pain rompu.\nL’amour demande ta réponse :\nDeviens ce que tu as reçu."
+	},
+	{
+		"type": "couplet",
+		"text": "10 - Peuple appelé à reconnaître\nTous les bienfaits du Créateur,\nPour signaler son jour à naître,\nReste à ton poste de veilleur."
+	},
+	{
+		"type": "couplet",
+		"text": "11 - Toi qui connais le nom du Père\nEt vois ton nom s’inscrire aux cieux,\nReprends sans cesse en ta prière\nLe cri des hommes vers leur Dieu."
+	},
+	{
+		"type": "couplet",
+		"text": "12 - Dieu t’a donné de rendre grâce\nPar Jésus-Christ qui t’a sauvé :\nQue ta louange soit la trace\nDe sa victoire et de ta paix !"
+	},
+	{
+		"type": "couplet",
+		"text": "13 - Tu as en toi l’Esprit du Père\nQui te consacre peuple saint :\nGarde tes pas dans sa lumière\nPour être au monde son témoin."
+	},
+	{
+		"type": "couplet",
+		"text": "14 - Rappelle-toi, heureuse Église,\nTu es un peuple de pécheurs !\nDieu te guérit : tu as à dire\nQue son pardon fait ta grandeur"
+	},
+	{
+		"type": "couplet",
+		"text": "15 - Dieu t’a confié d’être lumière,\nNe t’enfouis pas sous le boisseau !\nChrist est livré pour tous tes frères :\nBrûle avec lui d’un feu nouveau."
+	},
+	{
+		"type": "couplet",
+		"text": "16 - Peuple invité au sacrifice\nOù Dieu se donne comme un pain,\nDonne ta vie pour sa justice\nEt pour un monde plus humain."
+	}
+	]
+},
+{
+	"id": "celui-qui-a-mange-de-ce-pain",
+	"titre": "Celui qui a mangé de ce pain",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - Celui qui a mangé de ce Pain\nChargé de joyeuse espérance :\nLe Corps du Seigneur;\nCelui qui a mangé de ce Pain,\nCelui-là sans faiblir marchera.\nAujourd'hui Seigneur reste avec nous :\nQue ton peuple aujourd'hui connaisse ta puissance."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Celui qui a reçu le Soleil\nAu fond de son coeur misérable :\nLe Corps du Seigneur;\nCelui qui a reçu le Soleil\nCelui-là dans la nuit chantera.\nAujourd'hui Seigneur reste avec nous :\nQue ton peuple aujourd'hui habite dans ta gloire."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Celui en qui l'Eau vive a jailli\nS'il boit au rocher qui nous sauve :\nLe Corps du Seigneur;\nCelui en qui l'Eau vive a jailli,\nCelui-là jusqu'en Dieu fleurira.\nAujourd'hui Seigneur reste avec nous :\nQue ton peuple aujourd'hui renaisse à ton image."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Celui qui a gouté de ce Fruit\nMûri sur la croix pour nous sauve :\nLe Corps du Seigneur;\nCelui qui a gouté de ce Fruit,\nCelui-là dans l'amour grandira.\nAujourd'hui Seigneur reste avec nous :\nQue ton peuple aujourd'hui revive ton mystère."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Celui que l'Esprit Saint a touché\nDu Feu d'éternelle tendresse :\nLe Corps du Seigneur;\nCelui que l'Esprit Saint a touché,\nCelui-là comme un feu brûlera.\nAujourd'hui Seigneur reste avec nous :\nQue ton peuple aujourd'hui annonce tes merveilles."
+	}
+	]
+},
+{
+	"id": "tournez-les-yeux-vers-le-seigneur",
+	"titre": "Tournez les yeux vers le Seigneur",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Tournez les yeux vers le Seigneur,\nEt rayonnez de joie,\nChantez son nom de tout votre cœur,\nIl est votre Sauveur,\nC’est lui votre Seigneur."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - J’ai cherché le Seigneur\nEt il m’a écouté.\nIl m’a guéri de mes peurs\nEt sans fin je le louerai."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Dieu regarde ceux qu’il aime,\nIl écoute leur voix,\nIl les console de leur peine,\nEt il guide leurs pas."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Ceux qui cherchent le Seigneur\nNe seront privés de rien.\nS’ils lui ouvrent leur cœur,\nIls seront comblés de bien."
+	}
+	]
+},
+{
+	"id": "pour-lappel-a-rejoindre-ton-peuple",
+	"titre": "Pour l'appel à rejoindre ton peuple",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - Pour l'appel à rejoindre ton peuple,\nPour le peuple où Jésus nous accueille,\nBENI SOIS-TU, SEIGNEUR !\nPour la voix qui transmet ton message,\nLa présence où rayonne ta grâce,\nBENI SOIS-TU, SEIGNEUR !\nL'Evangile prend corps dans les tiens."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Pour la joie de passer par l'épreuve,\nLa patience où ta force est à l'oeuvre,\nBENI SOIS-TU, SEIGNEUR !\nPour la peur qui se change en confiance,\nLe désert et le temps du silence,\nBENI SOIS-TU, SEIGNEUR !\nLes eaux vives murmurent ton Nom."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Pour tous ceux que l'amour illumine,\nLe regard qui discerne tes signes,\nBENI SOIS-TU, SEIGNEUR !\nPour le Christ honoré dans le pauvre,\nLe partage annonçant le Royaume,\nBENI SOIS-TU, SEIGNEUR !\nNotre coeur est en fête pour toi."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Pour la Pâque et le Pain de l'Eglise,\nPour les eaux et le feu qui baptisent,\nBENI SOIS-TU, SEIGNEUR !\nPour le Corps où l'Esprit nous rassemble,\nPour l'appel à chanter ta louange,\nBENI SOIS-TU, SEIGNEUR !\nSois loué d'habiter notre chant."
+	}
+	]
+},
+{
+	"id": "messe-2-trinite-gloire-a-dieu",
+	"titre": "(Messe de la Trinité) Gloire à Dieu",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Gloire à Dieu au plus haut des cieux\net paix sur la terre aux hommes qu'il aime !"
+	},
+	{
+		"type": "couplet",
+		"text": "Nous te louons, nous te bénissons,\nnous t'adorons, nous te glorifions, nous te rendons grâce,\npour ton immense gloire"
+	},
+	{
+		"type": "couplet",
+		"text": "Seigneur Dieu, Roi du ciel,\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;"
+	},
+	{
+		"type": "couplet",
+		"text": "Toi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "couplet",
+		"text": "Car toi seul es saint, Toi seul es Seigneur,\nToi seul es le Très-Haut : Jésus Christ, avec le Saint-Esprit\ndans la gloire de Dieu le Père."
+	}
+	]
+},
+{
+	"id": "messe-5-trinite-sanctus",
+	"titre": "(Messe de la Trinité) Sanctus",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Saint, saint, saint le Seigneur, le Dieu de l'univers. (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "Ciel et terre sont remplis de ta splendeur et de la gloire.\nHosanna au plus haut des cieux ! (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "Béni soit celui qui vient au nom du Seigneur.\nHosanna au plus haut des cieux ! (bis)"
+	}
+	]
+},
+{
+	"id": "messe-7-trinite-agneau-de-dieu",
+	"titre": "(Messe de la Trinité) Agneau de Dieu",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "Agneau de Dieu, envoyé par le Père, tu nous sauves du péché,\nprends pitié de nous, Seigneur (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "Agneau de Dieu, emportant notre mort, tu nous donnes ta vie,\nprends pitié de nous, Seigneur (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "Agneau de Dieu, dans l'amour de l'Esprit, tu apaises notre coeur,\ndonne nous la paix, Seigneur (bis)"
+	}
+	]
+},
+{
+	"id": "nayons-pas-peur-de-vivre-au-monde",
+	"titre": "N'ayons pas peur de vivre au monde",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - N'ayons pas peur de vivre au monde :\nDieu nous a devancés !\nN'ayons pas peur de vivre au monde\nOù Dieu même s'est risqué."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - N'arrêtons pas la sève ardente :\nDieu nous a devancés !\nN'arrêtons pas la sève ardente\nQui tourmente l´univers."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Chantons des chants gorgés de vie :\nDieu nous a devancés !\nChantons des chants gorgés de vie\nEn dansant au pas de Dieu."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Les pas de Dieu mènent au pauvre :\nDieu nous a devancés !\nLes pas de Dieu mènent au pauvre\nL'opprimé, c'est Dieu caché."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - N'attendons pas que la nuit tombe :\nDieu nous a devancés !\nN'attendons pas que la nuit tombe\nSur le cri des mal aimés."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Pour tout gagner, s'il faut se perdre :\nDieu nous a devancés !\nPour tout gagner, s'il faut se perdre,\nRisquons tout, dans un grand feu."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - N'ayons pas peur de l'autre rive :\nDieu nous a devancés !\nN'ayons pas peur de l'autre rive\nOù Dieu fête ses amis."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Tous nos chemins montent vers Pâques :\nDieu nous a devancés.\nTous nos chemins montent vers Pâques\nVers l'Eau de vie du Rocher."
+	}
+	]
 }
 
 
