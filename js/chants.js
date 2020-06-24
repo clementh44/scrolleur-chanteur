@@ -3494,6 +3494,54 @@ var chants = [
 		"text": "8 - Tous nos chemins montent vers Pâques :\nDieu nous a devancés.\nTous nos chemins montent vers Pâques\nVers l'Eau de vie du Rocher."
 	}
 	]
+},
+{
+	"id": "voici-le-corps-et-le-sang-du-seigneur",
+	"titre": "Voici le corps et le sang du Seigneur",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Voici le corps et le sang du Seigneur\nLa coupe du Salut et le pain de la Vie.\nDieu immortel se donne en nourriture\nPour que nous ayons la vie éternelle."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Au moment de passer vers le Père\nLe Seigneur prit du pain et du vin\nPour que soit accompli le mystère\nQui apaise à jamais notre faim."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Dieu se livre lui-même en partage\nPar amour pour son peuple affamé.\nIl nous comble de son héritage\nAfin que nous soyons rassasiés."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - C'est la foi qui nous fait reconnaître\nDans ce pain et ce vin consacrés,\nLa présence de Dieu notre Maître,\nLe Seigneur Jésus ressuscité."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Que nos langues sans cesse proclament\nLa merveille que Dieu fait pour nous.\nAujourd'hui il allume une flamme,\nAfin que nous l'aimions jusqu'au bout."
+	}
+	]
+},
+{
+	"id": "psaume-147",
+	"titre": "Psaume 147",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Glorifie le Seigneur, Jérusalem"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Glorifie le Seigneur, Jérusalem !\nCélèbre ton Dieu, ô Sion !\nIl a consolidé les barres de tes portes,\ndans tes murs il a béni tes enfants."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Il fait régner la paix à tes frontières,\net d’un pain de froment te rassasie.\nIl envoie sa parole sur la terre :\nrapide, son verbe la parcourt."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Il révèle sa parole à Jacob,\nses volontés et ses lois à Israël.\nPas un peuple qu’il ait ainsi traité ;\nnul autre n’a connu ses volontés."
+	}
+	]
 }
 
 
