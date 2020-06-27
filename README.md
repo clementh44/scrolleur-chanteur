@@ -315,3 +315,9 @@ Passsage en html/js pour une plus large compatibilité
   + Messe de la Trinité (Gloria, Sanctus, Agnus)
   + N'ayons pas peur de vivre au monde
 ```
+
+**27/06/2020 v3.3.0
+```
+  marge par défaut au niveau 0 (les plus petites)
+  ajout du numéro du couplet automatique dans le formulaire
+```
