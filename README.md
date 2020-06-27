@@ -315,7 +315,7 @@ Passsage en html/js pour une plus large compatibilité
   + N'ayons pas peur de vivre au monde
 ```
 
-**27/06/2020 v3.3.0
+**27/06/2020 v3.3.0**
 ```
   marge par défaut au niveau 0 (les plus petites)
   ajout du numéro du couplet automatique dans le formulaire
@@ -339,13 +339,13 @@ Passsage en html/js pour une plus large compatibilité
   + Levez les yeux et regardez
 ```
 
-**27/06/2020 v3.4.0
+**27/06/2020 v3.4.0**
 ```
   ajout de 5 zones personnalisables
   message pour être sûr d'actualiser la page
 ```
 
-**27/06/2020 v3.5.0
+**27/06/2020 v3.5.0**
 ```
   ajout d'une page d'aide au cadrage avec un vidéo-projecteur
 ```
