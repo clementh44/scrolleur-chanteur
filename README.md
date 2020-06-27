@@ -339,3 +339,9 @@ Passsage en html/js pour une plus large compatibilité
   + Lève les yeux et regarde
   + Levez les yeux et regardez
 ```
+
+**27/06/2020 v3.4.0
+```
+  ajout de 5 zones personnalisables
+  message pour être sûr d'actualiser la page
+```

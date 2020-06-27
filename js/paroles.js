@@ -127,6 +127,10 @@ function sortByProperty(objArray, prop, direction) {
 
 
 function main() {
+    window.addEventListener('beforeunload', (event) => {
+        event.returnValue = "Rafraichir la page réinitialise son contenue (zones personnlisées, paramètres modifiés)";
+    });
+
     //Tri des chants
     chants = sortByProperty(chants,"attributes.id");
 

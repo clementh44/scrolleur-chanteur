@@ -83,11 +83,11 @@ body{
 }
 
 /*Thèmes*/
-body.black-theme {
+body.black-theme, body.black-theme .customTextArea {
 	background-color: black;
 	color: white;
 }
-body.white-theme {
+body.white-theme, body.white-theme .customTextArea {
 	background-color: white;
 	color: black;
 }
@@ -132,6 +132,11 @@ body.white-theme {
     opacity: 1;
     transition: opacity 0s;
     transition-delay: 0s;
+}
+
+/*ZONES PERSONNALISEES*/
+.customTextArea {
+    width: 100%;
 }
 
 /*PAROLES*/
