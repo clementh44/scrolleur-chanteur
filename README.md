@@ -61,7 +61,6 @@ Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotion
 - ajouter une liste de chants : une pile de chants à personnaliser pour préparer l'ordre à l'avance
 - ajout automatique du chant dans le fichier
 - possibilité de choisir son fichier de chants (base de données)
-- ajouter une page de cadrage : cadrillage + dimension de la vue pour adapter à une projection par exemple
 - page formulaire : ajout bouton pour reset le formulaire
 
 
@@ -344,4 +343,9 @@ Passsage en html/js pour une plus large compatibilité
 ```
   ajout de 5 zones personnalisables
   message pour être sûr d'actualiser la page
+```
+
+**27/06/2020 v3.5.0
+```
+  ajout d'une page d'aide au cadrage avec un vidéo-projecteur
 ```
