@@ -321,3 +321,21 @@ Passsage en html/js pour une plus large compatibilité
   marge par défaut au niveau 0 (les plus petites)
   ajout du numéro du couplet automatique dans le formulaire
 ```
+
+**27/06/2020 v3.3.1**
+```
+  correction Que ma bouche chante ta louange
+  + Chantez, priez, célébrez le Seigneur
+  + Dieu nous accueille en sa maison
+  + Venez, approchons-nous
+  + Mendiant du jour
+  + Christ aujourd'hui nous appelle
+  + Écoute la voix du Seigneur
+  + Partageons le pain du Seigneur
+  + Souffle imprévisible
+  + Heureux, bienheureux
+  + Prenez et mangez, ceci est mon Corps
+  + Un grand champ à moissonner
+  + Lève les yeux et regarde
+  + Levez les yeux et regardez
+```

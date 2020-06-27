@@ -1511,10 +1511,6 @@ var chants = [
 	"paroles": [
 	{
 		"type": "couplet",
-		"text": "All mein Leben künde laut dein Lob, o Herr"
-	},
-	{
-		"type": "couplet",
 		"text": "1 - De toi, Seigneur, nous attendons la vie, Que ma bouche chante ta louange.\nTu es pour nous un rempart, un appui, Que ma bouche chante ta louange.\nLa joie du cœur vient de toi ô Seigneur, Que ma bouche chante ta louange.\nNotre confiance est dans ton nom très saint ! Que ma bouche chante ta louange."
 	},
 	{
@@ -3492,6 +3488,484 @@ var chants = [
 	{
 		"type": "couplet",
 		"text": "8 - Tous nos chemins montent vers Pâques :\nDieu nous a devancés.\nTous nos chemins montent vers Pâques\nVers l'Eau de vie du Rocher."
+	}
+	]
+},
+{
+	"id": "chantez-priez-celebrez-le-seigneur",
+	"titre": "Chantez, priez, célébrez le Seigneur",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Chantez, priez, célébrez le Seigneur,\nDieu nous accueille, peuples du monde.\nChantez, priez, célébrez son Nom,\nDieu nous accueille dans sa maison."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Il a fait le ciel et la terre,\nÉTERNEL EST SON AMOUR,\nFaçonné l’homme à son image,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Il sauva Noé du déluge,\nÉTERNEL EST SON AMOUR,\nL’arc-en-ciel en signe d’alliance,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - D’Abraham, il fit un grand peuple,\nÉTERNEL EST SON AMOUR,\nPar milliers fut sa descendance,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Il perçut le cri de son peuple,\nÉTERNEL EST SON AMOUR,\nLe guida en terre promise,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Aux exilés de Babylone,\nÉTERNEL EST SON AMOUR,\nIl donna la foi qui libère,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Il a parlé par les prophètes,\nÉTERNEL EST SON AMOUR,\nSa parole est une promesse,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Il combla Marie de sa grâce,\nÉTERNEL EST SON AMOUR,\nIl se fit chair parmi les hommes,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Crucifié, c’est sa vie qu’Il donne,\nÉTERNEL EST SON AMOUR,\nMais le Père le ressuscite,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "9 - Dans l’Esprit Saint, Il nous baptise,\nÉTERNEL EST SON AMOUR,\nSon amour forge notre Église,\nÉTERNEL EST SON AMOUR."
+	},
+	{
+		"type": "couplet",
+		"text": "10 - Acclamez Dieu, ouvrez le Livre,\nÉTERNEL EST SON AMOUR,\nDieu nous crée et Dieu nous délivre,\nÉTERNEL EST SON AMOUR."
+	}
+	]
+},
+{
+	"id": "dieu-nous-accueille-en-sa-maison",
+	"titre": "Dieu nous accueille en sa maison",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Dieu nous accueille en sa maison,\nDieu nous invite à son festin :\nJour d'allégresse et jour de joie !\nAlléluia !"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Oh, quelle joie quand on m'a dit : approchons-nous de sa maison\nDans la cité du Dieu vivant !"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Jérusalem, réjouis-toi, car le Seigneur est avec toi :\nPour ton bonheur, il t’a choisie !"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Criez de joie pour notre Dieu, chantez pour lui, car il est bon,\ncar éternel est son amour !"
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Avec Jésus, nous étions morts ; avec Jésus, nous revivons,\nNous avons part à sa clarté."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Approchons-nous de ce repas où Dieu convie tous ses enfants,\nMangeons le Pain qui donne vie."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - « Si tu savais le Don de Dieu », si tu croyais en son amour,\nTu n’aurais plus de peur en toi."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Que Jésus-Christ nous garde tous dans l’unité d’un même Corps,\nNous qui mangeons le même Pain."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Soyons témoins de son Esprit ! Que disparaisse toute peur !\nMontrons au monde notre foi !"
+	}
+	]
+},
+{
+	"id": "venez-approchons-nous",
+	"titre": "Venez, approchons-nous",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Venez ! Approchons-nous de la table du Christ,\nIl nous livre son corps et son sang,\nIl se fait nourriture, Pain de Vie éternelle,\nNous fait boire à la coupe des Noces de l’Agneau !"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - La Sagesse de Dieu a préparé son vin,\nElle a dressé la table, elle invite les saints :\n« Venez boire à la coupe ! Venez manger le pain !\nSoyez la joie de Dieu, accourez au festin ! »"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Par le pain et le vin reçus en communion,\nVoici le sacrifice qui nous rend à la Vie.\nLe sang de l’Alliance jaillit du cœur de Dieu,\nQuand le Verbe fait chair s’offre à nous sur la Croix."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Dieu est notre berger, nous ne manquons de rien,\nSur des prés d’herbe fraîche, Il nous fait reposer.\nIl restaure notre âme, Il nous garde du mal,\nQuand Il dresse pour nous la Table du Salut."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Au cours des premiers temps, lorsque le juste, Abel,\nOffrit le sacrifice, signe du don parfait,\nPar la main de son frère, son sang fut répandu,\nComme un cri d’innocent préfigurant Jésus."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Lorsque Melchisédek accueillit Abraham,\nLui le roi et grand-prêtre, adorant le Très-Haut,\nAnnonça l’Alliance par le pain et le vin :\nIl bénit Abraham et fut signe du Christ."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Dieu entendit la voix de son peuple en douleur\nIl envoya Moïse libérer ses enfants.\nIls mangèrent la Pâque, le bâton à la main,\nEt la manne au désert comme un pain quotidien."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Restant le seul témoin au cœur brûlant pour Dieu,\nÉlie fut le prophète de feu et de douceur.\nC’est grâce au pain des anges qu’il put gravir l’Horeb\nEt découvrir son Dieu dans un souffle d’amour."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Réjouis-toi, Sion ! Chante Jérusalem !\nReçois le sacrifice qui te donne la paix !\nDieu te comble de grâce, Il vient te visiter\nAfin de rassembler tes enfants dispersés."
+	},
+	{
+		"type": "couplet",
+		"text": "9 - Rayonne et resplendis, Église du Seigneur,\nCar Il est ta Lumière, Dieu L’a ressuscité !\nQue tout genou fléchisse au nom de Jésus Christ !\nIl nous rend à la Vie par son Eucharistie !"
+	}
+	]
+},
+{
+	"id": "mendiant-du-jour",
+	"titre": "Mendiant du jour",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - Mendiant du jour, je te prends dans mes mains,\ncomme on prend dans sa main la lampe pour la nuit :\net tu deviens la Nuée qui dissout les ténèbres."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Mendiant du feu, je te prends dans mes mains,\ncomme on prend dans sa main la flamme pour l'hiver :\net tu deviens l'Incendie qui embrase le monde."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Mendiant d'espoir, je te prends dans mes mains,\ncomme on prends dans sa main la source pour l'été :\net tu deviens le Torrent d'une vie éternelle."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Mendiant de toi, je te prends dans mes mains,\ncomme on prend dans sa main la perle d'un amour :\net tu deviens le Trésor pour la joie du prodigue."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Mendiant de Dieu, je te prends dans mes mains,\nmais tu prends dans ta main la mienne pour ce jour :\net je deviens l'envoyé aux mendiants de la terre."
+	}
+	]
+},
+{
+	"id": "christ-aujourdhui-nous-appelle",
+	"titre": "Christ aujourd'hui nous appelle",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Christ aujourd'hui nous appelle,\nChrist aujourd'hui nous envoie !\nVive le Seigneur qui nous aime,\nDieu nous donne sa joie ! (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Ses chemins vous conduisent vers la vie.\nPartez loin, l'aventure est infinie !\nVous serez ses témoins,\nVous qu'il nomme ses amis !"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Ses chemins sont amour et vérité.\nLe bon grain, Dieu lui-même l'a semé.\nVous serez ses témoins,\nLa parole va germer."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Ses chemins déconcertent vos regards.\nSon matin réconforte vos espoirs.\nVous serez ses témoins :\nSoyez sûrs de votre foi !"
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Ses chemins vous libèrent de la peur ;\nDieu soutient les disciples du Sauveur.\nVous serez ses témoins\nsur les pas du Serviteur."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Ses chemins vous entraînent vers la croix ;\nLe Dieu saint est présent au Golgotha.\nVous serez ses témoins :\nJour de Pâques brillera."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Ses chemins vous appellent à tout quitter.\nPèlerins, que l'Esprit soit votre paix !\nVous serez ses témoins\nDans son peuple à réveiller."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Ses chemins vous apprennent à partager.\nLe vrai pain chaque jour vous est donné.\nVous serez ses témoins :\nDieu prépare son Banquet."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Ses chemins sont ouverts sur l'avenir ;\npar vos mains le bonheur pourra fleurir.\nVous serez ses témoins\nDans un monde à rebâtir."
+	},
+	{
+		"type": "couplet",
+		"text": "9 - Ses chemins sont jeunesse pour les coeurs.\nChrist a faim d'envoyer des rassembleurs.\nSerez-vous ses témoins,\nLes prophètes du Seigneur ?"
+	}
+	]
+},
+{
+	"id": "ecoute-la-voix-du-seigneur",
+	"titre": "Écoute la voix du Seigneur",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nQui que tu sois ton Dieu t’appelle,\nqui que tu sois, il est ton Père."
+	},
+	{
+		"type": "refrain",
+		"text": "Toi qui aimes la vie, ô toi qui veux le bonheur,\nréponds en fidèle ouvrier de sa très douce volonté,\nréponds en fidèle ouvrier de l'Évangile et de sa paix."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nTu entendras que Dieu fait grâce,\nTu entendras l'Esprit d’audace."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nTu entendras crier les pauvres,\nTu entendras gémir ce monde."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nTu entendras grandir l’Église,\nTu entendras sa paix promise."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nQui que tu sois, fais-toi violence,\nQui que tu sois, rejoins ton frère."
+	}
+	]
+},
+{
+	"id": "partageons-le-pain-du-seigneur",
+	"titre": "Partageons le pain du Seigneur",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Partageons le pain du Seigneur à la table de l’univers\nC’est le don sans retour de l’amour de notre Dieu."
+	},
+	{
+		"type": "refrain",
+		"text": "Nous chantons la croix du Seigneur qui se dresse sur l’univers\nComme un signe éclatant de l’amour de notre Dieu."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Venez à moi, vous tous qui succombez sous la fatigue,\nC’est moi qui porterai le poids de votre peine."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Venez à moi, vous tous qui gémissez sous l’injustice,\nC’est moi qui suis pour vous la loi libératrice."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Venez à moi, vous tous qui trébuchez dans les ténèbres,\nSur vous se lèvera l’éclat de ma lumière."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Venez à moi, vous tous dont on méprise l’espérance,\nJe viens pour relever les humbles qui attendent."
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Venez à moi, vous tous que pour ma gloire on persécute,\nC’est vous qui règnerez au jour de ma victoire."
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Venez à moi, vous tous que défigure la souffrance,\nJe viens pour effacer vos rides et vos larmes."
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Venez à moi, vous tous qui attendez la délivrance,\nC’est moi qui briserai les liens qui vous enserrent."
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Venez à moi, vous tous qui avez faim du don céleste,\nJe viens pour partager le pain de votre vie."
+	},
+	{
+		"type": "couplet",
+		"text": "9 - Venez à moi, vous tous qui cheminez sans but sur terre,\nJe viens pour vous montrer la route vers le Père."
+	},
+	{
+		"type": "couplet",
+		"text": "10 - Venez à moi, vous tous qui convoitez richesse et gloire,\nEn moi la pauvreté a trouvé sa noblesse."
+	},
+	{
+		"type": "couplet",
+		"text": "11 - Venez à moi, vous tous qu’étreint déjà la mort cruelle,\nMa croix vient vous donner la force de la vaincre."
+	},
+	{
+		"type": "couplet",
+		"text": "12 - Venez à moi, vous tous qui avez soif de ma parole,\nEn moi vous trouverez la force inépuisable."
+	},
+	{
+		"type": "couplet",
+		"text": "13 - Venez à moi, vous tous qui aspirez à la puissance,\nEn moi vous contemplez un Dieu qui perd la vie."
+	},
+	{
+		"type": "couplet",
+		"text": "14 - Venez à moi, vous tous qui retournez à la poussière,\nUn jour je vous rendrai le souffle de la vie."
+	}
+	]
+},
+{
+	"id": "souffle-imprevisible",
+	"titre": "Souffle imprévisible",
+	"paroles": [
+	{
+		"type": "couplet",
+		"text": "1 - Souffle imprévisible,\nEsprit de Dieu\nVent qui fait revivre,\nEsprit de Dieu,\nSouffle de tempête,\nEsprit de Dieu,\nOuvre nos fenêtres,\nEsprit de Dieu !"
+	},
+	{
+		"type": "refrain",
+		"text": "Esprit de vérité\nBrise du Seigneur\nEsprit de liberté\nPasse dans nos cœurs (bis)"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Flamme sur le monde,\nEsprit de Dieu,\nFeu qui chasse l'ombre,\nEsprit de Dieu,\nFlamme de lumière,\nEsprit de Dieu,\nViens dans nos ténèbres,\nEsprit de Dieu !"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Fleuve des eaux vives,\nEsprit de Dieu,\nChant de l'autre rive,\nEsprit de Dieu,\nFleuve au long voyage,\nEsprit de Dieu,\nPorte-nous au large,\nEsprit de Dieu !"
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Voix qui nous rassemble,\nEsprit de Dieu,\nCri d'une espérance,\nEsprit de Dieu,\nVoix qui nous réveille ,\nEsprit de Dieu,\nClame la Nouvelle,\nEsprit de Dieu !"
+	},
+	{
+		"type": "couplet",
+		"text": "5 - Source de sagesse,\nEsprit de Dieu,\nPuits de la tendresse,\nEsprit de Dieu,\nSource pour ton peuple,\nEsprit de Dieu,\nCoule en nos demeures,\nEsprit de Dieu !"
+	},
+	{
+		"type": "couplet",
+		"text": "6 - Paix de la Colombe,\nEsprit de Dieu,\nCiel dans nos rencontres,\nEsprit de Dieu,\nPaix qui nous libère,\nEsprit de Dieu,\nChange notre terre,\nEsprit de Dieu !"
+	},
+	{
+		"type": "couplet",
+		"text": "7 - Joie donnée aux hommes,\nEsprit de Dieu,\nFête du Royaume,\nEsprit de Dieu,\nJoie de l'Evangile,\nEsprit de Dieu,\nFais de nous des signes !\nEsprit de Dieu !"
+	},
+	{
+		"type": "couplet",
+		"text": "8 - Vent de Pentecôte,\nEsprit de Dieu,\nForce des Apôtres,\nEsprit de Dieu,\nVent que rien n'arrête,\nEsprit de Dieu,\nParle en tes prophètes,\nEsprit de Dieu !"
+	}
+	]
+},
+{
+	"id": "heureux-bienheureux",
+	"titre": "Heureux, bienheureux",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Heureux, bienheureux,\nQui écoute la parole de Dieu.\nHeureux, bienheureux,\nQui la garde dans son cœur."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Heureux ceux qui ont une âme de pauvre\nCar le royaume des cieux est à eux.\nHeureux les doux\nCar ils possèderont la terre."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Heureux les affligés\nCar ils seront consolés\nHeureux les affamés et assoiffés de justice\nCar ils seront rassasiés."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Heureux les miséricordieux\nCar ils obtiendront miséricorde.\nHeureux les cœurs purs\nCar ils verront Dieu."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Heureux les artisans de paix\nCar ils seront appelés fils de Dieu.\nHeureux les persécutés pour la justice\nCar le royaume des cieux est à eux."
+	},
+	{
+		"type": "couplet",
+		"text": "PONT\nHeureux serez-vous quand on vous insultera\nEt qu'on vous persécutera,\nEt que l'on dira faussement contre vous\nToute sorte de mal à cause de moi.\nSoyez dans la joie, soyez dans l'allégresse,\nDans les cieux vous serez comblés ! (bis)"
+	}
+	]
+},
+{
+	"id": "prenez-et-mangez-ceci-est-mon-corps",
+	"titre": "Prenez et mangez, ceci est mon Corps",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Prenez et mangez,\nCeci est mon corps,\nPrenez et buvez, voici mon sang !\nOuvrez vos cœurs !\nVous ne serez plus jamais seuls :\nJe vous donne ma vie."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Demeurez en moi, comme je demeure en vous,\nQui demeure en mon amour, celui-là portera du fruit.\nComme Dieu mon Père, ainsi je vous ai aimés.\nGardez mes paroles, vous recevrez ma joie !"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Je vous ai choisis pour que vous portiez du fruit.\nGardez mon commandement et vous demeurerez en moi.\nComme je vous aime, aimez-vous d´un seul Esprit,\nJe vous donne ma vie : vous êtes mes amis !"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Je vous enverrai l´Esprit Saint, le Paraclet.\nIl vous conduira au Père et fera de vous des témoins.\nCherchez, vous trouverez, demandez, vous obtiendrez,\nAfin que le Père soit glorifié en vous !"
+	}
+	]
+},
+{
+	"id": "un-grand-champ-a-moissonner",
+	"titre": "Un grand champ à moissonner",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Un grand champ à moissonner, une vigne à vendanger,\nDieu appelle maintenant pour la récolte\nUn grand champ à moissonner, une vigne à vendanger,\nDieu appelle maintenant ses ouvriers."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Vers la terre où tu semas le désir de la lumière,\nCONDUIS-NOUS SEIGNEUR !\nVers les cœurs où tu plantas l'espérance d'une aurore,\nNOUS IRONS, SEIGNEUR !"
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Vers la terre où tu semas le désir d'un monde juste,\nCONDUIS-NOUS, SEIGNEUR !\nVers les cœurs où tu plantas l'espérance d'une alliance,\nNOUS IRONS, SEIGNEUR !"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Vers la terre où tu semas le désir de vivre libre,\nCONDUIS-NOUS, SEIGNEUR !\nVers les cœurs où tu plantas l'espérance d'une fête\nNOUS IRONS, SEIGNEUR !"
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Vers la terre où tu semas le désir de la Rencontre,\nCONDUIS-NOUS, SEIGNEUR !\nVers les cœurs où tu plantas l'espérance d'un Visage,\nNOUS IRONS, SEIGNEUR !"
+	}
+	]
+},
+{
+	"id": "leve-les-yeux-et-regarde",
+	"titre": "Lève les yeux et regarde",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Lève les yeux et regarde,\nLa lumière est venue jusqu'à nous.\nDieu se révèle à tous les peuples :\nÉpiphanie du Seigneur !"
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Révèle-toi, Dieu de lumière,\nÀ notre cœur qui cherche dans la nuit.\nEn Jésus, tout rayonne de clarté ;\nLa vérité nous illumine."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Révèle-toi, Dieu de lumière,\nPour que jaillisse en nous l’adoration.\nÔ Jésus, viens prier en notre cœur,\nQue ta louange nous habite !"
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Révèle-toi, Dieu de lumière,\nRecrée en nous un cœur universel !\nQue Jésus nous envoie de par le monde\nPorter l’amour et l’espérance."
+	}
+	]
+},
+{
+	"id": "levez-les-yeux-et-regardez",
+	"titre": "Levez les yeux et regardez",
+	"paroles": [
+	{
+		"type": "refrain",
+		"text": "Levez les yeux et regardez\nDéjà se lève la moisson\nLevez les yeux et regardez\nLe jour éclaire l’horizon."
+	},
+	{
+		"type": "couplet",
+		"text": "1 - Au milieu des longues plaines endurcies par l’hiver.\nParmi les terres en friches attendant le labour\nTu nous dis, Seigneur : « la moisson est blanche ».\nEt tu nous confies d’être moissonneurs."
+	},
+	{
+		"type": "couplet",
+		"text": "2 - Dans les terres désertiques et les puits asséchés,\nPour toutes les soifs de vivre, d’espérer et d’aimer,\nTu nous dis, Seigneur : « Je suis une eau vive ».\nEt tu nous confies d’être porteurs d’eau."
+	},
+	{
+		"type": "couplet",
+		"text": "3 - Parmi les brebis errantes qui recherchent un berger,\nLorsque la peur nous menace et que rôdent les loups,\nTu nous dis, Seigneur : « Je suis le berger ».\nEt tu nous confies d’être ton appel."
+	},
+	{
+		"type": "couplet",
+		"text": "4 - Quand nos routes s’assombrissent et que tombe la nuit,\nQuand nos lampes se consument, quand le feu s’est éteint,\nTu nous dis, Seigneur : « Je suis la lumière ».\nEt tu nous confies d’être feux nouveaux."
 	}
 	]
 }
