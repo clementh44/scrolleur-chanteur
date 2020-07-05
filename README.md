@@ -1,5 +1,6 @@
 # Scrolleur Chanteur
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
+Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
 ## Comment télécharger et afficher les paroles ?
  - Télécharger la dernière version [ici](https://github.com/clementh44/scrolleur-chanteur/releases/latest)
@@ -11,9 +12,11 @@ Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou tem
 ![aperçu de la page](https://media.giphy.com/media/SUtin2dmPZqqX6elFc/giphy.gif)
 
 ## Comment ajouter un chant ?
-les chants sont listés dans le dossier "*js*" dans le fichier "*chants.js*"
+En modifiant les fichiers : les chants sont listés dans le dossier "*js*" dans le fichier "*chants.js*"
  - utiliser le formulaire dans "Ajouter chant.html" OU reprendre le modèle à la main
  - puis insérer le chant sans faire attention à l'ordre (tri automatique avec l'identifiant 'id')
+
+Ou en m'envoyant le titre ou les paroles complètes via [ce formulaire](https://forms.gle/ERwYSsr3urWw5rZ36)
 
 ### Consignes pour un chant :
 - **Titre**
