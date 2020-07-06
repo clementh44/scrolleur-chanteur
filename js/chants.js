@@ -3968,6 +3968,88 @@ var chants = [
 		"text": "4 - Quand nos routes s’assombrissent et que tombe la nuit,\nQuand nos lampes se consument, quand le feu s’est éteint,\nTu nous dis, Seigneur : « Je suis la lumière ».\nEt tu nous confies d’être feux nouveaux."
 	}
 	]
+},
+{
+	"id": "sur-les-chemins-du-monde",
+	"title": "Sur les chemins du monde",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Sur les chemins du monde\nLe Seigneur a semé le bon grain,\nEt dans le cœur des hommes\nIl viendra récolter sa moisson."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Ne ferme pas l'oreille, ne ferme pas ton cœur,\nÉcoute le Seigneur : ton blé mûrira."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Arrache les épines, arrache les buissons,\nÉcoute le Seigneur : ton blé mûrira."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Méprise ta richesse, méprise ton argent,\nÉcoute le Seigneur : ton blé mûrira."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Résiste à la tempête, résiste à tous les vents,\nÉcoute le Seigneur : ton blé mûrira."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Réveille ton courage, laboure bien ton champ,\nÉcoute le Seigneur : ton blé mûrira."
+	}
+	]
+},
+{
+	"id": "au-cœur-de-ce-monde",
+	"title": "Au cœur de ce monde",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Au cœur de ce monde,\nLe souffle de l'Esprit fait retentir\nLe cri de la Bonne Nouvelle\nAu cœur de ce monde,\nLe souffle de l'Esprit met à l'œuvre\nAujourd'hui des énergies nouvelles."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Voyez ! les pauvres sont heureux; ils sont premiers dans le Royaume !\nVoyez ! les artisans de paix : ils démolissent leurs frontières !\nVoyez ! les hommes au cœur pur: ils trouvent Dieu en toute chose !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Voyez ! les affamés de Dieu : ils font régner toute justice !\nVoyez ! les amoureux de Dieu : ils sont amis de tous les hommes !\nVoyez ! ceux qui ont foi en Dieu : ils font que dansent les montagnes !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Voyez ! le peuple est dans la joie : l'amour l'emporte sur la haine !\nVoyez ! les faibles sont choisis : les orgueilleux n'ont plus de trône !\nVoyez ! les doux qui sont vainqueurs : ils ont la force des colombes !"
+	}
+	]
+},
+{
+	"id": "tenons-en-eveil-la-memoire-du-seigneur",
+	"title": "Tenons en éveil la mémoire du Seigneur",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Tenons en éveil la mémoire du Seigneur,\nGardons au cœur le souvenir de ses merveilles."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Notre Dieu fait toujours ce qui est bon pour l'homme,\nAlléluia ! bénissons-le !\nIl engendre le corps des enfants de sa grâce,\nAlléluia ! bénissons-le !\nPour lui rendre l'amour dont il aime le monde."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Notre Dieu a voulu voir en nous son image,\nAlléluia ! bénissons-le !\nSa tendresse nous dit de rechercher sa face,\nAlléluia ! bénissons-le !\nPour lui rendre la joie dont l'Eglise est heureuse."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Notre Dieu nous maintient au couvert de son ombre,\nAlléluia ! bénissons-le !\nIl nous prend dans la nuit qui nous tourne vers Pâques,\nAlléluia ! bénissons-le !\nPour lui rendre l'honneur que lui rendent les anges."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Notre Dieu nous choisit pour sa Bonne Nouvelle,\nAlléluia ! bénissons-le !\nIl suscite partout des énergies nouvelles,\nAlléluia ! bénissons-le !\nPour lui rendre la vie qu'il nous donne à mains pleines."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Notre Dieu nous permet de chanter sa louange,\nAlléluia ! bénissons-le !\nIl écoute son Fils dans le cri de nos hymnes,\nAlléluia ! bénissons-le !\nPour lui rendre la voix qu'il a mise en nos bouches."
+	}
+	]
 }
 
 

@@ -358,3 +358,10 @@ Passsage en html/js pour une plus large compatibilité
   ajout d'un bouton pour cacher tous les couplets
   corrections des noms... lyrics, chorus, verse
 ```
+
+**06/07/2020 v3.6.1**
+```
+  + Sur les chemins du monde
+  + Au coeur de ce monde
+  + Tenons en éveil la mémoire du Seigneur
+```
