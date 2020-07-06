@@ -1,11 +1,12 @@
-var coupletInc = 1;
+var verseInc = 1;
+var keyName = {"Couplet": "verse", "Refrain": "chorus", "Traduction": "translation"};
 
-function updateChantId(element) {
-	$("#formChantId").val($(element).val().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f|'|(|)|"|&|!|.|,|;|:]/g, "").replace(/ /g, "-")); 
+function updateSongId(element) {
+	$("#formSongId").val($(element).val().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f|'|(|)|"|&|!|.|,|;|:]/g, "").replace(/ /g, "-")); 
 }
 
 function addElement(label) {
-	$("#chantForm").append('<div class="form-group form-element"> <label>'+label+'</label> <button type="button" class="close" onclick="removeElement(this)"><i class="fas fa-times"></i></button> <textarea class="form-control" rows="5" required>'+ (label == 'Couplet' ? coupletInc++ + ' - ' : '') +'</textarea> </div>');
+	$("#songForm").append('<div class="form-group form-element"> <label>'+label+'</label> <button type="button" class="close" onclick="removeElement(this)"><i class="fas fa-times"></i></button> <textarea class="form-control" rows="5" required>'+ (label == 'Couplet' ? verseInc++ + ' - ' : '') +'</textarea> </div>');
 }
 
 function removeElement(element) {
@@ -16,14 +17,14 @@ function removeElement(element) {
 ,
 {
 	"id": "",
-	"titre": "",
-	"paroles": [
+	"title": "",
+	"lyrics": [
 		{
-			"type": "refrain ou couplet ou traduction",
+			"type": "chorus ou verse ou translation",
 			"text": ""
 		},
 		{
-			"type": "refrain ou couplet ou traduction",
+			"type": "chorus ou verse ou translation",
 			"text": ""
 		}
 	]
@@ -33,11 +34,11 @@ function removeElement(element) {
 function validateForm() {
 	var result = ",\n{\n";
 	
-	result += '\t"id": "' + $("#formChantId").val() + '",\n';
+	result += '\t"id": "' + $("#formSongId").val() + '",\n';
 
-	result += '\t"titre": "' + $("#formChantTitre").val().replace(/"/g,'\\"') + '",\n';
+	result += '\t"title": "' + $("#formSongTitle").val().replace(/"/g,'\\"') + '",\n';
 
-	result += '\t"paroles": [\n';
+	result += '\t"lyrics": [\n';
 
 	$(".form-element").each(function(index) {
 		if (index>0) {
@@ -45,7 +46,7 @@ function validateForm() {
 		};
 		result += '\t{\n';
 
-		result += '\t\t"type": "' + $(this).children("label").text().toLowerCase() + '",\n'
+		result += '\t\t"type": "' + keyName[$(this).children("label").text()] + '",\n'
 		result += '\t\t"text": "' + $(this).children("textarea").val().replace(/"/g,'\\"').replace(/\n/g,'\\n') + '"\n';
 
 		result += '\t}';

@@ -107,7 +107,7 @@ body.white-theme, body.white-theme .customTextArea {
 }
 
 /*SOMMAIRE*/
-.sommaire {
+.summary {
 	margin-left: 20px;
     font-weight: 100;
 }
@@ -139,18 +139,18 @@ body.white-theme, body.white-theme .customTextArea {
 }
 
 /*PAROLES*/
-.paroles-block {
+.lyrics-block {
 	
 }
 
-.paroles-block .titre {
+.lyrics-block .title {
     text-transform: uppercase;
     text-align: center;
     font-weight: 100;
     margin-bottom: 2em;
 }
 
-.paroles-block .refrain {
+.lyrics-block .chorus {
 	font-weight: bold;
     padding-bottom: 10px;
     cursor: pointer;
@@ -162,20 +162,20 @@ body.white-theme, body.white-theme .customTextArea {
     z-index: 100;
 }
 
-body.black-theme .paroles-block .refrain.sticky {
+body.black-theme .lyrics-block .chorus.sticky {
     background-color: black;
 }
 
-body.white-theme .paroles-block .refrain.sticky {
+body.white-theme .lyrics-block .chorus.sticky {
     background-color: white;
 }
 
-.paroles-block .couplet {
+.lyrics-block .verse {
 	margin-bottom: 10px;
     cursor: pointer;
 }
 
-.traduction {
+.translation {
     font-style: italic;
     font-size: smaller;
     margin-left: 1em;
@@ -193,31 +193,31 @@ body.white-theme .paroles-block .refrain.sticky {
 }
 
 /*Reglage des marges*/
-#listeParoles.margin-size-1 > .paroles-block {
+#lyricsList.margin-size-1 > .lyrics-block {
     margin-left: 20px;
 }
-#listeParoles.margin-size-1 > .paroles-block .refrain{
+#lyricsList.margin-size-1 > .lyrics-block .chorus{
     padding-left: 2em;
 }
 
-#listeParoles.margin-size-2 > .paroles-block {
+#lyricsList.margin-size-2 > .lyrics-block {
     margin-left: 10px;
 }
-#listeParoles.margin-size-2 > .paroles-block .refrain{
+#lyricsList.margin-size-2 > .lyrics-block .chorus{
     padding-left: 1.5em;
 }
 
-#listeParoles.margin-size-3 > .paroles-block {
+#lyricsList.margin-size-3 > .lyrics-block {
     margin-left: 0px;
 }
-#listeParoles.margin-size-3 > .paroles-block .refrain{
+#lyricsList.margin-size-3 > .lyrics-block .chorus{
     padding-left: 1em;
 }
 
-#listeParoles.margin-size-4 > .paroles-block {
+#lyricsList.margin-size-4 > .lyrics-block {
     margin-left: 0px;
 }
-#listeParoles.margin-size-4 > .paroles-block .refrain{
+#lyricsList.margin-size-4 > .lyrics-block .chorus{
     padding-left: 0.5em;
 }
 

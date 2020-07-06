@@ -352,3 +352,9 @@ Passsage en html/js pour une plus large compatibilité
 ```
   ajout d'une page d'aide au cadrage avec un vidéo-projecteur
 ```
+
+**06/07/2020 v3.6.0**
+```
+  ajout d'un bouton pour cacher tous les couplets
+  corrections des noms... lyrics, chorus, verse
+```
