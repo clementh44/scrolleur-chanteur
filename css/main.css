@@ -107,7 +107,7 @@ body.white-theme, body.white-theme .customTextArea {
 }
 
 /*SOMMAIRE*/
-.summary {
+.sommaire {
 	margin-left: 20px;
     font-weight: 100;
 }
@@ -139,20 +139,21 @@ body.white-theme, body.white-theme .customTextArea {
 }
 
 /*PAROLES*/
-.lyrics-block {
+.paroles-block {
 	
 }
 
-.lyrics-block .title {
+.paroles-block .titre {
     text-transform: uppercase;
     text-align: center;
     font-weight: 100;
     margin-bottom: 2em;
 }
 
-.lyrics-block .chorus {
+.paroles-block .refrain {
 	font-weight: bold;
     padding-bottom: 10px;
+    top: -20px;
     cursor: pointer;
 }
 
@@ -162,20 +163,20 @@ body.white-theme, body.white-theme .customTextArea {
     z-index: 100;
 }
 
-body.black-theme .lyrics-block .chorus.sticky {
+body.black-theme .paroles-block .refrain.sticky {
     background-color: black;
 }
 
-body.white-theme .lyrics-block .chorus.sticky {
+body.white-theme .paroles-block .refrain.sticky {
     background-color: white;
 }
 
-.lyrics-block .verse {
+.paroles-block .couplet {
 	margin-bottom: 10px;
     cursor: pointer;
 }
 
-.translation {
+.traduction {
     font-style: italic;
     font-size: smaller;
     margin-left: 1em;
@@ -193,31 +194,31 @@ body.white-theme .lyrics-block .chorus.sticky {
 }
 
 /*Reglage des marges*/
-#lyricsList.margin-size-1 > .lyrics-block {
+#listeParoles.margin-size-1 > .paroles-block {
     margin-left: 20px;
 }
-#lyricsList.margin-size-1 > .lyrics-block .chorus{
+#listeParoles.margin-size-1 > .paroles-block .refrain{
     padding-left: 2em;
 }
 
-#lyricsList.margin-size-2 > .lyrics-block {
+#listeParoles.margin-size-2 > .paroles-block {
     margin-left: 10px;
 }
-#lyricsList.margin-size-2 > .lyrics-block .chorus{
+#listeParoles.margin-size-2 > .paroles-block .refrain{
     padding-left: 1.5em;
 }
 
-#lyricsList.margin-size-3 > .lyrics-block {
+#listeParoles.margin-size-3 > .paroles-block {
     margin-left: 0px;
 }
-#lyricsList.margin-size-3 > .lyrics-block .chorus{
+#listeParoles.margin-size-3 > .paroles-block .refrain{
     padding-left: 1em;
 }
 
-#lyricsList.margin-size-4 > .lyrics-block {
+#listeParoles.margin-size-4 > .paroles-block {
     margin-left: 0px;
 }
-#lyricsList.margin-size-4 > .lyrics-block .chorus{
+#listeParoles.margin-size-4 > .paroles-block .refrain{
     padding-left: 0.5em;
 }
 
@@ -247,4 +248,141 @@ body.white-theme .lyrics-block .chorus.sticky {
     font-family: CMGSans;
     text-align: center;
     font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    /*bottom: 0;*/
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+    overflow: hidden;
+}
+.popup {
+    background: #000;
+    /*background: -moz-linear-gradient(#000, #bbb);
+    background: -webkit-linear-gradient(#000, #bbb);
+    background: -o-linear-gradient(#000, #bbb);*/
+    display: inline-block;
+    opacity: 0;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0%;
+    overflow-y: auto;
+    border: indigo solid -100px;
+    /*-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;*/
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+
+}
+.close {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: 0px;
+    width: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-size: 24px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+.close:hover {
+    background-color: rgba(64, 128, 128, 0.8);
+}
+.popup p, .popup div {
+    margin-bottom: 10px;
+}
+.popup label {
+    display: inline-block;
+    text-align: left;
+    width: 140px;
+}
+.popup input[type="text"], .popup input[type="password"] {
+    border: 1px solid;
+    border-color: #999 #ccc #ccc;
+    margin: 0;
+    padding: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+.popup input[type="text"]:hover, .popup input[type="password"]:hover {
+    border-color: #555 #888 #888;
+}
+
+.pop{
+    height: 30px;
+    margin-top: 4px;
+}
+
+.pop:hover {
+    background-color: #666;
+}
+
+#monpdf {
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+.btn2{
+    background-color: transparent;
+}
+
+#btnChant {
+    height: 10%;
+    width: 100%;
+}
+
+.btn {
+    width: 8%;
+}
+
+#popup3 {
+    z-index: 2000;
+    padding: 0%;
 }

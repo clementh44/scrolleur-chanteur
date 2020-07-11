@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- By Clément Horhant - c.horhant[@]gmail.com -->
+
+  <!-- JQuery -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"/>
+
+  <!-- Perso -->
+  <script type="text/javascript" src="js/messeForm.js"></script>
+  <script type="text/javascript" src="chants/sommaire.js"></script>
+
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <title>Ajout d'un chant</title>
+</head>
+<body style="font-size: inherit;">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="accordion" id="accordionChant">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Comment ajouter un chant ?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionChant">
+              <div class="card-body">
+                Les chants sont listés dans le dossier "chants" ils sont divisé dans les différents fichiers "*.txt".<br/>
+                - utiliser le formulaire dans "Ajouter chant.html"<br/>
+                - puis insérer le chant en appuyant d'abord sur "Générer le chant", vérifiez la génération et ensuite appuyez sur "Valider l'insertion"
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Quel format pour le chant à ajouter ?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionChant">
+              <div class="card-body">
+                <h2>Titre</h2>
+                - Majuscule au début<br/>
+                - bien mettre les accents<br/>
+                - mettre titre officiel  /  titre alternatif après<br/>
+                - (Glorious) (Hopen) (Alegria) (Taizé)...
+                <h2>Identifiant</h2>
+                (pour ordonner les chants dans l'ordre alphabetique) exactement comme le titre mais :<br/>
+                - en minuscule<br/>
+                - sans-lespace-entre-les-mots<br/>
+                - sans l'apostrophe '<br/>
+                <h2>Couplet</h2>
+                commence par le numéro-espace-tiret-espace :<br/>
+                1 - ...<br/>
+                2 - ...<br/>
+                3 - ...
+                <h2>Pont</h2>
+                comme un refrain mais commençant par PONT sur 1 ligne
+                <h2>Traduction</h2>
+                à ajouter juste après le couplet/refrain/pont...
+                <h2>Messes</h2>
+                l'identifiant : messe-1-colombiere-sanctus-saint...<br/>
+                    - 1 = kyrie<br/>
+                    - 2 = gloria<br/>
+                    - 3 = alleluia<br/>
+                    - 4 = credo<br/>
+                    - 5 = sanctus<br/>
+                    - 6 = anamnèse<br/>
+                    - 7 = agnus<br/>
+                <br/>
+                si plusieurs messes ont les mêmes paroles, juste modifier l'id et le titre en ajoutant le nom de la messe
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="form-group">
+          <label for="formChantTitre">Date et lieu de la messe</label>
+          <input type="text" class="form-control" id="formChantTitre" placeholder="Titre du chant" onkeyup="updateChantId(this)">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="form-group">
+          <label for="formChantId">Identifiant de la messe</label>
+          <input type="text" class="form-control" id="formChantId" placeholder="identifiant-du-chant">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <form id="chantForm">
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <form>
+          <div class="form-group">
+            <label for="formType">Ajouter un block : </label>
+            <div id="lesparties" class="btn-group" role="group" aria-label="Basic example">
+              
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm">
+        <div id="alert"></div>
+        <button class="btn btn-primary" type="button" onclick="validateForm()">Générer le chant</button>
+        <button class="btn btn-primary" type="button" onclick="insererChant()">Valider l'insertion</button>
+        <a href="Ajouter chant.html" class="btn btn-primary" type="button" target="_blank">Ajouter un nouveau chant</a>
+        <textarea id="resultArea" class="form-control" rows="20"></textarea>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -35,9 +35,9 @@
             </div>
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionChant">
               <div class="card-body">
-                Les chants sont listés dans le dossier "*js*" dans le fichier "*chants.js*"<br/>
-                - utiliser le formulaire dans "Ajouter chant.html" OU reprendre le modèle à la main<br/>
-                - puis insérer le chant sans faire attention à l'ordre (tri automatique avec l'identifiant 'id')
+                Les chants sont listés dans le dossier "chants" ils sont divisé dans les différents fichiers "*.txt".<br/>
+                - utiliser le formulaire dans "Ajouter chant.html"<br/>
+                - puis insérer le chant en appuyant d'abord sur "Générer le chant", vérifiez la génération et ensuite appuyez sur "Valider l'insertion"
               </div>
             </div>
           </div>
@@ -92,8 +92,8 @@
     <div class="row">
       <div class="col-sm">
         <div class="form-group">
-          <label for="formSongTitle">Titre du chant</label>
-          <input type="text" class="form-control" id="formSongTitle" placeholder="Titre du chant" onkeyup="updateSongId(this)">
+          <label for="formChantTitre">Titre du chant</label>
+          <input type="text" class="form-control" id="formChantTitre" placeholder="Titre du chant" onkeyup="updateChantId(this)">
         </div>
       </div>
     </div>
@@ -101,15 +101,15 @@
     <div class="row">
       <div class="col-sm">
         <div class="form-group">
-          <label for="formSongId">Identifiant du chant</label>
-          <input type="text" class="form-control" id="formSongId" placeholder="identifiant-du-chant">
+          <label for="formChantId">Identifiant du chant</label>
+          <input type="text" class="form-control" id="formChantId" placeholder="identifiant-du-chant">
         </div>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm">
-        <form id="songForm">
+        <form id="chantForm">
         </form>
       </div>
     </div>
@@ -134,6 +134,7 @@
       <div class="col-sm">
         <div id="alert"></div>
         <button class="btn btn-primary" type="button" onclick="validateForm()">Générer le chant</button>
+        <button class="btn btn-primary" type="button" onclick="insererChant()">Valider l'insertion</button>
         <textarea id="resultArea" class="form-control" rows="20"></textarea>
       </div>
     </div>
