@@ -4050,6 +4050,28 @@ var chants = [
 		"text": "5 - Notre Dieu nous permet de chanter sa louange,\nAlléluia ! bénissons-le !\nIl écoute son Fils dans le cri de nos hymnes,\nAlléluia ! bénissons-le !\nPour lui rendre la voix qu'il a mise en nos bouches."
 	}
 	]
+},
+{
+	"id": "sainte-anne-o-bonne-mere",
+	"title": "Sainte-Anne Ô Bonne Mère",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Sainte Anne, ô bonne mère\nVers toi montent nos chants\nEntends notre prière\nEt bénis tes enfants."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Avec toute confiance, nous nous tournons vers toi\nSoutiens notre espérance, conforte notre foi."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Avec délicatesse, veille sur nos foyers\nQue toujours y progressent l’amour et l’unité."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Maintiens solide et forte la foi des baptisés,\nFais que toujours ils portent amour et vérité."
+	}
+	]
 }
 
 

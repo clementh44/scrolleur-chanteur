@@ -365,3 +365,8 @@ Passsage en html/js pour une plus large compatibilité
   + Au coeur de ce monde
   + Tenons en éveil la mémoire du Seigneur
 ```
+
+**19/07/2020 v3.6.2**
+```
+  + Sainte-Anne Ô Bonne Mère
+```
