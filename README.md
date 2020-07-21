@@ -370,3 +370,8 @@ Passsage en html/js pour une plus large compatibilité
 ```
   + Sainte-Anne Ô Bonne Mère
 ```
+
+**21/07/2020 v3.6.3**
+```
+  + Messe de Saint-François-Xavier : Kyrie, Gloire à Dieu, Sanctus (Agnus et Anamnèse classique)
+```

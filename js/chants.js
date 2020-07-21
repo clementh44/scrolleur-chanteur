@@ -4072,6 +4072,84 @@ var chants = [
 		"text": "3 - Maintiens solide et forte la foi des baptisés,\nFais que toujours ils portent amour et vérité."
 	}
 	]
+},
+{
+	"id": "messe-1-saint-francois-xavier-kyrie",
+	"title": "(Messe de Saint François-Xavier) Kyrie",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Pardonne-moi, Seigneur, j’ai renié ton Nom,\nPardonne-moi, Seigneur, j’ai quitté ta maison.\nJ’ai voulu posséder sans attendre le don,\nPardonne-moi  et purifie mon cœur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison, \nKyrie eleison. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Pardonne-moi, Seigneur, j’ai suivi d’autres dieux,\nPardonne-moi, Seigneur, j’ai détourné les yeux.\nJ’ai choisi loin de toi la richesse et l’honneur,\nPardonne-moi et purifie mon cœur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Christe eleison,\nChriste eleison. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Pardonne-moi, Seigneur j’ai n’ai pas su aimer,\nPardonne-moi, Seigneur je me suis dérobé.\nJe ne suis pas resté le gardien de mon frère,\nPardonne-moi et purifie mon cœur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison,\nKyrie eleison. (bis)"
+	}
+	]
+},
+{
+	"id": "messe-2-saint-francois-xavier-gloire-a-dieu",
+	"title": "(Messe de Saint François-Xavier) Gloire à Dieu",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu, au plus haut des cieux,\nPaix sur terre aux hommes qu'Il aime. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Nous te louons, nous te bénissons,\nnous t'adorons, nous te glorifions,\nnous te rendons grâce, pour ton immense gloire\nSeigneur Dieu, Roi du ciel,\nDieu le Père tout puissant.\nSeigneur, Fils unique, Jésus-Christ\nSeigneur Dieu, Agneau de Dieu,\nle Fils du Père ;"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Toi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Car toi seul es saint, Toi seul es Seigneur, Toi seul es le Très-Haut :\nJésus Christ, avec le Saint-Esprit dans la gloire de Dieu le Père."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen, Amen, Amen."
+	}
+	]
+},
+{
+	"id": "messe-5-saint-francois-xavier-sanctus",
+	"title": "(Messe de Saint François-Xavier) Sanctus",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Sanctus, sanctus, sanctus, sanctus. (bis)"
+	},
+	{
+		"type": "chorus",
+		"text": "Saint est le Seigneur, Saint est le Seigneur,\nDieu de l’univers, Dieu de l’univers ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta gloire ! \nHosanna, hosanna au plus haut des cieux ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit Celui qui vient au nom du Seigneur, \nHosanna, hosanna au plus haut des cieux ! (bis)"
+	}
+	]
 }
 
 
