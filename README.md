@@ -3,8 +3,8 @@ Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou tem
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
 ## Comment télécharger et afficher les paroles ?
- - Télécharger la dernière version [ici](https://github.com/clementh44/scrolleur-chanteur/releases/latest)
- - Décompresser le fichier télécharger (clic droit > extraire)
+ - **Télécharger la dernière version [ici](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
+ - Décompresser le fichier téléchargé (clic droit > extraire)
  - Ouvrir Paroles.html (cela s'ouvre avec un navigateur internet)
 
 
