@@ -375,3 +375,9 @@ Passsage en html/js pour une plus large compatibilité
 ```
   + Messe de Saint-François-Xavier : Kyrie, Gloire à Dieu, Sanctus (Agnus et Anamnèse classique)
 ```
+
+**31/07/2020 v3.6.4**
+```
+  + Prenons le large
+  + En marchant vers Toi, Seigneur
+```

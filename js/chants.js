@@ -4150,6 +4150,70 @@ var chants = [
 		"text": "Béni soit Celui qui vient au nom du Seigneur, \nHosanna, hosanna au plus haut des cieux ! (bis)"
 	}
 	]
+},
+{
+	"id": "prenons-le-large",
+	"title": "Prenons le large",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Prenons le large avec Jésus, vers l'autre rive ! (bis)\nCharchons la terre avec Jésus où Dieu fait vivre ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Pour un voyage à l’infini, PRENONS LE LARGE\nC’est le Seigneur qui nous le dit, PRENONS LE LARGE\nDans notre barque il est présent, VERS L’AUTRE RIVE\nEt le bonheur nous y attend, VERS L’AUTRE RIVE."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ne craignons pas de tout quitter, PRENONS LE LARGE\nLes mille riens sont du passé, PRENONS LE LARGE\nOuvrons nos yeux sur l’avenir, VERS L’AUTRE RIVE\nL’Esprit nous donne de partir, VERS L’AUTRE RIVE."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Mettons le cap vers l’autre bord, PRENONS LE LARGE\nMalgré la nuit, les vents très forts, PRENONS LE LARGE\nIl nous faudra beaucoup lutter, VERS L’AUTRE RIVE\nJésus demeure à nos côtés, VERS L’AUTRE RIVE."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Dans notre barque il peut dormir, PRENONS LE LARGE\nSon coeur entend nos moindres cris, PRENONS LE LARGE\nQuand l’ouragan vient à souffler, VERS L’AUTRE RIVE\nUn mot de lui nous donne paix, VERS L’AUTRE RIVE."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Voici le temps d’improviser, PRENONS LE LARGE\nDieu fait confiance à nos projets, PRENONS LE LARGE\nIl se révèle un Dieu d’amour, VERS L’AUTRE RIVE\nEt nous voyons lever son jour, VERS L’AUTRE RIVE."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Jusqu’au rivage en l’au-delà, PRENONS LE LARGE\nC’est l’aventure de la foi, PRENONS LE LARGE\nJésus connaît la traversée, VERS L’AUTRE RIVE\nIl nous fait signe d’avancer, VERS L’AUTRE RIVE."
+	}
+	]
+},
+{
+	"id": "en-marchant-vers-toi-seigneur",
+	"title": "En marchant vers Toi, Seigneur",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "En marchant vers toi, Seigneur,\nNotre coeur est plein de joie :\nTa lumière nous conduit vers le Père\nDans l'Esprit, au royaume de la vie."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Par ce pain que nous mangeons\nPain des pauvres, pain des forts\nTu restaures notre corps\nTu apaises notre faim\nJusqu'au jour de ton retour."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Par ce pain que nous mangeons\nPain des anges, pain du ciel\nTu nourris nos corps mortels\nTu nous ouvres le banquet\nQui n'aura jamais de fin."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Par ce pain que nous mangeons\nPain unique, pain rompu\nTu rassembles les croyants\nPeuple saint de baptisés\nAppelés à l'unité."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Par ce vin que nous buvons\nJoie de l'homme, joie de Dieu\nTon alliance est révélée.\nAu royaume des vivants\nNous boirons le vin nouveau !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Par ce vin que nous buvons\nSource vive de l'amour,\nNous restons en communion\nAvec Dieu vivant et vrai\nPère, Fils et Saint-Esprit."
+	}
+	]
 }
 
 
