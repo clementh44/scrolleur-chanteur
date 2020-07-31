@@ -4157,7 +4157,7 @@ var chants = [
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Prenons le large avec Jésus, vers l'autre rive ! (bis)\nCharchons la terre avec Jésus où Dieu fait vivre ! (bis)"
+		"text": "Prenons le large avec Jésus, vers l'autre rive ! (bis)\nCherchons la terre avec Jésus où Dieu fait vivre ! (bis)"
 	},
 	{
 		"type": "verse",
