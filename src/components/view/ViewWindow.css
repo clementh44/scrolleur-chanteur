@@ -1,0 +1,37 @@
+/* SONG */
+.song .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 2em;
+}
+
+.song .chorus {
+	font-weight: bold;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.sticky {
+    top: 0px;
+    position: sticky;
+    z-index: 100;
+}
+
+.song .verse {
+	margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.1;
+    transition: opacity 1s;
+}
+
+.translation {
+    font-style: italic;
+    font-size: smaller;
+    margin-left: 1em;
+    font-weight: 100;
+}
+
+.show {
+    opacity: 1 !important;
+}

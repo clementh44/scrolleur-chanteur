@@ -1,24 +1,6 @@
-# Scrolleur Chanteur
+# Scrolleur Chanteur - v4.0 WIP
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
-
-### Version 4 plus facile à utiliser : **[https://chantons.netlify.app/](https://chantons.netlify.app/)**
-
-## (Version 3) Comment télécharger et afficher les paroles ?
- - **Télécharger la dernière version [> ici <](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
- - Décompresser le fichier téléchargé (clic droit > extraire)
- - Ouvrir Paroles.html (cela s'ouvre avec un navigateur internet)
-
-
-## Aperçu
-![aperçu de la page](https://media.giphy.com/media/SUtin2dmPZqqX6elFc/giphy.gif)
-
-## Comment ajouter un chant ?
-En modifiant les fichiers : les chants sont listés dans le dossier "*js*" dans le fichier "*chants.js*"
- - utiliser le formulaire dans "Ajouter chant.html" OU reprendre le modèle à la main
- - puis insérer le chant sans faire attention à l'ordre (tri automatique avec l'identifiant 'id')
-
-Ou en m'envoyant le titre ou les paroles complètes via [ce formulaire](https://forms.gle/ERwYSsr3urWw5rZ36)
 
 ### Consignes pour un chant :
 - **Titre**
@@ -59,15 +41,6 @@ si plusieurs messes ont les mêmes paroles, juste modifier l'id et le titre en a
 
 ## CMG sans
 Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotiongraphics.com/cmg-sans/)
-
-
-## ToDo
-- paramètre taille police ; zoom ?
-- ajouter une liste de chants : une pile de chants à personnaliser pour préparer l'ordre à l'avance
-- ajout automatique du chant dans le fichier
-- possibilité de choisir son fichier de chants (base de données)
-- page formulaire : ajout bouton pour reset le formulaire
-
 
 ## Changelog
 ### *** v1.0 ***
@@ -419,3 +392,6 @@ corrections
   + Tu entends mon cri
   + Notre dieu c’est fait homme
 ```
+
+### *** v4.0 ***
+WIP passage en Vue.js sur un serveur

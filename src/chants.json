@@ -1,4 +1,4 @@
-var chants = [
+[
 {
 	"id": "adorez-le",
 	"title": "Adorez-le",
@@ -3463,7 +3463,7 @@ var chants = [
 	},
 	{
 		"type": "verse",
-		"text": "2 - N'arrêtons pas la sève ardente :\nDieu nous a devancés !\nN'arrêtons pas la sève ardente\nQui tourmente l'univers."
+		"text": "2 - N'arrêtons pas la sève ardente :\nDieu nous a devancés !\nN'arrêtons pas la sève ardente\nQui tourmente l´univers."
 	},
 	{
 		"type": "verse",
@@ -3887,11 +3887,11 @@ var chants = [
 	},
 	{
 		"type": "verse",
-		"text": "2 - Je vous ai choisis pour que vous portiez du fruit.\nGardez mon commandement et vous demeurerez en moi.\nComme je vous aime, aimez-vous d'un seul Esprit,\nJe vous donne ma vie : vous êtes mes amis !"
+		"text": "2 - Je vous ai choisis pour que vous portiez du fruit.\nGardez mon commandement et vous demeurerez en moi.\nComme je vous aime, aimez-vous d´un seul Esprit,\nJe vous donne ma vie : vous êtes mes amis !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Je vous enverrai l'Esprit Saint, le Paraclet.\nIl vous conduira au Père et fera de vous des témoins.\nCherchez, vous trouverez, demandez, vous obtiendrez,\nAfin que le Père soit glorifié en vous !"
+		"text": "3 - Je vous enverrai l´Esprit Saint, le Paraclet.\nIl vous conduira au Père et fera de vous des témoins.\nCherchez, vous trouverez, demandez, vous obtiendrez,\nAfin que le Père soit glorifié en vous !"
 	}
 	]
 },
@@ -4580,22 +4580,4 @@ var chants = [
 	]
 }
 
-
-// Ajouter les chants ci-dessus /\ (ajouter une virgule entre les chants)
-
-// avec ce format (voir les consignes dans le fichier README.md) :
-
-/*
-,
-{
-	"id": "",
-	"title": "",
-	"lyrics": [
-	{
-		"type": "chorus ou verse ou translation",
-		"text": ""
-	}
-	]
-}
-*/
 ]
