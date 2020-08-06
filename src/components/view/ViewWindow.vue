@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 <div :class="[theme]">
     <template v-if="element.type == 'song'">
         <div class="song">
@@ -17,6 +18,14 @@
 		</tbody>
 	</table>
     <div v-else-if="element.type == 'empty'" class="empty"></div>
+=======
+<div>
+    <div v-if="element.type = 'song'" class="song">
+        <div class="title">{{ element.title }}</div>
+
+        <div :key="index" v-for="(lyrics, index) in element.lyrics" style="white-space:pre;" :class="[lyrics.type, {sticky: lyrics.sticky, show: lyrics.show}]" @click="toggleLyrics(lyrics, index)">{{ lyrics.text }}</div>
+    </div>
+>>>>>>> 61ce3f4... v4.0 WIP
 </div>
 </template>
 
@@ -24,8 +33,12 @@
 export default {
     name: 'ViewWindow',
     props: {
+<<<<<<< HEAD
         element: Object,
         theme: String
+=======
+        element: Object
+>>>>>>> 61ce3f4... v4.0 WIP
     },
     data() {
         return {

@@ -11,7 +11,11 @@
             <div class="flex-grow-1">{{element.title}}</div>
             <div class="btn-group">
                 <button class="btn btn-light btn-sm" @click="display(element)"><font-awesome-icon :icon="'eye'"/></button>
+<<<<<<< HEAD
                 <button class="btn btn-light btn-sm handle" v-if="isDraggable(element)"><font-awesome-icon :icon="'arrows-alt-v'"/></button>
+=======
+                <button class="btn btn-light btn-sm handle"><font-awesome-icon :icon="'arrows-alt-v'"/></button>
+>>>>>>> 61ce3f4... v4.0 WIP
                 <button class="btn btn-light btn-sm" @click="removeAt(index)"><font-awesome-icon :icon="'times'"/></button>
             </div>
         </li>
@@ -57,9 +61,12 @@ export default {
         display(data) {
             this.$emit("display", data)
         },
+<<<<<<< HEAD
         isDraggable(element) {
             return element.type == "song"
         },
+=======
+>>>>>>> 61ce3f4... v4.0 WIP
         removeAt(index) {
             this.playlist.splice(index, 1);
         }

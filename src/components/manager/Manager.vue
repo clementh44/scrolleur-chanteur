@@ -1,7 +1,10 @@
 <template>
 <div class="container">
     <p><button @click=openView class="btn btn-primary"><font-awesome-icon :icon="viewWindowIcon()" /> Ouvrir/Fermer la fenêtre de visualisation</button></p>
+<<<<<<< HEAD
     <p><button @click="paramOpened = !paramOpened" class="btn btn-primary">Paramètres</button></p>
+=======
+>>>>>>> 61ce3f4... v4.0 WIP
     <Playlist v-model="playlist" v-on:display="displayElement" />
     <div class="form-group">
         <label for="searchInput">Rechercher</label>
@@ -21,6 +24,7 @@
             </div>
         </li>
     </ul>
+<<<<<<< HEAD
     <WindowPortal v-model="viewOpened">
       <ViewWindow :element="viewBody" :theme="parameters.viewTheme" />
     </WindowPortal>
@@ -34,6 +38,11 @@
             <p>Aide au cadrage ici ?</p>
         </template>
     </SideBox>
+=======
+    <WindowPortal v-model="open">
+      <ViewWindow :element="viewBody" />
+    </WindowPortal>
+>>>>>>> 61ce3f4... v4.0 WIP
 </div>
 </template>
 
@@ -41,7 +50,10 @@
 import Chants from '../../chants.json'
 import WindowPortal from '../WindowPortal'
 import ViewWindow from '../view/ViewWindow'
+<<<<<<< HEAD
 import SideBox from '../sideBox/SideBox'
+=======
+>>>>>>> 61ce3f4... v4.0 WIP
 import Playlist from './Playlist'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare, faCheckSquare } from '@fortawesome/free-regular-svg-icons'
@@ -55,6 +67,7 @@ export default {
         return {
             songs: Chants,
             viewBody: {type: 'empty'},
+<<<<<<< HEAD
             viewOpened: false,
             viewWindowIcon: function() {
                 return this.viewOpened ? ['far','check-square'] : ['far','square']
@@ -74,17 +87,33 @@ export default {
                     {text: 'foncé', value: 'custom-dark'}
                 ]
             }
+=======
+            open: false,
+            viewWindowIcon: function() {
+                return this.open ? ['far','check-square'] : ['far','square']
+            },
+            playlist: [],
+            search: ""
+>>>>>>> 61ce3f4... v4.0 WIP
         }
     },
     components: {
         WindowPortal,
         ViewWindow,
+<<<<<<< HEAD
         Playlist,
         SideBox
     },
     methods: {
         openView: function() {
             this.viewOpened = !this.viewOpened
+=======
+        Playlist
+    },
+    methods: {
+        openView: function() {
+            this.open = !this.open
+>>>>>>> 61ce3f4... v4.0 WIP
         },
         displayElement: function(element) {
             this.viewBody = element
