@@ -4214,8 +4214,179 @@ var chants = [
 		"text": "5 - Par ce vin que nous buvons\nSource vive de l'amour,\nNous restons en communion\nAvec Dieu vivant et vrai\nPère, Fils et Saint-Esprit."
 	}
 	]
+},
+{
+	"id": "eglise-du-seigneur-/-peuple-de-dieu-cite-de-lemmanuel",
+	"title": "Église du Seigneur / Peuple de Dieu, cité de l'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Peuple de Dieu, cité de l'Emmanuel,\nPeuple de Dieu, sauvé dans le sang du Christ,\nPeuple de baptisés, Église du Seigneur,\nLouange à toi !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Peuple choisi pour être ami de Dieu,\nRappelle-toi l'Alliance avec Moïse,\nEt la promesse faite à ceux qui croient dans le Seigneur."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Peuple choisi pour être ami de Dieu,\nRappelle-toi l'annonce du Baptiste :\n\"Dieu va venir ! Prépare le chemin, change ton cœur !\""
+	},
+	{
+		"type": "verse",
+		"text": "3 - Peuple choisi pour être ami de Dieu,\nRappelle-toi Marie, comblée de grâce,\nHumble servante nous montrant sa foi dans l'Éternel."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Peuple choisi pour être ami de Dieu,\nRappelle-toi le temps de sa visite :\nChez les plus pauvres vient le Fils de Dieu, pour te sauver."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Peuple choisi pour être ami de Dieu,\nRappelle-toi la croix du Fils unique :\nDans sa tendresse, Dieu nous a sauvés en Jésus Christ."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Peuple choisi pour être ami de Dieu,\nRappelle-toi le Christ et l'Évangile :\n\"Restez en moi, vivez de mon amour\", dit le Seigneur."
+	},
+	{
+		"type": "verse",
+		"text": "7 - Peuple choisi pour être ami de Dieu,\nRappelle-toi l'Église du silence :\nÀ son exemple, fortifie ta foi dans le Seigneur."
+	},
+	{
+		"type": "verse",
+		"text": "8 - Peuple choisi pour être ami de Dieu,\nRappelle-toi l'effort de ceux qui luttent\nPour plus d'amour, de paix, de charité dans l'univers."
+	},
+	{
+		"type": "verse",
+		"text": "9 - Peuple choisi pour être ami de Dieu,\nRappelle-toi ta marche d'espérance\nVers le Royaume où cesse toute peur, près du Seigneur."
+	}
+	]
+},
+{
+	"id": "jai-vu-leau-vive-keur-moussa",
+	"title": "J'ai vu l'eau vive (Keur Moussa)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - J'ai vu l’eau vive jaillissant du cœur du Christ, alléluia.\nJ'ai vu la source devenir un fleuve immense, alléluia.\nTous ceux que lave cette eau seront sauvés et chanteront :"
+	},
+	{
+		"type": "chorus",
+		"text": " Alléluia, alléluia, alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - J’ai vu le temple désormais s'ouvrir à tous, alléluia.\nJ'ai vu le Verbe nous donner la paix de Dieu, alléluia.\nTous ceux qui croient en son nom seront sauvés et chanteront :"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Quiconque a soif du Dieu vivant qu'il vienne à moi, alléluia.\nEt de son cœur jaillira l'Esprit de Dieu, alléluia.\nJésus revient victorieux montrant la plaie de son côté :"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Celui qui mange ma chair et boit mon sang, alléluia.\nEn vérité, je vous le dis, demeure en moi et moi en lui.\nLes fils de Dieu chanteront au festin de l’Agneau :"
+	}
+	]
+},
+{
+	"id": "messe-2-colombiere-gloria",
+	"title": "(Messe Colombière) Gloria",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloria in excelsis Deo, Gloria Deo Domino.\nGloria in excelsis Deo, Gloria Deo Domino."
+	},
+	{
+		"type": "verse",
+		"text": "1- Et paix sur la terre aux hommes qu'il aime. Nous te louons, nous te bénissons, nous t’adorons, nous te glorifions, nous te rendons grâce pour ton immense gloire.\nSeigneur Dieu, Roi du ciel, Dieu, le Père tout-puissant."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Seigneur, Fils unique, Jésus Christ, Seigneur Dieu, Agneau de Dieu, le Fils du Père; toi qui enlèves le péché du monde, prends pitié de nous;\ntoi qui enlèves le péché du monde, reçois notre prière;\ntoi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Car toi seul es saint, toi seul es Seigneur, toi seul es le Très-Haut : Jésus-Christ, avec le Saint Esprit, dans la gloire de Dieu le Père. Amen."
+	}
+	]
+},
+{
+	"id": "notre-pere-glorious",
+	"title": "Notre Père (Glorious)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Notre Père qui est aux cieux, que ton nom soit sanctifié\nQue ton règne vienne, que ta volonté soit faite sur la terre comme au ciel\nDonne-nous aujourd'hui notre pain de ce jour\nPardonne-nous nos offenses comme nous pardonnons aussi à ceux qui nous ont offensés"
+	},
+	{
+		"type": "verse",
+		"text": "Ne nous laisse pas entrer en tentation mais délivre-nous du mal\nCar c'est à toi qu'appartiennent le règne, la puissance et la gloire\nPour les siècles des siècles. Amen"
+	},
+	{
+		"type": "chorus",
+		"text": "Abba Père ! Abba Père ! Abba Père ! Abba Père !\nAbba Père ! Abba Père ! Abba ! Abba !"
+	}
+	]
+},
+{
+	"id": "ouvrez-vos-cœurs",
+	"title": "Ouvrez vos cœurs",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Ouvrez vos cœurs au souffle de Dieu ;\nSa vie se greffe aux âmes qu’il touche ;\nQu’un peuple nouveau renaisse des eaux\nOù plane l’Esprit de vos baptêmes.\n"
+	},
+	{
+		"type": "chorus",
+		"text": "Ouvrons nos cœurs au Souffle de Dieu,\nCar il respire en notre bouche\nPlus que nous-mêmes !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Offrez vos corps aux langues du Feu :\nQue brûle enfin le cœur de la terre ;\nVos fronts sont marqués des signes sacrés :\nLes mots de Jésus et de victoire !"
+	},
+	{
+		"type": "chorus",
+		"text": "Offrons nos corps aux langues du feu\nPour qu’ils annoncent le mystère\nDe notre gloire."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Livrez votre être aux germes d’Esprit\nVenus se joindre à toute souffrance ;\nLe Corps du Seigneur est fait des douleurs\nDe l’homme écrasé par l’injustice."
+	},
+	{
+		"type": "chorus",
+		"text": "Livrons notre être aux germes d’Esprit\nPour qu’il nous donne sa violence\nÀ son service."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Tournez les yeux vers l’hôte intérieur\nSans rien vouloir que cette présence ;\nVivez de l’Esprit, pour être celui\nQui donne son nom à votre Père."
+	},
+	{
+		"type": "chorus",
+		"text": "Tournons les yeux vers l’hôte intérieur\nCar il habite nos silences\nEt nos prières."
+	}
+	]
+},
+{
+	"id": "je-vous-salue-marie-/-priere-de-langelus",
+	"title": "Je vous salue Marie / Prière de l'Angélus",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Je vous salue, Marie, comblée de grâce;\nLe Seigneur est avec vous;\nVous êtes bénie entre toutes les femmes,\net Jésus, votre enfant, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l'heure de notre mort.\nAmen, amen, alléluia."
+	},
+	{
+		"type": "verse",
+		"text": "1 - L'ange du Seigneur porta l'annonce à Marie\net elle conçut du Saint-Esprit"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Voici la servante du Seigneur,\nqu'il me soit fait selon ta parole."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Et le verbe s'est fait chair\net il a habité parmi nous."
+	}
+	]
 }
-
 
 
 // Ajouter les chants ci-dessus /\ (ajouter une virgule entre les chants)
