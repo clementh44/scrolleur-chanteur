@@ -4386,6 +4386,40 @@ var chants = [
 		"text": "3 - Et le verbe s'est fait chair\net il a habité parmi nous."
 	}
 	]
+},
+{
+	"id": "o-pere-je-suis-ton-enfant",
+	"title": "O Père, je suis ton enfant",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Ô Père, je suis ton enfant\nJ'ai mille preuves que tu m'aimes\nJe veux te louer par mon chant\nLe chant de joie de mon baptême."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Comme la plante pour grandir\nA besoin d'air et de lumière\nTes enfants pour s'épanouir\nOnt ta Parole qui éclaire\nCeux qui ont soif de vérité\nEn ton esprit se voient comblés."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Comme le torrent et la mer\nComme l'eau claire des fontaines\nComme le puits dans le désert\nÀ toute vie sont nécessaires\nSeigneur, tu nous combles toujours\nDe la vraie vie, de ton amour."
+	},
+	{
+		"type": "verse",
+		"text": "3 - L'oiseau construit pour ses petits\nLa plus merveilleuse des crèches\nIl les défend, il les nourrit.\nReflet d'amour dans tous les êtres\nMais Dieu se livre sans partage\nÀ ceux qu'il fit à son image."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Beaucoup de grains font un épi\nBeaucoup d'épis font une fête\nUne moisson qui rassasie\nLa faim des hommes sur la terre\nUnis comme des grains de blé\nNous formons la communauté."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Comme la maison qu'on bâtit\nDans le travail et dans la peine\nTu veux, Seigneur, que tes amis,\nEnsemble marchent et puis s'entr'aident\nEt qu'ainsi notre foi grandisse\nPar Jésus-Christ qui nous unit."
+	},
+	{
+		"type": "chorus",
+		"text": "Ô Père, voici tes enfants\nFormant une seule famille\nUn même esprit les animant\nLa même foi, la même vie."
+	}
+	]
 }
 
 
