@@ -4216,7 +4216,7 @@ var chants = [
 	]
 },
 {
-	"id": "eglise-du-seigneur-/-peuple-de-dieu-cite-de-lemmanuel",
+	"id": "eglise-du-seigneur-peuple-de-dieu-cite-de-lemmanuel",
 	"title": "Église du Seigneur / Peuple de Dieu, cité de l'Emmanuel",
 	"lyrics": [
 	{
@@ -4297,7 +4297,7 @@ var chants = [
 	},
 	{
 		"type": "verse",
-		"text": "1- Et paix sur la terre aux hommes qu'il aime. Nous te louons, nous te bénissons, nous t’adorons, nous te glorifions, nous te rendons grâce pour ton immense gloire.\nSeigneur Dieu, Roi du ciel, Dieu, le Père tout-puissant."
+		"text": "1 - Et paix sur la terre aux hommes qu'il aime. Nous te louons, nous te bénissons, nous t’adorons, nous te glorifions, nous te rendons grâce pour ton immense gloire.\nSeigneur Dieu, Roi du ciel, Dieu, le Père tout-puissant."
 	},
 	{
 		"type": "verse",
@@ -4328,7 +4328,7 @@ var chants = [
 	]
 },
 {
-	"id": "ouvrez-vos-cœurs",
+	"id": "ouvrez-vos-coeurs",
 	"title": "Ouvrez vos cœurs",
 	"lyrics": [
 	{
@@ -4366,7 +4366,7 @@ var chants = [
 	]
 },
 {
-	"id": "je-vous-salue-marie-/-priere-de-langelus",
+	"id": "je-vous-salue-marie-priere-de-langelus",
 	"title": "Je vous salue Marie / Prière de l'Angélus",
 	"lyrics": [
 	{
@@ -4389,7 +4389,7 @@ var chants = [
 },
 {
 	"id": "o-pere-je-suis-ton-enfant",
-	"title": "O Père, je suis ton enfant",
+	"title": "Ô Père, je suis ton enfant",
 	"lyrics": [
 	{
 		"type": "chorus",

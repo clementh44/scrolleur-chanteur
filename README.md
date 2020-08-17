@@ -2,7 +2,7 @@
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
-Version 4 en cours en développement : **[https://chantons.netlify.app/](https://chantons.netlify.app/)**
+### Version 4 en cours en développement. Aperçu ici : **[https://chantons.netlify.app/](https://chantons.netlify.app/)**
 
 ## Comment télécharger et afficher les paroles ?
  - **Télécharger la dernière version [ici](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
@@ -382,4 +382,20 @@ Passsage en html/js pour une plus large compatibilité
 ```
   + Prenons le large
   + En marchant vers Toi, Seigneur
+```
+
+**16/08/2020 v3.6.5**
+```
+  + Église du Seigneur
+  + J'ai vu l'eau vive (Keur Moussa)
+  + (Messe Colombière) Gloria
+  + Notre Père (Glorious)
+  + Ouvrez vos Cœurs
+  + Je vous salue Marie (Angélus)
+  + Ô Père, je suis ton enfant
+```
+
+**16/08/2020 v3.6.6**
+```
+corrections
 ```
