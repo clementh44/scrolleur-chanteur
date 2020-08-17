@@ -47,7 +47,12 @@ export default {
             viewWindowIcon: function() {
                 return this.open ? ['far','check-square'] : ['far','square']
             },
-            playlist: [],
+            playlist: [
+                {
+                    type: "grid",
+                    title: "Quadrillage d'aide au cadrage de la projection"
+                }
+            ],
             search: ""
         }
     },

@@ -1,10 +1,17 @@
 <template>
 <div>
-    <div v-if="element.type = 'song'" class="song">
+    <div v-if="element.type == 'song'" class="song">
         <div class="title">{{ element.title }}</div>
 
         <div :key="index" v-for="(lyrics, index) in element.lyrics" style="white-space:pre;" :class="[lyrics.type, {sticky: lyrics.sticky, show: lyrics.show}]" @click="toggleLyrics(lyrics, index)">{{ lyrics.text }}</div>
     </div>
+    <table v-else-if="element.type == 'grid'" id="screenTable">
+		<tbody>
+			<tr v-for="(line, index) in 10" :key="index">
+				<td v-for="(column, index) in 10" :key="index">&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
 </div>
 </template>
 
