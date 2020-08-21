@@ -399,3 +399,10 @@ Passsage en html/js pour une plus large compatibilité
 ```
 corrections
 ```
+
+**21/08/2020 v3.6.7**
+```
+  + Les mots que tu nous dis
+  + Pain véritable (Pain de vie, corps ressucité)
+  + Peuple de frères, peuple du partage
+```

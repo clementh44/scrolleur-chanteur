@@ -3463,7 +3463,7 @@ var chants = [
 	},
 	{
 		"type": "verse",
-		"text": "2 - N'arrêtons pas la sève ardente :\nDieu nous a devancés !\nN'arrêtons pas la sève ardente\nQui tourmente l´univers."
+		"text": "2 - N'arrêtons pas la sève ardente :\nDieu nous a devancés !\nN'arrêtons pas la sève ardente\nQui tourmente l'univers."
 	},
 	{
 		"type": "verse",
@@ -3887,11 +3887,11 @@ var chants = [
 	},
 	{
 		"type": "verse",
-		"text": "2 - Je vous ai choisis pour que vous portiez du fruit.\nGardez mon commandement et vous demeurerez en moi.\nComme je vous aime, aimez-vous d´un seul Esprit,\nJe vous donne ma vie : vous êtes mes amis !"
+		"text": "2 - Je vous ai choisis pour que vous portiez du fruit.\nGardez mon commandement et vous demeurerez en moi.\nComme je vous aime, aimez-vous d'un seul Esprit,\nJe vous donne ma vie : vous êtes mes amis !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Je vous enverrai l´Esprit Saint, le Paraclet.\nIl vous conduira au Père et fera de vous des témoins.\nCherchez, vous trouverez, demandez, vous obtiendrez,\nAfin que le Père soit glorifié en vous !"
+		"text": "3 - Je vous enverrai l'Esprit Saint, le Paraclet.\nIl vous conduira au Père et fera de vous des témoins.\nCherchez, vous trouverez, demandez, vous obtiendrez,\nAfin que le Père soit glorifié en vous !"
 	}
 	]
 },
@@ -4418,6 +4418,120 @@ var chants = [
 	{
 		"type": "chorus",
 		"text": "Ô Père, voici tes enfants\nFormant une seule famille\nUn même esprit les animant\nLa même foi, la même vie."
+	}
+	]
+},
+{
+	"id": "les-mots-que-tu-nous-dis",
+	"title": "Les mots que tu nous dis",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Les mots que tu nous dis surprennent nos attentes.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nViens-tu aux nuits pesantes donner le jour promis ?\nEs-tu celui qui vient pour libérer nos vies ?"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Les mots que tu nous dis sans cesse nous appellent.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nSont-ils Bonne Nouvelle qui changera nos vies ?\nEs-tu celui qui vient pour libérer nos vies ?"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Les mots que tu nous dis troublèrent Jean-Baptiste.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nFaut-il être prophète pour croire comme lui ?\nEs-tu celui qui vient pour libérer nos vies ?"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Les mots que tu nous dis formèrent les apôtres.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nMais tu n'en dis pas d'autres aux hommes d'aujourd'hui.\nEs-tu celui qui vient pour libérer nos vies ?"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Les mots que tu nous dis ont fait naître l'Église.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nComment peut être acquise la foi qui la construit ?\nEs-tu celui qui vient pour libérer nos vies ?"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Les mots que tu nous dis engagent au partage.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nVivrons-nous le message que tu nous as transmis ?\nEs-tu celui qui vient pour libérer nos vies ?"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Les mots que tu nous dis nous mènent jusqu'au Père.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nSaurons-nous vivre en frères que son amour unit ?\nEs-tu celui qui vient pour libérer nos vies ?"
+	},
+	{
+		"type": "verse",
+		"text": "8 - Les mots que tu nous dis demandent qu'on te suive.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nEt l'impossible arrive aux cœurs que tu saisis !\nTu es celui qui vient pour libérer nos vies."
+	},
+	{
+		"type": "verse",
+		"text": "9 - Les mots que tu nous dis révèlent notre rôle.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nLa vie se fait Parole quand c'est toi qui agis !\nTu es celui qui vient pour libérer nos vies."
+	},
+	{
+		"type": "verse",
+		"text": "10 - Les mots que tu nous dis annoncent notre gloire.\nMais qui es-tu, Jésus pour nous parler ainsi ?\nViens accomplir l'histoire où l'homme resplendit !\nTu es celui qui vient pour libérer nos vies."
+	},
+	{
+		"type": "verse",
+		"text": "11 - Les mots que tu nous dis dépassent nos frontières.\nMais qui es-tu, Jésus, pour nous parler ainsi ?\nAlors, dans la lumière, ils disent : \"Me voici !\".\nTu es celui qui vient pour libérer nos vies."
+	}
+	]
+},
+{
+	"id": "pain-veritable-pain-de-vie-corps-ressucite",
+	"title": "Pain véritable (Pain de vie, corps ressucité)",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Pain de vie, corps ressucité,\nSource vive de l'éternité"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Pain véritable,\nCorps et Sang de Jésus Christ,\nDon sans réserve de l’amour\nDu Seigneur,\nCorps véritable\nDe Jésus Sauveur."
+	},
+	{
+		"type": "verse",
+		"text": "2 - La sainte Cêne\nEst ici commémorée\nLe même pain, le même corps\nSont livrés\nLa sainte Cêne\nNous est partagée."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Pâque nouvelle\nDésirée d’un grand désir\nTerre promise du salut\nPar la croix,\nPâque éternelle\nÉternelle joie."
+	},
+	{
+		"type": "verse",
+		"text": "4 - La faim des hommes\nDans le Christ est apaisée,\nLe pain qu’il donne est l’univers\nConsacré,\nLa faim des hommes\nPleinement comblée."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Vigne meurtrie\nQui empourpre le pressoir,\nQue le péché ne lèse plus\nTes rameaux,\nVigne de gloire\nRiche en vin nouveau."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Pain de la route\nDont le monde garde faim\nDans la douleur et dans l’effort\nChaque jour,\nPain de la route\nSois notre secours."
+	},
+	{
+		"type": "verse",
+		"text": "7 - Vigne du Père\nOù murit un fruit divin\nQuand paraîtra le Vendangeur\nÀ la fin,\nQu’auprès du Père\nNous buvions ce Vin."
+	}
+	]
+},
+{
+	"id": "peuple-de-freres-peuple-du-partage",
+	"title": "Peuple de frères, peuple du partage",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Peuple de frères, peuple du partage,\nPorte l'Évangile et la paix de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Dans la nuit se lèvera une lumière,\nL'espérance habite la terre :\nLa terre où germera le salut de Dieu !\nDans la nuit se lèvera une lumière,\nNotre Dieu réveille son peuple."
+	},
+	{
+		"type": "verse",
+		"text": "2 - L'amitié désarmera toutes nos guerres,\nL'espérance habite la terre :\nLa terre où germera le salut de Dieu !\nL'amitié désarmera toutes nos guerres,\nNotre Dieu pardonne à son peuple."
+	},
+	{
+		"type": "verse",
+		"text": "3 - La tendresse fleurira sur nos frontières,\nL'espérance habite la terre :\nLa terre où germera le salut de Dieu !\nLa tendresse fleurira sur nos frontières,\nNotre Dieu se donne à son peuple."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Un soleil se lèvera sur nos calvaires,\nL'espérance habite la terre :\nLa terre où germera le salut de Dieu !\nUn soleil se lèvera sur nos calvaires,\nNotre Dieu fait vivre son peuple."
 	}
 	]
 }
