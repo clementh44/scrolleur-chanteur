@@ -1,6 +1,7 @@
 <template>
 <div class="container">
     <p><button @click=openView class="btn btn-primary"><font-awesome-icon :icon="viewWindowIcon()" /> Ouvrir/Fermer la fenêtre de visualisation</button></p>
+    <p><button @click="paramOpened = !paramOpened" class="btn btn-primary">Paramètres</button></p>
     <Playlist v-model="playlist" v-on:display="displayElement" />
     <div class="form-group">
         <label for="searchInput">Rechercher</label>
@@ -20,9 +21,19 @@
             </div>
         </li>
     </ul>
-    <WindowPortal v-model="open">
-      <ViewWindow :element="viewBody" />
+    <WindowPortal v-model="viewOpened">
+      <ViewWindow :element="viewBody" :theme="parameters.viewTheme" />
     </WindowPortal>
+    <SideBox v-show="paramOpened" header="Paramètres" @close="paramOpened = false">
+        <template v-slot:content>
+            <h5>=== WIP ===</h5>
+            <p>Thème : <select v-model="parameters.viewTheme"><option v-for="(theme, index) in parameters.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></p>
+            <p>Taille</p>
+            <p>Police d'écriture</p>
+            <p>Espacement (padding et margin)</p>
+            <p>Aide au cadrage ici ?</p>
+        </template>
+    </SideBox>
 </div>
 </template>
 
@@ -30,6 +41,7 @@
 import Chants from '../../chants.json'
 import WindowPortal from '../WindowPortal'
 import ViewWindow from '../view/ViewWindow'
+import SideBox from '../sideBox/SideBox'
 import Playlist from './Playlist'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare, faCheckSquare } from '@fortawesome/free-regular-svg-icons'
@@ -43,9 +55,9 @@ export default {
         return {
             songs: Chants,
             viewBody: {type: 'empty'},
-            open: false,
+            viewOpened: false,
             viewWindowIcon: function() {
-                return this.open ? ['far','check-square'] : ['far','square']
+                return this.viewOpened ? ['far','check-square'] : ['far','square']
             },
             playlist: [
                 {
@@ -53,17 +65,26 @@ export default {
                     title: "Quadrillage d'aide au cadrage de la projection"
                 }
             ],
-            search: ""
+            search: "",
+            paramOpened: false,
+            parameters: {
+                viewTheme: 'custom-light',
+                viewThemes: [
+                    {text: 'clair', value:'custom-light'},
+                    {text: 'foncé', value: 'custom-dark'}
+                ]
+            }
         }
     },
     components: {
         WindowPortal,
         ViewWindow,
-        Playlist
+        Playlist,
+        SideBox
     },
     methods: {
         openView: function() {
-            this.open = !this.open
+            this.viewOpened = !this.viewOpened
         },
         displayElement: function(element) {
             this.viewBody = element

@@ -1,10 +1,14 @@
 <template>
-<div>
-    <div v-if="element.type == 'song'" class="song">
-        <div class="title">{{ element.title }}</div>
+<div :class="[theme]">
+    <template v-if="element.type == 'song'">
+        <div class="song">
+            <div class="title">{{ element.title }}</div>
 
-        <div :key="index" v-for="(lyrics, index) in element.lyrics" style="white-space:pre;" :class="[lyrics.type, {sticky: lyrics.sticky, show: lyrics.show}]" @click="toggleLyrics(lyrics, index)">{{ lyrics.text }}</div>
-    </div>
+            <div :key="index" v-for="(lyrics, index) in element.lyrics" style="white-space:pre;" :class="[lyrics.type, {sticky: lyrics.sticky, show: lyrics.show}]" @click="toggleLyrics(lyrics, index)">{{ lyrics.text }}</div>
+            
+        </div>
+        <div class="empty"></div>
+    </template>
     <table v-else-if="element.type == 'grid'" id="screenTable">
 		<tbody>
 			<tr v-for="(line, index) in 10" :key="index">
@@ -12,6 +16,7 @@
 			</tr>
 		</tbody>
 	</table>
+    <div v-else-if="element.type == 'empty'" class="empty"></div>
 </div>
 </template>
 
@@ -19,7 +24,8 @@
 export default {
     name: 'ViewWindow',
     props: {
-        element: Object
+        element: Object,
+        theme: String
     },
     data() {
         return {
