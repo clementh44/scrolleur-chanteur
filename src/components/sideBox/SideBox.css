@@ -4,7 +4,6 @@
     bottom: 0;
     right: 0;
     left: auto;
-    width: 300px;
     z-index: 1001;
     background: #fff;
 }
@@ -27,5 +26,5 @@
 
 .side-box-fade-enter,
 .side-box-fade-leave-to {
-    right: -300px;
+    right: -100%;
 }

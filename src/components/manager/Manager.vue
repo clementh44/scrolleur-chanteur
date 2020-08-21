@@ -26,16 +26,28 @@
     </ul>
 <<<<<<< HEAD
     <WindowPortal v-model="viewOpened">
-      <ViewWindow :element="viewBody" :theme="parameters.viewTheme" />
+      <ViewWindow :element="viewBody" :parameters="parameters" />
     </WindowPortal>
     <SideBox v-show="paramOpened" header="Paramètres" @close="paramOpened = false">
         <template v-slot:content>
-            <h5>=== WIP ===</h5>
-            <p>Thème : <select v-model="parameters.viewTheme"><option v-for="(theme, index) in parameters.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></p>
-            <p>Taille</p>
-            <p>Police d'écriture</p>
-            <p>Espacement (padding et margin)</p>
-            <p>Aide au cadrage ici ?</p>
+            <form>
+                <div class="form-group row">
+                    <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
+                    <div class="col-sm-10"><select v-model="parameters.viewTheme" id="param-theme" class="form-control"><option v-for="(theme, index) in parameters.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></div>
+                </div>
+                <div class="form-group row">
+                    <label for="param-padding" class="col-sm-2 col-form-label">Marges</label>
+                    <div class="col-sm-10"><select aria-describedby="param-padding-help" v-model="parameters.padding" id="param-padding" class="form-control"><option v-for="(padding, index) in parameters.paddings" :key="index" :value="padding.value">{{ padding.text }}</option></select></div>
+                    <small id="param-padding-help" class="form-text text-muted col-12">Marge à gauche et droite du chant</small>
+                </div>
+                <div class="form-group row">
+                    <label for="param-font-size" class="col-sm-2 col-form-label">Taille</label>
+                    <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="parameters.fontSize" id="param-font-size" class="form-control-range" min="0.5" max="2" step="0.1"/></div>
+                    <small id="param-font-size-help" class="form-text text-muted col-12">Taille de la policce d'écriture multipliée par {{ parameters.fontSize }}</small>
+                </div>
+                <p>Police d'écriture</p>
+                <p>Aide au cadrage ici ?</p>
+            </form>
         </template>
     </SideBox>
 =======
@@ -83,9 +95,19 @@ export default {
             parameters: {
                 viewTheme: 'custom-light',
                 viewThemes: [
-                    {text: 'clair', value:'custom-light'},
+                    {text: 'clair', value: 'custom-light'},
                     {text: 'foncé', value: 'custom-dark'}
-                ]
+                ],
+                padding: 'px-0',
+                paddings: [
+                    {text: 'marges taille 0', value: 'px-0'},
+                    {text: 'marges taille 1', value: 'px-1'},
+                    {text: 'marges taille 2', value: 'px-2'},
+                    {text: 'marges taille 3', value: 'px-3'},
+                    {text: 'marges taille 4', value: 'px-4'},
+                    {text: 'marges taille 5', value: 'px-5'}
+                ],
+                fontSize: 1
             }
 =======
             open: false,

@@ -1,6 +1,6 @@
 <template>
 <transition name="side-box-fade">
-    <div class="side-box p-4">
+    <div class="side-box shadow-lg p-4 col-sm-7 col-md-6 col-lg-5">
         <div class="pb-3 d-flex justify-content-between side-box-header">
             <h3 class="m-0">{{ header }}</h3>
             <button class="btn btn-sm btn-light" @click="close">
