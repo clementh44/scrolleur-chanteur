@@ -120,6 +120,9 @@ export default {
         },
         addElement: function(element) {
             this.playlist.push(element)
+        },
+        beforeClose: function(event) {
+            event.returnValue =  "Fermez ou rafraichissez la page si vous avez une connection internet. (cela réinitialise les paramètres et la playlist des chants)"
         }
     },
     computed: {
@@ -144,6 +147,12 @@ export default {
                 return this.search.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().split(' ').every(s => song.id.includes(s))
             })
         }
+    },
+    beforeMount() {
+        window.addEventListener("beforeunload", this.beforeClose)
+        this.$once("hook:beforeDestroy", () => {
+            window.removeEventListener("beforeunload", this.beforeClose);
+        })
     }
 }
 </script>
