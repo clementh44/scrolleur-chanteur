@@ -2,9 +2,12 @@
 <div :class="[parameters.viewTheme]">
     <template v-if="element.type == 'song'">
         <div :class="['song', parameters.padding]" :style="{ fontSize: parameters.fontSize+'em' }">
-            <div class="title mb-1">{{ element.title }}</div>
+            <div class="title mb-1" v-show="parameters.viewTitle">{{ element.title }}</div>
 
-            <div :key="index" v-for="(lyrics, index) in element.lyrics" :class="[lyrics.type, {sticky: lyrics.sticky, show: lyrics.show}]" @click="toggleLyrics(lyrics, index)">{{ lyrics.text }}</div>
+            <div v-for="(lyrics, index) in element.lyrics"
+            :key="index" 
+            :class="[lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}, update]"
+            @click="toggleLyrics(lyrics)">{{ lyrics.text }}</div>
         </div>
         <div class="empty"></div>
     </template>
@@ -28,41 +31,26 @@ export default {
     },
     data() {
         return {
+            update: 0
         }
     },
     components: {
     },
     methods: {
-        toggleLyrics: function(lyrics, index) {
-            // Mise à jour du style non automatique
+        toggleLyrics: function(lyrics) {
             switch (lyrics.type) {
                 case "chorus":
-                    this.$set(this.element.lyrics[index], "sticky", !lyrics.sticky)
+                    lyrics.sticky = !lyrics.sticky
                     break;
                 case "verse":
-                    this.$set(this.element.lyrics[index], "show", !lyrics.show)
+                    lyrics.show = !lyrics.show
                     break;
                 case "translation":
                     break;
                 default:
                     break;
             }
-        },
-        lyricsClass: function(lyrics) {
-            var tab = [lyrics.type]
-            switch (lyrics.type) {
-                case "chorus":
-                    tab.push(lyrics.sticky ? "sticky": "")
-                    break;
-                case "verse":
-                    tab.push(lyrics.show ? "show": "")
-                    break;
-                case "translation":
-                    break;
-                default:
-                    break;
-            }
-            return tab
+            this.update++ //pour forcer la mise à jour
         }
     }
 }
