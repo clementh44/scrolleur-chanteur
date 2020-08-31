@@ -5,8 +5,8 @@
             <div class="title mb-1" v-show="parameters.viewTitle">{{ element.title }}</div>
 
             <div v-for="(lyrics, index) in element.lyrics"
-            :key="index" 
-            :class="[lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}, update]"
+            :key="index"
+            :class="['user-select-none', lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}, update]"
             @click="toggleLyrics(lyrics)">{{ lyrics.text }}</div>
         </div>
         <div class="empty"></div>

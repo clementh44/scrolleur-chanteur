@@ -1,28 +1,54 @@
 <template>
 <div class="container">
-    <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</button></p>
-    <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"/> Ouvrir/Fermer la fenêtre d'aperçu</button></p>
-    <p><button @click=toggleParam class="btn btn-primary"><font-awesome-icon :icon="'sliders-h'"/> Paramètres</button></p>
-    <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" />
-    <div class="form-group">
-        <label for="searchInput">Rechercher</label>
-        <div class="input-group">
-            <input type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-model="search" @focus="$event.target.select()">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" @click="search = ''" ><font-awesome-icon :icon="'times'"/></button>
-            </div>
+    <div class="card my-3">
+        <div class="card-body">
+            <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</button></p>
+            <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"/> Ouvrir/Fermer la fenêtre d'aperçu</button></p>
+            <p class="mb-0"><button @click=toggleParam class="btn btn-primary"><font-awesome-icon :icon="'sliders-h'"/> Paramètres</button></p>
         </div>
     </div>
-    <ul class="list-group">
-        <li :key=index v-for="(song, index) in filteredSongs" class="list-group-item d-flex">
-            <div class="flex-grow-1">{{ song.title }}</div>
-            <div class="btn-group">
-                <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"/></button>
-                <button class="btn btn-light btn-sm" @click="previewElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre d'aperçu"><font-awesome-icon :icon="'eye'"/></button>
-                <button class="btn btn-light btn-sm" @click="displayElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"/></button>
+
+    <div class="card mb-3">
+        <a id="playlist-header" class="text-decoration-none" data-toggle="collapse" href="#collapse-playlist" aria-expanded="true" aria-controls="collapse-playlist">
+            <h3 class="card-header d-flex justify-content-between">
+                Playlist <font-awesome-icon class="pull-right" :icon="'chevron-down'"/>
+            </h3>
+        </a>
+        <div id="collapse-playlist" class="card-body collapse show" aria-labelledby="playlist-header">
+            <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" />
+        </div>
+    </div>
+
+    <div class="card mb-3">
+        <a id="repertory-header" class="text-decoration-none" data-toggle="collapse" href="#collapse-repertory" aria-expanded="true" aria-controls="collapse-repertory">
+            <h3 class="card-header d-flex justify-content-between">
+                Répertoire <font-awesome-icon class="pull-right" :icon="'chevron-down'"/>
+            </h3>
+        </a>
+        <div id="collapse-repertory" class="card-body collapse show" aria-labelledby="repertory-header">
+            <div class="form-group">
+                <label for="searchInput">Rechercher</label>
+                <div class="input-group">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-model="search" @focus="$event.target.select()">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" @click="search = ''" ><font-awesome-icon :icon="'times'"/></button>
+                    </div>
+                </div>
             </div>
-        </li>
-    </ul>
+            <ul class="list-group">
+                <li :key=index v-for="(song, index) in filteredSongs" class="list-group-item d-flex">
+                    <div class="flex-grow-1">{{ song.title }}</div>
+                    <div class="btn-group">
+                        <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"/></button>
+                        <button class="btn btn-light btn-sm" @click="previewElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre d'aperçu"><font-awesome-icon :icon="'eye'"/></button>
+                        <button class="btn btn-light btn-sm" @click="displayElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"/></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
     <WindowPortal v-model="viewOpened">
       <ViewWindow :element="viewBody" :parameters="parameters" />
     </WindowPortal>
@@ -54,7 +80,6 @@
                     <input class="form-check-input" type="checkbox" id="param-title" v-model="parameters.viewTitle">
                     <label class="form-check-label" for="param-title" >Afficher le titre</label>
                 </div>
-                <p>Police d'écriture</p>
             </form>
         </template>
     </SideBox>
@@ -68,9 +93,9 @@ import ViewWindow from '../view/ViewWindow'
 import SideBox from '../sideBox/SideBox'
 import Playlist from './Playlist'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPlus, faTimes, faDesktop, faSlidersH } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faPlus, faTimes, faDesktop, faSlidersH)
+library.add(faPlus, faTimes, faDesktop, faSlidersH, faChevronDown)
 
 export default {
     name: 'Manager',
@@ -179,6 +204,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped src="./Manager.css">
 
 </style>
