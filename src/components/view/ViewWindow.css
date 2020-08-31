@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* THEME */
 .custom-light,
 .custom-light .sticky {
@@ -17,8 +16,6 @@
     height: 100%;
 }
 
-=======
->>>>>>> 61ce3f4... v4.0 WIP
 /* SONG */
 .song .title {
     text-transform: uppercase;
@@ -58,7 +55,6 @@
 
 .show {
     opacity: 1 !important;
-<<<<<<< HEAD
 }
 
 /*GRID*/
@@ -76,6 +72,4 @@
 #screenTable td {
     width: 10%;
     height: 10%;
-=======
->>>>>>> 61ce3f4... v4.0 WIP
 }
