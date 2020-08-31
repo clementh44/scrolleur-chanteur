@@ -56,7 +56,7 @@ export default {
   },
   methods: {
     openPortal() {
-      this.windowRef = window.open("", "", "width=600,height=400,left=700,top=200");
+      this.windowRef = window.open("", "", "width=600,height=400,left=200,top=200");
       this.windowRef.document.body.appendChild(this.$el);
       copyStyles(window.document, this.windowRef.document);
       this.windowRef.addEventListener('beforeunload', this.closePortal);

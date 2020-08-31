@@ -1,5 +1,17 @@
 <template>
 <div class="container">
+    <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+        <strong>Bienvenue dans cette version 4 du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank">Scrolleur-Chanteur</a> (en cours de développement)</strong>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <p>Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet pour s'en servir.</p>
+        <hr>
+        <p>Ceci est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur)</p>
+        <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"/></p>
+        <p>La <strong>Playlist</strong> permet de préparer la liste de chants (ajouter avec <font-awesome-icon :icon="'plus'"/>) ou de contenu vide (avec <font-awesome-icon :icon="['far','square']"/>)</p>
+    </div>
+
     <div class="card my-3">
         <div class="card-body">
             <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</button></p>
@@ -93,9 +105,10 @@ import ViewWindow from '../view/ViewWindow'
 import SideBox from '../sideBox/SideBox'
 import Playlist from './Playlist'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSquare } from '@fortawesome/free-regular-svg-icons'
 import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faPlus, faTimes, faDesktop, faSlidersH, faChevronDown)
+library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown)
 
 export default {
     name: 'Manager',
