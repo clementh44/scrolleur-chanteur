@@ -3,7 +3,7 @@
     <div class="card my-3">
         <div class="card-body">
             <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</button></p>
-            <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"/> Ouvrir/Fermer la fenêtre d'aperçu</button></p>
+            <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"/> Aperçu</button></p>
             <p class="mb-0"><button @click=toggleParam class="btn btn-primary"><font-awesome-icon :icon="'sliders-h'"/> Paramètres</button></p>
         </div>
     </div>
@@ -104,12 +104,7 @@ export default {
             songs: Chants,
             viewBody: {type: 'empty'},
             viewOpened: false,
-            playlist: [
-                {
-                    type: "grid",
-                    title: "Quadrillage d'aide au cadrage de la projection"
-                }
-            ],
+            playlist: [],
             search: "",
             paramOpened: false,
             parameters: {
