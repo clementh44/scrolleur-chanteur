@@ -1,8 +1,9 @@
 <template>
 <div class="container">
-    <p><button @click=openView class="btn btn-primary"><font-awesome-icon :icon="viewWindowIcon()" /> Ouvrir/Fermer la fenêtre de présentation</button></p>
-    <p><button @click="paramOpened = !paramOpened" class="btn btn-primary">Paramètres</button></p>
-    <Playlist v-model="playlist" v-on:display="displayElement" />
+    <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</button></p>
+    <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"/> Ouvrir/Fermer la fenêtre d'aperçu</button></p>
+    <p><button @click=toggleParam class="btn btn-primary"><font-awesome-icon :icon="'sliders-h'"/> Paramètres</button></p>
+    <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" />
     <div class="form-group">
         <label for="searchInput">Rechercher</label>
         <div class="input-group">
@@ -16,14 +17,20 @@
         <li :key=index v-for="(song, index) in filteredSongs" class="list-group-item d-flex">
             <div class="flex-grow-1">{{ song.title }}</div>
             <div class="btn-group">
-                <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))"><font-awesome-icon :icon="'plus'"/></button>
-                <button class="btn btn-light btn-sm" @click="displayElement(Object.assign({type: 'song'},song))"><font-awesome-icon :icon="'eye'"/></button>
+                <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"/></button>
+                <button class="btn btn-light btn-sm" @click="previewElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre d'aperçu"><font-awesome-icon :icon="'eye'"/></button>
+                <button class="btn btn-light btn-sm" @click="displayElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"/></button>
             </div>
         </li>
     </ul>
     <WindowPortal v-model="viewOpened">
       <ViewWindow :element="viewBody" :parameters="parameters" />
     </WindowPortal>
+    <SideBox v-show="previewOpened" header="Aperçu" @close="previewOpened = false">
+        <template v-slot:content>
+            <ViewWindow :element="previewBody" :parameters="parameters" />
+        </template>
+    </SideBox>
     <SideBox v-show="paramOpened" header="Paramètres" @close="paramOpened = false">
         <template v-slot:content>
             <form>
@@ -45,7 +52,7 @@
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="param-title" v-model="parameters.viewTitle">
-                    <label class="form-check-label" for="param-title" >Afficher le titre {{parameters.viewTitle}}</label>
+                    <label class="form-check-label" for="param-title" >Afficher le titre</label>
                 </div>
                 <p>Police d'écriture</p>
             </form>
@@ -61,10 +68,9 @@ import ViewWindow from '../view/ViewWindow'
 import SideBox from '../sideBox/SideBox'
 import Playlist from './Playlist'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSquare, faCheckSquare } from '@fortawesome/free-regular-svg-icons'
-import { faPlus, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faDesktop, faSlidersH } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faCheckSquare, faPlus, faTimes)
+library.add(faPlus, faTimes, faDesktop, faSlidersH)
 
 export default {
     name: 'Manager',
@@ -73,9 +79,6 @@ export default {
             songs: Chants,
             viewBody: {type: 'empty'},
             viewOpened: false,
-            viewWindowIcon: function() {
-                return this.viewOpened ? ['far','check-square'] : ['far','square']
-            },
             playlist: [
                 {
                     type: "grid",
@@ -101,7 +104,9 @@ export default {
                 ],
                 fontSize: 1,
                 viewTitle: true
-            }
+            },
+            previewOpened: false,
+            previewBody: {type: 'empty'}
         }
     },
     components: {
@@ -111,11 +116,29 @@ export default {
         SideBox
     },
     methods: {
-        openView: function() {
+        toggleView: function() {
             this.viewOpened = !this.viewOpened
         },
         displayElement: function(element) {
             this.viewBody = element
+        },
+        togglePreview: function() {
+            this.previewOpened = !this.previewOpened
+            if (this.previewOpened && this.paramOpened) {
+                this.paramOpened = false
+            }
+        },
+        previewElement: function(element) {
+            this.previewBody = element
+            if (!this.previewOpened) {
+                this.togglePreview()
+            }
+        },
+        toggleParam: function() {
+            this.paramOpened = !this.paramOpened
+            if (this.paramOpened && this.previewOpened) {
+                this.previewOpened = false
+            }
         },
         addElement: function(element) {
             this.playlist.push(element)
