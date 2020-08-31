@@ -406,3 +406,8 @@ corrections
   + Pain véritable (Pain de vie, corps ressucité)
   + Peuple de frères, peuple du partage
 ```
+
+**31/08/2020 v3.6.8**
+```
+  + Psaume de la création
+```

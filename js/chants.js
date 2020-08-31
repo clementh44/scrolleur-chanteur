@@ -4534,6 +4534,36 @@ var chants = [
 		"text": "4 - Un soleil se lèvera sur nos calvaires,\nL'espérance habite la terre :\nLa terre où germera le salut de Dieu !\nUn soleil se lèvera sur nos calvaires,\nNotre Dieu fait vivre son peuple."
 	}
 	]
+},
+{
+	"id": "psaume-de-la-creation",
+	"title": "Psaume de la création",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Par les cieux devant toi, splendeur et majesté\nPar l’infiniment grand, l’infiniment petit\nEt par le firmament, ton manteau étoilé\nEt par frère soleil, je veux crier :"
+	},
+	{
+		"type": "chorus",
+		"text": "Mon Dieu, tu es grand, tu es beau\nDieu vivant, Dieu très-haut\nTu es le Dieu d'amour\nMon Dieu, tu es grand, tu est beau\nDieu vivant, Dieu très-haut\nDieu présent en toute création"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Par tous les océans et par toutes les mers\nPar tous les continents et par l’eau des rivières\nPar le feu qui te dit comme un buisson ardent\nEt par l’aile du vent, je veux crier :"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Par toutes les montagnes et toutes les vallées\nPar l’ombre des forêts et par les fleurs des champs\nPar les bourgeons des arbres et l’herbe des prairies\nPar le blé en épis, je veux crier :"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Par tous les animaux de la terre et de l’eau\nPar le chant des oiseaux, par le chant de la vie\nPar l’Homme que tu fis juste moins grand que toi\nEt par tous ses enfants, je veux crier :"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Par cette main tendue qui invite à la danse\nPar ce baiser jailli d’un élan d’espérance\nPar ce regard d’amour qui relève et réchauffe\nPar le pain et le vin, je veux crier :"
+	}
+	]
 }
 
 
