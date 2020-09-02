@@ -6,6 +6,7 @@
     left: auto;
     z-index: 1001;
     background: #fff;
+    overflow: auto;
 }
 
 .side-box-overlay {

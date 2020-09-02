@@ -11,6 +11,15 @@
         </div>
         <div class="empty"></div>
     </template>
+
+    <template v-else-if="element.type == 'text'">
+        <div :class="['custom-text', parameters.padding]" :style="{ fontSize: parameters.fontSize+'em' }">
+            <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
+            <div class="custom-text-body">{{ element.text }}</div>
+        </div>
+        <div class="empty"></div>
+    </template>
+
     <table v-else-if="element.type == 'grid'" id="screenTable">
 		<tbody>
 			<tr v-for="(line, index) in 10" :key="index">
@@ -18,6 +27,7 @@
 			</tr>
 		</tbody>
 	</table>
+
     <div v-else-if="element.type == 'empty'" class="empty"></div>
 </div>
 </template>

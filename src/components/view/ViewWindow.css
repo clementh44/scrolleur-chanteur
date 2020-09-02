@@ -1,3 +1,11 @@
+/* COMMON */
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
 /* THEME */
 .custom-light,
 .custom-light .sticky {
@@ -17,13 +25,6 @@
 }
 
 /* SONG */
-.song .title {
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 100;
-    font-size: 1.5em;
-}
-
 .song .chorus {
 	font-weight: bold;
     padding-bottom: 10px;
@@ -57,7 +58,7 @@
     opacity: 1 !important;
 }
 
-/*GRID*/
+/* GRID */
 #screenTable {
     margin: 0px;
     width: 100%;
@@ -72,4 +73,10 @@
 #screenTable td {
     width: 10%;
     height: 10%;
+}
+
+/* CUSTOM TEXT */
+.custom-text-body {
+    white-space: pre-wrap;
+    font-size: 1em;
 }

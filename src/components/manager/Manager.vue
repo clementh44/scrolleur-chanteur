@@ -9,7 +9,7 @@
         <hr>
         <p>Ceci est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur)</p>
         <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"/></p>
-        <p>La <strong>Playlist</strong> permet de préparer la liste de chants (ajouter avec <font-awesome-icon :icon="'plus'"/>) ou de contenu vide (avec <font-awesome-icon :icon="['far','square']"/>)</p>
+        <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"/> dans le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"/>) ; un contenu personnalisé (texte personnalisé avec <font-awesome-icon :icon="'file-alt'"/>)</p>
     </div>
 
     <div class="card my-3">
@@ -106,9 +106,9 @@ import SideBox from '../sideBox/SideBox'
 import Playlist from './Playlist'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
-import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown)
+library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt)
 
 export default {
     name: 'Manager',
@@ -215,3 +215,30 @@ export default {
 <style scoped src="./Manager.css">
 
 </style>
+
+<!--
+Available elements :
+{
+    type: empty | grid | song | text
+    title: ""
+}
+
+{
+    type: song
+    title: ""
+    lyrics: [
+        {
+            type: verse | chorus | translation
+            text: ""
+        },
+        {...}
+    ]
+}
+
+{
+    type: text
+    title: ""
+    isTitleDisplayed: true | false
+    text: ""
+}
+-->
