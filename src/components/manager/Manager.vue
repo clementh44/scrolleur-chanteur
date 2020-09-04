@@ -51,6 +51,7 @@
                 <li :key=index v-for="(song, index) in filteredSongs" class="list-group-item d-flex">
                     <div class="flex-grow-1">{{ song.title }}</div>
                     <div class="btn-group">
+                        <button class="btn btn-light btn-sm" v-if="settings.score.enabled" @click="searchScore(song.title)" title="Rechercher la partition"><font-awesome-icon :icon="'file-pdf'"/></button>
                         <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"/></button>
                         <button class="btn btn-light btn-sm" @click="previewElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre d'aperçu"><font-awesome-icon :icon="'eye'"/></button>
                         <button class="btn btn-light btn-sm" @click="displayElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"/></button>
@@ -86,9 +87,9 @@ import Playlist from './Playlist'
 import Settings from './Settings'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
-import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt)
+library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faFilePdf)
 
 export default {
     name: 'Manager',
@@ -118,7 +119,11 @@ export default {
                     {text: 'marges taille 5', value: 'px-5'}
                 ],
                 fontSize: 1,
-                viewTitle: true
+                viewTitle: true,
+                score: {
+                    query: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
+                    enabled: false
+                }
             },
             previewOpened: false,
             previewBody: {type: 'empty'}
@@ -132,6 +137,7 @@ export default {
         Settings
     },
     methods: {
+        // LIVE
         toggleView: function() {
             this.viewOpened = !this.viewOpened
         },
@@ -141,6 +147,7 @@ export default {
                 this.toggleView()
             }
         },
+        // APERCU
         togglePreview: function() {
             this.previewOpened = !this.previewOpened
             if (this.previewOpened && this.paramOpened) {
@@ -153,15 +160,25 @@ export default {
                 this.togglePreview()
             }
         },
+        // PARAMETRES
         toggleParam: function() {
             this.paramOpened = !this.paramOpened
             if (this.paramOpened && this.previewOpened) {
                 this.previewOpened = false
             }
         },
+        // PLAYLIST
         addElement: function(element) {
             this.playlist.push(element)
         },
+        // PARTITION
+        searchScore: function(title) {
+            if (this.settings.score.query && this.settings.score.query.includes("<TITRE>")) {
+                window.open(this.settings.score.query.replace("<TITRE>", title.replace(' ', '+')))
+            }
+        },
+
+        // AUTRE
         beforeClose: function(event) {
             event.returnValue =  "Fermez ou rafraichissez la page si vous avez une connection internet. (cela réinitialise les paramètres et la playlist des chants)"
         }
