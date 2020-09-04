@@ -213,6 +213,25 @@ export default {
         this.$once("hook:beforeDestroy", () => {
             window.removeEventListener("beforeunload", this.beforeClose);
         })
+    },
+    mounted() {
+        if (localStorage.getItem('settings')) {
+            this.settings = JSON.parse(localStorage.getItem('settings'))
+        }
+        if (localStorage.getItem('playlist')) {
+            this.playlist = JSON.parse(localStorage.getItem('playlist'))
+        }
+    },
+    watch: {
+        settings: {
+            handler: function(newSettings) {
+                localStorage.setItem('settings', JSON.stringify(newSettings))
+            },
+            deep: true
+        },
+        playlist: function(newPlaylist) {
+            localStorage.setItem('playlist', JSON.stringify(newPlaylist))
+        }
     }
 }
 </script>
