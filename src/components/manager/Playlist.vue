@@ -23,7 +23,7 @@
                     </div>
                     <div class="custom-control custom-switch form-group">
                         <input class="custom-control-input" type="checkbox" name="isTitleDisplayed" id="title-displayed-checkbox" v-model="editedElement.isTitleDisplayed" >
-                        <label class="custom-control-label" for="title-displayed-checkbox">Afficher le titre dans la présantation</label>
+                        <label class="custom-control-label" for="title-displayed-checkbox">Afficher le titre dans la présentation (<font-awesome-icon :icon="'desktop'"/>)</label>
                     </div>
                     <div class="form-group">
                         <label for="custom-text-body">Corps du texte</label>
@@ -50,7 +50,6 @@
                     <button class="btn btn-light btn-sm" @click="removeAt(index)" title="Supprimer l'élément de la playlist"><font-awesome-icon :icon="'trash-alt'"/></button>
                 </div>
             </div>
-
         </li>
     </draggable>
 </div>

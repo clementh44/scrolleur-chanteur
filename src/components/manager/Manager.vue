@@ -1,15 +1,15 @@
 <template>
 <div class="container">
     <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
-        <strong>Bienvenue dans cette version 4 du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank">Scrolleur-Chanteur</a> (en cours de développement)</strong>
+        <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank">Scrolleur-Chanteur</a></strong>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        <p>Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet pour s'en servir.</p>
+        <p>Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet et de ne pas la fermer ou l'actualiser pour s'en servir.</p>
         <hr>
-        <p>Ceci est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur)</p>
-        <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"/></p>
-        <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"/> dans le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"/>) ; un contenu personnalisé (texte personnalisé avec <font-awesome-icon :icon="'file-alt'"/>)</p>
+        <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur).</p>
+        <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"/>.</p>
+        <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"/> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"/>) ; un contenu personnalisé (texte personnalisé avec <font-awesome-icon :icon="'file-alt'"/>).</p>
     </div>
 
     <div class="card my-3">
@@ -62,37 +62,16 @@
 
 
     <WindowPortal v-model="viewOpened">
-      <ViewWindow :element="viewBody" :parameters="parameters" />
+      <ViewWindow :element="viewBody" :settings="settings" :live=true />
     </WindowPortal>
     <SideBox v-show="previewOpened" header="Aperçu" @close="previewOpened = false">
         <template v-slot:content>
-            <ViewWindow :element="previewBody" :parameters="parameters" />
+            <ViewWindow :element="previewBody" :settings="settings" :live=false />
         </template>
     </SideBox>
     <SideBox v-show="paramOpened" header="Paramètres" @close="paramOpened = false">
         <template v-slot:content>
-            <form>
-                <div class="form-group row">
-                    <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
-                    <div class="col-sm-10"><select v-model="parameters.viewTheme" id="param-theme" class="form-control"><option v-for="(theme, index) in parameters.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></div>
-                </div>
-                <hr>
-                <h5>Chants</h5>
-                <div class="form-group row">
-                    <label for="param-padding" class="col-sm-2 col-form-label">Marges</label>
-                    <div class="col-sm-10"><select aria-describedby="param-padding-help" v-model="parameters.padding" id="param-padding" class="form-control"><option v-for="(padding, index) in parameters.paddings" :key="index" :value="padding.value">{{ padding.text }}</option></select></div>
-                    <small id="param-padding-help" class="form-text text-muted col-12">Marge à gauche et droite du chant</small>
-                </div>
-                <div class="form-group row">
-                    <label for="param-font-size" class="col-sm-2 col-form-label">Taille</label>
-                    <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="parameters.fontSize" id="param-font-size" class="form-control-range" min="0.5" max="2" step="0.1"/></div>
-                    <small id="param-font-size-help" class="form-text text-muted col-12">Taille de la police d'écriture multipliée par {{ parameters.fontSize }}</small>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="param-title" v-model="parameters.viewTitle">
-                    <label class="form-check-label" for="param-title" >Afficher le titre</label>
-                </div>
-            </form>
+            <Settings :settings="settings" />
         </template>
     </SideBox>
 </div>
@@ -104,6 +83,7 @@ import WindowPortal from '../WindowPortal'
 import ViewWindow from '../view/ViewWindow'
 import SideBox from '../sideBox/SideBox'
 import Playlist from './Playlist'
+import Settings from './Settings'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
 import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt } from '@fortawesome/free-solid-svg-icons'
@@ -114,13 +94,15 @@ export default {
     name: 'Manager',
     data() {
         return {
+            version: process.env.VUE_APP_VERSION,
             songs: Chants,
             viewBody: {type: 'empty'},
             viewOpened: false,
             playlist: [],
             search: "",
             paramOpened: false,
-            parameters: {
+            settings: {
+                defaulTheme: 'custom-light',
                 viewTheme: 'custom-light',
                 viewThemes: [
                     {text: 'clair', value: 'custom-light'},
@@ -146,7 +128,8 @@ export default {
         WindowPortal,
         ViewWindow,
         Playlist,
-        SideBox
+        SideBox,
+        Settings
     },
     methods: {
         toggleView: function() {
@@ -154,6 +137,9 @@ export default {
         },
         displayElement: function(element) {
             this.viewBody = element
+            if (!this.viewOpened) {
+                this.toggleView()
+            }
         },
         togglePreview: function() {
             this.previewOpened = !this.previewOpened
