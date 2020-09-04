@@ -9,7 +9,7 @@
         <hr>
         <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur).</p>
         <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"/>.</p>
-        <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"/> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"/>) ; un contenu personnalisé (texte personnalisé avec <font-awesome-icon :icon="'file-alt'"/>).</p>
+        <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"/> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"/>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"/>) ; une image (avec <font-awesome-icon :icon="'image'"/>).</p>
     </div>
 
     <div class="card my-3">
@@ -86,9 +86,9 @@ import Settings from './Settings'
 import ElementActions from './ElementActions'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
-import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt)
+library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage)
 
 export default {
     name: 'Manager',
@@ -230,7 +230,7 @@ export default {
             deep: true
         },
         playlist: function(newPlaylist) {
-            localStorage.setItem('playlist', JSON.stringify(newPlaylist))
+            localStorage.setItem('playlist', JSON.stringify(newPlaylist.filter(element => element.type != 'file')))
         }
     }
 }

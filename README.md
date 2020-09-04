@@ -1,6 +1,8 @@
-# Scrolleur Chanteur - v4.0 WIP
+# Scrolleur Chanteur - v4.0
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
+
+[https://chantons.netlify.app/](https://chantons.netlify.app/)
 
 ### Consignes pour un chant :
 - **Titre**
@@ -394,4 +396,8 @@ corrections
 ```
 
 ### *** v4.0 ***
-WIP passage en Vue.js sur un serveur
+Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netlify.app/)
+> sans installation
+> hors ligne
+> sauvegarde des paramètres danns le navigateur
+> facile d'utilisation

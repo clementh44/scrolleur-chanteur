@@ -20,6 +20,11 @@
         <div class="empty"></div>
     </template>
 
+    <template v-else-if="element.type == 'file'">
+        <img :src="element.file" class="img-fluid"/>
+        <div class="empty"></div>
+    </template>
+
     <table v-else-if="element.type == 'grid'" id="screenTable">
 		<tbody>
 			<tr v-for="(line, index) in 10" :key="index">

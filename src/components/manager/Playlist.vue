@@ -7,7 +7,8 @@
         <div class="btn-group">
             <div class="btn btn-secondary" aria-disabled="true" style="pointer-events: none;">Ajouter :</div>
             <button @click="addElement({type:'empty',title:'Contenu vide'})" type="button" class="btn btn-secondary" title="Contenu vide"><font-awesome-icon :icon="['far','square']"/></button>
-            <button @click="addElement({type:'text',title:'Texte à personnaliser'})" type="button" class="btn btn-secondary" title="Contenu vide"><font-awesome-icon :icon="'file-alt'"/></button>
+            <button @click="addElement({type:'text',title:'Texte à personnaliser'})" type="button" class="btn btn-secondary" title="Texte personnalisé"><font-awesome-icon :icon="'align-left'"/></button>
+            <label @change="addFile($event)" class="btn btn-secondary m-0" for="input-file" title="Importer une image"><font-awesome-icon :icon="'image'"/> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"></label>
         </div>
     </div>
 
@@ -62,9 +63,9 @@ import draggable from 'vuedraggable'
 import ElementActions from './ElementActions'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare, faEdit } from '@fortawesome/free-regular-svg-icons'
-import { faArrowsAltV, faBorderAll, faTrashAlt, faFileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faEdit, faArrowsAltV, faBorderAll, faTrashAlt, faFileAlt)
+library.add(faSquare, faEdit, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage)
 
 export default {
     name: "Playlist",
@@ -122,6 +123,19 @@ export default {
             this.isEdited = true
             setTimeout(() => {this.$refs['playlistEditionRef'].scrollIntoView({behavior: 'smooth'})}, 100)
         },
+        addFile: function(file) {
+            if (file.target.files && file.target.files[0]) {
+                var fr = new FileReader()
+                fr.onload = () => {
+                    this.addElement({
+                        type: "file",
+                        title: "Fichier : " + file.target.files[0].name,
+                        file: fr.result
+                    })
+                }
+                fr.readAsDataURL(file.target.files[0])
+            }
+        }
     }
 }
 </script>
