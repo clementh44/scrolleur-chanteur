@@ -42,13 +42,15 @@
         <li v-for="(element,index) in listLocal" :key="index" class="list-group-item">
             <div class="d-flex">
                 <div class="flex-grow-1">{{element.title}}</div>
-                <div class="btn-group">
-                    <button class="btn btn-light btn-sm" v-show="canEdit(element)" @click="edit(element)" title="Editer l'élément"><font-awesome-icon :icon="['far','edit']"/></button>
-                    <button class="btn btn-light btn-sm" @click="preview(element)" title="Afficher dans la fenêtre d'aperçu"><font-awesome-icon :icon="'eye'"/></button>
-                    <button class="btn btn-light btn-sm" @click="display(element)" title="Afficher dans la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"/></button>
-                    <button class="btn btn-light btn-sm handle" title="Déplacer l'élément"><font-awesome-icon :icon="'arrows-alt-v'"/></button>
-                    <button class="btn btn-light btn-sm" @click="removeAt(index)" title="Supprimer l'élément de la playlist"><font-awesome-icon :icon="'trash-alt'"/></button>
-                </div>
+                <ElementActions :element="element" :settings="settings" @preview="preview($event)" @display="display($event)" @search-score="$emit('search-score',{title: $event.title, query: $event.query})">
+                    <template v-slot:first>
+                        <button class="btn btn-light btn-sm" v-if="canEdit(element)" @click="edit(element)" title="Editer l'élément"><font-awesome-icon :icon="['far','edit']"/></button>
+                    </template>
+                    <template v-slot:end>
+                        <button class="btn btn-light btn-sm handle" title="Déplacer l'élément"><font-awesome-icon :icon="'arrows-alt-v'"/></button>
+                        <button class="btn btn-light btn-sm" @click="removeAt(index)" title="Supprimer l'élément de la playlist"><font-awesome-icon :icon="'trash-alt'"/></button>
+                    </template>
+                </ElementActions>
             </div>
         </li>
     </draggable>
@@ -57,11 +59,12 @@
 
 <script>
 import draggable from 'vuedraggable'
+import ElementActions from './ElementActions'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare, faEdit } from '@fortawesome/free-regular-svg-icons'
-import { faArrowsAltV, faEye, faDesktop, faBorderAll, faTrashAlt, faFileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faArrowsAltV, faBorderAll, faTrashAlt, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faEdit, faArrowsAltV, faEye, faDesktop, faBorderAll, faTrashAlt, faFileAlt)
+library.add(faSquare, faEdit, faArrowsAltV, faBorderAll, faTrashAlt, faFileAlt)
 
 export default {
     name: "Playlist",
@@ -73,14 +76,16 @@ export default {
         }
     },
     props: {
-        playlist: Array
+        playlist: Array,
+        settings: Object
     },
     model: {
         prop: 'playlist',
         event: 'listChange'
     },
     components: {
-        draggable
+        draggable,
+        ElementActions
     },
     computed: {
         listLocal: {
@@ -116,7 +121,7 @@ export default {
             this.editedElement = element
             this.isEdited = true
             setTimeout(() => {this.$refs['playlistEditionRef'].scrollIntoView({behavior: 'smooth'})}, 100)
-        }
+        },
     }
 }
 </script>

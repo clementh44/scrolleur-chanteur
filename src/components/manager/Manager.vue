@@ -27,7 +27,7 @@
             </h3>
         </a>
         <div id="collapse-playlist" class="card-body collapse show" aria-labelledby="playlist-header">
-            <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" />
+            <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" :settings="settings" v-on:search-score="searchScore($event.title, $event.query)" />
         </div>
     </div>
 
@@ -50,17 +50,15 @@
             <ul class="list-group">
                 <li :key=index v-for="(song, index) in filteredSongs" class="list-group-item d-flex">
                     <div class="flex-grow-1">{{ song.title }}</div>
-                    <div class="btn-group">
-                        <button class="btn btn-light btn-sm" v-if="settings.score.enabled" @click="searchScore(song.title)" title="Rechercher la partition"><font-awesome-icon :icon="'file-pdf'"/></button>
-                        <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"/></button>
-                        <button class="btn btn-light btn-sm" @click="previewElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre d'aperçu"><font-awesome-icon :icon="'eye'"/></button>
-                        <button class="btn btn-light btn-sm" @click="displayElement(Object.assign({type: 'song'},song))" title="Afficher dans la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"/></button>
-                    </div>
+                    <ElementActions :element="Object.assign({type: 'song'},song)" :settings="settings" @preview="previewElement($event)" @display="displayElement($event)" @search-score="searchScore($event.title, $event.query)" >
+                        <template v-slot:end>
+                            <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"/></button>
+                        </template>
+                    </ElementActions>
                 </li>
             </ul>
         </div>
     </div>
-
 
     <WindowPortal v-model="viewOpened">
       <ViewWindow :element="viewBody" :settings="settings" :live=true />
@@ -85,11 +83,12 @@ import ViewWindow from '../view/ViewWindow'
 import SideBox from '../sideBox/SideBox'
 import Playlist from './Playlist'
 import Settings from './Settings'
+import ElementActions from './ElementActions'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
-import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faFilePdf)
+library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt)
 
 export default {
     name: 'Manager',
@@ -121,8 +120,10 @@ export default {
                 fontSize: 1,
                 viewTitle: true,
                 score: {
-                    query: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
-                    enabled: false
+                    enabled: false,
+                    query: "",
+                    google: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
+                    youtube: "https://www.youtube.com/results?search_query=<TITRE>"
                 }
             },
             previewOpened: false,
@@ -134,7 +135,8 @@ export default {
         ViewWindow,
         Playlist,
         SideBox,
-        Settings
+        Settings,
+        ElementActions
     },
     methods: {
         // LIVE
@@ -172,9 +174,9 @@ export default {
             this.playlist.push(element)
         },
         // PARTITION
-        searchScore: function(title) {
-            if (this.settings.score.query && this.settings.score.query.includes("<TITRE>")) {
-                window.open(this.settings.score.query.replace("<TITRE>", title.replace(' ', '+')))
+        searchScore: function(title, query) {
+            if (query && query.includes("<TITRE>")) {
+                window.open(query.replace("<TITRE>", title.replace(' ', '+')))
             }
         },
 

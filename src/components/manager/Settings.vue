@@ -27,14 +27,14 @@
         <h5>Recherche de partition</h5>
         <div class="custom-control custom-switch form-group">
             <input class="custom-control-input" type="checkbox" id="search-score-enabled" v-model="settings.score.enabled" >
-            <label class="custom-control-label" for="search-score-enabled">Afficher le bouton</label>
+            <label class="custom-control-label" for="search-score-enabled">Afficher les boutons : <div class="btn-group"><button class="btn btn-info btn-sm" aria-disabled="true" style="pointer-events: none;"><font-awesome-icon :icon="'file-pdf'"/></button> <button class="btn btn-info btn-sm" aria-disabled="true" style="pointer-events: none;"><font-awesome-icon :icon="['fab','google']"/></button> <button class="btn btn-info btn-sm" aria-disabled="true" style="pointer-events: none;"><font-awesome-icon :icon="['fab','youtube']"/></button></div></label>
         </div>
         <div class="form-group row">
             <label for="search-score-query" class="col-sm-2 col-form-label">Lien</label>
             <div class="col-sm-10">
                 <input type="text" name="search-score-query" aria-describedby="search-score-query-help" id="search-score-query" class="form-control" v-model="settings.score.query">
             </div>
-            <small id="search-score-query-help" class="form-text text-muted col-12">Insérer &lt;TITRE&gt; où doit être ajouté le nom du chant recherché</small>
+            <small id="search-score-query-help" class="form-text text-muted col-12">Insérer <em>&lt;TITRE&gt;</em> où doit être ajouté le nom du chant recherché</small>
         </div>
     </form>
 
