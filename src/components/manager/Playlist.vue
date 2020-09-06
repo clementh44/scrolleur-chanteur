@@ -2,13 +2,13 @@
 <div>
     <div class="btn-toolbar mb-3">
         <div class="btn-group mr-3">
-            <button @click="display({type:'grid'})" type="button" class="btn btn-secondary" title="Quadrillage d'aide au cadrage de la projection"><font-awesome-icon :icon="'border-all'"/></button>
+            <button @click="display({type:'grid'})" type="button" class="btn btn-secondary" title="Quadrillage d'aide au cadrage de la projection"><font-awesome-icon :icon="'border-all'"></font-awesome-icon></button>
         </div>
         <div class="btn-group">
             <div class="btn btn-secondary" aria-disabled="true" style="pointer-events: none;">Ajouter :</div>
-            <button @click="addElement({type:'empty',title:'Contenu vide'})" type="button" class="btn btn-secondary" title="Contenu vide"><font-awesome-icon :icon="['far','square']"/></button>
-            <button @click="addElement({type:'text',title:'Texte à personnaliser'})" type="button" class="btn btn-secondary" title="Texte personnalisé"><font-awesome-icon :icon="'align-left'"/></button>
-            <label @change="addFile($event)" class="btn btn-secondary m-0" for="input-file" title="Importer une image"><font-awesome-icon :icon="'image'"/> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"></label>
+            <button @click="addElement({type:'empty',title:'Contenu vide'})" type="button" class="btn btn-secondary" title="Contenu vide"><font-awesome-icon :icon="['far','square']"></font-awesome-icon></button>
+            <button @click="addElement({type:'text',title:'Texte à personnaliser'})" type="button" class="btn btn-secondary" title="Texte personnalisé"><font-awesome-icon :icon="'align-left'"></font-awesome-icon></button>
+            <label @change="addFile($event)" class="btn btn-secondary m-0" for="input-file" title="Importer une image"><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"></label>
         </div>
     </div>
 
@@ -24,7 +24,7 @@
                     </div>
                     <div class="custom-control custom-switch form-group">
                         <input class="custom-control-input" type="checkbox" name="isTitleDisplayed" id="title-displayed-checkbox" v-model="editedElement.isTitleDisplayed" >
-                        <label class="custom-control-label" for="title-displayed-checkbox">Afficher le titre dans la présentation (<font-awesome-icon :icon="'desktop'"/>)</label>
+                        <label class="custom-control-label" for="title-displayed-checkbox">Afficher le titre dans la présentation (<font-awesome-icon :icon="'desktop'"></font-awesome-icon>)</label>
                     </div>
                     <div class="form-group">
                         <label for="custom-text-body">Corps du texte</label>
@@ -45,11 +45,11 @@
                 <div class="flex-grow-1">{{element.title}}</div>
                 <ElementActions :element="element" :settings="settings" @preview="preview($event)" @display="display($event)" @search-score="$emit('search-score',{title: $event.title, query: $event.query})">
                     <template v-slot:first>
-                        <button class="btn btn-light btn-sm" v-if="canEdit(element)" @click="edit(element)" title="Editer l'élément"><font-awesome-icon :icon="['far','edit']"/></button>
+                        <button class="btn btn-light btn-sm" v-if="canEdit(element)" @click="edit(element)" title="Editer l'élément"><font-awesome-icon :icon="['far','edit']"></font-awesome-icon></button>
                     </template>
                     <template v-slot:end>
-                        <button class="btn btn-light btn-sm handle" title="Déplacer l'élément"><font-awesome-icon :icon="'arrows-alt-v'"/></button>
-                        <button class="btn btn-light btn-sm" @click="removeAt(index)" title="Supprimer l'élément de la playlist"><font-awesome-icon :icon="'trash-alt'"/></button>
+                        <button class="btn btn-light btn-sm handle" title="Déplacer l'élément"><font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon></button>
+                        <button class="btn btn-light btn-sm" @click="removeAt(index)" title="Supprimer l'élément de la playlist"><font-awesome-icon :icon="'trash-alt'"></font-awesome-icon></button>
                     </template>
                 </ElementActions>
             </div>

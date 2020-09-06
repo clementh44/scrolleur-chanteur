@@ -7,34 +7,34 @@
         </button>
         <p>Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet et de ne pas la fermer ou l'actualiser pour s'en servir.</p>
         <hr>
-        <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur).</p>
-        <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"/>.</p>
-        <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"/> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"/>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"/>) ; une image (avec <font-awesome-icon :icon="'image'"/>).</p>
+        <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur).</p>
+        <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
+        <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).</p>
     </div>
 
     <div class="card my-3">
         <div class="card-body">
-            <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"/> Ouvrir/Fermer la fenêtre de présentation</button></p>
-            <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"/> Aperçu</button></p>
-            <p class="mb-0"><button @click=toggleParam class="btn btn-primary"><font-awesome-icon :icon="'sliders-h'"/> Paramètres</button></p>
+            <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Ouvrir/Fermer la fenêtre de présentation</button></p>
+            <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"></font-awesome-icon> Aperçu</button></p>
+            <p class="mb-0"><button @click=toggleParam class="btn btn-primary"><font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres</button></p>
         </div>
     </div>
 
     <div class="card mb-3">
         <a id="playlist-header" class="text-decoration-none" data-toggle="collapse" href="#collapse-playlist" aria-expanded="true" aria-controls="collapse-playlist">
             <h3 class="card-header d-flex justify-content-between">
-                Playlist <font-awesome-icon class="pull-right" :icon="'chevron-down'"/>
+                Playlist <font-awesome-icon class="pull-right" :icon="'chevron-down'"></font-awesome-icon>
             </h3>
         </a>
         <div id="collapse-playlist" class="card-body collapse show" aria-labelledby="playlist-header">
-            <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" :settings="settings" v-on:search-score="searchScore($event.title, $event.query)" />
+            <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" :settings="settings" v-on:search-score="searchScore($event.title, $event.query)"></Playlist>
         </div>
     </div>
 
     <div class="card mb-3">
         <a id="repertory-header" class="text-decoration-none" data-toggle="collapse" href="#collapse-repertory" aria-expanded="true" aria-controls="collapse-repertory">
             <h3 class="card-header d-flex justify-content-between">
-                Répertoire <font-awesome-icon class="pull-right" :icon="'chevron-down'"/>
+                Répertoire <font-awesome-icon class="pull-right" :icon="'chevron-down'"></font-awesome-icon>
             </h3>
         </a>
         <div id="collapse-repertory" class="card-body collapse show" aria-labelledby="repertory-header">
@@ -43,7 +43,7 @@
                 <div class="input-group">
                     <input type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-model="search" @focus="$event.target.select()">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" @click="search = ''" ><font-awesome-icon :icon="'times'"/></button>
+                        <button class="btn btn-outline-secondary" type="button" @click="search = ''" ><font-awesome-icon :icon="'times'"></font-awesome-icon></button>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                     <div class="flex-grow-1">{{ song.title }}</div>
                     <ElementActions :element="Object.assign({type: 'song'},song)" :settings="settings" @preview="previewElement($event)" @display="displayElement($event)" @search-score="searchScore($event.title, $event.query)" >
                         <template v-slot:end>
-                            <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"/></button>
+                            <button class="btn btn-light btn-sm" @click="addElement(Object.assign({type: 'song'},song))" title="Ajouter dans la playlist"><font-awesome-icon :icon="'plus'"></font-awesome-icon></button>
                         </template>
                     </ElementActions>
                 </li>
@@ -61,16 +61,16 @@
     </div>
 
     <WindowPortal v-model="viewOpened">
-      <ViewWindow :element="viewBody" :settings="settings" :live=true />
+      <ViewWindow :element="viewBody" :settings="settings" :live=true></ViewWindow>
     </WindowPortal>
     <SideBox v-show="previewOpened" header="Aperçu" @close="previewOpened = false">
         <template v-slot:content>
-            <ViewWindow :element="previewBody" :settings="settings" :live=false />
+            <ViewWindow :element="previewBody" :settings="settings" :live=false></ViewWindow>
         </template>
     </SideBox>
     <SideBox v-show="paramOpened" header="Paramètres" @close="paramOpened = false">
         <template v-slot:content>
-            <Settings :settings="settings" />
+            <Settings :settings="settings"></Settings>
         </template>
     </SideBox>
 </div>

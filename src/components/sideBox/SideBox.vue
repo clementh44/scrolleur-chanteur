@@ -4,7 +4,7 @@
         <div class="d-flex justify-content-between side-box-header">
             <h3 class="m-0">{{ header }}</h3>
             <button class="btn btn-sm btn-light" @click="close">
-                <font-awesome-icon :icon="'times'"/>
+                <font-awesome-icon :icon="'times'"></font-awesome-icon>
             </button>
         </div>
         <hr class="row">

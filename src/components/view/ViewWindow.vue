@@ -21,7 +21,7 @@
     </template>
 
     <template v-else-if="element.type == 'file'">
-        <img :src="element.file" class="img-fluid"/>
+        <img :src="element.file" class="img-fluid">
         <div class="empty"></div>
     </template>
 
