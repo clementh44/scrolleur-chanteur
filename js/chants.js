@@ -43,11 +43,11 @@ var chants = [
 	},
 	{
 		"type": "verse",
-		"text": "5. Tu es venue jusqu'à moi, tu me visites, ô Marie,\nMoi si pauvre et si petit, solitaire au cœur fermé !\nTu cours pour me rencontrer : j'ai donc du prix à tes yeux !\nPar toi Dieu vient me chercher et m'ouvrir à l'amitié !\nNous venons à toi !"
+		"text": "5 - Tu es venue jusqu'à moi, tu me visites, ô Marie,\nMoi si pauvre et si petit, solitaire au cœur fermé !\nTu cours pour me rencontrer : j'ai donc du prix à tes yeux !\nPar toi Dieu vient me chercher et m'ouvrir à l'amitié !\nNous venons à toi !"
 	},
 	{
 		"type": "verse",
-		"text": "6. Comment garder pour moi seul un tel bonheur, un tel feu ?\nÀ mon tour je veux sortir : j'ai des frères à rencontrer !\nRegardons le monde entier avec les yeux du Seigneur.\nQue Dieu nous fasse témoins, dans l'Église avec les saints\nNous venons à toi !"
+		"text": "6 - Comment garder pour moi seul un tel bonheur, un tel feu ?\nÀ mon tour je veux sortir : j'ai des frères à rencontrer !\nRegardons le monde entier avec les yeux du Seigneur.\nQue Dieu nous fasse témoins, dans l'Église avec les saints\nNous venons à toi !"
 	}
 	]
 },
@@ -2150,7 +2150,7 @@ var chants = [
 	]
 },
 {
-	"id": "notr-dieu-sest-fait-homme",
+	"id": "notre-dieu-sest-fait-homme",
 	"title": "Notre Dieu s'est fait homme",
 	"lyrics": [
 	{
@@ -4536,32 +4536,46 @@ var chants = [
 	]
 },
 {
-	"id": "psaume-de-la-creation",
-	"title": "Psaume de la création",
+	"id": "approchons-nous-de-la-table",
+	"title": "Approchons-nous de la table",
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Par les cieux devant toi, splendeur et majesté\nPar l’infiniment grand, l’infiniment petit\nEt par le firmament, ton manteau étoilé\nEt par frère soleil, je veux crier :"
+		"text": "1 - Approchons-nous de la table\nOù le Christ va s'offrir parmi nous.\nOffrons-lui ce que nous sommes\nCar le Christ va nous transformer en lui."
 	},
+	{
+		"type": "verse",
+		"text": "2 - Voici l'admirable échange\nOù le christ prend sur lui nos péchés.\nMettons-nous en sa présence,\nIl nous revêt de sa divinité."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Père, nous te rendons grâce\nPour ton Fils, Jésus Christ le Seigneur.\nPar ton Esprit de puissance,\nRends-nous dignes de vivre de tes dons."
+	}
+	]
+},
+{
+	"id": "tu-entends-mon-cri",
+	"title": "Tu entends mon cri",
+	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Mon Dieu, tu es grand, tu es beau\nDieu vivant, Dieu très-haut\nTu es le Dieu d'amour\nMon Dieu, tu es grand, tu est beau\nDieu vivant, Dieu très-haut\nDieu présent en toute création"
+		"text": "Tu entends mon cri, tendre Père,\nToi l'infinie miséricorde\nJe m'appuie sur toi, je t'espère,\nParle Seigneur, mon coeur est prêt."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Par tous les océans et par toutes les mers\nPar tous les continents et par l’eau des rivières\nPar le feu qui te dit comme un buisson ardent\nEt par l’aile du vent, je veux crier :"
+		"text": "1 - Comme l'or au creuset, purifie mon coeur\nNe m'abandonne pas.\nPar l'eau et par le feu, renouvelle-moi,\nRevêts-moi de ta joie."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Par toutes les montagnes et toutes les vallées\nPar l’ombre des forêts et par les fleurs des champs\nPar les bourgeons des arbres et l’herbe des prairies\nPar le blé en épis, je veux crier :"
+		"text": "2 - Sans crainte devant toi, je remets ma vie,\nNe m'abandonne pas.\nMontre moi ton chemin affermis mes pas,\nRevêts moi de ta joie."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Par tous les animaux de la terre et de l’eau\nPar le chant des oiseaux, par le chant de la vie\nPar l’Homme que tu fis juste moins grand que toi\nEt par tous ses enfants, je veux crier :"
+		"text": "3 - Au plus fort de la nuit reste près de moi,\nNe m'abandonne pas.\nJe choisis la clarté car j'aime ta loi\nRevêts moi de ta joie."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Par cette main tendue qui invite à la danse\nPar ce baiser jailli d’un élan d’espérance\nPar ce regard d’amour qui relève et réchauffe\nPar le pain et le vin, je veux crier :"
+		"text": "4 - Attentif à ma voie, tu veilles toujours\nNe m'abandonne pas.\nMa bouche redira sans fin ton amour\nRevêts moi de ta joie."
 	}
 	]
 }

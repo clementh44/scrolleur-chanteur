@@ -2,10 +2,10 @@
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
-### Version 4 en cours en développement. Aperçu ici : **[https://chantons.netlify.app/](https://chantons.netlify.app/)**
+### Version 4 plus facile à utiliser : **[https://chantons.netlify.app/](https://chantons.netlify.app/)**
 
-## Comment télécharger et afficher les paroles ?
- - **Télécharger la dernière version [ici](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
+## (Version 3) Comment télécharger et afficher les paroles ?
+ - **Télécharger la dernière version [> ici <](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
  - Décompresser le fichier téléchargé (clic droit > extraire)
  - Ouvrir Paroles.html (cela s'ouvre avec un navigateur internet)
 
@@ -410,4 +410,12 @@ corrections
 **31/08/2020 v3.6.8**
 ```
   + Psaume de la création
+```
+
+**06/09/2020 v3.6.9**
+```
+  corrections chants
+  + Approchons-nous de la table
+  + Tu entends mon cri
+  + Notre dieu c’est fait homme
 ```
