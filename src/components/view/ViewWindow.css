@@ -25,6 +25,10 @@
 }
 
 /* SONG */
+.song {
+    white-space: pre-wrap;
+}
+
 .song .chorus {
 	font-weight: bold;
     padding-bottom: 10px;
