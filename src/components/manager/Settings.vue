@@ -5,21 +5,32 @@
             <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
             <div class="col-sm-10"><select v-model="settings.viewTheme" id="param-theme" class="form-control"><option v-for="(theme, index) in settings.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></div>
         </div>
+
         <hr>
-        <h5>Chants</h5>
+
+        <h5>Chant et texte personnalisé</h5>
         <div class="form-group row">
             <label for="param-padding" class="col-sm-2 col-form-label">Marges</label>
-            <div class="col-sm-10"><select aria-describedby="param-padding-help" v-model="settings.padding" id="param-padding" class="form-control"><option v-for="(padding, index) in settings.paddings" :key="index" :value="padding.value">{{ padding.text }}</option></select></div>
-            <small id="param-padding-help" class="form-text text-muted col-12">Marge à gauche et droite du chant</small>
+            <div class="col-sm-10 d-flex"><input aria-describedby="param-padding-help" type="range" v-model="settings.padding" id="param-padding" class="form-control-range" min="0" max="5" step="1"></div>
+            <small id="param-padding-help" class="form-text text-muted col-12">Marges à gauche et droite</small>
         </div>
         <div class="form-group row">
             <label for="param-font-size" class="col-sm-2 col-form-label">Taille</label>
-            <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="settings.fontSize" id="param-font-size" class="form-control-range" min="0.5" max="2" step="0.1"></div>
+            <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="settings.fontSize" id="param-font-size" class="form-control-range" min="0.5" max="4" step="0.1"></div>
             <small id="param-font-size-help" class="form-text text-muted col-12">Taille de la police d'écriture multipliée par {{ settings.fontSize }}</small>
         </div>
+
+        <hr>
+
+        <h5>Chant</h5>
         <div class="custom-control custom-switch form-group">
-            <input class="custom-control-input" type="checkbox" id="param-title" v-model="settings.viewTitle">
+            <input class="custom-control-input" type="checkbox" id="param-title" v-model="settings.song.viewTitle">
             <label class="custom-control-label" for="param-title" >Afficher le titre</label>
+        </div>
+        <div class="form-group row">
+            <label for="param-verse-opacity" class="col-sm-2 col-form-label">Couplet caché</label>
+            <div class="col-sm-10 d-flex"><input aria-describedby="param-verse-opacity-help" type="range" v-model="settings.song.verseOpacity" id="param-verse-opacity" class="form-control-range" min="0" max="0.9" step="0.01"></div>
+            <small id="param-verse-opacity-help" class="form-text text-muted col-12">Change la transparence des couplets quand ils sont cachés à {{ settings.song.verseOpacity * 100 }}% (0% totalement invisible)</small>
         </div>
 
         <hr>

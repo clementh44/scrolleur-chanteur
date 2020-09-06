@@ -54,6 +54,7 @@
     margin-left: 1em;
     font-weight: 100;
     font-size: 0.9em;
+    transition: opacity 1s;
 }
 
 .show {
@@ -81,4 +82,13 @@
 .custom-text-body {
     white-space: pre-wrap;
     font-size: 1em;
+}
+
+/* FILE */
+.file {
+    overflow: hidden;
+}
+.file img {
+    margin-left: 50%;
+    transform: translateX(-50%);
 }

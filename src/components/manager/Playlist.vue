@@ -31,6 +31,13 @@
                         <textarea class="form-control" id="custom-text-body" name="content"  rows="10" v-model="editedElement.text"></textarea>
                     </div>
                 </form>
+                <form v-if="editedElement.type == 'file'">
+                    <div class="form-group">
+                        <label for="file-width">Largeur du fichier dans la présentation</label>
+                        <input aria-describedby="file-width-help" type="range" v-model="editedElement.width" id="file-width" class="form-control-range" min="10" max="200" step="1">
+                        <small id="file-width-help" class="form-text text-muted">Le fichier prendra {{ editedElement.width }}% de la largeur de la présentation</small>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="card-footer">
@@ -71,7 +78,7 @@ export default {
     name: "Playlist",
     data: function() {
         return {
-            editableTypes: ['text'],
+            editableTypes: ['text','file'],
             isEdited: false,
             editedElement: null
         }
@@ -130,7 +137,8 @@ export default {
                     this.addElement({
                         type: "file",
                         title: "Fichier : " + file.target.files[0].name,
-                        file: fr.result
+                        file: fr.result,
+                        width: 100
                     })
                 }
                 fr.readAsDataURL(file.target.files[0])

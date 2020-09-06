@@ -10,6 +10,7 @@
         <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur).</p>
         <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
         <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).</p>
+        <p>Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.</p>
     </div>
 
     <div class="card my-3">
@@ -102,23 +103,19 @@ export default {
             search: "",
             paramOpened: false,
             settings: {
+                version: 20200906, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
                 defaulTheme: 'custom-light',
                 viewTheme: 'custom-light',
                 viewThemes: [
                     {text: 'clair', value: 'custom-light'},
                     {text: 'foncé', value: 'custom-dark'}
                 ],
-                padding: 'px-0',
-                paddings: [
-                    {text: 'marges taille 0', value: 'px-0'},
-                    {text: 'marges taille 1', value: 'px-1'},
-                    {text: 'marges taille 2', value: 'px-2'},
-                    {text: 'marges taille 3', value: 'px-3'},
-                    {text: 'marges taille 4', value: 'px-4'},
-                    {text: 'marges taille 5', value: 'px-5'}
-                ],
+                padding: 0,
                 fontSize: 1,
-                viewTitle: true,
+                song: {
+                    viewTitle: true,
+                    verseOpacity: 0.1
+                },
                 score: {
                     enabled: false,
                     query: "",
@@ -204,7 +201,7 @@ export default {
         filteredSongs: function() {
             return this.sortedSongs.filter((song) => {
                 // normalise le terme recherché (sans accents, minuscule)
-                return this.search.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().split(' ').every(s => song.id.includes(s))
+                return this.search.normalize("NFD").replace(/[\u0300-\u036f,']/g, "").toLowerCase().split(' ').every(s => song.id.includes(s))
             })
         }
     },
@@ -216,7 +213,11 @@ export default {
     },
     mounted() {
         if (localStorage.getItem('settings')) {
-            this.settings = JSON.parse(localStorage.getItem('settings'))
+            var localSettings = JSON.parse(localStorage.getItem('settings'))
+            // pour forcer la mise à zéro des paramètres s'il y a des changements dans la structure
+            if (localSettings.version && localSettings.version >= this.settings.version) {
+                this.settings = localSettings
+            }
         }
         if (localStorage.getItem('playlist')) {
             this.playlist = JSON.parse(localStorage.getItem('playlist'))

@@ -1,19 +1,20 @@
 <template>
 <div :class="['user-select-none', live ? settings.viewTheme : settings.defaulTheme]" :style="[ live ? {cursor: smallCursor} : '' ]">
     <template v-if="element.type == 'song'">
-        <div :class="['song', live ? settings.padding : '']" :style="[ live ? {fontSize: settings.fontSize+'em'} : '' ]">
-            <div class="title mb-1" v-show="!live || settings.viewTitle">{{ element.title }}</div>
+        <div :class="['song', live ? 'px-' + settings.padding : '']" :style="[ live ? {fontSize: settings.fontSize+'em'} : '' ]">
+            <div class="title mb-1" v-show="!live || settings.song.viewTitle">{{ element.title }}</div>
 
             <div v-for="(lyrics, index) in element.lyrics"
             :key="index"
             :class="[lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}, update]"
+            :style="[lyrics.type == 'chorus' || lyrics.show ? '' : {opacity: settings.song.verseOpacity}]"
             @click="toggleLyrics(lyrics)">{{ lyrics.text }}</div>
         </div>
         <div class="empty"></div>
     </template>
 
     <template v-else-if="element.type == 'text'">
-        <div :class="['custom-text', settings.padding]" :style="{ fontSize: settings.fontSize+'em' }">
+        <div :class="['custom-text', live ?  'px-' + settings.padding : '']" :style="[ live ? {fontSize: settings.fontSize+'em'} : '' ]">
             <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
             <div class="custom-text-body">{{ element.text }}</div>
         </div>
@@ -21,7 +22,9 @@
     </template>
 
     <template v-else-if="element.type == 'file'">
-        <img :src="element.file" class="img-fluid">
+        <div class="file">
+            <img :src="element.file" :style="{width: element.width + '%'}">
+        </div>
         <div class="empty"></div>
     </template>
 
@@ -60,9 +63,8 @@ export default {
                     lyrics.sticky = !lyrics.sticky
                     break;
                 case "verse":
-                    lyrics.show = !lyrics.show
-                    break;
                 case "translation":
+                    lyrics.show = !lyrics.show
                     break;
                 default:
                     break;
