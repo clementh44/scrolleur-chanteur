@@ -30,7 +30,7 @@
         <div class="form-group row">
             <label for="param-verse-opacity" class="col-sm-2 col-form-label">Couplet caché</label>
             <div class="col-sm-10 d-flex"><input aria-describedby="param-verse-opacity-help" type="range" v-model="settings.song.verseOpacity" id="param-verse-opacity" class="form-control-range" min="0" max="0.9" step="0.01"></div>
-            <small id="param-verse-opacity-help" class="form-text text-muted col-12">Change la transparence des couplets quand ils sont cachés à {{ settings.song.verseOpacity * 100 }}% (0% totalement invisible)</small>
+            <small id="param-verse-opacity-help" class="form-text text-muted col-12">Change la transparence des couplets et traductions quand ils sont cachés à {{ settings.song.verseOpacity }} sur 1 (0 = totalement invisible)</small>
         </div>
 
         <hr>

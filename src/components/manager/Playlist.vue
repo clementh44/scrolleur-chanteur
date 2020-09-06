@@ -62,12 +62,15 @@
             </div>
         </li>
     </draggable>
+
+    <Undo ref="deleteElement" @restoreElement="addElement($event)"></Undo>
 </div>
 </template>
 
 <script>
 import draggable from 'vuedraggable'
 import ElementActions from './ElementActions'
+import Undo from './Undo'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare, faEdit } from '@fortawesome/free-regular-svg-icons'
 import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage } from '@fortawesome/free-solid-svg-icons'
@@ -93,7 +96,8 @@ export default {
     },
     components: {
         draggable,
-        ElementActions
+        ElementActions,
+        Undo
     },
     computed: {
         listLocal: {
@@ -113,7 +117,8 @@ export default {
             this.$emit("preview", element)
         },
         removeAt(index) {
-            this.playlist.splice(index, 1);
+            var element = this.playlist.splice(index, 1)[0]
+            this.$refs.deleteElement.addElement(element, element.title)
         },
         addElement: function(element) {
             this.playlist.push(element)
