@@ -1,0 +1,94 @@
+/* COMMON */
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+/* THEME */
+.custom-light,
+.custom-light .sticky {
+    background: #fff;
+    color: #000;
+}
+.custom-dark,
+.custom-dark .sticky {
+    background: #000;
+    color: #fff;
+}
+
+/* EMPTY */
+.empty {
+    width: 100%;
+    height: 100%;
+}
+
+/* SONG */
+.song {
+    white-space: pre-wrap;
+}
+
+.song .chorus {
+	font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.sticky {
+    top: 0px;
+    position: sticky;
+    z-index: 100;
+}
+
+.song .verse {
+	margin-bottom: 10px;
+    opacity: 0.1;
+    transition: opacity 1s;
+    font-size: 1em;
+}
+
+.translation {
+    font-style: italic;
+    font-size: smaller;
+    margin-left: 1em;
+    font-weight: 100;
+    font-size: 0.9em;
+    transition: opacity 1s;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+/* GRID */
+#screenTable {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#screenTable, #screenTable td {
+    border: 5px solid Lime;
+    border-collapse: collapse;
+}
+
+#screenTable td {
+    width: 10%;
+    height: 10%;
+}
+
+/* CUSTOM TEXT */
+.custom-text-body {
+    white-space: pre-wrap;
+    font-size: 1em;
+}
+
+/* FILE */
+.file {
+    overflow: hidden;
+}
+.file img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

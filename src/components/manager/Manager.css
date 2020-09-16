@@ -1,0 +1,6 @@
+.card-header .fa-chevron-down {
+    transition: .3s transform ease-in-out;
+}
+.collapsed .card-header .fa-chevron-down {
+    transform: rotate(90deg);
+}

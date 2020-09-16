@@ -1,24 +1,12 @@
-# Scrolleur Chanteur
+# Scrolleur Chanteur - v4.0
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
-### Version 4 plus facile à utiliser : **[https://chantons.netlify.app/](https://chantons.netlify.app/)**
+### Utiliser la dernière version : [https://chantons.netlify.app/](https://chantons.netlify.app/)
 
-## (Version 3) Comment télécharger et afficher les paroles ?
- - **Télécharger la dernière version [> ici <](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
- - Décompresser le fichier téléchargé (clic droit > extraire)
- - Ouvrir Paroles.html (cela s'ouvre avec un navigateur internet)
-
-
-## Aperçu
-![aperçu de la page](https://media.giphy.com/media/SUtin2dmPZqqX6elFc/giphy.gif)
-
-## Comment ajouter un chant ?
-En modifiant les fichiers : les chants sont listés dans le dossier "*js*" dans le fichier "*chants.js*"
- - utiliser le formulaire dans "Ajouter chant.html" OU reprendre le modèle à la main
- - puis insérer le chant sans faire attention à l'ordre (tri automatique avec l'identifiant 'id')
-
-Ou en m'envoyant le titre ou les paroles complètes via [ce formulaire](https://forms.gle/ERwYSsr3urWw5rZ36)
+## Ancienne version
+La version 3 ne sera pas améliorée mais est téléchargeable **[> ici <](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
+Les chants ajoutés dans la version 4 ne seront peut-être pas dans cette version 3. Ouvrir Ajouter chant.html pour en ajouter manuellement.
 
 ### Consignes pour un chant :
 - **Titre**
@@ -55,19 +43,6 @@ Ou en m'envoyant le titre ou les paroles complètes via [ce formulaire](https://
     - 7 = agnus
 
 si plusieurs messes ont les mêmes paroles, juste modifier l'id et le titre en ajoutant le nom de la messe
-
-
-## CMG sans
-Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotiongraphics.com/cmg-sans/)
-
-
-## ToDo
-- paramètre taille police ; zoom ?
-- ajouter une liste de chants : une pile de chants à personnaliser pour préparer l'ordre à l'avance
-- ajout automatique du chant dans le fichier
-- possibilité de choisir son fichier de chants (base de données)
-- page formulaire : ajout bouton pour reset le formulaire
-
 
 ## Changelog
 ### *** v1.0 ***
@@ -418,4 +393,25 @@ corrections
   + Approchons-nous de la table
   + Tu entends mon cri
   + Notre dieu c’est fait homme
+```
+
+### *** v4.0 ***
+Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netlify.app/)
+> sans installation
+> hors ligne
+> sauvegarde des paramètres danns le navigateur
+> facile d'utilisation
+
+**16/09/2020 v4.0.1**
+```
+  la version 4 est maintenant la principale
+  + Ordinaire de messe Au coeur de ce monde (Rimaud)
+  + Si le Père vous appelle
+  + Bénissez Dieu
+  + Alléluia, Jubilate
+  + Esprit de lumière, Esprit créateur
+  + Allez à Jésus Eucharistie
+  + Jésus, Agneau de Dieu
+  + Allez dans le monde entier
+  + Par toute la terre
 ```
