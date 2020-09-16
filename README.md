@@ -2,7 +2,11 @@
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
-[https://chantons.netlify.app/](https://chantons.netlify.app/)
+### Utiliser la dernière version : [https://chantons.netlify.app/](https://chantons.netlify.app/)
+
+## Ancienne version
+La version 3 ne sera pas améliorée mais est téléchargeable **[> ici <](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
+Les chants ajoutés dans la version 4 ne seront peut-être pas dans cette version 3. Ouvrir Ajouter chant.html pour en ajouter manuellement.
 
 ### Consignes pour un chant :
 - **Titre**
@@ -39,10 +43,6 @@ Genre de logiciel gratuit de vidéo-projection des paroles de chants et même pl
     - 7 = agnus
 
 si plusieurs messes ont les mêmes paroles, juste modifier l'id et le titre en ajoutant le nom de la messe
-
-
-## CMG sans
-Police d'écriture téléchargée ici : [CMG sans font](https://www.churchmotiongraphics.com/cmg-sans/)
 
 ## Changelog
 ### *** v1.0 ***
@@ -401,3 +401,17 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 > hors ligne
 > sauvegarde des paramètres danns le navigateur
 > facile d'utilisation
+
+**16/09/2020 v4.0.1**
+```
+  la version 4 est maintenant la principale
+  + Ordinaire de messe Au coeur de ce monde (Rimaud)
+  + Si le Père vous appelle
+  + Bénissez Dieu
+  + Alléluia, Jubilate
+  + Esprit de lumière, Esprit créateur
+  + Allez à Jésus Eucharistie
+  + Jésus, Agneau de Dieu
+  + Allez dans le monde entier
+  + Par toute la terre
+```

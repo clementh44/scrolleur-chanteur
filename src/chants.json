@@ -4578,6 +4578,300 @@
 		"text": "4 - Attentif à ma voie, tu veilles toujours\nNe m'abandonne pas.\nMa bouche redira sans fin ton amour\nRevêts moi de ta joie."
 	}
 	]
+},
+{
+	"id": "messe-1-au-coeur-de-ce-monde-jesus-berger-de-toute-humanite",
+	"title": "(Messe Au cœur de ce monde) Jésus, berger de toute humanité",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Jésus, Berger de toute humanité,\nTu es venu chercher ceux qui étaient perdus."
+	},
+	{
+		"type": "chorus",
+		"text": "Prends pitié de nous, fais-nous revenir,\nFais-nous revenir à toi ! Prends pitié de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Jésus, Berger de toute humanité,\nTu es venu guérir ceux qui étaient malades."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Jésus, Berger de toute humanité,\nTu es venu sauver ceux qui étaient pécheurs."
+	}
+	]
+},
+{
+	"id": "messe-2-au-coeur-de-ce-monde-gloire-a-dieu-dans-le-ciel",
+	"title": "(Messe Au cœur de ce monde) Gloire à Dieu dans le ciel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu dans le ciel\nGrande paix sur la Terre (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Nous te louons, nous te bénissons, nous t’adorons,\nNous te glorifions, nous te rendons grâce pour ton immense gloire !"
+	},
+	{
+		"type": "verse",
+		"text": "Seigneur Dieu, le Roi du ciel, le Père tout-puissant !\nSeigneur Dieu, Agneau de Dieu, le Fils du Père !"
+	},
+	{
+		"type": "verse",
+		"text": "Le seul Saint, le seul Seigneur, le seul Très Haut !\nJésus-Chrsit, avec l'esprit, dans la gloire du Père !"
+	}
+	]
+},
+{
+	"id": "messe-5-au-coeur-de-ce-monde-saint-le-dieu-de-lunivers",
+	"title": "(Messe Au cœur de ce monde) Saint, le Dieu de l'Univers",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Saint est le Seigneur, le Dieu de l’univers,"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta gloire,"
+	},
+	{
+		"type": "verse",
+		"text": "Qu’il soit béni au nom du Seigneur,\nCelui qui est, qui était et qui vient."
+	}
+	]
+},
+{
+	"id": "messe-6-au-coeur-de-ce-monde-tu-es-venu-tu-reviendras",
+	"title": "(Messe Au cœur de ce monde) Tu es venu, tu reviendras",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Tu es venu, tu reviendras,\nSeigneur Jésus nous t’attendons.\nTu étais mort, tu es vivant,\nSeigneur Jésus, sois notre vie"
+	}
+	]
+},
+{
+	"id": "messe-7-au-coeur-de-ce-monde-agneau-glorieux",
+	"title": "(Messe Au cœur de ce monde) Agneau glorieux",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Agneau glorieux,\nAgneau que nous avions rejeté,\nAgneau devenu notre Berger."
+	},
+	{
+		"type": "chorus",
+		"text": "Prends pitié de nous : Conduis-nous vers le Père !\nPrends pitié de nous : Guide-nous dans la paix !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Agneau glorieux,\nAgneau que nous avions immolé,\nAgneau devenu notre Berger."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Agneau glorieux,\nAgneau que nous avions crucifié,\nAgneau devenu notre Berger."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Agneau glorieux,\nAgneau que nous avions transpercé,\nAgneau devenu notre Berger."
+	}
+	]
+},
+{
+	"id": "si-le-pere-vous-appelle",
+	"title": "Si le Père vous appelle",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Si le Père vous appelle à aimer comme il vous aime,\nDans le feu de son Esprit, bienheureux êtes-vous !\nSi le monde vous appelle à lui rendre une espérance,\nA lui dire son salut, bienheureux êtes-vous !\nSi l'Eglise vous appelle à peiner pour le Royaume,\nAux travaux de la moisson, bienheureux êtes-vous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Tressaillez de joie ! Tressaillez de joie !\nCar vos noms sont inscrits pour toujours dans les cieux !\nTressaillez de joie ! Tressaillez de joie !\nCar vos noms sont inscrits dans le coeur de Dieu !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Si le Père vous appelle à la tâche des apôtres,\nEn témoins du seul Pasteur, bienheureux êtes-vous !\nSi le monde vous appelle à l'accueil et au partage\nPour bâtir son unité, bienheureux êtes-vous !\nSi l'Eglise vous appelle à répandre l'Evangile\nEn tout point de l'univers, bienheureux êtes-vous !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Si le Père vous appelle à quitter toute richesse\nPour ne suivre que son Fils, bienheureux êtes-vous !\nSi le monde vous appelle à lutter contre la haine\nPour la quête de la Paix, bienheureux êtes-vous !\nSi l'Eglise vous appelle à tenir dans la prière,\nAu service des pécheurs, bienheureux êtes-vous !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Si le Père vous appelle à parler de ses merveilles,\nA conduire son troupeau, bienheureux êtes-vous !\nSi le monde vous appelle à marcher vers la lumière\nPour trouver la vérité, bienheureux êtes-vous !\nSi l'Eglise vous appelle à semer avec patience\nPour que lève un blé nouveau, bienheureux êtes-vous !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Si le Père vous appelle à montrer qu'il est tendresse,\nA donner le pain vivant, bienheureux êtes-vous !\nSi le monde vous appelle au combat pour la justice,\nAu refus d'être violents, bienheureux êtes-vous !\nSi l'Eglise vous appelle à l'amour de tous les hommes\nAu respect du plus petit, bienheureux êtes-vous !"
+	}
+	]
+},
+{
+	"id": "benissez-dieu",
+	"title": "Bénissez Dieu",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Bénissez Dieu, vous serviteurs de Dieu\nVous tous qui demeurez dans la maison de Dieu.\nLevez les mains vers le Dieu trois fois saint,\nProclamez qu’il est grand, que son nom est puissant !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Oui, je le sais, Notre Seigneur est grand,\nTout ce qu’il veut, sa main peut l’accomplir ;\nDu fond des mers jusqu’au fond des abîmes,\nDepuis la terre jusqu’au plus haut du ciel !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Reconnaissez que le Seigneur est bon !\nIl est fidèle en tout ce qu’il a fait.\nJe veux chanter la douceur de son Nom,\nBéni soit Dieu, par toutes les nations !"
+	}
+	]
+},
+{
+	"id": "alleluia-jubilate",
+	"title": "Alléluia, Jubilate",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Alléluia, Alléluia,\nJubilate Deo.\nAlléluia, Alléluia,\nJubilate, Alléluia."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Louez Dieu car il est bon, alléluia !\nSon Amour est éternel, alléluia !\nDe l'Orient à l'Occident, alléluia !\nBénissons Dieu pour ses merveilles, alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Dieu le Père a envoyé, alléluia !\nJésus-Christ pour nous sauver, alléluia !\nVierge Marie, tu as dit « oui », alléluia !\nL'Emmanuel en toi prend chair, alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Ô Seigneur dans ta passion, alléluia !\nTu as porté chacun de nous, alléluia !\nDe l'ennemi et du péché, alléluia !\nTu es vainqueur, ressuscité, alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Pour toujours, tu es vivant, alléluia !\nDe ton coeur, brasier ardent, alléluia !\nNous puisons l'esprit de vie, alléluia !\nPour t'annoncer au monde entier : alléluia !"
+	}
+	]
+},
+{
+	"id": "esprit-de-lumiere-esprit-createur",
+	"title": "Esprit de lumière, Esprit créateur",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Viens Esprit du Dieu vivant,\nRenouvelle tes enfants,\nViens, Esprit Saint, nous brûler de ton feu !\nDans nos coeurs, répands tes dons,\nSur nos lèvres inspire un chant,\nViens, Esprit Saint, viens transformer nos vies !"
+	},
+	{
+		"type": "chorus",
+		"text": "Esprit de lumière, Esprit Créateur,\nRestaure en nous la joie, le feu, l’Espérance.\nAffermis nos âmes, ranime nos coeurs,\nPour témoigner de ton amour immense."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Fortifie nos corps blessés,\nLave-nous de tout péché,\nViens, Esprit Saint, nous brûler de ton feu !\nFais nous rechercher la paix,\nDésirer la sainteté,\nViens, Esprit Saint, viens transformer nos vies !"
+	},
+	{
+		"type": "chorus",
+		"text": "PONT\nVeni Sancte Spiritus\nVeni Sancte Spiritus (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Donne-nous la charité\nPour aimer en vérité,\nViens, Esprit Saint, nous brûler de ton feu !\nNous accueillons ta clarté\nPour grandir en liberté,\nViens, Esprit Saint, viens transformer nos vies !"
+	}
+	]
+},
+{
+	"id": "allez-a-jesus-eucharistie",
+	"title": "Allez à Jésus Eucharistie",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Allez à Jésus-Eucharistie,\nallez au Dieu vivant caché dans cette hostie !\nSoyez amoureux du Pain de Vie,\ncontemplez-le avec Marie !\nAllez à Jésus-Eucharistie,\nallez au Dieu vivant caché dans cette hostie !\nSoyez amoureux du Pain de Vie,\net soyez transformés en lui !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Par son visage, soyez réjouis !\nPar son regard, soyez éblouis !\nPar sa voix, soyez conduit !\nDans son cœur, venez puiser la Vie !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Par sa tendresse, soyez consolés !\nPar sa douceur, soyez transformés !\nDe sa joie, soyez comblés !\nDans son cœur, venez vous reposer !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Par sa parole, soyez pétris !\nPar son pain, soyez nourris !\nPar ses mains, soyez bénis !\nDans son cœur, venez puiser la Vie !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Par sa lumière, soyez éclairés !\nPar son sang, soyez purifiés !\nA son amour, soyez livrés !\nDans son cœur, venez vous reposer !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Par son souffle, soyez raffermis !\nPar ses blessures, soyez guéris !\nA sa croix, soyez unis !\nDans son cœur, venez puiser la Vie !"
+	}
+	]
+},
+{
+	"id": "jesus-agneau-de-dieu",
+	"title": "Jésus, Agneau de Dieu",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Jésus, Agneau de Dieu\nDigne es-tu de recevoir\nHonneur, puissance et gloire,\nLa majesté, la victoire !\nDigne es-tu de recevoir\nNotre amour, notre adoration. (bis)"
+	},
+	{
+		"type": "chorus",
+		"text": "PONT\nAmen, amen\nHonneur, puissance et gloire ! (bis)"
+	}
+	]
+},
+{
+	"id": "allez-dans-le-monde-entier",
+	"title": "Allez dans le monde entier",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Allez dans le monde entier \nPartout proclamer la Bonne Nouvelle \nLe Christ est ressuscité, \nIl nous a donné la vie éternelle !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Jésus est venu dans le monde \nPour révéler à tous les hommes \nL'amour infini de son Père\nQui nous aime et qui nous pardonne."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Jésus nous a donné sa force\nL'Esprit qui lui rend témoignage !\nSeigneur, viens embraser nos vies !\nEmplis-nous des dons de ta grâce !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Jésus nous invite à le suivre\nIl nous appelle ses disciples\nOffrons nos vies pour le Royaume\nRejoignons l´Église de Dieu !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Jésus nous envoie dans le monde\nPorter aux hommes sa lumière ;\n\"Soyez ce que vous devez être,\nEt vous mettrez le feu au monde.\""
+	}
+	]
+},
+{
+	"id": "par-toute-la-terre",
+	"title": "Par toute la terre",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Par toute la terre il nous envoie\nTémoigner de son Amour.\nProclamer son Nom et son Salut,\nDans la force de l'Esprit !\nCar nos yeux ont vu et reconnu,\nLe Sauveur ressuscité,\nLe Saint d'Israël, né de Marie,\nFils de Dieu qui donne vie !"
+	},
+	{
+		"type": "chorus",
+		"text": "Criez de joie, Christ est ressuscité !\nIl nous envoie annoncer la vérité !\nCriez de joie, brûlez de son amour,\nCar il est là, avec nous pour toujours !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Par sa vie donnée, son sang versé,\nIl a racheté nos vies,\nIl détruit les portes des enfers,\nIl nous sauve du péché.\nÀ tout homme il offre le Salut,\nDon gratuit de son Amour ;\nVivons dans sa gloire et sa clarté,\nMaintenant et à jamais !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Pour porter la joie Il nous envoie,\nMessagers de son Salut !\nPauvres serviteurs qu'il a choisis,\nConsacrés pour l'annoncer !\nQue nos lèvres chantent sa bonté,\nLa splendeur de son dessein,\nGloire à notre Dieu, Roi tout puissant,\nÉternel est son amour !"
+	}
+	]
 }
 
 ]
