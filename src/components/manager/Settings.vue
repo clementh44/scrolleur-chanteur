@@ -1,28 +1,38 @@
 <template>
 <div>
     <form>
+        <h5>Fenêtre de présentation</h5>
         <div class="form-group row">
             <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
-            <div class="col-sm-10"><select v-model="settings.viewTheme" id="param-theme" class="form-control"><option v-for="(theme, index) in settings.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></div>
+            <div class="col-sm-10"><select v-model="settings.liveView.viewTheme" id="param-theme" class="form-control"><option v-for="(theme, index) in settings.liveView.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></div>
+        </div>
+        <div class="form-group row">
+            <label for="param-size" class="col-sm-2 col-form-label">Taille</label>
+            <div class="input-group col-sm-10">
+                <input type="number" id="param-width" v-model="settings.liveView.window.width" class="form-control">
+                <div class="input-group-prepend" style="margin-left: -1px;"><span class="input-group-text">x</span></div>
+                <input type="number" id="param-height" v-model="settings.liveView.window.height" class="form-control">
+            </div>
+            <small id="param-size-help" class="form-text text-muted col-12">Dimensions en pixel de la présentation (largeur x hauteur). Fermer/ouvrir la présentation pour appliquer</small>
         </div>
 
         <hr>
 
-        <h5>Chant et texte personnalisé</h5>
+        <h6>Chant et texte personnalisé</h6>
         <div class="form-group row">
             <label for="param-padding" class="col-sm-2 col-form-label">Marges</label>
-            <div class="col-sm-10 d-flex"><input aria-describedby="param-padding-help" type="range" v-model="settings.padding" id="param-padding" class="form-control-range" min="0" max="5" step="1"></div>
+            <div class="col-sm-10 d-flex"><input aria-describedby="param-padding-help" type="range" v-model="settings.liveView.padding" id="param-padding" class="form-control-range" min="0" max="5" step="1"></div>
             <small id="param-padding-help" class="form-text text-muted col-12">Marges à gauche et droite</small>
         </div>
         <div class="form-group row">
             <label for="param-font-size" class="col-sm-2 col-form-label">Taille</label>
-            <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="settings.fontSize" id="param-font-size" class="form-control-range" min="0.5" max="4" step="0.1"></div>
-            <small id="param-font-size-help" class="form-text text-muted col-12">Taille de la police d'écriture multipliée par {{ settings.fontSize }}</small>
+            <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="settings.liveView.fontSize" id="param-font-size" class="form-control-range" min="0.5" max="4" step="0.1"></div>
+            <small id="param-font-size-help" class="form-text text-muted col-12">Taille de la police d'écriture multipliée par {{ settings.liveView.fontSize }}</small>
         </div>
 
         <hr>
 
-        <h5>Chant</h5>
+        <h6>Chant</h6>
         <div class="custom-control custom-switch form-group">
             <input class="custom-control-input" type="checkbox" id="param-title" v-model="settings.song.viewTitle">
             <label class="custom-control-label" for="param-title" >Afficher le titre</label>

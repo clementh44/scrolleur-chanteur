@@ -420,4 +420,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Scroll vers le haut quand le chant change
   Ajout d'un bouton pour rechercher un titre sur google à partir de la barre de recherche
+  Ajout d'un paramètre de personnalisation de la taille de la présentation (utile pour utiliser avec OBS studio par exemple)
 ```

@@ -62,7 +62,7 @@
         </div>
     </div>
 
-    <WindowPortal v-model="viewOpened" ref="liveWindow">
+    <WindowPortal v-model="viewOpened" ref="liveWindow" :width="settings.liveView.window.width" :height="settings.liveView.window.height">
       <ViewWindow :element="viewBody" :settings="settings" :live=true></ViewWindow>
     </WindowPortal>
     <SideBox v-show="previewOpened" header="Aperçu" @close="previewOpened = false">
@@ -106,14 +106,20 @@ export default {
             paramOpened: false,
             settings: {
                 version: 20200923, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
-                defaulTheme: 'custom-light',
-                viewTheme: 'custom-light',
-                viewThemes: [
-                    {text: 'clair', value: 'custom-light'},
-                    {text: 'foncé', value: 'custom-dark'}
-                ],
-                padding: 0,
-                fontSize: 1,
+                liveView: {
+                    defaulTheme: 'custom-light',
+                    viewTheme: 'custom-light',
+                    viewThemes: [
+                        {text: 'clair', value: 'custom-light'},
+                        {text: 'foncé', value: 'custom-dark'}
+                    ],
+                    padding: 0,
+                    fontSize: 1,
+                    window: {
+                        height: 400,
+                        width: 600
+                    }
+                },
                 song: {
                     viewTitle: true,
                     verseOpacity: 0.1

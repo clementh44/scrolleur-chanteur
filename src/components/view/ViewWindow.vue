@@ -1,7 +1,7 @@
 <template>
-<div :class="['user-select-none', live ? settings.viewTheme : settings.defaulTheme]" :style="[ live ? {cursor: smallCursor} : '' ]">
+<div :class="['user-select-none', live ? settings.liveView.viewTheme : settings.liveView.defaulTheme]" :style="[ live ? {cursor: smallCursor} : '' ]">
     <template v-if="element.type == 'song'">
-        <div :class="['song', live ? 'px-' + settings.padding : '']" :style="[ live ? {fontSize: settings.fontSize+'em'} : '' ]">
+        <div :class="['song', live ? 'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
             <div class="title mb-1" v-show="!live || settings.song.viewTitle">{{ element.title }}</div>
 
             <div v-for="(lyrics, index) in element.lyrics"
@@ -14,7 +14,7 @@
     </template>
 
     <template v-else-if="element.type == 'text'">
-        <div :class="['custom-text', live ?  'px-' + settings.padding : '']" :style="[ live ? {fontSize: settings.fontSize+'em'} : '' ]">
+        <div :class="['custom-text', live ?  'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
             <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
             <div class="custom-text-body">{{ element.text }}</div>
         </div>

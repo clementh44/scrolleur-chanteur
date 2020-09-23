@@ -37,7 +37,15 @@ export default {
   props: {
     open: {
       type: Boolean,
-      default: false,
+      default: false
+    },
+    width: {
+      type: Number,
+      default: 600
+    },
+    height: {
+      type: Number,
+      default: 400
     }
   },
   data() {
@@ -56,7 +64,7 @@ export default {
   },
   methods: {
     openPortal() {
-      this.windowRef = window.open("", "scrolleur-chanteur-live", "width=600,height=400,left=200,top=200");
+      this.windowRef = window.open("", "scrolleur-chanteur-live", "width=" + this.width + ",height=" + this.height + ",left=200,top=200");
       this.windowRef.document.body.innerHTML = "";
       this.windowRef.document.body.appendChild(this.$el);
       copyStyles(window.document, this.windowRef.document);
