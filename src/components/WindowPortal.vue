@@ -68,6 +68,9 @@ export default {
         this.windowRef = null;
         this.$emit('close');
       }
+    },
+    scrollTop: function() {
+      this.windowRef.scrollTo(0,0);
     }
   },
   mounted() {

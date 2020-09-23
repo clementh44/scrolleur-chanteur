@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <WindowPortal v-model="viewOpened">
+    <WindowPortal v-model="viewOpened" ref="liveWindow">
       <ViewWindow :element="viewBody" :settings="settings" :live=true></ViewWindow>
     </WindowPortal>
     <SideBox v-show="previewOpened" header="Aperçu" @close="previewOpened = false">
@@ -145,6 +145,7 @@ export default {
             if (!this.viewOpened) {
                 this.toggleView()
             }
+            this.$refs.liveWindow.scrollTop()
         },
         // APERCU
         togglePreview: function() {
@@ -179,7 +180,7 @@ export default {
 
         // AUTRE
         beforeClose: function(event) {
-            event.returnValue =  "Fermez ou rafraichissez la page si vous avez une connection internet. (cela réinitialise les paramètres et la playlist des chants)"
+            event.returnValue =  "Fermez ou rafraichissez la page si vous avez une connection internet. Les paramètres et la playlist sont enregistrés (sauf les images)"
         }
     },
     computed: {

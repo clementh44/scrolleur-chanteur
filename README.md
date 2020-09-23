@@ -397,10 +397,10 @@ corrections
 
 ### *** v4.0 ***
 Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netlify.app/)
-> sans installation
-> hors ligne
-> sauvegarde des paramètres danns le navigateur
-> facile d'utilisation
+- > sans installation
+- > hors ligne
+- > sauvegarde des paramètres dans le navigateur
+- > facile d'utilisation
 
 **16/09/2020 v4.0.1**
 ```
@@ -414,4 +414,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Jésus, Agneau de Dieu
   + Allez dans le monde entier
   + Par toute la terre
+```
+
+**23/09/2020 v4.0.2**
+```
+  Scroll vers le haut quand le chant change
 ```
