@@ -45,6 +45,7 @@
                     <input type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-model="search" @focus="$event.target.select()">
                     <div class="input-group-append">
                         <button class="btn btn-outline-secondary" type="button" @click="search = ''" ><font-awesome-icon :icon="'times'"></font-awesome-icon></button>
+                        <button class="btn btn-outline-secondary" @click="searchScore(search, settings.score.google)" title="Rechercher le titre sur google"><font-awesome-icon :icon="['fab','google']"></font-awesome-icon></button>
                     </div>
                 </div>
             </div>
@@ -88,8 +89,9 @@ import ElementActions from './ElementActions'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
 import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage } from '@fortawesome/free-solid-svg-icons'
+import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage)
+library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faGoogle)
 
 export default {
     name: 'Manager',
@@ -103,7 +105,7 @@ export default {
             search: "",
             paramOpened: false,
             settings: {
-                version: 20200906, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+                version: 20200923, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
                 defaulTheme: 'custom-light',
                 viewTheme: 'custom-light',
                 viewThemes: [
@@ -119,7 +121,8 @@ export default {
                 score: {
                     enabled: false,
                     query: "",
-                    google: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
+                    google: "http://www.google.com/search?q=<TITRE>",
+                    googlePdf: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
                     youtube: "https://www.youtube.com/results?search_query=<TITRE>"
                 }
             },

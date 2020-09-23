@@ -419,4 +419,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **23/09/2020 v4.0.2**
 ```
   Scroll vers le haut quand le chant change
+  Ajout d'un bouton pour rechercher un titre sur google à partir de la barre de recherche
 ```
