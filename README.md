@@ -425,6 +425,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
 **25/09/2020 v4.0.3**
 ```
+  Aide : ajout d'un lien vers un formulaire
+  Aide : se cache definitivement (ouvia les paramètres)
   + À ce monde que tu fais
   + Messe de l'Ermitage (Kyrie, Sanctus, Anamnèse, Agnus)
   + Messe de Sylvanès (Kyrie, Gloria, Sanctus, Anamnèse, Agnus)

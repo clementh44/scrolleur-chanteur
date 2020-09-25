@@ -1,8 +1,8 @@
 <template>
 <div class="container">
-    <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+    <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" v-if="settings.help">
         <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank">Scrolleur-Chanteur</a></strong>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <button type="button" class="close" aria-label="Close" @click="settings.help = false">
             <span aria-hidden="true">&times;</span>
         </button>
         <p>Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet et de ne pas la fermer ou l'actualiser pour s'en servir.</p>
@@ -11,6 +11,7 @@
         <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
         <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).</p>
         <p>Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.</p>
+        <p>Faire une demande d'ajout de chant via <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank">ce formulaire</a>. Sinon, utiliser le texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>)</p>
     </div>
 
     <div class="card my-3">
@@ -130,7 +131,8 @@ export default {
                     google: "http://www.google.com/search?q=<TITRE>",
                     googlePdf: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
                     youtube: "https://www.youtube.com/results?search_query=<TITRE>"
-                }
+                },
+                help: true
             },
             previewOpened: false,
             previewBody: {type: 'empty'}

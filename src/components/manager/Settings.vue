@@ -1,6 +1,11 @@
 <template>
 <div>
     <form>
+        <template v-if="settings.help == false">
+            <a @click="settings.help = true" href="#">Afficher l'aide</a>
+            <hr>
+        </template>
+
         <h5>Fenêtre de présentation</h5>
         <div class="form-group row">
             <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
