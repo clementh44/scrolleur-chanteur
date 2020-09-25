@@ -7,7 +7,7 @@
         </button>
         <p>Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet et de ne pas la fermer ou l'actualiser pour s'en servir.</p>
         <hr>
-        <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur).</p>
+        <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyer sur F11 pour mettre en plein écran).</p>
         <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
         <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).</p>
         <p>Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.</p>
@@ -64,7 +64,7 @@
     </div>
 
     <WindowPortal v-model="viewOpened" ref="liveWindow" :width="settings.liveView.window.width" :height="settings.liveView.window.height">
-      <ViewWindow :element="viewBody" :settings="settings" :live=true></ViewWindow>
+        <ViewWindow :element="viewBody" :settings="settings" :live=true :duration=500></ViewWindow>
     </WindowPortal>
     <SideBox v-show="previewOpened" header="Aperçu" @close="previewOpened = false">
         <template v-slot:content>
@@ -152,11 +152,14 @@ export default {
             this.viewOpened = !this.viewOpened
         },
         displayElement: function(element) {
-            this.viewBody = element
+            this.viewBody = {type: "empty"}
+            setTimeout(() => {
+                this.$refs.liveWindow.scrollTop()
+                this.viewBody = element
+            }, 500)
             if (!this.viewOpened) {
                 this.toggleView()
             }
-            this.$refs.liveWindow.scrollTop()
         },
         // APERCU
         togglePreview: function() {

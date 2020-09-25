@@ -429,6 +429,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   fix paramètres de dimensions de la fenêtre
   Aide : ajout d'un lien vers un formulaire
   Aide : se cache definitivement (ouvia les paramètres)
+  Live : ajout d'une transition en fondu quand le contenu change
   + À ce monde que tu fais
   + Messe de l'Ermitage (Kyrie, Sanctus, Anamnèse, Agnus)
   + Messe de Sylvanès (Kyrie, Gloria, Sanctus, Anamnèse, Agnus)

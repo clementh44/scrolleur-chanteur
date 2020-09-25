@@ -1,7 +1,7 @@
 <template>
 <div :class="['user-select-none', live ? settings.liveView.viewTheme : settings.liveView.defaulTheme]" :style="[ live ? {cursor: smallCursor} : '' ]">
-    <template v-if="element.type == 'song'">
-        <div :class="['song', live ? 'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
+    <transition name="fade" :duration="duration">
+        <div key="{{element.title}}" v-if="element.type == 'song'" :class="['song', live ? 'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
             <div class="title mb-1" v-show="!live || settings.song.viewTitle">{{ element.title }}</div>
 
             <div v-for="(lyrics, index) in element.lyrics"
@@ -10,33 +10,26 @@
             :style="[lyrics.type == 'chorus' || lyrics.show ? '' : {opacity: settings.song.verseOpacity}]"
             @click="toggleLyrics(lyrics)">{{ lyrics.text }}</div>
         </div>
-        <div class="empty"></div>
-    </template>
 
-    <template v-else-if="element.type == 'text'">
-        <div :class="['custom-text', live ?  'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
+        <div key="text" v-else-if="element.type == 'text'" :class="['custom-text', live ?  'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
             <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
             <div class="custom-text-body">{{ element.text }}</div>
         </div>
-        <div class="empty"></div>
-    </template>
 
-    <template v-else-if="element.type == 'file'">
-        <div class="file">
+        <div key="file" v-else-if="element.type == 'file'" class="file">
             <img :src="element.file" :style="{width: element.width + '%'}">
         </div>
-        <div class="empty"></div>
-    </template>
 
-    <table v-else-if="element.type == 'grid'" id="screenTable">
-		<tbody>
-			<tr v-for="(line, index) in 10" :key="index">
-				<td v-for="(column, index) in 10" :key="index">&nbsp;</td>
-			</tr>
-		</tbody>
-	</table>
+        <table v-else-if="element.type == 'grid'" id="screenTable">
+            <tbody>
+                <tr v-for="(line, index) in 10" :key="index">
+                    <td v-for="(column, index) in 10" :key="index">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </transition>
 
-    <div v-else-if="element.type == 'empty'" class="empty"></div>
+    <div class="empty"></div>
 </div>
 </template>
 
@@ -46,7 +39,11 @@ export default {
     props: {
         element: Object,
         settings: Object,
-        live: Boolean
+        live: Boolean,
+        duration: {
+            type: Number,
+            default: 0
+        }
     },
     data() {
         return {
