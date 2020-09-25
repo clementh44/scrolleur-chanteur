@@ -106,7 +106,7 @@ export default {
             search: "",
             paramOpened: false,
             settings: {
-                version: 20200923, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+                version: 20200925, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
                 liveView: {
                     defaulTheme: 'custom-light',
                     viewTheme: 'custom-light',
@@ -232,6 +232,9 @@ export default {
             // pour forcer la mise à zéro des paramètres s'il y a des changements dans la structure
             if (localSettings.version && localSettings.version >= this.settings.version) {
                 this.settings = localSettings
+            }
+            else {
+                localStorage.setItem('settings', JSON.stringify(this.settings))
             }
         }
         if (localStorage.getItem('playlist')) {

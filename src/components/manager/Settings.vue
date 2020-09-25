@@ -1,7 +1,7 @@
 <template>
 <div>
     <form>
-        <template v-if="settings.help == false">
+        <template v-if="!settings.help">
             <a @click="settings.help = true" href="#">Afficher l'aide</a>
             <hr>
         </template>
