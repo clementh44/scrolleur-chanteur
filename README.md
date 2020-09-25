@@ -422,3 +422,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout d'un bouton pour rechercher un titre sur google à partir de la barre de recherche
   Ajout d'un paramètre de personnalisation de la taille de la présentation (utile pour utiliser avec OBS studio par exemple)
 ```
+
+**25/09/2020 v4.0.3**
+```
+  + À ce monde que tu fais
+  + Messe de l'Ermitage (Kyrie, Sanctus, Anamnèse, Agnus)
+  + Messe de Sylvanès (Kyrie, Gloria, Sanctus, Anamnèse, Agnus)
+  + Pour que nos cœurs
+```

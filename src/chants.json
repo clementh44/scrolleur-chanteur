@@ -2784,8 +2784,8 @@
 	]
 },
 {
-	"id": "messe-5-colombiere-emmaus-partage-sanctus-saint-le-seigneur",
-	"title": "(Messe Colombière, Emmaüs, Partage) Sanctus",
+	"id": "messe-5-colombiere-emmaus-partage-sylvanes-sanctus-saint-le-seigneur",
+	"title": "(Messe Colombière, Emmaüs, Partage, Sylvanès) Sanctus",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4870,6 +4870,252 @@
 	{
 		"type": "verse",
 		"text": "3 - Pour porter la joie Il nous envoie,\nMessagers de son Salut !\nPauvres serviteurs qu'il a choisis,\nConsacrés pour l'annoncer !\nQue nos lèvres chantent sa bonté,\nLa splendeur de son dessein,\nGloire à notre Dieu, Roi tout puissant,\nÉternel est son amour !"
+	}
+	]
+},
+{
+	"id": "a-ce-monde-que-tu-fais",
+	"title": "À ce monde que tu fais",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - À ce monde que tu fais chaque jour avec tendresse,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde où tu voudrais plus de joie, moins de détresse,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde qui renaît s’il a foi en ta promesse,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+	},
+	{
+		"type": "chorus",
+		"text": "Viennent les cieux nouveaux et la nouvelle terre que ta bonté nous donnera !\nViennent les cieux nouveaux et la nouvelle terre où la justice habitera !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Sur les hommes qu’il t’a plude créer à ton image,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes que l’on tue pour leur peau ou leur visage,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes qui n’ont plus qu’à se taire sous l’outrage,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "3 - À ce monde traversé par la haine et la violence,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde ravagé par la guerre et la souffrance,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde séparé de ses sources d’espérance,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Sur les hommes de ce temps que révolte la misère,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes que tu prends dans le feu de ta prière,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes que tu rends fraternels et solidaires,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "5 - À l’Eglise que ton coeur engendra de sa blessure,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise toute en pleurs quand les frères se torturent,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise des pécheurs refusant sa déchirure,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Sur le peuple des croyants dérouté par son histoire,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur le peuple des souffrants qui occupe ta mémoire,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur le peuple qui attend que paraisse enfin ta gloire,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "7 - À l’Eglise pour la Paix et l’annonce de ton Règne,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise qui connaît les épreuves du calvaire,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise qui se plaît au message des Prophètes,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "8 - Sur ton peuple qui se meurt s’il n’élève ta louange,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ton peuple de chanteurs convoqué avec les anges.\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ton peuple sans frayeur que tu tiens dans l’Alliance,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "9 - À nos corps où tu as mis le désir de voir ta face,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ nos corps que tu conduis de leurs tombes vers leur Pâque,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ nos corps déjà bénis dans le Corps où tout est grâce,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "10 - Sur les foules esseulées qui ont soif de ta Parole,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur la Ville des sauvés où s’achève tout exode,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ta Vigne bien-aimée qui prépare ses récoltes,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "11 - À ce peuple que ton pain a gardé de la famine,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce peuple qui est tien et ne veut pas d’autre guide,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce peuple de témoins passionné pour ta justice,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+	},
+	{
+		"type": "verse",
+		"text": "12 - Sur tous ceux que tu choisis pour répandre l’Evangile,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur tous ceux qui ont repris l’aventure des disciples,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur tous ceux qui ont appris la grandeur de ton service.\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+	}
+	]
+},
+{
+	"id": "messe-1-de-lermitage-kyrie",
+	"title": "(Messe de l'Ermitage) Kyrie",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Seigneur Jésus envoyé par le Père\npour guérir et sauver les hommes,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Seigneur prends pitié (x3)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ô Christ venu dans le monde\nappeler tous les pécheurs,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Ô Christ prends pitié (x3)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Seigneur, élevé dans la gloire du Père,\noù tu intercèdes pour nous,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Seigneur prends pitié (x3)"
+	}
+	]
+},
+{
+	"id": "messe-5-de-lermitage-sanctus",
+	"title": "(Messe de l'Ermitage) Sanctus",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint, Saint, Saint le Seigneur,\nDieu de l'univers."
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta gloire !"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au nom du Seigneur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna au plus haut des cieux !"
+	}
+	]
+},
+{
+	"id": "messe-6-de-lermitage-anamnese",
+	"title": "(Messe de l'Ermitage) Anamnèse",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Il est grand le mystère de la foi."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen !"
+	},
+	{
+		"type": "verse",
+		"text": "Nous proclamons ta mort, Seigneur Jésus,\nnous célébrons ta resurrection,\nnous attendons ta venue dans la gloire !"
+	},
+	{
+		"type": "chorus",
+		"text": "Amen !"
+	}
+	]
+},
+{
+	"id": "messe-7-de-lermitage-sylvanes-agnus",
+	"title": "(Messe de l'Ermitage, de Sylvanès) Agnus",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
+	}
+	]
+},
+{
+	"id": "messe-1-de-sylvanes-kyrie",
+	"title": "(Messe de Sylvanès) Kyrie",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Seigneur Jésus,\nenvoyé par le Père pour guérir et sauver les hommes,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison (x3)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ô Christ,\nVenu dans le monde appeler tous les pécheurs,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Christe eleison (x3)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Seigneur Jésus,\nélevé dans la gloire père, où Tu intercèdes pour nous,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison (x3)"
+	}
+	]
+},
+{
+	"id": "messe-2-de-sylvanes-gloria",
+	"title": "(Messe de Sylvanès) Gloria",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu au plus haut des cieux,\net paix sur terre aux hommes qu'il aime !"
+	},
+	{
+		"type": "verse",
+		"text": "Nous Te louons, nous te bénissons, nous T'adorons,\nnous Te glorifions, nous Te rendons grâce\npour Ton immense gloire."
+	},
+	{
+		"type": "verse",
+		"text": "Seigneur Dieu, Roi du ciel, Dieu le Père Tout-Puissant,\nSeigneur, Fils unique Jésus-Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père."
+	},
+	{
+		"type": "verse",
+		"text": "Toi qui enlèves le péché du monde,\nprends pitié de nous.\nToi qui enlèves le péché du monde,\nreçois notre prière !"
+	},
+	{
+		"type": "verse",
+		"text": "Toi qui es assis à la droite du Père, prends pitié de nous !\nCar Toi seul es Saint, Toi seul es Seigneur, Toi seul es le Très-haut Jésus-Christ,\navec le Saint-Esprit, dans la gloire de Dieu le Père,\nAmen !"
+	}
+	]
+},
+{
+	"id": "messe-6-de-sylvanes-anamnese",
+	"title": "(Messe de Sylvanès) Anamnèse",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Il est grand le mystère de la foi !"
+	},
+	{
+		"type": "chorus",
+		"text": "Nous proclamons ta mort, Seigneur ressuscité,\net nous attendons que Tu viennes !"
+	}
+	]
+},
+{
+	"id": "pour-que-nos-coeurs",
+	"title": "Pour que nos cœurs",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Pour que nos cœurs\nDeviennent de chair,\nTu as rompu le pain\nComme un fruit de justice,\nComme un signe d´amour."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Pour que nos cœurs\nDeviennent de sang,\nTu as versé le vin\nComme un puits de tendresse,\nComme un signe de paix."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Pour que nos cœurs\nRespirent ta vie,\nTu as donné ta mort\nComme un jour qui se lève,\nComme un cri d´avenir."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Pour que nos cœurs\nÉclatent de vie,\nNous fêtons ta mémoire.\nTu libères ton peuple\nEt tu es son chemin."
 	}
 	]
 }
