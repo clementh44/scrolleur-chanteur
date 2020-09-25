@@ -14,9 +14,9 @@
         <div class="form-group row">
             <label for="param-size" class="col-sm-2 col-form-label">Taille</label>
             <div class="input-group col-sm-10">
-                <input type="number" id="param-width" v-model="settings.liveView.window.width" class="form-control">
+                <input type="number" id="param-width" v-model.number="settings.liveView.window.width" class="form-control">
                 <div class="input-group-prepend" style="margin-left: -1px;"><span class="input-group-text">x</span></div>
-                <input type="number" id="param-height" v-model="settings.liveView.window.height" class="form-control">
+                <input type="number" id="param-height" v-model.number="settings.liveView.window.height" class="form-control">
             </div>
             <small id="param-size-help" class="form-text text-muted col-12">Dimensions en pixel de la présentation (largeur x hauteur). Fermer/ouvrir la présentation pour appliquer</small>
         </div>

@@ -425,6 +425,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
 **25/09/2020 v4.0.3**
 ```
+  fix paramètres de dimensions de la fenêtre
   Aide : ajout d'un lien vers un formulaire
   Aide : se cache definitivement (ouvia les paramètres)
   + À ce monde que tu fais
