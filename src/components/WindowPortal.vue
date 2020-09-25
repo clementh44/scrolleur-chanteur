@@ -78,7 +78,9 @@ export default {
       }
     },
     scrollTop: function() {
-      this.windowRef.scrollTo(0,0);
+      if(this.windowRef) {
+        this.windowRef.scrollTo(0,0);
+      }
     }
   },
   mounted() {
