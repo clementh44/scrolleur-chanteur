@@ -62,6 +62,25 @@
             </div>
             <small id="search-score-query-help" class="form-text text-muted col-12">Insérer <em>&lt;TITRE&gt;</em> où doit être ajouté le nom du chant recherché</small>
         </div>
+
+        <hr>
+
+        <h5>Raccourcis clavier</h5>
+        <div class="form-group row">
+            <label for="short-next" class="col-sm-3 col-form-label">Suivant</label>
+            <div class="col-sm-9 d-flex"><input aria-describedby="short-next-help" type="text" @keyup="manageKey" v-model="settings.shortcuts.playlistNext" id="short-next" class="form-control"></div>
+            <small id="short-next-help" class="form-text text-muted col-12">Affiche l'élément suivant de la playlist</small>
+        </div>
+        <div class="form-group row">
+            <label for="short-previous" class="col-sm-3 col-form-label">Précédent</label>
+            <div class="col-sm-9 d-flex"><input aria-describedby="short-previous-help" type="text" @keyup="manageKey" v-model="settings.shortcuts.playlistPrevious" id="short-previous" class="form-control"></div>
+            <small id="short-previous-help" class="form-text text-muted col-12">Affiche l'élément précédent de la playlist</small>
+        </div>
+        <div class="form-group row">
+            <label for="short-close-sidebox" class="col-sm-3 col-form-label">Fermer</label>
+            <div class="col-sm-9 d-flex"><input aria-describedby="short-close-sidebox-help" type="text" id="short-close-sidebox" class="form-control" disabled value="Echap"></div>
+            <small id="short-close-sidebox-help" class="form-text text-muted col-12">Ferme la fenêtre latérale (Paramètres ou Aperçu)</small>
+        </div>
     </form>
 
     <hr>
@@ -80,6 +99,24 @@ export default {
     },
     props: {
         settings: Object
+    },
+    methods: {
+        manageKey(event) {
+            if (event.key != "Escape") {
+                switch (event.target.id) {
+                    case "short-next":
+                        this.settings.shortcuts.playlistNext = event.key
+                        break;
+                    case "short-previous":
+                        this.settings.shortcuts.playlistPrevious = event.key
+                        break;
+                
+                    default:
+                        break;
+                }
+                event.preventDefault()
+            }
+        }
     }
 }
 </script>

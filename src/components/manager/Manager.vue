@@ -29,7 +29,7 @@
             </h3>
         </a>
         <div id="collapse-playlist" class="card-body collapse show" aria-labelledby="playlist-header">
-            <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" :settings="settings" v-on:search-score="searchScore($event.title, $event.query)"></Playlist>
+            <Playlist v-model="playlist" v-on:display="displayElement" v-on:preview="previewElement" :settings="settings" :current-element-index="currentElementIndex" v-on:update-current-element-index="currentElementIndex = $event" v-on:search-score="searchScore($event.title, $event.query)"></Playlist>
         </div>
     </div>
 
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <WindowPortal v-model="viewOpened" ref="liveWindow" :width="settings.liveView.window.width" :height="settings.liveView.window.height">
+    <WindowPortal v-model="viewOpened" ref="liveWindow" v-on:shortcuts="manageShortCuts" :width="settings.liveView.window.width" :height="settings.liveView.window.height">
         <ViewWindow :element="viewBody" :settings="settings" :live=true :duration=500></ViewWindow>
     </WindowPortal>
     <SideBox v-show="previewOpened" header="Aperçu" @close="previewOpened = false">
@@ -100,13 +100,14 @@ export default {
         return {
             version: process.env.VUE_APP_VERSION,
             songs: Chants,
+            currentElementIndex: -1,
             viewBody: {type: 'empty'},
             viewOpened: false,
             playlist: [],
             search: "",
             paramOpened: false,
             settings: {
-                version: 20200925, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+                version: 20200928, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
                 liveView: {
                     defaulTheme: 'custom-light',
                     viewTheme: 'custom-light',
@@ -132,7 +133,11 @@ export default {
                     googlePdf: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
                     youtube: "https://www.youtube.com/results?search_query=<TITRE>"
                 },
-                help: true
+                help: true,
+                shortcuts: {
+                    playlistNext: "ArrowRight",
+                    playlistPrevious: "ArrowLeft"
+                }
             },
             previewOpened: false,
             previewBody: {type: 'empty'}
@@ -151,7 +156,11 @@ export default {
         toggleView: function() {
             this.viewOpened = !this.viewOpened
         },
-        displayElement: function(element) {
+        displayElement: function(element, index) {
+            if (index != undefined) {
+                this.currentElementIndex = index
+            }
+
             this.viewBody = {type: "empty"}
             setTimeout(() => {
                 this.$refs.liveWindow.scrollTop()
@@ -195,6 +204,20 @@ export default {
         // AUTRE
         beforeClose: function(event) {
             event.returnValue =  "Fermez ou rafraichissez la page si vous avez une connection internet. Les paramètres et la playlist sont enregistrés (sauf les images)"
+        },
+        manageShortCuts: function(event) {
+            if (event.key == this.settings.shortcuts.playlistNext) {
+                if (this.currentElementIndex + 1 < this.playlist.length) {
+                    this.currentElementIndex++
+                    this.displayElement(this.playlist[this.currentElementIndex])
+                }
+            }
+            else if (event.key == this.settings.shortcuts.playlistPrevious) {
+                if (this.currentElementIndex > 0) {
+                    this.currentElementIndex--
+                    this.displayElement(this.playlist[this.currentElementIndex])
+                }
+            }
         }
     },
     computed: {
@@ -240,6 +263,9 @@ export default {
         if (localStorage.getItem('playlist')) {
             this.playlist = JSON.parse(localStorage.getItem('playlist'))
         }
+    },
+    created() {
+        window.addEventListener('keyup', this.manageShortCuts)
     },
     watch: {
         settings: {

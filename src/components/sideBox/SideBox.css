@@ -5,7 +5,9 @@
     right: 0;
     left: auto;
     z-index: 1001;
-    background: #fff;
+    background: #fffffff0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     overflow: auto;
 }
 

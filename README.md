@@ -435,3 +435,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Messe de Sylvanès (Kyrie, Gloria, Sanctus, Anamnèse, Agnus)
   + Pour que nos cœurs
 ```
+
+**28/09/2020 v4.0.4**
+```
+  Ajout de raccourcis clavier :
+    echap pour fermer la fenêtre latérale (paramètres ou aperçu)
+    flèche gauche ou droite pour afficher l'élément précédent ou suivant de la playlist
+  Petit flou sympa dans la fenêtre latérale (léger car pas implémenté sur firefox)
+```

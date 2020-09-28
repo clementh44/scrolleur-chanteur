@@ -1,0 +1,48 @@
+.handle {
+    cursor: move;
+}
+
+/* transition pour l'affichage de l'édition d'un élément */
+.edition-enter-active, .edition-leave-active {
+    transition: opacity .2s ease-out, max-height .2s ease-out;
+}
+.edition-enter, .edition-leave-to {
+    opacity: 0%;
+    max-height: 0px;
+}
+.edition-enter-to, .edition-leave {
+    opacity: 100%;
+    max-height: 500px;
+}
+
+/* animation pour l'élément courant */
+.current-element-icon {
+    background: rgba(255, 82, 82, 1);
+    border-radius: 50%;
+    margin: 9px 9px 9px 0;
+    height: 13px;
+    width: 13px;
+    left: -4px;
+    position: relative;
+
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+    transform: scale(1);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+    }
+
+    90% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}

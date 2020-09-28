@@ -69,6 +69,7 @@ export default {
       this.windowRef.document.body.appendChild(this.$el);
       copyStyles(window.document, this.windowRef.document);
       this.windowRef.addEventListener('beforeunload', this.closePortal);
+      this.windowRef.addEventListener('keyup', (event) => {this.$emit('shortcuts', event)})
     },
     closePortal() {
       if(this.windowRef) {

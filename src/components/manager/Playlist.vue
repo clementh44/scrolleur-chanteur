@@ -46,11 +46,13 @@
     </div>
     </transition>
 
-    <draggable v-model="listLocal" handle=".handle" tag="ul" class="list-group">
+    <draggable v-model="listLocal" handle=".handle" tag="ul" @start="onStart" @end="onEnd" class="list-group">
         <li v-for="(element,index) in listLocal" :key="index" class="list-group-item">
             <div class="d-flex">
+                <div v-if="index == currentElementIndex" class="current-element-icon" title="Elément actuellement dans la présentation"></div>
                 <div class="flex-grow-1">{{element.title}}</div>
-                <ElementActions :element="element" :settings="settings" @preview="preview($event)" @display="display($event)" @search-score="$emit('search-score',{title: $event.title, query: $event.query})">
+
+                <ElementActions :element="element" :settings="settings" @preview="preview($event)" @display="display($event, index)" @search-score="$emit('search-score',{title: $event.title, query: $event.query})">
                     <template v-slot:first>
                         <button class="btn btn-light btn-sm" v-if="canEdit(element)" @click="edit(element)" title="Editer l'élément"><font-awesome-icon :icon="['far','edit']"></font-awesome-icon></button>
                     </template>
@@ -83,12 +85,14 @@ export default {
         return {
             editableTypes: ['text','file'],
             isEdited: false,
-            editedElement: null
+            editedElement: null,
+            savedCurrentElementIndex: -1
         }
     },
     props: {
         playlist: Array,
-        settings: Object
+        settings: Object,
+        currentElementIndex: Number
     },
     model: {
         prop: 'playlist',
@@ -110,32 +114,66 @@ export default {
         }
     },
     methods: {
-        display(element) {
-            this.$emit("display", element)
+        updateCurrentElementIndex(newIndex) {
+            this.$emit("update-current-element-index", newIndex)
+        },
+
+        display(element, index) {
+            this.$emit("display", element, index)
         },
         preview(element) {
             this.$emit("preview", element)
         },
+
         removeAt(index) {
+            if (index == this.currentElementIndex) { //si élément suppr est l'actuel
+                this.updateCurrentElementIndex(-1)
+            }
+            else if (index < this.currentElementIndex) { //si élément suppr est avant l'actuel
+                this.updateCurrentElementIndex(this.currentElementIndex - 1)
+            }
+
             var element = this.playlist.splice(index, 1)[0]
             this.$refs.deleteElement.addElement(element, element.title)
         },
-        addElement: function(element) {
+        addElement(element) {
             this.playlist.push(element)
         },
-        canEdit: function(element) {
+
+        //gestion du déplacement d'un élément
+        onStart() {
+            this.savedCurrentElementIndex = this.currentElementIndex
+            this.updateCurrentElementIndex(-1)
+        },
+        onEnd(evt) {
+            if (evt.oldIndex == this.savedCurrentElementIndex) {
+                this.updateCurrentElementIndex(evt.newIndex)
+            }
+            else if (evt.oldIndex < this.savedCurrentElementIndex && evt.newIndex >= this.savedCurrentElementIndex) {
+                this.updateCurrentElementIndex(this.savedCurrentElementIndex - 1)
+            }
+            else if (evt.oldIndex > this.savedCurrentElementIndex && evt.newIndex <= this.savedCurrentElementIndex) {
+                this.updateCurrentElementIndex(this.savedCurrentElementIndex + 1)
+            }
+            else {
+                this.updateCurrentElementIndex(this.savedCurrentElementIndex)
+            }
+        },
+
+        canEdit(element) {
             if (this.editableTypes.includes(element.type)) {
                 element.isEdited = false
                 return true
             }
             return false
         },
-        edit: function(element) {
+        edit(element) {
             this.editedElement = element
             this.isEdited = true
             setTimeout(() => {this.$refs['playlistEditionRef'].scrollIntoView({behavior: 'smooth'})}, 100)
         },
-        addFile: function(file) {
+
+        addFile(file) {
             if (file.target.files && file.target.files[0]) {
                 var fr = new FileReader()
                 fr.onload = () => {
@@ -153,19 +191,6 @@ export default {
 }
 </script>
 
-<style scoped>
-.handle {
-    cursor: move;
-}
-.edition-enter-active, .edition-leave-active {
-    transition: opacity .2s ease-out, max-height .2s ease-out;
-}
-.edition-enter, .edition-leave-to {
-    opacity: 0%;
-    max-height: 0px;
-}
-.edition-enter-to, .edition-leave {
-    opacity: 100%;
-    max-height: 500px;
-}
+<style scoped src="./Playlist.css">
+
 </style>

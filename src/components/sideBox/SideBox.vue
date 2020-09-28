@@ -32,6 +32,13 @@ export default {
         this.$emit('close');
       },
     },
+    created() {
+        window.addEventListener('keydown', (e) => {
+            if (e.key == 'Escape') {
+                this.close()
+            }
+        })
+    }
 }
 </script>
 
