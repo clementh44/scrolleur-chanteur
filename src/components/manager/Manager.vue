@@ -1,5 +1,25 @@
 <template>
 <div class="container">
+    <template v-if="!secliAccepted">
+        <div class="modal fade show" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="display: block;">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Protection des œuvres</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Les textes (faisant partie d'une œuvre au même titre que sa musique) présents sur cet outil sont à l'usage exclusif des cotisants au SECLI.</p>
+                    <p>En continuant à utiliser l'outil, vous déclarez cotiser par ailleurs au SECLI (<a href="https://secli.cef.fr/" target="_blank">Secrétariat des Editeurs de Chants pour la LIturgie</a>) directement ou via votre paroisse ou groupe.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" @click="acceptSecli">Je comprends et accepte ces termes</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-backdrop fade show"></div>
+    </template>
+
     <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" v-if="settings.help">
         <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank">Scrolleur-Chanteur</a></strong>
         <button type="button" class="close" aria-label="Close" @click="settings.help = false">
@@ -100,6 +120,7 @@ export default {
         return {
             version: process.env.VUE_APP_VERSION,
             songs: Chants,
+            secliAccepted: false,
             currentElementIndex: -1,
             viewBody: {type: 'empty'},
             viewOpened: false,
@@ -197,7 +218,7 @@ export default {
         // PARTITION
         searchScore: function(title, query) {
             if (query && query.includes("<TITRE>")) {
-                window.open(query.replace("<TITRE>", title.replace(' ', '+')))
+                window.open(query.replace("<TITRE>", title.replace(/ /g, '+')))
             }
         },
 
@@ -218,6 +239,10 @@ export default {
                     this.displayElement(this.playlist[this.currentElementIndex])
                 }
             }
+        },
+        acceptSecli: function() {
+            this.secliAccepted = true
+            this.$cookies.set('secliAccepted', true, '30d')
         }
     },
     computed: {
@@ -262,6 +287,9 @@ export default {
         }
         if (localStorage.getItem('playlist')) {
             this.playlist = JSON.parse(localStorage.getItem('playlist'))
+        }
+        if (this.$cookies.isKey('secliAccepted')) {
+            this.secliAccepted = this.$cookies.get('secliAccepted')
         }
     },
     created() {

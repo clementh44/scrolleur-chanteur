@@ -23,6 +23,7 @@
     "popper.js": "^1.16.1",
     "vue": "^2.6.12",
     "vue-body-class": "^3.0.2",
+    "vue-cookies": "^1.7.4",
     "vue-router": "^3.4.4",
     "vuedraggable": "^2.24.1"
   },

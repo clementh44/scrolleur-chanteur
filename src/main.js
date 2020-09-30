@@ -6,8 +6,11 @@ import VueBodyClass from 'vue-body-class'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import 'vue-cookies'
 
 Vue.use(VueRouter)
+
+Vue.use(require('vue-cookies'))
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

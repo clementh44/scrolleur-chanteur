@@ -443,3 +443,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     flèche gauche ou droite pour afficher l'élément précédent ou suivant de la playlist
   Petit flou sympa dans la fenêtre latérale (léger car pas implémenté sur firefox)
 ```
+
+**30/09/2020 v4.0.5**
+```
+  Pop-up pour le respect des droits d'auteur. Les paroisses cotisent annuellement au SECLI qui retransmet aux éditeurs qui retransmettent aux auteurs.
+    L'utilisation de cet outil doit être dans le cadre exclusif d'une paroisse ou d'un groupe cotisant au SECLI.
+
+  fix de la recherche de partition
+```
