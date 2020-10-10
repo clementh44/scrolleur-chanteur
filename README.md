@@ -443,3 +443,12 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     flèche gauche ou droite pour afficher l'élément précédent ou suivant de la playlist
   Petit flou sympa dans la fenêtre latérale (léger car pas implémenté sur firefox)
 ```
+
+**10/10/2020 v4.0.5**
+```
+  + Laisserons-nous à notre table
+  + Aimer, c'est tout donner
+  + Il est grand le bonheur de donner
+  + Le vent souffle où il veut
+  + Nous t'avons reconnu, Seigneur
+```

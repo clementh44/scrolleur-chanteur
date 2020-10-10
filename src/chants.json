@@ -5118,6 +5118,152 @@
 		"text": "4 - Pour que nos cœurs\nÉclatent de vie,\nNous fêtons ta mémoire.\nTu libères ton peuple\nEt tu es son chemin."
 	}
 	]
+},
+{
+	"id": "laisserons-nous-a-notre-table",
+	"title": "Laisserons-nous à notre table",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Ne laissons pas mourir la terre,\nNe laissons pas mourir le feu.\nTendons nos mains vers la lumière,\nPour accueillir le don de Dieu,\nPour accueillir le don de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Laisserons-nous à notre table\nUn peu de place à l'étranger,\nTrouvera-t-il quand il viendra\nUn peu de pain et d'amitié ?"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Laisserons-nous à nos paroles\nUn peu de temps à l'étranger,\nTrouvera-t-il quand il viendra\nUn cœur ouvert pour l'écouter ?"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Laisserons-nous à notre fête\nUn pas de danse à l'étranger,\nTrouvera-t-il quand il viendra\nDes mains tendues pour l'inviter ?"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Laisserons-nous à nos fontaines\nUn peu d'eau vive à l'étranger,\nTrouvera-t-il quand il viendra\nDes hommes libres et assoiffés ?"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Laisserons-nous à nos églises\nUn peu d´espace à l'étranger ?\nTrouvera-t-il quand il viendra\nDes cœurs de pauvres et d´affamés ?"
+	}
+	]
+},
+{
+	"id": "aimer-cest-tout-donner",
+	"title": "Aimer, c'est tout donner",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Aimer, c’est tout donner (x3)\nEt se donner soi-même."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Quand je parlerais les langues des hommes et des anges,\nSi je n’ai pas l’Amour, je suis comme l’airain qui sonne\nOu la cymbale qui retentit."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Si je prophétisais et connaissais tous les mystères,\nSi j’avais la Foi à transporter des montagnes,\nSans l’Amour, je ne suis rien !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Quand je distribuerais ce que je possède en aumônes,\nEt si je livrais mon corps à brûler dans les flammes,\nCela ne me sert à rien !"
+	}
+	]
+},
+{
+	"id": "il-est-grand-le-bonheur-de-donner",
+	"title": "Il est grand le bonheur de donner",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Il est grand le bonheur de donner,\nBien plus grand que la joie de recevoir.\nLe Seigneur s’est lui-même donné,\nBienheureux qui le suivra ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Donner le jour aux enfants de la nuit,\nDonner le feu quand le froid les surprend,\nDonner la flamme qui brûle et qui luit,\nDonner l’espoir aux marcheurs de ce temps."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Donner le pain dans un monde affamé,\nDonner l’eau vive puisée près de Dieu,\nDonner de croire au festin partagé,\nDonner le sel et le vin généreux."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Donner le souffle à tout homme blessé,\nDonner le sang qui réveille sa vie,\nDonner de vivre debout dans la paix,\nDonner l’audace envoyée par l’Esprit."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Donner le fruit du travail de nos mains,\nDonner d’apprendre à chercher un trésor,\nDonner l’envie de s’ouvrir un chemin,\nDonner l’amour qui peut vaincre la mort."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Donner la soif de connaître Jésus,\nDonner les mots qui pourront le chanter,\nDonner d’aller par des voies inconnues,\nDonner la force d’un coeur libéré."
+	}
+	]
+},
+{
+	"id": "le-vent-souffle-ou-il-veut",
+	"title": "Le vent souffle où il veut",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Le vent souffle où il veut\nEt toi tu entends sa voix,\nMais tu ne sais pas d'où il vient,\nEt tu ne sais pas où il va,\nLe vent."
+	},
+	{
+		"type": "verse",
+		"text": "1 - As-tu compté les grains de sable sur les bords de la mer ?\nAs-tu compris les chants des vagues, aux pays des matins clairs ?"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Quand tu regardes les étoiles au manteau de la nuit,\nTu voudrais bien lever le voile qui te masque l'infini."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Il est si long le long voyage sur un sol inconnu\nIl est si loin l'autre rivage que tu cherches les pieds nus."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Comme l'oiseau, loin de la terre tu voudrais t'envoler,\nVers le soleil, vers la lumière dans un ciel de liberté."
+	},
+	{
+		"type": "verse",
+		"text": "5 - As-tu sondé le cœur de l'homme au secret de sa soif ?\nAs-tu creusé jusqu'aux racines, jusqu'aux sources de sa vie ?"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Lorsque la mort à tes paupières éteindra le soleil,\nFranchiras-tu toutes frontières pour une aube sans sommeil ?"
+	}
+	]
+},
+{
+	"id": "nous-tavons-reconnu-seigneur",
+	"title": "Nous t'avons reconnu, Seigneur",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Nous t'avons reconnu, Seigneur, à la fraction du pain,\nNotre cœur est tout brûlant quand nous venons jusqu'à toi,\nFortifie notre foi, ô Christ, en cette communion,\nFais de nous un seul corps, uni en un seul esprit !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Tu as dit : \"Vous ferez cela, en mémoire de moi\".\nPain et vin sont consacrés en signe de ton Salut,\nIls nous donnent ta vie, ô Christ, en cette communion :\nCorps livré, sang versé, pour nous sauver du péché"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Nous venons t'adorer, Seigneur, en partageant le pain,\nNotre roi, notre pasteur, Jésus notre Rédempteur !\nTu découvres ta gloire, ô Christ, en cette communion,\nOuvre-nous le chemin, reçois-nous auprès de toi."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Par l'Esprit, apprends-nous Seigneur à contempler ton Corps,\nTu es là, vraiment présent en ta sainte Eucharistie.\nTu te livres en nos mains, ô Christ, en cette communion :\n\"Mon Seigneur et mon Dieu, Jésus, ma vie et ma joie !\""
+	},
+	{
+		"type": "verse",
+		"text": "5 - Nous voici affamés, Seigneur, tout petits devant toi,\nSous nos yeux, tu multiplies le pain qui donne la vie.\nTu t'es fait nourriture, ô Christ, en cette communion,\nConduis-nous au bonheur promis à tes serviteurs."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Joie sur terre et joie dans le ciel, en toi tout resplendit !\nPour que l'homme soit fait Dieu, le Fils a pris notre chair.\nAllégresse des saints, ô Christ, en cette communion,\nEn nos coeurs tu descends, pour vivre à jamais en nous."
+	}
+	]
 }
 
 ]
