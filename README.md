@@ -452,3 +452,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Le vent souffle où il veut
   + Nous t'avons reconnu, Seigneur
 ```
+
+**17/10/2020 v4.0.6**
+```
+  + Marie du Rosaire
+```

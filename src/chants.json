@@ -5264,6 +5264,32 @@
 		"text": "6 - Joie sur terre et joie dans le ciel, en toi tout resplendit !\nPour que l'homme soit fait Dieu, le Fils a pris notre chair.\nAllégresse des saints, ô Christ, en cette communion,\nEn nos coeurs tu descends, pour vivre à jamais en nous."
 	}
 	]
+},
+{
+	"id": "marie-du-rosaire",
+	"title": "Marie du Rosaire",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Marie du Rosaire, nous te chantons,\nChoisie par le Père, nous te louons.\nChemin de lumière, nous t’acclamons,\nSoleil de la terre, nous te prions."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Au premier jour, tu as dit « oui »,\n  Nous te bénissons !\nTu as donné le plus beau fruit,\n  Nous te bénissons !\nTu as chanté l’amour du Père,\n  Nous te bénissons !\nTu as offert le Fils de Dieu,\n  Nous te bénissons !\nTu as cherché ton Fils perdu,\n  Nous te bénissons !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ton Fils nous fait enfants de Dieu,\n  Guide nos pas !\n« Vous ferez tout ce qu’il dira. »\n  Guide nos pas !\nL’amour de Dieu nous convertit,\n  Guide nos pas !\nEn lui tout est transfiguré,\n  Guide nos pas !\nIl est pour nous le pain de vie,\n  Guide nos pas !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Tu as souffert avec Jésus,\n  Veille sur nous !\nTon cœur de Mère est transpercé,\n  Veille sur nous !\nTu as fait tout ce qu’il t’a dit,\n  Veille sur nous !\nTu souffres avec ton Fils en croix,\n  Veille sur nous !\nTu es la Mère des douleurs,\n  Veille sur nous !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Tu es la Mère des vivants,\n  Alleluia !\nTu nous conduis jusqu’à ton Fils,\n  Alleluia !\nTu brilles au cœur de notre Eglise,\n  Alleluia !\nTu resplendis dans la lumière,\n  Alleluia !\nTu es la Reine des élus,\n  Alleluia !"
+	}
+	]
 }
 
 ]
