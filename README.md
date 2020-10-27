@@ -444,7 +444,21 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Petit flou sympa dans la fenêtre latérale (léger car pas implémenté sur firefox)
 ```
 
-**30/09/2020 v4.0.5**
+**10/10/2020 v4.0.5**
+```
+  + Laisserons-nous à notre table
+  + Aimer, c'est tout donner
+  + Il est grand le bonheur de donner
+  + Le vent souffle où il veut
+  + Nous t'avons reconnu, Seigneur
+```
+
+**17/10/2020 v4.0.6**
+```
+  + Marie du Rosaire
+```
+
+**27/10/2020 v4.1.0**
 ```
   Pop-up pour le respect des droits d'auteur. Les paroisses cotisent annuellement au SECLI qui retransmet aux éditeurs qui retransmettent aux auteurs.
     L'utilisation de cet outil doit être dans le cadre exclusif d'une paroisse ou d'un groupe cotisant au SECLI.
