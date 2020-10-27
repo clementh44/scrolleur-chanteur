@@ -450,4 +450,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     L'utilisation de cet outil doit être dans le cadre exclusif d'une paroisse ou d'un groupe cotisant au SECLI.
 
   fix de la recherche de partition
+
+  ajout de la cote, éditeur, auteur, compositeur des chants (source : secli.cef.fr) ; séparation des messes même si les paroles sont les même pour ajouter les cotes etc... (Emmaüs, Saint-Claude de la Colombière, Partage, Sylvanès, Soleil des Nations, Ermitage, Trinité, Saint François-Xavier, Au cœur de ce monde)
 ```

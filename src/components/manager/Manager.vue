@@ -323,6 +323,11 @@ Available elements :
 {
     type: song
     title: ""
+    rating: ""
+    newrating: ""
+    writer: ""
+    publisher: ""
+    composer: ""
     lyrics: [
         {
             type: verse | chorus | translation

@@ -2,6 +2,10 @@
 {
 	"id": "adorez-le",
 	"title": "Adorez-le",
+	"rating": "EDIT15-78",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -20,6 +24,10 @@
 {
 	"id": "alegria-mon-ame-exalte-le-seigneur",
 	"title": "Alegria ! Mon âme exalte le Seigneur",
+	"rating": "DEV437",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -54,6 +62,11 @@
 {
 	"id": "appeles-enfants-de-dieu",
 	"title": "Appelés enfants de Dieu",
+	"rating": "A35-10",
+	"newrating": "Y35-10",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -84,6 +97,11 @@
 {
 	"id": "aujourdhui-sest-levee-la-lumiere",
 	"title": "Aujourd'hui s'est levée la lumière",
+	"rating": "F515",
+	"newrating": "FX515",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Malet T.",
+	"composer": "Tillet S.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -106,6 +124,7 @@
 {
 	"id": "ave-maria-glorious",
 	"title": "Ave Maria (Glorious)",
+	"composer": "Glorious",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -124,6 +143,8 @@
 {
 	"id": "beni-soit-ton-nom",
 	"title": "Béni soit ton nom",
+	"writer": "Matt et Beth Redman",
+	"rating": "JEM732",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -154,6 +175,10 @@
 {
 	"id": "bienvenue",
 	"title": "Bienvenue !",
+	"rating": "EDIT20-98",
+	"publisher": "Cristal Music",
+	"writer": "Brouillet S.",
+	"composer": "Brouillet S.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -176,6 +201,10 @@
 {
 	"id": "bless-the-lord",
 	"title": "Bless the Lord",
+	"rating": "DEV564",
+	"publisher": "Ateliers Et Presses De Taizé",
+	"writer": "Bible",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -204,6 +233,10 @@
 {
 	"id": "cest-par-ta-grace",
 	"title": "C'est par ta grâce",
+	"rating": "EDIT18-31",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -222,6 +255,10 @@
 {
 	"id": "chantez-avec-moi-le-seigneur",
 	"title": "Chantez avec moi le Seigneur",
+	"rating": "V56-14",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "D'après Saint-Luc 1,46-55, Creaton G.",
+	"composer": "Creaton G.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -248,6 +285,10 @@
 {
 	"id": "comme-un-feu",
 	"title": "Comme un feu",
+	"rating": "EDIT58",
+	"publisher": "Studio Sm",
+	"writer": "Bourel H.",
+	"composer": "Bourel H.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -270,6 +311,9 @@
 {
 	"id": "comment-ne-pas-te-louer",
 	"title": "Comment ne pas te louer",
+	"rating": "19-10",
+	"composer": "Père A. Bollevis Saniko",
+	"writer": "Père A. Bollevis Saniko",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -296,6 +340,10 @@
 {
 	"id": "couronnee-detoiles",
 	"title": "Couronnée d’étoiles",
+	"rating": "V44-58",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Dannaud M.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -322,6 +370,11 @@
 {
 	"id": "debout-resplendis",
 	"title": "Debout, resplendis",
+	"rating": "K230",
+	"newrating": "KX230",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Morin J.-m.",
+	"composer": "Morin J.-m.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -344,6 +397,10 @@
 {
 	"id": "donne-moi-seulement-de-taimer",
 	"title": "Donne moi seulement de t'aimer",
+	"rating": "DEV416",
+	"publisher": "Cristal Music",
+	"writer": "D'après Saint Ignace",
+	"composer": "Chataigner Cl.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -366,6 +423,7 @@
 {
 	"id": "enflammes-glorious",
 	"title": "Enflammés (Glorious)",
+	"composer": "Glorious",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -392,6 +450,10 @@
 {
 	"id": "gloire-a-toi-esprit-de-feu",
 	"title": "Gloire à toi, Esprit de feu",
+	"rating": "K35-28",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -422,6 +484,11 @@
 {
 	"id": "glory-to-the-lord",
 	"title": "Glory to the Lord",
+	"rating": "17-19",
+	"newrating": "EDIT15-86",
+	"publisher": "Editions De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -448,6 +515,8 @@
 {
 	"id": "heureux-les-coeurs-misericordieux",
 	"title": "Heureux les cœurs miséricordieux",
+	"writer": "Claude Bernard/Jakub Blycharz",
+	"publisher": "ADF-Bayard Musique/CNPL Éditions",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -474,6 +543,9 @@
 {
 	"id": "hosanna",
 	"title": "Hosanna",
+	"rating": "JEM573",
+	"writer": "Thierry Ostrini – Chris Christensen",
+	"composer": "Thierry Ostrini – Chris Christensen",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -500,6 +572,10 @@
 {
 	"id": "humblement-dans-le-silence",
 	"title": "Humblement, dans le silence",
+	"rating": "DEV526",
+	"writer": "Pere Marie Eugene",
+	"composer": "Frere Jean-Baptiste",
+	"publisher": "Exultet",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -530,6 +606,10 @@
 {
 	"id": "ils-deviennent-chemin-pour-un-seul-et-meme-dieu",
 	"title": "Ils deviennent chemin (pour un seul et même Dieu)",
+	"rating": "EDIT21-03",
+	"publisher": "Cristal Music",
+	"writer": "Gall J.-y., Gall S.",
+	"composer": "Gall J.-y., Gall S.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -560,6 +640,11 @@
 {
 	"id": "il-est-bon-de-chanter",
 	"title": "Il est bon de chanter",
+	"rating": "R19-39",
+	"newrating": "Y19-39",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Luquin C.",
+	"composer": "Luquin C.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -582,6 +667,9 @@
 {
 	"id": "il-est-bon-de-louer",
 	"title": "Il est bon de louer le Seigneur",
+	"rating": "17-24",
+	"writer": "P. Wlbur D’après Ps 92 (91)",
+	"composer": "P. Wlbur",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -600,6 +688,11 @@
 {
 	"id": "il-est-ne-le-divin",
 	"title": "Il est né le divin enfant",
+	"rating": "SYLH160",
+	"newrating": "F160",
+	"publisher": "Sylvanes",
+	"writer": "Domaine Public",
+	"composer": "Domaine Public , Gouzes A.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -634,6 +727,7 @@
 {
 	"id": "il-ny-a-personne-comme-jesus",
 	"title": "Il n’y a personne comme Jésus",
+	"rating": "JEMK046",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -656,6 +750,9 @@
 {
 	"id": "il-sest-manifeste",
 	"title": "Il s’est manifesté",
+	"rating": "12-14",
+	"publisher": "Editions De L'Emmanuel",
+	"composer": "D.-M. David / L.-E. de Labarthe",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -694,6 +791,12 @@
 {
 	"id": "je-nai-dautre-desir",
 	"title": "Je n’ai d’autre désir",
+	"rating": "D14-51",
+	"newrating": "DEV156",
+	"publisher": "A.c.n.",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
+
 	"lyrics": [
 	{
 		"type": "verse",
@@ -716,6 +819,9 @@
 {
 	"id": "je-suis-dans-la-joie-glorious",
 	"title": "Je suis dans la joie (Glorious)",
+	"rating": "24-07",
+	"writer": "Guy Bahi",
+	"composer": "Guy Bahi",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -734,6 +840,9 @@
 {
 	"id": "je-texalte-o-roi-mon-dieu",
 	"title": "Je t'exalte ô roi mon Dieu",
+	"rating": "05-34",
+	"composer": "D. Lachance",
+	"writer": "d´après Ps 145 (144)",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -764,6 +873,11 @@
 {
 	"id": "je-veux-chanter-mes-hymnes",
 	"title": "Je veux chanter mes hymnes pour mon Dieu",
+	"rating": "C19-41",
+	"newrating": "DEV168",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Suijkerbuijk B.",
+	"composer": "Suijkerbuijk B.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -790,6 +904,11 @@
 {
 	"id": "je-veux-chanter-ton-amour",
 	"title": "Je veux chanter ton amour, Seigneur",
+	"rating": "C19-42",
+	"newrating": "DEV169",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Dannaud M.",
+	"composer": "Dannaud M.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -820,6 +939,10 @@
 {
 	"id": "je-veux-me-rejouir",
 	"title": "Je veux me réjouir",
+	"rating": "24-08",
+	"writer": "R. Koumba",
+	"composer": "R. Koumba",
+	"publisher": "Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -838,6 +961,10 @@
 {
 	"id": "je-veux-te-louer",
 	"title": "Je veux te louer",
+	"rating": "DEV35",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -860,6 +987,8 @@
 {
 	"id": "je-veux-voir-dieu",
 	"title": "Je veux voir Dieu",
+	"writer": "P ME de l’Enfant Jésus",
+	"composer": "Fr JB de la sainte Famille",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -886,6 +1015,11 @@
 {
 	"id": "je-voudrais-marcher",
 	"title": "Je voudrais marcher",
+	"rating": "R25-24",
+	"newrating": "X25-24",
+	"publisher": "A.c.n.",
+	"writer": "Renouveau Burkinabe",
+	"composer": "Renouveau Burkinabe",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -912,6 +1046,8 @@
 {
 	"id": "jesus-le-christ",
 	"title": "Jésus le Christ",
+	"publisher": "Ateliers Et Presses De Taizé",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -938,6 +1074,8 @@
 {
 	"id": "jour-de-joie",
 	"title": "Jour de joie",
+	"rating": "JEM442",
+	"writer": "Mady Ramos",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -952,6 +1090,9 @@
 {
 	"id": "jubilez-criez-de-joie",
 	"title": "Jubilez ! Criez de Joie !",
+	"rating": "Y68-11",
+	"writer": "Jean-Baptiste Du Jonchay",
+	"publisher": "Le Carmel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -982,6 +1123,10 @@
 {
 	"id": "la-premiere-en-chemin",
 	"title": "La première en chemin",
+	"rating": "V565",
+	"publisher": "Studio Sm",
+	"writer": "Sœur Marie-colette",
+	"composer": "Lefebvre G.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1044,6 +1189,8 @@
 {
 	"id": "la-tenebre-nest-point-tenebre",
 	"title": "La ténèbre n'est point ténèbre",
+	"composer": "Berthier J.",
+	"publisher": "Ateliers Et Presses De Taizé",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1054,6 +1201,9 @@
 {
 	"id": "mendiez",
 	"title": "Mendiez",
+	"writer": "Père Marie-Joseph, Capucin",
+	"composer": "Frere Jean-Baptiste",
+	"publisher": "Le Carmel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1080,6 +1230,11 @@
 {
 	"id": "mets-ta-joie-dans-le-seigneur",
 	"title": "Mets ta joie dans le Seigneur",
+	"rating": "T518",
+	"newrating": "X518",
+	"publisher": "A.c.n.",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Tradition Hebraique",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1102,6 +1257,8 @@
 {
 	"id": "mon-ame-se-repose",
 	"title": "Mon âme se repose",
+	"composer": "Berthier J.",
+	"publisher":"Ateliers Et Presses De Taizé",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1128,6 +1285,7 @@
 {
 	"id": "mon-amour-cest-le-seigneur",
 	"title": "Mon amour c'est le Seigneur",
+	"publisher": "Communauté des béatitudes",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1150,6 +1308,10 @@
 {
 	"id": "mon-pere-je-mabandonne-a-toi",
 	"title": "Mon Père, je m'abandonne à toi",
+	"rating": "14-30",
+	"writer": "J.-F. Léost D’après Charles de Foucauld et sainte Thérèse de l’Enfant Jésus",
+	"composer": "J.-F. Léost",
+	"publisher":"Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1168,6 +1330,8 @@
 {
 	"id": "mon-seigneur-et-mon-dieu",
 	"title": "Mon Seigneur et mon Dieu",
+	"writer": "Sr Aurélie roussseau",
+	"composer": "Sr Aurélie roussseau",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1190,6 +1354,8 @@
 {
 	"id": "nada-te-turbe",
 	"title": "Nada te turbe",
+	"writer": "Saint-Thérèse d'Avila",
+	"publisher":"Ateliers Et Presses De Taizé",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1230,6 +1396,8 @@
 {
 	"id": "nous-annoncons-le-roi",
 	"title": "Nous annonçons le roi",
+	"rating": "JEM799",
+	"writer": "Philippe Decourroux",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1252,6 +1420,7 @@
 {
 	"id": "nous-sommes-hopen",
 	"title": "Nous sommes (Hopen)",
+	"writer": "Antoine, Camille, Armand et Charles AUCLAIR, Hopen",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1274,6 +1443,11 @@
 {
 	"id": "o-seigneur-a-toi-la-gloire",
 	"title": "O Seigneur à Toi la gloire",
+	"rating": "Z503",
+	"newrating": "Z(AT)503",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "D'Après Texte Biblique",
+	"composer": "Baranger E., Parasini T.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1308,6 +1482,7 @@
 {
 	"id": "o-vierge-marie",
 	"title": "Ô Vierge Marie",
+	"writer": "Sr Ruth (Aurélie) Rousseau",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1330,6 +1505,9 @@
 {
 	"id": "o-vive-flamme",
 	"title": "Ô vive flamme",
+	"writer": "P Lemoine",
+	"composer": "P Lemoine",
+	"publisher": "Le Carmel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1352,6 +1530,10 @@
 {
 	"id": "oui-seigneur-tu-es-bon",
 	"title": "Oui Seigneur tu es bon",
+	"rating": "04-49",
+	"newrating": "T510 X510",
+	"writer": "Communauté Colonne de Feu (Cameroun)",
+	"composer": "Communauté Colonne de Feu (Cameroun)",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1376,12 +1558,19 @@
 	{
 		"type": "verse",
 		"text": "5 - Père très bon, Dieu d'Abraham,\nJésus Sauveur du monde entier,\nEsprit de feu, torrent de joie, Alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Merci, Seigneur, pour ton Esprit\nEt pour ta grâce mise en nos cœurs,\nMerci pour nos vies purifiées, Alléluia !"
 	}
 	]
 },
 {
 	"id": "plus-pres-de-toi-mon-dieu",
 	"title": "Plus près de toi mon Dieu",
+	"rating": "P35-27",
+	"newrating": "DEV267",
+	"publisher": "Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1408,6 +1597,8 @@
 {
 	"id": "prosternez-vous",
 	"title": "Prosternez-vous",
+	"rating": "JEM279",
+	"writer": "Steven Fry",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1418,6 +1609,11 @@
 {
 	"id": "psaume-de-la-creation",
 	"title": "Psaume de la création",
+	"rating": "C556",
+	"newrating": "Y556",
+	"publisher": "Studio Sm",
+	"writer": "Richard P.",
+	"composer": "Richard P.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1448,6 +1644,10 @@
 {
 	"id": "quexulte-tout-lunivers",
 	"title": "Qu’exulte tout l’univers",
+	"rating": "DEV44-72",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1478,6 +1678,11 @@
 {
 	"id": "que-chante-pour-toi",
 	"title": "Que chante pour toi",
+	"rating": "L22-17",
+	"newrating": "Y22-17",
+	"publisher": "A.c.n.",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1508,6 +1713,10 @@
 {
 	"id": "que-ma-bouche-chante-te-louange",
 	"title": "Que ma bouche chante ta louange",
+	"rating": "EDIT18-38",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1534,6 +1743,10 @@
 {
 	"id": "que-vienne-ton-regne",
 	"title": "Que vienne ton règne",
+	"rating": "EDIT16-03",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1560,6 +1773,10 @@
 {
 	"id": "que-vive-mon-ame-a-te-louer",
 	"title": "Que vive mon âme à te louer",
+	"rating": "IEV946",
+	"writer": "Bénédicte Ducatel",
+	"composer": "Bénédicte Ducatel",
+	"publisher": "Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1586,6 +1803,7 @@
 {
 	"id": "receive-the-power",
 	"title": "Receive the power",
+	"writer": "Guy Sebastian et Gary Pinto",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1620,6 +1838,10 @@
 {
 	"id": "regarde-letoile-invoque-marie",
 	"title": "Regarde l'étoile, invoque Marie",
+	"rating": "V74-14",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1650,6 +1872,10 @@
 {
 	"id": "rejouis-toi-car-il-vient",
 	"title": "Réjouis-toi car il vient",
+	"rating": "DEV44-73",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1676,6 +1902,11 @@
 {
 	"id": "rendons-gloire-a-notre-dieu",
 	"title": "Rendons gloire à notre Dieu",
+	"rating": "C35-33",
+	"newrating": "Y35-33",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1706,6 +1937,7 @@
 {
 	"id": "resucito",
 	"title": "Resucito",
+	"publisher": "Editions du Renouveau",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1728,6 +1960,10 @@
 {
 	"id": "risquerons-nous-amis-dans-le-seigneur",
 	"title": "Risquerons-nous / Amis dans le Seigneur",
+	"rating": "EDIT181",
+	"publisher": "Adf",
+	"writer": "Chataigner Cl., Brouillet S.",
+	"composer": "Chataigner Cl.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1758,6 +1994,7 @@
 {
 	"id": "roi-des-rois",
 	"title": "Roi des rois",
+	"rating": "JEM278",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1772,6 +2009,11 @@
 {
 	"id": "sa-parole-est-lumiere",
 	"title": "Sa Parole est lumière",
+	"rating": "Z564",
+	"newrating": "X564",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Hauguel C.-e.",
+	"composer": "Hauguel C.-e., Melodie Hebraique",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1794,6 +2036,7 @@
 {
 	"id": "sauveur-mighty-to-save",
 	"title": "Sauveur / Mighty to save",
+	"writer": "Benjamin David Fielding, Reuben Timothy Morgan, Hillsong United",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1816,6 +2059,11 @@
 {
 	"id": "seigneur-tu-es-toute-ma-joie",
 	"title": "Seigneur Tu es toute ma joie",
+	"rating": "R30-96",
+	"newrating": "DEV309",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Perrot E.",
+	"composer": "Perrot E.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1842,6 +2090,8 @@
 {
 	"id": "si-tuvieras-fe",
 	"title": "Si tuvieras fe",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1852,6 +2102,9 @@
 {
 	"id": "simplement-je-mabandonne",
 	"title": "Simplement je m'abandonne",
+	"rating": "DEV40",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1870,6 +2123,10 @@
 {
 	"id": "ta-parole-est-presence",
 	"title": "Ta parole est présence",
+	"rating": "EDIT18",
+	"publisher": "Adf",
+	"writer": "Bourel H.",
+	"composer": "Bourel H.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1896,6 +2153,10 @@
 {
 	"id": "tu-as-portee-celui-qui-porte-tout",
 	"title": "Tu as porté celui qui porte tout",
+	"rating": "V44-77",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1926,6 +2187,11 @@
 {
 	"id": "venez-chantons-notre-dieu",
 	"title": "Venez chantons notre Dieu",
+	"rating": "A509",
+	"newrating": "Y565",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Dadillon G.",
+	"composer": "Dadillon G.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -1960,6 +2226,8 @@
 {
 	"id": "venez-le-celebrer",
 	"title": "Venez le célébrer",
+	"rating": "JEM516",
+	"writer": "P Morgan",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -1974,6 +2242,10 @@
 {
 	"id": "vent-qui-renouvelle",
 	"title": "Vent qui renouvelle",
+	"rating": "K55-32",
+	"publisher": "Adf",
+	"writer": "Richard P.",
+	"composer": "Richard P.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2000,6 +2272,10 @@
 {
 	"id": "victoire-a-lagneau-de-dieu",
 	"title": "Victoire à l'Agneau de Dieu",
+	"rating": "I67-59",
+	"publisher": "A.c.n.",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2026,6 +2302,8 @@
 {
 	"id": "viens-saint-esprit-souffle-sur-moi",
 	"title": "Viens Saint-Esprit, Souffle sur moi",
+	"rating": "JEM556",
+	"writer": "Élisabeth Bourbouze",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2056,6 +2334,8 @@
 {
 	"id": "vous-recevez-une-force-glorious",
 	"title": "Vous recevez une force (Glorious)",
+	"rating": "24-12",
+	"writer": "B. Pouzin et T. Pouzin",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2078,6 +2358,11 @@
 {
 	"id": "beni-soit-dieu-le-pere",
 	"title": "Béni soit Dieu le Père",
+	"rating": "B19-31",
+	"newrating": "Y19-31",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Boers J.-m.",
+	"composer": "Boers J.-m.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2108,6 +2393,10 @@
 {
 	"id": "je-viens-vers-toi-jesus",
 	"title": "Je viens vers toi, Jésus",
+	"rating": "DEV495",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Ben B.",
+	"composer": "Ben B.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2130,6 +2419,10 @@
 {
 	"id": "je-vous-ai-choisis",
 	"title": "Je vous ai choisis",
+	"rating": "DEV44-63",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2152,6 +2445,10 @@
 {
 	"id": "notre-dieu-sest-fait-homme",
 	"title": "Notre Dieu s'est fait homme",
+	"rating": "EDIT15-56",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Dannaud M.",
+	"composer": "Dannaud M.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2182,6 +2479,8 @@
 {
 	"id": "psaume-26-le-seigneur-est-ma-lumiere-et-mon-salut",
 	"title": "Psaume 26 - Le Seigneur est ma lumière et mon salut",
+	"composer": "Frere Jean-Baptiste",
+	"publisher": "Le Carmel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2204,6 +2503,10 @@
 {
 	"id": "seigneur-mon-secours",
 	"title": "Seigneur, mon secours",
+	"rating": "14-43",
+	"composer": "M. Hagemann",
+	"writer": "D'après Psaume 120",
+	"publisher":"Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2230,6 +2533,8 @@
 {
 	"id": "toujours-plus-loin-alegria",
 	"title": "Toujours plus loin (Alegria)",
+	"writer": "Alexis Fleury",
+	"composer": "Anaël Pin",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2256,6 +2561,10 @@
 {
 	"id": "viens-esprit-saint-descends-sur-nous",
 	"title": "Viens, Esprit Saint descends sur nous",
+	"rating": "KN59-16",
+	"publisher": "A.c.n.",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2278,6 +2587,9 @@
 {
 	"id": "vous-serez-vraiment-grands",
 	"title": "Vous serez vraiment grands",
+	"writer": "P. Marie-Joseph",
+	"composer": "Frère Jean-Baptiste du Jonchay",
+	"publisher": "Editions du Carmel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2288,6 +2600,10 @@
 {
 	"id": "repands-ton-feu",
 	"title": "Répands ton feu",
+	"rating": "K67-57",
+	"publisher": "A.c.n.",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2326,6 +2642,7 @@
 {
 	"id": "viens-esprit-saint-mets-en-nous-ton-feu",
 	"title": "Viens Esprit Saint mets en nous ton feu",
+	"publisher": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2336,6 +2653,10 @@
 {
 	"id": "lesprit-sain-qui-nous-est-donne",
 	"title": "L'Esprit Saint qui nous est donné",
+	"rating": "K504",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Boullay G. Du, Melois B.",
+	"composer": "Boullay G. Du, Melois B.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2366,6 +2687,8 @@
 {
 	"id": "esprit-de-saintete",
 	"title": "Esprit de sainteté",
+	"rating": "JEM407",
+	"publisher": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2380,6 +2703,9 @@
 {
 	"id": "le-saint-esprit-descendra",
 	"title": "Le Saint Esprit descendra",
+	"rating": "19-23",
+	"composer": "B. Pavageau",
+	"publisher": "Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2406,6 +2732,9 @@
 {
 	"id": "ne-crains-pas",
 	"title": "Ne crains pas",
+	"composer": "Frère Jean-Baptiste du Jonchay",
+	"publisher": "Editions du Carmel",
+	"writer": "D'après Isaïe 43",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2424,6 +2753,8 @@
 {
 	"id": "marie-veillee-par-trois-etoiles",
 	"title": "Marie veillée par trois étoiles",
+	"writer": "Roch d'Uycens",
+	"composer": "Roch d'Uycens",
 	"lyrics": [
 	{
 		"type": "translation",
@@ -2458,6 +2789,7 @@
 {
 	"id": "gwenole-tad-benniget-guenole-notre-pere",
 	"title": "Gwenolé, tad benniget - Guénolé, notre Père",
+	"writer": "Abbaye de Landévénnec / Paroisse Saint-Guénolé en pays de la Mée en français",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2484,6 +2816,8 @@
 {
 	"id": "demeurez-en-mon-amour",
 	"title": "Demeurez en mon amour",
+	"writer": "Hélène Goussebayle D'après Saint-Jean",
+	"composer": "Hélène Goussebayle",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2514,6 +2848,7 @@
 {
 	"id": "choisis-la-vie",
 	"title": "Choisis la Vie",
+	"composer": "Frère Jean-Baptiste du Jonchay",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2544,6 +2879,10 @@
 {
 	"id": "laissez-vous-consumer",
 	"title": "Laissez-vous consumer",
+	"rating": "21-07",
+	"writer": "Marc Dannaud",
+	"composer": "Marc Dannaud",
+	"publisher": "Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2578,6 +2917,8 @@
 {
 	"id": "regardez-lhumilite-de-dieu",
 	"title": "Regardez l'humilité de Dieu",
+	"writer": "D'parès les écrits de François d'Assise",
+	"composer": "Anne-Sophie Rahm",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2596,6 +2937,10 @@
 {
 	"id": "pour-tes-merveilles",
 	"title": "Pour tes merveilles",
+	"rating": "DEV395",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2618,6 +2963,11 @@
 {
 	"id": "viens-esprit-de-saintete",
 	"title": "Viens, Esprit de sainteté",
+	"rating": "K231",
+	"newrating": "KY231",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Gouzes A.",
+	"composer": "Morin J.-m.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2652,6 +3002,10 @@
 {
 	"id": "jesus-toi-qui-as-promis",
 	"title": "Jésus, toi qui as promis",
+	"rating": "EDIT15-50",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2662,6 +3016,10 @@
 {
 	"id": "le-seigneur-nous-a-aimes",
 	"title": "Le Seigneur nous a aimés",
+	"rating": "D108",
+	"composer": "Jo Akepsimas",
+	"writer": "M. Debaisieux",
+	"publisher": "ADF",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2696,6 +3054,11 @@
 {
 	"id": "esprit-de-dieu-souffle-de-vie",
 	"title": "Esprit de Dieu, Souffle de vie",
+	"rating": "K501",
+	"newrating": "KY501",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Morin J.-m.",
+	"composer": "Mugnier P., Mugnier V.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2716,7 +3079,7 @@
 	]
 },
 {
-	"id": "cantique-de-simeon",
+	"id": "cantique-de-simeon-symeon",
 	"title": "Cantique de Siméon",
 	"lyrics": [
 	{
@@ -2734,104 +3097,12 @@
 	]
 },
 {
-	"id": "messe-1-kyrie",
-	"title": "(Messe) Kyrie",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Kyrie eleison x3\nChriste eleison x3\nKyrie eleison x3"
-	}
-	]
-},
-{
-	"id": "messe-2-emmaus-gloire-a-dieu",
-	"title": "(Messe Emmaüs) Gloire à Dieu",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Gloire à Dieu, Gloire à Dieu, au plus haut des cieux !\net paix sur la Terre aux hommes qu'il aime,\nGloria, gloire à Dieu !"
-	},
-	{
-		"type": "verse",
-		"text": "1 - Pour tes merveilles, Seigneur Dieu, Ton peuple te rend grâce !\nAmi des hommes, sois béni pour ton Règne sui vient !"
-	},
-	{
-		"type": "verse",
-		"text": "2 - À toi les chants de fête, par ton Fils bien-aimé, dans l'Esprit.\nSauveur du monde, Jésus-Christ, écoute nos prières !"
-	},
-	{
-		"type": "verse",
-		"text": "3 - Agneau de Dieu, vainqueur du mal, sauve-nous du péché !\nDieu Saint, splendeur du Père, Dieu vivant, le Très-Haut, le Seigneur !"
-	}
-	]
-},
-{
-	"id": "messe-4-je-crois-en-dieu-credo-symbole-des-apotres",
-	"title": "Je crois en Dieu (Symbole des Apôtres)",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Je crois en Dieu, \nle Père tout-puissant,\nCréateur du ciel et de la terre.\nEt en Jésus Christ, son Fils unique, notre Seigneur ;\nqui a été conçu du Saint Esprit,\nest né de la Vierge Marie,\na souffert sous Ponce Pilate,\na été crucifié,\nest mort et a été enseveli,\nest descendu aux enfers ;\nle troisième jour est ressuscité des morts,\nest monté aux cieux,\nest assis à la droite de Dieu le Père tout-puissant,\nd\u2019où il viendra juger les vivants et les morts."
-	},
-	{
-		"type": "verse",
-		"text": "Je crois en l\u2019Esprit Saint,\nà la sainte Église catholique,\nà la communion des saints,\nà la rémission des péchés,\nà la résurrection de la chair,\nà la vie éternelle."
-	},
-	{
-		"type": "verse",
-		"text": "Amen"
-	}
-	]
-},
-{
-	"id": "messe-5-colombiere-emmaus-partage-sylvanes-sanctus-saint-le-seigneur",
-	"title": "(Messe Colombière, Emmaüs, Partage, Sylvanès) Sanctus",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Saint, saint, saint le Seigneur Dieu de l'univers."
-	},
-	{
-		"type": "verse",
-		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna au plus haut des cieux !"
-	},
-	{
-		"type": "verse",
-		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna au plus haut des cieux !"
-	}
-	]
-},
-{
-	"id": "messe-6-anamnese",
-	"title": "(Messe) Anamnèse",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Gloire à Toi qui étais mort,\ngloire à Toi qui est vivant,\nnotre Sauveur et notre Dieu :\nviens, Seigneur Jésus !"
-	}
-	]
-},
-{
-	"id": "messe-7-agneau-de-dieu",
-	"title": "(Messe) Agneau de Dieu",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Agneau de Dieu qui enlèves le péché du monde,\nprends pitié de nous, prends pitié de nous."
-	},
-	{
-		"type": "verse",
-		"text": "Agneau de Dieu qui enlèves le péché du monde,\nprends pitié de nous, prends pitié de nous."
-	},
-	{
-		"type": "verse",
-		"text": "Agneau de Dieu qui enlèves le péché du monde,\ndonne nous la paix, donne nous la paix !."
-	}
-	]
-},
-{
 	"id": "le-fils-de-dieu-sest-fait-homme",
 	"title": "Le fils de Dieu s'est fait homme",
+	"rating": "F56-16",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2858,6 +3129,11 @@
 {
 	"id": "dieu-nous-a-tous-appeles-nous-sommes-le-corps-du-christ",
 	"title": "Dieu nous a tous appelés (Nous sommes le corps du Christ)",
+	"rating": "A14-56-1",
+	"newrating": "KD14-56-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2890,22 +3166,12 @@
 	]
 },
 {
-	"id": "messe-6-emmaus-anamnese",
-	"title": "(Messe Emmaüs) Anamnèse",
-	"lyrics": [
-	{
-		"type": "translation",
-		"text": "Il est grand le mystère de la foi"
-	},
-	{
-		"type": "chorus",
-		"text": "Tu étais mort, Tu es vivant, O ressuscité !\nNous attendons ta venue dans la gloire, Viens, Seigneur Jésus !"
-	}
-	]
-},
-{
 	"id": "tu-fais-ta-demeure-en-nous-tu-es-la-present-livre-pour-nous",
 	"title": "Tu fais ta demeure en nous",
+	"rating": "D56-49",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2928,6 +3194,10 @@
 {
 	"id": "esprit-de-pentecote-souffle-de-dieu",
 	"title": "Esprit de Pentecôte, souffle de Dieu",
+	"rating": "K138",
+	"publisher": "Studio Sm",
+	"writer": "Debaisieux M.",
+	"composer": "Mannick",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -2950,6 +3220,10 @@
 {
 	"id": "jai-vu-des-fleuves-deau-vive",
 	"title": "J'ai vu des fleuves d'eau vive",
+	"rating": "I44-62",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -2970,48 +3244,12 @@
 	]
 },
 {
-	"id": "messe-2-soleil-des-nations-gloire-a-dieu",
-	"title": "(Messe Soleil des Nations) Gloire à Dieu",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Gloire à Dieu, paix aux hommes, joie du ciel sur la Terre ! (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "1 - Pour tes merveilles, Seigneur Dieu, ton peuple te rend grâce.\nAmi des hommes, sois béni pour ton Règne qui vient !"
-	},
-	{
-		"type": "verse",
-		"text": "2 - À toi les chants de fête, par ton Fils bien-aimé, dans l’Esprit.\nSauveur du monde, Jésus Christ, écoute nos prières !"
-	},
-	{
-		"type": "verse",
-		"text": "3 - Agneau de Dieu, vainqueur du mal, sauve-nous du péché.\nDieu saint, splendeur du Père, Dieu vivant, le Très-Haut, le Seigneur !"
-	}
-	]
-},
-{
-	"id": "messe-5-soleil-des-nations-sanctus",
-	"title": "(Messe Soleil des Nations) Sanctus",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Saint, le Seigneur, Saint, le Seigneur, Saint, le Seigneur, Dieu de l'univers"
-	},
-	{
-		"type": "verse",
-		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna, Hosanna au plus haut des cieux !"
-	},
-	{
-		"type": "verse",
-		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna, Hosanna au plus haut des cieux !"
-	}
-	]
-},
-{
 	"id": "devenez-ce-que-vous-recevez",
 	"title": "Devenez ce que vous recevez",
+	"rating": "D68-39",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Fradon J.-l.",
+	"composer": "Ben B.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3050,6 +3288,10 @@
 {
 	"id": "viens-esprit-saint-veni-sancte-spiritus",
 	"title": "Viens Esprit Saint (Veni Sancte Spiritus)",
+	"rating": "KAL64-89",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Aelf",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3100,6 +3342,10 @@
 {
 	"id": "lesprit-de-dieu-repose-sur-moi",
 	"title": "L'Esprit de Dieu repose sur moi",
+	"rating": "KX57-06",
+	"publisher": "Adf",
+	"writer": "Deiss L.",
+	"composer": "Tossou P.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3130,6 +3376,10 @@
 {
 	"id": "peuple-de-baptises",
 	"title": "Peuple de baptisés",
+	"rating": "K106",
+	"publisher": "Lethielleux (ddb)",
+	"writer": "Lecot J.-P.",
+	"composer": "Decha P., Lecot J.-P.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3162,18 +3412,13 @@
 	]
 },
 {
-	"id": "messe-2-du-partage-gloire-a-dieu",
-	"title": "(Messe du Partage) Gloire à Dieu",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Gloire à Dieu, au plus haut des cieux,\nEt paix sur la terre aux hommes qu'il aime.\nNous te louons, nous te bénissons, nous t'adorons,\nNous te glorifions, nous te rendons grâce, pour ton immense gloire,\nSeigneur Dieu, Roi du ciel, Dieu le Père tout-puissant.\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;\nToi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous.\nCar toi seul es saint,\nToi seul es Seigneur,\nToi seul es le Très-Haut : Jésus Christ, avec le Saint-Esprit\nDans la gloire de Dieu le Père. Amen."
-	}
-	]
-},
-{
 	"id": "a-limage-de-ton-amour",
 	"title": "À l'image de ton amour",
+	"rating": "D218",
+	"newrating": "X971",
+	"publisher": "Lethielleux (ddb)",
+	"writer": "Lecot J.-P.",
+	"composer": "Lecot J.-P., Temple S.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3194,62 +3439,12 @@
 	]
 },
 {
-	"id": "messe-4-je-crois-en-dieu-symbole-de-nicee",
-	"title": "Je crois en Dieu (Symbole de Nicée)",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Je crois en un seul Dieu, le Père tout puissant,\ncréateur du ciel et de la terre, de l’univers visible et invisible,"
-	},
-	{
-		"type": "verse",
-		"text": "Je crois en un seul Seigneur, Jésus Christ,\nle Fils unique de Dieu, né du Père avant tous les siècles :"
-	},
-	{
-		"type": "verse",
-		"text": "Il est Dieu, né de Dieu,\nlumière, née de la lumière,\nvrai Dieu, né du vrai Dieu"
-	},
-	{
-		"type": "verse",
-		"text": "Engendré non pas créé,\nde même nature que le Père ;\net par lui tout a été fait."
-	},
-	{
-		"type": "verse",
-		"text": "Pour nous les hommes, et pour notre salut,\nil descendit du ciel;\nPar l’Esprit Saint, il a pris chair de la Vierge Marie, et s’est fait homme."
-	},
-	{
-		"type": "verse",
-		"text": "Crucifié pour nous sous Ponce Pilate,\nIl souffrit sa passion et fut mis au tombeau."
-	},
-	{
-		"type": "verse",
-		"text": "Il ressuscita le troisième jour,\nconformément aux Ecritures, et il monta au ciel;\nil est assis à la droite du Père."
-	},
-	{
-		"type": "verse",
-		"text": "Il reviendra dans la gloire, pour juger les vivants et les morts\net son règne n’aura pas de fin."
-	},
-	{
-		"type": "verse",
-		"text": "Je crois en l’Esprit Saint, qui est Seigneur et qui donne la vie;\nil procède du Père et du Fils."
-	},
-	{
-		"type": "verse",
-		"text": "Avec le Père et le Fils, il reçoit même adoration et même gloire;\nil a parlé par les prophètes."
-	},
-	{
-		"type": "verse",
-		"text": "Je crois en l’Eglise, une, sainte, catholique et apostolique.\nJe reconnais un seul baptême pour le pardon des péchés.\nJ’attends la résurrection des morts, et la vie du monde à venir."
-	},
-	{
-		"type": "verse",
-		"text": "Amen"
-	}
-	]
-},
-{
 	"id": "peuple-de-dieu-marche-joyeux",
 	"title": "Peuple de Dieu, marche joyeux",
+	"rating": "K180",
+	"publisher": "Fleurus",
+	"writer": "Rimaud D.",
+	"composer": "Villeneuve Ch.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3324,6 +3519,10 @@
 {
 	"id": "celui-qui-a-mange-de-ce-pain",
 	"title": "Celui qui a mangé de ce pain",
+	"rating": "D140-3",
+	"publisher": "Mame(le Chalet)",
+	"writer": "Servel J.",
+	"composer": "Le Gleuher R.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3350,6 +3549,9 @@
 {
 	"id": "tournez-les-yeux-vers-le-seigneur",
 	"title": "Tournez les yeux vers le Seigneur",
+	"rating": "IEV371",
+	"composer": "Chantal Guerret-Fourneau",
+	"writer": "Chantal Guerret-Fourneau",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3372,6 +3574,11 @@
 {
 	"id": "pour-lappel-a-rejoindre-ton-peuple",
 	"title": "Pour l'appel à rejoindre ton peuple",
+	"rating": "G14-58-1",
+	"newrating": "GP14-58-1",
+	"publisher": "Studio Sm",
+	"writer": "Cfc (sœur Marie-pierre)",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3392,70 +3599,12 @@
 	]
 },
 {
-	"id": "messe-2-trinite-gloire-a-dieu",
-	"title": "(Messe de la Trinité) Gloire à Dieu",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Gloire à Dieu au plus haut des cieux\net paix sur la terre aux hommes qu'il aime !"
-	},
-	{
-		"type": "verse",
-		"text": "Nous te louons, nous te bénissons,\nnous t'adorons, nous te glorifions, nous te rendons grâce,\npour ton immense gloire"
-	},
-	{
-		"type": "verse",
-		"text": "Seigneur Dieu, Roi du ciel,\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;"
-	},
-	{
-		"type": "verse",
-		"text": "Toi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
-	},
-	{
-		"type": "verse",
-		"text": "Car toi seul es saint, Toi seul es Seigneur,\nToi seul es le Très-Haut : Jésus Christ, avec le Saint-Esprit\ndans la gloire de Dieu le Père."
-	}
-	]
-},
-{
-	"id": "messe-5-trinite-sanctus",
-	"title": "(Messe de la Trinité) Sanctus",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Saint, saint, saint le Seigneur, le Dieu de l'univers. (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "Ciel et terre sont remplis de ta splendeur et de la gloire.\nHosanna au plus haut des cieux ! (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "Béni soit celui qui vient au nom du Seigneur.\nHosanna au plus haut des cieux ! (bis)"
-	}
-	]
-},
-{
-	"id": "messe-7-trinite-agneau-de-dieu",
-	"title": "(Messe de la Trinité) Agneau de Dieu",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Agneau de Dieu, envoyé par le Père, tu nous sauves du péché,\nprends pitié de nous, Seigneur (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "Agneau de Dieu, emportant notre mort, tu nous donnes ta vie,\nprends pitié de nous, Seigneur (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "Agneau de Dieu, dans l'amour de l'Esprit, tu apaises notre coeur,\ndonne nous la paix, Seigneur (bis)"
-	}
-	]
-},
-{
 	"id": "nayons-pas-peur-de-vivre-au-monde",
 	"title": "N'ayons pas peur de vivre au monde",
+	"rating": "T72",
+	"publisher": "Studio Sm",
+	"writer": "Servel J.",
+	"composer": "Akepsimas J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3494,6 +3643,11 @@
 {
 	"id": "chantez-priez-celebrez-le-seigneur",
 	"title": "Chantez, priez, célébrez le Seigneur",
+	"rating": "A40-73",
+	"newrating": "EDIT400",
+	"publisher": "Adf",
+	"writer": "Bourel H.",
+	"composer": "Bourel H.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3544,6 +3698,10 @@
 {
 	"id": "dieu-nous-accueille-en-sa-maison",
 	"title": "Dieu nous accueille en sa maison",
+	"rating": "A174",
+	"publisher": "Lethielleux (ddb)",
+	"writer": "Lecot J.-p.",
+	"composer": "Lecot J.-p., Palestrina G.-p.(16°s)",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3586,6 +3744,10 @@
 {
 	"id": "venez-approchons-nous",
 	"title": "Venez, approchons-nous",
+	"rating": "D74-15",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3632,6 +3794,11 @@
 {
 	"id": "mendiant-du-jour",
 	"title": "Mendiant du jour",
+	"rating": "D574",
+	"newrating": "DP574",
+	"publisher": "Jubilus-voix Nouvelles Editions",
+	"writer": "Rimaud D.",
+	"composer": "Daniel E., Hafner N.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3658,6 +3825,11 @@
 {
 	"id": "christ-aujourdhui-nous-appelle",
 	"title": "Christ aujourd'hui nous appelle",
+	"rating": "SM176",
+	"newrating": "T176",
+	"publisher": "Studio Sm",
+	"writer": "Bernard Cl.",
+	"composer": "Wackenheim M.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3704,6 +3876,11 @@
 {
 	"id": "ecoute-la-voix-du-seigneur",
 	"title": "Écoute la voix du Seigneur",
+	"rating": "A548",
+	"newrating": "X548",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3734,6 +3911,10 @@
 {
 	"id": "partageons-le-pain-du-seigneur",
 	"title": "Partageons le pain du Seigneur",
+	"rating": "D39-31",
+	"publisher": "Bayard-liturgie",
+	"writer": "Hameline J.-y.",
+	"composer": "Berthier J., Melodie Populaire",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3804,6 +3985,11 @@
 {
 	"id": "souffle-imprevisible",
 	"title": "Souffle imprévisible",
+	"rating": "K28-44",
+	"newrating": "KY28-44",
+	"publisher": "Studio Sm",
+	"writer": "Bernard Cl.",
+	"composer": "Akepsimas J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -3846,6 +4032,11 @@
 {
 	"id": "heureux-bienheureux",
 	"title": "Heureux, bienheureux",
+	"rating": "U589",
+	"newrating": "X589",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "D'Après Saint Matthieu 5",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3876,6 +4067,10 @@
 {
 	"id": "prenez-et-mangez-ceci-est-mon-corps",
 	"title": "Prenez et mangez, ceci est mon Corps",
+	"rating": "D52-67",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3898,6 +4093,10 @@
 {
 	"id": "un-grand-champ-a-moissonner",
 	"title": "Un grand champ à moissonner",
+	"rating": "T90",
+	"publisher": "Studio Sm",
+	"writer": "Tassin Cl.",
+	"composer": "Tassin Cl.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3924,6 +4123,10 @@
 {
 	"id": "leve-les-yeux-et-regarde",
 	"title": "Lève les yeux et regarde",
+	"rating": "F31-74",
+	"publisher": "Novalis",
+	"writer": "Dube M.",
+	"composer": "Dube M.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3946,6 +4149,10 @@
 {
 	"id": "levez-les-yeux-et-regardez",
 	"title": "Levez les yeux et regardez",
+	"rating": "T500",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Pallesco M., Pallesco Th.",
+	"composer": "Pallesco M., Pallesco Th.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -3972,6 +4179,11 @@
 {
 	"id": "sur-les-chemins-du-monde",
 	"title": "Sur les chemins du monde",
+	"rating": "G127",
+	"newrating": "EDIT13-00",
+	"publisher": "Studio Sm",
+	"writer": "Scouarnec M.",
+	"composer": "Akepsimas J.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4000,8 +4212,13 @@
 	]
 },
 {
-	"id": "au-cœur-de-ce-monde",
+	"id": "au-coeur-de-ce-monde",
 	"title": "Au cœur de ce monde",
+	"rating": "A238-1",
+	"newrating": "EA238-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4024,6 +4241,11 @@
 {
 	"id": "tenons-en-eveil-la-memoire-du-seigneur",
 	"title": "Tenons en éveil la mémoire du Seigneur",
+	"rating": "C243-1",
+	"newrating": "Y243-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4054,6 +4276,10 @@
 {
 	"id": "sainte-anne-o-bonne-mere",
 	"title": "Sainte-Anne Ô Bonne Mère",
+	"rating": "W52-44",
+	"publisher": "Jubilus-voix Nouvelles Editions",
+	"writer": "Guillevic A.",
+	"composer": "Melodie Traditionnelle",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4074,86 +4300,13 @@
 	]
 },
 {
-	"id": "messe-1-saint-francois-xavier-kyrie",
-	"title": "(Messe de Saint François-Xavier) Kyrie",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "1 - Pardonne-moi, Seigneur, j’ai renié ton Nom,\nPardonne-moi, Seigneur, j’ai quitté ta maison.\nJ’ai voulu posséder sans attendre le don,\nPardonne-moi  et purifie mon cœur !"
-	},
-	{
-		"type": "chorus",
-		"text": "Kyrie eleison, \nKyrie eleison. (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "2 - Pardonne-moi, Seigneur, j’ai suivi d’autres dieux,\nPardonne-moi, Seigneur, j’ai détourné les yeux.\nJ’ai choisi loin de toi la richesse et l’honneur,\nPardonne-moi et purifie mon cœur !"
-	},
-	{
-		"type": "chorus",
-		"text": "Christe eleison,\nChriste eleison. (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "3 - Pardonne-moi, Seigneur j’ai n’ai pas su aimer,\nPardonne-moi, Seigneur je me suis dérobé.\nJe ne suis pas resté le gardien de mon frère,\nPardonne-moi et purifie mon cœur !"
-	},
-	{
-		"type": "chorus",
-		"text": "Kyrie eleison,\nKyrie eleison. (bis)"
-	}
-	]
-},
-{
-	"id": "messe-2-saint-francois-xavier-gloire-a-dieu",
-	"title": "(Messe de Saint François-Xavier) Gloire à Dieu",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Gloire à Dieu, au plus haut des cieux,\nPaix sur terre aux hommes qu'Il aime. (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "1 - Nous te louons, nous te bénissons,\nnous t'adorons, nous te glorifions,\nnous te rendons grâce, pour ton immense gloire\nSeigneur Dieu, Roi du ciel,\nDieu le Père tout puissant.\nSeigneur, Fils unique, Jésus-Christ\nSeigneur Dieu, Agneau de Dieu,\nle Fils du Père ;"
-	},
-	{
-		"type": "verse",
-		"text": "2 - Toi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
-	},
-	{
-		"type": "verse",
-		"text": "3 - Car toi seul es saint, Toi seul es Seigneur, Toi seul es le Très-Haut :\nJésus Christ, avec le Saint-Esprit dans la gloire de Dieu le Père."
-	},
-	{
-		"type": "chorus",
-		"text": "Amen, Amen, Amen."
-	}
-	]
-},
-{
-	"id": "messe-5-saint-francois-xavier-sanctus",
-	"title": "(Messe de Saint François-Xavier) Sanctus",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Sanctus, sanctus, sanctus, sanctus. (bis)"
-	},
-	{
-		"type": "chorus",
-		"text": "Saint est le Seigneur, Saint est le Seigneur,\nDieu de l’univers, Dieu de l’univers ! (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "Le ciel et la terre sont remplis de ta gloire ! \nHosanna, hosanna au plus haut des cieux ! (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "Béni soit Celui qui vient au nom du Seigneur, \nHosanna, hosanna au plus haut des cieux ! (bis)"
-	}
-	]
-},
-{
 	"id": "prenons-le-large",
 	"title": "Prenons le large",
+	"rating": "R35-97",
+	"newrating": "X35-97",
+	"publisher": "Studio Sm",
+	"writer": "Bernard Cl.",
+	"composer": "Grzybowski L.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4188,6 +4341,10 @@
 {
 	"id": "en-marchant-vers-toi-seigneur",
 	"title": "En marchant vers Toi, Seigneur",
+	"rating": "D380",
+	"publisher": "Lethielleux (ddb)",
+	"writer": "Lecot J.-p.",
+	"composer": "Lecot J.-p., Prose Ancienne",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4218,6 +4375,10 @@
 {
 	"id": "eglise-du-seigneur-peuple-de-dieu-cite-de-lemmanuel",
 	"title": "Église du Seigneur / Peuple de Dieu, cité de l'Emmanuel",
+	"rating": "K128",
+	"publisher": "Lethielleux (ddb)",
+	"writer": "Lecot J.-P.",
+	"composer": "Audimont J. D'(18°s), Lecot J.-P., Saint Victor A. DE(13°s)",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4264,6 +4425,10 @@
 {
 	"id": "jai-vu-leau-vive-keur-moussa",
 	"title": "J'ai vu l'eau vive (Keur Moussa)",
+	"rating": "I132-1",
+	"publisher": "Sodec",
+	"writer": "Cfc",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4288,30 +4453,10 @@
 	]
 },
 {
-	"id": "messe-2-colombiere-gloria",
-	"title": "(Messe Colombière) Gloria",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Gloria in excelsis Deo, Gloria Deo Domino.\nGloria in excelsis Deo, Gloria Deo Domino."
-	},
-	{
-		"type": "verse",
-		"text": "1 - Et paix sur la terre aux hommes qu'il aime. Nous te louons, nous te bénissons, nous t’adorons, nous te glorifions, nous te rendons grâce pour ton immense gloire.\nSeigneur Dieu, Roi du ciel, Dieu, le Père tout-puissant."
-	},
-	{
-		"type": "verse",
-		"text": "2 - Seigneur, Fils unique, Jésus Christ, Seigneur Dieu, Agneau de Dieu, le Fils du Père; toi qui enlèves le péché du monde, prends pitié de nous;\ntoi qui enlèves le péché du monde, reçois notre prière;\ntoi qui es assis à la droite du Père, prends pitié de nous."
-	},
-	{
-		"type": "verse",
-		"text": "3 - Car toi seul es saint, toi seul es Seigneur, toi seul es le Très-Haut : Jésus-Christ, avec le Saint Esprit, dans la gloire de Dieu le Père. Amen."
-	}
-	]
-},
-{
 	"id": "notre-pere-glorious",
 	"title": "Notre Père (Glorious)",
+	"composer": "Benjamin et Thomas Pouzin",
+	"publisher": "ABT Prod",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4330,6 +4475,11 @@
 {
 	"id": "ouvrez-vos-coeurs",
 	"title": "Ouvrez vos cœurs",
+	"rating": "K79-1",
+	"newrating": "KP79-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Gelineau J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4390,6 +4540,11 @@
 {
 	"id": "o-pere-je-suis-ton-enfant",
 	"title": "Ô Père, je suis ton enfant",
+	"rating": "SM90",
+	"newrating": "D592",
+	"publisher": "Studio Sm",
+	"writer": "Bassieux M.-a.",
+	"composer": "Humenry J.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4424,6 +4579,11 @@
 {
 	"id": "les-mots-que-tu-nous-dis",
 	"title": "Les mots que tu nous dis",
+	"rating": "E164",
+	"newrating": "EP164",
+	"publisher": "Fleurus",
+	"writer": "Duchesneau Cl.",
+	"composer": "Chapuis M., Duchesneau Cl.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4472,12 +4632,16 @@
 	]
 },
 {
-	"id": "pain-veritable-pain-de-vie-corps-ressucite",
-	"title": "Pain véritable (Pain de vie, corps ressucité)",
+	"id": "pain-veritable-pain-de-vie-corps-ressuscite",
+	"title": "Pain véritable (Pain de vie, corps ressuscité)",
+	"rating": "D103",
+	"writer": "Saint François d'Assise",
+	"publisher": "ADF-Musique",
+	"composer": "Wackenheim M.",
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Pain de vie, corps ressucité,\nSource vive de l'éternité"
+		"text": "Pain de vie, corps ressuscité,\nSource vive de l'éternité"
 	},
 	{
 		"type": "verse",
@@ -4512,6 +4676,10 @@
 {
 	"id": "peuple-de-freres-peuple-du-partage",
 	"title": "Peuple de frères, peuple du partage",
+	"rating": "T122",
+	"publisher": "Studio Sm",
+	"writer": "Scouarnec M.",
+	"composer": "Akepsimas J.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4538,6 +4706,10 @@
 {
 	"id": "approchons-nous-de-la-table",
 	"title": "Approchons-nous de la table",
+	"rating": "D19-30",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Dannaud M.",
+	"composer": "Dannaud M.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4556,6 +4728,11 @@
 {
 	"id": "tu-entends-mon-cri",
 	"title": "Tu entends mon cri",
+	"rating": "P22-18",
+	"newrating": "DEV327",
+	"publisher": "A.c.n.",
+	"writer": "Cté Chemin Neuf",
+	"composer": "Cté Chemin Neuf",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4580,110 +4757,13 @@
 	]
 },
 {
-	"id": "messe-1-au-coeur-de-ce-monde-jesus-berger-de-toute-humanite",
-	"title": "(Messe Au cœur de ce monde) Jésus, berger de toute humanité",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "1 - Jésus, Berger de toute humanité,\nTu es venu chercher ceux qui étaient perdus."
-	},
-	{
-		"type": "chorus",
-		"text": "Prends pitié de nous, fais-nous revenir,\nFais-nous revenir à toi ! Prends pitié de nous !"
-	},
-	{
-		"type": "verse",
-		"text": "2 - Jésus, Berger de toute humanité,\nTu es venu guérir ceux qui étaient malades."
-	},
-	{
-		"type": "verse",
-		"text": "3 - Jésus, Berger de toute humanité,\nTu es venu sauver ceux qui étaient pécheurs."
-	}
-	]
-},
-{
-	"id": "messe-2-au-coeur-de-ce-monde-gloire-a-dieu-dans-le-ciel",
-	"title": "(Messe Au cœur de ce monde) Gloire à Dieu dans le ciel",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Gloire à Dieu dans le ciel\nGrande paix sur la Terre (bis)"
-	},
-	{
-		"type": "verse",
-		"text": "Nous te louons, nous te bénissons, nous t’adorons,\nNous te glorifions, nous te rendons grâce pour ton immense gloire !"
-	},
-	{
-		"type": "verse",
-		"text": "Seigneur Dieu, le Roi du ciel, le Père tout-puissant !\nSeigneur Dieu, Agneau de Dieu, le Fils du Père !"
-	},
-	{
-		"type": "verse",
-		"text": "Le seul Saint, le seul Seigneur, le seul Très Haut !\nJésus-Chrsit, avec l'esprit, dans la gloire du Père !"
-	}
-	]
-},
-{
-	"id": "messe-5-au-coeur-de-ce-monde-saint-le-dieu-de-lunivers",
-	"title": "(Messe Au cœur de ce monde) Saint, le Dieu de l'Univers",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "Saint est le Seigneur, le Dieu de l’univers,"
-	},
-	{
-		"type": "chorus",
-		"text": "Hosanna au plus haut des cieux !"
-	},
-	{
-		"type": "verse",
-		"text": "Le ciel et la terre sont remplis de ta gloire,"
-	},
-	{
-		"type": "verse",
-		"text": "Qu’il soit béni au nom du Seigneur,\nCelui qui est, qui était et qui vient."
-	}
-	]
-},
-{
-	"id": "messe-6-au-coeur-de-ce-monde-tu-es-venu-tu-reviendras",
-	"title": "(Messe Au cœur de ce monde) Tu es venu, tu reviendras",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Tu es venu, tu reviendras,\nSeigneur Jésus nous t’attendons.\nTu étais mort, tu es vivant,\nSeigneur Jésus, sois notre vie"
-	}
-	]
-},
-{
-	"id": "messe-7-au-coeur-de-ce-monde-agneau-glorieux",
-	"title": "(Messe Au cœur de ce monde) Agneau glorieux",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "1 - Agneau glorieux,\nAgneau que nous avions rejeté,\nAgneau devenu notre Berger."
-	},
-	{
-		"type": "chorus",
-		"text": "Prends pitié de nous : Conduis-nous vers le Père !\nPrends pitié de nous : Guide-nous dans la paix !"
-	},
-	{
-		"type": "verse",
-		"text": "2 - Agneau glorieux,\nAgneau que nous avions immolé,\nAgneau devenu notre Berger."
-	},
-	{
-		"type": "verse",
-		"text": "3 - Agneau glorieux,\nAgneau que nous avions crucifié,\nAgneau devenu notre Berger."
-	},
-	{
-		"type": "verse",
-		"text": "4 - Agneau glorieux,\nAgneau que nous avions transpercé,\nAgneau devenu notre Berger."
-	}
-	]
-},
-{
 	"id": "si-le-pere-vous-appelle",
 	"title": "Si le Père vous appelle",
+	"rating": "T154-1",
+	"newrating": "O154-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4714,6 +4794,10 @@
 {
 	"id": "benissez-dieu",
 	"title": "Bénissez Dieu",
+	"rating": "14-05",
+	"composer": "C. Brasseur",
+	"writer": "C. Brasseur",
+	"publisher": "Editions des Béatitudes",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4732,6 +4816,10 @@
 {
 	"id": "alleluia-jubilate",
 	"title": "Alléluia, Jubilate",
+	"rating": "Y74-10",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4758,6 +4846,10 @@
 {
 	"id": "esprit-de-lumiere-esprit-createur",
 	"title": "Esprit de lumière, Esprit créateur",
+	"rating": "K68-44",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4784,6 +4876,8 @@
 {
 	"id": "allez-a-jesus-eucharistie",
 	"title": "Allez à Jésus Eucharistie",
+	"writer": "Bénédicte Delelis, Anne-Sophie Rahm",
+	"publisher": "Abba Groupe de prière",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4814,6 +4908,10 @@
 {
 	"id": "jesus-agneau-de-dieu",
 	"title": "Jésus, Agneau de Dieu",
+	"newrating": "DEV361",
+	"rating": "17-35",
+	"writer": "B. Pavageau",
+	"publisher": "Editions De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4828,6 +4926,10 @@
 {
 	"id": "allez-dans-le-monde-entier",
 	"title": "Allez dans le monde entier",
+	"rating": "EDIT18-29",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -4854,6 +4956,10 @@
 {
 	"id": "par-toute-la-terre",
 	"title": "Par toute la terre",
+	"rating": "19-14",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Communauté De L'Emmanuel",
+	"composer": "Communauté De L'Emmanuel",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4876,6 +4982,10 @@
 {
 	"id": "a-ce-monde-que-tu-fais",
 	"title": "À ce monde que tu fais",
+	"rating": "RT63-69-2",
+	"publisher": "Adf",
+	"writer": "Rimaud D.",
+	"composer": "Metayer C.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -4932,104 +5042,503 @@
 	]
 },
 {
-	"id": "messe-1-de-lermitage-kyrie",
-	"title": "(Messe de l'Ermitage) Kyrie",
+	"id": "pour-que-nos-coeurs",
+	"title": "Pour que nos cœurs",
+	"rating": "D308",
+	"publisher": "Studio Sm",
+	"writer": "Walther R.",
+	"composer": "Scouarnec M.",
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Seigneur Jésus envoyé par le Père\npour guérir et sauver les hommes,\nprends pitié de nous !"
-	},
-	{
-		"type": "chorus",
-		"text": "Seigneur prends pitié (x3)"
+		"text": "1 - Pour que nos cœurs\nDeviennent de chair,\nTu as rompu le pain\nComme un fruit de justice,\nComme un signe d´amour."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Ô Christ venu dans le monde\nappeler tous les pécheurs,\nprends pitié de nous !"
-	},
-	{
-		"type": "chorus",
-		"text": "Ô Christ prends pitié (x3)"
+		"text": "2 - Pour que nos cœurs\nDeviennent de sang,\nTu as versé le vin\nComme un puits de tendresse,\nComme un signe de paix."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Seigneur, élevé dans la gloire du Père,\noù tu intercèdes pour nous,\nprends pitié de nous !"
+		"text": "3 - Pour que nos cœurs\nRespirent ta vie,\nTu as donné ta mort\nComme un jour qui se lève,\nComme un cri d´avenir."
 	},
 	{
-		"type": "chorus",
-		"text": "Seigneur prends pitié (x3)"
+		"type": "verse",
+		"text": "4 - Pour que nos cœurs\nÉclatent de vie,\nNous fêtons ta mémoire.\nTu libères ton peuple\nEt tu es son chemin."
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-4-je-crois-en-dieu-credo-symbole-des-apotres",
+	"title": "Je crois en Dieu (Symbole des Apôtres)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Je crois en Dieu, \nle Père tout-puissant,\nCréateur du ciel et de la terre.\nEt en Jésus Christ, son Fils unique, notre Seigneur ;\nqui a été conçu du Saint Esprit,\nest né de la Vierge Marie,\na souffert sous Ponce Pilate,\na été crucifié,\nest mort et a été enseveli,\nest descendu aux enfers ;\nle troisième jour est ressuscité des morts,\nest monté aux cieux,\nest assis à la droite de Dieu le Père tout-puissant,\nd'où il viendra juger les vivants et les morts."
+	},
+	{
+		"type": "verse",
+		"text": "Je crois en l'Esprit Saint,\nà la sainte Église catholique,\nà la communion des saints,\nà la rémission des péchés,\nà la résurrection de la chair,\nà la vie éternelle."
+	},
+	{
+		"type": "verse",
+		"text": "Amen"
 	}
 	]
 },
 {
-	"id": "messe-5-de-lermitage-sanctus",
-	"title": "(Messe de l'Ermitage) Sanctus",
+	"id": "messe-4-je-crois-en-dieu-symbole-de-nicee",
+	"title": "Je crois en Dieu (Symbole de Nicée)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Je crois en un seul Dieu, le Père tout puissant,\ncréateur du ciel et de la terre, de l’univers visible et invisible,"
+	},
+	{
+		"type": "verse",
+		"text": "Je crois en un seul Seigneur, Jésus Christ,\nle Fils unique de Dieu, né du Père avant tous les siècles :"
+	},
+	{
+		"type": "verse",
+		"text": "Il est Dieu, né de Dieu,\nlumière, née de la lumière,\nvrai Dieu, né du vrai Dieu"
+	},
+	{
+		"type": "verse",
+		"text": "Engendré non pas créé,\nde même nature que le Père ;\net par lui tout a été fait."
+	},
+	{
+		"type": "verse",
+		"text": "Pour nous les hommes, et pour notre salut,\nil descendit du ciel;\nPar l’Esprit Saint, il a pris chair de la Vierge Marie, et s’est fait homme."
+	},
+	{
+		"type": "verse",
+		"text": "Crucifié pour nous sous Ponce Pilate,\nIl souffrit sa passion et fut mis au tombeau."
+	},
+	{
+		"type": "verse",
+		"text": "Il ressuscita le troisième jour,\nconformément aux Ecritures, et il monta au ciel;\nil est assis à la droite du Père."
+	},
+	{
+		"type": "verse",
+		"text": "Il reviendra dans la gloire, pour juger les vivants et les morts\net son règne n’aura pas de fin."
+	},
+	{
+		"type": "verse",
+		"text": "Je crois en l’Esprit Saint, qui est Seigneur et qui donne la vie;\nil procède du Père et du Fils."
+	},
+	{
+		"type": "verse",
+		"text": "Avec le Père et le Fils, il reçoit même adoration et même gloire;\nil a parlé par les prophètes."
+	},
+	{
+		"type": "verse",
+		"text": "Je crois en l’Eglise, une, sainte, catholique et apostolique.\nJe reconnais un seul baptême pour le pardon des péchés.\nJ’attends la résurrection des morts, et la vie du monde à venir."
+	},
+	{
+		"type": "verse",
+		"text": "Amen"
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-emmaus-kyrie",
+	"title": "(Messe Emmaüs) Kyrie",
+	"rating": "C53-71",
+	"publisher": "Adf",
+	"writer": "Grzybowski L.",
+	"composer": "Grzybowski L.",
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Saint, Saint, Saint le Seigneur,\nDieu de l'univers."
-	},
-	{
-		"type": "verse",
-		"text": "Le ciel et la terre sont remplis de ta gloire !"
+		"text": "Seigneur prends pitié, prends pitié de nous."
 	},
 	{
 		"type": "chorus",
-		"text": "Hosanna au plus haut des cieux !"
-	},
-	{
-		"type": "verse",
-		"text": "Béni soit celui qui vient au nom du Seigneur !"
+		"text": "Ô Christ prends pitié, prends pitié de nous."
 	},
 	{
 		"type": "chorus",
-		"text": "Hosanna au plus haut des cieux !"
+		"text": "Seigneur prends pitié, prends pitié de nous."
 	}
 	]
 },
 {
-	"id": "messe-6-de-lermitage-anamnese",
-	"title": "(Messe de l'Ermitage) Anamnèse",
+	"id": "messe-2-emmaus-gloire-a-dieu",
+	"title": "(Messe Emmaüs) Gloire à Dieu",
+	"rating": "F53-72",
+	"publisher": "Adf",
+	"writer": "Grzybowski L.",
+	"composer": "Grzybowski L., Foskin B.",
 	"lyrics": [
 	{
-		"type": "verse",
-		"text": "Il est grand le mystère de la foi."
-	},
-	{
 		"type": "chorus",
-		"text": "Amen !"
+		"text": "Gloire à Dieu, Gloire à Dieu, au plus haut des cieux !\net paix sur la Terre aux hommes qu'il aime,\nGloria, gloire à Dieu !"
 	},
 	{
 		"type": "verse",
-		"text": "Nous proclamons ta mort, Seigneur Jésus,\nnous célébrons ta resurrection,\nnous attendons ta venue dans la gloire !"
+		"text": "1 - Pour tes merveilles, Seigneur Dieu, Ton peuple te rend grâce !\nAmi des hommes, sois béni pour ton Règne sui vient !"
 	},
 	{
-		"type": "chorus",
-		"text": "Amen !"
+		"type": "verse",
+		"text": "2 - À toi les chants de fête, par ton Fils bien-aimé, dans l'Esprit.\nSauveur du monde, Jésus-Christ, écoute nos prières !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Agneau de Dieu, vainqueur du mal, sauve-nous du péché !\nDieu Saint, splendeur du Père, Dieu vivant, le Très-Haut, le Seigneur !"
 	}
 	]
 },
 {
-	"id": "messe-7-de-lermitage-sylvanes-agnus",
-	"title": "(Messe de l'Ermitage, de Sylvanès) Agnus",
+	"id": "messe-3-emmaus-alleluia",
+	"title": "(Messe Emmaüs) Alleluia",
+	"rating": "U53-73",
+	"publisher": "Adf",
+	"writer": "Grzybowski L.",
+	"composer": "Grzybowski L., Foskin B.",
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+		"text": "Alléluia, Alléluia, Alléluia !"
 	},
 	{
-		"type": "chorus",
-		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+		"type": "verse",
+		"text": "1 - Ta parole, Seigneur, éveille nos esprits,\nALLÉLUIA !"
 	},
 	{
-		"type": "chorus",
-		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
+		"type": "verse",
+		"text": "2 - Ta Parole, Seigneur, fait danser nos lèvres,\nALLÉLUIA !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Ta Parole, Seigneur, vient changer nos coeurs,\nALLÉLUIA !"
 	}
 	]
 },
+{
+	"id": "messe-5-emmaus-sanctus-saint-le-seigneur",
+	"title": "(Messe Emmaüs) Sanctus",
+	"rating": "AL53-74",
+	"publisher": "Adf",
+	"writer": "Aelf",
+	"composer": "Grzybowski L.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint ! Saint ! Saint, le Seigneur, Dieu de l'univers !"
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna au plus haut des cieux !"
+	}
+	]
+},
+{
+	"id": "messe-6-emmaus-anamnese",
+	"title": "(Messe Emmaüs) Anamnèse",
+	"rating": "C53-75",
+	"publisher": "Adf",
+	"writer": "Grzybowski L.",
+	"composer": "Grzybowski L.",
+	"lyrics": [
+	{
+		"type": "translation",
+		"text": "Il est grand le mystère de la foi"
+	},
+	{
+		"type": "chorus",
+		"text": "Tu étais mort, Tu es vivant, O ressuscité !\nNous attendons ta venue dans la gloire, Viens, Seigneur Jésus !"
+	}
+	]
+},
+{
+	"id": "messe-7-emmaus-agneau-de-dieu",
+	"title": "(Messe Emmaüs) Agneau de Dieu",
+	"rating": "C53-76",
+	"publisher": "Adf",
+	"writer": "Grzybowski L.",
+	"composer": "Grzybowski L.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Agneau de Dieu, Pain partagé\nQui enlèves le péché du monde,\nPrends pitié de nous, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Agneau de Dieu, Corps du seigneur\nQui enlèves le péché du monde,\nPrends pitié de nous, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Agneau de Dieu, Agneau vainqueur\nQui enlèves le péché du monde,\nDonne-nous la paix, donne-nous la paix."
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-claude-colombiere-kyrie",
+	"title": "(Messe Saint-Claude de la Colombière) Kyrie",
+	"rating": "AL52-58",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Aelf",
+	"composer": "Communauté De L'Emmanuel",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Kyrie eleison x3\nChriste eleison x3\nKyrie eleison x3"
+	}
+	]
+},
+{
+	"id": "messe-2-claude-colombiere-gloria",
+	"title": "(Messe Saint-Claude de la Colombière) Gloria",
+	"rating": "AL52-58",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Aelf",
+	"composer": "Communauté De L'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloria in excelsis Deo, Gloria Deo Domino.\nGloria in excelsis Deo, Gloria Deo Domino."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Et paix sur la terre aux hommes qu'il aime. Nous te louons, nous te bénissons, nous t’adorons, nous te glorifions, nous te rendons grâce pour ton immense gloire.\nSeigneur Dieu, Roi du ciel, Dieu, le Père tout-puissant."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Seigneur, Fils unique, Jésus Christ, Seigneur Dieu, Agneau de Dieu, le Fils du Père; toi qui enlèves le péché du monde, prends pitié de nous;\ntoi qui enlèves le péché du monde, reçois notre prière;\ntoi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Car toi seul es saint, toi seul es Seigneur, toi seul es le Très-Haut : Jésus-Christ, avec le Saint Esprit, dans la gloire de Dieu le Père. Amen."
+	}
+	]
+},
+{
+	"id": "messe-5-claude-colombiere-alleluia",
+	"title": "(Messe Saint-Claude de la Colombière) Alleluia",
+	"rating": "AL52-58",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Aelf",
+	"composer": "Communauté De L'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Alleluia !"
+	}
+	]
+},
+{
+	"id": "messe-5-claude-colombiere-sanctus-saint-le-seigneur",
+	"title": "(Messe Saint-Claude de la Colombière) Sanctus",
+	"rating": "AL52-58",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Aelf",
+	"composer": "Communauté De L'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint, saint, saint le Seigneur Dieu de l'univers."
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna au plus haut des cieux !"
+	}
+	]
+},
+{
+	"id": "messe-7-claude-colombiere-agnus-agneau-de-dieu",
+	"title": "(Messe Saint-Claude de la Colombière) Agneau de Dieu",
+	"rating": "AL52-58",
+	"publisher": "Editions De L'Emmanuel",
+	"writer": "Aelf",
+	"composer": "Communauté De L'Emmanuel",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Agneau de Dieu qui enlèves le péché du monde,\nprends pitié de nous, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "Agneau de Dieu qui enlèves le péché du monde,\nprends pitié de nous, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "Agneau de Dieu qui enlèves le péché du monde,\ndonne nous la paix, donne nous la paix !."
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-partage-kyrie",
+	"title": "(Messe du Partage) Kyrie",
+	"rating": "A23-08",
+	"newrating": "AL23-08",
+	"publisher": "Bayard-liturgie",
+	"writer": "Daniel E., Daniel P.",
+	"composer": "Daniel E., Daniel P.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - De ton peuple rassemblé par ta parole,\nSeigneur, prends pitié. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - De ton peuple sanctifié par ton Esprit,\nÔ Christ, prends pitié. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - De ton peuple racheté par ton sang,\nSeigneur, prends pitié. (bis)"
+	}
+	]
+},
+{
+	"id": "messe-2-du-partage-gloire-a-dieu",
+	"title": "(Messe du Partage) Gloire à Dieu",
+	"rating": "AL23-09",
+	"publisher": "Bayard-liturgie",
+	"writer": "Aelf",
+	"composer": "Daniel E., Daniel P.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Gloire à Dieu, au plus haut des cieux,\nEt paix sur la terre aux hommes qu'il aime.\nNous te louons, nous te bénissons, nous t'adorons,\nNous te glorifions, nous te rendons grâce, pour ton immense gloire,\nSeigneur Dieu, Roi du ciel, Dieu le Père tout-puissant.\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;\nToi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous.\nCar toi seul es saint,\nToi seul es Seigneur,\nToi seul es le Très-Haut : Jésus Christ, avec le Saint-Esprit\nDans la gloire de Dieu le Père. Amen."
+	}
+	]
+},
+{
+	"id": "messe-5-partage-sanctus-saint-le-seigneur",
+	"title": "(Messe du Partage) Sanctus",
+	"rating": "AL173",
+	"publisher": "Fleurus",
+	"writer": "Aelf",
+	"composer": "Daniel E., Daniel P.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint, saint, saint le Seigneur Dieu de l'univers."
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna au plus haut des cieux !"
+	}
+	]
+},
+{
+	"id": "messe-6-partage-anamnese",
+	"title": "(Messe du Partage) Anamnèse",
+	"rating": "C23-10",
+	"publisher": "Bayard-liturgie",
+	"writer": "Daniel E., Daniel P.",
+	"composer": "Daniel E., Daniel P.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Proclamons le mystère de la foi."
+	},
+	{
+		"type": "chorus",
+		"text": "Gloire à toi qui étais mort !\nGloire à toi qui es vivant !\nDieu sauveur, viens, Seigneur Jésus."
+	}
+	]
+},
+{
+	"id": "messe-partage-doxologie",
+	"title": "(Messe du Partage) Doxologie",
+	"rating": "AL23-11",
+	"publisher": "Bayard-liturgie",
+	"writer": "Aelf",
+	"composer": "Daniel E., Daniel P.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Par lui, avec lui et en lui,"
+	},
+	{
+		"type": "chorus",
+		"text": "Amen."
+	},
+	{
+		"type": "verse",
+		"text": "A toi, Dieu le Père tout-puissant,\nDans l'unité du Saint-Esprit,"
+	},
+	{
+		"type": "chorus",
+		"text": "Amen."
+	},
+	{
+		"type": "verse",
+		"text": "Tout honneur et toute gloire\nPour les siècles des siècles."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen."
+	}
+	]
+},
+{
+	"id": "messe-7-partage-agneau-de-dieu-agnus",
+	"title": "(Messe du Partage) Agnus",
+	"rating": "AL23-12",
+	"publisher": "Bayard-liturgie",
+	"writer": "Aelf",
+	"composer": "Daniel E., Daniel P.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix."
+	}
+	]
+},
+
+
+
+
+
 {
 	"id": "messe-1-de-sylvanes-kyrie",
 	"title": "(Messe de Sylvanès) Kyrie",
+	"rating": "SYLE511",
+	"newrating": "AL626",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -5058,8 +5567,13 @@
 	]
 },
 {
-	"id": "messe-2-de-sylvanes-gloria",
+	"id": "messe-2-de-sylvanes-gloire-a-dieu-gloria",
 	"title": "(Messe de Sylvanès) Gloria",
+	"rating": "SYLE512",
+	"newrating": "AL627",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
 	"lyrics": [
 	{
 		"type": "chorus",
@@ -5084,8 +5598,36 @@
 	]
 },
 {
+	"id": "messe-5-sylvanes-sanctus-saint-le-seigneur",
+	"title": "(Messe Sylvanès) Sanctus",
+	"rating": "SYLE514",
+	"newrating": "AL615",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint, saint, saint le Seigneur Dieu de l'univers."
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna au plus haut des cieux !"
+	}
+	]
+},
+{
 	"id": "messe-6-de-sylvanes-anamnese",
 	"title": "(Messe de Sylvanès) Anamnèse",
+	"rating": "SYLE515",
+	"newrating": "AL616",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
 	"lyrics": [
 	{
 		"type": "verse",
@@ -5098,26 +5640,676 @@
 	]
 },
 {
-	"id": "pour-que-nos-coeurs",
-	"title": "Pour que nos cœurs",
+	"id": "messe-7-de-sylvanes-agneau-de-dieu-agnus",
+	"title": "(Messe de Sylvanès) Agnus",
+	"rating": "SYLE516",
+	"newrating": "AL617",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-soleil-des-nations-seigneur-prends-pitie-kyrie",
+	"title": "(Messe Soleil des Nations) Kyrie",
+	"rating": "A10-01",
+	"newrating": "AL10-01",
+	"publisher": "Le Triforium",
+	"writer": "Domaine Public",
+	"composer": "Dazin M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Prends pitié de nous Seigneur, prends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Prends pitié de nous Seigneur, prends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Prends pitié de nous Seigneur, prends pitié de nous."
+	}
+	]
+},
+{
+	"id": "messe-2-soleil-des-nations-gloire-a-dieu-gloria",
+	"title": "(Messe Soleil des Nations) Gloria",
+	"rating": "A10-02",
+	"newrating": "FL10-02",
+	"publisher": "Le Triforium",
+	"writer": "Fonds Commun",
+	"composer": "Dazin M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu, paix aux hommes, joie du ciel sur la Terre ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Pour tes merveilles, Seigneur Dieu, ton peuple te rend grâce.\nAmi des hommes, sois béni pour ton Règne qui vient !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - À toi les chants de fête, par ton Fils bien-aimé, dans l’Esprit.\nSauveur du monde, Jésus Christ, écoute nos prières !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Agneau de Dieu, vainqueur du mal, sauve-nous du péché.\nDieu saint, splendeur du Père, Dieu vivant, le Très-Haut, le Seigneur !"
+	}
+	]
+},
+{
+	"id": "messe-3-soleil-des-nations-alleluia",
+	"title": "(Messe Soleil des Nations) Alleluia",
+	"rating": "U10-03",
+	"publisher": "Le Triforium",
+	"writer": "Dazin M.",
+	"composer": "Dazin M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Alleluia !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Loué sois-tu pour ta Parole,\nBonne Nouvelle en notre temps.\nLoué sois-tu pour ta Parole.\nChrist et Seigneur, tu es présent."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Loué sois-tu pour ta Parole,\nClarté du monde dans sa nuit.\nLoué sois-tu pour ta Parole,\nComme une lampe dans nos vies."
+	}
+	]
+},
+{
+	"id": "messe-5-soleil-des-nations-saint-le-seigneur-sanctus",
+	"title": "(Messe Soleil des Nations) Sanctus",
+	"rating": "AL10-06",
+	"publisher": "Le Triforium",
+	"writer": "Aelf",
+	"composer": "Dazin M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint, le Seigneur, Saint, le Seigneur, Saint, le Seigneur, Dieu de l'univers !"
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta Gloire.\nHosanna, Hosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au Nom du Seigneur.\nHosanna, Hosanna au plus haut des cieux !"
+	}
+	]
+},
+{
+	"id": "messe-6-soleil-des-nations-anamnese",
+	"title": "(Messe Soleil des Nations) Anamnèse",
+	"rating": "CL10-07",
+	"newrating": "AL10-07",
+	"publisher": "Le Triforium",
+	"writer": "Aelf",
+	"composer": "Dazin M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Nous rappelons ta mort, Seigneur ressuscité, (bis)"
+	},
+	{
+		"type": "chorus",
+		"text": "Et nous attendons que tu viennes. (bis)"
+	}
+	]
+},
+{
+	"id": "messe-7-soleil-des-nations-agneau-de-dieu-agnus",
+	"title": "(Messe Soleil des Nations) Agnus",
+	"rating": "AL10-09",
+	"publisher": "Le Triforium",
+	"writer": "Aelf",
+	"composer": "Dazin M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-de-lermitage-seigneur-prends-pitie-kyrie",
+	"title": "(Messe de l'Ermitage) Kyrie",
+	"rating": "SYLE501",
+	"newrating": "AL501",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Pour que nos cœurs\nDeviennent de chair,\nTu as rompu le pain\nComme un fruit de justice,\nComme un signe d´amour."
+		"text": "Seigneur Jésus envoyé par le Père\npour guérir et sauver les hommes,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Seigneur prends pitié (x3)"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Pour que nos cœurs\nDeviennent de sang,\nTu as versé le vin\nComme un puits de tendresse,\nComme un signe de paix."
+		"text": "Ô Christ venu dans le monde\nappeler tous les pécheurs,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Ô Christ prends pitié (x3)"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Pour que nos cœurs\nRespirent ta vie,\nTu as donné ta mort\nComme un jour qui se lève,\nComme un cri d´avenir."
+		"text": "Seigneur, élevé dans la gloire du Père,\noù tu intercèdes pour nous,\nprends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Seigneur prends pitié (x3)"
+	}
+	]
+},
+{
+	"id": "messe-5-de-lermitage-sanctus",
+	"title": "(Messe de l'Ermitage) Sanctus",
+	"rating": "SYLE505",
+	"newrating": "AL505",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint, Saint, Saint le Seigneur,\nDieu de l'univers."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Pour que nos cœurs\nÉclatent de vie,\nNous fêtons ta mémoire.\nTu libères ton peuple\nEt tu es son chemin."
+		"text": "Le ciel et la terre sont remplis de ta gloire !"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au nom du Seigneur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna au plus haut des cieux !"
+	}
+	]
+},
+{
+	"id": "messe-6-de-lermitage-anamnese",
+	"title": "(Messe de l'Ermitage) Anamnèse",
+	"rating": "SYLE506",
+	"newrating": "AL506",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Il est grand le mystère de la foi."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen !"
+	},
+	{
+		"type": "verse",
+		"text": "Nous proclamons ta mort, Seigneur Jésus,\nnous célébrons ta resurrection,\nnous attendons ta venue dans la gloire !"
+	},
+	{
+		"type": "chorus",
+		"text": "Amen !"
+	}
+	]
+},
+{
+	"id": "messe-7-de-lermitage-agneau-de-dieu-agnus",
+	"title": "(Messe de l'Ermitage) Agnus",
+	"rating": "SYLE508",
+	"newrating": "AL508",
+	"publisher": "Sylvanes",
+	"writer": "Aelf",
+	"composer": "Gouzes A.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+	},
+	{
+		"type": "chorus",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-de-la-trinite-seigneur-prends-pitie-kyrie",
+	"title": "(Messe de la Trinité) Kyrie",
+	"rating": "C69-64",
+	"composer": "Frère Jean-Baptiste du Jonchay",
+	"publisher": "Chantons en église",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Seigneur Jésus, Parole éternelle du Père,\nTu viens illuminer les ténèbres de nos cœurs, prends pitié !"
+	},
+	{
+		"type": "chorus",
+		"text": "Seigneur, prends pitié de nous,\nSeigneur, prends pitié de nous,\nSeigneur, prends pitié."
+	},
+	{
+		"type": "verse",
+		"text": "Ô Christ, Verbe fait chair de notre chair,\nTu veux nous donner part à ta divinité, prends pitié !"
+	},
+	{
+		"type": "chorus",
+		"text": "Ô Christ, prends pitié de nous,\nÔ Christ, prends pitié de nous,\nÔ Christ, prends pitié."
+	},
+	{
+		"type": "verse",
+		"text": "Seigneur, élevé dans la gloire,\nTu répands en nos cœurs l’eau vive de l’Esprit, prends pitié !"
+	},
+	{
+		"type": "chorus",
+		"text": "Seigneur, prends pitié de nous,\nSeigneur, prends pitié de nous,\nSeigneur, prends pitié."
+	}
+	]
+},
+{
+	"id": "messe-2-trinite-gloire-a-dieu-gloria",
+	"title": "(Messe de la Trinité) Gloire à Dieu",
+	"rating": "C69-64",
+	"composer": "Frère Jean-Baptiste du Jonchay",
+	"publisher": "Chantons en église",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu au plus haut des cieux\net paix sur la terre aux hommes qu'il aime !"
+	},
+	{
+		"type": "verse",
+		"text": "Nous te louons, nous te bénissons,\nnous t'adorons, nous te glorifions, nous te rendons grâce,\npour ton immense gloire"
+	},
+	{
+		"type": "verse",
+		"text": "Seigneur Dieu, Roi du ciel,\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;"
+	},
+	{
+		"type": "verse",
+		"text": "Toi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "Car toi seul es saint, Toi seul es Seigneur,\nToi seul es le Très-Haut : Jésus Christ, avec le Saint-Esprit\ndans la gloire de Dieu le Père."
+	}
+	]
+},
+{
+	"id": "messe-5-trinite-saint-le-seigneur-sanctus",
+	"title": "(Messe de la Trinité) Sanctus",
+	"rating": "C69-64",
+	"composer": "Frère Jean-Baptiste du Jonchay",
+	"publisher": "Chantons en église",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saint, saint, saint le Seigneur, le Dieu de l'univers. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Ciel et terre sont remplis de ta splendeur et de la gloire.\nHosanna au plus haut des cieux ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit celui qui vient au nom du Seigneur.\nHosanna au plus haut des cieux ! (bis)"
+	}
+	]
+},
+{
+	"id": "messe-6-trinite-anamnese",
+	"title": "(Messe de la Trinité) Anamnèse",
+	"rating": "C69-64",
+	"composer": "Frère Jean-Baptiste du Jonchay",
+	"publisher": "Chantons en église",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Proclamons le mystère de la foi"
+	},
+	{
+		"type": "chorus",
+		"text": "Gloire à Toi qui étais mort !\nGloire à Toi qui est vivant !\nDieu sauveur, nous attendons ton retour :\nViens, Seigneur Jésus ! (bis)"
+	}
+	]
+},
+{
+	"id": "messe-7-trinite-agneau-de-dieu-agnus",
+	"title": "(Messe de la Trinité) Agneau de Dieu",
+	"rating": "C69-64",
+	"composer": "Frère Jean-Baptiste du Jonchay",
+	"publisher": "Chantons en église",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Agneau de Dieu, envoyé par le Père, tu nous sauves du péché,\nprends pitié de nous, Seigneur (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Agneau de Dieu, emportant notre mort, tu nous donnes ta vie,\nprends pitié de nous, Seigneur (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Agneau de Dieu, dans l'amour de l'Esprit, tu apaises notre coeur,\ndonne nous la paix, Seigneur (bis)"
+	}
+	]
+},
+
+
+
+
+
+
+{
+	"id": "messe-1-saint-francois-xavier-seigneur-prends-pitie-kyrie",
+	"title": "(Messe de Saint François-Xavier) Kyrie",
+	"writer": "Aelf",
+	"composer": "Cté Chemin Neuf",
+	"publisher": "Cté Chemin Neuf",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Pardonne-moi, Seigneur, j’ai renié ton Nom,\nPardonne-moi, Seigneur, j’ai quitté ta maison.\nJ’ai voulu posséder sans attendre le don,\nPardonne-moi  et purifie mon cœur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison, \nKyrie eleison. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Pardonne-moi, Seigneur, j’ai suivi d’autres dieux,\nPardonne-moi, Seigneur, j’ai détourné les yeux.\nJ’ai choisi loin de toi la richesse et l’honneur,\nPardonne-moi et purifie mon cœur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Christe eleison,\nChriste eleison. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Pardonne-moi, Seigneur j’ai n’ai pas su aimer,\nPardonne-moi, Seigneur je me suis dérobé.\nJe ne suis pas resté le gardien de mon frère,\nPardonne-moi et purifie mon cœur !"
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison,\nKyrie eleison. (bis)"
+	}
+	]
+},
+{
+	"id": "messe-2-saint-francois-xavier-gloire-a-dieu-gloria",
+	"title": "(Messe de Saint François-Xavier) Gloire à Dieu",
+	"writer": "Aelf",
+	"composer": "Cté Chemin Neuf",
+	"publisher": "Cté Chemin Neuf",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu, au plus haut des cieux,\nPaix sur terre aux hommes qu'Il aime. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Nous te louons, nous te bénissons,\nnous t'adorons, nous te glorifions,\nnous te rendons grâce, pour ton immense gloire\nSeigneur Dieu, Roi du ciel,\nDieu le Père tout puissant.\nSeigneur, Fils unique, Jésus-Christ\nSeigneur Dieu, Agneau de Dieu,\nle Fils du Père ;"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Toi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Car toi seul es saint, Toi seul es Seigneur, Toi seul es le Très-Haut :\nJésus Christ, avec le Saint-Esprit dans la gloire de Dieu le Père."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen, Amen, Amen."
+	}
+	]
+},
+{
+	"id": "messe-5-saint-francois-xavier-saint-est-le-seigneur-sanctus",
+	"title": "(Messe de Saint François-Xavier) Sanctus",
+	"writer": "Aelf",
+	"composer": "Cté Chemin Neuf",
+	"publisher": "Cté Chemin Neuf",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Sanctus, sanctus, sanctus, sanctus. (bis)"
+	},
+	{
+		"type": "chorus",
+		"text": "Saint est le Seigneur, Saint est le Seigneur,\nDieu de l’univers, Dieu de l’univers ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta gloire ! \nHosanna, hosanna au plus haut des cieux ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Béni soit Celui qui vient au nom du Seigneur, \nHosanna, hosanna au plus haut des cieux ! (bis)"
+	}
+	]
+},
+{
+	"id": "messe-6-saint-francois-xavier-anamnese",
+	"title": "(Messe de Saint François-Xavier) Anamnèse",
+	"writer": "Aelf",
+	"composer": "Cté Chemin Neuf",
+	"publisher": "Cté Chemin Neuf",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Il est grand, le mystère de la foi."
+	},
+	{
+		"type": "chorus",
+		"text": "Gloire à toi qui étais mort !\nGloire à toi qui es vivant !\nNotre sauveur et notre Dieu,\nViens Seigneur Jésus !"
+	}
+	]
+},
+{
+	"id": "messe-7-de-saint-francois-xavier-agnus",
+	"title": "(Messe de Saint François-Xavier) Agnus",
+	"writer": "Aelf",
+	"composer": "Cté Chemin Neuf",
+	"publisher": "Cté Chemin Neuf",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Toi l’Agneau de Dieu qui enlèves le péché du monde.\nPrends pitié de nous, prends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Toi l’Agneau de Dieu qui enlèves le péché du monde.\nPrends pitié de nous, prends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Toi l’Agneau de Dieu qui enlèves le péché du monde.\nDonne-nous la paix, donne-nous la paix."
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-au-coeur-de-ce-monde-jesus-berger-de-toute-humanite",
+	"title": "(Messe Au cœur de ce monde) Jésus, berger de toute humanité",
+	"rating": "G310-1",
+	"newrating": "R310-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Jésus, Berger de toute humanité,\nTu es venu chercher ceux qui étaient perdus."
+	},
+	{
+		"type": "chorus",
+		"text": "Prends pitié de nous, fais-nous revenir,\nFais-nous revenir à toi ! Prends pitié de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Jésus, Berger de toute humanité,\nTu es venu guérir ceux qui étaient malades."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Jésus, Berger de toute humanité,\nTu es venu sauver ceux qui étaient pécheurs."
+	}
+	]
+},
+{
+	"id": "messe-2-au-coeur-de-ce-monde-gloire-a-dieu-dans-le-ciel-gloria",
+	"title": "(Messe Au cœur de ce monde) Gloire à Dieu dans le ciel",
+	"rating": "C242-1",
+	"newrating": "FY242-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu dans le ciel\nGrande paix sur la Terre (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Nous te louons, nous te bénissons, nous t’adorons,\nNous te glorifions, nous te rendons grâce pour ton immense gloire !"
+	},
+	{
+		"type": "verse",
+		"text": "Seigneur Dieu, le Roi du ciel, le Père tout-puissant !\nSeigneur Dieu, Agneau de Dieu, le Fils du Père !"
+	},
+	{
+		"type": "verse",
+		"text": "Le seul Saint, le seul Seigneur, le seul Très Haut !\nJésus-Chrsit, avec l'esprit, dans la gloire du Père !"
+	}
+	]
+},
+{
+	"id": "messe-5-au-coeur-de-ce-monde-saint-le-dieu-de-lunivers",
+	"title": "(Messe Au cœur de ce monde) Saint, le Dieu de l'Univers",
+	"rating": "C178",
+	"newrating": "AL598",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Saint est le Seigneur, le Dieu de l’univers,"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna au plus haut des cieux !"
+	},
+	{
+		"type": "verse",
+		"text": "Le ciel et la terre sont remplis de ta gloire,"
+	},
+	{
+		"type": "verse",
+		"text": "Qu’il soit béni au nom du Seigneur,\nCelui qui est, qui était et qui vient."
+	}
+	]
+},
+{
+	"id": "messe-6-au-coeur-de-ce-monde-anamnese-tu-es-venu-tu-reviendras",
+	"title": "(Messe Au cœur de ce monde) Anamnèse - Tu es venu, tu reviendras",
+	"rating": "CL9-1",
+	"newrating": "C9-1",
+	"publisher": "Studio Sm",
+	"writer": "Aelf , Rimaud D.",
+	"composer": "Berthier J.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Tu es venu, tu reviendras,\nSeigneur Jésus nous t’attendons.\nTu étais mort, tu es vivant,\nSeigneur Jésus, sois notre vie"
+	}
+	]
+},
+{
+	"id": "messe-7-au-coeur-de-ce-monde-agneau-glorieux",
+	"title": "(Messe Au cœur de ce monde) Agneau glorieux",
+	"rating": "D360-1",
+	"newrating": "C360-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Agneau glorieux,\nAgneau que nous avions rejeté,\nAgneau devenu notre Berger."
+	},
+	{
+		"type": "chorus",
+		"text": "Prends pitié de nous : Conduis-nous vers le Père !\nPrends pitié de nous : Guide-nous dans la paix !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Agneau glorieux,\nAgneau que nous avions immolé,\nAgneau devenu notre Berger."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Agneau glorieux,\nAgneau que nous avions crucifié,\nAgneau devenu notre Berger."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Agneau glorieux,\nAgneau que nous avions transpercé,\nAgneau devenu notre Berger."
 	}
 	]
 }
-
 ]
