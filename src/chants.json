@@ -1,5 +1,112 @@
 [
 {
+	"id": "dieu-nous-te-louons",
+	"title": "Dieu nous te louons",
+	"rating": "W1",
+	"publisher": "Le Seuil",
+	"writer": "Fallais J.",
+	"composer": "Marthouret R.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Dieu, nous te louons,\nSeigneur, nous t'acclamons !\nDans l'immense cortège de tous les saints !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Par les Apôtres qui portèrent ta parole de vérité,\nPar les Martyrs emplis de force dont la foi n'a pas chancelé."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Par les pontifes qui gardèrent ton Eglise dans l'unité,\nEt par la grâce de tes Vierges, qui révèle ta sainteté."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Par les Docteurs en qui rayonne la lumière de ton Esprit,\nPar les Abbés aux ruches pleines célébrant ton nom jour et nuit."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Avec les Saints de tous les âges, comme autant de frères aînés,\nEn qui sans trêve se répandent tous les dons de ta charité."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Pour tant de mains pansant les plaies en mémoire de tes douleurs,\nPour l’amitié donnée aux pauvres, comme étant plus près de ton Coeur."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Pour tant de pas aux plaines longues, à la quête des égarés,\nPour tant de mains lavant les âmes aux fontaines du Sang versé."
+	},
+	{
+		"type": "verse",
+		"text": "7 - Pour tant d’espoir et tant de joie, plus tenaces que nos méfaits,\nPour tant d’élans vers ta justice, tant d’efforts tendus vers ta paix."
+	},
+	{
+		"type": "verse",
+		"text": "8 - Pour la prière et pour l’offrande des fidèles unis en toi,\nEt pour l’amour de Notre-Dame, Notre Mère au pied de ta Croix."
+	}
+	]
+},
+{
+	"id": "bienheureux-le-pauvre",
+	"title": "Bienheureux le pauvre",
+	"rating": "W22-98",
+	"newrating": "WP22-98",
+	"publisher": "Bayard-liturgie",
+	"writer": "Rimaud D.",
+	"composer": "Robert PH.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Bienheureux le pauvre au seuil des festins :\nLes palais de Dieu lui sont fraternels !\nBienheureux le monde où l'argent n'est rien :\nLes trésors de Dieu seront éternels !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Bienheureux les yeux qui cherchent le jour :\nLa splendeur de Dieu demain brillera !\nBienheureux le cœur assoiffé d'amour :\nL'océan de Dieu pour lui jaillira !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Bienheureux les cris au fond des prisons :\nLa cité de Dieu résonne de joie !\nBienheureux le sang des martyrs sans nom :\nLe jardin de Dieu fleurit de leur foi !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Bienheureux les bras ouverts au pardon :\nLa bonté de Dieu reçoit leur espoir !\nBienheureux l'enfant dans son abandon :\nCar la main de Dieu ne peut décevoir !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Bienheureux le nom du juste opprimé :\nLa pitié de Dieu sera sans défaut !\nBienheureux le corps qui n'a pas compté :\nCar l'amour de Dieu veille à son repos !"
+	}
+	]
+},
+{
+	"id": "ils-sont-nombreux-les-bienheureux",
+	"title": "Ils sont nombreux les bienheureux",
+	"rating": "W72",
+	"publisher": "Studio Sm",
+	"writer": "Lebel R.",
+	"composer": "Lebel R.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Ils sont nombreux les bienheureux\nQui n'ont jamais fait parler d'eux\nEt qui n'ont pas laissé d'image\nTous ceux qui ont, depuis des âges,\nAimé sans cesse et de leur mieux\nAutant leurs frères que leur Dieu"
+	},
+	{
+		"type": "chorus",
+		"text": "Éternellement heureux !\nÉternellement heureux !\nDans son Royaume !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ceux dont on ne dit pas un mot,\nCes bienheureux de l'humble classe,\nCeux qui n'ont pas fait de miracle\nCeux qui n'ont jamais eu d´extase\nEt qui n'ont laissé d´autre trace\nQu'un coin de terre ou un berceau"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Ils sont nombreux, ces gens de rien,\nCes bienheureux du quotidien\nQui n'entreront pas dans l'histoire\nCeux qui ont travaillé sans gloire\nEt qui se sont usé les mains\nA pétrir, à gagner le pain"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Ils ont leurs noms sur tant de pierres,\nEt quelquefois dans nos prières\nMais ils sont dans le cœur de Dieu !\nEt quand l'un d'eux quitte la terre\nPour gagner la maison du Père,\nUne étoile naît dans les cieux..."
+	}
+	]
+},
+{
 	"id": "laisserons-nous-a-notre-table",
 	"title": "Laisserons-nous à notre table",
 	"rating": "E161",

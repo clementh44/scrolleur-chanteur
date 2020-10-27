@@ -467,3 +467,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
   ajout de la cote, éditeur, auteur, compositeur des chants (source : secli.cef.fr) ; séparation des messes même si les paroles sont les même pour ajouter les cotes etc... (Emmaüs, Saint-Claude de la Colombière, Partage, Sylvanès, Soleil des Nations, Ermitage, Trinité, Saint François-Xavier, Au cœur de ce monde)
 ```
+
+**27/10/2020 v4.1.1**
+```
+  + Ils sont nombreux les bienheureux
+  + Bienheureux le pauvre
+  + Dieu nous te louons
+```
