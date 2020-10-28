@@ -2,7 +2,13 @@
 <div :class="['user-select-none', live ? settings.liveView.viewTheme : settings.liveView.defaulTheme]" :style="[ live ? {cursor: smallCursor} : '' ]">
     <transition name="fade" :duration="duration">
         <div key="{{element.title}}" v-if="element.type == 'song'" :class="['song', live ? 'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
-            <div class="title mb-1" v-show="!live || settings.song.viewTitle">{{ element.title }}</div>
+            <div class="title mb-1" v-show="!live || settings.song.showTitle">{{ element.title }}</div>
+            <div class="secli">
+                <span v-show="(!live || settings.song.showRating) && element.rating">{{ element.rating }} <template v-if="element.newrating">/ {{ element.newrating }} </template></span>
+                <span v-show="(!live || settings.song.showWriter) && element.writer">| Paroles : {{ element.writer }} </span>
+                <span v-show="(!live || settings.song.showComposer) && element.composer">| Musique : {{ element.composer }} </span>
+                <span v-show="(!live || settings.song.showPublisher) && element.publisher">| Éditeur : {{ element.publisher }} </span>
+            </div>
 
             <div v-for="(lyrics, index) in element.lyrics"
             :key="index"

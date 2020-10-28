@@ -39,8 +39,24 @@
 
         <h6>Chant</h6>
         <div class="custom-control custom-switch form-group">
-            <input class="custom-control-input" type="checkbox" id="param-title" v-model="settings.song.viewTitle">
+            <input class="custom-control-input" type="checkbox" id="param-title" v-model="settings.song.showTitle">
             <label class="custom-control-label" for="param-title" >Afficher le titre</label>
+        </div>
+        <div class="custom-control custom-switch form-group">
+            <input class="custom-control-input" type="checkbox" id="param-rating" v-model="settings.song.showRating">
+            <label class="custom-control-label" for="param-rating" >Afficher la cote</label>
+        </div>
+        <div class="custom-control custom-switch form-group">
+            <input class="custom-control-input" type="checkbox" id="param-writer" v-model="settings.song.showWriter">
+            <label class="custom-control-label" for="param-writer" >Afficher l'auteur</label>
+        </div>
+        <div class="custom-control custom-switch form-group">
+            <input class="custom-control-input" type="checkbox" id="param-composer" v-model="settings.song.showComposer">
+            <label class="custom-control-label" for="param-composer" >Afficher le compositeur</label>
+        </div>
+        <div class="custom-control custom-switch form-group">
+            <input class="custom-control-input" type="checkbox" id="param-publisher" v-model="settings.song.showPublisher">
+            <label class="custom-control-label" for="param-publisher" >Afficher l'éditeur</label>
         </div>
         <div class="form-group row">
             <label for="param-verse-opacity" class="col-sm-2 col-form-label">Couplet caché</label>

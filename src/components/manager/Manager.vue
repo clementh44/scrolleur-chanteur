@@ -144,7 +144,11 @@ export default {
                     }
                 },
                 song: {
-                    viewTitle: true,
+                    showTitle: true,
+                    showRating: true,
+                    showWriter: false,
+                    showComposer: false,
+                    showPublisher: false,
                     verseOpacity: 0.1
                 },
                 score: {

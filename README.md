@@ -474,3 +474,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Bienheureux le pauvre
   + Dieu nous te louons
 ```
+
+**28/10/2020 v4.2.0**
+```
+  Ajout des informations du chant affiché (cote, nouvelle cote SECLI, auteur, compositeur, éditeur). Affichage parametrable.
+```
