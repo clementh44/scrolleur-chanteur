@@ -20,7 +20,7 @@
                 <form v-if="editedElement.type == 'text'">
                     <div class="form-group">
                         <label for="custom-text-title">Titre</label>
-                        <input class="form-control" id="custom-text-title" type="text" name="title" v-model="editedElement.title">
+                        <input @keyup.stop class="form-control" id="custom-text-title" type="text" name="title" v-model="editedElement.title">
                     </div>
                     <div class="custom-control custom-switch form-group">
                         <input class="custom-control-input" type="checkbox" name="isTitleDisplayed" id="title-displayed-checkbox" v-model="editedElement.isTitleDisplayed" >
@@ -28,7 +28,7 @@
                     </div>
                     <div class="form-group">
                         <label for="custom-text-body">Corps du texte</label>
-                        <textarea class="form-control" id="custom-text-body" name="content"  rows="10" v-model="editedElement.text"></textarea>
+                        <textarea @keyup.stop class="form-control" id="custom-text-body" name="content"  rows="10" v-model="editedElement.text"></textarea>
                     </div>
                 </form>
                 <form v-if="editedElement.type == 'file'">

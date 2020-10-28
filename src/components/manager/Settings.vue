@@ -14,9 +14,9 @@
         <div class="form-group row">
             <label for="param-size" class="col-sm-2 col-form-label">Taille</label>
             <div class="input-group col-sm-10">
-                <input type="number" id="param-width" v-model.number="settings.liveView.window.width" class="form-control">
+                <input @keyup.stop type="number" id="param-width" v-model.number="settings.liveView.window.width" class="form-control">
                 <div class="input-group-prepend" style="margin-left: -1px;"><span class="input-group-text">x</span></div>
-                <input type="number" id="param-height" v-model.number="settings.liveView.window.height" class="form-control">
+                <input @keyup.stop type="number" id="param-height" v-model.number="settings.liveView.window.height" class="form-control">
             </div>
             <small id="param-size-help" class="form-text text-muted col-12">Dimensions en pixel de la présentation (largeur x hauteur). Fermer/ouvrir la présentation pour appliquer</small>
         </div>
@@ -74,7 +74,7 @@
         <div class="form-group row">
             <label for="search-score-query" class="col-sm-2 col-form-label">Lien</label>
             <div class="col-sm-10">
-                <input type="text" name="search-score-query" aria-describedby="search-score-query-help" id="search-score-query" class="form-control" v-model="settings.score.query">
+                <input @keyup.stop type="text" name="search-score-query" aria-describedby="search-score-query-help" id="search-score-query" class="form-control" v-model="settings.score.query">
             </div>
             <small id="search-score-query-help" class="form-text text-muted col-12">Insérer <em>&lt;TITRE&gt;</em> où doit être ajouté le nom du chant recherché</small>
         </div>

@@ -63,7 +63,7 @@
             <div class="form-group">
                 <label for="searchInput">Rechercher</label>
                 <div class="input-group">
-                    <input type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-model="search" @focus="$event.target.select()">
+                    <input @keyup.stop type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-model="search" @focus="$event.target.select()">
                     <div class="input-group-append">
                         <button class="btn btn-outline-secondary" type="button" @click="search = ''" ><font-awesome-icon :icon="'times'"></font-awesome-icon></button>
                         <button class="btn btn-outline-secondary" @click="searchScore(search, settings.score.google)" title="Rechercher le titre sur google"><font-awesome-icon :icon="['fab','google']"></font-awesome-icon></button>
