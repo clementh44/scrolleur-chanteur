@@ -32,6 +32,7 @@
         <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).</p>
         <p>Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.</p>
         <p>Faire une demande d'ajout de chant via <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank">ce formulaire</a>. Sinon, utiliser le texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>)</p>
+        <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank">Soutenir le projet</a>.</p>
     </div>
 
     <div class="card my-3">

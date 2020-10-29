@@ -475,9 +475,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Dieu nous te louons
 ```
 
-**28/10/2020 v4.2.0**
+**29/10/2020 v4.2.0**
 ```
   Ajout des informations du chant affiché (cote, nouvelle cote SECLI, auteur, compositeur, éditeur). Affichage parametrable.
+  Ajout lien don si ça se propage
+  Ajout boutons : vider la playlist, intercaller du vide
 
   fix raccourcis clavier en éditant du texte
 ```

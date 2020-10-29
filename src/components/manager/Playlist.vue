@@ -4,11 +4,15 @@
         <div class="btn-group mr-3">
             <button @click="display({type:'grid'})" type="button" class="btn btn-secondary" title="Quadrillage d'aide au cadrage de la projection"><font-awesome-icon :icon="'border-all'"></font-awesome-icon></button>
         </div>
-        <div class="btn-group">
+        <div class="btn-group mr-3">
             <div class="btn btn-secondary" aria-disabled="true" style="pointer-events: none;">Ajouter :</div>
-            <button @click="addElement({type:'empty',title:'Contenu vide'})" type="button" class="btn btn-secondary" title="Contenu vide"><font-awesome-icon :icon="['far','square']"></font-awesome-icon></button>
+            <button @click="addElement({type:'empty',title:'_vide_'})" type="button" class="btn btn-secondary" title="Contenu vide"><font-awesome-icon :icon="['far','square']"></font-awesome-icon></button>
+            <button @click="insertEmptyTransition()" v-if="this.playlist.length > 0" type="button" class="btn btn-secondary" title="Intercaler un élément vide entre chaque contenu"><font-awesome-icon :icon="['far','clone']"></font-awesome-icon></button>
             <button @click="addElement({type:'text',title:'Texte à personnaliser'})" type="button" class="btn btn-secondary" title="Texte personnalisé"><font-awesome-icon :icon="'align-left'"></font-awesome-icon></button>
             <label @change="addFile($event)" class="btn btn-secondary m-0" for="input-file" title="Importer une image"><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"></label>
+        </div>
+        <div class="btn-group" v-if="this.playlist.length > 0">
+            <button @click="clean()" type="button" class="btn btn-danger" title="Vider la playlist"><font-awesome-icon :icon="'trash-alt'"></font-awesome-icon></button>
         </div>
     </div>
 
@@ -74,10 +78,10 @@ import draggable from 'vuedraggable'
 import ElementActions from './ElementActions'
 import Undo from './Undo'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSquare, faEdit } from '@fortawesome/free-regular-svg-icons'
+import { faSquare, faEdit, faClone } from '@fortawesome/free-regular-svg-icons'
 import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faEdit, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage)
+library.add(faSquare, faEdit, faClone, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage)
 
 export default {
     name: "Playlist",
@@ -138,6 +142,29 @@ export default {
         },
         addElement(element) {
             this.playlist.push(element)
+        },
+        insertEmptyTransition() { //intercaler un élément vide entre les autres éléments pour faire des transitions contenu>vide>contenu>vide etc...
+            if (this.playlist.length > 0) {
+                    for (let index = 0; index < this.playlist.length; index++) {
+                        if (index%2 == 0) {
+                            if (this.playlist[index].type != "empty") {
+                                this.playlist.splice(index, 0, {type:'empty',title:'_vide_'})
+                        }
+                    } else {
+                        if (this.playlist[index].type == "empty") {
+                            this.playlist.splice(index, 1)
+                        }
+                    }
+                }
+                if (this.playlist[this.playlist.length - 1].type != 'empty') {
+                    this.addElement({type:'empty',title:'_vide_'})
+                }
+            }
+        },
+        clean() { //vider la playlist
+            for (let index = this.playlist.length - 1; index >= 0; index--) {
+                this.removeAt(index)
+            }
         },
 
         //gestion du déplacement d'un élément
