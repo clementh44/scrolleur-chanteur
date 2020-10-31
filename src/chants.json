@@ -1,5 +1,35 @@
 [
 {
+	"id": "vous-etes-sans-pareille",
+	"title": "Vous êtes sans pareille",
+	"rating": "V10",
+	"publisher": "Mame(le Chalet)",
+	"writer": "Rozier CL.",
+	"composer": "Air breton, Gelineau J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Vous êtes sans pareille,\nÔ Mère du Sauveur\nVous êtes la merveille\nDes œuvres du Seigneur,\nÔ Notre-Dame\nDes œuvres du Seigneur."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ô Vierge, élue du Père\nPour mettre au monde un Dieu,\nSoyez encore la mère\nDe tout enfant de Dieu,\nÔ Notre-Dame\nDe tout enfant de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Vous êtes la fontaine\nDe grâce et de pitié,\nJaillit des hauts domaines\nSur toute humanité,\nÔ Notre-Dame\nSur toute humanité."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Ô Vierge de lumière,\nÉtoile dans les cieux,\nBrillez sur notre terre\nDe la clarté de Dieu,\nÔ Notre-Dame\nDe la clarté de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Vous êtes toute pure\nO Mère de mon Dieu\nIntacte et sans souillure\nPlus belle que les cieux\nNoble parure\nPlus belle que les cieux."
+	}
+	]
+},
+{
 	"id": "dieu-nous-te-louons",
 	"title": "Dieu nous te louons",
 	"rating": "W1",

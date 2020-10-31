@@ -483,3 +483,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
   fix raccourcis clavier en éditant du texte
 ```
+
+**31/10/2020 v4.2.1**
+```
+  + Vous êtes sans pareille
+```
