@@ -1,5 +1,204 @@
 [
 {
+	"id": "preparez-le-chemin-du-seigneur",
+	"title": "Préparez le chemin du Seigneur",
+	"rating": "E13-95",
+	"publisher": "Bayard-liturgie",
+	"writer": "Gelineau J.",
+	"composer": "Gelineau J.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Préparez le chemin du Seigneur,\nOuvrez large la porte de vos coeurs :\nIl viendra le sauveur et tout homme verra\nLe salut de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Ôte ta robe de tristesse,\nPlus de malheur, plus de détresse :\nC'est ton sauveur qui vient vers toi,\nIl te vêtira de sa joie !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Dis aux timides qui s'affolent :\nNe craignez pas, prenez courage !\nDieu vient lui-même vous sauver,\nIl vous conduira vers sa joie !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Vois les collines qui s'abaissent,\nVois les ravins qui s'aplanissent,\nVois le chemin qui s'est ouvert,\nFoule innombrable des sauvés !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Sourds, ils entendent la Parole\nEt les aveugles voient la gloire ;\nLes pauvres mangent à leur faim ;\nLes boiteux bondissent de joie !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Dans le désert les eaux jaillissent,\nLes lieux arides refleurissent ;\nLa terre est prête pour le grain,\nLes coteaux vous offrent le vin !"
+	}
+	]
+},
+{
+	"id": "dans-le-desert-un-cri-seleve",
+	"title": "Dans le désert un cri s'élève",
+	"rating": "E26-32",
+	"newrating": "EA26-32",
+	"publisher": "Studio SM",
+	"writer": "Bernard CL.",
+	"composer": "Akepsimas J.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Dans le désert un cri s'élève :\n\"Préparez le chemin du Seigneur !\"\nVoici qu'il vient, le roi du monde,\nPréparez le chemin du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Préparez des chemins de lumière,\nChassez les oeuvres de la nuit.\nAnnoncez le soleil qui libère,\nDans vos prisons Dieu va venir.\nDans nos prisons Dieu va venir."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Préparez des chemins de partage,\nSoyez le pain de l’avenir.\nOuvrez large au passant votre table,\nDans vos maisons Dieu va venir.\nDans nos maisons Dieu va venir."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Préparez des chemins de tendresse,\nL’amour demande à refleurir.\nDétruisez les vieux murs de la haine,\nSemez la paix, Dieu va venir.\nSemons la paix, Dieu va venir."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Préparez des chemins d’espérance,\nLevez les yeux, l’étoile luit !\nRéveillez dans vos coeurs la confiance,\nCroyez au jour, Dieu va venir.\nCroyons au jour, Dieu va venir."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Préparez les chemins du Royaume,\nLe Grand Prophète va surgir.\nIl dira «Bienheureux, vous les pauvres !»\nPour votre joie Dieu va venir.\nPour notre joie Dieu va venir."
+	}
+	]
+},
+{
+	"id": "voici-le-corps-et-le-sang-du-seigneur",
+	"title": "Voici le Corps et le Sang du Seigneur",
+	"rating": "D44-80",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Dannaud M.",
+	"composer": "Dannaud M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Voici le Corps et le Sang du Seigneur,\nla coupe du salut et le pain de la vie.\nDieu immortel se donne en nourriture\npour que nous ayons la vie éternelle"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Au moment de passer vers le Père\nle Seigneur prit du pain et du vin,\npour que soit accompli le mystère\nqui apaise à jamais notre faim."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Dieu se livre lui-même en partage,\npar amour pour son peuple affamé.\nIl nous comble de son héritage\nafin que nous soyons rassasiés."
+	},
+	{
+		"type": "verse",
+		"text": "3 - C'est la foi qui nous fait reconnaître,\ndans ce pain et ce vin consacrés,\nla présence de Dieu notre maître\nle Seigneur Jésus ressuscité."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Que nos langues sans cesse proclament,\nla merveille que Dieu fait pour nous.\nAujourd'hui il allume une flamme,\nafin que nous l'aimions jusqu'au bout."
+	}
+	]
+},
+{
+	"id": "venez-divin-messie",
+	"title": "Venez, divin Messie",
+	"rating": "E9",
+	"publisher": "Musique et liturgie",
+	"writer": "R.-P. Barjon",
+	"composer": "Mélodie traditionnelle",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Venez, Divin Messie,\nNous rendre espoir et nous sauver !\nVous êtes notre vie :\nVenez, venez, venez !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - O Fils de Dieu, ne tardez pas ;\nPar votre Corps donnez la joie\nÀ notre monde en désarroi.\nRedites-nous encore\nDe quel amour vous nous aimez ;\nTant d'hommes vous ignorent !\nVenez, venez, venez !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - À Bethléem, les cieux chantaient\nQue le meilleur de vos bienfaits\nC'était le don de votre Paix.\nLe monde la dédaigne :\nPartout les coeurs sont divisés !\nQu'arrive votre règne !\nVenez, venez, venez !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Vous êtes né pour les pécheurs.\nQue votre grâce, ô Dieu Sauveur,\nDissipe en nous la nuit, la peur !\nSeigneur, que votre enfance\nNous fasse vivre en la clarté.\nSoyez la délivrance\nVenez, venez, venez !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Quand vous viendrez au dernier jour\nJuger le monde sur l'amour,\nQue nous veillons pour ce retour !\nQue votre main nous prenne\nDans le Royaume des sauvés !\nQue meure enfin la haine,\nVenez, venez, venez !"
+	}
+	]
+},
+{
+	"id": "vienne-la-rosee",
+	"title": "Vienne la rosée",
+	"rating": "ELH103",
+	"newrating": "EP103",
+	"publisher": "SODEC",
+	"writer": "LA BROSSE O. DE",
+	"composer": "Chant populaire",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Vienne la rosée sur la terre, naisse l'espérance en nos cœurs ;\nBrille dans la nuit la lumière, bientôt va germer le Sauveur.\nAu désert un cri s'élève : « préparez les voies du Seigneur. »"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Berger d'Israël, tends l'oreille, descends vite à notre secours,\nEt nos yeux verront tes merveilles, nos voix chanteront ton amour.\nFille de Sion, trésaille, le Seigneur déjà vient vers toi."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Réveille, ô Seigneur, ta vaillance, établis ton règne de paix,\nQue les peuples voient ta puissance, acclament ton nom à jamais.\nL'univers attend ta gloire, et nous préparons ton retour."
+	}
+	]
+},
+{
+	"id": "jesus-est-le-chemin",
+	"title": "Jésus est le chemin",
+	"rating": "T511",
+	"newrating": "X511",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Boullay G. Du",
+	"composer": "Boullay G. Du",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Jésus est le chemin\nQui nous mène droit vers le Père,\nC’est lui qui est la vérité,\nIl est la vie !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Jamais homme n’a parlé ainsi que celui-là,\nNon personne ne peut faire les signes qu’il accomplit,\nDieu est avec lui."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Jean-Baptiste nous a dit : “Voici l’Agneau de Dieu”,\nCar c’est lui que le Père a marqué de son sceau,\nVenez et voyez."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Celui qui croit en moi à la vie éternelle,\nQui me suit marchera, non pas dans les ténèbres,\nMais dans la lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - En gardant ma parole, vous serez mes disciples,\nAlors vous connaîtrez vraiment la vérité\nQui vous rendra libres."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Qui ne prend pas sa croix, ne peut suivre mes pas,\nMais qui perdra sa vie pour moi la sauvera,\nMarchez à ma suite !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Mon Royaume n’est pas de ce monde ici-bas\nJe suis Roi et quiconque est de la vérité,\nÉcoute ma voix."
+	},
+	{
+		"type": "verse",
+		"text": "7 - À nouveau je viendrai, vous prendrai avec moi,\nEt du lieu où je vais vous savez le chemin,\nAyez foi en moi."
+	},
+	{
+		"type": "verse",
+		"text": "8 - \"De son sein couleront, oui, des fleuves d’eaux vives,\"\nRecevez l’Esprit Saint pour être dans le monde,\nTémoins de l’amour !"
+	}
+	]
+},
+{
 	"id": "vous-etes-sans-pareille",
 	"title": "Vous êtes sans pareille",
 	"rating": "V10",

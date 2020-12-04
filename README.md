@@ -488,3 +488,13 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   + Vous êtes sans pareille
 ```
+
+**04/12/2020 v4.2.2**
+```
+  + Jésus est le chemin
+  + Vienne la rosée
+  + Venez, divin Messie
+  + Voici le Corps et le Sang du Seigneur
+  + Dans le désert un cri s'élève
+  + Préparez le chemin du Seigneur
+```
