@@ -498,3 +498,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Dans le désert un cri s'élève
   + Préparez le chemin du Seigneur
 ```
+
+**04/12/2020 v4.3.0**
+```
+  délai sur la recherche d'un chant pour plus de fluidité
+```

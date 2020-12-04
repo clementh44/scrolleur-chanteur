@@ -64,9 +64,8 @@
             <div class="form-group">
                 <label for="searchInput">Rechercher</label>
                 <div class="input-group">
-                    <input @keyup.stop type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-model="search" @focus="$event.target.select()">
+                    <input @keyup.stop type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-debounce="searchSong" @click="$event.target.select()">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" @click="search = ''" ><font-awesome-icon :icon="'times'"></font-awesome-icon></button>
                         <button class="btn btn-outline-secondary" @click="searchScore(search, settings.score.google)" title="Rechercher le titre sur google"><font-awesome-icon :icon="['fab','google']"></font-awesome-icon></button>
                     </div>
                 </div>
@@ -110,10 +109,10 @@ import Settings from './Settings'
 import ElementActions from './ElementActions'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
-import { faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage } from '@fortawesome/free-solid-svg-icons'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faSquare, faPlus, faTimes, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faGoogle)
+library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faGoogle)
 
 export default {
     name: 'Manager',
@@ -225,6 +224,9 @@ export default {
             if (query && query.includes("<TITRE>")) {
                 window.open(query.replace("<TITRE>", title.replace(/ /g, '+')))
             }
+        },
+        searchSong: function(title) {
+            this.search = title
         },
 
         // AUTRE
