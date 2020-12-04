@@ -502,4 +502,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **04/12/2020 v4.3.0**
 ```
   délai sur la recherche d'un chant pour plus de fluidité
+  amélioration de l'indexation
 ```
