@@ -3,12 +3,7 @@
     <transition name="fade" :duration="duration">
         <div key="{{element.title}}" v-if="element.type == 'song'" :class="['song', live ? 'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
             <div class="title mb-1" v-show="!live || settings.song.showTitle">{{ element.title }}</div>
-            <div class="secli">
-                <span v-show="(!live || settings.song.showRating) && element.rating">{{ element.rating }} <template v-if="element.newrating">/ {{ element.newrating }} </template></span>
-                <span v-show="(!live || settings.song.showWriter) && element.writer">| Paroles : {{ element.writer }} </span>
-                <span v-show="(!live || settings.song.showComposer) && element.composer">| Musique : {{ element.composer }} </span>
-                <span v-show="(!live || settings.song.showPublisher) && element.publisher">| Éditeur : {{ element.publisher }} </span>
-            </div>
+            <div class="secli" v-show="haveSecliToShow()">{{ getSecliString() }}</div>
 
             <div v-for="(lyrics, index) in element.lyrics"
             :key="index"
@@ -73,6 +68,47 @@ export default {
                     break;
             }
             this.update++ //pour forcer la mise à jour
+        },
+        getSecliArray: function() {
+            let array = []
+            if ((!this.live || this.settings.song.showRating) && this.element.rating) {
+                array.push(this.element.rating)
+            }
+            if (this.settings.song.showRating && this.element.newrating) {
+                if (array.length > 0) {
+                    array.push("/")
+                }
+                array.push(this.element.newrating)
+            }
+
+            if ((!this.live || this.settings.song.showWriter) && this.element.writer) {
+                if (array.length > 0) {
+                    array.push(" | ")
+                }
+                array.push(" Paroles : " + this.element.writer)
+            }
+
+            if ((!this.live || this.settings.song.showComposer) && this.element.composer) {
+                if (array.length > 0) {
+                    array.push(" | ")
+                }
+                array.push(" Musique : " + this.element.composer)
+            }
+
+            if ((!this.live || this.settings.song.showPublisher) && this.element.publisher) {
+                if (array.length > 0) {
+                    array.push(" | ")
+                }
+                array.push(" Éditeur : " + this.element.publisher)
+            }
+            console.info(array)
+            return array
+        },
+        haveSecliToShow: function() {
+            return this.getSecliArray().length > 0
+        },
+        getSecliString: function() {
+            return this.getSecliArray().join('')
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@clementh44/scrolleur-chanteur",
-  "version": "4.3.0",
+  "version": "4.4.0",
   "description": "Pour faire \"scroller\" les chants pour... chanter",
   "repository": {
     "type": "git",
@@ -18,13 +18,13 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "bootstrap": "^4.5.3",
-    "core-js": "^3.8.0",
+    "core-js": "^3.8.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "vue": "^2.6.12",
     "vue-body-class": "^3.0.2",
     "vue-cookies": "^1.7.4",
-    "vue-debounce": "^2.5.8",
+    "vue-debounce": "^2.6.0",
     "vue-router": "^3.4.9",
     "vuedraggable": "^2.24.3"
   },
