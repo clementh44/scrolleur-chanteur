@@ -3,7 +3,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: 100;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .fade-enter-active,
 .fade-leave-active {
@@ -36,6 +36,7 @@
 /* SONG */
 .song {
     white-space: pre-wrap;
+    line-height: normal;
 }
 
 .song .chorus {
@@ -71,11 +72,12 @@
 }
 
 .secli {
-    font-size: 0.7em;
+    font-size: 0.5em;
     text-align: center;
     margin-top: -0.25rem;
     margin-bottom: 1em;
     font-weight: lighter;
+    font-style: italic;
 }
 
 /* GRID */
@@ -99,6 +101,7 @@
 .custom-text-body {
     white-space: pre-wrap;
     font-size: 1em;
+    line-height: normal;
 }
 
 /* FILE */
