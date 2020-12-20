@@ -1,19 +1,14 @@
 <template>
-<transition name="side-box-fade">
-    <div class="side-box shadow-lg p-4 col-sm-7 col-md-6 col-lg-5">
-        <div class="d-flex justify-content-between side-box-header">
-            <h3 class="m-0">{{ header }}</h3>
-            <button class="btn btn-sm btn-light" @click="close">
-                <font-awesome-icon :icon="'times'"></font-awesome-icon>
-            </button>
-        </div>
-        <hr class="row">
-        <div class="side-box-content">
+<div class="col-12 col-lg-6">
+    <div class="card mt-3 sticky-top vh-100">
+        <h3 class="card-header d-flex justify-content-between">
+            {{ header }} <a href="#" class="pull-right" @click="close"><font-awesome-icon :icon="'times'"></font-awesome-icon></a>
+        </h3>
+        <div class="card-body overflow-auto">
             <slot name="content"></slot>
         </div>
     </div>
-<!-- <div class="side-box-overlay" @click="close"></div> -->
-</transition>
+</div>
 </template>
 
 <script>
@@ -41,7 +36,3 @@ export default {
     }
 }
 </script>
-
-<style scoped src="./SideBox.css">
-
-</style>

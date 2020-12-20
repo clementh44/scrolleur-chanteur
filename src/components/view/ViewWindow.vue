@@ -101,7 +101,6 @@ export default {
                 }
                 array.push(" Éditeur : " + this.element.publisher)
             }
-            console.info(array)
             return array
         },
         haveSecliToShow: function() {

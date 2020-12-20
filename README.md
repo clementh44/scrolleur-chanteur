@@ -509,4 +509,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   fix espace blanc quand pas de contenu au début d'un chant (ni titre ou infos)
   Amélioration générale de l'affichage du texte : Titre plus petit, infos Secli plus discrètes, espace entre les lignes plus petit
+  Déplacement de la barre latérale
 ```
