@@ -560,3 +560,70 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Passage des boutons dans un menu
   Affichage du nombre de chants
 ```
+
+**22/12/2020 v4.5.1**
+```
+  + Il es né le divin enfant (corrections) SYLH160 / F160
+  + Voici la nuit P156-1
+  + La voici, la nuit de Dieu F256
+  + Gaudete Christus est natus FX73-73
+  + Venu en notre chair (Anamnèse) C72 / EDIT14-44
+  + Agneau de Dieu (musique Mozart) AL145
+  + En accueillant l'amour DLH126 / DP126
+  + Il est venu marcher sur nos routes F50-21-2
+  + Peuple dans la nuit F237 / EDIT10-77
+  + Les anges dans nos campagnes F9
+  + Au plus haut du ciel C221-1 / Y221-1
+  + Veilleurs, bénissez Dieu P19-58 / X19-58
+  + Peuple fidèle (Adeste fideles) F5
+  + Exultez de joie, peuples de l'univers F35-24
+  + Puissance et gloire de l'Esprit
+  + Chantons l'enfant qui nous est né
+  + Douce nuit, sainte nuit !
+  + Le Verbe s'est fait chair D155 / F155
+  + Aujourd'hui dans notre monde F47 / FP47
+  + Heureuse es-tu Marie V140 / VP140
+  + L'enfant qui vient de naitre F255 / EDIT843
+  + L'étoile s'est levée sur un enfant F46-47
+  + La sagesse a dressé une table SYLF502 / D580
+  + Le Fils de Dieu, le Roi de gloire F59
+  + Noël, rumeur d'enfance F251-2SM
+  + Louange et gloire à ton nom C250 / Y250
+  + Lumière des hommes G128-2bis
+  + Plus haut que les cieux E11-50-1 / VP11-50-1
+  + Réjouis-toi, Jérusalem, alléluia ! E13-96 / EU13-96
+  + Un enfant est né F279 / EDIT14-06
+  + Tout le ciel s’emplit F58
+  + Voici que l’ange Gabriel V516
+  + Venez du fond des temps
+  + Seigneur Jésus, tu es présent D370 / DEV297
+  + Vous m’avez reconnu à la fraction du pain XD58-47
+  + Guetteurs d’aurore E35-92
+  + Les temps se renouvellent E177 / EDIT853
+  + Préparez les chemins du Seigneur E134 / EA134
+  + Quittons nos robes de tristesse E187
+  + Toi qui ravis le cœur de Dieu VLH136 / VP136-2
+  + Joie au ciel E255
+  + Vienne, Seigneur, vienne ton jour E240
+  + Aube nouvelle E130
+  + Voici la demeure de Dieu SYLG420 / EX420
+  + Aujourd’hui, montons sur la montagne T119 / M119
+  + Bénis le Seigneur, ô mon âme Z582 / Z102-6
+  + Louez Dieu, tous les peuples ! C201 / U622
+  + Louez, exaltez le Seigneur DEV44-66
+  + Nous te rendons grâce M58 / MY58
+  + Seigneur, que ta Parole A51 / U641
+  + Peuple de lumière T601
+  + Aimer, il suffit d'aimer D600 / EDIT260
+  + C'est toi Seigneur le Pain rompu D293
+  + L'Amour jamais ne passera X44-65 / OX44-65
+  + Ta parole nous réveille U526 / EDIT13-15
+  + Pour avancer ensemble K20-38 / KD20-38
+  + Béni sois-tu Seigneur V24
+  + Ô Mère du Sauveur V59-25
+  + Saurais-je dire oui V601 / DEV293
+  + Sous ton voile de tendresse VP56-48
+  + Marie, tendresse des pauvres V231
+  + Vierge de lumière V223
+  + Messe de Saint Paul
+```

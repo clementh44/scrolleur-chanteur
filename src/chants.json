@@ -1,5 +1,2151 @@
 [
 {
+	"id": "messe-7-saint-paul-agnus",
+	"title": "(Messe de Saint Paul) Agnus",
+	"rating": "IEV14-29-07",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Agnus Dei, qui tollis peccata mundi,\nMiserere nobis, miserere nobis. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Agnus Dei, qui tollis peccata mundi,\nMiserere nobis, miserere nobis. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Agnus Dei, qui tollis peccata mundi,\nDona nobis pacem, dona nobis pacem. (bis)"
+	}
+	]
+},
+{
+	"id": "messe-6-saint-paul-anamnese",
+	"title": "(Messe de Saint Paul) Anamnèse",
+	"rating": "IEV14-29-04",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Toi qui étais mort !\nGloire à Toi qui es vivant !\nNotre Sauveur et notre Dieu,\nViens, Seigneur Jésus!"
+	}
+	]
+},
+{
+	"id": "messe-5-saint-paul-sanctus",
+	"title": "(Messe de Saint Paul) Sanctus",
+	"rating": "IEV14-29-03",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Sanctus, Sanctus, Sanctus, Dominus ! Dominus Deus Sabaoth (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Pleni sunt caeli et terra gloria tua"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna in excelsis (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Bénédictus qui venit in nomine Domini"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna in excelsis (bis)"
+	}
+	]
+},
+{
+	"id": "messe-3-saint-paul-alleluia",
+	"title": "(Messe de Saint Paul) Alleluia",
+	"rating": "IEV14-29-02",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Alléluia, Alléluia! Alléluia, Alléluia !\nFin : Alléluia, Alléluia! Louange à toi, Seigneur Jésus !"
+	}
+	]
+},
+{
+	"id": "messe-2-saint-paul-gloria",
+	"title": "(Messe de Saint Paul) Gloria",
+	"rating": "IEV14-29-08",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe), André Fleury",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloria in excelsis Deo, Gloria Deo Domino (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Gloire à Dieu au plus haut des cieux\nEt paix sur la terre aux hommes qu’il aime.\nNous te louons, nous te bénissons, nous t’adorons,\nNous te glorifions, nous te rendons grâce,  Pour ton immense gloire,\nSeigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
+	},
+	{
+		"type": "verse",
+		"text": "Seigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;\nToi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "Car toi seul es saint, toi seul es Seigneur, Toi seul es le Très-Haut :\nJésus Christ, Avec le Saint-Esprit Dans la gloire de Dieu le Père. Amen."
+	}
+	]
+},
+{
+	"id": "messe-1-saint-paul-kyrie",
+	"title": "(Messe de Saint Paul) Kyrie",
+	"rating": "IEV14-29-01",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Seigneur Jésus envoyé par le Père\npour guérir et sauver les hommes,\nprends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ô Christ venu dans le monde\nappeler tous les pêcheurs,\nprends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Christe eleison, Christe eleison, Christe eleison."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Seigneur Jésus élevé dans la gloire du Père\noù tu intercèdes pour nous,\nprends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
+	}
+	]
+},
+{
+	"id": "vierge-de-lumiere",
+	"title": "Vierge de lumière",
+	"rating": "V223",
+	"publisher": "Lethielleux (DDB)",
+	"writer": "Lecot J.-P.",
+	"composer": "Antzenberger G. (19è s.), Darros N.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Vierge de lumière,\nTu es le sourire\nD'un Dieu qui nous aime,\nÔ notre Dame !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Vierge de lumière toute remplie de grâce,\nDieu vers Toi se penche, il t'a choisie avec amour."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Vierge de lumière, vierge conçue sans tache,\nVierge sans pareille, Vierge Marie, réjouis-toi !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Vierge de lumière, tu as donné aux hommes,\nLe Sauveur du monde : Il a pris chair en notre chair."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Vierge de lumière, mère de tous les peuples,\nMère de l'Eglise, temple de Dieu, réjouis-toi !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Vierge de lumière, change nos coeurs de pierre,\nMère de la grâce, force et refuge des pêcheurs !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Vierge de lumière, tu es la source vive,\nOù nous venons boire l'eau jaillissant de la Vie."
+	}
+	]
+},
+{
+	"id": "marie-tendresse-des-pauvres",
+	"title": "Marie, tendresse des pauvres",
+	"rating": "V231",
+	"publisher": "Auvidis",
+	"writer": "Klingeer J.-N.",
+	"composer": "Klingeer J.-N.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Marie, tendresse des pauvres,\nMarie, sagesse des faibles,\nMarie, notre mère, priez pour nous.\nMarie, notre mère, priez pour nous."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Marie, lumière féconde,\nMarie, prière du monde,\nMarie, notre force, priez pour nous.\nMarie, notre force, priez pour nous."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Marie, promesse pour l'homme,\nMarie, fontaine d'eau vive,\nMarie, notre source, priez pour nous.\nMarie, notre source, priez pour nous."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Marie, présence d'un peuple,\nMarie, visage d'Eglise,\nMarie, notre reine, priez pour nous.\nMarie, notre reine, priez pour nous."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Marie, parole de fête,\nMarie, silence des humbles,\nMarie, notre route, priez pour nous.\nMarie, notre route, priez pour nous."
+	}
+	]
+},
+{
+	"id": "sous-ton-voile-de-tendresse",
+	"title": "Sous ton voile de tendresse",
+	"rating": "VP56-48",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Communauté de l'Emmanuel",
+	"composer": "Communauté de l'Emmanuel",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Sous ton voile de tendresse,\nNous nous réfugions.\nPrends-nous dans ton cœur de mère\nOù nous revivrons.\nMarie, mère du Sauveur, nous te bénissons."
+	},
+	{
+		"type": "chorus",
+		"text": "Marie notre mère, garde-nous dans la paix.\nRefuge des pécheurs, protège tes enfants."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Quand nous sommes dans l’épreuve,\nViens nous visiter.\nDe tous les dangers du monde,\nViens nous délivrer.\nMarie, mère de Sauveur, prends-nous en pitié."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Marie, vierge immaculée,\nApprends-nous à prier.\nQue demeurent dans nos cœurs,\nSilence et paix.\nMarie, mère du Sauveur, veille à nos côtés."
+	}
+	]
+},
+{
+	"id": "saurais-je-dire-oui",
+	"title": "Saurais-je dire oui",
+	"rating": "V601",
+	"newrating": "DEV293",
+	"publisher": "Studio SM",
+	"writer": "Richard P.",
+	"composer": "Richard P.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Saurais-je dire oui, comme toi Marie,\nTout accueil et toute grâce, visage de paix !\nSaurais-je dire oui, comme toi Marie,\nBienheureuse Mère du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Quand tout semble dans la nuit\nTu fais se lever le jour\nTu montres que par un \"oui\"\nLa vie peut danser l'amour."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Comme une fleur épanouie\nTon coeur s'ouvre à la confiance\nComme une rosée d'après la nuit\nTon matin chante l'Espérance."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Quand l'horizon est prisonnier\nPar l'égoïsme de nos mains\nTu nous montres que tout donner\nCrée l'espoir d'un lendemain."
+	}
+	]
+},
+{
+	"id": "o-mere-du-sauveur",
+	"title": "Ô Mère du Sauveur",
+	"rating": "V59-25",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Communauté de l'Emmanuel",
+	"composer": "Communauté de l'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Ô Mère du Sauveur, Marie, Vierge Sainte\nEn toi Dieu a formé le Fils Bien-Aimé,\nPar toi, la Lumière est entrée dans le monde.\nMarie, tu es la joie de Dieu\nParmi les enfants des hommes."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Nous te saluons, pleine de grâce !\nSur toi s’est levée la gloire du Très-Haut,\nLes cieux répandent leur rosée,\nIntercède pour nous, Étoile du Matin !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Nous te saluons, Arche d’Alliance !\nTon sein a porté le fils de Dieu fait chair,\nL’Emmanuel habite en toi,\nIntercède pour nous, Cité sainte de Dieu !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Nous te saluons, ô Notre Dame !\nTu as enfanté le Roi de l’univers\nEn toi resplendit le Salut,\nIntercède pour nous, Épouse bien-aimée !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Nous te saluons, Vierge très pure !\nTu donnes la vie au Dieu qui t’a créée,\nTu es le Paradis nouveau,\nIntercède pour nous, ô Mère immaculée !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Nous te saluons, Ève nouvelle !\nDieu restaure en toi toute l’humanité,\nTu as accueilli le Sauveur,\nIntercède pour nous, Refuge des pécheurs !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Nous te saluons, Humble Servante !\nEt nous magnifions avec toi le Seigneur,\nTu vis à l’ombre de l’Esprit,\nIntercède pour nous, Marie, Vierge bénie !"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Nous te saluons, Reine des anges !\nLe Fils Bien-Aimé t’a prise en sa clarté,\nAuprès du Roi, tu es montée,\nIntercède pour nous, Reine de tous les saints !"
+	}
+	]
+},
+{
+	"id": "beni-sois-tu-seigneur",
+	"title": "Béni sois-tu Seigneur",
+	"rating": "V24",
+	"publisher": "Éditions du Seuil",
+	"writer": "Claude Rozier",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Béni sois-tu, Seigneur,\nEn l'honneur de la Vierge Marie,\nBéni sois-tu, Seigneur"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Vous êtes belle, ô Notre-Dame,\nAuprès du Père en Paradis,\nComblée de biens par le Seigneur,\nDont l'amour chante en votre vie."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ô Vierge, Mère du Sauveur,\nDepuis toujours, Dieu vous aimait,\nPensant à vous qui seriez là\nQuand parmi nous son Fils viendrait."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Le Seigneur vint, un jour du temps,\nPour partager notre labeur,\nVous étiez là pour le donner\nA sa mission de Rédempteur."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Dans son Royaume de lumière\nOù Dieu vous place auprès de Lui,\nVous êtes reine et vous brillez\nComme l'aurore après la nuit."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Et désormais, dans tous les temps,\nPauvres et grands de l'univers\nVous béniront d'être la femme\nEn qui le Verbe s'est fait chair."
+	}
+	]
+},
+{
+	"id": "pour-avancer-ensemble",
+	"title": "Pour avancer ensemble",
+	"rating": "K20-38",
+	"newrating": "KD20-38",
+	"publisher": "Jubilus - Voix Nouvelles Editions",
+	"writer": "Rimaud D.",
+	"composer": "Villeneuve Ch.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "(Stance)\nPour avancer ensemble sur un même chemin,\nPour bâtir avec Dieu un monde plus humain,\nAbreuvons-nous aux mêmes sources\nEt partageons le même pain,\nOuvrons nos coeurs au même souffle,\nAccueillons le Royaume qui vient."
+	},
+	{
+		"type": "chorus",
+		"text": "Exultons de joie : proche est le règne de Dieu.\nExultons de Joie : il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Heureux qui observe le droit en toute chose.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu accomplir toute justice.\nExultons de joie : il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Heureux qui pense au pauvre et au faible.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu pour l'amour des plus petits.\nExultons de joie : il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Heureux le pêcheur dont la faute est remise.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu pour détruire le péché.\nExultons de joie : il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Heureux les habitants de la maison du Père.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu tout retourner vers Dieu.\nExultons de joie : il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Heureux qui met sa foi dans le Seigneur.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu pour une Alliance nouvelle.\nExultons de joie : Il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Heureux qui cherche Dieu de tout son coeur.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu tourner l'homme vers Dieu.\nExultons de joie : il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Heureux les habitants de la maison du Père.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu pour répandre l'Esprit.\nExultons de joie : Il est au milieu de nous !"
+	},
+	{
+		"type": "verse",
+		"text": "8 - Heureux l'Eglise qui connaît la louange.\nExultons de Joie : le Règne de Dieu est proche.\nLe Christ est venu offrir l'action de grâce.\nExultons de joie : il est au milieu de nous !"
+	}
+	]
+},
+{
+	"id": "ta-parole-nous-reveille",
+	"title": "Ta parole nous réveille",
+	"rating": "U526",
+	"newrating": "EDIT13-15",
+	"publisher": "Studio SM",
+	"writer": "Grzybowski L.",
+	"composer": "Grzybowski L.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Tu fais de nous un peuple de témoins\nPour dire au monde tes merveilles\nTu viens demeurer au cœur de chacun\nEt ta Parole nous réveille."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Fermer les yeux pour tout quitter\nEt les ouvrir sur l'inconnu\nVouloir donner son fils unique\nEtre témoin de la confiance."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Chanter, danser et louer Dieu\nOffrir sa faute et son péché\nTenir sa place à chaque instant\nTémoin de ta fidélité"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Vivre au désert en solitude\nPour aplanir toutes montagnes\nPour annoncer celui qui vient\nTu es témoin de notre attente"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Abandonner tous ses filets\nRépondre oui à un appel\nChanger de vie sur un regard\nTémoin de notre liberté"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Heureux les artisans de paix\nHeureux ceux qui sont appelés\nTa Parole est Bonne Nouvelle\nSigne de ton Amour pour nous"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Partir dans le désert du monde\nConnaître aussi la tentation\nVivre l'épreuve dans l'Amour\nJésus, Image de notre Père"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Etre attentif aux cris de l'Homme\nAccueillir le désir de Dieu\nRecevoir l'Esprit qui libère\nTémoin du \"oui\" offert à Dieu"
+	},
+	{
+		"type": "verse",
+		"text": "8 - Dresser la table du repas\nSe retrouver pour le festin\nTon peuple est là qui te rend grâce\nViens nourrir notre humanité"
+	},
+	{
+		"type": "verse",
+		"text": "9 - Aimer le Père tels que nous sommes\nChoisir sans attendre demain\nEt croire en l'Amour qui appelle\nDieu nous envoie au coeur du monde."
+	}
+	]
+},
+{
+	"id": "lamour-jamais-ne-passera",
+	"title": "L'Amour jamais ne passera",
+	"rating": "X44-65",
+	"newrating": "OX44-65",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Communauté de l'Emmanuel",
+	"composer": "Communauté de l'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "L'amour jamais ne passera, l'amour demeurera.\nL'amour, l'amour seul, la charité jamais ne passera,\nCar Dieu est Amour."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Quand j'aurais le don de la science,\nEt connaîtrais tous les mystères,\nParlerais-je les langues des anges,\nSans amour, je ne suis rien."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Si je donnais mes biens en aumône,\nSi je livrais mon corps aux flammes,\nSi ma foi déplaçait les montagnes,\nSans amour, je ne suis rien."
+	},
+	{
+		"type": "verse",
+		"text": "3 - La charité est toujours longanime,\nNe tient pas compte du mal,\nLa charité se donne sans cesse,\nNe cherche pas son avantage."
+	},
+	{
+		"type": "verse",
+		"text": "4 - La charité ne jalouse personne,\nLa charité jamais ne s'irrite.\nEn tout temps, elle excuse et espère.\nLa charité supporte tout."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Un jour les langues vont se taire,\nLes prophéties disparaîtront.\nDevant Dieu le Seigneur notre maître,\nSeul l'Amour restera."
+	}
+	]
+},
+{
+	"id": "cest-toi-seigneur-le-pain-rompu",
+	"title": "C'est toi Seigneur le Pain rompu",
+	"rating": "D293",
+	"publisher": "Lethielleux",
+	"writer": "Jean-Paul Lécot",
+	"composer": "Georges Kirbye",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "C'est toi Seigneur le Pain rompu,\nLivré pour notre vie.\nC'est toi, Seigneur, notre unité,\nJésus ressuscité."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Jésus, la nuit qu´il fut livré, rompit le pain et dit :\nPrenez, mangez : voici mon corps, livré pour l´univers."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Jésus, la nuit qu´il fut livré, montra le vin et dit :\nPrenez, buvez : voici mon sang, versé pour l´univers."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Je donnerai gratuitement à ceux qui m´ont cherché,\nEt tous les pauvres mangeront, parole du Seigneur."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Je suis le pain qui donne vie : qui croit en moi, vivra ;\nEt je le ressusciterai, au jour de mon retour."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Je suis venu pour vous sauver et non pour vous juger :\nC´est notre Père qui m´envoie pour vous donner la vie."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Nous partageons un même pain, dans une même foi,\nEt nous formons un même corps : l'Eglise de Jésus."
+	},
+	{
+		"type": "verse",
+		"text": "7 - C'est maintenant le temps de Dieu : il faut nous préparer.\nC'est maintenant le temps de Dieu : il faut changer nos coeurs."
+	},
+	{
+		"type": "verse",
+		"text": "8 - Avant d´aller vers mon autel, regarde ton prochain :\nPardonne et réconcilie-toi, puis viens dans ma maison."
+	},
+	{
+		"type": "verse",
+		"text": "9 - Si nous souffrons en Jésus Christ, en lui nous régnerons.\nSi nous mourons en Jésus Christ, en lui nous revivrons."
+	},
+	{
+		"type": "verse",
+		"text": "10 - L'esprit de Dieu m'a envoyé pour annoncer la joie,\nPour libérer les prisonniers, pour apporter la paix."
+	},
+	{
+		"type": "verse",
+		"text": "11 - Voici venir les temps nouveaux, la terre des vivants :\nVous deviendrez mes biens-aimés ; Je suis « Dieu-avec-vous »."
+	}
+	]
+},
+{
+	"id": "aimer-il-suffit-daimer",
+	"title": "Aimer, il suffit d'aimer",
+	"rating": "D600",
+	"newrating": "EDIT260",
+	"publisher": "Studio SM",
+	"writer": "Lefebvre G.",
+	"composer": "Lefebvre G.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Aimer c'est tout donner (bis)\nEt se donner soi-même !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Dieu a tant aimé Le monde\nQu'il lui a donné son Fils."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Aimez-vous les uns les autres\nComme Dieu vous a aimé."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Aimons-nous les uns les autres,\nLe premier Dieu nous aima."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Aimons-nous les uns les autres\nCar l'Amour nous vient de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Dieu nous a comblés d'Amour,\nFaisant de nous ses enfants."
+	}
+	]
+},
+{
+	"id": "peuple-de-lumiere",
+	"title": "Peuple de lumière",
+	"rating": "T601",
+	"publisher": "Studio SM",
+	"writer": "Singer Ch.",
+	"composer": "Kempf J.-P.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Peuple de lumière,\nBaptisé pour témoigner,\nPeuple d'évangile,\nAppelé pour annoncer\nLes merveilles de Dieu\nPour tous les vivants."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Vous êtes l'Évangile pour vos frères,\nSi vous gardez ma Parole,\nPour avancer dans la vérité,\nBonne nouvelle pour la terre !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Vous êtes l'Évangile pour vos frères,\nSi vous suivez mon exemple,\nPour demeurer dans la charité.\nBonne nouvelle pour la terre !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Vous êtes l'Évangile pour vos frères,\nSi vous marchez à ma suite,\nPour inventer le don et la joie.\nBonne nouvelle pour la terre !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Vous êtes l'Évangile pour vos frères\nSi vous laissez les offenses\nPour déclarer à tous le pardon,\nBonne Nouvelle pour la terre !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Vous êtes l'Évangile pour vos frères\nSi vous luttez dans le monde\nPour apporter le droit et la paix,\nBonne Nouvelle pour la terre !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Vous êtes l'Évangile pour vos frères\nSi vous chantez ma promesse\nDe m'établir au milieu de vous,\nBonne Nouvelle pour la terre !"
+	}
+	]
+},
+{
+	"id": "seigneur-que-ta-parole",
+	"title": "Seigneur, que ta Parole",
+	"rating": "A51",
+	"newrating": "U641",
+	"publisher": "Mame Le C",
+	"writer": "Jean-Pierre Servel",
+	"composer": "Ya Le Gall, Joseph Marthouret",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Seigneur, que ta Parole réveille notre foi ! (bis)\nQuand tout obscurcit ton visage, quand nous doutons de toi.\nSeigneur, que ta Parole réveille notre foi !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Seigneur, que ta Parole enlève nos péchés ! (bis)\nRends-nous la fraîcheur de l'eau vive ta joie, ta sainteté.\nSeigneur, que ta Parole enlève nos péchés !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Seigneur, que ta Parole nous garde dans l’amour ! (bis)\nQui frappe ou qui peine son frère te blesse en lui toujours\nSeigneur, que ta Parole nous garde dans l’amour !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Seigneur, que ta Parole devienne notre pain ! (bis)\nLe pain de la vie éternelle, le seul pour notre faim.\nSeigneur, que ta Parole devienne notre pain !"
+	}
+	]
+},
+{
+	"id": "nous-te-rendons-grace",
+	"title": "Nous te rendons grâce",
+	"rating": "M58",
+	"newrating": "MY58",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "D'après le psaume 62",
+	"composer": "Hauguel C.-E.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Nous te rendons grâce\nPour tant de tendresse,\nTu donnes l’eau vive\nPar ton cœur transpercé,\nNous te bénissons\nPour tant de merveilles,\nTu donnes la vie, tu donnes l’Esprit."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Dieu, c’est toi mon Dieu, c’est toi que je cherche,\nToute ma chair après toi languit.\nJe veux ton amour pour guider ma vie,\nMon âme a soif, a soif de toi."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Mes lèvres diront sans fin ton éloge,\nToute ma vie, je veux te bénir.\nJe veux à ton Nom élever les mains,\nMon âme a soif, a soif de toi."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Quand je songe à toi, quand j’espère en toi,\nQuand je t’appelle toujours tu réponds.\nAlors je jubile, en paix sous tes ailes,\nMon âme a soif, a soif de toi."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Et quand je te cherche, tu te laisses trouver,\nRassasie-moi de ta présence.\nJe suis une terre altérée, sans eau,\nMon âme a soif, a soif de toi."
+	}
+	]
+},
+{
+	"id": "louez-exaltez-le-seigneur",
+	"title": "Louez, exaltez le Seigneur",
+	"rating": "DEV44-66",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Communauté de l'Emmanuel",
+	"composer": "Communauté de l'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Louez, exaltez le Seigneur\nAcclamez Dieu votre Sauveur,\nLouez, exaltez le Seigneur\nLe créateur de tout l'univers"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Louez le nom du Seigneur à jamais,\nProsternez vous devant sa majesté.\nSalut, puissance et gloire à notre Dieu,\nLouez-le vous, les petits et les grands."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Maître de tout, toi qui es, qui étais,\nSeigneur et Sauveur, Dieu de l'univers,\nTu as saisi ton immense puissance,\nTu as établi ton règne à jamais."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Ô notre Dieu, tu es saint, glorieux,\nJustes et droites sont toutes tes voies.\nLes saints, les anges te louent dans les cieux,\nLes peuples chantent leurs hymnes de joie."
+	}
+	]
+},
+{
+	"id": "louez-dieu-tous-les-peuples-",
+	"title": "Louez Dieu, tous les peuples !",
+	"rating": "C201",
+	"newrating": "U622",
+	"publisher": "Lethielleaux",
+	"writer": "Jean-Paul Lécot",
+	"composer": "Fintan O'Caroll",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Louez Dieu tous les peuples (bis)\nChantez sa grande gloire (bis)\nOui, notre Dieu nous aime,\nson amour est fidèle"
+	},
+	{
+		"type": "chorus",
+		"text": "Alléluia... !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Chantez le Seigneur par des hymnes\nCar il a fait des merveilles\nChantez le Seigneur, terre entière !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Il a révélé sa justice,\nIl a montré sa victoire\nAux peuples de toute la terre !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Il s’est rappelé sa Promesse,\nIl a montré sa tendresse\nEnvers les enfants de son peuple !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Que toute la terre l’acclame !\nQu’elle proclame sa Gloire !\nQue tout l’univers soit en fête !"
+	}
+	]
+},
+{
+	"id": "benis-le-seigneur-o-mon-ame",
+	"title": "Bénis le Seigneur, ô mon âme",
+	"rating": "Z582",
+	"newrating": "Z102-6",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Faugeron E.",
+	"composer": "Faugeron E.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Bénis le Seigneur, ô mon âme,\nDu fond de mon être, son Saint Nom.\nBénis le Seigneur, ô mon âme,\nEt n’oublie aucun de ses bienfaits."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Le Seigneur est tendresse et pitié,\nLent à la colère et plein d’amour,\nSa justice demeure à jamais.\nBénis le Seigneur, ô mon âme !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Il pardonne toutes tes fautes,\nDe tes maladies il te guérit,\nÀ la fosse il rachète ta vie.\nBénis le Seigneur, ô mon âme !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Comme un père pour ses enfants,\nTendre est le Seigneur pour qui le craint,\nDe son cœur jaillit l’amour.\nBénis le Seigneur, ô mon âme !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - La bonté du Seigneur se répand\nSur qui accomplit sa volonté,\nAttentif à sa Parole.\nBénis le Seigneur, ô mon âme !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Vous les anges, les saints du Seigneur,\nTous ses serviteurs, toutes ses œuvres,\nDans la joie bénissez-le.\nBénis le Seigneur, ô mon âme !"
+	}
+	]
+},
+{
+	"id": "aujourd’hui-montons-sur-la-montagne",
+	"title": "Aujourd’hui, montons sur la montagne",
+	"rating": "T119",
+	"newrating": "M119",
+	"publisher": "Studio SM",
+	"writer": "Jean-Pierre Servel",
+	"composer": "Mannick",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Aujourd'hui, montons sur la montagne\nOù Jésus resplendira.\nQui tiendra, Seigneur, dans ta lumière ?\nQui affrontera la croix ?\nAujourd'hui, montons sur la montagne\nOù Jésus resplendira."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Aujourd'hui, restons dans la lumière,\nJésus Christ nous gardera.\nGuéris-nous, Seigneur, par tes blessures,\nCrée en nous un cœur nouveau.\nAujourd'hui, restons dans la lumière,\nJésus Christ nous gardera."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Aujourd'hui, marchons dans la lumière,\nJésus ressuscitera.\nOuvre-nous les portes de la vie,\nOuvre-nous les temps nouveaux.\nAujourd'hui, marchons dans la lumière,\nJésus ressuscitera."
+	}
+	]
+},
+{
+	"id": "voici-la-demeure-de-dieu",
+	"title": "Voici la demeure de Dieu",
+	"rating": "SYLG420",
+	"newrating": "EX420",
+	"publisher": "Sylvanes",
+	"writer": "Bourgeois D., Revel J.-PH.",
+	"composer": "Gouzes A.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Voici la demeure de Dieu parmi les hommes,\nMarie, terre admirable, terre de la promesse,\nMère de l'Emmanuel !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - L'Ange du Seigneur fut envoyé à Marie,\nEt la vierge fut éblouie par la lumière.\nEcoute, Marie, vierge du Christ :\nTu concevras, tu enfanteras un fils ;\nTu es le paradis nouveau et la Terre promise ;\nEn toi le Soleil a établi sa demeure."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Le Seigneur t'a regardée dans son amour ;\nReçois la Parole que, par l'ange, il t'envoie.\nIl vient vers nous, le Dieu véritable,\nIl revêt dans ton sein la chair du premier Adam\nEngendré par le Père et né dans le temps,\nDieu et homme, lumière et vie, le créateur du monde !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Voici la Mère de mon Sauveur qui vient à moi !\nBienheureuse es-tu, toi qui as cru,\nEt béni le Fruit de tes entrailles !\nCe qui est engendré en toi vient de l'Esprit Saint\nDès que ta salutation a retenti à mes oreilles,\nL'enfant a tressailli d'allégresse en mon sein."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Réjouissez-vous avec moi, bien-aimés du Seigneur ;\nMon coeur est devenu le temple de Dieu,\nIl s ́est penché sur son humble servante,\nIl a fait de mon sein la porte du ciel,\nEn moi il a pris chair, le Fils unique du Père,\nJésus, le plus beau des enfants des hommes."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Gloire au Père qui a choisi Marie,\nPour être la mère de son fils bien-aimé,\nGloire au Fils venu vers nous dans sa grande pitié ;\nIl nous a visités dans la faiblesse de la chair,\nEt nous chantons l ́Esprit, vivifiant et saint,\nQui a inondé Marie de sa lumière."
+	}
+	]
+},
+{
+	"id": "aube-nouvelle",
+	"title": "Aube nouvelle",
+	"rating": "E130",
+	"publisher": "Studio SM",
+	"writer": "Scouarnec M.",
+	"composer": "Akepsimas J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Aube nouvelle, dans notre nuit,\nPour sauver son peuple Dieu va venir.\nJoie pour les pauvres, fête aujourd'hui !\nIl faut préparer la route au Seigneur.\nIl faut préparer la route au Seigneur."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Bonne Nouvelle, cris et chansons,\nPour sauver son peuple, Dieu va venir.\nVoix qui s'élève dans nos déserts.\nIl faut préparer la route au Seigneur.\nIl faut préparer la route au Seigneur."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Terre nouvelle, monde nouveau,\nPour sauver son peuple, Dieu va venir.\nPaix sur la terre, ciel parmi nous.\nIl faut préparer la route au Seigneur.\nIl faut préparer la route au Seigneur."
+	}
+	]
+},
+{
+	"id": "vienne-seigneur-vienne-ton-jour",
+	"title": "Vienne, Seigneur, vienne ton jour",
+	"rating": "E240",
+	"publisher": "Auvidis",
+	"writer": "Bernard Cl.",
+	"composer": "Courreges G. De",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - A ta lumière, Seigneur,\nIl est temps de s'éveiller ;\nTon salut est proche.\nTon salut es proche.\nViens guérir nos yeux voilés,\nNous verrons d'humbles lueurs\nPromesses d'aurore.\nPromesses d'aurore."
+	},
+	{
+		"type": "verse",
+		"text": "2 - A ta lumière, Seigneur,\nQui de nous veut bien marcher ?\nTes chemins sont libres.\nFais-nous suivre tes sentiers,\nMontre-nous sur les hauteurs\nLe jour qui fait vivre."
+	},
+	{
+		"type": "verse",
+		"text": "3 - A ta lumière, Seigneur,\nQui se lève pour lutter ?\nTon Royaume appelle !\nFais de nous tes envoyés,\nA nos postes de veilleurs\nGarde-nous fidèles."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Au plus secret de nos vies\nTon Esprit reposera,\nSève en nos racines.\nTa Sagesse nourrira\nLes rameaux qui ont surgi,\nJoyaux de ta vigne."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Dans le désert de nos coeurs\nUne voix a retenti :\nPréparez la route !\nBaptisés dans ton Esprit\nSerons-nous brûlés du Feu\nPlus fort que nos doutes ?"
+	},
+	{
+		"type": "verse",
+		"text": "6 - La terre exulte de joie,\nNos déserts vont refleurir.\nDieu montre sa gloire !\nLe boiteux pourra bondir\nEt déjà l'aveugle voit\nOù luit son étoile."
+	},
+	{
+		"type": "verse",
+		"text": "7 - De ces témoins ballottés,\nRoseaux frêles au gré des vents,\nDieu fait des prophètes.\nMessagers du Tout-Puissant,\nComment dire aux affamés :\n« Soyez tous en fête ! »"
+	},
+	{
+		"type": "verse",
+		"text": "8 - Ton Évangile, Seigneur,\nNous apprend à demander :\n« Que devons-nous faire ? »\nEt comment tout partager\nSans bannir les vieilles peurs\nLoin de notre terre ?"
+	},
+	{
+		"type": "verse",
+		"text": "9 - Les mains tendues vers le ciel\nNous crions remplis d'espoir :\nMontre-nous un signe !\nTerre vierge enfantera\nLe Sauveur Emmanuel,\nDieu qui nous habite."
+	},
+	{
+		"type": "verse",
+		"text": "10 - Tu as choisi pour maison\nTout un peuple de croyants,\nFils de ton Alliance ;\nEt Jésus est cet Enfant\nQui révèle ton grand nom\nChez l'humble Servante."
+	},
+	{
+		"type": "verse",
+		"text": "11 - Viendra ton Jour, ô Seigneur,\nEt ton règne de berger\nPour que l'homme vive.\nSois béni, Messie de paix,\nToi Noël de tous les coeurs,\nJoie qui ressuscite."
+	},
+	{
+		"type": "verse",
+		"text": "Utilisation :\n1er dimanche A : couplets 1 et 2\n2e dimanche A : couplets 4 et 5\n3e dimanche A : couplets 6 et 7\n4e dimanche A : couplets 9 et 10\n1er dimanche B : couplets 1 et 2\n2e dimanche B : couplets 4 et 5\n3e dimanche B : couplets 6 et 7\n4e dimanche B : couplets 9 et 10\n1er dimanche C : couplets 2 et 3\n2e dimanche C : couplets 4 et 5\n3e dimanche C : couplets 6 et 8\n4e dimanche C : couplets 10 et 11"
+	}
+	]
+},
+{
+	"id": "joie-au-ciel",
+	"title": "Joie au ciel",
+	"rating": "E255",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Penhard M.-F.",
+	"composer": "Penhard M.-F.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Joie au ciel, exulte la terre\nCar le Seigneur Dieu vient bientôt. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Réjouis-toi, Jérusalem, car voici venir ton Roi,\nDanse de joie et ne crains pas, proche est ton salut."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Il est temps d’ouvrir vos cœurs pour accueillir le Seigneur,\nMerveilleuse et vraie lumière, Jésus Sauveur."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Rejetons tous nos fardeaux pour courir vers notre Dieu,\nLui seul peut nous libérer de la mort et du péché."
+	}
+	]
+},
+{
+	"id": "toi-qui-ravis-le-coeur-de-dieu",
+	"title": "Toi qui ravis le cœur de Dieu",
+	"rating": "VLH136",
+	"newrating": "VP136-2",
+	"publisher": "Sodec",
+	"writer": "CFC",
+	"composer": "Berthier J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Toi qui ravis le coeur de Dieu\nEt qui l'inclines vers la terre,\nMarie, tu fais monter vers lui\nTa réponse en offrande."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Toi qui reçois l'appel de Dieu\nComme une terre la semence,\nTu laisses prendre corps en toi\nL'Espérance nouvelle."
+	},
+	{
+		"type": "verse",
+		"text": "3 - L'homme a perdu la joie de Dieu\nEn refusant la ressemblance,\nPar toi le Fils nous est donné,\nQui nous rend à son Père."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Vierge bénie qui portes Dieu\nPromesse et gage de l'alliance,\nL'amour en toi rejoint nos vies\nEt les prend dans la sienne."
+	}
+	]
+},
+{
+	"id": "quittons-nos-robes-de-tristesse",
+	"title": "Quittons nos robes de tristesse",
+	"rating": "E187",
+	"publisher": "Fleurus",
+	"writer": "Duchesneau Cl.",
+	"composer": "Ch. Bach, Chapius M., Duchesneau Cl.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - La nuit réclame son aurore :\nPrenons patience car Dieu vient.\nLes fleurs demandent à éclore,\nN'ayons pas peur : Dieu le sait bien."
+	},
+	{
+		"type": "chorus",
+		"text": "Pourquoi ces robes de tristesse,\nQuand tout nous dit que Dieu revient ?\nTendons les mains vers la Promesse,\nDieu va venir nous relever."
+	},
+	{
+		"type": "verse",
+		"text": "2 - L'hiver avance et nous attaque :\nGardons courage, car Dieu vient.\nLe froid durcit le sol qui craque,\nN'ayons pas peur : Dieu le sait bien."
+	},
+	{
+		"type": "verse",
+		"text": "3 - La neige cache la semence :\nCroyons quand même que Dieu vient.\nLa terre dort, tout est silence,\nN'ayons pas peur : Dieu le sait bien."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Le vent s'engouffre en nos demeures :\nRestons solides, car Dieu vient.\nLe ciel s'éteint, les graines meurent,\nN'ayons pas peur car Dieu vient."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Si nous portons le nom de frères,\nCherchons ensemble où Dieu revient.\nLa foi renaît quand on espère :\nVivons à fond le temps qui vient."
+	},
+	{
+		"type": "chorus",
+		"text": "Quittons nos robes de tristesse,\nLa joie sur nous va se lever.\nTendons les mains vers la Promesse,\nDieu va venir nous relever."
+	},
+	{
+		"type": "verse",
+		"text": "6 - La vie peut naître des tempêtes :\nRestons fidèles car Dieu vient.\nLa joie semée réclame fête,\nN'ayons pas peur : Dieu le sait bien."
+	},
+	{
+		"type": "verse",
+		"text": "7 - Faut-il déjà dresser la table,\nSaisir le pain, verser le vin ?\nSi l'homme n'en est pas capable,\nN'ayons plus peur : Dieu le fait bien."
+	}
+	]
+},
+{
+	"id": "preparez-les-chemins-du-seigneur-E134",
+	"title": "Préparez les chemins du Seigneur",
+	"rating": "E134",
+	"newrating": "EA134",
+	"publisher": "Lethielleux (DDB)",
+	"writer": "Lecot J.-P.",
+	"composer": "Lecot J.-P.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Préparez les chemins du Seigneur :\ntout homme verra le Salut de notre Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Que la terre entière tressaille d'allégresse,\nque tout l'univers soit en fête :\nvoici venir la Gloire du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Qu'ils reprennent force et retrouvent leur courage,\ntous ceux qui ont peur et sont faibles :\nvoici venir la Gloire du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - C'est le Dieu fidèle qui vient sur notre terre ;\nl'Amour et la Paix l'accompagnent :\nvoici venir la Gloire du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Les yeux des aveugles viendront à la lumière,\nles sourds entendront sa parole :\nvoici venir la Gloire du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Parmi les déserts jailliront des sources vives,\net l'eau s'étendra dans les steppes,\nvoici venir la Gloire du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Tous les rachetés marcheront à sa lumière ;\ntous ceux que sa main a fait libres\nverront enfin la Gloire du Seigneur !"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Ils arriveront, dans la joie et l'allégresse,\ndevant la cité du Dieu juste,\npour vivre dans la Gloire du Seigneur !"
+	}
+	]
+},
+{
+	"id": "les-temps-se-renouvellent",
+	"title": "Les temps se renouvellent",
+	"rating": "E177",
+	"newrating": "EDIT853",
+	"publisher": "Studio SM",
+	"writer": "Ginot M.",
+	"composer": "Akepsimas J.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Les temps se renouvellent, la sève montera.\nLa Vierge attend son heure, l'Enfant naîtra."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Dans le vent de la montagne,\nLa nouvelle est arrivée."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Pour la joie de tout le peuple,\nLe Messie est annoncé."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Apportez la délivrance :\nLes oiseaux s'envoleront !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Oubliez chacun vos dettes,\nEt vos yeux s'éclaireront !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Refermez les plaies ouvertes,\nAnnoncez la guérison."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Entonnez les chants de fête,\nAppelez vos musiciens !"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Faites rire les visages,\nDécouvrez les joies cachées !"
+	},
+	{
+		"type": "verse",
+		"text": "8 - Au chemin des solitudes,\nUne étoile s'est levée."
+	},
+	{
+		"type": "verse",
+		"text": "9 - Ceux qui taisent leur misère\nParleront de liberté."
+	},
+	{
+		"type": "verse",
+		"text": "10 - Pour chacune de vos larmes,\nUn banquet sera donné."
+	}
+	]
+},
+{
+	"id": "guetteurs-d’aurore",
+	"title": "Guetteurs d’aurore",
+	"rating": "E35-92",
+	"publisher": "ADF-Musique",
+	"writer": "Michel Scouarnec",
+	"composer": "Jo Akepsimas",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Guetteurs d’aurore veilleurs dans la nuit,\nNous espérons le jour de Dieu.\nGuetteurs d’aurore veilleurs dans la nuit,\nNous préparons le règne de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "1 - En lui notre espérance,\nSon amour jamais ne s’endort,\nDieu fidèle à ses promesses,\nEn Jésus Christ."
+	},
+	{
+		"type": "verse",
+		"text": "2 - En lui notre assurance,\nChaque jour il guide nos pas,\nDieu partage nos détresses,\nEn Jésus Christ."
+	},
+	{
+		"type": "verse",
+		"text": "3 - En lui notre naissance,\nSon Esprit remplit l’univers,\nDieu fontaine de jeunesse,\nEn Jésus Christ."
+	},
+	{
+		"type": "verse",
+		"text": "4 - En lui notre patience,\nSans relâche il sème la paix,\nDieu folie et Dieu sagesse,\nEn Jésus Christ."
+	},
+	{
+		"type": "verse",
+		"text": "5 - En lui notre confiance,\nAux pécheurs il ouvre les bras,\nDieu fidèle à sa tendresse,\nEn Jésus Christ."
+	},
+	{
+		"type": "verse",
+		"text": "6 - À lui notre louange\nDieu vivant plus fort que la mort.\nChantons-lui notre allégresse,\nEn Jésus Christ."
+	}
+	]
+},
+{
+	"id": "vous-m’avez-reconnu",
+	"title": "Vous m’avez reconnu",
+	"rating": "SD58-47",
+	"publisher": "ADF-Musique",
+	"writer": "Claire Châtaigner",
+	"composer": "Samuel Brouillet",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Vous m’avez reconnu à la fraction du pain, prenez-le !\nVous m’avez reconnu à ce pain en vos mains, mangez-le !\nAvec vous je conclus une alliance nouvelle,\nAvec vous je conclus une alliance éternelle."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Voici le commencement\n“Le Verbe s’est fait chair”\nVoici le commencement\nJe suis venu sur terre\nCouché dans une mangeoire. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Me voici devant la porte\nM’entends-tu donc frapper ?\nMe voici devant la porte\nSi tu me laisses entrer\nJe mangerai chez toi. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Me voici parmi la foule\nComment la rassasier ?\nMe voici parmi la foule\nJe veux tout lui donner\nJe suis le pain de vie. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Me voici au bord du puits\nSi je te donne à boire\nMe voici au bord du puits\nEt si tu veux y croire\nJe suis source d’eau vive. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Me voici aux pieds des hommes\nLaissez-moi vous laver\nMe voici aux pieds des hommes\nLaissez-moi vous aimer\nJe suis le serviteur. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Me voici vers Emmaüs\nDe quoi avez-vous peur ?\nMe voici vers Emmaüs\nÉcoutez votre coeur\nJe suis ressuscité. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Me voici Ressuscité\nQui viendra au festin ?\nMe voici Ressuscité\nQui recevra mon pain ?\nVous serez mes témoins. (bis)"
+	}
+	]
+},
+{
+	"id": "seigneur-jesus-tu-es-present",
+	"title": "Seigneur Jésus, tu es présent",
+	"rating": "D370",
+	"newrating": "DEV297",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Penhard M.",
+	"composer": "Hauguel C.-E.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Seigneur Jésus, tu es présent dans ton Eucharistie,\nDans cette hostie nous t’adorons et nous te magnifions."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Toi qui es Dieu, toi qui es Roi, tu nous as tout donné.\nTu es le Christ, tu es l’Agneau immolé sur la croix."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Dans ta passion tu as porté chacun de nos péchés.\nTon sang versé nous a lavés et nous a rachetés."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Saint Jean a vu le sang et l’eau jaillir de ton côté.\nTon Esprit Saint nous est donné comme un fleuve d’eau vive."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Oui, nous croyons à ta victoire par ta résurrection.\nOui, nous croyons que dans ta gloire à jamais nous vivrons."
+	}
+	]
+},
+{
+	"id": "venez-du-fond-des-temps",
+	"title": "Venez du fond des temps",
+	"publisher": "Robert J. Stamps",
+	"writer": "Alain Bandelier, Robert Stamps",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Venez du fond des temps, du bout du monde,\nCœurs transpercés par la soif et la faim,\nOuvrez la porte de la joie profonde:\nDieu a mis son corps entre nos mains. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ce soir de l’eau se change en vin de noce,\nSur la montagne, on multiplie le pain,\nLa vigne en fleur nous donne un fruit précoce:\nDieu a mis son corps entre nos mains. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Parole accomplissant les Écritures\nMots d’un amour qui n’aura pas de fin,\nLe Verbe se fait chair et nourriture:\nDieu a mis son corps entre nos mains. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Marie nous donne Dieu comme une enfance\nLa multitude est le fruit de son sein,\nVoici l’épouse et la nouvelle Alliance:\nDieu a mis son corps entre nos mains. (bis)"
+	}
+	]
+},
+{
+	"id": "voici-que-l’ange-gabriel",
+	"title": "Voici que l’ange Gabriel",
+	"rating": "V516",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Hauguel C.-E.",
+	"composer": "Hauguel C.-E.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Voici que l’ange Gabriel, devant la Vierge est apparu.\nDe toi va naître un enfant Dieu,\nEt tu l’appelleras Jésus."
+	},
+	{
+		"type": "verse",
+		"text": "1 - De mon Seigneur j’ai tout reçu, je l’ai servi jusqu’à ce jour,\nQu’il fasse en moi sa volonté, je m’abandonne à son amour."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Et Dieu se fit petit enfant, la Vierge lui donna son corps.\nIl connut tout de notre vie, nos humbles joies et notre mort !"
+	},
+	{
+		"type": "chorus",
+		"text": "CODA\nEt son nom est Emmanuel !"
+	}
+	]
+},
+{
+	"id": "tout-le-ciel-s’emplit",
+	"title": "Tout le ciel s’emplit",
+	"rating": "F58",
+	"publisher": "Mame Le C",
+	"writer": "Claude Rozier",
+	"composer": "Populaire, M. Rose",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Tout le ciel s’emplit d’une joie nouvelle,\nOn entend la nuit dire la merveille:\nFête sans pareille, le Sauveur est né,\nL’enfant Dieu nous est donné."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Le Seigneur paraît, Verbe de lumière,\nL’univers connaît la bonté du Père.\nDieu de notre terre, viens tracer la voie\nOù chemineront nos pas !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Avec les bergers, avec tous les sages,\nC’est le monde entier qui vers lui s’engage\nPour voir le visage de l’amour vivant,\nQui pour nous s’est fait enfant."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Gloire à Jésus Christ, Gloire au Fils du Père !\nGloire à son Esprit dont l’amour éclaire\nL’éclatant mystère qui remplit le ciel:\nGloire à l’homme Dieu! Noël !"
+	}
+	]
+},
+{
+	"id": "un-enfant-est-ne",
+	"title": "Un enfant est né",
+	"rating": "F279",
+	"newrating": "EDIT14-06",
+	"publisher": "Studio SM",
+	"writer": "Debruynne J.",
+	"composer": "Akepsimas J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Un enfant est né\nQui n'a pas même un toit.\nUn enfant est né\nSans tapage et sans bruit.\nTout au bout de la nuit,\nUn enfant est né :\nLa fleur de notre joie !"
+	},
+	{
+		"type": "chorus",
+		"text": "Un enfant est né, Bergers, réveillez vos bêtes.\nUn enfant est né, Bergers, venez à la fête !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Un enfant est né,\nUne étoile en ses yeux.\nUn enfant est né,\nIl n'a pas de berceau:\nL'étable est son château.\nUn enfant est né,\nLe fils de notre Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Un enfant est né :\nDieu habite avec nous.\nUn enfant est né :\nDieu a pris froid et faim,\nPour nous tendre la main.\nUn enfant est né,\nUn pauvre sans le sou."
+	}
+	]
+},
+{
+	"id": "rejouis-toi-jerusalem-alleluia",
+	"title": "Réjouis-toi, Jérusalem, alléluia !",
+	"rating": "U13-96",
+	"newrating": "EU13-96",
+	"publisher": "Bayard",
+	"writer": "Claude Bernard",
+	"composer": "Jacques Berthier",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "(Avent)\nRéjouis-toi, Jérusalem,\nAlleluia, Alleluia !\nVoici qu'il vient l'Emmanuel,\nAlleluia, Alleluia !"
+	},
+	{
+		"type": "verse",
+		"text": "(1er dimanche de l'Avent)\nGerme de justice, montre-nous ton amour.\nProche est ton Royaume ; que nos yeux voient ton jour"
+	},
+	{
+		"type": "verse",
+		"text": "(2ème dimanche de l'Avent)\nRoute vers le Père, tu rends droits nos chemins.\nProche est ton Royaume ; viens combler nos ravins."
+	},
+	{
+		"type": "verse",
+		"text": "(3ème dimanche de l'Avent)\nMaître de sagesse, parle-nous de ta vie.\nProche est ton Royaume ; brûle-nous de l'Esprit !"
+	},
+	{
+		"type": "verse",
+		"text": "(4ème dimanche de l'Avent)\nFils de la Lumière, tu prends corps en Marie.\nProche est ton Royaume ; Dieu nous donne son Fruit."
+	},
+	{
+		"type": "chorus",
+		"text": "(Noël)\nGloire à Jésus, l'Emmanuel,\nAlleluia, Alleluia !\nPrince de paix dans Bethléem,\nAlleluia, Alleluia !"
+	},
+	{
+		"type": "verse",
+		"text": "(Noël)\nJoie dans notre monde, un Sauveur est né.\nDans le cœur des hommes sa lumière a brillé."
+	},
+	{
+		"type": "chorus",
+		"text": "(Épiphanie)\nJérusalem, lève les yeux,\nAlleluia, Alleluia !\nVoici la gloire de ton Dieu,\nAlleluia, Alleluia !"
+	},
+	{
+		"type": "verse",
+		"text": "(Épiphanie)\nPeuples de la terre, accourez vers l'Enfant.\nProche est son étoile ; adorez le Vivant !"
+	}
+	]
+},
+{
+	"id": "plus-haut-que-les-cieux",
+	"title": "Plus haut que les cieux",
+	"rating": "E11-50-1",
+	"newrating": "VP11-50-1",
+	"publisher": "Sodec",
+	"writer": "CFC (Sœur Marie-Pierre)",
+	"composer": "Audebert J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Plus haut que les cieux, la gloire éternelle !\nEt paix sur la terre\nAux pauvres de Dieu !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Un signe joyeux se lève aux ténèbres,\nVoici que la Vierge\nRépond à son Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Sous l'aube de feu, la source étincelle !\nMarie s'émerveille\nA l'heure de Dieu !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Il comble ses voeux, il tient sa promesse,\nQue tout lui advienne\nAu gré de son Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Cachée à ses yeux, la vive lumière\nAu coeur lui révèle\nL'alliance de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Le corps silencieux accueille le Verbe,\nEt toute la terre\nEnfante son Dieu."
+	}
+	]
+},
+{
+	"id": "lumiere-des-hommes",
+	"title": "Lumière des hommes",
+	"rating": "G128-2bis",
+	"newrating": "GX128-2bis",
+	"publisher": "Mame(Le Chalet)",
+	"writer": "Martin J.",
+	"composer": "Wackenheim M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Lumière des hommes !\nNous marchons vers toi.\nFils de Dieu !\nTu nous sauveras."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Ceux qui te cherchent, Seigneur,\nTu les conduis vers la lumière,\nToi, la route des égarés."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ceux qui te trouvent, Seigneur,\nTu leur promets vie éternelle,\nToi, la Pâque des baptisés."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Ceux qui te suivent, Seigneur,\nTu les nourris de ta parole,\nToi, le pain de tes invités."
+	}
+	]
+},
+{
+	"id": "louange-et-gloire-a-ton-nom",
+	"title": "Louange et gloire à ton nom",
+	"rating": "C250",
+	"newrating": "Y250",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Baranger E.",
+	"composer": "Baranger E.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Louange et gloire à ton Nom, Alléluia, alléluia !\nSeigneur, Dieu de l’univers, Alléluia, alléluia !"
+	},
+	{
+		"type": "chorus",
+		"text": "Gloire à Dieu, gloire à Dieu,\nAu plus haut des cieux ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Venez, chantons notre Dieu, Alléluia, alléluia !\nC’est lui notre Créateur, Alléluia, alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Pour nous, il fit des merveilles, Alléluia, alléluia !\nÉternel est son amour, Alléluia, alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Je veux chanter pour mon Dieu, Alléluia, alléluia !\nTous les jours de ma vie, Alléluia, alléluia !"
+	}
+	]
+},
+{
+	"id": "noel-rumeur-denfance",
+	"title": "Noël, rumeur d'enfance",
+	"rating": "F251-2SM",
+	"publisher": "Studio SM",
+	"writer": "Servel J.",
+	"composer": "Scouarnec M.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Noël, rumeur d'enfance au coeur de l'homme,\nSoleil d'amour sur les berceaux !\nNoël, rumeur d'enfance au coeur de Dieu,\nEveil de Dieu à Bethléem !"
+	},
+	{
+		"type": "chorus",
+		"text": "Noël, Noël ! Dieu est plus grand que notre coeur ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Noël, rumeur de joie sur les visages,\nJoie d'être ensemble à partager !\nNoël, rumeur de joie au coeur de Dieu,\nDieu se déclare à Bethléem !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Noël, rumeur d'espoir au coeur des pauvres,\nRêve secret des sans-abri !\nNoël, rumeur d'espoir au coeur de Dieu,\nDieu pauvre et nu à Bethléem !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Noël, rumeur de paix sur les frontières,\nTrêve à la haine et à la mort !\nNoël, rumeur de paix au coeur de Dieu,\nLarmes de Dieu à Bethléem !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Noël, rumeur d'attente au coeur du monde,\nClarté d'aurore à l'Orient !\nNoël, rumeur d'attente au coeur de Dieu,\nDieu prend la route à Bethléem !"
+	}
+	]
+},
+{
+	"id": "le-fils-de-dieu-le-roi-de-gloire",
+	"title": "Le Fils de Dieu, le Roi de gloire",
+	"rating": "F59",
+	"publisher": "Mame(Le Chalet)",
+	"writer": "Chrestien J.",
+	"composer": "Garin, Jef R.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Le Fils de Dieu, le Roi de gloire\nA voulu naître parmi nous ;\nIl est venu sur notre terre\nAu temps marqué par son amour."
+	},
+	{
+		"type": "chorus",
+		"text": "Dès aujourd’hui, ton Royaume est proche, viens parmi nous, Seigneur Jésus !\nou\nNous attendons votre Royaume ; daignez venir, Seigneur Jésus !\nNous attendons votre Royaume ; venez, Seigneur Jésus !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ceux qui marchaient dans les ténèbres\nOnt vu s’illuminer leur nuit\nEt sur les peuples dans l’angoisse\nUne lumière a resplendi."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Dans notre nuit surgit l’aurore\nDe sa justice et de sa paix :\nDieu nous envoie sa délivrance,\nIl ne nous quittera jamais."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Il a tracé pour nous la route,\nIl s’est chargé de nos douleurs ;\nEt nous marchons vers sa Promesse,\nLe front marqué de sa splendeur."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Quand paraîtra la Ville sainte,\nQuand s’ouvriront les Cieux nouveaux.\nNous gouterons sans fin la Vie\nDevant le trône de l’Agneau."
+	}
+	]
+},
+{
+	"id": "la-sagesse-a-dresse-une-table",
+	"title": "La sagesse a dressé une table",
+	"rating": "SYLF502",
+	"newrating": "D580",
+	"publisher": "Sylvanes",
+	"writer": "Bourgeois D., Revel J.-Ph.",
+	"composer": "Gouzes A.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "La sagesse a dressé une table,\nElle invite les hommes au festin.\nVenez au banquet du fils de l'homme,\nMangez et buvez la Pâque de Dieu."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Je bénirai le Seigneur en tout temps,\nSa louange est sans cesse à mes lèvres.\nEn Dieu mon âme trouve sa gloire,\nQue les pauvres m'entendent et soient en fête !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Proclamez avec moi que le Seigneur est grand,\nExaltons tous ensemble son nom !\nJ'ai cherché le Seigneur et il m'a répondu\nDe toutes mes terreurs il m'a délivré."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Tournez vous vers le Seigneur et vous serez illuminés\nVotre visage ne sera pas couvert de honte ;\nUn pauvre a crié, et Dieu a entendu,\nLe Seigneur l'a sauvé de toutes ses angoisses."
+	},
+	{
+		"type": "verse",
+		"text": "4 - L'ange du Seigneur a établi son camp,\nIl entoure et délivre ceux qui le craignent.\nGoûtez et voyez que le Seigneur est doux,\nBienheureux l'homme qui trouve en lui son abri !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Saints du Seigneur, adorez le Seigneur,\nCeux qui le craignent ne manquent de rien.\nLes riches s'appauvrissent et ils ont faim,\nMais ceux qui cherchent le Seigneur sont comblés de tout bien."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Venez, mes fils, écoutez moi\nJe vous enseignerai la crainte du Seigneur ;\nQuel est l'homme qui désire la vie\nQui aime les jours où il voit le bonheur ?"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Que ta langue se garde du mal\nEt tes lèvres du mensonge.\nEcarte-toi du mal et fais le bien,\nRecherche la paix et poursuis-la toujours."
+	},
+	{
+		"type": "verse",
+		"text": "8 - Le Seigneur tourne sa face contre ceux qui font le mal\nPour effacer de la terre leur souvenir\nMais ses yeux regardent ceux qui l'aiment\nIl tend l'oreille, vers ceux qui l'appellent."
+	},
+	{
+		"type": "verse",
+		"text": "9 - Ils ont crié, et le Seigneur a entendu,\nDe la détresse, il les a délivrés.\nIl est proche de ceux qui ont le coeur brisé\nIl vient sauver ceux dont la vie est déchirée."
+	},
+	{
+		"type": "verse",
+		"text": "10 - Tant de fois, le malheur a éprouvé le juste\nMais toujours, le Seigneur l'a délivré,\nIl veille sur lui, il garde tous ses os,\nPas un seul ne sera brisé."
+	},
+	{
+		"type": "verse",
+		"text": "11 - Le mal fera mourir le méchant,\nLui qui avait pris en haine le juste, il sera condamné.\nLe Seigneur rachète la vie de ses serviteurs,\nEn lui, ils ont cherché refuge, ils ne seront pas condamnés."
+	}
+	]
+},
+{
+	"id": "letoile-sest-levee-sur-un-enfant",
+	"title": "L'étoile s'est levée sur un enfant",
+	"rating": "F46-47",
+	"publisher": "Bayard-Liturgie",
+	"writer": "Bernard Cl.",
+	"composer": "Akepsimas J.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "L'étoile s'est levée sur un enfant,\nJésus paraît au coeur de notre monde.\nL'étoile nous conduit vers le Vivant ;\nQuittons nos peurs, allons à sa rencontre !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - L'épiphanie du Maître de la terre,\nQui peut la voir et la chanter ?\nTon jour, Seigneur, dissipe les ténèbres,\nNos yeux le guettent, il va monter."
+	},
+	{
+		"type": "verse",
+		"text": "2 - A tout chercheur tu montres une lumière,\nDans l'univers tu dis ton Nom ;\nUn nom de feu au coeur de la matière,\nTu es Seigneur de création !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Dans nos cités tu es toujours à l'oeuvre\nEt tu connais les plus petits.\nChacun de nous demande où tu demeures,\nTe verrons-nous malgré la nuit ?"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Que ta Parole éclaire notre route,\nElle a des mots brûlants de vie !\nA notre Eglise apporte un nouveau souffle,\nNous renaîtrons de ton Esprit."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Tu nous envoies porter ton Évangile,\nPlanter la paix, semer l'espoir.\nFais-nous, Seigneur, grandir en vrais disciples\nQui ont l'audace de leur foi."
+	}
+	]
+},
+{
+	"id": "lenfant-qui-vient-de-naitre",
+	"title": "L'enfant qui vient de naitre",
+	"rating": "F255",
+	"newrating": "EDIT843",
+	"publisher": "Fleurus",
+	"writer": "Duchesneau Cl.",
+	"composer": "Choral anglais traditionnel, Williams V.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - L'Enfant qui vient de naître cette nuit\nN'a rien apporté pour lui.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, puisqu'il est pauvre, allons lui demander\nce qu'il va quémander ?\nC'est de nos coeurs qu'il veut faire un trésor,\nSi nous partageons son sort."
+	},
+	{
+		"type": "verse",
+		"text": "2 - L'Enfant qui vient de naître cette nuit\nN'a rien apporté pour lui.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, puisqu'il est pauvre, allons lui demander\nce qu'il va quémander ?\nC'est de nos coeurs qu'il veut faire un trésor,\nSi nous partageons son sort."
+	},
+	{
+		"type": "verse",
+		"text": "3 - L'Enfant qui vient de naître cette nuit\nNous est arrivé sans bruit.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, vient-il en notre monde commencer,\nCe qui fut annoncé ?\nC'est par nos voix qu'il veut chanter l'amour,\nQue Dieu nous donne en ce jour."
+	},
+	{
+		"type": "verse",
+		"text": "4 - L'Enfant qui vient de naître cette nuit\nN'est pas accueilli chez lui.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, restons debout, veillons sans coup férir,\nQu'il n'aille pas périr ?\nLa mort le veut et tôt nous le prendra,\nC'est Dieu qui nous le rendra."
+	}
+	]
+},
+{
+	"id": "heureuse-es-tu-marie",
+	"title": "Heureuse es-tu Marie",
+	"rating": "V140",
+	"newrating": "VP140",
+	"publisher": "Fleurus",
+	"writer": "Daniel Hameline",
+	"composer": "Mélodie du XVIIè siècle",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Heureuse es-tu Marie de cet honneur,\nD’avoir été choisie pour rendre cœur\nAu genre humain qui veille au bruit des armes,\nQui paie au prix des larmes, ses bonheurs incertains."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Heureuse es-tu Marie pour cet enfant,\nQui puise dans ta vie son propre sang\nQuand sur la croix ce sang deviendra fleuve\nA cette source neuve, première tu boiras."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Demeure singulière où Dieu prend corps,\nJardin où sa lumière suspend la mort,\nDieu veille en toi le Fils de la promesse,\nSoleil pour nos détresses, mon frère entre tes bras."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Fontaine où nos visages se sont baignés,\nReconnaissant l’image jadis gravée,\nEn tout amour selon la ressemblance\nDu Fils que sa naissance fait nôtre pour toujours."
+	}
+	]
+},
+{
+	"id": "aujourdhui-dans-notre-monde",
+	"title": "Aujourd'hui dans notre monde",
+	"rating": "F47",
+	"newrating": "FP47",
+	"publisher": "Le Seuil",
+	"writer": "Rimaud D.",
+	"composer": "Jesu Redemptor",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Aujourd'hui, dans notre monde, le Verbe est né\nPour parler du Père aux hommes qu'il a tant aimés.\nEt le ciel nous apprend le grand mystère :\nGloire à Dieu et paix sur terre, Alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Aujourd'hui, dans nos ténèbres le Christ a lui\nPour ouvrir les yeux des hommes qui vont dans la nuit.\nL'univers est baigné de sa lumière :\nGloire à Dieu et paix sur terre, Alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Aujourd'hui, dans notre mort a paru la vie\nPour changer le coeur des hommes qui sont endurcis.\nEt l'amour est plus fort que nos misères :\nGloire à Dieu et paix sur terre, Alléluia !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Aujourd'hui, dans notre chair est entré Jésus\nPour unir en lui les hommes qui l'ont attendu.\nEt marie, à genoux, l'offre à son Père :\nGloire à Dieu et paix sur terre, Alléluia !"
+	}
+	]
+},
+{
+	"id": "le-verbe-sest-fait-chair",
+	"title": "Le Verbe s'est fait chair",
+	"rating": "D155",
+	"newrating": "F155",
+	"publisher": "Lethielleux (ddb)",
+	"writer": "Lecot J.-P.",
+	"composer": "Decha P.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Il est venu pour annoncer\nAux pauvres la Bonne Nouvelle\nEt pour guérir le cœur de ceux qui souffrent."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Il est venu pour amener\nA Dieu les pécheurs et les justes\nEt nous combler de joie par sa présence."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Il est venu pour enseigner\nAux hommes l´amour de leurs frères,\nPour apporter la paix dans notre monde."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Il est venu pour nous conduire\nAux sources d´une eau jaillissante,\nEt nous donner son corps en nourriture."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Il est venu pour apaiser\nLes âmes et donner l´espérance,\nPour nous remplir de force et de confiance."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Honneur et gloire à notre Père,\nAu Christ Rédempteur, notre frère,\nAu Saint-Esprit, qui règnent pour les siècles."
+	}
+	]
+},
+{
+	"id": "douce-nuit-sainte-nuit-",
+	"title": "Douce nuit, sainte nuit !",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Douce nuit, sainte nuit !\nDans les cieux, l'astre luit.\nLe mystère annoncé s'accomplit.\nCet enfant, sur la paille, endormi,\nC'est l'amour infini !\nC'est l'amour infini !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Saint enfant, doux Agneau !\nQu'il est grand ! Qu'il est beau !\nEntendez résonner les pipeaux,\nDes bergers conduisant leurs troupeaux,\nvers son humble berceau !\nVers son humble berceau !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - C'est vers nous qu'il accourt\nEn un don sans retour !\nDe ce monde ignorant de l'amour\nOù commence aujourd'hui son séjour,\nQu'il soit Roi pour toujours !\nQu'il soit Roi pour toujours !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Paix à tous ! Gloire au ciel !\nGloire au sein maternel,\nQui, pour nous en ce jour de Noël,\nEnfanta le Sauveur éternel,\nQu'attendait Israël !\nQu'attendait Israël !"
+	}
+	]
+},
+{
+	"id": "chantons-lenfant-qui-nous-est-ne",
+	"title": "Chantons l'enfant qui nous est né",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Chantons l'Enfant qui nous est né, Alleluia !\nLe Fils que Dieu nous a donné, Alleluia, Alleluia !"
+	},
+	{
+		"type": "chorus",
+		"text": "Chantons joyeux Noël\nAu Fils de Dieu venu du ciel,\nChantons alleluia !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Dans le plus pauvre des taudis, Alleluia !\nEst né le roi du Paradis, Alleluia, Alleluia !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Voici le Verbe en notre chair, Alleluia !\nPour assembler tout l'univers, Alleluia, Alleluia !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Jésus nous a rouvert les cieux, Alleluia !\nPar lui, nous sommes fils de Dieu, Alleluia, Alleluia !"
+	}
+	]
+},
+{
+	"id": "puissance-et-gloire-de-lesprit",
+	"title": "Puissance et gloire de l'Esprit",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Puissance et gloire de l’Esprit :\nHeureux les vrais martyrs !\nLa chair dont Dieu les a pétris\nEn Lui pourra surgir."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Pareil aux grains qui sont broyés\nPour être notre pain,\nLeur corps se joint au Corps brisé\nQui s’offre par nos mains."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Leur sang se mêle au Sang sauveur\nQui lave nos péchés.\nIls sont l’amour du même Coeur\nQui nous a tant aimés."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Heureux qui donne sans compter\nJusqu’à sa propre chair !\nIl trouve en Dieu sa liberté,\nVisage découvert."
+	},
+	{
+		"type": "verse",
+		"text": "5 - La chair est vaine sans l’Esprit\nEt cendre dans la mort.\nPar votre croix, Seigneur, survit\nLa gloire de nos corps."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Dans vos martyrs, c’est vous qu’on tue,\nMais vous qu’on glorifie ;\nCar votre Église en eux salue\nLa force de l’Esprit."
+	},
+	{
+		"type": "verse",
+		"text": "7 - Le grain survit dans la moisson,\nAu jour de votre Jour ;\nLa vie, la mort n’ont plus de nom\nAu règne de l’Amour."
+	}
+	]
+},
+{
+	"id": "exultez-de-joie-peuples-de-lunivers",
+	"title": "Exultez de joie, peuples de l'univers",
+	"rating": "F35-24",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Communauté de l'Emmanuel",
+	"composer": "Communauté de l'Emmanuel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Exultez de joie, peuples de l'univers\nJubilez, acclamez votre roi.\nExultez de joie, Dieu a pris notre chair,\nJubilez, chantez, alléluia."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Car un enfant nous est né,\nCar un fils nous a été donné,\nDieu éternel et prince de paix,\nMaintenant et à jamais."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Dieu nul ne l'a jamais vu,\nEn son fils il nous est apparu,\nIl nous a révélé sa bonté,\nPar Jésus le bien-aimé."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Pour nous, pour notre salut,\nPour sauver ce qui était perdu,\nPour qu'enfin la paix règne sur terre,\nLe Fils de Dieu s'est fait chair."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Quand les temps furent accomplis,\nDieu posa son regard sur Marie.\nSans cesser d'être le Tout-Puissant,\nIl se fit petit enfant."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Le même hier et demain,\nAujourd'hui il vit au coeur des siens.\nAnnonçons l'oeuvre de son amour :\n\"Dieu avec nous pour toujours !\""
+	}
+	]
+},
+{
+	"id": "peuple-fidele-adeste-fideles",
+	"title": "Peuple fidèle (Adeste fideles)",
+	"rating": "F5",
+	"composer": "Gelineau J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Peuple fidèle, le Seigneur t'appelle :\nC'est fête sur terre, le Christ est né.\nViens à la crèche voir le roi du monde."
+	},
+	{
+		"type": "chorus",
+		"text": "En lui viens reconnaître, (ter)\nTon Dieu, ton Sauveur."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Verbe, Lumière, et Splendeur du Père,\nIl naît d´une mère, petit enfant.\nDieu véritable, le Seigneur fait homme."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Peuple, acclame, avec tous les anges,\nLe Maître des hommes qui vient chez toi.\nDieu qui se donne à tous ceux qu'il aime !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Peuple fidèle, en ce jour de fête,\nProclame la gloire de ton Seigneur.\nDieu se fait homme pour montrer qu'il t´aime."
+	}
+	]
+},
+{
+	"id": "veilleurs-benissez-dieu",
+	"title": "Veilleurs, bénissez Dieu",
+	"rating": "P19-58",
+	"newrating": "X19-58",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Melois B.",
+	"composer": "Toschi N.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Veilleurs, bénissez Dieu dans la nuit, il nous donne sa paix\nVeilleurs, bénissez Dieu, élevez les mains, dans la nuit, bénissez sans fin."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Dans le silence,\nFaites monter en vos coeurs,\nLa joie, la louange."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Gardez vos lampes\nAllumées pour le retour de Dieu,\nNotre maître."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Dans la confiance,\nPrésentez au Seigneur votre encens,\nVos prières."
+	}
+	]
+},
+{
+	"id": "au-plus-haut-du-ciel",
+	"title": "Au plus haut du ciel",
+	"rating": "C221-1",
+	"newrating": "Y221-1",
+	"publisher": "Studio SM",
+	"writer": "Rimaud D.",
+	"composer": "Berthier J.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Au plus haut du ciel, la gloire de Dieu !\nSur toute la terre, aux hommes la paix ! (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Jusqu'aux cieux, ta splendeur est chantée\nPar la bouche des tout petits !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Qui donc est l'homme pour que tu penses à lui ?\nQui donc est l'homme pour que tu l'aimes ?"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Tu l'établis sur les oeuvres de tes mains\nEt tu as mis toute chose à ses pieds."
+	}
+	]
+},
+{
+	"id": "les-anges-dans-nos-campagnes",
+	"title": "Les anges dans nos campagnes",
+	"rating": "F9",
+	"composer": "Gevaert",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Les anges dans nos campagnes\nont entonné l'hymne des Cieux,\nEt l'écho de nos montagnes\nredit ce chant mélodieux."
+	},
+	{
+		"type": "chorus",
+		"text": "Gloria in excelsis Deo."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Il est né le Roi céleste,\nle seul Très Haut, le seul Seigneur.\nEn lui Dieu se manifeste,\net nous révèle un grand bonheur."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Il apporte à tout le monde\nla Paix, ce bien bien si précieux.\nQue sans tarder nos cœurs répondent\nen accueillant le don des cieux."
+	}
+	]
+},
+{
+	"id": "peuple-dans-la-nuit",
+	"title": "Peuple dans la nuit",
+	"rating": "F237",
+	"newrating": "EDIT10-77",
+	"publisher": "Studio SM",
+	"writer": "Tassin Cl.",
+	"composer": "Tassin Cl.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Peuple dans la nuit,\nRéveille-toi, voici l'aurore !\nPeuple dans la nuit,\nVoici le jour qui resplendit !\nVers les ombres de la mort,\nNous avons marché longtemps ;\nQui pourrait nous rendre encore\nLa lumière des vivants ?\nPeuple dans la nuit,\nRéveille-toi, voici l'aurore !\nPeuple dans la nuit,\nVoici le jour qui resplendit !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Dieu nous aime tant\nQu'il a donné son Fils unique ;\nDieu nous aime tant\nQu'il donne au monde son enfant.\nIl nous dit son dernier mot\nPour que vive l'univers ;\nPour nous rendre un coeur nouveau,\nSa parole se fait chair.\nDieu nous aime tant\nQu'il a donné son Fils unique ;\nDieu nous aime tant\nQu'il donne au monde son enfant."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Le Sauveur est né,\nTout homme en lui découvre un frère ;\nLe Sauveur est né,\nTout homme en lui se reconnaît.\nDieu que nul n'a jamais vu\nPrend visage en cette nuit.\nSon regard est apparu\nDans les yeux de Jésus Christ.\nLe Sauveur est né,\nTout homme en lui découvre un frère ;\nLe Sauveur est né,\nTout homme en lui se reconnaît."
+	}
+	]
+},
+{
+	"id": "il-est-venu-marcher-sur-nos-routes",
+	"title": "Il est venu marcher sur nos routes",
+	"rating": "F50-21-2",
+	"publisher": "Bayard-liturgie",
+	"writer": "Scouarnec M.",
+	"composer": "Wackenheim M.",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Jésus Christ s'est levé parmi nous,\nDieu a visité son peuple.\nJésus Christ s'est levé parmi nous,\nDieu a visité son peuple."
+	},
+	{
+		"type": "verse",
+		"text": "1 - Il est venu marcher sur nos routes,\nPartager notre vie, nos joies et nos peines.\nIl est venu sauver tous les hommes,\nNous apprendre à aimer et vaincre la haine."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Celui qui croit renaît à la vie\nEt découvre l'espoir en Dieu qui le sauve.\nCelui qui croit en Dieu notre Père\nRecevra par son Fils la vie éternelle."
+	},
+	{
+		"type": "verse",
+		"text": "3 - L'aveugle voit, le mort ressuscite,\nLe boiteux est guéri, et joie pour le pauvre.\nL'aveugle voit, le riche partage,\nL'affamé est nourri et Dieu nous pardonne."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Il nous envoie par toute la terre\nAnnoncer aux coeurs droits la Bonne Nouvelle.\nIl nous envoie porter la lumière\nEt répandre la joie parmi nos frères."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Il reviendra un jour dans la gloire\nPour nous prendre avec Lui, au ciel près du Père\nIl reviendra juger notre monde\nEt donner à nos corps la vie éternelle."
+	}
+	]
+},
+{
+	"id": "en-accueillant-lamour",
+	"title": "En accueillant l'amour",
+	"rating": "DLH126",
+	"newrating": "DP126",
+	"publisher": "Sodec",
+	"writer": "CFC",
+	"composer": "Esquivie P.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - En accueillant l'amour de Jésus Christ,\nNous avons tout reçu des mains du Père\nNous avons tout reçu des mains du Père\nEt nous aurons la joie de partager le pain\nAvec les pauvres de la terre\nEt nous aurons la joie de partager le pain."
+	},
+	{
+		"type": "verse",
+		"text": "2 - En célébrant la mort de Jésus Christ,\nNous avons tout remis aux mains du Père\nNous avons tout remis aux mains du Père\nIl nous envoie porter l'espoir du Jour qui vient\nParmi les pauvres de la terre\nIl nous envoie porter l'espoir du Jour qui vient."
+	},
+	{
+		"type": "verse",
+		"text": "3 - En devenant le corps de Jésus Christ,\nNous vivons tous en fils d'un même Père\nNous vivons tous en fils d'un même Père\nLes artisans de paix témoigneront de lui,\nAuprès des pauvres de la terre\nLes artisans de paix témoigneront de lui."
+	}
+	]
+},
+{
+	"id": "gaudete-christus-est-natus",
+	"title": "Gaudete Christus est natus",
+	"rating": "FX73-73",
+	"publisher": "A.C.N",
+	"writer": "Communauté du Chemin Neuf, Traditionnel",
+	"composer": "Communauté du Chemin Neuf, Traditionnel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gaudete ! Gaudete !\nChristus est natus\nex Maria virgine,\nGaudete !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Le temps de grâce est venu,\nGrande joie sur terre !\nQue les pauvres ont reconnu\nBrille sa lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Aujourd’hui s’ouvre le ciel\nGrande joie sur terre !\nEt le monde s’émerveille\nBrille sa lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - La nouvelle a retenti\nGrande joie sur terre !\nPour vous est né le messie\nBrille sa lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "4 - Bergers, venez adorer\nGrande joie sur terre !\nDe Marie le nouveau-né\nBrille sa lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "5 - Les mages ont vu l’enfant Roi\nGrande joie sur terre !\nL’étoile a guidé leurs pas\nBrille sa lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "6 - Ils apportent leurs présents\nGrande joie sur terre !\nPour honorer Dieu enfant\nBrille sa lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Nous qui l’avons contemplé\nGrande joie sur terre !\nNous serons ses messagers\nBrille sa lumière !"
+	},
+	{
+		"type": "verse",
+		"text": "8 - Chantons le d'un même cœur,\nGrande joie sur terre !\nNotre Roi, notre Sauveur\nBrille sa lumière !"
+	}
+	]
+},
+{
+	"id": "la-voici-la-nuit-de-dieu",
+	"title": "La voici, la nuit de Dieu",
+	"rating": "F256",
+	"publisher": "Fleurus",
+	"writer": "Duchesneau Cl.",
+	"composer": "Dauntlett H.-J.(19°s)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Toute nuit revit dans le silence\nLe secret qui fit le premier jour.\nCette nuit nous chante la naissance\nOù Dieu met au monde son amour."
+	},
+	{
+		"type": "chorus",
+		"text": "La voici, la nuit de Dieu,\nD'où le jour va naître comme un feu."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Toute nuit pressent que la lumière\nJaillira de l'aube qu'elle attend.\nCette nuit apprend que sa lumière\nDonnera le jour à tout vivant."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Toute nuit contient son poids d'angoisse\nQuand le noir nous couvre de son toit.\nCette nuit retient l'instant qui passe\nPour avoir le temps d'être à la joie."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Toute nuit apporte à nos misères\nLes bienfaits du calme reposant.\nCette nuit, tout nous vient d'une mère\nQui nous fait le don de son enfant."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Toute nuit accepte l'impuissance\nPour que l'or scintille à son levant.\nCette nuit, Dieu cache sa puissance\nAu trésor qu'il livre en cet enfant."
+	},
+	{
+		"type": "verse",
+		"text": "6 - Toute nuit sait bien qu'on chante et danse\nQuand s'en va la fête pour longtemps.\nCette nuit, la fête qui commence\nChantera jusqu'au-delà des temps."
+	}
+	]
+},
+{
+	"id": "voici-la-nuit",
+	"title": "Voici la nuit",
+	"rating": "P156-1",
+	"publisher": "Studio Sm",
+	"writer": "Rimaud D.",
+	"composer": "Akepsimas J.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Voici la nuit,\nL'immense nuit des origines,\nEt rien n'existe hormis l'Amour,\nHormis l'Amour qui se dessine :\nEn séparant le sable et l'eau,\nDieu préparait comme un berceau\nLa Terre où il viendrait au jour."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Voici la nuit,\nL'heureuse nuit de Palestine,\nEt rien n'existe hormis l'Enfant,\nHormis l'Enfant de vie divine :\nEn prenant chair de notre chair,\nDieu transformait tous nos déserts,\nEn Terre d'immortels printemps."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Voici la nuit,\nL'étrange nuit sur la colline,\nEt rien n'existe hormis le Corps,\nHormis le Corps criblé d'épines :\nEn devenant un crucifié,\nDieu fécondait comme un verger\nLa Terre où le plantait la mort."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Voici la nuit,\nLa sainte nuit qui s'illumine,\nEt rien n'existe hormis Jésus,\nHormis Jésus où tout culmine :\nEn s'arrachant à nos tombeaux,\nDieu conduisait au jour nouveau\nLa Terre où il était vaincu."
+	},
+	{
+		"type": "verse",
+		"text": "5 - Voici la nuit,\nLa longue nuit où l'on chemine,\nEt rien n'existe hormis ce lieu,\nHormis ce lieu d'espoirs en ruines :\nEn s'arrêtant dans nos maisons,\nDieu préparait comme un Buisson\nLa Terre où tomberait le Feu !"
+	}
+	]
+},
+{
 	"id": "preparez-le-chemin-du-seigneur",
 	"title": "Préparez le chemin du Seigneur",
 	"rating": "E13-95",
@@ -1230,31 +3376,43 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Il est né le divin enfant,\nJouez hautbois, résonnez musettes !\nIl est né le divin enfant,\nChantons tous son avènement !"
+		"text": "Il est né le divin enfant,\nJour de fête aujourd’hui sur terre\nIl est né le divin enfant,\nChantons tous son avènement !"
 	},
 	{
 		"type": "verse",
-		"text": "Depuis plus de quatre mille ans,\nNous le promettaient les prophètes\nDepuis plus de quatre mille ans,\nNous attendions cet heureux temps."
+		"text": "1 - Le Sauveur que le monde attend,\nPour tout homme est la vraie lumière\nLe Sauveur que le monde attend,\nEst clarté pour tous les vivants."
 	},
 	{
 		"type": "verse",
-		"text": "Ah ! Qu'il est beau, qu'il est charmant !\nAh ! que ses grâces sont parfaites !\nAh ! Qu'il est beau, qu'il est charmant !\nQu'il est doux ce divin enfant !"
+		"text": "2 - De la crèche au crucifiement,\nDieu nous livre un profond Mystère,\nDe la crèche au crucifiement,\nIl nous aime inlassablement."
 	},
 	{
 		"type": "verse",
-		"text": "Une étable est son logement\nUn peu de paille est sa couchette,\nUne étable est son logement\nPour un dieu quel abaissement !"
+		"text": "3 - Qu’Il revienne à la fin des temps\nNous conduire à la joie du Maître,\nQu’Il revienne à la fin des temps\nEt qu’Il règne éternellement !"
 	},
 	{
 		"type": "verse",
-		"text": "Partez, grands rois de l'Orient !\nVenez vous unir à nos fêtes\nPartez, grands rois de l'Orient !\nVenez adorer cet enfant !"
+		"text": "4 - Une étable est son logement\nUn peu de paille est sa couchette,\nUne étable est son logement\nPour un dieu quel abaissement !"
 	},
 	{
 		"type": "verse",
-		"text": "Il veut nos cœurs, il les attend :\nIl est là pour faire leur conquête\nIl veut nos cœurs, il les attend :\nDonnons-les lui donc promptement !"
+		"text": "5 - Depuis plus de quatre mille ans,\nNous le promettaient les prophètes\nDepuis plus de quatre mille ans,\nNous attendions cet heureux temps."
 	},
 	{
 		"type": "verse",
-		"text": "O Jésus ! O Roi tout-puissant\nTout petit enfant que vous êtes,\nO Jésus ! O Roi tout-puissant,\nRégnez sur nous entièrement !"
+		"text": "6 - Ah ! Qu'il est beau, qu'il est charmant !\nAh ! que ses grâces sont parfaites !\nAh ! Qu'il est beau, qu'il est charmant !\nQu'il est doux ce divin enfant !"
+	},
+	{
+		"type": "verse",
+		"text": "7 - Partez, grands rois de l'Orient !\nVenez vous unir à nos fêtes\nPartez, grands rois de l'Orient !\nVenez adorer cet enfant !"
+	},
+	{
+		"type": "verse",
+		"text": "8 - Il veut nos cœurs, il les attend :\nIl est là pour faire leur conquête\nIl veut nos cœurs, il les attend :\nDonnons-les lui donc promptement !"
+	},
+	{
+		"type": "verse",
+		"text": "9 - O Jésus ! O Roi tout-puissant\nTout petit enfant que vous êtes,\nO Jésus ! O Roi tout-puissant,\nRégnez sur nous entièrement !"
 	}
 	]
 },
@@ -1976,7 +4134,7 @@
 },
 {
 	"id": "o-seigneur-a-toi-la-gloire",
-	"title": "O Seigneur à Toi la gloire",
+	"title": "Ô Seigneur à Toi la gloire",
 	"rating": "Z503",
 	"newrating": "Z(AT)503",
 	"publisher": "Editions De L'Emmanuel",
@@ -1985,7 +4143,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "O Seigneur à Toi la gloire,\nLa louange pour les siècles,\nLa louange pour les siècles\nEternel est ton amour !"
+		"text": "Ô Seigneur à Toi la gloire,\nLa louange pour les siècles,\nLa louange pour les siècles\nEternel est ton amour !"
 	},
 	{
 		"type": "verse",
@@ -6844,6 +9002,70 @@
 		"type": "verse",
 		"text": "4 - Agneau glorieux,\nAgneau que nous avions transpercé,\nAgneau devenu notre Berger."
 	}
+	]
+},
+{
+	"id": "messe-6-venu-en-notre-chair-anamnese",
+	"title": "Venu en notre chair (Anamnèse)",
+	"rating": "C72",
+	"newrating": "EDIT14-44",
+	"publisher": "Studio Sm",
+	"writer": "Barrois J.-L.",
+	"composer": "Veysseyre H.",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Aujourd'hui nous célébrons Jésus-Christ\nVenu en notre chair."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen"
+	},
+	{
+		"type": "verse",
+		"text": "Mort sur le bois de la croix."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen"
+	},
+	{
+		"type": "verse",
+		"text": "Ressuscité d'entre les morts."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen"
+	},
+	{
+		"type": "verse",
+		"text": "Et nous l'annonçons, nous l'annonçons,\njusqu'à ce qu'il revienne."
+	},
+	{
+		"type": "chorus",
+		"text": "Amen"
+	}
+	]
+},
+{
+	"id": "messe-6-agneau-de-dieu-mozart",
+	"title": "Agneau de Dieu (Mozart)",
+	"rating": "AL145",
+	"writer": "AELF",
+	"composer": "W.A. Mozart",
+	"lyrics": [
+		{
+			"type": "verse",
+			"text": "Agneau de Dieu qui enlèves le péché du monde,\nprends pitié de nous, Seigneur,\nprends pitié de nous Seigneur."
+		},
+		{
+			"type": "verse",
+			"text": "Agneau de Dieu qui enlèves le péché du monde,\nprends pitié de nous, Seigneur,\nprends pitié de nous Seigneur."
+		},
+		{
+			"type": "verse",
+			"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne nous la paix, Seigneur,\ndonne nous la Paix Seigneur.\nDonne nous ; la paix."
+		}
 	]
 }
 ]
