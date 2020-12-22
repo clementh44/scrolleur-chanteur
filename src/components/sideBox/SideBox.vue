@@ -1,6 +1,6 @@
 <template>
 <div class="col-12 col-lg-6">
-    <div class="card mt-3 sticky-top vh-100">
+    <div class="card sticky-top vh-100">
         <h3 class="card-header d-flex justify-content-between">
             {{ header }} <a href="#" class="pull-right" @click="close"><font-awesome-icon :icon="'times'"></font-awesome-icon></a>
         </h3>

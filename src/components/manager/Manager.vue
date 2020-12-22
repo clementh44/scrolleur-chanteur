@@ -1,5 +1,25 @@
 <template>
 <div class="container-xl">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#">Scrolleur-chanteur</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li :class="['nav-item', viewOpened ? 'active' : '']">
+                    <a class="nav-link" href="#" @click=toggleView title="Ouvrir/fermer la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation</a>
+                </li>
+                <li :class="['nav-item', previewOpened ? 'active' : '']">
+                    <a class="nav-link" href="#" @click=togglePreview title="Ouvrir/fermer l'aperçu d'un élément"><font-awesome-icon :icon="'eye'"></font-awesome-icon> Aperçu</a>
+                </li>
+                <li :class="['nav-item', paramOpened ? 'active' : '']">
+                    <a class="nav-link" href="#" @click=toggleParam title="Ouvrir/fermer les paramètres"><font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Termes à accepter -->
     <template v-if="!secliAccepted">
         <div class="modal fade show" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="display: block;">
@@ -50,21 +70,12 @@
                 </button>
                 <p>Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet et de ne pas la fermer ou l'actualiser pour s'en servir.</p>
                 <hr>
-                <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Ouvrir/Fermer la fenêtre de présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyer sur F11 pour mettre en plein écran).</p>
+                <p>Ici, c'est la page de gestion de la projection. Cliquez sur <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation</em> pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyer sur F11 pour mettre en plein écran).</p>
                 <p>Pour afficher un chant, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
                 <p>La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far','square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).</p>
                 <p>Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.</p>
                 <p>Faire une demande d'ajout de chant via <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank">ce formulaire</a>. Sinon, utiliser le texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>)</p>
                 <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank">Soutenir le projet</a>.</p>
-            </div>
-
-            <!-- Menu -->
-            <div class="card my-3">
-                <div class="card-body">
-                    <p><button @click=toggleView class="btn btn-primary"><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Ouvrir/Fermer la fenêtre de présentation</button></p>
-                    <p><button @click=togglePreview class="btn btn-primary"><font-awesome-icon :icon="'eye'"></font-awesome-icon> Aperçu</button></p>
-                    <p class="mb-0"><button @click=toggleParam class="btn btn-primary"><font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres</button></p>
-                </div>
             </div>
 
             <!-- Playlist -->
@@ -88,7 +99,7 @@
                 </a>
                 <div id="collapse-repertory" class="card-body collapse show" aria-labelledby="repertory-header">
                     <div class="form-group">
-                        <label for="searchInput">Rechercher</label>
+                        <label for="searchInput">Rechercher parmis les {{ songs.length }} chants</label>
                         <div class="input-group">
                             <input @keyup.stop type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-debounce="searchSong" @click="$event.target.select()">
                             <div class="input-group-append">

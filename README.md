@@ -1,14 +1,56 @@
 # Scrolleur Chanteur - v4.0
+![GitHub last commit](https://img.shields.io/github/last-commit/clementh44/scrolleur-chanteur?label=Update&style=for-the-badge) ![](https://img.shields.io/badge/dynamic/json?color=success&label=Version&prefix=v&query=version&url=https://raw.githubusercontent.com/clementh44/scrolleur-chanteur/master/package.json&style=for-the-badge)
+
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
 ### Utiliser la dernière version : [https://chantons.netlify.app/](https://chantons.netlify.app/)
 
+[TOC]
+
+## Installation locale
+### Prérequis
+Installer git, nodeJS (inclus npm qui est un gestionnaire de paquets) et télécharger le projet dans le dossier courant
+
+**Linux**
+```
+sudo apt install git nodejs npm
+git clone https://github.com/clementh44/scrolleur-chanteur.git
+```
+
+**Mac**
+[Homebrew](https://brew.sh/index_fr) est pratique pour gérer les outils du terminal
+```
+brew installer git nodejs npm
+git clone https://github.com/clementh44/scrolleur-chanteur.git
+```
+
+**Windows**
+Télécharger et installer [Git ici](https://gitforwindows.org/) et [nodeJs ici](https://nodejs.org/en/download/)
+```
+git clone https://github.com/clementh44/scrolleur-chanteur.git
+```
+
+ ### Mettre à jour à jour le projet et lancer un serveur
+En se plaçant dans le dépôt local (dossier téléchargé localement) :
+
+```
+git pull
+npm install @vue/cli
+npm run serve
+```
+
+puis ouvrir un des liens proposés : http://localhost:8080 ou http://IPserveur:8080
+
+
+L’autre possibilité est de faire la commande `npm run build` (à la place de `npm run serve`) et de copier le contenu du dossier *dist* dans un serveur.
+
+
 ## Ancienne version
 La version 3 ne sera pas améliorée mais est téléchargeable **[> ici <](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
 Les chants ajoutés dans la version 4 ne seront peut-être pas dans cette version 3. Ouvrir Ajouter chant.html pour en ajouter manuellement.
 
-### Consignes pour un chant :
+### Consignes pour un chant
 - **Titre**
   - Majuscule au début
   - bien mettre les accents
@@ -510,4 +552,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   fix espace blanc quand pas de contenu au début d'un chant (ni titre ou infos)
   Amélioration générale de l'affichage du texte : Titre plus petit, infos Secli plus discrètes, espace entre les lignes plus petit
   Déplacement de la barre latérale
+```
+
+**22/12/2020 v4.5.0**
+```
+  Ajout des explications pour télécharger et installer la v4 localement
+  Passage des boutons dans un menu
+  Affichage du nombre de chants
 ```

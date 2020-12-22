@@ -85,21 +85,21 @@ export default {
                 if (array.length > 0) {
                     array.push(" | ")
                 }
-                array.push(" Paroles : " + this.element.writer)
+                array.push("Paroles : " + this.element.writer)
             }
 
             if ((!this.live || this.settings.song.showComposer) && this.element.composer) {
                 if (array.length > 0) {
                     array.push(" | ")
                 }
-                array.push(" Musique : " + this.element.composer)
+                array.push("Musique : " + this.element.composer)
             }
 
             if ((!this.live || this.settings.song.showPublisher) && this.element.publisher) {
                 if (array.length > 0) {
                     array.push(" | ")
                 }
-                array.push(" Éditeur : " + this.element.publisher)
+                array.push("Éditeur : " + this.element.publisher)
             }
             return array
         },
