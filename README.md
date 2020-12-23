@@ -6,9 +6,14 @@ Genre de logiciel gratuit de vidéo-projection des paroles de chants et même pl
 
 ### Utiliser la dernière version : [https://chantons.netlify.app/](https://chantons.netlify.app/)
 
-[TOC]
+- [Installation locale](#installationlocale)
+- [Changelog](#changelog)
+  - [Version 1.0](#-v10-)
+  - [Version 2.0](#-v20-)
+  - [Version 3.0](#-v30-)
+  - [Version 4.0](#-v40-)
 
-## Installation locale
+## Installation locale
 ### Prérequis
 Installer git, nodeJS (inclus npm qui est un gestionnaire de paquets) et télécharger le projet dans le dossier courant
 
@@ -19,6 +24,7 @@ git clone https://github.com/clementh44/scrolleur-chanteur.git
 ```
 
 **Mac**
+
 [Homebrew](https://brew.sh/index_fr) est pratique pour gérer les outils du terminal
 ```
 brew installer git nodejs npm
@@ -26,6 +32,7 @@ git clone https://github.com/clementh44/scrolleur-chanteur.git
 ```
 
 **Windows**
+
 Télécharger et installer [Git ici](https://gitforwindows.org/) et [nodeJs ici](https://nodejs.org/en/download/)
 ```
 git clone https://github.com/clementh44/scrolleur-chanteur.git
