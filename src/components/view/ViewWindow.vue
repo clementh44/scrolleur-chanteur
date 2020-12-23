@@ -8,7 +8,8 @@
             <div v-for="(lyrics, index) in element.lyrics"
             :key="index"
             :class="[lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}, update]"
-            :style="[lyrics.type == 'chorus' || lyrics.show ? '' : {opacity: settings.song.verseOpacity}, lyrics.sticky ? {background: settings.liveView.colors.background} : '']"
+            :style="[lyrics.type == 'chorus' || lyrics.show ? '' : {opacity: settings.song.verseOpacity},
+            lyrics.sticky ? live ? {background: settings.liveView.colors.background} : {background: '#FFFFFF'} : '']"
             @click="toggleLyrics(lyrics)">{{ lyrics.text }}</div>
         </div>
 
