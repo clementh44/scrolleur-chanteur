@@ -1,5 +1,5 @@
 <template>
-<div :class="['user-select-none', live ? settings.liveView.viewTheme : settings.liveView.defaulTheme]" :style="[ live ? {cursor: smallCursor} : '' ]">
+<div :class="['user-select-none']" :style="[live ? {cursor: smallCursor, background: settings.liveView.colors.background, color: settings.liveView.colors.text} : '']">
     <transition name="fade" :duration="duration">
         <div key="{{element.title}}" v-if="element.type == 'song'" :class="['song', live ? 'px-' + settings.liveView.padding : '']" :style="[ live ? {fontSize: settings.liveView.fontSize+'em'} : '' ]">
             <div class="title mb-1" v-show="!live || settings.song.showTitle">{{ element.title }}</div>
@@ -8,7 +8,7 @@
             <div v-for="(lyrics, index) in element.lyrics"
             :key="index"
             :class="[lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}, update]"
-            :style="[lyrics.type == 'chorus' || lyrics.show ? '' : {opacity: settings.song.verseOpacity}]"
+            :style="[lyrics.type == 'chorus' || lyrics.show ? '' : {opacity: settings.song.verseOpacity}, lyrics.sticky ? {background: settings.liveView.colors.background} : '']"
             @click="toggleLyrics(lyrics)">{{ lyrics.text }}</div>
         </div>
 
@@ -30,7 +30,7 @@
         </table>
     </transition>
 
-    <div class="empty"></div>
+    <div class="empty" :style="[live ? {background: settings.liveView.colors.empty} : '']"></div>
 </div>
 </template>
 

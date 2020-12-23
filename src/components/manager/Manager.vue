@@ -153,14 +153,31 @@ export default {
             search: "",
             paramOpened: false,
             settings: {
-                version: 20200928, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+                version: 20201222, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
                 liveView: {
-                    defaulTheme: 'custom-light',
-                    viewTheme: 'custom-light',
                     viewThemes: [
-                        {text: 'clair', value: 'custom-light'},
-                        {text: 'foncé', value: 'custom-dark'}
+                        {
+                            text: 'Noir sur blanc',
+                            value: {
+                                background: '#FFFFFF',
+                                text: '#000000',
+                                empty: '#FFFFFF'
+                            }
+                        },
+                        {
+                            text: 'Blanc sur noir',
+                            value: {
+                                background: '#000000',
+                                text: '#FFFFFF',
+                                empty: '#000000'
+                            }
+                        }
                     ],
+                    colors: {
+                        background: '#FFFFFF',
+                        text: '#000000',
+                        empty: '#FFFFFF'
+                    },
                     padding: 0,
                     fontSize: 1,
                     window: {

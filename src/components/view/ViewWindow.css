@@ -15,18 +15,6 @@
     opacity: 0
 }
 
-/* THEME */
-.custom-light,
-.custom-light .sticky {
-    background: #fff;
-    color: #000;
-}
-.custom-dark,
-.custom-dark .sticky {
-    background: #000;
-    color: #fff;
-}
-
 /* EMPTY */
 .empty {
     width: 100%;

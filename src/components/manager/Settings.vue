@@ -8,10 +8,6 @@
 
         <h5>Fenêtre de présentation</h5>
         <div class="form-group row">
-            <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
-            <div class="col-sm-10"><select v-model="settings.liveView.viewTheme" id="param-theme" class="form-control"><option v-for="(theme, index) in settings.liveView.viewThemes" :key="index" :value="theme.value">{{ theme.text }}</option></select></div>
-        </div>
-        <div class="form-group row">
             <label for="param-size" class="col-sm-2 col-form-label">Taille</label>
             <div class="input-group col-sm-10">
                 <input @keyup.stop type="number" id="param-width" v-model.number="settings.liveView.window.width" class="form-control">
@@ -19,6 +15,33 @@
                 <input @keyup.stop type="number" id="param-height" v-model.number="settings.liveView.window.height" class="form-control">
             </div>
             <small id="param-size-help" class="form-text text-muted col-12">Dimensions en pixel de la présentation (largeur x hauteur). Fermer/ouvrir la présentation pour appliquer</small>
+        </div>
+        <div class="form-group row">
+            <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
+            <div class="col-sm-10">
+                <select v-model="settings.liveView.colors" id="param-theme" class="form-control">
+                    <option v-for="(theme, index) in settings.liveView.viewThemes" :key="index" :value="{background: theme.value.background, text: theme.value.text, empty: theme.value.empty}">{{ theme.text }}</option>
+                </select>
+            </div>
+            <small id="param-theme-help" class="form-text text-muted col-12">Choisir un thème pédéfini ou personnaliser les couleurs ci-dessous.</small>
+        </div>
+        <div class="form-group row">
+            <label for="param-color-background" class="col-sm-2 col-form-label">Fond</label>
+            <div class="col-sm-3 d-flex">
+            <input type="color" class="form-control" id="param-color-background" v-model="settings.liveView.colors.background">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="param-color-text" class="col-sm-2 col-form-label">Texte</label>
+            <div class="col-sm-3 d-flex">
+            <input type="color" class="form-control" id="param-color-text" v-model="settings.liveView.colors.text">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="param-color-empty" class="col-sm-2 col-form-label">Vide</label>
+            <div class="col-sm-3 d-flex">
+            <input type="color" class="form-control" id="param-color-empty" v-model="settings.liveView.colors.empty">
+            </div>
         </div>
 
         <hr>

@@ -96,3 +96,16 @@ export default {
   }
 }
 </script>
+
+<style>
+  /* SCROLLBAR */
+  body::-webkit-scrollbar {
+      width: 3px;
+  }
+  body::-webkit-scrollbar-thumb {
+      background-color: rgb(100 100 100);
+  }
+  body::-webkit-scrollbar-track {
+      background-color: rgb(127 127 127 / 50%);
+  }
+</style>

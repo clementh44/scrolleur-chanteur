@@ -627,3 +627,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Vierge de lumière V223
   + Messe de Saint Paul
 ```
+
+**22/12/2020 v4.6.0**
+```
+  Personnalisation des couleurs de la présentation
+  Ascenseur de la présentation plus discret
+```
