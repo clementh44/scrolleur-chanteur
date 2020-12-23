@@ -446,10 +446,10 @@ corrections
 
 ### *** v4.0 ***
 Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netlify.app/)
-- > sans installation
-- > hors ligne
-- > sauvegarde des paramètres dans le navigateur
-- > facile d'utilisation
+- sans installation
+- hors ligne
+- sauvegarde des paramètres dans le navigateur
+- facile d'utilisation
 
 **16/09/2020 v4.0.1**
 ```
@@ -639,4 +639,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Personnalisation des couleurs de la présentation
   Ascenseur de la présentation plus discret
+```
+
+**23/12/2020 v4.6.1**
+```
+  + Gloire à Dieu pour le temps de Noël
 ```

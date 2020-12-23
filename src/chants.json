@@ -8290,8 +8290,8 @@
 	]
 },
 {
-	"id": "messe-5-sylvanes-sanctus-saint-le-seigneur",
-	"title": "(Messe Sylvanès) Sanctus",
+	"id": "messe-5-de-sylvanes-sanctus-saint-le-seigneur",
+	"title": "(Messe de Sylvanès) Sanctus",
 	"rating": "SYLE514",
 	"newrating": "AL615",
 	"publisher": "Sylvanes",
@@ -9066,6 +9066,33 @@
 			"type": "verse",
 			"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne nous la paix, Seigneur,\ndonne nous la Paix Seigneur.\nDonne nous ; la paix."
 		}
+	]
+},
+{
+	"id": "gloire-a-dieu-pour-le-temps-de-noel",
+	"title": "Gloire à Dieu pour le temps de Noël",
+	"composer": "Etienne et Pascal Daniel",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Noël ! Noël ! Noël ! Noël !\nGloire au Seigneur qui nous donne sa paix !"
+	},
+	{
+		"type": "verse",
+		"text": "1 - Nous te louons, nous te bénissons, nous t'adorons !\nNous te glorifions, nous te rendons grâce, pour ton immense gloire !"
+	},
+	{
+		"type": "verse",
+		"text": "2 - Seigneur Dieu, Roi du ciel, Dieu le Père tout puissant.\nSeigneur Dieu, Agneau de Dieu, le Fils du Père !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - Toi qui enlèves le péché du monde, prends pitié de nous.\nToi qui enlèves le péché du monde, reçois notre prière."
+	},
+	{
+		"type": "verse",
+		"text": "4 - Car toi seul es saint, toi seul est Seigneur, toi seul est le Très-Haut\nJésus Christ, avec le Saint-Esprit dans la gloire du Père !"
+	}
 	]
 }
 ]
