@@ -645,3 +645,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   + Gloire à Dieu pour le temps de Noël
 ```
+
+**30/12/2020 v4.7.0**
+```
+  aide dans le menu
+```

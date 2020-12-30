@@ -16,6 +16,9 @@
                 <li :class="['nav-item', paramOpened ? 'active' : '']">
                     <a class="nav-link" href="#" @click=toggleParam title="Ouvrir/fermer les paramètres"><font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres</a>
                 </li>
+                <li :class="['nav-item', settings.help ? 'active' : '']">
+                    <a class="nav-link" href="#" @click="settings.help = !settings.help" title="Ouvrir/fermer l'aide'"><font-awesome-icon :icon="'question-circle'"></font-awesome-icon> Aide</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -134,10 +137,10 @@ import Settings from './Settings'
 import ElementActions from './ElementActions'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquare } from '@fortawesome/free-regular-svg-icons'
-import { faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faGoogle)
+library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle, faGoogle)
 
 export default {
     name: 'Manager',
