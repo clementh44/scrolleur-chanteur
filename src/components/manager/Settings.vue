@@ -49,7 +49,7 @@
         </div>
         <div class="form-group row">
             <label for="param-font-size" class="col-sm-2 col-form-label">Taille</label>
-            <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="settings.liveView.fontSize" id="param-font-size" class="form-control-range" min="0.5" max="4" step="0.1"></div>
+            <div class="col-sm-10 d-flex"><input aria-describedby="param-font-size-help" type="range" v-model="settings.liveView.fontSize" id="param-font-size" class="form-control-range" min="0.2" max="8" step="0.2"></div>
             <small id="param-font-size-help" class="form-text text-muted col-12">Taille de la police d'écriture multipliée par {{ settings.liveView.fontSize }}</small>
         </div>
 
