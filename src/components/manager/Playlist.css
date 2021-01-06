@@ -1,67 +1,70 @@
 .handle {
-    cursor: move;
+  cursor: move;
 }
 
 /* transition pour l'affichage de l'édition d'un élément */
-.edition-enter-active, .edition-leave-active {
-    transition: opacity .2s ease-out, max-height .2s ease-out;
+.edition-enter-active,
+.edition-leave-active {
+  transition: opacity 0.2s ease-out, max-height 0.2s ease-out;
 }
-.edition-enter, .edition-leave-to {
-    opacity: 0%;
-    max-height: 0px;
+.edition-enter,
+.edition-leave-to {
+  opacity: 0%;
+  max-height: 0px;
 }
-.edition-enter-to, .edition-leave {
-    opacity: 100%;
-    max-height: 500px;
+.edition-enter-to,
+.edition-leave {
+  opacity: 100%;
+  max-height: 500px;
 }
 
 /* animation pour l'élément courant */
 .current-element-icon {
-    background: rgba(255, 82, 82, 1);
-    border-radius: 50%;
-    margin: 9px 9px 9px 0;
-    height: 13px;
-    width: 13px;
-    min-width: 13px;
-    position: relative;
+  background: rgba(255, 82, 82, 1);
+  border-radius: 50%;
+  margin: 9px 9px 9px 0;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  position: relative;
 }
 .current-element-icon:before {
-    content: "";
-    background: rgba(255, 82, 82, 1);
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
+  content: "";
+  background: rgba(255, 82, 82, 1);
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
 
-    transform: scale(1);
-    opacity: 1;
-    animation: pulse 2s infinite;
+  transform: scale(1);
+  opacity: 1;
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-        opacity: 1
-    }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
 
-    99% {
-        transform: scale(2);
-        opacity: 0;
-    }
-    
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
+  99% {
+    transform: scale(2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
 
 /* bloc d'actions sur les parties d'un chant */
 .lyrics-part-block {
-    width: 100%;
-    max-width: 300px;
+  width: 100%;
+  max-width: 300px;
 }
 .no-focus.btn-light:focus {
-    background-color: var(--light);
+  background-color: var(--light);
 }

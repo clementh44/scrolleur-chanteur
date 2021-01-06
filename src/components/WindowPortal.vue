@@ -6,47 +6,47 @@
 
 <script>
 function copyStyles(sourceDoc, targetDoc) {
-  Array.from(sourceDoc.styleSheets).forEach(styleSheet => {
+  Array.from(sourceDoc.styleSheets).forEach((styleSheet) => {
     if (styleSheet.cssRules) {
       // for <style> elements
-      const newStyleEl = sourceDoc.createElement("style");
+      const newStyleEl = sourceDoc.createElement("style")
 
-      Array.from(styleSheet.cssRules).forEach(cssRule => {
+      Array.from(styleSheet.cssRules).forEach((cssRule) => {
         // write the text of each rule into the body of the style element
-        newStyleEl.appendChild(sourceDoc.createTextNode(cssRule.cssText));
-      });
+        newStyleEl.appendChild(sourceDoc.createTextNode(cssRule.cssText))
+      })
 
-      targetDoc.head.appendChild(newStyleEl);
+      targetDoc.head.appendChild(newStyleEl)
     } else if (styleSheet.href) {
       // for <link> elements loading CSS from a URL
-      const newLinkEl = sourceDoc.createElement("link");
+      const newLinkEl = sourceDoc.createElement("link")
 
-      newLinkEl.rel = "stylesheet";
-      newLinkEl.href = styleSheet.href;
-      targetDoc.head.appendChild(newLinkEl);
+      newLinkEl.rel = "stylesheet"
+      newLinkEl.href = styleSheet.href
+      targetDoc.head.appendChild(newLinkEl)
     }
-  });
+  })
 }
 
 export default {
-  name: 'window-portal',
+  name: "window-portal",
   model: {
-    prop: 'open',
-    event: 'close'
+    prop: "open",
+    event: "close",
   },
   props: {
     open: {
       type: Boolean,
-      default: false
+      default: false,
     },
     width: {
       type: Number,
-      default: 600
+      default: 600,
     },
     height: {
       type: Number,
-      default: 400
-    }
+      default: 400,
+    },
   },
   data() {
     return {
@@ -55,42 +55,48 @@ export default {
   },
   watch: {
     open(newOpen) {
-      if(newOpen) {
-        this.openPortal();
+      if (newOpen) {
+        this.openPortal()
       } else {
-        this.closePortal();
+        this.closePortal()
       }
-    }
+    },
   },
   methods: {
     openPortal() {
-      this.windowRef = window.open("", "scrolleur-chanteur-live", "width=" + this.width + ",height=" + this.height + ",left=200,top=200");
-      this.windowRef.document.body.innerHTML = "";
-      this.windowRef.document.body.appendChild(this.$el);
-      copyStyles(window.document, this.windowRef.document);
-      this.windowRef.addEventListener('beforeunload', this.closePortal);
-      this.windowRef.addEventListener('keydown', (event) => this.$emit('shortcuts', event))
+      this.windowRef = window.open(
+        "",
+        "scrolleur-chanteur-live",
+        "width=" + this.width + ",height=" + this.height + ",left=200,top=200"
+      )
+      this.windowRef.document.body.innerHTML = ""
+      this.windowRef.document.body.appendChild(this.$el)
+      copyStyles(window.document, this.windowRef.document)
+      this.windowRef.addEventListener("beforeunload", this.closePortal)
+      this.windowRef.addEventListener("keydown", (event) =>
+        this.$emit("shortcuts", event)
+      )
       let thinking = false
-      this.windowRef.addEventListener('scroll', () => {
+      this.windowRef.addEventListener("scroll", () => {
         if (!thinking) {
           thinking = true
           setTimeout(() => {
-            this.$emit('custom-scroll', this.windowRef)
+            this.$emit("custom-scroll", this.windowRef)
             thinking = false
           }, 200)
         }
       })
     },
     closePortal() {
-      if(this.windowRef) {
-        this.windowRef.close();
-        this.windowRef = null;
-        this.$emit('close');
+      if (this.windowRef) {
+        this.windowRef.close()
+        this.windowRef = null
+        this.$emit("close")
       }
     },
     scrollTop: function() {
-      if(this.windowRef) {
-        this.windowRef.scrollTo(0,0);
+      if (this.windowRef) {
+        this.windowRef.scrollTo(0, 0)
       }
     },
     scroll(top, left, smooth) {
@@ -98,33 +104,33 @@ export default {
         this.windowRef.scrollBy({
           top: top,
           left: left,
-          behavior: smooth ? "smooth": "auto"
+          behavior: smooth ? "smooth" : "auto",
         })
       }
-    }
+    },
   },
   mounted() {
-    if(this.open) {
-      this.openPortal();
+    if (this.open) {
+      this.openPortal()
     }
   },
   beforeDestroy() {
     if (this.windowRef) {
-      this.closePortal();
+      this.closePortal()
     }
-  }
+  },
 }
 </script>
 
 <style>
-  /* SCROLLBAR */
-  body::-webkit-scrollbar {
-      width: 3px;
-  }
-  body::-webkit-scrollbar-thumb {
-      background-color: rgb(100 100 100);
-  }
-  body::-webkit-scrollbar-track {
-      background-color: rgb(127 127 127 / 50%);
-  }
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+  width: 3px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(100 100 100);
+}
+body::-webkit-scrollbar-track {
+  background-color: rgb(127 127 127 / 50%);
+}
 </style>
