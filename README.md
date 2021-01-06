@@ -665,4 +665,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     afficher/cacher un couplet ou traduction,
     attacher/détacher un refrain,
     contrôle via raccourcis clavier personnalisable
+
+  Corrections chants :
+    coeur en cœur
+    ’ en '
+    Agnus Soleil des nations
+    Esprit de sainteté
+    Autres s'il y a que des chorus (problème de défilement)
+
+  + Écoute, ton Dieu t'appelle (300ème chant !)
+  + Allez dire à tous les hommes
 ```

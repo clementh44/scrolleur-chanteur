@@ -1,147 +1,55 @@
 [
 {
-	"id": "messe-7-saint-paul-agnus",
-	"title": "(Messe de Saint Paul) Agnus",
-	"rating": "IEV14-29-07",
-	"newrating": "AL68-20",
-	"publisher": "Editions de l'Emmanuel",
-	"writer": "Liturgie Romaine",
-	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"id": "allez-dire-a-tous-les-hommes",
+	"title": "Allez dire à tous les hommes",
+	"rating": "U132-1",
+	"newrating": "T132-1",
+	"publisher": "Studio SM",
+	"writer": "AELF, Rimaud D.",
+	"composer": "Berthier J.",
 	"lyrics": [
 	{
-		"type": "verse",
-		"text": "Agnus Dei, qui tollis peccata mundi,\nMiserere nobis, miserere nobis. (bis)"
+		"type": "chorus",
+		"text": "Allez dire à tous les hommes :\nLe Royaume est parmi vous,\nAlléluia, Alléluia !\nLe Royaume est parmi vous."
 	},
 	{
 		"type": "verse",
-		"text": "Agnus Dei, qui tollis peccata mundi,\nMiserere nobis, miserere nobis. (bis)"
+		"text": "1 - Chantez au Seigneur un chant nouveau,\nChantez au Seigneur, terre entière !\nChantez au Seigneur et bénissez son nom !\nDe jour en jour proclamez son salut,\nRacontez à tous les peuples sa gloire,\nA toutes les nations, ses merveilles !"
 	},
 	{
 		"type": "verse",
-		"text": "Agnus Dei, qui tollis peccata mundi,\nDona nobis pacem, dona nobis pacem. (bis)"
+		"text": "2 - Rendez au Seigneur, familles des peuples,\nRendez au Seigneur la gloire et la puissance,\nRendez au Seigneur la gloire de son nom.\nAllez dire aux nations : \"Le Seigneur est Roi !\"\nIl gouverne les peuples avec droiture.\nJoie au ciel ! Exulte la terre !"
+	},
+	{
+		"type": "verse",
+		"text": "3 - La campagne tout entière est en fête.\nLes arbres des forêts dansent de joie\nDevant la face du Seigneur car il vient,\nCar il vient pour juger la terre.\nIl jugera le monde avec justice,\nSelon sa vérité, tous les peuples."
 	}
 	]
 },
 {
-	"id": "messe-6-saint-paul-anamnese",
-	"title": "(Messe de Saint Paul) Anamnèse",
-	"rating": "IEV14-29-04",
-	"newrating": "AL68-20",
-	"publisher": "Editions de l'Emmanuel",
-	"writer": "Liturgie Romaine",
-	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"id": "ecoute-ton-dieu-tappelle",
+	"title": "Écoute, ton Dieu t'appelle",
+	"composer": "Frère Jean-Baptiste du Jonchay",
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Gloire à Toi qui étais mort !\nGloire à Toi qui es vivant !\nNotre Sauveur et notre Dieu,\nViens, Seigneur Jésus!"
-	}
-	]
-},
-{
-	"id": "messe-5-saint-paul-sanctus",
-	"title": "(Messe de Saint Paul) Sanctus",
-	"rating": "IEV14-29-03",
-	"newrating": "AL68-20",
-	"publisher": "Editions de l'Emmanuel",
-	"writer": "Liturgie Romaine",
-	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Sanctus, Sanctus, Sanctus, Dominus ! Dominus Deus Sabaoth (bis)"
+		"text": "Écoute, ton Dieu t'appelle : « viens, suis-moi » !\nLève-toi et ne crains pas de marcher avec Lui :\nIl est ton chemin de Vie, la route de ta joie ! (bis)"
 	},
 	{
 		"type": "verse",
-		"text": "Pleni sunt caeli et terra gloria tua"
-	},
-	{
-		"type": "chorus",
-		"text": "Hosanna in excelsis (bis)"
+		"text": "1 - Accueille le Christ, Il est ton sauveur,\nLa vie que le Père donne en abondance,\nLui la vraie lumière, la vérité qui rend libre : Sa parole vient réveiller ton cœur."
 	},
 	{
 		"type": "verse",
-		"text": "Bénédictus qui venit in nomine Domini"
-	},
-	{
-		"type": "chorus",
-		"text": "Hosanna in excelsis (bis)"
-	}
-	]
-},
-{
-	"id": "messe-3-saint-paul-alleluia",
-	"title": "(Messe de Saint Paul) Alleluia",
-	"rating": "IEV14-29-02",
-	"newrating": "AL68-20",
-	"publisher": "Editions de l'Emmanuel",
-	"writer": "Liturgie Romaine",
-	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Alléluia, Alléluia! Alléluia, Alléluia !\nFin : Alléluia, Alléluia! Louange à toi, Seigneur Jésus !"
-	}
-	]
-},
-{
-	"id": "messe-2-saint-paul-gloria",
-	"title": "(Messe de Saint Paul) Gloria",
-	"rating": "IEV14-29-08",
-	"newrating": "AL68-20",
-	"publisher": "Editions de l'Emmanuel",
-	"writer": "Liturgie Romaine",
-	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe), André Fleury",
-	"lyrics": [
-	{
-		"type": "chorus",
-		"text": "Gloria in excelsis Deo, Gloria Deo Domino (bis)"
+		"text": "2 - Quitte le cortège de l'indifférence,\nLaisse les sentiers de ton désespoir,\nDétourne les yeux des mirages qui séduisent; Tu as soif d'un amour vrai et pur."
 	},
 	{
 		"type": "verse",
-		"text": "Gloire à Dieu au plus haut des cieux\nEt paix sur la terre aux hommes qu’il aime.\nNous te louons, nous te bénissons, nous t’adorons,\nNous te glorifions, nous te rendons grâce,  Pour ton immense gloire,\nSeigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
+		"text": "3 - Cherche son visage, écoute sa voix !\nDans l'humble prière découvre sa joie,\nCherche sa présence au milieu de l'église ! De lui seul jaillit la plénitude."
 	},
 	{
 		"type": "verse",
-		"text": "Seigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;\nToi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
-	},
-	{
-		"type": "verse",
-		"text": "Car toi seul es saint, toi seul es Seigneur, Toi seul es le Très-Haut :\nJésus Christ, Avec le Saint-Esprit Dans la gloire de Dieu le Père. Amen."
-	}
-	]
-},
-{
-	"id": "messe-1-saint-paul-kyrie",
-	"title": "(Messe de Saint Paul) Kyrie",
-	"rating": "IEV14-29-01",
-	"newrating": "AL68-20",
-	"publisher": "Editions de l'Emmanuel",
-	"writer": "Liturgie Romaine",
-	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
-	"lyrics": [
-	{
-		"type": "verse",
-		"text": "1 - Seigneur Jésus envoyé par le Père\npour guérir et sauver les hommes,\nprends pitié de nous."
-	},
-	{
-		"type": "chorus",
-		"text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
-	},
-	{
-		"type": "verse",
-		"text": "2 - Ô Christ venu dans le monde\nappeler tous les pêcheurs,\nprends pitié de nous."
-	},
-	{
-		"type": "chorus",
-		"text": "Christe eleison, Christe eleison, Christe eleison."
-	},
-	{
-		"type": "verse",
-		"text": "3 - Seigneur Jésus élevé dans la gloire du Père\noù tu intercèdes pour nous,\nprends pitié de nous."
-	},
-	{
-		"type": "chorus",
-		"text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
+		"text": "4 - En toutes les œuvres d'amour et de vie\nPorte témoignage au feu de l'Esprit,\nProclame à tes frères l'évangile de la paix! Ne crains pas il fait route avec toi."
 	}
 	]
 },
@@ -175,7 +83,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - Vierge de lumière, change nos coeurs de pierre,\nMère de la grâce, force et refuge des pêcheurs !"
+		"text": "5 - Vierge de lumière, change nos cœurs de pierre,\nMère de la grâce, force et refuge des pêcheurs !"
 	},
 	{
 		"type": "verse",
@@ -231,7 +139,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Quand nous sommes dans l’épreuve,\nViens nous visiter.\nDe tous les dangers du monde,\nViens nous délivrer.\nMarie, mère de Sauveur, prends-nous en pitié."
+		"text": "2 - Quand nous sommes dans l'épreuve,\nViens nous visiter.\nDe tous les dangers du monde,\nViens nous délivrer.\nMarie, mère de Sauveur, prends-nous en pitié."
 	},
 	{
 		"type": "verse",
@@ -258,7 +166,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Comme une fleur épanouie\nTon coeur s'ouvre à la confiance\nComme une rosée d'après la nuit\nTon matin chante l'Espérance."
+		"text": "2 - Comme une fleur épanouie\nTon cœur s'ouvre à la confiance\nComme une rosée d'après la nuit\nTon matin chante l'Espérance."
 	},
 	{
 		"type": "verse",
@@ -280,31 +188,31 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Nous te saluons, pleine de grâce !\nSur toi s’est levée la gloire du Très-Haut,\nLes cieux répandent leur rosée,\nIntercède pour nous, Étoile du Matin !"
+		"text": "1 - Nous te saluons, pleine de grâce !\nSur toi s'est levée la gloire du Très-Haut,\nLes cieux répandent leur rosée,\nIntercède pour nous, Étoile du Matin !"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Nous te saluons, Arche d’Alliance !\nTon sein a porté le fils de Dieu fait chair,\nL’Emmanuel habite en toi,\nIntercède pour nous, Cité sainte de Dieu !"
+		"text": "2 - Nous te saluons, Arche d'Alliance !\nTon sein a porté le fils de Dieu fait chair,\nL'Emmanuel habite en toi,\nIntercède pour nous, Cité sainte de Dieu !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Nous te saluons, ô Notre Dame !\nTu as enfanté le Roi de l’univers\nEn toi resplendit le Salut,\nIntercède pour nous, Épouse bien-aimée !"
+		"text": "3 - Nous te saluons, ô Notre Dame !\nTu as enfanté le Roi de l'univers\nEn toi resplendit le Salut,\nIntercède pour nous, Épouse bien-aimée !"
 	},
 	{
 		"type": "verse",
-		"text": "4 - Nous te saluons, Vierge très pure !\nTu donnes la vie au Dieu qui t’a créée,\nTu es le Paradis nouveau,\nIntercède pour nous, ô Mère immaculée !"
+		"text": "4 - Nous te saluons, Vierge très pure !\nTu donnes la vie au Dieu qui t'a créée,\nTu es le Paradis nouveau,\nIntercède pour nous, ô Mère immaculée !"
 	},
 	{
 		"type": "verse",
-		"text": "5 - Nous te saluons, Ève nouvelle !\nDieu restaure en toi toute l’humanité,\nTu as accueilli le Sauveur,\nIntercède pour nous, Refuge des pécheurs !"
+		"text": "5 - Nous te saluons, Ève nouvelle !\nDieu restaure en toi toute l'humanité,\nTu as accueilli le Sauveur,\nIntercède pour nous, Refuge des pécheurs !"
 	},
 	{
 		"type": "verse",
-		"text": "6 - Nous te saluons, Humble Servante !\nEt nous magnifions avec toi le Seigneur,\nTu vis à l’ombre de l’Esprit,\nIntercède pour nous, Marie, Vierge bénie !"
+		"text": "6 - Nous te saluons, Humble Servante !\nEt nous magnifions avec toi le Seigneur,\nTu vis à l'ombre de l'Esprit,\nIntercède pour nous, Marie, Vierge bénie !"
 	},
 	{
 		"type": "verse",
-		"text": "7 - Nous te saluons, Reine des anges !\nLe Fils Bien-Aimé t’a prise en sa clarté,\nAuprès du Roi, tu es montée,\nIntercède pour nous, Reine de tous les saints !"
+		"text": "7 - Nous te saluons, Reine des anges !\nLe Fils Bien-Aimé t'a prise en sa clarté,\nAuprès du Roi, tu es montée,\nIntercède pour nous, Reine de tous les saints !"
 	}
 	]
 },
@@ -352,7 +260,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "(Stance)\nPour avancer ensemble sur un même chemin,\nPour bâtir avec Dieu un monde plus humain,\nAbreuvons-nous aux mêmes sources\nEt partageons le même pain,\nOuvrons nos coeurs au même souffle,\nAccueillons le Royaume qui vient."
+		"text": "(Stance)\nPour avancer ensemble sur un même chemin,\nPour bâtir avec Dieu un monde plus humain,\nAbreuvons-nous aux mêmes sources\nEt partageons le même pain,\nOuvrons nos cœurs au même souffle,\nAccueillons le Royaume qui vient."
 	},
 	{
 		"type": "chorus",
@@ -380,7 +288,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "6 - Heureux qui cherche Dieu de tout son coeur.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu tourner l'homme vers Dieu.\nExultons de joie : il est au milieu de nous !"
+		"text": "6 - Heureux qui cherche Dieu de tout son cœur.\nExultons de joie : le Règne de Dieu est proche.\nLe Christ est venu tourner l'homme vers Dieu.\nExultons de joie : il est au milieu de nous !"
 	},
 	{
 		"type": "verse",
@@ -439,7 +347,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "9 - Aimer le Père tels que nous sommes\nChoisir sans attendre demain\nEt croire en l'Amour qui appelle\nDieu nous envoie au coeur du monde."
+		"text": "9 - Aimer le Père tels que nous sommes\nChoisir sans attendre demain\nEt croire en l'Amour qui appelle\nDieu nous envoie au cœur du monde."
 	}
 	]
 },
@@ -516,7 +424,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "7 - C'est maintenant le temps de Dieu : il faut nous préparer.\nC'est maintenant le temps de Dieu : il faut changer nos coeurs."
+		"text": "7 - C'est maintenant le temps de Dieu : il faut nous préparer.\nC'est maintenant le temps de Dieu : il faut changer nos cœurs."
 	},
 	{
 		"type": "verse",
@@ -628,7 +536,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Seigneur, que ta Parole nous garde dans l’amour ! (bis)\nQui frappe ou qui peine son frère te blesse en lui toujours\nSeigneur, que ta Parole nous garde dans l’amour !"
+		"text": "3 - Seigneur, que ta Parole nous garde dans l'amour ! (bis)\nQui frappe ou qui peine son frère te blesse en lui toujours\nSeigneur, que ta Parole nous garde dans l'amour !"
 	},
 	{
 		"type": "verse",
@@ -647,11 +555,11 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Nous te rendons grâce\nPour tant de tendresse,\nTu donnes l’eau vive\nPar ton cœur transpercé,\nNous te bénissons\nPour tant de merveilles,\nTu donnes la vie, tu donnes l’Esprit."
+		"text": "Nous te rendons grâce\nPour tant de tendresse,\nTu donnes l'eau vive\nPar ton cœur transpercé,\nNous te bénissons\nPour tant de merveilles,\nTu donnes la vie, tu donnes l'Esprit."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Dieu, c’est toi mon Dieu, c’est toi que je cherche,\nToute ma chair après toi languit.\nJe veux ton amour pour guider ma vie,\nMon âme a soif, a soif de toi."
+		"text": "1 - Dieu, c'est toi mon Dieu, c'est toi que je cherche,\nToute ma chair après toi languit.\nJe veux ton amour pour guider ma vie,\nMon âme a soif, a soif de toi."
 	},
 	{
 		"type": "verse",
@@ -659,7 +567,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Quand je songe à toi, quand j’espère en toi,\nQuand je t’appelle toujours tu réponds.\nAlors je jubile, en paix sous tes ailes,\nMon âme a soif, a soif de toi."
+		"text": "3 - Quand je songe à toi, quand j'espère en toi,\nQuand je t'appelle toujours tu réponds.\nAlors je jubile, en paix sous tes ailes,\nMon âme a soif, a soif de toi."
 	},
 	{
 		"type": "verse",
@@ -720,11 +628,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Il s’est rappelé sa Promesse,\nIl a montré sa tendresse\nEnvers les enfants de son peuple !"
+		"text": "3 - Il s'est rappelé sa Promesse,\nIl a montré sa tendresse\nEnvers les enfants de son peuple !"
 	},
 	{
 		"type": "verse",
-		"text": "4 - Que toute la terre l’acclame !\nQu’elle proclame sa Gloire !\nQue tout l’univers soit en fête !"
+		"text": "4 - Que toute la terre l'acclame !\nQu'elle proclame sa Gloire !\nQue tout l'univers soit en fête !"
 	}
 	]
 },
@@ -739,11 +647,11 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Bénis le Seigneur, ô mon âme,\nDu fond de mon être, son Saint Nom.\nBénis le Seigneur, ô mon âme,\nEt n’oublie aucun de ses bienfaits."
+		"text": "Bénis le Seigneur, ô mon âme,\nDu fond de mon être, son Saint Nom.\nBénis le Seigneur, ô mon âme,\nEt n'oublie aucun de ses bienfaits."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Le Seigneur est tendresse et pitié,\nLent à la colère et plein d’amour,\nSa justice demeure à jamais.\nBénis le Seigneur, ô mon âme !"
+		"text": "1 - Le Seigneur est tendresse et pitié,\nLent à la colère et plein d'amour,\nSa justice demeure à jamais.\nBénis le Seigneur, ô mon âme !"
 	},
 	{
 		"type": "verse",
@@ -751,7 +659,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Comme un père pour ses enfants,\nTendre est le Seigneur pour qui le craint,\nDe son cœur jaillit l’amour.\nBénis le Seigneur, ô mon âme !"
+		"text": "3 - Comme un père pour ses enfants,\nTendre est le Seigneur pour qui le craint,\nDe son cœur jaillit l'amour.\nBénis le Seigneur, ô mon âme !"
 	},
 	{
 		"type": "verse",
@@ -764,8 +672,8 @@
 	]
 },
 {
-	"id": "aujourd’hui-montons-sur-la-montagne",
-	"title": "Aujourd’hui, montons sur la montagne",
+	"id": "aujourd'hui-montons-sur-la-montagne",
+	"title": "Aujourd'hui, montons sur la montagne",
 	"rating": "T119",
 	"newrating": "M119",
 	"publisher": "Studio SM",
@@ -813,7 +721,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Réjouissez-vous avec moi, bien-aimés du Seigneur ;\nMon coeur est devenu le temple de Dieu,\nIl s ́est penché sur son humble servante,\nIl a fait de mon sein la porte du ciel,\nEn moi il a pris chair, le Fils unique du Père,\nJésus, le plus beau des enfants des hommes."
+		"text": "4 - Réjouissez-vous avec moi, bien-aimés du Seigneur ;\nMon cœur est devenu le temple de Dieu,\nIl s ́est penché sur son humble servante,\nIl a fait de mon sein la porte du ciel,\nEn moi il a pris chair, le Fils unique du Père,\nJésus, le plus beau des enfants des hommes."
 	},
 	{
 		"type": "verse",
@@ -869,7 +777,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - Dans le désert de nos coeurs\nUne voix a retenti :\nPréparez la route !\nBaptisés dans ton Esprit\nSerons-nous brûlés du Feu\nPlus fort que nos doutes ?"
+		"text": "5 - Dans le désert de nos cœurs\nUne voix a retenti :\nPréparez la route !\nBaptisés dans ton Esprit\nSerons-nous brûlés du Feu\nPlus fort que nos doutes ?"
 	},
 	{
 		"type": "verse",
@@ -893,7 +801,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "11 - Viendra ton Jour, ô Seigneur,\nEt ton règne de berger\nPour que l'homme vive.\nSois béni, Messie de paix,\nToi Noël de tous les coeurs,\nJoie qui ressuscite."
+		"text": "11 - Viendra ton Jour, ô Seigneur,\nEt ton règne de berger\nPour que l'homme vive.\nSois béni, Messie de paix,\nToi Noël de tous les cœurs,\nJoie qui ressuscite."
 	},
 	{
 		"type": "verse",
@@ -919,7 +827,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Il est temps d’ouvrir vos cœurs pour accueillir le Seigneur,\nMerveilleuse et vraie lumière, Jésus Sauveur."
+		"text": "2 - Il est temps d'ouvrir vos cœurs pour accueillir le Seigneur,\nMerveilleuse et vraie lumière, Jésus Sauveur."
 	},
 	{
 		"type": "verse",
@@ -938,7 +846,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Toi qui ravis le coeur de Dieu\nEt qui l'inclines vers la terre,\nMarie, tu fais monter vers lui\nTa réponse en offrande."
+		"text": "1 - Toi qui ravis le cœur de Dieu\nEt qui l'inclines vers la terre,\nMarie, tu fais monter vers lui\nTa réponse en offrande."
 	},
 	{
 		"type": "verse",
@@ -1099,8 +1007,8 @@
 	]
 },
 {
-	"id": "guetteurs-d’aurore",
-	"title": "Guetteurs d’aurore",
+	"id": "guetteurs-d'aurore",
+	"title": "Guetteurs d'aurore",
 	"rating": "E35-92",
 	"publisher": "ADF-Musique",
 	"writer": "Michel Scouarnec",
@@ -1108,11 +1016,11 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Guetteurs d’aurore veilleurs dans la nuit,\nNous espérons le jour de Dieu.\nGuetteurs d’aurore veilleurs dans la nuit,\nNous préparons le règne de Dieu."
+		"text": "Guetteurs d'aurore veilleurs dans la nuit,\nNous espérons le jour de Dieu.\nGuetteurs d'aurore veilleurs dans la nuit,\nNous préparons le règne de Dieu."
 	},
 	{
 		"type": "verse",
-		"text": "1 - En lui notre espérance,\nSon amour jamais ne s’endort,\nDieu fidèle à ses promesses,\nEn Jésus Christ."
+		"text": "1 - En lui notre espérance,\nSon amour jamais ne s'endort,\nDieu fidèle à ses promesses,\nEn Jésus Christ."
 	},
 	{
 		"type": "verse",
@@ -1120,7 +1028,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - En lui notre naissance,\nSon Esprit remplit l’univers,\nDieu fontaine de jeunesse,\nEn Jésus Christ."
+		"text": "3 - En lui notre naissance,\nSon Esprit remplit l'univers,\nDieu fontaine de jeunesse,\nEn Jésus Christ."
 	},
 	{
 		"type": "verse",
@@ -1137,8 +1045,8 @@
 	]
 },
 {
-	"id": "vous-m’avez-reconnu",
-	"title": "Vous m’avez reconnu",
+	"id": "vous-m'avez-reconnu",
+	"title": "Vous m'avez reconnu",
 	"rating": "SD58-47",
 	"publisher": "ADF-Musique",
 	"writer": "Claire Châtaigner",
@@ -1146,15 +1054,15 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Vous m’avez reconnu à la fraction du pain, prenez-le !\nVous m’avez reconnu à ce pain en vos mains, mangez-le !\nAvec vous je conclus une alliance nouvelle,\nAvec vous je conclus une alliance éternelle."
+		"text": "Vous m'avez reconnu à la fraction du pain, prenez-le !\nVous m'avez reconnu à ce pain en vos mains, mangez-le !\nAvec vous je conclus une alliance nouvelle,\nAvec vous je conclus une alliance éternelle."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Voici le commencement\n“Le Verbe s’est fait chair”\nVoici le commencement\nJe suis venu sur terre\nCouché dans une mangeoire. (bis)"
+		"text": "1 - Voici le commencement\n“Le Verbe s'est fait chair”\nVoici le commencement\nJe suis venu sur terre\nCouché dans une mangeoire. (bis)"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Me voici devant la porte\nM’entends-tu donc frapper ?\nMe voici devant la porte\nSi tu me laisses entrer\nJe mangerai chez toi. (bis)"
+		"text": "2 - Me voici devant la porte\nM'entends-tu donc frapper ?\nMe voici devant la porte\nSi tu me laisses entrer\nJe mangerai chez toi. (bis)"
 	},
 	{
 		"type": "verse",
@@ -1162,7 +1070,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Me voici au bord du puits\nSi je te donne à boire\nMe voici au bord du puits\nEt si tu veux y croire\nJe suis source d’eau vive. (bis)"
+		"text": "4 - Me voici au bord du puits\nSi je te donne à boire\nMe voici au bord du puits\nEt si tu veux y croire\nJe suis source d'eau vive. (bis)"
 	},
 	{
 		"type": "verse",
@@ -1170,7 +1078,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "6 - Me voici vers Emmaüs\nDe quoi avez-vous peur ?\nMe voici vers Emmaüs\nÉcoutez votre coeur\nJe suis ressuscité. (bis)"
+		"text": "6 - Me voici vers Emmaüs\nDe quoi avez-vous peur ?\nMe voici vers Emmaüs\nÉcoutez votre cœur\nJe suis ressuscité. (bis)"
 	},
 	{
 		"type": "verse",
@@ -1189,11 +1097,11 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Seigneur Jésus, tu es présent dans ton Eucharistie,\nDans cette hostie nous t’adorons et nous te magnifions."
+		"text": "1 - Seigneur Jésus, tu es présent dans ton Eucharistie,\nDans cette hostie nous t'adorons et nous te magnifions."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Toi qui es Dieu, toi qui es Roi, tu nous as tout donné.\nTu es le Christ, tu es l’Agneau immolé sur la croix."
+		"text": "2 - Toi qui es Dieu, toi qui es Roi, tu nous as tout donné.\nTu es le Christ, tu es l'Agneau immolé sur la croix."
 	},
 	{
 		"type": "verse",
@@ -1201,7 +1109,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Saint Jean a vu le sang et l’eau jaillir de ton côté.\nTon Esprit Saint nous est donné comme un fleuve d’eau vive."
+		"text": "4 - Saint Jean a vu le sang et l'eau jaillir de ton côté.\nTon Esprit Saint nous est donné comme un fleuve d'eau vive."
 	},
 	{
 		"type": "verse",
@@ -1221,21 +1129,21 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Ce soir de l’eau se change en vin de noce,\nSur la montagne, on multiplie le pain,\nLa vigne en fleur nous donne un fruit précoce:\nDieu a mis son corps entre nos mains. (bis)"
+		"text": "2 - Ce soir de l'eau se change en vin de noce,\nSur la montagne, on multiplie le pain,\nLa vigne en fleur nous donne un fruit précoce:\nDieu a mis son corps entre nos mains. (bis)"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Parole accomplissant les Écritures\nMots d’un amour qui n’aura pas de fin,\nLe Verbe se fait chair et nourriture:\nDieu a mis son corps entre nos mains. (bis)"
+		"text": "3 - Parole accomplissant les Écritures\nMots d'un amour qui n'aura pas de fin,\nLe Verbe se fait chair et nourriture:\nDieu a mis son corps entre nos mains. (bis)"
 	},
 	{
 		"type": "verse",
-		"text": "4 - Marie nous donne Dieu comme une enfance\nLa multitude est le fruit de son sein,\nVoici l’épouse et la nouvelle Alliance:\nDieu a mis son corps entre nos mains. (bis)"
+		"text": "4 - Marie nous donne Dieu comme une enfance\nLa multitude est le fruit de son sein,\nVoici l'épouse et la nouvelle Alliance:\nDieu a mis son corps entre nos mains. (bis)"
 	}
 	]
 },
 {
-	"id": "voici-que-l’ange-gabriel",
-	"title": "Voici que l’ange Gabriel",
+	"id": "voici-que-l'ange-gabriel",
+	"title": "Voici que l'ange Gabriel",
 	"rating": "V516",
 	"publisher": "Editions de l'Emmanuel",
 	"writer": "Hauguel C.-E.",
@@ -1243,11 +1151,11 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Voici que l’ange Gabriel, devant la Vierge est apparu.\nDe toi va naître un enfant Dieu,\nEt tu l’appelleras Jésus."
+		"text": "Voici que l'ange Gabriel, devant la Vierge est apparu.\nDe toi va naître un enfant Dieu,\nEt tu l'appelleras Jésus."
 	},
 	{
 		"type": "verse",
-		"text": "1 - De mon Seigneur j’ai tout reçu, je l’ai servi jusqu’à ce jour,\nQu’il fasse en moi sa volonté, je m’abandonne à son amour."
+		"text": "1 - De mon Seigneur j'ai tout reçu, je l'ai servi jusqu'à ce jour,\nQu'il fasse en moi sa volonté, je m'abandonne à son amour."
 	},
 	{
 		"type": "verse",
@@ -1260,8 +1168,8 @@
 	]
 },
 {
-	"id": "tout-le-ciel-s’emplit",
-	"title": "Tout le ciel s’emplit",
+	"id": "tout-le-ciel-s'emplit",
+	"title": "Tout le ciel s'emplit",
 	"rating": "F58",
 	"publisher": "Mame Le C",
 	"writer": "Claude Rozier",
@@ -1269,19 +1177,19 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Tout le ciel s’emplit d’une joie nouvelle,\nOn entend la nuit dire la merveille:\nFête sans pareille, le Sauveur est né,\nL’enfant Dieu nous est donné."
+		"text": "1 - Tout le ciel s'emplit d'une joie nouvelle,\nOn entend la nuit dire la merveille:\nFête sans pareille, le Sauveur est né,\nL'enfant Dieu nous est donné."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Le Seigneur paraît, Verbe de lumière,\nL’univers connaît la bonté du Père.\nDieu de notre terre, viens tracer la voie\nOù chemineront nos pas !"
+		"text": "2 - Le Seigneur paraît, Verbe de lumière,\nL'univers connaît la bonté du Père.\nDieu de notre terre, viens tracer la voie\nOù chemineront nos pas !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Avec les bergers, avec tous les sages,\nC’est le monde entier qui vers lui s’engage\nPour voir le visage de l’amour vivant,\nQui pour nous s’est fait enfant."
+		"text": "3 - Avec les bergers, avec tous les sages,\nC'est le monde entier qui vers lui s'engage\nPour voir le visage de l'amour vivant,\nQui pour nous s'est fait enfant."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Gloire à Jésus Christ, Gloire au Fils du Père !\nGloire à son Esprit dont l’amour éclaire\nL’éclatant mystère qui remplit le ciel:\nGloire à l’homme Dieu! Noël !"
+		"text": "4 - Gloire à Jésus Christ, Gloire au Fils du Père !\nGloire à son Esprit dont l'amour éclaire\nL'éclatant mystère qui remplit le ciel:\nGloire à l'homme Dieu! Noël !"
 	}
 	]
 },
@@ -1386,7 +1294,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - Cachée à ses yeux, la vive lumière\nAu coeur lui révèle\nL'alliance de Dieu."
+		"text": "5 - Cachée à ses yeux, la vive lumière\nAu cœur lui révèle\nL'alliance de Dieu."
 	},
 	{
 		"type": "verse",
@@ -1432,7 +1340,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Louange et gloire à ton Nom, Alléluia, alléluia !\nSeigneur, Dieu de l’univers, Alléluia, alléluia !"
+		"text": "1 - Louange et gloire à ton Nom, Alléluia, alléluia !\nSeigneur, Dieu de l'univers, Alléluia, alléluia !"
 	},
 	{
 		"type": "chorus",
@@ -1440,7 +1348,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Venez, chantons notre Dieu, Alléluia, alléluia !\nC’est lui notre Créateur, Alléluia, alléluia !"
+		"text": "2 - Venez, chantons notre Dieu, Alléluia, alléluia !\nC'est lui notre Créateur, Alléluia, alléluia !"
 	},
 	{
 		"type": "verse",
@@ -1462,27 +1370,27 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Noël, rumeur d'enfance au coeur de l'homme,\nSoleil d'amour sur les berceaux !\nNoël, rumeur d'enfance au coeur de Dieu,\nEveil de Dieu à Bethléem !"
+		"text": "1 - Noël, rumeur d'enfance au cœur de l'homme,\nSoleil d'amour sur les berceaux !\nNoël, rumeur d'enfance au cœur de Dieu,\nEveil de Dieu à Bethléem !"
 	},
 	{
 		"type": "chorus",
-		"text": "Noël, Noël ! Dieu est plus grand que notre coeur ! (bis)"
+		"text": "Noël, Noël ! Dieu est plus grand que notre cœur ! (bis)"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Noël, rumeur de joie sur les visages,\nJoie d'être ensemble à partager !\nNoël, rumeur de joie au coeur de Dieu,\nDieu se déclare à Bethléem !"
+		"text": "2 - Noël, rumeur de joie sur les visages,\nJoie d'être ensemble à partager !\nNoël, rumeur de joie au cœur de Dieu,\nDieu se déclare à Bethléem !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Noël, rumeur d'espoir au coeur des pauvres,\nRêve secret des sans-abri !\nNoël, rumeur d'espoir au coeur de Dieu,\nDieu pauvre et nu à Bethléem !"
+		"text": "3 - Noël, rumeur d'espoir au cœur des pauvres,\nRêve secret des sans-abri !\nNoël, rumeur d'espoir au cœur de Dieu,\nDieu pauvre et nu à Bethléem !"
 	},
 	{
 		"type": "verse",
-		"text": "4 - Noël, rumeur de paix sur les frontières,\nTrêve à la haine et à la mort !\nNoël, rumeur de paix au coeur de Dieu,\nLarmes de Dieu à Bethléem !"
+		"text": "4 - Noël, rumeur de paix sur les frontières,\nTrêve à la haine et à la mort !\nNoël, rumeur de paix au cœur de Dieu,\nLarmes de Dieu à Bethléem !"
 	},
 	{
 		"type": "verse",
-		"text": "5 - Noël, rumeur d'attente au coeur du monde,\nClarté d'aurore à l'Orient !\nNoël, rumeur d'attente au coeur de Dieu,\nDieu prend la route à Bethléem !"
+		"text": "5 - Noël, rumeur d'attente au cœur du monde,\nClarté d'aurore à l'Orient !\nNoël, rumeur d'attente au cœur de Dieu,\nDieu prend la route à Bethléem !"
 	}
 	]
 },
@@ -1500,23 +1408,23 @@
 	},
 	{
 		"type": "chorus",
-		"text": "Dès aujourd’hui, ton Royaume est proche, viens parmi nous, Seigneur Jésus !\nou\nNous attendons votre Royaume ; daignez venir, Seigneur Jésus !\nNous attendons votre Royaume ; venez, Seigneur Jésus !"
+		"text": "Dès aujourd'hui, ton Royaume est proche, viens parmi nous, Seigneur Jésus !\nou\nNous attendons votre Royaume ; daignez venir, Seigneur Jésus !\nNous attendons votre Royaume ; venez, Seigneur Jésus !"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Ceux qui marchaient dans les ténèbres\nOnt vu s’illuminer leur nuit\nEt sur les peuples dans l’angoisse\nUne lumière a resplendi."
+		"text": "2 - Ceux qui marchaient dans les ténèbres\nOnt vu s'illuminer leur nuit\nEt sur les peuples dans l'angoisse\nUne lumière a resplendi."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Dans notre nuit surgit l’aurore\nDe sa justice et de sa paix :\nDieu nous envoie sa délivrance,\nIl ne nous quittera jamais."
+		"text": "3 - Dans notre nuit surgit l'aurore\nDe sa justice et de sa paix :\nDieu nous envoie sa délivrance,\nIl ne nous quittera jamais."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Il a tracé pour nous la route,\nIl s’est chargé de nos douleurs ;\nEt nous marchons vers sa Promesse,\nLe front marqué de sa splendeur."
+		"text": "4 - Il a tracé pour nous la route,\nIl s'est chargé de nos douleurs ;\nEt nous marchons vers sa Promesse,\nLe front marqué de sa splendeur."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Quand paraîtra la Ville sainte,\nQuand s’ouvriront les Cieux nouveaux.\nNous gouterons sans fin la Vie\nDevant le trône de l’Agneau."
+		"text": "5 - Quand paraîtra la Ville sainte,\nQuand s'ouvriront les Cieux nouveaux.\nNous gouterons sans fin la Vie\nDevant le trône de l'Agneau."
 	}
 	]
 },
@@ -1567,7 +1475,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "9 - Ils ont crié, et le Seigneur a entendu,\nDe la détresse, il les a délivrés.\nIl est proche de ceux qui ont le coeur brisé\nIl vient sauver ceux dont la vie est déchirée."
+		"text": "9 - Ils ont crié, et le Seigneur a entendu,\nDe la détresse, il les a délivrés.\nIl est proche de ceux qui ont le cœur brisé\nIl vient sauver ceux dont la vie est déchirée."
 	},
 	{
 		"type": "verse",
@@ -1589,7 +1497,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "L'étoile s'est levée sur un enfant,\nJésus paraît au coeur de notre monde.\nL'étoile nous conduit vers le Vivant ;\nQuittons nos peurs, allons à sa rencontre !"
+		"text": "L'étoile s'est levée sur un enfant,\nJésus paraît au cœur de notre monde.\nL'étoile nous conduit vers le Vivant ;\nQuittons nos peurs, allons à sa rencontre !"
 	},
 	{
 		"type": "verse",
@@ -1597,7 +1505,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - A tout chercheur tu montres une lumière,\nDans l'univers tu dis ton Nom ;\nUn nom de feu au coeur de la matière,\nTu es Seigneur de création !"
+		"text": "2 - A tout chercheur tu montres une lumière,\nDans l'univers tu dis ton Nom ;\nUn nom de feu au cœur de la matière,\nTu es Seigneur de création !"
 	},
 	{
 		"type": "verse",
@@ -1624,11 +1532,11 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - L'Enfant qui vient de naître cette nuit\nN'a rien apporté pour lui.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, puisqu'il est pauvre, allons lui demander\nce qu'il va quémander ?\nC'est de nos coeurs qu'il veut faire un trésor,\nSi nous partageons son sort."
+		"text": "1 - L'Enfant qui vient de naître cette nuit\nN'a rien apporté pour lui.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, puisqu'il est pauvre, allons lui demander\nce qu'il va quémander ?\nC'est de nos cœurs qu'il veut faire un trésor,\nSi nous partageons son sort."
 	},
 	{
 		"type": "verse",
-		"text": "2 - L'Enfant qui vient de naître cette nuit\nN'a rien apporté pour lui.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, puisqu'il est pauvre, allons lui demander\nce qu'il va quémander ?\nC'est de nos coeurs qu'il veut faire un trésor,\nSi nous partageons son sort."
+		"text": "2 - L'Enfant qui vient de naître cette nuit\nN'a rien apporté pour lui.\nSi c'est Dieu même qui nous l'a donné,\nFaut-il nous en étonner ?\nMes amis, puisqu'il est pauvre, allons lui demander\nce qu'il va quémander ?\nC'est de nos cœurs qu'il veut faire un trésor,\nSi nous partageons son sort."
 	},
 	{
 		"type": "verse",
@@ -1651,7 +1559,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Heureuse es-tu Marie de cet honneur,\nD’avoir été choisie pour rendre cœur\nAu genre humain qui veille au bruit des armes,\nQui paie au prix des larmes, ses bonheurs incertains."
+		"text": "1 - Heureuse es-tu Marie de cet honneur,\nD'avoir été choisie pour rendre cœur\nAu genre humain qui veille au bruit des armes,\nQui paie au prix des larmes, ses bonheurs incertains."
 	},
 	{
 		"type": "verse",
@@ -1663,7 +1571,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Fontaine où nos visages se sont baignés,\nReconnaissant l’image jadis gravée,\nEn tout amour selon la ressemblance\nDu Fils que sa naissance fait nôtre pour toujours."
+		"text": "4 - Fontaine où nos visages se sont baignés,\nReconnaissant l'image jadis gravée,\nEn tout amour selon la ressemblance\nDu Fils que sa naissance fait nôtre pour toujours."
 	}
 	]
 },
@@ -1686,7 +1594,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Aujourd'hui, dans notre mort a paru la vie\nPour changer le coeur des hommes qui sont endurcis.\nEt l'amour est plus fort que nos misères :\nGloire à Dieu et paix sur terre, Alléluia !"
+		"text": "3 - Aujourd'hui, dans notre mort a paru la vie\nPour changer le cœur des hommes qui sont endurcis.\nEt l'amour est plus fort que nos misères :\nGloire à Dieu et paix sur terre, Alléluia !"
 	},
 	{
 		"type": "verse",
@@ -1783,31 +1691,31 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Puissance et gloire de l’Esprit :\nHeureux les vrais martyrs !\nLa chair dont Dieu les a pétris\nEn Lui pourra surgir."
+		"text": "1 - Puissance et gloire de l'Esprit :\nHeureux les vrais martyrs !\nLa chair dont Dieu les a pétris\nEn Lui pourra surgir."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Pareil aux grains qui sont broyés\nPour être notre pain,\nLeur corps se joint au Corps brisé\nQui s’offre par nos mains."
+		"text": "2 - Pareil aux grains qui sont broyés\nPour être notre pain,\nLeur corps se joint au Corps brisé\nQui s'offre par nos mains."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Leur sang se mêle au Sang sauveur\nQui lave nos péchés.\nIls sont l’amour du même Coeur\nQui nous a tant aimés."
+		"text": "3 - Leur sang se mêle au Sang sauveur\nQui lave nos péchés.\nIls sont l'amour du même cœur\nQui nous a tant aimés."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Heureux qui donne sans compter\nJusqu’à sa propre chair !\nIl trouve en Dieu sa liberté,\nVisage découvert."
+		"text": "4 - Heureux qui donne sans compter\nJusqu'à sa propre chair !\nIl trouve en Dieu sa liberté,\nVisage découvert."
 	},
 	{
 		"type": "verse",
-		"text": "5 - La chair est vaine sans l’Esprit\nEt cendre dans la mort.\nPar votre croix, Seigneur, survit\nLa gloire de nos corps."
+		"text": "5 - La chair est vaine sans l'Esprit\nEt cendre dans la mort.\nPar votre croix, Seigneur, survit\nLa gloire de nos corps."
 	},
 	{
 		"type": "verse",
-		"text": "6 - Dans vos martyrs, c’est vous qu’on tue,\nMais vous qu’on glorifie ;\nCar votre Église en eux salue\nLa force de l’Esprit."
+		"text": "6 - Dans vos martyrs, c'est vous qu'on tue,\nMais vous qu'on glorifie ;\nCar votre Église en eux salue\nLa force de l'Esprit."
 	},
 	{
 		"type": "verse",
-		"text": "7 - Le grain survit dans la moisson,\nAu jour de votre Jour ;\nLa vie, la mort n’ont plus de nom\nAu règne de l’Amour."
+		"text": "7 - Le grain survit dans la moisson,\nAu jour de votre Jour ;\nLa vie, la mort n'ont plus de nom\nAu règne de l'Amour."
 	}
 	]
 },
@@ -1841,7 +1749,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - Le même hier et demain,\nAujourd'hui il vit au coeur des siens.\nAnnonçons l'oeuvre de son amour :\n\"Dieu avec nous pour toujours !\""
+		"text": "5 - Le même hier et demain,\nAujourd'hui il vit au cœur des siens.\nAnnonçons l'oeuvre de son amour :\n\"Dieu avec nous pour toujours !\""
 	}
 	]
 },
@@ -1888,7 +1796,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Dans le silence,\nFaites monter en vos coeurs,\nLa joie, la louange."
+		"text": "1 - Dans le silence,\nFaites monter en vos cœurs,\nLa joie, la louange."
 	},
 	{
 		"type": "verse",
@@ -1966,7 +1874,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Dieu nous aime tant\nQu'il a donné son Fils unique ;\nDieu nous aime tant\nQu'il donne au monde son enfant.\nIl nous dit son dernier mot\nPour que vive l'univers ;\nPour nous rendre un coeur nouveau,\nSa parole se fait chair.\nDieu nous aime tant\nQu'il a donné son Fils unique ;\nDieu nous aime tant\nQu'il donne au monde son enfant."
+		"text": "2 - Dieu nous aime tant\nQu'il a donné son Fils unique ;\nDieu nous aime tant\nQu'il donne au monde son enfant.\nIl nous dit son dernier mot\nPour que vive l'univers ;\nPour nous rendre un cœur nouveau,\nSa parole se fait chair.\nDieu nous aime tant\nQu'il a donné son Fils unique ;\nDieu nous aime tant\nQu'il donne au monde son enfant."
 	},
 	{
 		"type": "verse",
@@ -2000,7 +1908,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Il nous envoie par toute la terre\nAnnoncer aux coeurs droits la Bonne Nouvelle.\nIl nous envoie porter la lumière\nEt répandre la joie parmi nos frères."
+		"text": "4 - Il nous envoie par toute la terre\nAnnoncer aux cœurs droits la Bonne Nouvelle.\nIl nous envoie porter la lumière\nEt répandre la joie parmi nos frères."
 	},
 	{
 		"type": "verse",
@@ -2049,7 +1957,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Aujourd’hui s’ouvre le ciel\nGrande joie sur terre !\nEt le monde s’émerveille\nBrille sa lumière !"
+		"text": "2 - Aujourd'hui s'ouvre le ciel\nGrande joie sur terre !\nEt le monde s'émerveille\nBrille sa lumière !"
 	},
 	{
 		"type": "verse",
@@ -2061,7 +1969,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - Les mages ont vu l’enfant Roi\nGrande joie sur terre !\nL’étoile a guidé leurs pas\nBrille sa lumière !"
+		"text": "5 - Les mages ont vu l'enfant Roi\nGrande joie sur terre !\nL'étoile a guidé leurs pas\nBrille sa lumière !"
 	},
 	{
 		"type": "verse",
@@ -2069,7 +1977,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "7 - Nous qui l’avons contemplé\nGrande joie sur terre !\nNous serons ses messagers\nBrille sa lumière !"
+		"text": "7 - Nous qui l'avons contemplé\nGrande joie sur terre !\nNous serons ses messagers\nBrille sa lumière !"
 	},
 	{
 		"type": "verse",
@@ -2155,7 +2063,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Préparez le chemin du Seigneur,\nOuvrez large la porte de vos coeurs :\nIl viendra le sauveur et tout homme verra\nLe salut de Dieu."
+		"text": "Préparez le chemin du Seigneur,\nOuvrez large la porte de vos cœurs :\nIl viendra le sauveur et tout homme verra\nLe salut de Dieu."
 	},
 	{
 		"type": "verse",
@@ -2198,15 +2106,15 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Préparez des chemins de partage,\nSoyez le pain de l’avenir.\nOuvrez large au passant votre table,\nDans vos maisons Dieu va venir.\nDans nos maisons Dieu va venir."
+		"text": "2 - Préparez des chemins de partage,\nSoyez le pain de l'avenir.\nOuvrez large au passant votre table,\nDans vos maisons Dieu va venir.\nDans nos maisons Dieu va venir."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Préparez des chemins de tendresse,\nL’amour demande à refleurir.\nDétruisez les vieux murs de la haine,\nSemez la paix, Dieu va venir.\nSemons la paix, Dieu va venir."
+		"text": "3 - Préparez des chemins de tendresse,\nL'amour demande à refleurir.\nDétruisez les vieux murs de la haine,\nSemez la paix, Dieu va venir.\nSemons la paix, Dieu va venir."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Préparez des chemins d’espérance,\nLevez les yeux, l’étoile luit !\nRéveillez dans vos coeurs la confiance,\nCroyez au jour, Dieu va venir.\nCroyons au jour, Dieu va venir."
+		"text": "4 - Préparez des chemins d'espérance,\nLevez les yeux, l'étoile luit !\nRéveillez dans vos cœurs la confiance,\nCroyez au jour, Dieu va venir.\nCroyons au jour, Dieu va venir."
 	},
 	{
 		"type": "verse",
@@ -2262,7 +2170,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - À Bethléem, les cieux chantaient\nQue le meilleur de vos bienfaits\nC'était le don de votre Paix.\nLe monde la dédaigne :\nPartout les coeurs sont divisés !\nQu'arrive votre règne !\nVenez, venez, venez !"
+		"text": "2 - À Bethléem, les cieux chantaient\nQue le meilleur de vos bienfaits\nC'était le don de votre Paix.\nLe monde la dédaigne :\nPartout les cœurs sont divisés !\nQu'arrive votre règne !\nVenez, venez, venez !"
 	},
 	{
 		"type": "verse",
@@ -2308,15 +2216,15 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Jésus est le chemin\nQui nous mène droit vers le Père,\nC’est lui qui est la vérité,\nIl est la vie !"
+		"text": "Jésus est le chemin\nQui nous mène droit vers le Père,\nC'est lui qui est la vérité,\nIl est la vie !"
 	},
 	{
 		"type": "verse",
-		"text": "1 - Jamais homme n’a parlé ainsi que celui-là,\nNon personne ne peut faire les signes qu’il accomplit,\nDieu est avec lui."
+		"text": "1 - Jamais homme n'a parlé ainsi que celui-là,\nNon personne ne peut faire les signes qu'il accomplit,\nDieu est avec lui."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Jean-Baptiste nous a dit : “Voici l’Agneau de Dieu”,\nCar c’est lui que le Père a marqué de son sceau,\nVenez et voyez."
+		"text": "2 - Jean-Baptiste nous a dit : “Voici l'Agneau de Dieu”,\nCar c'est lui que le Père a marqué de son sceau,\nVenez et voyez."
 	},
 	{
 		"type": "verse",
@@ -2332,7 +2240,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "6 - Mon Royaume n’est pas de ce monde ici-bas\nJe suis Roi et quiconque est de la vérité,\nÉcoute ma voix."
+		"text": "6 - Mon Royaume n'est pas de ce monde ici-bas\nJe suis Roi et quiconque est de la vérité,\nÉcoute ma voix."
 	},
 	{
 		"type": "verse",
@@ -2340,7 +2248,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "8 - \"De son sein couleront, oui, des fleuves d’eaux vives,\"\nRecevez l’Esprit Saint pour être dans le monde,\nTémoins de l’amour !"
+		"text": "8 - \"De son sein couleront, oui, des fleuves d'eaux vives,\"\nRecevez l'Esprit Saint pour être dans le monde,\nTémoins de l'amour !"
 	}
 	]
 },
@@ -2404,7 +2312,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - Pour tant de mains pansant les plaies en mémoire de tes douleurs,\nPour l’amitié donnée aux pauvres, comme étant plus près de ton Coeur."
+		"text": "5 - Pour tant de mains pansant les plaies en mémoire de tes douleurs,\nPour l'amitié donnée aux pauvres, comme étant plus près de ton Cœur."
 	},
 	{
 		"type": "verse",
@@ -2412,11 +2320,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "7 - Pour tant d’espoir et tant de joie, plus tenaces que nos méfaits,\nPour tant d’élans vers ta justice, tant d’efforts tendus vers ta paix."
+		"text": "7 - Pour tant d'espoir et tant de joie, plus tenaces que nos méfaits,\nPour tant d'élans vers ta justice, tant d'efforts tendus vers ta paix."
 	},
 	{
 		"type": "verse",
-		"text": "8 - Pour la prière et pour l’offrande des fidèles unis en toi,\nEt pour l’amour de Notre-Dame, Notre Mère au pied de ta Croix."
+		"text": "8 - Pour la prière et pour l'offrande des fidèles unis en toi,\nEt pour l'amour de Notre-Dame, Notre Mère au pied de ta Croix."
 	}
 	]
 },
@@ -2526,15 +2434,15 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Aimer, c’est tout donner (x3)\nEt se donner soi-même."
+		"text": "Aimer, c'est tout donner (x3)\nEt se donner soi-même."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Quand je parlerais les langues des hommes et des anges,\nSi je n’ai pas l’Amour, je suis comme l’airain qui sonne\nOu la cymbale qui retentit."
+		"text": "1 - Quand je parlerais les langues des hommes et des anges,\nSi je n'ai pas l'Amour, je suis comme l'airain qui sonne\nOu la cymbale qui retentit."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Si je prophétisais et connaissais tous les mystères,\nSi j’avais la Foi à transporter des montagnes,\nSans l’Amour, je ne suis rien !"
+		"text": "2 - Si je prophétisais et connaissais tous les mystères,\nSi j'avais la Foi à transporter des montagnes,\nSans l'Amour, je ne suis rien !"
 	},
 	{
 		"type": "verse",
@@ -2552,27 +2460,27 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Il est grand le bonheur de donner,\nBien plus grand que la joie de recevoir.\nLe Seigneur s’est lui-même donné,\nBienheureux qui le suivra ! (bis)"
+		"text": "Il est grand le bonheur de donner,\nBien plus grand que la joie de recevoir.\nLe Seigneur s'est lui-même donné,\nBienheureux qui le suivra ! (bis)"
 	},
 	{
 		"type": "verse",
-		"text": "1 - Donner le jour aux enfants de la nuit,\nDonner le feu quand le froid les surprend,\nDonner la flamme qui brûle et qui luit,\nDonner l’espoir aux marcheurs de ce temps."
+		"text": "1 - Donner le jour aux enfants de la nuit,\nDonner le feu quand le froid les surprend,\nDonner la flamme qui brûle et qui luit,\nDonner l'espoir aux marcheurs de ce temps."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Donner le pain dans un monde affamé,\nDonner l’eau vive puisée près de Dieu,\nDonner de croire au festin partagé,\nDonner le sel et le vin généreux."
+		"text": "2 - Donner le pain dans un monde affamé,\nDonner l'eau vive puisée près de Dieu,\nDonner de croire au festin partagé,\nDonner le sel et le vin généreux."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Donner le souffle à tout homme blessé,\nDonner le sang qui réveille sa vie,\nDonner de vivre debout dans la paix,\nDonner l’audace envoyée par l’Esprit."
+		"text": "3 - Donner le souffle à tout homme blessé,\nDonner le sang qui réveille sa vie,\nDonner de vivre debout dans la paix,\nDonner l'audace envoyée par l'Esprit."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Donner le fruit du travail de nos mains,\nDonner d’apprendre à chercher un trésor,\nDonner l’envie de s’ouvrir un chemin,\nDonner l’amour qui peut vaincre la mort."
+		"text": "4 - Donner le fruit du travail de nos mains,\nDonner d'apprendre à chercher un trésor,\nDonner l'envie de s'ouvrir un chemin,\nDonner l'amour qui peut vaincre la mort."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Donner la soif de connaître Jésus,\nDonner les mots qui pourront le chanter,\nDonner d’aller par des voies inconnues,\nDonner la force d’un coeur libéré."
+		"text": "5 - Donner la soif de connaître Jésus,\nDonner les mots qui pourront le chanter,\nDonner d'aller par des voies inconnues,\nDonner la force d'un cœur libéré."
 	}
 	]
 },
@@ -2645,7 +2553,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "6 - Joie sur terre et joie dans le ciel, en toi tout resplendit !\nPour que l'homme soit fait Dieu, le Fils a pris notre chair.\nAllégresse des saints, ô Christ, en cette communion,\nEn nos coeurs tu descends, pour vivre à jamais en nous."
+		"text": "6 - Joie sur terre et joie dans le ciel, en toi tout resplendit !\nPour que l'homme soit fait Dieu, le Fils a pris notre chair.\nAllégresse des saints, ô Christ, en cette communion,\nEn nos cœurs tu descends, pour vivre à jamais en nous."
 	}
 	]
 },
@@ -2659,23 +2567,23 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Marie du Rosaire, nous te chantons,\nChoisie par le Père, nous te louons.\nChemin de lumière, nous t’acclamons,\nSoleil de la terre, nous te prions."
+		"text": "Marie du Rosaire, nous te chantons,\nChoisie par le Père, nous te louons.\nChemin de lumière, nous t'acclamons,\nSoleil de la terre, nous te prions."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Au premier jour, tu as dit « oui »,\n  Nous te bénissons !\nTu as donné le plus beau fruit,\n  Nous te bénissons !\nTu as chanté l’amour du Père,\n  Nous te bénissons !\nTu as offert le Fils de Dieu,\n  Nous te bénissons !\nTu as cherché ton Fils perdu,\n  Nous te bénissons !"
+		"text": "1 - Au premier jour, tu as dit « oui »,\n  Nous te bénissons !\nTu as donné le plus beau fruit,\n  Nous te bénissons !\nTu as chanté l'amour du Père,\n  Nous te bénissons !\nTu as offert le Fils de Dieu,\n  Nous te bénissons !\nTu as cherché ton Fils perdu,\n  Nous te bénissons !"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Ton Fils nous fait enfants de Dieu,\n  Guide nos pas !\n« Vous ferez tout ce qu’il dira. »\n  Guide nos pas !\nL’amour de Dieu nous convertit,\n  Guide nos pas !\nEn lui tout est transfiguré,\n  Guide nos pas !\nIl est pour nous le pain de vie,\n  Guide nos pas !"
+		"text": "2 - Ton Fils nous fait enfants de Dieu,\n  Guide nos pas !\n« Vous ferez tout ce qu'il dira. »\n  Guide nos pas !\nL'amour de Dieu nous convertit,\n  Guide nos pas !\nEn lui tout est transfiguré,\n  Guide nos pas !\nIl est pour nous le pain de vie,\n  Guide nos pas !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Tu as souffert avec Jésus,\n  Veille sur nous !\nTon cœur de Mère est transpercé,\n  Veille sur nous !\nTu as fait tout ce qu’il t’a dit,\n  Veille sur nous !\nTu souffres avec ton Fils en croix,\n  Veille sur nous !\nTu es la Mère des douleurs,\n  Veille sur nous !"
+		"text": "3 - Tu as souffert avec Jésus,\n  Veille sur nous !\nTon cœur de Mère est transpercé,\n  Veille sur nous !\nTu as fait tout ce qu'il t'a dit,\n  Veille sur nous !\nTu souffres avec ton Fils en croix,\n  Veille sur nous !\nTu es la Mère des douleurs,\n  Veille sur nous !"
 	},
 	{
 		"type": "verse",
-		"text": "4 - Tu es la Mère des vivants,\n  Alleluia !\nTu nous conduis jusqu’à ton Fils,\n  Alleluia !\nTu brilles au cœur de notre Eglise,\n  Alleluia !\nTu resplendis dans la lumière,\n  Alleluia !\nTu es la Reine des élus,\n  Alleluia !"
+		"text": "4 - Tu es la Mère des vivants,\n  Alleluia !\nTu nous conduis jusqu'à ton Fils,\n  Alleluia !\nTu brilles au cœur de notre Eglise,\n  Alleluia !\nTu resplendis dans la lumière,\n  Alleluia !\nTu es la Reine des élus,\n  Alleluia !"
 	}
 	]
 },
@@ -2870,11 +2778,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Que tu sois d’ici ou d’ailleurs\nTu nous rends riche de tout ton vécu\nEn route pour un monde meilleur\nLève-toi, ne te crois pas perdu\nPrenons le temps de nous accepter\nD’accueillir et apprendre à aimer"
+		"text": "2 - Que tu sois d'ici ou d'ailleurs\nTu nous rends riche de tout ton vécu\nEn route pour un monde meilleur\nLève-toi, ne te crois pas perdu\nPrenons le temps de nous accepter\nD'accueillir et apprendre à aimer"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Que tu sois premier ou dernier\nTa place est là, au milieu de nous\nEn route pour un monde de paix\nReste libre, ose tes rêves fous\nPrenons le temps de nous engager\nD’accueillir et apprendre à aimer."
+		"text": "3 - Que tu sois premier ou dernier\nTa place est là, au milieu de nous\nEn route pour un monde de paix\nReste libre, ose tes rêves fous\nPrenons le temps de nous engager\nD'accueillir et apprendre à aimer."
 	}
 	]
 },
@@ -3019,7 +2927,7 @@
 },
 {
 	"id": "couronnee-detoiles",
-	"title": "Couronnée d’étoiles",
+	"title": "Couronnée d'étoiles",
 	"rating": "V44-58",
 	"publisher": "Editions De L'Emmanuel",
 	"writer": "Communauté De L'Emmanuel",
@@ -3027,7 +2935,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Nous te saluons, ô toi Notre Dame\nMarie Vierge Sainte que drape le soleil\nCouronnée d’étoiles, la lune est sous tes pas.\nEn toi nous est donnée, l’aurore du salut"
+		"text": "Nous te saluons, ô toi Notre Dame\nMarie Vierge Sainte que drape le soleil\nCouronnée d'étoiles, la lune est sous tes pas.\nEn toi nous est donnée, l'aurore du salut"
 	},
 	{
 		"type": "verse",
@@ -3035,11 +2943,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Tu es restée fidèle mère au pied de la croix\nSoutiens notre espérance et garde notre foi\nDu côté de ton Fils, tu as puisé pour nous\nL’eau et le sang versés qui sauvent du péché."
+		"text": "2 - Tu es restée fidèle mère au pied de la croix\nSoutiens notre espérance et garde notre foi\nDu côté de ton Fils, tu as puisé pour nous\nL'eau et le sang versés qui sauvent du péché."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Quelle fut la joie d’Eve lorsque tu es montée\nPlus haut que tous les Anges, plus haut les nuées\nEt quelle est notre joie, douce Vierge Marie\nDe contempler en toi, la promesse de vie"
+		"text": "3 - Quelle fut la joie d'Eve lorsque tu es montée\nPlus haut que tous les Anges, plus haut les nuées\nEt quelle est notre joie, douce Vierge Marie\nDe contempler en toi, la promesse de vie"
 	},
 	{
 		"type": "verse",
@@ -3088,11 +2996,11 @@
 	},
 	{
 		"type": "chorus",
-		"text": "Et donne-moi, donne-moi,\ndonne-moi seulement de t’aimer.\nDonne-moi, donne-moi,\ndonne-moi seulement de t’aimer."
+		"text": "Et donne-moi, donne-moi,\ndonne-moi seulement de t'aimer.\nDonne-moi, donne-moi,\ndonne-moi seulement de t'aimer."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Reçois tout ce que j’ai,\ntout ce que je possède.\nC’est toi qui m’as tout donné\nà toi, Seigneur, je le rends."
+		"text": "2 - Reçois tout ce que j'ai,\ntout ce que je possède.\nC'est toi qui m'as tout donné\nà toi, Seigneur, je le rends."
 	},
 	{
 		"type": "verse",
@@ -3107,7 +3015,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - D’une seule voix, d’un seul cœur, nous élevons notre prière\nUn seul nom, un seul Père, un seul Dieu la vie la lumière"
+		"text": "1 - D'une seule voix, d'un seul cœur, nous élevons notre prière\nUn seul nom, un seul Père, un seul Dieu la vie la lumière"
 	},
 	{
 		"type": "chorus",
@@ -3115,7 +3023,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Une seule croix, une seule voie, un seul chemin qui nous libère\nUn seul cri, une seule Foi, l’Esprit cri en nous Abba Père !"
+		"text": "2 - Une seule croix, une seule voie, un seul chemin qui nous libère\nUn seul cri, une seule Foi, l'Esprit cri en nous Abba Père !"
 	},
 	{
 		"type": "verse",
@@ -3200,23 +3108,23 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Joie de lever le regard vers les monts, D’où me viendra le secours : Secours du Seigneur tout au long des jours, Dieu Saint, miséricorde."
+		"text": "1 - Joie de lever le regard vers les monts, D'où me viendra le secours : Secours du Seigneur tout au long des jours, Dieu Saint, miséricorde."
 	},
 	{
 		"type": "chorus",
-		"text": "Heureux les cœurs miséricordieux car ils obtiendront miséricorde heureux les cœurs aimants ouverts à l’amour de dieu le père"
+		"text": "Heureux les cœurs miséricordieux car ils obtiendront miséricorde heureux les cœurs aimants ouverts à l'amour de dieu le père"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Joie d’être pris dans les bras du Berger, Lui même vient nous chercher. « Par ses blessures nous sommes guéris » Christ est souffle de vie !"
+		"text": "2 - Joie d'être pris dans les bras du Berger, Lui même vient nous chercher. « Par ses blessures nous sommes guéris » Christ est souffle de vie !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Joie d’espérer contre toute espérance ! Qui loin de Dieu survivrait? Mais son pardon vient changer nos cœurs, Alors, vivons de lui!"
+		"text": "3 - Joie d'espérer contre toute espérance ! Qui loin de Dieu survivrait? Mais son pardon vient changer nos cœurs, Alors, vivons de lui!"
 	},
 	{
 		"type": "verse",
-		"text": "4 - Joie d’être en Paix grâce au Fils rédempteur : Christ a surgi du tombeau! « Jésus est Seigneur », clame en nous l’Esprit, Que le monde le voie !"
+		"text": "4 - Joie d'être en Paix grâce au Fils rédempteur : Christ a surgi du tombeau! « Jésus est Seigneur », clame en nous l'Esprit, Que le monde le voie !"
 	}
 	]
 },
@@ -3348,7 +3256,7 @@
 	"id": "il-est-bon-de-louer",
 	"title": "Il est bon de louer le Seigneur",
 	"rating": "17-24",
-	"writer": "P. Wlbur D’après Ps 92 (91)",
+	"writer": "P. Wlbur D'après Ps 92 (91)",
 	"composer": "P. Wlbur",
 	"lyrics": [
 	{
@@ -3376,7 +3284,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Il est né le divin enfant,\nJour de fête aujourd’hui sur terre\nIl est né le divin enfant,\nChantons tous son avènement !"
+		"text": "Il est né le divin enfant,\nJour de fête aujourd'hui sur terre\nIl est né le divin enfant,\nChantons tous son avènement !"
 	},
 	{
 		"type": "verse",
@@ -3388,7 +3296,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Qu’Il revienne à la fin des temps\nNous conduire à la joie du Maître,\nQu’Il revienne à la fin des temps\nEt qu’Il règne éternellement !"
+		"text": "3 - Qu'Il revienne à la fin des temps\nNous conduire à la joie du Maître,\nQu'Il revienne à la fin des temps\nEt qu'Il règne éternellement !"
 	},
 	{
 		"type": "verse",
@@ -3418,30 +3326,30 @@
 },
 {
 	"id": "il-ny-a-personne-comme-jesus",
-	"title": "Il n’y a personne comme Jésus",
+	"title": "Il n'y a personne comme Jésus",
 	"rating": "JEMK046",
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Il n’y a personne qui soit comme Jésus (x3)\nIl n’y a vraiment personne comme Lui"
+		"text": "Il n'y a personne qui soit comme Jésus (x3)\nIl n'y a vraiment personne comme Lui"
 	},
 	{
 		"type": "verse",
-		"text": "1 - J’ai cherché, cherché : personne, personne\nJ’ai cherché, cherché : personne, personne\nJ’ai cherché, cherché : et...\nIl n’y a vraiment personne comme Lui !"
+		"text": "1 - J'ai cherché, cherché : personne, personne\nJ'ai cherché, cherché : personne, personne\nJ'ai cherché, cherché : et...\nIl n'y a vraiment personne comme Lui !"
 	},
 	{
 		"type": "verse",
-		"text": "2 - J’ai fouillé, fouillé..."
+		"text": "2 - J'ai fouillé, fouillé..."
 	},
 	{
 		"type": "verse",
-		"text": "3 - J’ai tourné, tourné…"
+		"text": "3 - J'ai tourné, tourné…"
 	}
 	]
 },
 {
 	"id": "il-sest-manifeste",
-	"title": "Il s’est manifesté",
+	"title": "Il s'est manifesté",
 	"rating": "12-14",
 	"publisher": "Editions De L'Emmanuel",
 	"composer": "D.-M. David / L.-E. de Labarthe",
@@ -3482,7 +3390,7 @@
 },
 {
 	"id": "je-nai-dautre-desir",
-	"title": "Je n’ai d’autre désir",
+	"title": "Je n'ai d'autre désir",
 	"rating": "D14-51",
 	"newrating": "DEV156",
 	"publisher": "A.c.n.",
@@ -3492,19 +3400,19 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Je n’ai d’autre désir que de t’appartenir,\nEtre à toi pour toujours, et livrée à l’amour.\nJe n’ai d’autre désir que de t’appartenir."
+		"text": "1 - Je n'ai d'autre désir que de t'appartenir,\nEtre à toi pour toujours, et livrée à l'amour.\nJe n'ai d'autre désir que de t'appartenir."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Je n’ai d’autre secours que renaître à l’amour,\nEt soumettre ma vie au souffle de l’Esprit.\nJe n’ai d’autre secours que renaître à l’amour."
+		"text": "2 - Je n'ai d'autre secours que renaître à l'amour,\nEt soumettre ma vie au souffle de l'Esprit.\nJe n'ai d'autre secours que renaître à l'amour."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Je n’ai d’autre espérance que m’offrir en silence,\nAu don de ton amour m’unir jour après jour.\nJe n’ai d’autre espérance que m’offrir en silence."
+		"text": "3 - Je n'ai d'autre espérance que m'offrir en silence,\nAu don de ton amour m'unir jour après jour.\nJe n'ai d'autre espérance que m'offrir en silence."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Je n’ai d’autre raison que l’amour de ton nom.\nMon bonheur est de vivre, O Jésus, pour te suivre.\nJe n’ai d’autre raison que l’amour de ton nom."
+		"text": "4 - Je n'ai d'autre raison que l'amour de ton nom.\nMon bonheur est de vivre, O Jésus, pour te suivre.\nJe n'ai d'autre raison que l'amour de ton nom."
 	}
 	]
 },
@@ -3581,11 +3489,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Je célébrerai ton Nom,\nC’est toi qui m’as racheté,\nEt mes lèvres annonceront\nTa bonté."
+		"text": "2 - Je célébrerai ton Nom,\nC'est toi qui m'as racheté,\nEt mes lèvres annonceront\nTa bonté."
 	},
 	{
 		"type": "verse",
-		"text": "3 - C’est toi qui m’as délivré\nDe la mort et du péché,\nEt par ta résurrection,\nDonné vie."
+		"text": "3 - C'est toi qui m'as délivré\nDe la mort et du péché,\nEt par ta résurrection,\nDonné vie."
 	},
 	{
 		"type": "verse",
@@ -3679,7 +3587,7 @@
 {
 	"id": "je-veux-voir-dieu",
 	"title": "Je veux voir Dieu",
-	"writer": "P ME de l’Enfant Jésus",
+	"writer": "P ME de l'Enfant Jésus",
 	"composer": "Fr JB de la sainte Famille",
 	"lyrics": [
 	{
@@ -3700,7 +3608,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Par ma foi et mon amour, je m’ouvre à ta grâce.\nQue ta volonté se fasse en moi !"
+		"text": "4 - Par ma foi et mon amour, je m'ouvre à ta grâce.\nQue ta volonté se fasse en moi !"
 	}
 	]
 },
@@ -3854,7 +3762,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - La première en chemin, brille ton espérance\nDans ton coeur déchiré et la nuit du tombeau.\nHeureuse toi qui crois d'une absolue confiance;\nSans savoir et sans toucher, tu sais le jour nouveau."
+		"text": "5 - La première en chemin, brille ton espérance\nDans ton cœur déchiré et la nuit du tombeau.\nHeureuse toi qui crois d'une absolue confiance;\nSans savoir et sans toucher, tu sais le jour nouveau."
 	},
 	{
 		"type": "chorus",
@@ -3899,11 +3807,11 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Mendiez, mendiez l’humilité du cœur,\nMendiez, mendiez la grâce de la prière.\nSoyez fils et filles de la lumière."
+		"text": "Mendiez, mendiez l'humilité du cœur,\nMendiez, mendiez la grâce de la prière.\nSoyez fils et filles de la lumière."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Soyez mendiants de Dieu,\nLa grâce de son amour vous transformera,\nL’amour divin vous sanctifiera."
+		"text": "1 - Soyez mendiants de Dieu,\nLa grâce de son amour vous transformera,\nL'amour divin vous sanctifiera."
 	},
 	{
 		"type": "verse",
@@ -3911,7 +3819,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Priez, la prière c’est le souffle de vos âmes,\nLa source de l’Amour et de la Vérité,\nLa source de la Lumière."
+		"text": "3 - Priez, la prière c'est le souffle de vos âmes,\nLa source de l'Amour et de la Vérité,\nLa source de la Lumière."
 	},
 	{
 		"type": "verse",
@@ -4001,7 +3909,7 @@
 	"id": "mon-pere-je-mabandonne-a-toi",
 	"title": "Mon Père, je m'abandonne à toi",
 	"rating": "14-30",
-	"writer": "J.-F. Léost D’après Charles de Foucauld et sainte Thérèse de l’Enfant Jésus",
+	"writer": "J.-F. Léost D'après Charles de Foucauld et sainte Thérèse de l'Enfant Jésus",
 	"composer": "J.-F. Léost",
 	"publisher":"Editions De L'Emmanuel",
 	"lyrics": [
@@ -4055,7 +3963,7 @@
 	},
 	{
 		"type": "translation",
-		"text": "Que rien ne te trouble, que rien ne t’effraie;\nqui a Dieu ne manque de rien.\nQue rien ne te trouble, que rien ne t’effraie;\nseul Dieu suffit.\n(Sainte Thérèse d'Avila)"
+		"text": "Que rien ne te trouble, que rien ne t'effraie;\nqui a Dieu ne manque de rien.\nQue rien ne te trouble, que rien ne t'effraie;\nseul Dieu suffit.\n(Sainte Thérèse d'Avila)"
 	}
 	]
 },
@@ -4116,7 +4024,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "Nous sommes un peuple qui se lève.\nNous sommes une Église qui s’éveille.\nNous sommes tournés vers l’Éternel.\nNous sommes unis par Son appel."
+		"text": "Nous sommes un peuple qui se lève.\nNous sommes une Église qui s'éveille.\nNous sommes tournés vers l'Éternel.\nNous sommes unis par Son appel."
 	},
 	{
 		"type": "chorus",
@@ -4335,7 +4243,7 @@
 },
 {
 	"id": "quexulte-tout-lunivers",
-	"title": "Qu’exulte tout l’univers",
+	"title": "Qu'exulte tout l'univers",
 	"rating": "DEV44-72",
 	"publisher": "Editions De L'Emmanuel",
 	"writer": "Communauté De L'Emmanuel",
@@ -4515,7 +4423,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - As Your Spirit calls to rise\nwe will answer and do Your Will.\nWe’ll forever testify\nof Your mercy and unfailing love."
+		"text": "2 - As Your Spirit calls to rise\nwe will answer and do Your Will.\nWe'll forever testify\nof Your mercy and unfailing love."
 	},
 	{
 		"type": "translation",
@@ -4541,7 +4449,7 @@
 	},
 	{
 		"type": "chorus",
-		"text": "Regarde l’étoile, invoque Marie,\nSi tu la suis, tu ne crains rien !\nRegarde l’étoile, invoque Marie,\nElle te conduit sur le chemin !"
+		"text": "Regarde l'étoile, invoque Marie,\nSi tu la suis, tu ne crains rien !\nRegarde l'étoile, invoque Marie,\nElle te conduit sur le chemin !"
 	},
 	{
 		"type": "verse",
@@ -4557,7 +4465,7 @@
 	},
 	{
 		"type": "chorus",
-		"text": "PONT\nSi tu la suis, tu ne dévies pas,\nSi tu la pries, tu ne faiblis pas.\nTu ne crains rien, elle est avec toi,\nEt jusqu’au port, elle te guidera."
+		"text": "PONT\nSi tu la suis, tu ne dévies pas,\nSi tu la pries, tu ne faiblis pas.\nTu ne crains rien, elle est avec toi,\nEt jusqu'au port, elle te guidera."
 	}
 	]
 },
@@ -4659,27 +4567,27 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Risquerons-nous\nD’être amis dans le Seigneur\nOserons-nous\nOuvrir nos portes, ouvrir nos cœurs\nA cet Homme\nCe Dieu pour la vie\nQui nous nomme \"amis\"."
+		"text": "Risquerons-nous\nD'être amis dans le Seigneur\nOserons-nous\nOuvrir nos portes, ouvrir nos cœurs\nA cet Homme\nCe Dieu pour la vie\nQui nous nomme \"amis\"."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Quand mon chemin a commencé\nTu es venu m’accompagner\nEt Tu es là\nTout près de moi\nAmis aujourd’hui, amis pour la vie."
+		"text": "1 - Quand mon chemin a commencé\nTu es venu m'accompagner\nEt Tu es là\nTout près de moi\nAmis aujourd'hui, amis pour la vie."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Sur mon chemin, tu as tracé\nL’empreinte de notre amitié\nC’est toi, mon frère\nTu es ma pierre\nAmis aujourd’hui, amis pour la vie."
+		"text": "2 - Sur mon chemin, tu as tracé\nL'empreinte de notre amitié\nC'est toi, mon frère\nTu es ma pierre\nAmis aujourd'hui, amis pour la vie."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Quand nos chemins se sont croisés\nTu es venu nous rassembler\nAu cœur des temps\nL’amour devant\nAmis aujourd’hui, amis pour la vie."
+		"text": "3 - Quand nos chemins se sont croisés\nTu es venu nous rassembler\nAu cœur des temps\nL'amour devant\nAmis aujourd'hui, amis pour la vie."
 	},
 	{
 		"type": "verse",
-		"text": "4 - C’est Ton chemin qui est donné\nÀ suivre en toute liberté\nChacun sa voie\nMais avec Toi\nAmis aujourd’hui, amis pour la vie."
+		"text": "4 - C'est Ton chemin qui est donné\nÀ suivre en toute liberté\nChacun sa voie\nMais avec Toi\nAmis aujourd'hui, amis pour la vie."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Sur les chemins, tous appelés\nÀ proclamer cette amitié\nPar notre foi\n« Je crois en Toi »\nAmis aujourd’hui, amis pour la vie."
+		"text": "5 - Sur les chemins, tous appelés\nÀ proclamer cette amitié\nPar notre foi\n« Je crois en Toi »\nAmis aujourd'hui, amis pour la vie."
 	}
 	]
 },
@@ -4732,7 +4640,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 -  J’ai besoin de t’aimer, d’un amour sans limites\nQue ta grâce coule en moi\nJ’ai besoin de pardon, de la bonté d’un sauveur\nL’espoir des nations"
+		"text": "1 -  J'ai besoin de t'aimer, d'un amour sans limites\nQue ta grâce coule en moi\nJ'ai besoin de pardon, de la bonté d'un sauveur\nL'espoir des nations"
 	},
 	{
 		"type": "chorus",
@@ -4740,7 +4648,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 -  Prends moi tel que je suis, mes peurs et mon péché\nJe m’abandonne à toi\nJe donne ma vie pour te suivre, tout ce en quoi je crois\nEt je me soumets"
+		"text": "2 -  Prends moi tel que je suis, mes peurs et mon péché\nJe m'abandonne à toi\nJe donne ma vie pour te suivre, tout ce en quoi je crois\nEt je me soumets"
 	},
 	{
 		"type": "chorus",
@@ -4949,15 +4857,15 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Flamme qui réchauffe qui ne détruit pas\nFlamme qui éclaire lumière sur nos pas\nFeu qui nous rassemble éclat d’un brasier\nFeu qui nous disperse en ciel étoilé"
+		"text": "2 - Flamme qui réchauffe qui ne détruit pas\nFlamme qui éclaire lumière sur nos pas\nFeu qui nous rassemble éclat d'un brasier\nFeu qui nous disperse en ciel étoilé"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Elan d’une fête aux mille couleurs\nElan d’une danse au rythme du bonheur\nFougue d’évangile, qui surprend chacun\nFougue d’évangile, appel à témoins"
+		"text": "3 - Elan d'une fête aux mille couleurs\nElan d'une danse au rythme du bonheur\nFougue d'évangile, qui surprend chacun\nFougue d'évangile, appel à témoins"
 	},
 	{
 		"type": "verse",
-		"text": "4 - Force pour les pauvres force pour les doux\nForce qui nous sauve qui nous remet debout\nTraces dans l’Histoire où l’homme est vivant\nTraces de la Gloire d’un Dieu très aimant"
+		"text": "4 - Force pour les pauvres force pour les doux\nForce qui nous sauve qui nous remet debout\nTraces dans l'Histoire où l'homme est vivant\nTraces de la Gloire d'un Dieu très aimant"
 	}
 	]
 },
@@ -5031,7 +4939,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Vous recevrez une force celle de l’Esprit Saint\nVous deviendrez des Apôtres en Son Nom élevez les mains\nEn Son Nom élevez les mains"
+		"text": "1 - Vous recevrez une force celle de l'Esprit Saint\nVous deviendrez des Apôtres en Son Nom élevez les mains\nEn Son Nom élevez les mains"
 	},
 	{
 		"type": "chorus",
@@ -5043,7 +4951,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Vous partirez sur les routes proclamer Jésus est la Vie\nEt vous n’aurez aucun doute embrasés par le Saint Esprit\nEmbrasés par le Saint Esprit"
+		"text": "2 - Vous partirez sur les routes proclamer Jésus est la Vie\nEt vous n'aurez aucun doute embrasés par le Saint Esprit\nEmbrasés par le Saint Esprit"
 	}
 	]
 },
@@ -5206,7 +5114,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - J’élève les yeux au loin,\nD’où me vient le secours.\nLe secours me vient de Dieu,\nDe Dieu seul !"
+		"text": "1 - J'élève les yeux au loin,\nD'où me vient le secours.\nLe secours me vient de Dieu,\nDe Dieu seul !"
 	},
 	{
 		"type": "verse",
@@ -5214,7 +5122,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Le soleil ne t’atteindra,\nNi la lune en la nuit.\nLe Seigneur est ton gardien,\nTon Abri"
+		"text": "3 - Le soleil ne t'atteindra,\nNi la lune en la nuit.\nLe Seigneur est ton gardien,\nTon Abri"
 	},
 	{
 		"type": "verse",
@@ -5230,19 +5138,19 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Nous sommes un peuple en marche sur terre,\nTiré du sommeil de la nuit,\nPortant l’aurore d’un monde nouveau,\nLibéré des forces ennemies !"
+		"text": "1 - Nous sommes un peuple en marche sur terre,\nTiré du sommeil de la nuit,\nPortant l'aurore d'un monde nouveau,\nLibéré des forces ennemies !"
 	},
 	{
 		"type": "chorus",
-		"text": "(Pré-refrain)\nTu éveilles nos cœurs, tu nous lances un appel :\nDevenez mes témoins jusqu’au bout de la terre !"
+		"text": "(Pré-refrain)\nTu éveilles nos cœurs, tu nous lances un appel :\nDevenez mes témoins jusqu'au bout de la terre !"
 	},
 	{
 		"type": "chorus",
-		"text": "Tu es l’Emmanuel, Dieu avec nous,\nDieu avec nous, Dieu avec nous.\nPortons la joie au monde toujours plus loin,\nToujours plus loin, toujours plus loin."
+		"text": "Tu es l'Emmanuel, Dieu avec nous,\nDieu avec nous, Dieu avec nous.\nPortons la joie au monde toujours plus loin,\nToujours plus loin, toujours plus loin."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Nous sommes un peuple au cœur de ce monde,\nSaisi par l’amour du Seigneur.\nBrûlons sans cesse d’un feu si puissant\nQu’il embrasera notre temps !"
+		"text": "2 - Nous sommes un peuple au cœur de ce monde,\nSaisi par l'amour du Seigneur.\nBrûlons sans cesse d'un feu si puissant\nQu'il embrasera notre temps !"
 	},
 	{
 		"type": "chorus",
@@ -5323,7 +5231,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "11 - Splendeur divine, Bonté de Dieu, ...\nVie éternelle, vie nouvelle, ...\n12 - Esprit du Père, Esprit du Fils, ...\nRayon d’amour glorieux, ..."
+		"text": "11 - Splendeur divine, Bonté de Dieu, ...\nVie éternelle, vie nouvelle, ...\n12 - Esprit du Père, Esprit du Fils, ...\nRayon d'amour glorieux, ..."
 	},
 	{
 		"type": "chorus",
@@ -5383,11 +5291,11 @@
 	"publisher": "Cté Chemin Neuf",
 	"lyrics": [
 	{
-		"type": "chorus",
-		"text": "Esprit de sainteté, viens combler nos cœurs,\nTout au fond de nos vies,\nRéveille ta puissance.\nEsprit de sainteté, viens combler nos cœurs,\nChaque jour, fais de nous des témoins du Seigneur."
+		"type": "verse",
+		"text": "Esprit de sainteté, viens combler nos cœurs,\nTout au fond de nos vies, réveille ta puissance.\nEsprit de sainteté, viens combler nos cœurs,\nChaque jour, fais de nous des témoins du Seigneur."
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Tu es la lumière qui vient nous éclairer,\nLe libérateur qui vient nous délivrer,\nLe consolateur, Esprit de vérité,\nEn toi l'espérance et la fidélité."
 	}
 	]
@@ -5430,7 +5338,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Ne crains pas, je suis ton Dieu,\nC’est moi qui t’ai choisi, appelé par ton nom.\nTu as du prix à mes yeux et je t’aime.\nNe crains pas car je suis avec toi."
+		"text": "Ne crains pas, je suis ton Dieu,\nC'est moi qui t'ai choisi, appelé par ton nom.\nTu as du prix à mes yeux et je t'aime.\nNe crains pas car je suis avec toi."
 	},
 	{
 		"type": "verse",
@@ -5438,7 +5346,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Le Seigneur m’a appelé dès le sein de ma mère,\nIl a prononcé mon nom.\nC’est lui qui m’a formé pour être son serviteur,\nLe témoin de sa gloire."
+		"text": "2 - Le Seigneur m'a appelé dès le sein de ma mère,\nIl a prononcé mon nom.\nC'est lui qui m'a formé pour être son serviteur,\nLe témoin de sa gloire."
 	}
 	]
 },
@@ -5517,23 +5425,23 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Prenez et mangez,\nc’est mon corps livré pour vous.\nPrenez et buvez,\nc’est mon sang versé pour vous."
+		"text": "1 - Prenez et mangez,\nc'est mon corps livré pour vous.\nPrenez et buvez,\nc'est mon sang versé pour vous."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Si quelqu’un a soif,\nqu’il vienne à moi et qu’il boive,\nqui croira en moi,\nde son sein l’eau jaillira."
+		"text": "2 - Si quelqu'un a soif,\nqu'il vienne à moi et qu'il boive,\nqui croira en moi,\nde son sein l'eau jaillira."
 	},
 	{
 		"type": "verse",
-		"text": "3 - La gloire de mon Père,\nc’est que vous portiez du fruit,\nayez foi en moi,\ndemandez, vous recevrez."
+		"text": "3 - La gloire de mon Père,\nc'est que vous portiez du fruit,\nayez foi en moi,\ndemandez, vous recevrez."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Dieu m’a envoyé,\nmoi aussi je vous envoie.\nRecevez l’Esprit\net proclamez le Salut."
+		"text": "4 - Dieu m'a envoyé,\nmoi aussi je vous envoie.\nRecevez l'Esprit\net proclamez le Salut."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Soyez mes témoins,\nje vous ferai pécheurs d’hommes.\nJe suis avec vous pour toujours,\nn’ayez pas peur."
+		"text": "5 - Soyez mes témoins,\nje vous ferai pécheurs d'hommes.\nJe suis avec vous pour toujours,\nn'ayez pas peur."
 	}
 	]
 },
@@ -5552,7 +5460,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - La Vie est un défi, fais lui face n’aie pas peur ;\nLa Vie est un devoir, l’accomplir grandis ton cœur.\nLa Vie est un jeu, apprends la règle de Dieu ;\nLa Vie est précieuse, prends en soin comme d’un feu"
+		"text": "2 - La Vie est un défi, fais lui face n'aie pas peur ;\nLa Vie est un devoir, l'accomplir grandis ton cœur.\nLa Vie est un jeu, apprends la règle de Dieu ;\nLa Vie est précieuse, prends en soin comme d'un feu"
 	},
 	{
 		"type": "verse",
@@ -5560,7 +5468,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - La Vie est tristesse, mais tu peux la surmonter ;\nLa Vie est un hymne, hâte-toi de le chanter.\nLa Vie est un combat, ne crains pas l’adversité ;\nLa Vie : une aventure, oseras-tu la tenter ?"
+		"text": "4 - La Vie est tristesse, mais tu peux la surmonter ;\nLa Vie est un hymne, hâte-toi de le chanter.\nLa Vie est un combat, ne crains pas l'adversité ;\nLa Vie : une aventure, oseras-tu la tenter ?"
 	},
 	{
 		"type": "verse",
@@ -5578,31 +5486,31 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Laissez-vous consumer\nPar le feu de l’amour de mon coeur.\nDepuis l’aube des temps\nJe veux habiter au creux de vos vies."
+		"text": "Laissez-vous consumer\nPar le feu de l'amour de mon cœur.\nDepuis l'aube des temps\nJe veux habiter au creux de vos vies."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Je suis venu allumer un feu sur terre,\nComme je voudrais qu’il soit déjà allumé !\nLaissez-vous brûler par ma Charité !"
+		"text": "1 - Je suis venu allumer un feu sur terre,\nComme je voudrais qu'il soit déjà allumé !\nLaissez-vous brûler par ma Charité !"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Voyez mon Coeur qui a tant aimé les hommes,\nEt qui en retour n’a reçu que du mépris.\nLaissez-vous aimer par mon coeur brûlant !"
+		"text": "2 - Voyez mon cœur qui a tant aimé les hommes,\nEt qui en retour n'a reçu que du mépris.\nLaissez-vous aimer par mon cœur brûlant !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Prenez mon Corps et buvez à ce calice.\nDepuis si longtemps, j’ai désiré ce moment…\nLaissez-moi venir demeurer en vous !"
+		"text": "3 - Prenez mon Corps et buvez à ce calice.\nDepuis si longtemps, j'ai désiré ce moment…\nLaissez-moi venir demeurer en vous !"
 	},
 	{
 		"type": "verse",
-		"text": "4 - N’écoutez pas votre coeur qui vous condamne,\nMon amour pour vous est plus grand que vos péchés.\nLaissez mon Esprit purifier vos vies !"
+		"text": "4 - N'écoutez pas votre cœur qui vous condamne,\nMon amour pour vous est plus grand que vos péchés.\nLaissez mon Esprit purifier vos vies !"
 	},
 	{
 		"type": "verse",
-		"text": "5 - Ma Croix dressée est un signe pour le monde.\nVoici l’étendard, il conduit vers le salut.\nLaissez-vous guider vers la sainteté !"
+		"text": "5 - Ma Croix dressée est un signe pour le monde.\nVoici l'étendard, il conduit vers le salut.\nLaissez-vous guider vers la sainteté !"
 	},
 	{
 		"type": "verse",
-		"text": "6 - Je suis venu pour vous donner la Victoire,\nJ’ai vaincu la mort. Ayez foi, ne craignez pas,\nExultez de joie pour l’éternité !"
+		"text": "6 - Je suis venu pour vous donner la Victoire,\nJ'ai vaincu la mort. Ayez foi, ne craignez pas,\nExultez de joie pour l'éternité !"
 	}
 	]
 },
@@ -5614,11 +5522,11 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Admirable grandeur,\nétonnante bonté\ndu Maître de l’univers\nqui s’humilie pour nous\nau point de se cacher\ndans une petite hostie de pain."
+		"text": "1 - Admirable grandeur,\nétonnante bonté\ndu Maître de l'univers\nqui s'humilie pour nous\nau point de se cacher\ndans une petite hostie de pain."
 	},
 	{
 		"type": "chorus",
-		"text": "« Regardez l’humilité de Dieu,\nRegardez l’humilité de Dieu,\nRegardez l’humilité de Dieu,\net faites-lui hommage de vos cœurs. »"
+		"text": "« Regardez l'humilité de Dieu,\nRegardez l'humilité de Dieu,\nRegardez l'humilité de Dieu,\net faites-lui hommage de vos cœurs. »"
 	},
 	{
 		"type": "verse",
@@ -5671,15 +5579,15 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Viens, onction céleste, source d’eau vive,\naffermis nos coeurs et guéris nos corps."
+		"text": "2 - Viens, onction céleste, source d'eau vive,\naffermis nos cœurs et guéris nos corps."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Esprit d’allégresse, joie de l’Église,\nfais jaillir des coeurs le chant de l’Agneau."
+		"text": "3 - Esprit d'allégresse, joie de l'Église,\nfais jaillir des cœurs le chant de l'Agneau."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Fais-nous reconnaître l’Amour du Père\net révèle-nous la face du Christ."
+		"text": "4 - Fais-nous reconnaître l'Amour du Père\net révèle-nous la face du Christ."
 	},
 	{
 		"type": "verse",
@@ -5758,15 +5666,15 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Viens, Esprit, viens en nos cœurs\nViens, Esprit, nous visiter.\nViens, Esprit, nous vivifier,\nViens, nous t’attendons."
+		"text": "1 - Viens, Esprit, viens en nos cœurs\nViens, Esprit, nous visiter.\nViens, Esprit, nous vivifier,\nViens, nous t'attendons."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Viens, Esprit de Sainteté\nViens, Esprit de vérité.\nViens, Esprit de charité,\nViens, nous t’attendons."
+		"text": "2 - Viens, Esprit de Sainteté\nViens, Esprit de vérité.\nViens, Esprit de charité,\nViens, nous t'attendons."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Viens, Esprit, nous rassembler,\nViens, Esprit, nous embraser.\nViens, Esprit, nous recréer,\nViens, nous t’attendons."
+		"text": "3 - Viens, Esprit, nous rassembler,\nViens, Esprit, nous embraser.\nViens, Esprit, nous recréer,\nViens, nous t'attendons."
 	}
 	]
 },
@@ -5776,15 +5684,15 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Maintenant, Seigneur, Tu peux me laisser m’en aller dans la paix,\nMaintenant, Seigneur, Tu peux me laisser reposer."
+		"text": "Maintenant, Seigneur, Tu peux me laisser m'en aller dans la paix,\nMaintenant, Seigneur, Tu peux me laisser reposer."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Tu peux laisser s’en aller ton serviteur, en paix selon Ta parole\nCar mes yeux ont vu le salut que Tu prépares à la face des peuples."
+		"text": "1 - Tu peux laisser s'en aller ton serviteur, en paix selon Ta parole\nCar mes yeux ont vu le salut que Tu prépares à la face des peuples."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Lumière pour éclairer les nations et gloire d’Israël ton peuple.\nGloire au Père et au Fils et au Saint Esprit pour les siècles des siècles."
+		"text": "2 - Lumière pour éclairer les nations et gloire d'Israël ton peuple.\nGloire au Père et au Fils et au Saint Esprit pour les siècles des siècles."
 	}
 	]
 },
@@ -5829,7 +5737,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Nous sommes le corps du Christ,\nChacun de nous est un membre de ce corps\nChacun reçoit la grâce de l’Esprit, Pour le bien du corps entier. (bis)"
+		"text": "Nous sommes le corps du Christ,\nChacun de nous est un membre de ce corps\nChacun reçoit la grâce de l'Esprit, Pour le bien du corps entier. (bis)"
 	},
 	{
 		"type": "verse",
@@ -6007,11 +5915,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - Ô lumière bienheureuse,\nViens remplir jusqu’à l’intime\nLe cœur de tous tes fidèles"
+		"text": "5 - Ô lumière bienheureuse,\nViens remplir jusqu'à l'intime\nLe cœur de tous tes fidèles"
 	},
 	{
 		"type": "verse",
-		"text": "6 - Sans ta puissance divine,\nIl n’est rien en aucun homme,\nRien qui ne soit perverti."
+		"text": "6 - Sans ta puissance divine,\nIl n'est rien en aucun homme,\nRien qui ne soit perverti."
 	},
 	{
 		"type": "verse",
@@ -6099,7 +6007,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "6 - Rendons gloire et louange à notre Père,\nA Jésus Christ qui rachète les hommes,\nA l'Esprit qui demeure dans nos coeurs,\nMaintenant, pour toujours et dans les siècles."
+		"text": "6 - Rendons gloire et louange à notre Père,\nA Jésus Christ qui rachète les hommes,\nA l'Esprit qui demeure dans nos cœurs,\nMaintenant, pour toujours et dans les siècles."
 	}
 	]
 },
@@ -6144,23 +6052,23 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Dieu t’a choisi parmi les peuples :\nPas un qu’il ait ainsi traité.\nEn redisant partout son oeuvre,\nSois le témoin de sa bonté."
+		"text": "1 - Dieu t'a choisi parmi les peuples :\nPas un qu'il ait ainsi traité.\nEn redisant partout son oeuvre,\nSois le témoin de sa bonté."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Dieu t’a formé dans sa Parole\nEt t’a fait part de son dessein :\nAnnonce-le à tous les hommes\nPour qu’en son peuple ils ne soient qu’un."
+		"text": "2 - Dieu t'a formé dans sa Parole\nEt t'a fait part de son dessein :\nAnnonce-le à tous les hommes\nPour qu'en son peuple ils ne soient qu'un."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Tu es le peuple de l’Alliance,\nMarqué du sceau de Jésus-Christ :\nMets en lui seul ton espérance\nPour que ce monde vienne à lui."
+		"text": "3 - Tu es le peuple de l'Alliance,\nMarqué du sceau de Jésus-Christ :\nMets en lui seul ton espérance\nPour que ce monde vienne à lui."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Dieu t’a tiré de l’esclavage,\nIl t’a rendu ta liberté.\nEn souvenir de ton passage,\nBrise les liens des opprimés."
+		"text": "4 - Dieu t'a tiré de l'esclavage,\nIl t'a rendu ta liberté.\nEn souvenir de ton passage,\nBrise les liens des opprimés."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Dieu t’a lavé de toute offense,\nEn te marquant du sang sauveur.\nIl s’est chargé de tes souffrances :\nSouffre avec lui pour les pécheurs."
+		"text": "5 - Dieu t'a lavé de toute offense,\nEn te marquant du sang sauveur.\nIl s'est chargé de tes souffrances :\nSouffre avec lui pour les pécheurs."
 	},
 	{
 		"type": "verse",
@@ -6168,15 +6076,15 @@
 	},
 	{
 		"type": "verse",
-		"text": "7 - Dieu t’a nourri avec largesse\nQuand tu errais aux lieux déserts :\nVois ton prochain dans la détresse,\nSecours en lui ta propre chair."
+		"text": "7 - Dieu t'a nourri avec largesse\nQuand tu errais aux lieux déserts :\nVois ton prochain dans la détresse,\nSecours en lui ta propre chair."
 	},
 	{
 		"type": "verse",
-		"text": "8 - Dieu a dressé pour toi la table,\nVers l’abondance, il t’a conduit :\nÀ toi de faire le partage\nDu pain des hommes aujourd’hui."
+		"text": "8 - Dieu a dressé pour toi la table,\nVers l'abondance, il t'a conduit :\nÀ toi de faire le partage\nDu pain des hommes aujourd'hui."
 	},
 	{
 		"type": "verse",
-		"text": "9 - Pour transformer le coeur du monde,\nLe corps du Christ est pain rompu.\nL’amour demande ta réponse :\nDeviens ce que tu as reçu."
+		"text": "9 - Pour transformer le cœur du monde,\nLe corps du Christ est pain rompu.\nL'amour demande ta réponse :\nDeviens ce que tu as reçu."
 	},
 	{
 		"type": "verse",
@@ -6184,15 +6092,15 @@
 	},
 	{
 		"type": "verse",
-		"text": "11 - Toi qui connais le nom du Père\nEt vois ton nom s’inscrire aux cieux,\nReprends sans cesse en ta prière\nLe cri des hommes vers leur Dieu."
+		"text": "11 - Toi qui connais le nom du Père\nEt vois ton nom s'inscrire aux cieux,\nReprends sans cesse en ta prière\nLe cri des hommes vers leur Dieu."
 	},
 	{
 		"type": "verse",
-		"text": "12 - Dieu t’a donné de rendre grâce\nPar Jésus-Christ qui t’a sauvé :\nQue ta louange soit la trace\nDe sa victoire et de ta paix !"
+		"text": "12 - Dieu t'a donné de rendre grâce\nPar Jésus-Christ qui t'a sauvé :\nQue ta louange soit la trace\nDe sa victoire et de ta paix !"
 	},
 	{
 		"type": "verse",
-		"text": "13 - Tu as en toi l’Esprit du Père\nQui te consacre peuple saint :\nGarde tes pas dans sa lumière\nPour être au monde son témoin."
+		"text": "13 - Tu as en toi l'Esprit du Père\nQui te consacre peuple saint :\nGarde tes pas dans sa lumière\nPour être au monde son témoin."
 	},
 	{
 		"type": "verse",
@@ -6200,7 +6108,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "15 - Dieu t’a confié d’être lumière,\nNe t’enfouis pas sous le boisseau !\nChrist est livré pour tous tes frères :\nBrûle avec lui d’un feu nouveau."
+		"text": "15 - Dieu t'a confié d'être lumière,\nNe t'enfouis pas sous le boisseau !\nChrist est livré pour tous tes frères :\nBrûle avec lui d'un feu nouveau."
 	},
 	{
 		"type": "verse",
@@ -6222,7 +6130,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Celui qui a reçu le Soleil\nAu fond de son coeur misérable :\nLe Corps du Seigneur;\nCelui qui a reçu le Soleil\nCelui-là dans la nuit chantera.\nAujourd'hui Seigneur reste avec nous :\nQue ton peuple aujourd'hui habite dans ta gloire."
+		"text": "2 - Celui qui a reçu le Soleil\nAu fond de son cœur misérable :\nLe Corps du Seigneur;\nCelui qui a reçu le Soleil\nCelui-là dans la nuit chantera.\nAujourd'hui Seigneur reste avec nous :\nQue ton peuple aujourd'hui habite dans ta gloire."
 	},
 	{
 		"type": "verse",
@@ -6247,19 +6155,19 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Tournez les yeux vers le Seigneur,\nEt rayonnez de joie,\nChantez son nom de tout votre cœur,\nIl est votre Sauveur,\nC’est lui votre Seigneur."
+		"text": "Tournez les yeux vers le Seigneur,\nEt rayonnez de joie,\nChantez son nom de tout votre cœur,\nIl est votre Sauveur,\nC'est lui votre Seigneur."
 	},
 	{
 		"type": "verse",
-		"text": "1 - J’ai cherché le Seigneur\nEt il m’a écouté.\nIl m’a guéri de mes peurs\nEt sans fin je le louerai."
+		"text": "1 - J'ai cherché le Seigneur\nEt il m'a écouté.\nIl m'a guéri de mes peurs\nEt sans fin je le louerai."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Dieu regarde ceux qu’il aime,\nIl écoute leur voix,\nIl les console de leur peine,\nEt il guide leurs pas."
+		"text": "2 - Dieu regarde ceux qu'il aime,\nIl écoute leur voix,\nIl les console de leur peine,\nEt il guide leurs pas."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Ceux qui cherchent le Seigneur\nNe seront privés de rien.\nS’ils lui ouvrent leur cœur,\nIls seront comblés de bien."
+		"text": "3 - Ceux qui cherchent le Seigneur\nNe seront privés de rien.\nS'ils lui ouvrent leur cœur,\nIls seront comblés de bien."
 	}
 	]
 },
@@ -6282,7 +6190,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Pour tous ceux que l'amour illumine,\nLe regard qui discerne tes signes,\nBENI SOIS-TU, SEIGNEUR !\nPour le Christ honoré dans le pauvre,\nLe partage annonçant le Royaume,\nBENI SOIS-TU, SEIGNEUR !\nNotre coeur est en fête pour toi."
+		"text": "3 - Pour tous ceux que l'amour illumine,\nLe regard qui discerne tes signes,\nBENI SOIS-TU, SEIGNEUR !\nPour le Christ honoré dans le pauvre,\nLe partage annonçant le Royaume,\nBENI SOIS-TU, SEIGNEUR !\nNotre cœur est en fête pour toi."
 	},
 	{
 		"type": "verse",
@@ -6347,15 +6255,15 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Il a fait le ciel et la terre,\nÉTERNEL EST SON AMOUR,\nFaçonné l’homme à son image,\nÉTERNEL EST SON AMOUR."
+		"text": "1 - Il a fait le ciel et la terre,\nÉTERNEL EST SON AMOUR,\nFaçonné l'homme à son image,\nÉTERNEL EST SON AMOUR."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Il sauva Noé du déluge,\nÉTERNEL EST SON AMOUR,\nL’arc-en-ciel en signe d’alliance,\nÉTERNEL EST SON AMOUR."
+		"text": "2 - Il sauva Noé du déluge,\nÉTERNEL EST SON AMOUR,\nL'arc-en-ciel en signe d'alliance,\nÉTERNEL EST SON AMOUR."
 	},
 	{
 		"type": "verse",
-		"text": "3 - D’Abraham, il fit un grand peuple,\nÉTERNEL EST SON AMOUR,\nPar milliers fut sa descendance,\nÉTERNEL EST SON AMOUR."
+		"text": "3 - D'Abraham, il fit un grand peuple,\nÉTERNEL EST SON AMOUR,\nPar milliers fut sa descendance,\nÉTERNEL EST SON AMOUR."
 	},
 	{
 		"type": "verse",
@@ -6375,11 +6283,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "8 - Crucifié, c’est sa vie qu’Il donne,\nÉTERNEL EST SON AMOUR,\nMais le Père le ressuscite,\nÉTERNEL EST SON AMOUR."
+		"text": "8 - Crucifié, c'est sa vie qu'Il donne,\nÉTERNEL EST SON AMOUR,\nMais le Père le ressuscite,\nÉTERNEL EST SON AMOUR."
 	},
 	{
 		"type": "verse",
-		"text": "9 - Dans l’Esprit Saint, Il nous baptise,\nÉTERNEL EST SON AMOUR,\nSon amour forge notre Église,\nÉTERNEL EST SON AMOUR."
+		"text": "9 - Dans l'Esprit Saint, Il nous baptise,\nÉTERNEL EST SON AMOUR,\nSon amour forge notre Église,\nÉTERNEL EST SON AMOUR."
 	},
 	{
 		"type": "verse",
@@ -6405,7 +6313,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Jérusalem, réjouis-toi, car le Seigneur est avec toi :\nPour ton bonheur, il t’a choisie !"
+		"text": "2 - Jérusalem, réjouis-toi, car le Seigneur est avec toi :\nPour ton bonheur, il t'a choisie !"
 	},
 	{
 		"type": "verse",
@@ -6421,11 +6329,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "6 - « Si tu savais le Don de Dieu », si tu croyais en son amour,\nTu n’aurais plus de peur en toi."
+		"text": "6 - « Si tu savais le Don de Dieu », si tu croyais en son amour,\nTu n'aurais plus de peur en toi."
 	},
 	{
 		"type": "verse",
-		"text": "7 - Que Jésus-Christ nous garde tous dans l’unité d’un même Corps,\nNous qui mangeons le même Pain."
+		"text": "7 - Que Jésus-Christ nous garde tous dans l'unité d'un même Corps,\nNous qui mangeons le même Pain."
 	},
 	{
 		"type": "verse",
@@ -6443,7 +6351,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Venez ! Approchons-nous de la table du Christ,\nIl nous livre son corps et son sang,\nIl se fait nourriture, Pain de Vie éternelle,\nNous fait boire à la coupe des Noces de l’Agneau !"
+		"text": "Venez ! Approchons-nous de la table du Christ,\nIl nous livre son corps et son sang,\nIl se fait nourriture, Pain de Vie éternelle,\nNous fait boire à la coupe des Noces de l'Agneau !"
 	},
 	{
 		"type": "verse",
@@ -6451,19 +6359,19 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Par le pain et le vin reçus en communion,\nVoici le sacrifice qui nous rend à la Vie.\nLe sang de l’Alliance jaillit du cœur de Dieu,\nQuand le Verbe fait chair s’offre à nous sur la Croix."
+		"text": "2 - Par le pain et le vin reçus en communion,\nVoici le sacrifice qui nous rend à la Vie.\nLe sang de l'Alliance jaillit du cœur de Dieu,\nQuand le Verbe fait chair s'offre à nous sur la Croix."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Dieu est notre berger, nous ne manquons de rien,\nSur des prés d’herbe fraîche, Il nous fait reposer.\nIl restaure notre âme, Il nous garde du mal,\nQuand Il dresse pour nous la Table du Salut."
+		"text": "3 - Dieu est notre berger, nous ne manquons de rien,\nSur des prés d'herbe fraîche, Il nous fait reposer.\nIl restaure notre âme, Il nous garde du mal,\nQuand Il dresse pour nous la Table du Salut."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Au cours des premiers temps, lorsque le juste, Abel,\nOffrit le sacrifice, signe du don parfait,\nPar la main de son frère, son sang fut répandu,\nComme un cri d’innocent préfigurant Jésus."
+		"text": "4 - Au cours des premiers temps, lorsque le juste, Abel,\nOffrit le sacrifice, signe du don parfait,\nPar la main de son frère, son sang fut répandu,\nComme un cri d'innocent préfigurant Jésus."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Lorsque Melchisédek accueillit Abraham,\nLui le roi et grand-prêtre, adorant le Très-Haut,\nAnnonça l’Alliance par le pain et le vin :\nIl bénit Abraham et fut signe du Christ."
+		"text": "5 - Lorsque Melchisédek accueillit Abraham,\nLui le roi et grand-prêtre, adorant le Très-Haut,\nAnnonça l'Alliance par le pain et le vin :\nIl bénit Abraham et fut signe du Christ."
 	},
 	{
 		"type": "verse",
@@ -6471,7 +6379,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "7 - Restant le seul témoin au cœur brûlant pour Dieu,\nÉlie fut le prophète de feu et de douceur.\nC’est grâce au pain des anges qu’il put gravir l’Horeb\nEt découvrir son Dieu dans un souffle d’amour."
+		"text": "7 - Restant le seul témoin au cœur brûlant pour Dieu,\nÉlie fut le prophète de feu et de douceur.\nC'est grâce au pain des anges qu'il put gravir l'Horeb\nEt découvrir son Dieu dans un souffle d'amour."
 	},
 	{
 		"type": "verse",
@@ -6479,7 +6387,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "9 - Rayonne et resplendis, Église du Seigneur,\nCar Il est ta Lumière, Dieu L’a ressuscité !\nQue tout genou fléchisse au nom de Jésus Christ !\nIl nous rend à la Vie par son Eucharistie !"
+		"text": "9 - Rayonne et resplendis, Église du Seigneur,\nCar Il est ta Lumière, Dieu L'a ressuscité !\nQue tout genou fléchisse au nom de Jésus Christ !\nIl nous rend à la Vie par son Eucharistie !"
 	}
 	]
 },
@@ -6561,7 +6469,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "9 - Ses chemins sont jeunesse pour les coeurs.\nChrist a faim d'envoyer des rassembleurs.\nSerez-vous ses témoins,\nLes prophètes du Seigneur ?"
+		"text": "9 - Ses chemins sont jeunesse pour les cœurs.\nChrist a faim d'envoyer des rassembleurs.\nSerez-vous ses témoins,\nLes prophètes du Seigneur ?"
 	}
 	]
 },
@@ -6576,7 +6484,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nQui que tu sois ton Dieu t’appelle,\nqui que tu sois, il est ton Père."
+		"text": "1 - Écoute la voix du Seigneur,\nPrête l'oreille de ton cœur.\nQui que tu sois ton Dieu t'appelle,\nqui que tu sois, il est ton Père."
 	},
 	{
 		"type": "chorus",
@@ -6584,19 +6492,19 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nTu entendras que Dieu fait grâce,\nTu entendras l'Esprit d’audace."
+		"text": "2 - Écoute la voix du Seigneur,\nPrête l'oreille de ton cœur.\nTu entendras que Dieu fait grâce,\nTu entendras l'Esprit d'audace."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nTu entendras crier les pauvres,\nTu entendras gémir ce monde."
+		"text": "3 - Écoute la voix du Seigneur,\nPrête l'oreille de ton cœur.\nTu entendras crier les pauvres,\nTu entendras gémir ce monde."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nTu entendras grandir l’Église,\nTu entendras sa paix promise."
+		"text": "4 - Écoute la voix du Seigneur,\nPrête l'oreille de ton cœur.\nTu entendras grandir l'Église,\nTu entendras sa paix promise."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Écoute la voix du Seigneur,\nPrête l’oreille de ton cœur.\nQui que tu sois, fais-toi violence,\nQui que tu sois, rejoins ton frère."
+		"text": "5 - Écoute la voix du Seigneur,\nPrête l'oreille de ton cœur.\nQui que tu sois, fais-toi violence,\nQui que tu sois, rejoins ton frère."
 	}
 	]
 },
@@ -6610,31 +6518,31 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Partageons le pain du Seigneur à la table de l’univers\nC’est le don sans retour de l’amour de notre Dieu."
+		"text": "Partageons le pain du Seigneur à la table de l'univers\nC'est le don sans retour de l'amour de notre Dieu."
 	},
 	{
 		"type": "chorus",
-		"text": "Nous chantons la croix du Seigneur qui se dresse sur l’univers\nComme un signe éclatant de l’amour de notre Dieu."
+		"text": "Nous chantons la croix du Seigneur qui se dresse sur l'univers\nComme un signe éclatant de l'amour de notre Dieu."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Venez à moi, vous tous qui succombez sous la fatigue,\nC’est moi qui porterai le poids de votre peine."
+		"text": "1 - Venez à moi, vous tous qui succombez sous la fatigue,\nC'est moi qui porterai le poids de votre peine."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Venez à moi, vous tous qui gémissez sous l’injustice,\nC’est moi qui suis pour vous la loi libératrice."
+		"text": "2 - Venez à moi, vous tous qui gémissez sous l'injustice,\nC'est moi qui suis pour vous la loi libératrice."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Venez à moi, vous tous qui trébuchez dans les ténèbres,\nSur vous se lèvera l’éclat de ma lumière."
+		"text": "3 - Venez à moi, vous tous qui trébuchez dans les ténèbres,\nSur vous se lèvera l'éclat de ma lumière."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Venez à moi, vous tous dont on méprise l’espérance,\nJe viens pour relever les humbles qui attendent."
+		"text": "4 - Venez à moi, vous tous dont on méprise l'espérance,\nJe viens pour relever les humbles qui attendent."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Venez à moi, vous tous que pour ma gloire on persécute,\nC’est vous qui règnerez au jour de ma victoire."
+		"text": "5 - Venez à moi, vous tous que pour ma gloire on persécute,\nC'est vous qui règnerez au jour de ma victoire."
 	},
 	{
 		"type": "verse",
@@ -6642,7 +6550,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "7 - Venez à moi, vous tous qui attendez la délivrance,\nC’est moi qui briserai les liens qui vous enserrent."
+		"text": "7 - Venez à moi, vous tous qui attendez la délivrance,\nC'est moi qui briserai les liens qui vous enserrent."
 	},
 	{
 		"type": "verse",
@@ -6658,7 +6566,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "11 - Venez à moi, vous tous qu’étreint déjà la mort cruelle,\nMa croix vient vous donner la force de la vaincre."
+		"text": "11 - Venez à moi, vous tous qu'étreint déjà la mort cruelle,\nMa croix vient vous donner la force de la vaincre."
 	},
 	{
 		"type": "verse",
@@ -6830,11 +6738,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Révèle-toi, Dieu de lumière,\nPour que jaillisse en nous l’adoration.\nÔ Jésus, viens prier en notre cœur,\nQue ta louange nous habite !"
+		"text": "2 - Révèle-toi, Dieu de lumière,\nPour que jaillisse en nous l'adoration.\nÔ Jésus, viens prier en notre cœur,\nQue ta louange nous habite !"
 	},
 	{
 		"type": "verse",
-		"text": "3 - Révèle-toi, Dieu de lumière,\nRecrée en nous un cœur universel !\nQue Jésus nous envoie de par le monde\nPorter l’amour et l’espérance."
+		"text": "3 - Révèle-toi, Dieu de lumière,\nRecrée en nous un cœur universel !\nQue Jésus nous envoie de par le monde\nPorter l'amour et l'espérance."
 	}
 	]
 },
@@ -6848,23 +6756,23 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Levez les yeux et regardez\nDéjà se lève la moisson\nLevez les yeux et regardez\nLe jour éclaire l’horizon."
+		"text": "Levez les yeux et regardez\nDéjà se lève la moisson\nLevez les yeux et regardez\nLe jour éclaire l'horizon."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Au milieu des longues plaines endurcies par l’hiver.\nParmi les terres en friches attendant le labour\nTu nous dis, Seigneur : « la moisson est blanche ».\nEt tu nous confies d’être moissonneurs."
+		"text": "1 - Au milieu des longues plaines endurcies par l'hiver.\nParmi les terres en friches attendant le labour\nTu nous dis, Seigneur : « la moisson est blanche ».\nEt tu nous confies d'être moissonneurs."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Dans les terres désertiques et les puits asséchés,\nPour toutes les soifs de vivre, d’espérer et d’aimer,\nTu nous dis, Seigneur : « Je suis une eau vive ».\nEt tu nous confies d’être porteurs d’eau."
+		"text": "2 - Dans les terres désertiques et les puits asséchés,\nPour toutes les soifs de vivre, d'espérer et d'aimer,\nTu nous dis, Seigneur : « Je suis une eau vive ».\nEt tu nous confies d'être porteurs d'eau."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Parmi les brebis errantes qui recherchent un berger,\nLorsque la peur nous menace et que rôdent les loups,\nTu nous dis, Seigneur : « Je suis le berger ».\nEt tu nous confies d’être ton appel."
+		"text": "3 - Parmi les brebis errantes qui recherchent un berger,\nLorsque la peur nous menace et que rôdent les loups,\nTu nous dis, Seigneur : « Je suis le berger ».\nEt tu nous confies d'être ton appel."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Quand nos routes s’assombrissent et que tombe la nuit,\nQuand nos lampes se consument, quand le feu s’est éteint,\nTu nous dis, Seigneur : « Je suis la lumière ».\nEt tu nous confies d’être feux nouveaux."
+		"text": "4 - Quand nos routes s'assombrissent et que tombe la nuit,\nQuand nos lampes se consument, quand le feu s'est éteint,\nTu nous dis, Seigneur : « Je suis la lumière ».\nEt tu nous confies d'être feux nouveaux."
 	}
 	]
 },
@@ -6983,7 +6891,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Avec délicatesse, veille sur nos foyers\nQue toujours y progressent l’amour et l’unité."
+		"text": "2 - Avec délicatesse, veille sur nos foyers\nQue toujours y progressent l'amour et l'unité."
 	},
 	{
 		"type": "verse",
@@ -7006,27 +6914,27 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Pour un voyage à l’infini, PRENONS LE LARGE\nC’est le Seigneur qui nous le dit, PRENONS LE LARGE\nDans notre barque il est présent, VERS L’AUTRE RIVE\nEt le bonheur nous y attend, VERS L’AUTRE RIVE."
+		"text": "1 - Pour un voyage à l'infini, PRENONS LE LARGE\nC'est le Seigneur qui nous le dit, PRENONS LE LARGE\nDans notre barque il est présent, VERS L'AUTRE RIVE\nEt le bonheur nous y attend, VERS L'AUTRE RIVE."
 	},
 	{
 		"type": "verse",
-		"text": "2 - Ne craignons pas de tout quitter, PRENONS LE LARGE\nLes mille riens sont du passé, PRENONS LE LARGE\nOuvrons nos yeux sur l’avenir, VERS L’AUTRE RIVE\nL’Esprit nous donne de partir, VERS L’AUTRE RIVE."
+		"text": "2 - Ne craignons pas de tout quitter, PRENONS LE LARGE\nLes mille riens sont du passé, PRENONS LE LARGE\nOuvrons nos yeux sur l'avenir, VERS L'AUTRE RIVE\nL'Esprit nous donne de partir, VERS L'AUTRE RIVE."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Mettons le cap vers l’autre bord, PRENONS LE LARGE\nMalgré la nuit, les vents très forts, PRENONS LE LARGE\nIl nous faudra beaucoup lutter, VERS L’AUTRE RIVE\nJésus demeure à nos côtés, VERS L’AUTRE RIVE."
+		"text": "3 - Mettons le cap vers l'autre bord, PRENONS LE LARGE\nMalgré la nuit, les vents très forts, PRENONS LE LARGE\nIl nous faudra beaucoup lutter, VERS L'AUTRE RIVE\nJésus demeure à nos côtés, VERS L'AUTRE RIVE."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Dans notre barque il peut dormir, PRENONS LE LARGE\nSon coeur entend nos moindres cris, PRENONS LE LARGE\nQuand l’ouragan vient à souffler, VERS L’AUTRE RIVE\nUn mot de lui nous donne paix, VERS L’AUTRE RIVE."
+		"text": "4 - Dans notre barque il peut dormir, PRENONS LE LARGE\nSon cœur entend nos moindres cris, PRENONS LE LARGE\nQuand l'ouragan vient à souffler, VERS L'AUTRE RIVE\nUn mot de lui nous donne paix, VERS L'AUTRE RIVE."
 	},
 	{
 		"type": "verse",
-		"text": "5 - Voici le temps d’improviser, PRENONS LE LARGE\nDieu fait confiance à nos projets, PRENONS LE LARGE\nIl se révèle un Dieu d’amour, VERS L’AUTRE RIVE\nEt nous voyons lever son jour, VERS L’AUTRE RIVE."
+		"text": "5 - Voici le temps d'improviser, PRENONS LE LARGE\nDieu fait confiance à nos projets, PRENONS LE LARGE\nIl se révèle un Dieu d'amour, VERS L'AUTRE RIVE\nEt nous voyons lever son jour, VERS L'AUTRE RIVE."
 	},
 	{
 		"type": "verse",
-		"text": "6 - Jusqu’au rivage en l’au-delà, PRENONS LE LARGE\nC’est l’aventure de la foi, PRENONS LE LARGE\nJésus connaît la traversée, VERS L’AUTRE RIVE\nIl nous fait signe d’avancer, VERS L’AUTRE RIVE."
+		"text": "6 - Jusqu'au rivage en l'au-delà, PRENONS LE LARGE\nC'est l'aventure de la foi, PRENONS LE LARGE\nJésus connaît la traversée, VERS L'AUTRE RIVE\nIl nous fait signe d'avancer, VERS L'AUTRE RIVE."
 	}
 	]
 },
@@ -7040,7 +6948,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "En marchant vers toi, Seigneur,\nNotre coeur est plein de joie :\nTa lumière nous conduit vers le Père\nDans l'Esprit, au royaume de la vie."
+		"text": "En marchant vers toi, Seigneur,\nNotre cœur est plein de joie :\nTa lumière nous conduit vers le Père\nDans l'Esprit, au royaume de la vie."
 	},
 	{
 		"type": "verse",
@@ -7124,7 +7032,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - J'ai vu l’eau vive jaillissant du cœur du Christ, alléluia.\nJ'ai vu la source devenir un fleuve immense, alléluia.\nTous ceux que lave cette eau seront sauvés et chanteront :"
+		"text": "1 - J'ai vu l'eau vive jaillissant du cœur du Christ, alléluia.\nJ'ai vu la source devenir un fleuve immense, alléluia.\nTous ceux que lave cette eau seront sauvés et chanteront :"
 	},
 	{
 		"type": "chorus",
@@ -7132,7 +7040,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - J’ai vu le temple désormais s'ouvrir à tous, alléluia.\nJ'ai vu le Verbe nous donner la paix de Dieu, alléluia.\nTous ceux qui croient en son nom seront sauvés et chanteront :"
+		"text": "2 - J'ai vu le temple désormais s'ouvrir à tous, alléluia.\nJ'ai vu le Verbe nous donner la paix de Dieu, alléluia.\nTous ceux qui croient en son nom seront sauvés et chanteront :"
 	},
 	{
 		"type": "verse",
@@ -7140,7 +7048,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Celui qui mange ma chair et boit mon sang, alléluia.\nEn vérité, je vous le dis, demeure en moi et moi en lui.\nLes fils de Dieu chanteront au festin de l’Agneau :"
+		"text": "4 - Celui qui mange ma chair et boit mon sang, alléluia.\nEn vérité, je vous le dis, demeure en moi et moi en lui.\nLes fils de Dieu chanteront au festin de l'Agneau :"
 	}
 	]
 },
@@ -7175,7 +7083,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Ouvrez vos cœurs au souffle de Dieu ;\nSa vie se greffe aux âmes qu’il touche ;\nQu’un peuple nouveau renaisse des eaux\nOù plane l’Esprit de vos baptêmes.\n"
+		"text": "1 - Ouvrez vos cœurs au souffle de Dieu ;\nSa vie se greffe aux âmes qu'il touche ;\nQu'un peuple nouveau renaisse des eaux\nOù plane l'Esprit de vos baptêmes.\n"
 	},
 	{
 		"type": "chorus",
@@ -7187,23 +7095,23 @@
 	},
 	{
 		"type": "chorus",
-		"text": "Offrons nos corps aux langues du feu\nPour qu’ils annoncent le mystère\nDe notre gloire."
+		"text": "Offrons nos corps aux langues du feu\nPour qu'ils annoncent le mystère\nDe notre gloire."
 	},
 	{
 		"type": "verse",
-		"text": "3 - Livrez votre être aux germes d’Esprit\nVenus se joindre à toute souffrance ;\nLe Corps du Seigneur est fait des douleurs\nDe l’homme écrasé par l’injustice."
+		"text": "3 - Livrez votre être aux germes d'Esprit\nVenus se joindre à toute souffrance ;\nLe Corps du Seigneur est fait des douleurs\nDe l'homme écrasé par l'injustice."
 	},
 	{
 		"type": "chorus",
-		"text": "Livrons notre être aux germes d’Esprit\nPour qu’il nous donne sa violence\nÀ son service."
+		"text": "Livrons notre être aux germes d'Esprit\nPour qu'il nous donne sa violence\nÀ son service."
 	},
 	{
 		"type": "verse",
-		"text": "4 - Tournez les yeux vers l’hôte intérieur\nSans rien vouloir que cette présence ;\nVivez de l’Esprit, pour être celui\nQui donne son nom à votre Père."
+		"text": "4 - Tournez les yeux vers l'hôte intérieur\nSans rien vouloir que cette présence ;\nVivez de l'Esprit, pour être celui\nQui donne son nom à votre Père."
 	},
 	{
 		"type": "chorus",
-		"text": "Tournons les yeux vers l’hôte intérieur\nCar il habite nos silences\nEt nos prières."
+		"text": "Tournons les yeux vers l'hôte intérieur\nCar il habite nos silences\nEt nos prières."
 	}
 	]
 },
@@ -7337,7 +7245,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Pain véritable,\nCorps et Sang de Jésus Christ,\nDon sans réserve de l’amour\nDu Seigneur,\nCorps véritable\nDe Jésus Sauveur."
+		"text": "1 - Pain véritable,\nCorps et Sang de Jésus Christ,\nDon sans réserve de l'amour\nDu Seigneur,\nCorps véritable\nDe Jésus Sauveur."
 	},
 	{
 		"type": "verse",
@@ -7345,11 +7253,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Pâque nouvelle\nDésirée d’un grand désir\nTerre promise du salut\nPar la croix,\nPâque éternelle\nÉternelle joie."
+		"text": "3 - Pâque nouvelle\nDésirée d'un grand désir\nTerre promise du salut\nPar la croix,\nPâque éternelle\nÉternelle joie."
 	},
 	{
 		"type": "verse",
-		"text": "4 - La faim des hommes\nDans le Christ est apaisée,\nLe pain qu’il donne est l’univers\nConsacré,\nLa faim des hommes\nPleinement comblée."
+		"text": "4 - La faim des hommes\nDans le Christ est apaisée,\nLe pain qu'il donne est l'univers\nConsacré,\nLa faim des hommes\nPleinement comblée."
 	},
 	{
 		"type": "verse",
@@ -7357,11 +7265,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "6 - Pain de la route\nDont le monde garde faim\nDans la douleur et dans l’effort\nChaque jour,\nPain de la route\nSois notre secours."
+		"text": "6 - Pain de la route\nDont le monde garde faim\nDans la douleur et dans l'effort\nChaque jour,\nPain de la route\nSois notre secours."
 	},
 	{
 		"type": "verse",
-		"text": "7 - Vigne du Père\nOù murit un fruit divin\nQuand paraîtra le Vendangeur\nÀ la fin,\nQu’auprès du Père\nNous buvions ce Vin."
+		"text": "7 - Vigne du Père\nOù murit un fruit divin\nQuand paraîtra le Vendangeur\nÀ la fin,\nQu'auprès du Père\nNous buvions ce Vin."
 	}
 	]
 },
@@ -7428,11 +7336,11 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Tu entends mon cri, tendre Père,\nToi l'infinie miséricorde\nJe m'appuie sur toi, je t'espère,\nParle Seigneur, mon coeur est prêt."
+		"text": "Tu entends mon cri, tendre Père,\nToi l'infinie miséricorde\nJe m'appuie sur toi, je t'espère,\nParle Seigneur, mon cœur est prêt."
 	},
 	{
 		"type": "verse",
-		"text": "1 - Comme l'or au creuset, purifie mon coeur\nNe m'abandonne pas.\nPar l'eau et par le feu, renouvelle-moi,\nRevêts-moi de ta joie."
+		"text": "1 - Comme l'or au creuset, purifie mon cœur\nNe m'abandonne pas.\nPar l'eau et par le feu, renouvelle-moi,\nRevêts-moi de ta joie."
 	},
 	{
 		"type": "verse",
@@ -7463,7 +7371,7 @@
 	},
 	{
 		"type": "chorus",
-		"text": "Tressaillez de joie ! Tressaillez de joie !\nCar vos noms sont inscrits pour toujours dans les cieux !\nTressaillez de joie ! Tressaillez de joie !\nCar vos noms sont inscrits dans le coeur de Dieu !"
+		"text": "Tressaillez de joie ! Tressaillez de joie !\nCar vos noms sont inscrits pour toujours dans les cieux !\nTressaillez de joie ! Tressaillez de joie !\nCar vos noms sont inscrits dans le cœur de Dieu !"
 	},
 	{
 		"type": "verse",
@@ -7493,15 +7401,15 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Bénissez Dieu, vous serviteurs de Dieu\nVous tous qui demeurez dans la maison de Dieu.\nLevez les mains vers le Dieu trois fois saint,\nProclamez qu’il est grand, que son nom est puissant !"
+		"text": "Bénissez Dieu, vous serviteurs de Dieu\nVous tous qui demeurez dans la maison de Dieu.\nLevez les mains vers le Dieu trois fois saint,\nProclamez qu'il est grand, que son nom est puissant !"
 	},
 	{
 		"type": "verse",
-		"text": "1 - Oui, je le sais, Notre Seigneur est grand,\nTout ce qu’il veut, sa main peut l’accomplir ;\nDu fond des mers jusqu’au fond des abîmes,\nDepuis la terre jusqu’au plus haut du ciel !"
+		"text": "1 - Oui, je le sais, Notre Seigneur est grand,\nTout ce qu'il veut, sa main peut l'accomplir ;\nDu fond des mers jusqu'au fond des abîmes,\nDepuis la terre jusqu'au plus haut du ciel !"
 	},
 	{
 		"type": "verse",
-		"text": "2 - Reconnaissez que le Seigneur est bon !\nIl est fidèle en tout ce qu’il a fait.\nJe veux chanter la douceur de son Nom,\nBéni soit Dieu, par toutes les nations !"
+		"text": "2 - Reconnaissez que le Seigneur est bon !\nIl est fidèle en tout ce qu'il a fait.\nJe veux chanter la douceur de son Nom,\nBéni soit Dieu, par toutes les nations !"
 	}
 	]
 },
@@ -7531,7 +7439,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "4 - Pour toujours, tu es vivant, alléluia !\nDe ton coeur, brasier ardent, alléluia !\nNous puisons l'esprit de vie, alléluia !\nPour t'annoncer au monde entier : alléluia !"
+		"text": "4 - Pour toujours, tu es vivant, alléluia !\nDe ton cœur, brasier ardent, alléluia !\nNous puisons l'esprit de vie, alléluia !\nPour t'annoncer au monde entier : alléluia !"
 	}
 	]
 },
@@ -7545,11 +7453,11 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Viens Esprit du Dieu vivant,\nRenouvelle tes enfants,\nViens, Esprit Saint, nous brûler de ton feu !\nDans nos coeurs, répands tes dons,\nSur nos lèvres inspire un chant,\nViens, Esprit Saint, viens transformer nos vies !"
+		"text": "1 - Viens Esprit du Dieu vivant,\nRenouvelle tes enfants,\nViens, Esprit Saint, nous brûler de ton feu !\nDans nos cœurs, répands tes dons,\nSur nos lèvres inspire un chant,\nViens, Esprit Saint, viens transformer nos vies !"
 	},
 	{
 		"type": "chorus",
-		"text": "Esprit de lumière, Esprit Créateur,\nRestaure en nous la joie, le feu, l’Espérance.\nAffermis nos âmes, ranime nos coeurs,\nPour témoigner de ton amour immense."
+		"text": "Esprit de lumière, Esprit Créateur,\nRestaure en nous la joie, le feu, l'Espérance.\nAffermis nos âmes, ranime nos cœurs,\nPour témoigner de ton amour immense."
 	},
 	{
 		"type": "verse",
@@ -7606,11 +7514,11 @@
 	"publisher": "Editions De L'Emmanuel",
 	"lyrics": [
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Jésus, Agneau de Dieu\nDigne es-tu de recevoir\nHonneur, puissance et gloire,\nLa majesté, la victoire !\nDigne es-tu de recevoir\nNotre amour, notre adoration. (bis)"
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "PONT\nAmen, amen\nHonneur, puissance et gloire ! (bis)"
 	}
 	]
@@ -7681,7 +7589,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - À ce monde que tu fais chaque jour avec tendresse,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde où tu voudrais plus de joie, moins de détresse,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde qui renaît s’il a foi en ta promesse,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+		"text": "1 - À ce monde que tu fais chaque jour avec tendresse,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ ce monde où tu voudrais plus de joie, moins de détresse,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ ce monde qui renaît s'il a foi en ta promesse,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU..."
 	},
 	{
 		"type": "chorus",
@@ -7689,11 +7597,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Sur les hommes qu’il t’a plude créer à ton image,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes que l’on tue pour leur peau ou leur visage,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes qui n’ont plus qu’à se taire sous l’outrage,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+		"text": "2 - Sur les hommes qu'il t'a plude créer à ton image,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes que l'on tue pour leur peau ou leur visage,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur les hommes qui n'ont plus qu'à se taire sous l'outrage,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
 	},
 	{
 		"type": "verse",
-		"text": "3 - À ce monde traversé par la haine et la violence,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde ravagé par la guerre et la souffrance,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce monde séparé de ses sources d’espérance,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+		"text": "3 - À ce monde traversé par la haine et la violence,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ ce monde ravagé par la guerre et la souffrance,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ ce monde séparé de ses sources d'espérance,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU..."
 	},
 	{
 		"type": "verse",
@@ -7701,7 +7609,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "5 - À l’Eglise que ton coeur engendra de sa blessure,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise toute en pleurs quand les frères se torturent,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise des pécheurs refusant sa déchirure,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+		"text": "5 - À l'Eglise que ton cœur engendra de sa blessure,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ l'Eglise toute en pleurs quand les frères se torturent,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ l'Eglise des pécheurs refusant sa déchirure,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU..."
 	},
 	{
 		"type": "verse",
@@ -7709,27 +7617,27 @@
 	},
 	{
 		"type": "verse",
-		"text": "7 - À l’Eglise pour la Paix et l’annonce de ton Règne,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise qui connaît les épreuves du calvaire,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ l’Eglise qui se plaît au message des Prophètes,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+		"text": "7 - À l'Eglise pour la Paix et l'annonce de ton Règne,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ l'Eglise qui connaît les épreuves du calvaire,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ l'Eglise qui se plaît au message des Prophètes,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU..."
 	},
 	{
 		"type": "verse",
-		"text": "8 - Sur ton peuple qui se meurt s’il n’élève ta louange,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ton peuple de chanteurs convoqué avec les anges.\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ton peuple sans frayeur que tu tiens dans l’Alliance,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+		"text": "8 - Sur ton peuple qui se meurt s'il n'élève ta louange,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ton peuple de chanteurs convoqué avec les anges.\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ton peuple sans frayeur que tu tiens dans l'Alliance,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
 	},
 	{
 		"type": "verse",
-		"text": "9 - À nos corps où tu as mis le désir de voir ta face,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ nos corps que tu conduis de leurs tombes vers leur Pâque,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ nos corps déjà bénis dans le Corps où tout est grâce,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+		"text": "9 - À nos corps où tu as mis le désir de voir ta face,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ nos corps que tu conduis de leurs tombes vers leur Pâque,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ nos corps déjà bénis dans le Corps où tout est grâce,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU..."
 	},
 	{
 		"type": "verse",
-		"text": "10 - Sur les foules esseulées qui ont soif de ta Parole,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur la Ville des sauvés où s’achève tout exode,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ta Vigne bien-aimée qui prépare ses récoltes,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+		"text": "10 - Sur les foules esseulées qui ont soif de ta Parole,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur la Ville des sauvés où s'achève tout exode,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur ta Vigne bien-aimée qui prépare ses récoltes,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
 	},
 	{
 		"type": "verse",
-		"text": "11 - À ce peuple que ton pain a gardé de la famine,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce peuple qui est tien et ne veut pas d’autre guide,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU...\nÀ ce peuple de témoins passionné pour ta justice,\nDONNE UN COEUR DE CHAIR, DONNE UN COEUR NOUVEAU..."
+		"text": "11 - À ce peuple que ton pain a gardé de la famine,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ ce peuple qui est tien et ne veut pas d'autre guide,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU...\nÀ ce peuple de témoins passionné pour ta justice,\nDONNE UN CŒUR DE CHAIR, DONNE UN CŒUR NOUVEAU..."
 	},
 	{
 		"type": "verse",
-		"text": "12 - Sur tous ceux que tu choisis pour répandre l’Evangile,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur tous ceux qui ont repris l’aventure des disciples,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur tous ceux qui ont appris la grandeur de ton service.\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
+		"text": "12 - Sur tous ceux que tu choisis pour répandre l'Evangile,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur tous ceux qui ont repris l'aventure des disciples,\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU...\nSur tous ceux qui ont appris la grandeur de ton service.\nENVOIE TON ESPRIT, UN ESPRIT NOUVEAU..."
 	}
 	]
 },
@@ -7788,7 +7696,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "Je crois en un seul Dieu, le Père tout puissant,\ncréateur du ciel et de la terre, de l’univers visible et invisible,"
+		"text": "Je crois en un seul Dieu, le Père tout puissant,\ncréateur du ciel et de la terre, de l'univers visible et invisible,"
 	},
 	{
 		"type": "verse",
@@ -7804,7 +7712,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "Pour nous les hommes, et pour notre salut,\nil descendit du ciel;\nPar l’Esprit Saint, il a pris chair de la Vierge Marie, et s’est fait homme."
+		"text": "Pour nous les hommes, et pour notre salut,\nil descendit du ciel;\nPar l'Esprit Saint, il a pris chair de la Vierge Marie, et s'est fait homme."
 	},
 	{
 		"type": "verse",
@@ -7816,11 +7724,11 @@
 	},
 	{
 		"type": "verse",
-		"text": "Il reviendra dans la gloire, pour juger les vivants et les morts\net son règne n’aura pas de fin."
+		"text": "Il reviendra dans la gloire, pour juger les vivants et les morts\net son règne n'aura pas de fin."
 	},
 	{
 		"type": "verse",
-		"text": "Je crois en l’Esprit Saint, qui est Seigneur et qui donne la vie;\nil procède du Père et du Fils."
+		"text": "Je crois en l'Esprit Saint, qui est Seigneur et qui donne la vie;\nil procède du Père et du Fils."
 	},
 	{
 		"type": "verse",
@@ -7828,7 +7736,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "Je crois en l’Eglise, une, sainte, catholique et apostolique.\nJe reconnais un seul baptême pour le pardon des péchés.\nJ’attends la résurrection des morts, et la vie du monde à venir."
+		"text": "Je crois en l'Eglise, une, sainte, catholique et apostolique.\nJe reconnais un seul baptême pour le pardon des péchés.\nJ'attends la résurrection des morts, et la vie du monde à venir."
 	},
 	{
 		"type": "verse",
@@ -7850,15 +7758,15 @@
 	"composer": "Grzybowski L.",
 	"lyrics": [
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Seigneur prends pitié, prends pitié de nous."
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Ô Christ prends pitié, prends pitié de nous."
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Seigneur prends pitié, prends pitié de nous."
 	}
 	]
@@ -7911,7 +7819,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Ta Parole, Seigneur, vient changer nos coeurs,\nALLÉLUIA !"
+		"text": "3 - Ta Parole, Seigneur, vient changer nos cœurs,\nALLÉLUIA !"
 	}
 	]
 },
@@ -8010,7 +7918,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "1 - Et paix sur la terre aux hommes qu'il aime. Nous te louons, nous te bénissons, nous t’adorons, nous te glorifions, nous te rendons grâce pour ton immense gloire.\nSeigneur Dieu, Roi du ciel, Dieu, le Père tout-puissant."
+		"text": "1 - Et paix sur la terre aux hommes qu'il aime. Nous te louons, nous te bénissons, nous t'adorons, nous te glorifions, nous te rendons grâce pour ton immense gloire.\nSeigneur Dieu, Roi du ciel, Dieu, le Père tout-puissant."
 	},
 	{
 		"type": "verse",
@@ -8205,15 +8113,15 @@
 	"composer": "Daniel E., Daniel P.",
 	"lyrics": [
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous."
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous."
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix."
 	}
 	]
@@ -8341,15 +8249,15 @@
 	"composer": "Gouzes A.",
 	"lyrics": [
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
 	}
 	]
@@ -8369,15 +8277,15 @@
 	"composer": "Dazin M.",
 	"lyrics": [
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Prends pitié de nous Seigneur, prends pitié de nous."
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Prends pitié de nous Seigneur, prends pitié de nous."
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Prends pitié de nous Seigneur, prends pitié de nous."
 	}
 	]
@@ -8401,7 +8309,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - À toi les chants de fête, par ton Fils bien-aimé, dans l’Esprit.\nSauveur du monde, Jésus Christ, écoute nos prières !"
+		"text": "2 - À toi les chants de fête, par ton Fils bien-aimé, dans l'Esprit.\nSauveur du monde, Jésus Christ, écoute nos prières !"
 	},
 	{
 		"type": "verse",
@@ -8463,11 +8371,11 @@
 	"composer": "Dazin M.",
 	"lyrics": [
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Nous rappelons ta mort, Seigneur ressuscité, (bis)"
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Et nous attendons que tu viennes. (bis)"
 	}
 	]
@@ -8481,16 +8389,16 @@
 	"composer": "Dazin M.",
 	"lyrics": [
 	{
-		"type": "chorus",
-		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+		"type": "verse",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié, prends pitié de nous !"
 	},
 	{
-		"type": "chorus",
-		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
+		"type": "verse",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié, prends pitié de nous !"
 	},
 	{
-		"type": "chorus",
-		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
+		"type": "verse",
+		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous, donne-nous la paix !"
 	}
 	]
 },
@@ -8602,15 +8510,15 @@
 	"composer": "Gouzes A.",
 	"lyrics": [
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nPrends pitié de nous !"
 	},
 	{
-		"type": "chorus",
+		"type": "verse",
 		"text": "Agneau de Dieu qui enlèves le péché du monde\nDonne-nous la paix !"
 	}
 	]
@@ -8645,7 +8553,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "Seigneur, élevé dans la gloire,\nTu répands en nos cœurs l’eau vive de l’Esprit, prends pitié !"
+		"text": "Seigneur, élevé dans la gloire,\nTu répands en nos cœurs l'eau vive de l'Esprit, prends pitié !"
 	},
 	{
 		"type": "chorus",
@@ -8737,7 +8645,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "Agneau de Dieu, dans l'amour de l'Esprit, tu apaises notre coeur,\ndonne nous la paix, Seigneur (bis)"
+		"text": "Agneau de Dieu, dans l'amour de l'Esprit, tu apaises notre cœur,\ndonne nous la paix, Seigneur (bis)"
 	}
 	]
 },
@@ -8756,7 +8664,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "1 - Pardonne-moi, Seigneur, j’ai renié ton Nom,\nPardonne-moi, Seigneur, j’ai quitté ta maison.\nJ’ai voulu posséder sans attendre le don,\nPardonne-moi  et purifie mon cœur !"
+		"text": "1 - Pardonne-moi, Seigneur, j'ai renié ton Nom,\nPardonne-moi, Seigneur, j'ai quitté ta maison.\nJ'ai voulu posséder sans attendre le don,\nPardonne-moi  et purifie mon cœur !"
 	},
 	{
 		"type": "chorus",
@@ -8764,7 +8672,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "2 - Pardonne-moi, Seigneur, j’ai suivi d’autres dieux,\nPardonne-moi, Seigneur, j’ai détourné les yeux.\nJ’ai choisi loin de toi la richesse et l’honneur,\nPardonne-moi et purifie mon cœur !"
+		"text": "2 - Pardonne-moi, Seigneur, j'ai suivi d'autres dieux,\nPardonne-moi, Seigneur, j'ai détourné les yeux.\nJ'ai choisi loin de toi la richesse et l'honneur,\nPardonne-moi et purifie mon cœur !"
 	},
 	{
 		"type": "chorus",
@@ -8772,7 +8680,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "3 - Pardonne-moi, Seigneur j’ai n’ai pas su aimer,\nPardonne-moi, Seigneur je me suis dérobé.\nJe ne suis pas resté le gardien de mon frère,\nPardonne-moi et purifie mon cœur !"
+		"text": "3 - Pardonne-moi, Seigneur j'ai n'ai pas su aimer,\nPardonne-moi, Seigneur je me suis dérobé.\nJe ne suis pas resté le gardien de mon frère,\nPardonne-moi et purifie mon cœur !"
 	},
 	{
 		"type": "chorus",
@@ -8822,7 +8730,7 @@
 	},
 	{
 		"type": "chorus",
-		"text": "Saint est le Seigneur, Saint est le Seigneur,\nDieu de l’univers, Dieu de l’univers ! (bis)"
+		"text": "Saint est le Seigneur, Saint est le Seigneur,\nDieu de l'univers, Dieu de l'univers ! (bis)"
 	},
 	{
 		"type": "verse",
@@ -8860,15 +8768,15 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Toi l’Agneau de Dieu qui enlèves le péché du monde.\nPrends pitié de nous, prends pitié de nous."
+		"text": "Toi l'Agneau de Dieu qui enlèves le péché du monde.\nPrends pitié de nous, prends pitié de nous."
 	},
 	{
 		"type": "chorus",
-		"text": "Toi l’Agneau de Dieu qui enlèves le péché du monde.\nPrends pitié de nous, prends pitié de nous."
+		"text": "Toi l'Agneau de Dieu qui enlèves le péché du monde.\nPrends pitié de nous, prends pitié de nous."
 	},
 	{
-		"type": "chorus",
-		"text": "Toi l’Agneau de Dieu qui enlèves le péché du monde.\nDonne-nous la paix, donne-nous la paix."
+		"type": "verse",
+		"text": "Toi l'Agneau de Dieu qui enlèves le péché du monde.\nDonne-nous la paix, donne-nous la paix."
 	}
 	]
 },
@@ -8919,7 +8827,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "Nous te louons, nous te bénissons, nous t’adorons,\nNous te glorifions, nous te rendons grâce pour ton immense gloire !"
+		"text": "Nous te louons, nous te bénissons, nous t'adorons,\nNous te glorifions, nous te rendons grâce pour ton immense gloire !"
 	},
 	{
 		"type": "verse",
@@ -8942,7 +8850,7 @@
 	"lyrics": [
 	{
 		"type": "verse",
-		"text": "Saint est le Seigneur, le Dieu de l’univers,"
+		"text": "Saint est le Seigneur, le Dieu de l'univers,"
 	},
 	{
 		"type": "chorus",
@@ -8954,7 +8862,7 @@
 	},
 	{
 		"type": "verse",
-		"text": "Qu’il soit béni au nom du Seigneur,\nCelui qui est, qui était et qui vient."
+		"text": "Qu'il soit béni au nom du Seigneur,\nCelui qui est, qui était et qui vient."
 	}
 	]
 },
@@ -8969,7 +8877,7 @@
 	"lyrics": [
 	{
 		"type": "chorus",
-		"text": "Tu es venu, tu reviendras,\nSeigneur Jésus nous t’attendons.\nTu étais mort, tu es vivant,\nSeigneur Jésus, sois notre vie"
+		"text": "Tu es venu, tu reviendras,\nSeigneur Jésus nous t'attendons.\nTu étais mort, tu es vivant,\nSeigneur Jésus, sois notre vie"
 	}
 	]
 },
@@ -9092,6 +9000,157 @@
 	{
 		"type": "verse",
 		"text": "4 - Car toi seul es saint, toi seul est Seigneur, toi seul est le Très-Haut\nJésus Christ, avec le Saint-Esprit dans la gloire du Père !"
+	}
+	]
+},
+
+
+
+
+
+{
+	"id": "messe-1-saint-paul-kyrie",
+	"title": "(Messe de Saint Paul) Kyrie",
+	"rating": "IEV14-29-01",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "1 - Seigneur Jésus envoyé par le Père\npour guérir et sauver les hommes,\nprends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
+	},
+	{
+		"type": "verse",
+		"text": "2 - Ô Christ venu dans le monde\nappeler tous les pêcheurs,\nprends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Christe eleison, Christe eleison, Christe eleison."
+	},
+	{
+		"type": "verse",
+		"text": "3 - Seigneur Jésus élevé dans la gloire du Père\noù tu intercèdes pour nous,\nprends pitié de nous."
+	},
+	{
+		"type": "chorus",
+		"text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
+	}
+	]
+},
+{
+	"id": "messe-2-saint-paul-gloria",
+	"title": "(Messe de Saint Paul) Gloria",
+	"rating": "IEV14-29-08",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe), André Fleury",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloria in excelsis Deo, Gloria Deo Domino (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Gloire à Dieu au plus haut des cieux\nEt paix sur la terre aux hommes qu'il aime.\nNous te louons, nous te bénissons, nous t'adorons,\nNous te glorifions, nous te rendons grâce,  Pour ton immense gloire,\nSeigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
+	},
+	{
+		"type": "verse",
+		"text": "Seigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père ;\nToi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+	},
+	{
+		"type": "verse",
+		"text": "Car toi seul es saint, toi seul es Seigneur, Toi seul es le Très-Haut :\nJésus Christ, Avec le Saint-Esprit Dans la gloire de Dieu le Père. Amen."
+	}
+	]
+},
+{
+	"id": "messe-3-saint-paul-alleluia",
+	"title": "(Messe de Saint Paul) Alleluia",
+	"rating": "IEV14-29-02",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Alléluia, Alléluia! Alléluia, Alléluia !\nFin : Alléluia, Alléluia! Louange à toi, Seigneur Jésus !"
+	}
+	]
+},
+{
+	"id": "messe-5-saint-paul-sanctus",
+	"title": "(Messe de Saint Paul) Sanctus",
+	"rating": "IEV14-29-03",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Sanctus, Sanctus, Sanctus, Dominus ! Dominus Deus Sabaoth (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Pleni sunt caeli et terra gloria tua"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna in excelsis (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Bénédictus qui venit in nomine Domini"
+	},
+	{
+		"type": "chorus",
+		"text": "Hosanna in excelsis (bis)"
+	}
+	]
+},
+{
+	"id": "messe-6-saint-paul-anamnese",
+	"title": "(Messe de Saint Paul) Anamnèse",
+	"rating": "IEV14-29-04",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "chorus",
+		"text": "Gloire à Toi qui étais mort !\nGloire à Toi qui es vivant !\nNotre Sauveur et notre Dieu,\nViens, Seigneur Jésus!"
+	}
+	]
+},
+{
+	"id": "messe-7-saint-paul-agnus",
+	"title": "(Messe de Saint Paul) Agnus",
+	"rating": "IEV14-29-07",
+	"newrating": "AL68-20",
+	"publisher": "Editions de l'Emmanuel",
+	"writer": "Liturgie Romaine",
+	"composer": "Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+	"lyrics": [
+	{
+		"type": "verse",
+		"text": "Agnus Dei, qui tollis peccata mundi,\nMiserere nobis, miserere nobis. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Agnus Dei, qui tollis peccata mundi,\nMiserere nobis, miserere nobis. (bis)"
+	},
+	{
+		"type": "verse",
+		"text": "Agnus Dei, qui tollis peccata mundi,\nDona nobis pacem, dona nobis pacem. (bis)"
 	}
 	]
 }
