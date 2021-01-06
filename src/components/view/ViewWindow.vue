@@ -7,7 +7,7 @@
 
             <div v-for="(lyrics, index) in element.lyrics"
             :key="index"
-            :class="[lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}, update]"
+            :class="['song-part', lyrics.type, {show : lyrics.show, sticky : lyrics.sticky}]"
             :style="[lyrics.type == 'chorus' || lyrics.show ? '' : {opacity: settings.song.verseOpacity},
             lyrics.sticky ? live ? {background: settings.liveView.colors.background} : {background: '#FFFFFF'} : '']"
             @click="toggleLyrics(lyrics)">{{ lyrics.text }}</div>
@@ -49,7 +49,6 @@ export default {
     },
     data() {
         return {
-            update: 0,
             smallCursor: `url("data:image/svg+xml, %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E  %3Ctext stroke='%23ffffff' transform='matrix(12.617019653320312,0,0,12.617019653320312,-2852.15984082222,-2618.911868095398) ' xml:space='preserve' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='40' y='247.63125' x='229.70045' stroke-width='2' fill='%23000000'%3E•%3C/text%3EE %3C/svg%3E") 8 20, pointer`
         }
     },
@@ -68,7 +67,6 @@ export default {
                 default:
                     break;
             }
-            this.update++ //pour forcer la mise à jour
         },
         getSecliArray: function() {
             let array = []

@@ -69,7 +69,17 @@ export default {
       this.windowRef.document.body.appendChild(this.$el);
       copyStyles(window.document, this.windowRef.document);
       this.windowRef.addEventListener('beforeunload', this.closePortal);
-      this.windowRef.addEventListener('keyup', (event) => {this.$emit('shortcuts', event)})
+      this.windowRef.addEventListener('keydown', (event) => this.$emit('shortcuts', event))
+      let thinking = false
+      this.windowRef.addEventListener('scroll', () => {
+        if (!thinking) {
+          thinking = true
+          setTimeout(() => {
+            this.$emit('custom-scroll', this.windowRef)
+            thinking = false
+          }, 200)
+        }
+      })
     },
     closePortal() {
       if(this.windowRef) {
@@ -81,6 +91,15 @@ export default {
     scrollTop: function() {
       if(this.windowRef) {
         this.windowRef.scrollTo(0,0);
+      }
+    },
+    scroll(top, left, smooth) {
+      if (this.windowRef) {
+        this.windowRef.scrollBy({
+          top: top,
+          left: left,
+          behavior: smooth ? "smooth": "auto"
+        })
       }
     }
   },

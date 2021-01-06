@@ -1,10 +1,10 @@
 <template>
 <div class="col-12 col-lg-6">
-    <div class="card sticky-top vh-100">
+    <div class="card sticky-top mb-3">
         <h3 class="card-header d-flex justify-content-between">
             {{ header }} <a href="#" class="pull-right" @click="close"><font-awesome-icon :icon="'times'"></font-awesome-icon></a>
         </h3>
-        <div class="card-body overflow-auto">
+        <div class="card-body overflow-auto" style="height: 90vh;">
             <slot name="content"></slot>
         </div>
     </div>

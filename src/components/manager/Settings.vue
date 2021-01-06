@@ -5,9 +5,9 @@
         <div class="form-group row">
             <label for="param-size" class="col-sm-2 col-form-label">Taille</label>
             <div class="input-group col-sm-10">
-                <input @keyup.stop type="number" id="param-width" v-model.number="settings.liveView.window.width" class="form-control">
+                <input @keydown.stop type="number" id="param-width" v-model.number="settings.liveView.window.width" class="form-control">
                 <div class="input-group-prepend" style="margin-left: -1px;"><span class="input-group-text">x</span></div>
-                <input @keyup.stop type="number" id="param-height" v-model.number="settings.liveView.window.height" class="form-control">
+                <input @keydown.stop type="number" id="param-height" v-model.number="settings.liveView.window.height" class="form-control">
             </div>
             <small id="param-size-help" class="form-text text-muted col-12">Dimensions en pixel de la présentation (largeur x hauteur). Fermer/ouvrir la présentation pour appliquer</small>
         </div>
@@ -92,7 +92,7 @@
         <div class="form-group row">
             <label for="search-score-query" class="col-sm-2 col-form-label">Lien</label>
             <div class="col-sm-10">
-                <input @keyup.stop type="text" name="search-score-query" aria-describedby="search-score-query-help" id="search-score-query" class="form-control" v-model="settings.score.query">
+                <input @keydown.stop type="text" name="search-score-query" aria-describedby="search-score-query-help" id="search-score-query" class="form-control" v-model="settings.score.query">
             </div>
             <small id="search-score-query-help" class="form-text text-muted col-12">Insérer <em>&lt;TITRE&gt;</em> où doit être ajouté le nom du chant recherché</small>
         </div>
@@ -101,18 +101,38 @@
 
         <h5>Raccourcis clavier</h5>
         <div class="form-group row">
-            <label for="short-next" class="col-sm-3 col-form-label">Suivant</label>
-            <div class="col-sm-9 d-flex"><input aria-describedby="short-next-help" type="text" @keyup="manageKey" v-model="settings.shortcuts.playlistNext" id="short-next" class="form-control"></div>
+            <label for="short-next" class="col-sm-4 col-form-label">Suivant</label>
+            <div class="col-sm-8 d-flex"><input aria-describedby="short-next-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.playlistNext" id="short-next" class="form-control"></div>
             <small id="short-next-help" class="form-text text-muted col-12">Affiche l'élément suivant de la playlist</small>
         </div>
         <div class="form-group row">
-            <label for="short-previous" class="col-sm-3 col-form-label">Précédent</label>
-            <div class="col-sm-9 d-flex"><input aria-describedby="short-previous-help" type="text" @keyup="manageKey" v-model="settings.shortcuts.playlistPrevious" id="short-previous" class="form-control"></div>
+            <label for="short-previous" class="col-sm-4 col-form-label">Précédent</label>
+            <div class="col-sm-8 d-flex"><input aria-describedby="short-previous-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.playlistPrevious" id="short-previous" class="form-control"></div>
             <small id="short-previous-help" class="form-text text-muted col-12">Affiche l'élément précédent de la playlist</small>
         </div>
         <div class="form-group row">
-            <label for="short-close-sidebox" class="col-sm-3 col-form-label">Fermer</label>
-            <div class="col-sm-9 d-flex"><input aria-describedby="short-close-sidebox-help" type="text" id="short-close-sidebox" class="form-control" disabled value="Echap"></div>
+            <label for="short-scroll-down" class="col-sm-4 col-form-label">Descendre</label>
+            <div class="col-sm-8 d-flex"><input aria-describedby="short-scroll-down-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.scrollDown" id="short-scroll-down" class="form-control"></div>
+            <small id="short-scroll-down-help" class="form-text text-muted col-12">Descendre légèrement dans la présentation</small>
+        </div>
+        <div class="form-group row">
+            <label for="short-scroll-up" class="col-sm-4 col-form-label">Monter</label>
+            <div class="col-sm-8 d-flex"><input aria-describedby="short-scroll-up-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.scrollUp" id="short-scroll-up" class="form-control"></div>
+            <small id="short-scroll-up-help" class="form-text text-muted col-12">Monter légèrement dans la présentation</small>
+        </div>
+        <div class="form-group row">
+            <label for="short-part-next" class="col-sm-4 col-form-label">Bloc suivant</label>
+            <div class="col-sm-8 d-flex"><input aria-describedby="short-part-next-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.partNext" id="short-part-next" class="form-control"></div>
+            <small id="short-part-next-help" class="form-text text-muted col-12">Passer à la partie suivante dans le chant</small>
+        </div>
+        <div class="form-group row">
+            <label for="short-part-previous" class="col-sm-4 col-form-label">Bloc précédent</label>
+            <div class="col-sm-8 d-flex"><input aria-describedby="short-part-previous-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.partPrevious" id="short-part-previous" class="form-control"></div>
+            <small id="short-part-previous-help" class="form-text text-muted col-12">Passer à la partie précédente dans le chant</small>
+        </div>
+        <div class="form-group row">
+            <label for="short-close-sidebox" class="col-sm-4 col-form-label">Fermer</label>
+            <div class="col-sm-8 d-flex"><input aria-describedby="short-close-sidebox-help" type="text" id="short-close-sidebox" class="form-control" disabled value="Echap"></div>
             <small id="short-close-sidebox-help" class="form-text text-muted col-12">Ferme la fenêtre latérale (Paramètres ou Aperçu)</small>
         </div>
     </form>
@@ -139,12 +159,24 @@ export default {
             if (event.key != "Escape") {
                 switch (event.target.id) {
                     case "short-next":
-                        this.settings.shortcuts.playlistNext = event.key
+                        this.$set(this.settings.shortcuts, "playlistNext", event.key)
                         break;
                     case "short-previous":
-                        this.settings.shortcuts.playlistPrevious = event.key
+                        this.$set(this.settings.shortcuts, "playlistPrevious", event.key)
                         break;
-                
+                    case "short-scroll-down":
+                        this.$set(this.settings.shortcuts, "scrollDown", event.key)
+                        break;
+                    case "short-scroll-up":
+                        this.$set(this.settings.shortcuts, "scrollUp", event.key)
+                        break;
+                    case "short-part-next":
+                        this.$set(this.settings.shortcuts, "partNext", event.key)
+                        break;
+                    case "short-part-previous":
+                        this.$set(this.settings.shortcuts, "partPrevious", event.key)
+                        break;
+
                     default:
                         break;
                 }

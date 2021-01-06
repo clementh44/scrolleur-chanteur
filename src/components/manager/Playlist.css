@@ -22,7 +22,7 @@
     margin: 9px 9px 9px 0;
     height: 13px;
     width: 13px;
-    left: -4px;
+    min-width: 13px;
     position: relative;
 }
 .current-element-icon:before {
@@ -55,4 +55,13 @@
         transform: scale(1);
         opacity: 0;
     }
+}
+
+/* bloc d'actions sur les parties d'un chant */
+.lyrics-part-block {
+    width: 100%;
+    max-width: 300px;
+}
+.no-focus.btn-light:focus {
+    background-color: var(--light);
 }

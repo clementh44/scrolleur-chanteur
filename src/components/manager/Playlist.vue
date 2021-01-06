@@ -24,7 +24,7 @@
                 <form v-if="editedElement.type == 'text'">
                     <div class="form-group">
                         <label for="custom-text-title">Titre</label>
-                        <input @keyup.stop class="form-control" id="custom-text-title" type="text" name="title" v-model="editedElement.title">
+                        <input @keydown.stop class="form-control" id="custom-text-title" type="text" name="title" v-model="editedElement.title">
                     </div>
                     <div class="custom-control custom-switch form-group">
                         <input class="custom-control-input" type="checkbox" name="isTitleDisplayed" id="title-displayed-checkbox" v-model="editedElement.isTitleDisplayed" >
@@ -32,7 +32,7 @@
                     </div>
                     <div class="form-group">
                         <label for="custom-text-body">Corps du texte</label>
-                        <textarea @keyup.stop class="form-control" id="custom-text-body" name="content"  rows="10" v-model="editedElement.text"></textarea>
+                        <textarea @keydown.stop class="form-control" id="custom-text-body" name="content"  rows="10" v-model="editedElement.text"></textarea>
                     </div>
                 </form>
                 <form v-if="editedElement.type == 'file'">
@@ -50,22 +50,54 @@
     </div>
     </transition>
 
+    <li class="list-group-item" v-if="listLocal.length == 0"><strong>La playlist est vide</strong><br/>
+    Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou du vide (<font-awesome-icon :icon="['far','square']"></font-awesome-icon>).<br/>
+    Ci-dessous, recherchez et ajoutez un chant du répertoire (<font-awesome-icon :icon="'plus'"></font-awesome-icon>) pour acceder à plus de contrôles.<br/>
+    Rappel : laissez la souris sur un bouton pour avoir une description de son action.</li>
+
     <draggable v-model="listLocal" handle=".handle" tag="ul" @start="onStart" @end="onEnd" class="list-group">
         <li v-for="(element,index) in listLocal" :key="index" class="list-group-item">
             <div class="d-flex">
-                <div v-if="index == currentElementIndex" class="current-element-icon" title="Elément actuellement dans la présentation"></div>
+                <div v-if="index == currentElementIndex" class="current-element-icon" style="left:-4px;" title="Elément actuellement dans la présentation"></div>
                 <div class="flex-grow-1">{{element.title}}</div>
 
-                <ElementActions :element="element" :settings="settings" @preview="preview($event)" @display="display($event, index)" @search-score="$emit('search-score',{title: $event.title, query: $event.query})">
+                <ElementActions :element="element" :settings="settings" @preview="preview($event)" @search-score="$emit('search-score',{title: $event.title, query: $event.query})">
                     <template v-slot:first>
                         <button class="btn btn-light btn-sm" v-if="canEdit(element)" @click="edit(element)" title="Editer l'élément"><font-awesome-icon :icon="['far','edit']"></font-awesome-icon></button>
                     </template>
                     <template v-slot:end>
+                        <button class="btn btn-light btn-sm" @click="display(element, index)" title="Afficher dans la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"></font-awesome-icon></button>
                         <button class="btn btn-light btn-sm handle" title="Déplacer l'élément"><font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon></button>
                         <button class="btn btn-light btn-sm" @click="removeAt(index)" title="Supprimer l'élément de la playlist"><font-awesome-icon :icon="'trash-alt'"></font-awesome-icon></button>
                     </template>
                 </ElementActions>
             </div>
+            <ul v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
+                <div class="p-2 border d-flex lyrics-part-block"
+                v-for="(lyricsBlock, index) in element.lyrics" :key="index">
+                    <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left:1px;" title="Partie visible dans la présentation"></div>
+                    <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus'? 'font-weight-bold':'']" :title="lyricsBlock.text">{{ lyricsBlock.text }}</div>
+                    <div class="btn-group">
+                        <button class="btn btn-light btn-sm no-focus"
+                        @click="$emit('scroll-to-pos', {pos: index})"
+                        title="Afficher l'élément dans la présentation">
+                            <font-awesome-icon :icon="'angle-double-down'"></font-awesome-icon>
+                        </button>
+                        <button class="btn btn-light btn-sm no-focus" :class="{active: lyricsBlock.sticky}"
+                        v-if="lyricsBlock.type == 'chorus'"
+                        @click="lyricsBlock.sticky = !lyricsBlock.sticky"
+                        title="Accrocher ce refrain en haut de la présentation">
+                            <font-awesome-icon :icon="'thumbtack'"></font-awesome-icon>
+                        </button>
+                        <button class="btn btn-light btn-sm no-focus" :class="{active: !lyricsBlock.show}"
+                        v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation'"
+                        @click="lyricsBlock.show = !lyricsBlock.show"
+                        title="Cacher ce couplet">
+                            <font-awesome-icon :icon="['far','eye-slash']"></font-awesome-icon>
+                        </button>
+                    </div>
+                </div>
+            </ul>
         </li>
     </draggable>
 
@@ -78,10 +110,10 @@ import draggable from 'vuedraggable'
 import ElementActions from './ElementActions'
 import Undo from './Undo'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSquare, faEdit, faClone } from '@fortawesome/free-regular-svg-icons'
-import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage } from '@fortawesome/free-solid-svg-icons'
+import { faSquare, faEdit, faClone, faEyeSlash } from '@fortawesome/free-regular-svg-icons'
+import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquare, faEdit, faClone, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage)
+library.add(faSquare, faEdit, faClone, faEyeSlash, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus)
 
 export default {
     name: "Playlist",
@@ -131,6 +163,7 @@ export default {
 
         removeAt(index) {
             if (index == this.currentElementIndex) { //si élément suppr est l'actuel
+                this.display({type: "empty"})
                 this.updateCurrentElementIndex(-1)
             }
             else if (index < this.currentElementIndex) { //si élément suppr est avant l'actuel
@@ -213,6 +246,84 @@ export default {
                 }
                 fr.readAsDataURL(file.target.files[0])
             }
+        },
+        //actualise les éléments visibles ou non d'un chant
+        handleScroll(window) {
+            if (this.currentElementIndex >= 0 && this.playlist[this.currentElementIndex].type == "song") {
+                let windowLyrics = window.document.getElementsByClassName("song-part") //liste des blocs dans le DOM (verse, chorus, translation)
+                let windowHeight = window.innerHeight //hauteur de la fenêtre
+                let lyrics = this.playlist[this.currentElementIndex].lyrics //liste des blocs dans les données
+                if (windowLyrics.length != lyrics.length) {
+                    return
+                }
+                let lastStickyHeight = 0
+                let unique = false
+                let lineHeight = 16 * this.settings.liveView.fontSize * 1.3
+                let activeIndex = -1
+                let lastStickyIndex = -1
+                lyrics.forEach((part, i) => {
+                    if (part.type != "chorus" || part.type == "chorus" && !part.sticky) {
+                        if (unique) {
+                            part.isActive = false
+                        } else {
+                            let DOMrect = windowLyrics[i].getBoundingClientRect() //récupération de la taille et de la position de l'élément dans la fenêtre
+                            part.isActive = DOMrect.top < windowHeight - lineHeight && DOMrect.bottom > lastStickyHeight + lineHeight //un couplet, une traduction ou un refrain non statique est actif si c'est le premier (unique) élément an partant du haut de la fenêtre (ou juste en dessous d'un refrain statique) et que l'on voit encore 1 ligne
+                            if (part.isActive) {
+                                unique = true
+                                activeIndex = i
+                            }
+                        }
+                    } else {
+                        part.isActive = false
+                        if (part.sticky) {
+                            lastStickyHeight = windowLyrics[i].offsetHeight
+                            lastStickyIndex = i
+                        }
+                    }
+                })
+
+                //parcours des refrains avant le dernier élément actif pour le rendre actif s'il est statique
+                for (let index = activeIndex - 1; index >= 0; index--) {
+                    const part = lyrics[index];
+                    if (part.type == "chorus" && part.sticky) {
+                        part.isActive = true
+                        index = -1
+                    }
+                }
+
+                if (activeIndex < 0 && lastStickyIndex >= 0) { //s'il n'y a aucun élément actif, on vérifie si un refrain statique est affiché
+                    let DOMrect = windowLyrics[lastStickyIndex].getBoundingClientRect() //récupération de la taille et de la position de l'élément dans la fenêtre
+                    lyrics[lastStickyIndex].isActive = DOMrect.top < windowHeight - lineHeight && DOMrect.bottom > lineHeight
+                }
+            }
+        },
+        getlastActivePartIndex() { //Retourne l'index de la dernière partie (verse, chorus, translation) du chant qui est active (visible dans la présentation)
+            if (this.playlist[this.currentElementIndex].type == "song") {
+                let stickyIndex = -1
+                let song = this.playlist[this.currentElementIndex]
+                let i = song.lyrics.length - 1
+                while (i >= 0) {
+                    let part = song.lyrics[i]
+                    if (part.sticky && stickyIndex < 0) {
+                        stickyIndex = i
+                    } else if (part.isActive) {
+                        return i
+                    }
+                    i--
+                }
+                return stickyIndex
+            }
+            return -1
+        },
+        getNextPartIndex() {
+            return this.getlastActivePartIndex() + 1
+        },
+        getPreviousPartIndex() {
+            let previousPartIndex = this.getlastActivePartIndex()
+            do {
+                previousPartIndex--
+            } while (previousPartIndex > 0 && this.playlist[this.currentElementIndex].lyrics[previousPartIndex].isActive)
+            return previousPartIndex
         }
     }
 }

@@ -650,3 +650,19 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   aide dans le menu
 ```
+
+**06/01/2021 v4.8.0**
+```
+  amélioration de l'actualisation des données (Vue.set pour modifier un objet et garder la réactivité)
+  correction de l'icone animé de la playlist qui s'écrasait (quand titre long + écran petit)
+  raccourcis clavier : on peut rester appuyer, le comportement par défaut est annulé (défilement avec les flèches par exemple)
+  corrections safari : Titre de la SideBox écrasé
+
+  Contrôle de la présentation depuis la playlist :
+    (obligé de passer par la playlist pour afficher un chant dans la présentation)
+    scroller de quelques pixels,
+    passer à la partie suivante ou précédente du chant (couplet par exemple),
+    afficher/cacher un couplet ou traduction,
+    attacher/détacher un refrain,
+    contrôle via raccourcis clavier personnalisable
+```
