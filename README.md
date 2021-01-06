@@ -658,6 +658,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   raccourcis clavier : on peut rester appuyer, le comportement par défaut est annulé (défilement avec les flèches par exemple)
   corrections safari : Titre de la SideBox écrasé
   agrandissement jusqu'à 8x la taille d'origine (128px)
+  messages pour le SECLI déplacé
 
   Contrôle de la présentation depuis la playlist :
     (obligé de passer par la playlist pour afficher un chant dans la présentation)

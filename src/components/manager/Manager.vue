@@ -58,55 +58,6 @@
       </div>
     </nav>
 
-    <!-- Termes à accepter -->
-    <template v-if="!secliAccepted">
-      <div
-        class="modal fade show"
-        id="staticBackdrop"
-        data-backdrop="static"
-        data-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
-        style="display: block;"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">
-                Protection des œuvres
-              </h5>
-            </div>
-            <div class="modal-body">
-              <p>
-                Les textes (faisant partie d'une œuvre au même titre que sa
-                musique) présents sur cet outil sont à l'usage exclusif des
-                cotisants au SECLI.
-              </p>
-              <p>
-                En continuant à utiliser l'outil, vous déclarez cotiser par
-                ailleurs au SECLI (<a
-                  href="https://secli.cef.fr/"
-                  target="_blank"
-                  >Secrétariat des Editeurs de Chants pour la LIturgie</a
-                >) directement ou via votre paroisse ou groupe.
-              </p>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-primary"
-                @click="acceptSecli"
-              >
-                Je comprends et accepte ces termes
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal-backdrop fade show"></div>
-    </template>
-
     <div class="row">
       <!-- Fenêtre de présentation -->
       <WindowPortal
@@ -153,6 +104,31 @@
       </SideBox>
 
       <div class="col">
+        <!-- Termes à accepter -->
+        <template v-if="!secliAccepted">
+          <div class="alert alert-warning fade show mt-3" role="alert">
+            <h5 class="alert-heading">
+              Protection des œuvres
+            </h5>
+            <hr />
+            <p>
+              Les textes (faisant partie d'une œuvre au même titre que sa
+              musique) présents sur cet outil sont à l'usage exclusif des
+              cotisants au SECLI.
+            </p>
+            <p>
+              En continuant à utiliser l'outil, vous déclarez cotiser par
+              ailleurs au SECLI (<a href="https://secli.cef.fr/" target="_blank"
+                >Secrétariat des Editeurs de Chants pour la LIturgie</a
+              >) directement ou via votre paroisse ou groupe.
+            </p>
+            <hr />
+            <button type="button" class="btn btn-primary" @click="acceptSecli">
+              Je comprends et accepte ces termes
+            </button>
+          </div>
+        </template>
+
         <!-- Aide -->
         <div
           class="alert alert-success alert-dismissible fade show mt-3"
