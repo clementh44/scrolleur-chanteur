@@ -119,7 +119,7 @@
             <p>
               En continuant à utiliser l'outil, vous déclarez cotiser par
               ailleurs au SECLI (<a href="https://secli.cef.fr/" target="_blank"
-                >Secrétariat des Editeurs de Chants pour la LIturgie</a
+                rel="noopener">Secrétariat des Editeurs de Chants pour la LIturgie</a
               >) directement ou via votre paroisse ou groupe.
             </p>
             <hr />
@@ -140,6 +140,7 @@
             <a
               href="https://github.com/clementh44/scrolleur-chanteur"
               target="_blank"
+              rel="noopener"
               >Scrolleur-Chanteur</a
             ></strong
           >
@@ -190,7 +191,7 @@
           <p>
             Faire une demande d'ajout de chant via
             <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank"
-              >ce formulaire</a
+              rel="noopener">ce formulaire</a
             >. Sinon, utiliser le texte personnalisé (<font-awesome-icon
               :icon="'align-left'"
             ></font-awesome-icon
@@ -200,6 +201,7 @@
             <a
               href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR"
               target="_blank"
+              rel="noopener"
               >Soutenir le projet</a
             >.
           </p>
@@ -296,7 +298,7 @@
               <li
                 :key="index"
                 v-for="(song, index) in filteredSongs"
-                class="list-group-item d-flex"
+                class="list-group-item d-flex align-items-center"
               >
                 <div class="flex-grow-1">{{ song.title }}</div>
                 <ElementActions
@@ -307,7 +309,7 @@
                 >
                   <template v-slot:end>
                     <button
-                      class="btn btn-light btn-sm"
+                      class="btn btn-light"
                       @click="addSong(song)"
                       title="Ajouter dans la playlist"
                     >

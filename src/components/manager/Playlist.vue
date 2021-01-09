@@ -154,20 +154,22 @@
       </div>
     </transition>
 
-    <li class="list-group-item" v-if="listLocal.length == 0">
-      <strong>La playlist est vide</strong><br />
-      Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon
-        :icon="'align-left'"
-      ></font-awesome-icon
-      >), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou
-      du vide (<font-awesome-icon :icon="['far', 'square']"></font-awesome-icon
-      >).<br />
-      Ci-dessous, recherchez et ajoutez un chant du répertoire
-      (<font-awesome-icon :icon="'plus'"></font-awesome-icon>) pour acceder à
-      plus de contrôles.<br />
-      Rappel : laissez la souris sur un bouton pour avoir une description de son
-      action.
-    </li>
+    <ul class="list-group">
+      <li class="list-group-item" v-if="listLocal.length == 0">
+        <strong>La playlist est vide</strong><br />
+        Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon
+          :icon="'align-left'"
+        ></font-awesome-icon
+        >), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou
+        du vide (<font-awesome-icon :icon="['far', 'square']"></font-awesome-icon
+        >).<br />
+        Ci-dessous, recherchez et ajoutez un chant du répertoire
+        (<font-awesome-icon :icon="'plus'"></font-awesome-icon>) pour acceder à
+        plus de contrôles.<br />
+        Rappel : laissez la souris sur un bouton pour avoir une description de son
+        action.
+      </li>
+    </ul>
 
     <draggable
       v-model="listLocal"
@@ -182,7 +184,7 @@
         :key="index"
         class="list-group-item"
       >
-        <div class="d-flex">
+        <div class="d-flex align-items-center">
           <div
             v-if="index == currentElementIndex"
             class="current-element-icon"
@@ -204,7 +206,7 @@
           >
             <template v-slot:first>
               <button
-                class="btn btn-light btn-sm"
+                class="btn btn-light"
                 v-if="canEdit(element)"
                 @click="edit(element)"
                 title="Editer l'élément"
@@ -214,20 +216,20 @@
             </template>
             <template v-slot:end>
               <button
-                class="btn btn-light btn-sm"
+                class="btn btn-light"
                 @click="display(element, index)"
                 title="Afficher dans la fenêtre de présentation"
               >
                 <font-awesome-icon :icon="'desktop'"></font-awesome-icon>
               </button>
               <button
-                class="btn btn-light btn-sm handle"
+                class="btn btn-light handle"
                 title="Déplacer l'élément"
               >
                 <font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon>
               </button>
               <button
-                class="btn btn-light btn-sm"
+                class="btn btn-light"
                 @click="removeAt(index)"
                 title="Supprimer l'élément de la playlist"
               >
@@ -241,7 +243,7 @@
           class="d-flex flex-wrap mt-1"
         >
           <div
-            class="p-2 border d-flex lyrics-part-block"
+            class="p-2 border d-flex align-items-center lyrics-part-block"
             v-for="(lyricsBlock, index) in element.lyrics"
             :key="index"
           >
@@ -263,7 +265,7 @@
             </div>
             <div class="btn-group">
               <button
-                class="btn btn-light btn-sm no-focus"
+                class="btn btn-light no-focus"
                 @click="$emit('scroll-to-pos', { pos: index })"
                 title="Afficher l'élément dans la présentation"
               >
@@ -272,7 +274,7 @@
                 ></font-awesome-icon>
               </button>
               <button
-                class="btn btn-light btn-sm no-focus"
+                class="btn btn-light no-focus"
                 :class="{ active: lyricsBlock.sticky }"
                 v-if="lyricsBlock.type == 'chorus'"
                 @click="lyricsBlock.sticky = !lyricsBlock.sticky"
@@ -281,7 +283,7 @@
                 <font-awesome-icon :icon="'thumbtack'"></font-awesome-icon>
               </button>
               <button
-                class="btn btn-light btn-sm no-focus"
+                class="btn btn-light no-focus"
                 :class="{ active: !lyricsBlock.show }"
                 v-if="
                   lyricsBlock.type == 'verse' ||

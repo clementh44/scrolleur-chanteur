@@ -411,6 +411,7 @@
       Scrolleur-Chanteur version {{ version }} (<a
         href="https://github.com/clementh44/scrolleur-chanteur"
         target="_blank"
+        rel="noopener"
         >GitHub</a
       >)
     </p>

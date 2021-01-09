@@ -1,4 +1,4 @@
-# Scrolleur Chanteur - v4.0
+# Scrolleur Chanteur - v4
 ![GitHub last commit](https://img.shields.io/github/last-commit/clementh44/scrolleur-chanteur?label=Update&style=for-the-badge) ![](https://img.shields.io/badge/dynamic/json?color=success&label=Version&prefix=v&query=version&url=https://raw.githubusercontent.com/clementh44/scrolleur-chanteur/master/package.json&style=for-the-badge)
 
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
@@ -43,7 +43,7 @@ En se plaçant dans le dépôt local (dossier téléchargé localement) :
 
 ```
 git pull
-npm install @vue/cli
+npm install
 npm run serve
 ```
 
@@ -677,4 +677,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
   + Écoute, ton Dieu t'appelle (300ème chant !)
   + Allez dire à tous les hommes
+```
+
+**09/01/2021 v4.9.0**
+```
+  Quelques optimisations ergonomiques et mises à jour
 ```

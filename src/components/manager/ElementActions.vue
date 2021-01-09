@@ -4,7 +4,7 @@
 
     <template v-if="settings.score.enabled && element.type == 'song'">
       <button
-        class="btn btn-info btn-sm"
+        class="btn btn-info"
         @click="
           $emit('search-score', {
             title: element.title,
@@ -16,7 +16,7 @@
         <font-awesome-icon :icon="'file-pdf'"></font-awesome-icon>
       </button>
       <button
-        class="btn btn-info btn-sm"
+        class="btn btn-info"
         @click="
           $emit('search-score', {
             title: element.title,
@@ -28,7 +28,7 @@
         <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
       </button>
       <button
-        class="btn btn-info btn-sm"
+        class="btn btn-info"
         @click="
           $emit('search-score', {
             title: element.title,
@@ -41,7 +41,7 @@
       </button>
     </template>
     <button
-      class="btn btn-light btn-sm"
+      class="btn btn-light"
       @click="$emit('preview', element)"
       title="Afficher dans la fenêtre d'aperçu"
     >
