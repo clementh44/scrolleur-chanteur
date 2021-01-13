@@ -690,4 +690,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction espace avant le texte (lors du formatage du code)
   Correction : espace vide inutilement affiché dans l'aperçu
   Possibilité de copier le texte dans l'aperçu
+  Ajout du lien vers la documentation en attendant son intégration
 ```

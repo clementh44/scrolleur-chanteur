@@ -205,6 +205,14 @@
               >Soutenir le projet</a
             >.
           </p>
+          <p>
+            <a
+              href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Documentation détaillée</a
+            >.
+          </p>
         </div>
 
         <!-- Playlist -->
