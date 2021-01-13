@@ -689,4 +689,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Amélioration du visuel à la suppression d'un élément
   Correction espace avant le texte (lors du formatage du code)
   Correction : espace vide inutilement affiché dans l'aperçu
+  Possibilité de copier le texte dans l'aperçu
 ```

@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="['user-select-none']"
+    :class="[live ? 'user-select-none' : '']"
     :style="[
       live
         ? {
