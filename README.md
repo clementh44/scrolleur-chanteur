@@ -687,4 +687,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **13/01/2021 v4.10.0**
 ```
   Amélioration du visuel à la suppression d'un élément
+  Correction espace avant le texte (lors du formatage du code)
 ```

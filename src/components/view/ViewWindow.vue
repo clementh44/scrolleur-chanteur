@@ -18,12 +18,8 @@
         :class="['song', live ? 'px-' + settings.liveView.padding : '']"
         :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
       >
-        <div class="title mb-1" v-show="!live || settings.song.showTitle">
-          {{ element.title }}
-        </div>
-        <div class="secli" v-show="haveSecliToShow()">
-          {{ getSecliString() }}
-        </div>
+        <div class="title mb-1" v-show="!live || settings.song.showTitle">{{ element.title }}</div>
+        <div class="secli" v-show="haveSecliToShow()">{{ getSecliString() }}</div>
 
         <div
           v-for="(lyrics, index) in element.lyrics"
@@ -44,9 +40,7 @@
               : '',
           ]"
           @click="toggleLyrics(lyrics)"
-        >
-          {{ lyrics.text }}
-        </div>
+        >{{ lyrics.text }}</div>
       </div>
 
       <div
@@ -55,9 +49,7 @@
         :class="['custom-text', live ? 'px-' + settings.liveView.padding : '']"
         :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
       >
-        <div class="title" v-if="element.isTitleDisplayed">
-          {{ element.title }}
-        </div>
+        <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
         <div class="custom-text-body">{{ element.text }}</div>
       </div>
 
