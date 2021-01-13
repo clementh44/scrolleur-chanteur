@@ -68,7 +68,8 @@
 
     <div
       class="empty"
-      :style="[live ? { background: settings.liveView.colors.empty } : '']"
+      :style="[{ background: settings.liveView.colors.empty }]"
+      v-if="live"
     ></div>
   </div>
 </template>
