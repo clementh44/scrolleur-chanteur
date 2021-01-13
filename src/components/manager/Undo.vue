@@ -30,14 +30,17 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="toast-body">
+      <div class="toast-body d-flex align-items-center">
+        <div class="flex-grow-1">"{{ deletedElement.title }}"</div>
+        <div>
         <button
           @click="restore(deletedElement)"
           type="button"
-          class="btn btn-primary btn-sm float-right"
+          class="btn btn-primary btn-sm"
         >
-          Restaurer</button
-        >"{{ deletedElement.title }}"
+          Restaurer
+        </button>
+      </div>
       </div>
     </div>
   </div>

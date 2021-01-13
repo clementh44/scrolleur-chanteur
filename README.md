@@ -683,3 +683,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Quelques optimisations ergonomiques et mises à jour
 ```
+
+**13/01/2021 v4.10.0**
+```
+  Amélioration du visuel à la suppression d'un élément
+```
