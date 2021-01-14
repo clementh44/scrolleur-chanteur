@@ -189,13 +189,10 @@
             avec le clavier.
           </p>
           <p>
-            Faire une demande d'ajout de chant via
+            Contact, chant manquant, idée, question... écrivez-moi via
             <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank"
               rel="noopener">ce formulaire</a
-            >. Sinon, utiliser le texte personnalisé (<font-awesome-icon
-              :icon="'align-left'"
-            ></font-awesome-icon
-            >)
+            >.
           </p>
           <p>
             <a
