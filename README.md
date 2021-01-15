@@ -692,3 +692,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Possibilité de copier le texte dans l'aperçu
   Ajout du lien vers la documentation en attendant son intégration
 ```
+
+**15/01/2021 v4.10.1**
+```
+  + Que tu es bon, Seigneur !
+  + Messe dite "de Lourdes" AL23-23 ; AL189 ; A168/C168 ; AL23-14
+  + Un homme au cœur de feu T170-1/O170-1
+  + Vienne la paix sur notre terre T150-1/M150-1
+```

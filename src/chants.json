@@ -1,5 +1,112 @@
 [
   {
+    "id": "vienne-la-paix-sur-notre-terre",
+    "title": "Vienne la paix sur notre terre",
+    "rating": "T150-1",
+    "newrating": "M150-1",
+    "publisher": "Studio SM",
+    "writer": "Rimaud D.",
+    "composer": "Berthier J.",
+    "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Vienne la paix sur notre terre,\nLa paix de Dieu pour les nations !\nVienne la paix entre les frères,\nLa paix de Dieu dans nos maisons."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Nos épées deviendront charrues de laboureurs,\nNos lances deviendront des faux pour la moisson.\nVienne la paix de Dieu !\nOn ne s'armera plus pays contre pays,\nLes soldats cesseront de préparer la guerre.\nVienne la paix de Dieu !"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Le nouveau-né jouera sur le trou du cobra\nLe jeune enfant mettra la main sur la vipère\nVienne la paix de Dieu !\nLes chevreaux et les lions reposeront ensemble\nLes loups et les agneaux auront même pâture,\nVienne la paix de Dieu !"
+    },
+    {
+      "type": "verse",
+      "text": "3 - Le souffle du Très-Haut se répandra sur nous,\nEt le désert fleurira comme un verger.\nVienne la paix de Dieu !\nLa tendresse de Dieu recouvrira le monde\nMieux que l'eau ne remplit les abimes de la mer.\nVienne la paix de Dieu !"
+    },
+    {
+      "type": "verse",
+      "text": "4 - Les hommes désunis se donneront la main !\nOn ne commettra plus ni mal ni cruauté,\nVienne la paix de Dieu !\nLes captifs chanteront leurs chants de délivrance\nLes camps de réfugiés se changeront en jardins !\nVienne la paix de Dieu !"
+    },
+    {
+      "type": "verse",
+      "text": "5 - Les pauvres mangeront, ils seront rassasiés,\nTous ceux qui cherchent Dieu ne manqueront de rien,\nVienne la paix de Dieu !\nLa patience et l'amour détrôneront la haine\nLa jalousie sera vaincue par le pardon.\nVienne la paix de Dieu !"
+    },
+    {
+      "type": "verse",
+      "text": "6 - La terre donnera son fruit le plus précieux,\nLa terre enfantera le corps de son Sauveur,\nVienne la paix de Dieu !\nLes peuples formeront le peuple des sauvés,\nL'humanité saura qu'elle est bien-aimée de Dieu.\nVienne la paix de Dieu !"
+    }
+    ]
+  },
+  {
+    "id": "un-homme-au-coeur-de-feu",
+    "title": "Un homme au cœur de feu",
+    "rating": "T170-1",
+    "newrating": "O170-1",
+    "publisher": "Studio SM",
+    "writer": "Rimaud D.",
+    "composer": "Berthier J.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Un homme au coeur de feu\nQui est venu du Père\nEt qui retourne à Lui,\nJésus, le Premier-né,\nUn homme au coeur de feu,\nNous invite à le suivre en son retournement,\nJusqu'à renaître au jour irradiant de Pâque.\nJésus, le Premier-né, nous invite à le suivre."
+      },
+      {
+        "type": "chorus",
+        "text": "Pour la gloire de Dieu et sa haute louange,\nPour la gloire de Dieu et le salut du monde !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Un homme sous l'Esprit,\nA l'oeuvre au sein du monde en mal d'enfantement,\nJésus, Maître et Seigneur\nUn homme sous l'Esprit,\nNous invite à le suivre au rang des serviteurs,\nA servir aux chantiers où il poursuit sa Pâque.\nJésus, Maître et Seigneur, nous invite à le suivre."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Un homme épris de Dieu,\nLe Fils obéissant jusqu'à mourir en croix,\nJésus le Bien-aimé\nUn homme épris de Dieu,\nNous invite à le suivre en son abaissement,\nA marcher au chemin orienté vers Pâque.\nJésus, le Bien-aimé, nous invite à le suivre."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Un homme au coeur de chair\nQui veut réconcilier la terre avec le ciel,\nJésus, Verbe de Vie,\nUn homme au coeur de chair,\nNous invite au bonheur que donne son amour :\nLa joie qui vient de lui vient témoigner de Pâque.\nJésus, Verbe de Vie, nous invite au bonheur."
+      }
+    ]
+  },
+  {
+    "id": "que-tu-es-bon-seigneur",
+    "title": "Que tu es bon, Seigneur !",
+    "publisher": "ADF-Musique",
+    "writer": "Sœur Agathe Dutrey",
+    "composer": "Sœur Agathe Dutrey",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Que tu es bon Seigneur\nTon amour est pour nous comme un manteau, Oh, Oh\nqui nous entoure (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Tu as créé, par ton amour ;\nTu nous as faits, à ton image.\nTu nous connais, et tu nous aimes !\nMerci Seigneur, pour cette vie,\nQue tu nous donnes, que tu bénis !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Tu nous appelles, tu nous attires,\nPar le baptême, tu fais de nous\nTes fils, tes filles, à tout jamais.\nAu nom du Père, et du Fils,\nEt du Saint Esprit, Amen."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Dieu notre Père donne Jésus,\nSon Fils Unique, l’Emmanuel.\nL’Amour de Dieu se fait petit.\nIl est lumière, dans notre nuit,\nPour notre monde, qu’il illumine !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - « Viens et suis-moi », nous dit Jésus.\nAdorer Dieu grandit le coeur.\nChoisir d’aimer, choisir de vivre,\nEt d’écouter la loi divine,\nQui nous libère, et nous rend libre."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Toi qui nous aimes, d’un amour fou,\nComme un vrai père, sans te lasser,\nJe veux choisir aussi d’aimer,\nEt revenir de tout mon coeur,\nVers ton Alliance, vers toi, Seigneur."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Tu nous appelles à vivre en toi,\nÊtre témoin de ton amour.\nComment Seigneur ? Puis-je être saint ?\nJe crois en toi, moi, si petit…\nMais envoie-moi ton Saint Esprit !"
+      }
+    ]
+  },
+  {
     "id": "allez-dire-a-tous-les-hommes",
     "title": "Allez dire à tous les hommes",
     "rating": "U132-1",
@@ -9106,6 +9213,111 @@
       {
         "type": "verse",
         "text": "Agnus Dei, qui tollis peccata mundi,\nDona nobis pacem, dona nobis pacem. (bis)"
+      }
+    ]
+  },
+
+  {
+    "id": "messe-1-de-lourdes-kyrie-eleison",
+    "title": "messe de Lourdes Kyrie eleison",
+    "rating": "AL23-23",
+    "publisher": "Bayard-Liturgie",
+    "writer": "Lecot J.-P.",
+    "composer": "Decha P., Lecot J.-P.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Jésus, tu es venu nous révéler\nl'amour du Père :"
+      },
+      {
+        "type": "chorus",
+        "text": "Kyrie eleison.\nKyrie eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Jésus, tu es venu pour sauver\net non pour condamner :"
+      },
+      {
+        "type": "chorus",
+        "text": "Christe eleison.\nChriste eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Jésus, tu es venu pour les pécheurs\net non pour les justes :"
+      },
+      {
+        "type": "chorus",
+        "text": "Kyrie eleison.\nKyrie eleison."
+      }
+    ]
+  },
+  {
+    "id": "messe-2-de-lourdes-gloria",
+    "title": "messe de Lourdes Gloria",
+    "rating": "AL189",
+    "publisher": "Lethielleux (DDB)",
+    "writer": "AELF",
+    "composer": "Lecot J.-P.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloria ! Gloria ! in excelcis Deo !\nGloria ! Gloria ! in excelcis Deo !"
+      },
+      {
+        "type": "verse",
+        "text": "Paix sur la terre aux hommes qu’il aime.\nNous te louons, nous te bénissons,\nNous te glorifions, nous te rendons grâce, pour ton immense gloire,\nSeigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
+      },
+      {
+        "type": "verse",
+        "text": "Seigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père.\nToi qui enlèves le péché du monde, prends pitié de nous\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Car toi seul es saint,\nToi seul es Seigneur,\nToi seul es le Très-Haut, Jésus Christ, avec le Saint-Esprit\nDans la gloire de Dieu le Père. Amen."
+      }
+    ]
+  },
+  {
+    "id": "messe-5-de-lourdes-sanctus",
+    "title": "Messe de Lourdes Sanctus",
+    "rating": "A168",
+    "newrating": "C168",
+    "publisher": "Lethielleux (DDB)",
+    "composer": "Lecot J.-P.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Dieu saint, Dieu fort,\nDieu immortel, béni soit ton nom !"
+      },
+      {
+        "type": "verse",
+        "text": "Ciel et terre sont remplis de ta gloire !"
+      },
+      {
+        "type": "verse",
+        "text": "Béni soit celui qui vient au nom du Seigneur."
+      }
+    ]
+  },
+  {
+    "id": "messe-7-de-lourdes-agneau-de-dieu",
+    "title": "Messe de Lourdes Agneau de Dieu",
+    "rating": "AL23-14",
+    "publisher": "Bayard-Liturgie",
+    "writer": "AELF",
+    "composer": "Decha P.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu, qui enlèves le péché du monde,\nprends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu qui enlèves le péché du monde,\nprends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu qui enlèves le péché du monde,\ndonne-nous la paix."
       }
     ]
   }
