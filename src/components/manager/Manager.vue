@@ -118,8 +118,11 @@
             </p>
             <p>
               En continuant à utiliser l'outil, vous déclarez cotiser par
-              ailleurs au SECLI (<a href="https://secli.cef.fr/" target="_blank"
-                rel="noopener">Secrétariat des Editeurs de Chants pour la LIturgie</a
+              ailleurs au SECLI (<a
+                href="https://secli.cef.fr/"
+                target="_blank"
+                rel="noopener"
+                >Secrétariat des Editeurs de Chants pour la LIturgie</a
               >) directement ou via votre paroisse ou groupe.
             </p>
             <hr />
@@ -190,8 +193,11 @@
           </p>
           <p>
             Contact, chant manquant, idée, question... écrivez-moi via
-            <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank"
-              rel="noopener">ce formulaire</a
+            <a
+              href="https://forms.gle/NtKpdCazNs9N4NY88"
+              target="_blank"
+              rel="noopener"
+              >ce formulaire</a
             >.
           </p>
           <p>
@@ -570,9 +576,7 @@ export default {
     },
     // PLAYLIST
     addSong: function(song) {
-      this.$set(song, "type", "song")
-      let element = this.playlist.find((element) => element.id == song.id)
-      if (!element) {
+      if (!this.playlist.find((element) => element.id == song.id)) {
         this.playlist.push(song)
       }
     },
@@ -582,6 +586,8 @@ export default {
         window.open(query.replace("<TITRE>", title.replace(/ /g, "+")))
       }
     },
+
+    // fonction pour le debounce de la recherche d'un titre
     searchSong: function(title) {
       this.search = title
     },
@@ -640,29 +646,11 @@ export default {
     },
   },
   computed: {
-    sortedSongs: function() {
-      let copy = this.songs
-      copy.forEach((song) => {
-        song.lyrics.forEach((lyrics) => {
-          if (lyrics.type == "chorus" && lyrics.sticky == undefined) {
-            this.$set(lyrics, "sticky", true)
-          } else if (
-            (lyrics.type == "verse" || lyrics.type == "translation") &&
-            lyrics.show == undefined
-          ) {
-            this.$set(lyrics, "show", true)
-          }
-          if (lyrics.isActive == undefined) {
-            this.$set(lyrics, "isActive", false)
-          }
-        })
-      })
-      return copy.sort(function(a, b) {
-        return a.id.localeCompare(b.id)
-      })
-    },
     filteredSongs: function() {
-      return this.sortedSongs.filter((song) => {
+      if (this.search == "") {
+        return this.songs
+      }
+      return this.songs.filter((song) => {
         // normalise le terme recherché (sans accents, minuscule)
         return this.search
           .normalize("NFD")
@@ -701,6 +689,27 @@ export default {
   },
   created() {
     window.addEventListener("keydown", this.manageShortCuts)
+
+    //tri et préparation de la liste des chants
+    this.songs.forEach((song) => {
+      this.$set(song, "type", "song")
+      song.lyrics.forEach((lyrics) => {
+        if (lyrics.type == "chorus" && lyrics.sticky == undefined) {
+          this.$set(lyrics, "sticky", true)
+        } else if (
+          (lyrics.type == "verse" || lyrics.type == "translation") &&
+          lyrics.show == undefined
+        ) {
+          this.$set(lyrics, "show", true)
+        }
+        if (lyrics.isActive == undefined) {
+          this.$set(lyrics, "isActive", false)
+        }
+      })
+    })
+    this.songs.sort(function(a, b) {
+      return a.id.localeCompare(b.id)
+    })
   },
   watch: {
     settings: {

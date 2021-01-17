@@ -715,4 +715,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe Christus Vincit) Anamnèse CL38-03-11
   + (Messe Christus Vincit) Agneau de Dieu D39-50
   + Tournés vers l'avenir K238
+
+  Optimisation : le tri des chants ne se fait qu'une seule fois (au chargement de la page)
 ```
