@@ -1,5 +1,90 @@
 [
   {
+    "id": "sauves-des-memes-eaux",
+    "title": "Sauvés des mêmes eaux",
+    "rating": "I20-72-1",
+    "newrating": "ID20-72-1",
+    "publisher": "Sodec",
+    "writer": "Didier Rimaud",
+    "composer": "Philippe Robert",
+    "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Sauvés des mêmes eaux, marqués du même sang.\nNous sommes ton Peuple !\nBénis du même amour, signés du même nom ;\nNous sommes ton Peuple\nEt nous te rendons grâce par Jésus ton Enfant !"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Remplis du même Esprit, porteurs du même feu,\nNous sommes ton Peuple !\nGreffés au même tronc, unis au même Chef ;\nNous sommes ton Peuple\nEt nous te rendons grâce par Jésus ton Enfant !"
+    },
+    {
+      "type": "verse",
+      "text": "3 - Pour être un même corps, vivant la même vie.\nNous sommes ton Peuple !\nPour prendre un même Pain et boire un même Vin.\nNous sommes ton Peuple\nEt nous te rendons grâce par Jésus ton Enfant !"
+    }
+    ]
+  },
+  {
+    "id": "tournes-vers-lavenir",
+    "title": "Tournés vers l'avenir",
+    "rating": "K238",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Tournés vers l’avenir,\nNous marchons à ta lumière,\nFils du Dieu vivant.\nTournés vers l’avenir\nComme un peuple qui espère,\nLe soleil levant !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Espérer des matins d’évangile\ndans un siècle aux lueurs de couchant,\nL’horizon voit monter l’an deux mille,\nJésus Christ, tu reviens au Levant."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Espérer le réveil de la terre,\nL’Esprit Saint plane encore sur les eaux ;\nDieu travaille et son oeuvre est lumière,\nChaque jour l’univers est nouveau."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Espérer de profondes racines,\nDans la foi, tout un peuple vivra.\nCeux qui boivent à ta source divine\nGrandiront en vrais fils d’Abraham."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Espérer un printemps pour l’Église,\nTant d’hivers ont figé nos élans !\nTa jeunesse, Dieu fort, nous anime,\nNous verrons des étés florissants."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Espérer la rencontre avec l’Autre,\nLe passant qui dira: Lève-toi !\nTu connais la parole qui sauve,\nTu guéris maintenant par nos voix."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Espérer contre toute espérance,\nChanter Pâques au milieu de la nuit ;\nDans nos champs labourés de souffrance\nFais mûrir les moissons de la vie."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Espérer le grand vent de ton souffle,\nNous irons où l’Esprit conduira.\nToi, Seigneur, avec nous tu fais route,\nTous ensemble avançons sur tes pas !"
+      },
+      {
+        "type": "verse",
+        "text": "8 - Espérer une pluie de tendresse\nDans un monde où la guerre est folie ;\nQuand l’amour fleurira nos sagesses\nL’olivier donnera tout son fruit."
+      },
+      {
+        "type": "verse",
+        "text": "9 - Espérer les semeurs du Royaume,\nTant de pauvres nous crient : Liberté !\nLa justice est le pain de tout homme,\nLibérons des chemins de clarté !"
+      },
+      {
+        "type": "verse",
+        "text": "10 - Espérer des prophètes aux mains libres,\nQue leurs voix ne soient plus enchaînées !\nQuand tes soeurs et tes frères pourront vivre,\nTon message sera délivré."
+      },
+      {
+        "type": "verse",
+        "text": "11 - Espérer des chrétiens qui s’unissent\nEn témoins de l’amour partagé.\nSi nos coeurs sont des murs qui divisent\nQuel vivant te croira Dieu de paix ?"
+      },
+      {
+        "type": "verse",
+        "text": "12 - Espérer une Terre Nouvelle,\nPlus de mort, plus de larmes ou de faim !\nNos maisons deviendront table ouverte,\nTu prépares avec nous ton festin."
+      }
+    ]
+  },
+  {
     "id": "vienne-la-paix-sur-notre-terre",
     "title": "Vienne la paix sur notre terre",
     "rating": "T150-1",
@@ -8,34 +93,34 @@
     "writer": "Rimaud D.",
     "composer": "Berthier J.",
     "lyrics": [
-    {
-      "type": "chorus",
-      "text": "Vienne la paix sur notre terre,\nLa paix de Dieu pour les nations !\nVienne la paix entre les frères,\nLa paix de Dieu dans nos maisons."
-    },
-    {
-      "type": "verse",
-      "text": "1 - Nos épées deviendront charrues de laboureurs,\nNos lances deviendront des faux pour la moisson.\nVienne la paix de Dieu !\nOn ne s'armera plus pays contre pays,\nLes soldats cesseront de préparer la guerre.\nVienne la paix de Dieu !"
-    },
-    {
-      "type": "verse",
-      "text": "2 - Le nouveau-né jouera sur le trou du cobra\nLe jeune enfant mettra la main sur la vipère\nVienne la paix de Dieu !\nLes chevreaux et les lions reposeront ensemble\nLes loups et les agneaux auront même pâture,\nVienne la paix de Dieu !"
-    },
-    {
-      "type": "verse",
-      "text": "3 - Le souffle du Très-Haut se répandra sur nous,\nEt le désert fleurira comme un verger.\nVienne la paix de Dieu !\nLa tendresse de Dieu recouvrira le monde\nMieux que l'eau ne remplit les abimes de la mer.\nVienne la paix de Dieu !"
-    },
-    {
-      "type": "verse",
-      "text": "4 - Les hommes désunis se donneront la main !\nOn ne commettra plus ni mal ni cruauté,\nVienne la paix de Dieu !\nLes captifs chanteront leurs chants de délivrance\nLes camps de réfugiés se changeront en jardins !\nVienne la paix de Dieu !"
-    },
-    {
-      "type": "verse",
-      "text": "5 - Les pauvres mangeront, ils seront rassasiés,\nTous ceux qui cherchent Dieu ne manqueront de rien,\nVienne la paix de Dieu !\nLa patience et l'amour détrôneront la haine\nLa jalousie sera vaincue par le pardon.\nVienne la paix de Dieu !"
-    },
-    {
-      "type": "verse",
-      "text": "6 - La terre donnera son fruit le plus précieux,\nLa terre enfantera le corps de son Sauveur,\nVienne la paix de Dieu !\nLes peuples formeront le peuple des sauvés,\nL'humanité saura qu'elle est bien-aimée de Dieu.\nVienne la paix de Dieu !"
-    }
+      {
+        "type": "chorus",
+        "text": "Vienne la paix sur notre terre,\nLa paix de Dieu pour les nations !\nVienne la paix entre les frères,\nLa paix de Dieu dans nos maisons."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Nos épées deviendront charrues de laboureurs,\nNos lances deviendront des faux pour la moisson.\nVienne la paix de Dieu !\nOn ne s'armera plus pays contre pays,\nLes soldats cesseront de préparer la guerre.\nVienne la paix de Dieu !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Le nouveau-né jouera sur le trou du cobra\nLe jeune enfant mettra la main sur la vipère\nVienne la paix de Dieu !\nLes chevreaux et les lions reposeront ensemble\nLes loups et les agneaux auront même pâture,\nVienne la paix de Dieu !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Le souffle du Très-Haut se répandra sur nous,\nEt le désert fleurira comme un verger.\nVienne la paix de Dieu !\nLa tendresse de Dieu recouvrira le monde\nMieux que l'eau ne remplit les abimes de la mer.\nVienne la paix de Dieu !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Les hommes désunis se donneront la main !\nOn ne commettra plus ni mal ni cruauté,\nVienne la paix de Dieu !\nLes captifs chanteront leurs chants de délivrance\nLes camps de réfugiés se changeront en jardins !\nVienne la paix de Dieu !"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Les pauvres mangeront, ils seront rassasiés,\nTous ceux qui cherchent Dieu ne manqueront de rien,\nVienne la paix de Dieu !\nLa patience et l'amour détrôneront la haine\nLa jalousie sera vaincue par le pardon.\nVienne la paix de Dieu !"
+      },
+      {
+        "type": "verse",
+        "text": "6 - La terre donnera son fruit le plus précieux,\nLa terre enfantera le corps de son Sauveur,\nVienne la paix de Dieu !\nLes peuples formeront le peuple des sauvés,\nL'humanité saura qu'elle est bien-aimée de Dieu.\nVienne la paix de Dieu !"
+      }
     ]
   },
   {
@@ -9318,6 +9403,312 @@
       {
         "type": "verse",
         "text": "Agneau de Dieu qui enlèves le péché du monde,\ndonne-nous la paix."
+      }
+    ]
+  },
+
+  {
+    "id": "messe-christus-vincit-agneau-de-dieu",
+    "title": "(Messe Christus Vincit) Agneau de Dieu",
+    "rating": "D39-50",
+    "publisher": "Studio SM",
+    "writer": "Georges Lefebvre",
+    "composer": "Georges Lefebvre",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Agneau de Dieu, le vrai berger, sauve-nous, prends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Toi qui enlèves le péché du monde,\nSauve-nous, prends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Toi qui enlèves le péché du monde,\nSauve-nous, prends pitié de nous !Toi qui enlèves le péché du monde,\nSauve-nous, prends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Toi qui enlèves le péché du monde,\nSauve-nous, donne-nous la paix !"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-christus-vincit-anamnese",
+    "title": "(Messe Christus Vincit) Anamnèse",
+    "rating": "CL38-03-11",
+    "publisher": "Studio SM",
+    "writer": "Georges Lefebvre",
+    "composer": "Georges Lefebvre",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à toi qui étais mort  !\nGloire à toi qui est vivant !\nNotre Sauveur et notre Dieu !\nViens Seigneur Jésus !"
+      }
+    ]
+  },
+  {
+    "id": "messe-3-christus-vincit-alleluia",
+    "title": "(Messe Christus Vincit) Alleluia",
+    "rating": "U39-48",
+    "publisher": "Studio SM",
+    "writer": "Georges Lefebvre",
+    "composer": "Georges Lefebvre",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia ! Alléluia ! Alléluia ! Alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - La Bonne Nouvelle est annoncée aux pauvres.\nAlléluia ! Alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Tu as les Paroles de la Vie Éternelle.\nAlléluia ! Alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tu es le Chemin, la Vérité, la Vie.\nAlléluia ! Alléluia !"
+      }
+    ]
+  },
+  {
+    "id": "messe-2-christus-vincit-gloire-a-dieu",
+    "title": "(Messe Christus Vincit) Gloire à Dieu",
+    "rating": "C39-47",
+    "publisher": "Studio SM",
+    "writer": "Georges Lefebvre",
+    "composer": "Georges Lefebvre",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu dans les cieux ! Paix aux hommes qu'il aime !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Nous te louons, nous t'acclamons.\nTa gloire nous la proclamons.\nSeigneur du ciel nous t'adorons.\nPère très saint nous te chantons."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Sauveur du monde, Jésus-Christ,\nAgneau de Dieu, le Fils béni.\nToi qui enlèves le péché,\nÉcoute-nous et prends pitié."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Toi le seul Saint, le seul Seigneur,\nToi le Très-haut, Jésus vainqueur,\nAvec le Père et l'Esprit Saint\nDieu glorieux loué sans fin."
+      }
+    ]
+  },
+  {
+    "id": "messe-5-christus-vincit-saint-le-seigneur",
+    "title": "(Messe Christus Vincit) Saint, le Seigneur",
+    "rating": "AL39-49",
+    "publisher": "Studio SM",
+    "writer": "Aloys Kunc",
+    "composer": "Pascal Daniel",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Saint, Saint, Saint, le Seigneur,\nle Seigneur, Dieu de l'univers."
+      },
+      {
+        "type": "verse",
+        "text": "Le ciel et la terre sont remplis de ta gloire"
+      },
+      {
+        "type": "chorus",
+        "text": "Hosanna au plus haut des cieux"
+      },
+      {
+        "type": "verse",
+        "text": "Béni soit celui qui vient au nom du Seigneur."
+      }
+    ]
+  },
+
+  {
+    "id": "messe-7-festive-pour-les-dimanches-du-temps-ordinaire-agneau-de-dieu",
+    "title": "(Messe festive pour les dimanches du temps ordinaire) Agneau de Dieu",
+    "rating": "AL48-00",
+    "publisher": "Jubilus - Voix nouvelles éditions",
+    "writer": "AELF",
+    "composer": "Fontaine I.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu qui enlèves le péché du monde,\nPrends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu qui enlèves le péché du monde,\nPrends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu qui enlèves le péché du monde,\nDonne-nous la paix !"
+      }
+    ]
+  },
+  {
+    "id": "messe-5-festive-pour-les-dimanches-du-temps-ordinaire-saint-le-seigneur",
+    "title": "(Messe festive pour les dimanches du temps ordinaire) Saint le Seigneur",
+    "rating": "AL48-00",
+    "publisher": "Jubilus - Voix nouvelles éditions",
+    "writer": "AELF",
+    "composer": "Fontaine I.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Saint est le Seigneur le Dieu de l'univers.\nHosanna au plus haut des cieux !\nLe ciel et la terre sont remplis de ta gloire.\nHosanna au plus haut des cieux !\nBéni soit celui qui vient au nom du Seigneur.\nHosanna au plus haut des cieux ! (bis)"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-festive-pour-les-dimanches-du-temps-ordinaire-anamnese",
+    "title": "(Messe festive pour les dimanches du temps ordinaire) Anamnèse",
+    "rating": "AL48-00",
+    "publisher": "Jubilus - Voix nouvelles éditions",
+    "writer": "AELF",
+    "composer": "Fontaine I.",
+    "lyrics": [
+      {
+        "type": "translation",
+        "text": "Proclamons le mystère de la foi."
+      },
+      {
+        "type": "chorus",
+        "text": "Gloire à toi qui étais mort !\nGloire à toi qui es vivant !\nNotre Sauveur et notre Dieu !\nViens Seigneur Jésus !"
+      }
+    ]
+  },
+  {
+    "id": "messe-3-festive-pour-les-dimanches-du-temps-ordinaire-alleluia",
+    "title": "(Messe festive pour les dimanches du temps ordinaire) Alleluia",
+    "rating": "AL48-00",
+    "publisher": "Jubilus - Voix nouvelles éditions",
+    "writer": "AELF",
+    "composer": "Fontaine I.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alleluia"
+      },
+      {
+        "type": "verse",
+        "text": "Dans l'Esprit-Saint, rendez témoignage que Jésus est le Fils de Dieu,\ncar l'Esprit est vérité."
+      },
+      {
+        "type": "verse",
+        "text": "Le règne de Dieu est venu jusqu'à vous ;\ncroyez à la Bonne Nouvelle."
+      }
+    ]
+  },
+  {
+    "id": "messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu",
+    "title": "(Messe festive pour les dimanches du temps ordinaire) Gloire à Dieu",
+    "rating": "AL40-83-32",
+    "publisher": "Jubilus - Voix nouvelles éditions",
+    "writer": "AELF",
+    "composer": "Fontaine I.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Gloire à Dieu au plus haut des cieux,\net paix sur la terre aux hommes qu’il aime."
+      },
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu au plus haut des cieux,\net paix sur la terre aux hommes qu’il aime."
+      },
+      {
+        "type": "verse",
+        "text": "Nous te louons, nous te bénissons,"
+      },
+      {
+        "type": "chorus",
+        "text": "nous t’adorons, nous te glorifions,"
+      },
+      {
+        "type": "verse",
+        "text": "nous te rendons grâce, pour ton immense gloire,"
+      },
+      {
+        "type": "chorus",
+        "text": "Seigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
+      },
+      {
+        "type": "verse",
+        "text": "Seigneur, Fils unique, Jésus Christ,"
+      },
+      {
+        "type": "chorus",
+        "text": "Seigneur Dieu, Agneau de Dieu, le Fils du Père ;"
+      },
+      {
+        "type": "verse",
+        "text": "Toi qui enlèves le péché du monde, prends pitié de nous ;"
+      },
+      {
+        "type": "chorus",
+        "text": "Toi qui enlèves le péché du monde, reçois notre prière ;"
+      },
+      {
+        "type": "verse",
+        "text": "Toi qui es assis à la droite du Père,"
+      },
+      {
+        "type": "chorus",
+        "text": "prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Car toi seul es saint,"
+      },
+      {
+        "type": "chorus",
+        "text": "Toi seul es Seigneur,"
+      },
+      {
+        "type": "verse",
+        "text": "Toi seul es le Très-Haut : Jésus Christ,"
+      },
+      {
+        "type": "chorus",
+        "text": "avec le Saint-Esprit dans la gloire de Dieu le Père."
+      },
+      {
+        "type": "verse",
+        "text": "Amen"
+      },
+      {
+        "type": "chorus",
+        "text": "Amen"
+      }
+    ]
+  },
+
+  {
+    "id": "messe-1-dieu-saint-kyrie-trisagion",
+    "title": "Dieu saint - Kyrie Trisagion",
+    "rating": "A96",
+    "newrating": "C585",
+    "publisher": "Studio SM",
+    "writer": "Gelineau J.",
+    "composer": "Gelineau J.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Dieu saint, Dieu saint et fort,\nDieu saint et immortel.\nKyrie eleison, Kyrie eleison.\nKyrie eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Toi qui as souffert pour nous sur la Croix,\nChriste eleison, Christe eleison.\nChriste eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Souviens-toi de nous quand tu viendras dans ton Royaume.\nKyrie eleison, Kyrie eleison.\nKyrie eleison."
+      },
+      {
+        "type": "translation",
+        "text": "Variantes du 2ème Verset pour les divers temps liturgiques.\n\nAvent : Toi qui viens nous sauver.\nNoël : Toi qui es né de la Vierge Marie.\nCarême : Toi qui t'es manifesté dans notre chair.\nPassion : Toi qui as souffert pour nous sur la Croix.\nPâques : Toi qui es ressuscité d'entre les morts.\nAscension : Toi qui es monté dans les cieux.\nPentecôte : Toi qui nous envoies l'Esprit Saint."
       }
     ]
   }

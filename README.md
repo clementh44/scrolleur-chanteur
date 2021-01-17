@@ -700,3 +700,19 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Un homme au cœur de feu T170-1/O170-1
   + Vienne la paix sur notre terre T150-1/M150-1
 ```
+
+**17/01/2021 v4.10.2**
+```
+  + Dieu saint - Kyrie Trisagion A96/C585
+  + (Messe festive pour les dimanches du temps ordinaire) Gloire à Dieu AL40-83-32
+  + (Messe festive pour les dimanches du temps ordinaire) Alleluia AL48-00
+  + (Messe festive pour les dimanches du temps ordinaire) Anamnèse AL48-00
+  + (Messe festive pour les dimanches du temps ordinaire) Saint le Seigneur AL48-00
+  + (Messe festive pour les dimanches du temps ordinaire) Agneau de Dieu AL48-00
+  + (Messe Christus Vincit) Gloire à Dieu C39-47
+  + (Messe Christus Vincit) Alleluia U39-48
+  + (Messe Christus Vincit) Saint, le Seigneur AL39-49
+  + (Messe Christus Vincit) Anamnèse CL38-03-11
+  + (Messe Christus Vincit) Agneau de Dieu D39-50
+  + Tournés vers l'avenir K238
+```
