@@ -58,6 +58,21 @@
         /></label>
       </div>
       <div class="btn-group" v-if="this.playlist.length > 0">
+        <div
+          class="btn btn-danger"
+          aria-disabled="true"
+          style="pointer-events: none;"
+        >
+          Supprimer :
+        </div>
+        <button
+          @click="cleanEmpty()"
+          type="button"
+          class="btn btn-danger"
+          title="Supprimer les éléments vides"
+        >
+          <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
+        </button>
         <button
           @click="clean()"
           type="button"
@@ -160,14 +175,16 @@
         Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon
           :icon="'align-left'"
         ></font-awesome-icon
-        >), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou
-        du vide (<font-awesome-icon :icon="['far', 'square']"></font-awesome-icon
+        >), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>)
+        ou du vide (<font-awesome-icon
+          :icon="['far', 'square']"
+        ></font-awesome-icon
         >).<br />
         Ci-dessous, recherchez et ajoutez un chant du répertoire
         (<font-awesome-icon :icon="'plus'"></font-awesome-icon>) pour acceder à
         plus de contrôles.<br />
-        Rappel : laissez la souris sur un bouton pour avoir une description de son
-        action.
+        Rappel : laissez la souris sur un bouton pour avoir une description de
+        son action.
       </li>
     </ul>
 
@@ -222,10 +239,7 @@
               >
                 <font-awesome-icon :icon="'desktop'"></font-awesome-icon>
               </button>
-              <button
-                class="btn btn-light handle"
-                title="Déplacer l'élément"
-              >
+              <button class="btn btn-light handle" title="Déplacer l'élément">
                 <font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon>
               </button>
               <button
@@ -400,7 +414,9 @@ export default {
       }
 
       var element = this.playlist.splice(index, 1)[0]
-      this.$refs.deleteElement.addElement(element, element.title)
+      if (element.type != "empty") {
+        this.$refs.deleteElement.addElement(element, element.title)
+      }
     },
     addElement(element) {
       this.playlist.push(element)
@@ -424,10 +440,18 @@ export default {
         }
       }
     },
+    //vider la playlist
     clean() {
-      //vider la playlist
       for (let index = this.playlist.length - 1; index >= 0; index--) {
         this.removeAt(index)
+      }
+    },
+    //supprimer les éléments vides
+    cleanEmpty() {
+      for (let index = this.playlist.length - 1; index >= 0; index--) {
+        if (this.playlist[index].type == "empty") {
+          this.removeAt(index)
+        }
       }
     },
 

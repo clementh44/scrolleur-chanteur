@@ -717,4 +717,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Tournés vers l'avenir K238
 
   Optimisation : le tri des chants ne se fait qu'une seule fois (au chargement de la page)
+  Ajout d'un bouton pour supprimer les éléments vides de la playlist
 ```
