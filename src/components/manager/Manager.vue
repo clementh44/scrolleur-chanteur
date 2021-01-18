@@ -468,7 +468,7 @@ export default {
 
       this.viewBody = { type: "empty" }
       setTimeout(() => {
-        this.$refs.liveWindow.scroll(-99999, 0, false)
+        this.$refs.liveWindow.scrollTop()
         this.viewBody = element
         setTimeout(
           () =>
@@ -613,20 +613,12 @@ export default {
       } else if (event.key == this.settings.shortcuts.scrollDown) {
         event.preventDefault()
         if (this.viewOpened) {
-          this.$refs.liveWindow.scroll(
-            16 * this.settings.liveView.fontSize * 1.3,
-            0,
-            true
-          )
+          this.$refs.liveWindow.scrollDown()
         }
       } else if (event.key == this.settings.shortcuts.scrollUp) {
         event.preventDefault()
         if (this.viewOpened) {
-          this.$refs.liveWindow.scroll(
-            -16 * this.settings.liveView.fontSize * 1.3,
-            0,
-            true
-          )
+          this.$refs.liveWindow.scrollUp()
         }
       } else if (event.key == this.settings.shortcuts.partNext) {
         event.preventDefault()

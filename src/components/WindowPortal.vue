@@ -99,6 +99,15 @@ export default {
         this.windowRef.scrollTo(0, 0)
       }
     },
+    getLineHeight: function() {
+      return this.windowRef.document.getElementById("invisible-part").clientHeight
+    },
+    scrollDown: function() {
+      this.scroll(this.getLineHeight(), 0, true)
+    },
+    scrollUp: function() {
+      this.scroll(-this.getLineHeight(), 0, true)
+    },
     scroll(top, left, smooth) {
       if (this.windowRef) {
         this.windowRef.scrollBy({

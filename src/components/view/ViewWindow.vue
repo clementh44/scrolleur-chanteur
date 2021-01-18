@@ -41,6 +41,7 @@
           ]"
           @click="toggleLyrics(lyrics)"
         >{{ lyrics.text }}</div>
+        <div id="invisible-part" v-if="live">&#8205;</div>
       </div>
 
       <div
@@ -51,6 +52,7 @@
       >
         <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
         <div class="custom-text-body">{{ element.text }}</div>
+        <div id="invisible-part" class="custom-text" v-if="live">&#8205;</div>
       </div>
 
       <div key="file" v-else-if="element.type == 'file'" class="file">
