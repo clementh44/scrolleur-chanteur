@@ -6,9 +6,9 @@
         ? {
             cursor: smallCursor,
             background: settings.liveView.colors.background,
-            color: settings.liveView.colors.text,
+            color: settings.liveView.colors.text
           }
-        : '',
+        : ''
     ]"
   >
     <transition name="fade" :duration="duration">
@@ -24,32 +24,18 @@
         <div
           v-for="(lyrics, index) in element.lyrics"
           :key="index"
-          :class="[
-            'song-part',
-            lyrics.type,
-            { show: lyrics.show, sticky: lyrics.sticky },
-          ]"
+          :class="['song-part', lyrics.type, { show: lyrics.show, sticky: lyrics.sticky }]"
           :style="[
-            lyrics.type == 'chorus' || lyrics.show
-              ? ''
-              : { opacity: settings.song.verseOpacity },
-            lyrics.sticky
-              ? live
-                ? { background: settings.liveView.colors.background }
-                : { background: '#FFFFFF' }
-              : '',
+            lyrics.type == 'chorus' || lyrics.show ? '' : { opacity: settings.song.verseOpacity },
+            lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : ''
           ]"
           @click="toggleLyrics(lyrics)"
-        >{{ lyrics.text }}</div>
+          >{{ lyrics.text }}</div
+        >
         <div id="invisible-part" v-if="live">&#8205;</div>
       </div>
 
-      <div
-        key="text"
-        v-else-if="element.type == 'text'"
-        :class="['custom-text', live ? 'px-' + settings.liveView.padding : '']"
-        :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
-      >
+      <div key="text" v-else-if="element.type == 'text'" :class="['custom-text', live ? 'px-' + settings.liveView.padding : '']" :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']">
         <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
         <div class="custom-text-body">{{ element.text }}</div>
         <div id="invisible-part" class="custom-text" v-if="live">&#8205;</div>
@@ -68,11 +54,7 @@
       </table>
     </transition>
 
-    <div
-      class="empty"
-      :style="[{ background: settings.liveView.colors.empty }]"
-      v-if="live"
-    ></div>
+    <div class="empty" :style="[{ background: settings.liveView.colors.empty }]" v-if="live"></div>
   </div>
 </template>
 
@@ -85,12 +67,12 @@ export default {
     live: Boolean,
     duration: {
       type: Number,
-      default: 0,
-    },
+      default: 0
+    }
   },
   data() {
     return {
-      smallCursor: `url("data:image/svg+xml, %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E  %3Ctext stroke='%23ffffff' transform='matrix(12.617019653320312,0,0,12.617019653320312,-2852.15984082222,-2618.911868095398) ' xml:space='preserve' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='40' y='247.63125' x='229.70045' stroke-width='2' fill='%23000000'%3E•%3C/text%3EE %3C/svg%3E") 8 20, pointer`,
+      smallCursor: `url("data:image/svg+xml, %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E  %3Ctext stroke='%23ffffff' transform='matrix(12.617019653320312,0,0,12.617019653320312,-2852.15984082222,-2618.911868095398) ' xml:space='preserve' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='40' y='247.63125' x='229.70045' stroke-width='2' fill='%23000000'%3E•%3C/text%3EE %3C/svg%3E") 8 20, pointer`
     }
   },
   components: {},
@@ -110,10 +92,7 @@ export default {
     },
     getSecliArray: function() {
       let array = []
-      if (
-        (!this.live || this.settings.song.showRating) &&
-        this.element.rating
-      ) {
+      if ((!this.live || this.settings.song.showRating) && this.element.rating) {
         array.push(this.element.rating)
       }
       if (this.settings.song.showRating && this.element.newrating) {
@@ -123,30 +102,21 @@ export default {
         array.push(this.element.newrating)
       }
 
-      if (
-        (!this.live || this.settings.song.showWriter) &&
-        this.element.writer
-      ) {
+      if ((!this.live || this.settings.song.showWriter) && this.element.writer) {
         if (array.length > 0) {
           array.push(" | ")
         }
         array.push("Paroles : " + this.element.writer)
       }
 
-      if (
-        (!this.live || this.settings.song.showComposer) &&
-        this.element.composer
-      ) {
+      if ((!this.live || this.settings.song.showComposer) && this.element.composer) {
         if (array.length > 0) {
           array.push(" | ")
         }
         array.push("Musique : " + this.element.composer)
       }
 
-      if (
-        (!this.live || this.settings.song.showPublisher) &&
-        this.element.publisher
-      ) {
+      if ((!this.live || this.settings.song.showPublisher) && this.element.publisher) {
         if (array.length > 0) {
           array.push(" | ")
         }
@@ -159,8 +129,8 @@ export default {
     },
     getSecliString: function() {
       return this.getSecliArray().join("")
-    },
-  },
+    }
+  }
 }
 </script>
 

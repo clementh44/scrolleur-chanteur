@@ -32,25 +32,25 @@ export default {
   name: "window-portal",
   model: {
     prop: "open",
-    event: "close",
+    event: "close"
   },
   props: {
     open: {
       type: Boolean,
-      default: false,
+      default: false
     },
     width: {
       type: Number,
-      default: 600,
+      default: 600
     },
     height: {
       type: Number,
-      default: 400,
-    },
+      default: 400
+    }
   },
   data() {
     return {
-      windowRef: null,
+      windowRef: null
     }
   },
   watch: {
@@ -60,22 +60,16 @@ export default {
       } else {
         this.closePortal()
       }
-    },
+    }
   },
   methods: {
     openPortal() {
-      this.windowRef = window.open(
-        "",
-        "scrolleur-chanteur-live",
-        "width=" + this.width + ",height=" + this.height + ",left=200,top=200"
-      )
+      this.windowRef = window.open("", "scrolleur-chanteur-live", "width=" + this.width + ",height=" + this.height + ",left=200,top=200")
       this.windowRef.document.body.innerHTML = ""
       this.windowRef.document.body.appendChild(this.$el)
       copyStyles(window.document, this.windowRef.document)
       this.windowRef.addEventListener("beforeunload", this.closePortal)
-      this.windowRef.addEventListener("keydown", (event) =>
-        this.$emit("shortcuts", event)
-      )
+      this.windowRef.addEventListener("keydown", (event) => this.$emit("shortcuts", event))
       let thinking = false
       this.windowRef.addEventListener("scroll", () => {
         if (!thinking) {
@@ -113,10 +107,10 @@ export default {
         this.windowRef.scrollBy({
           top: top,
           left: left,
-          behavior: smooth ? "smooth" : "auto",
+          behavior: smooth ? "smooth" : "auto"
         })
       }
-    },
+    }
   },
   mounted() {
     if (this.open) {
@@ -127,7 +121,7 @@ export default {
     if (this.windowRef) {
       this.closePortal()
     }
-  },
+  }
 }
 </script>
 

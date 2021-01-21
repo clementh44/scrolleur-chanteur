@@ -720,3 +720,43 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout d'un bouton pour supprimer les éléments vides de la playlist
   Amélioration du défilement par raccourcis clavier (descend/monte d'une ligne)
 ```
+
+**21/01/2021 v4.10.3**
+```
+  Format documents avec Prettier
+  Correction "Vous recevrez une force"
+
+  + (Messe de Saint Jean) Kyrie AL68-19 13-25-01
+  + (Messe de Saint Jean) Gloria AL68-19 13-25-02
+  + (Messe de Saint Jean) Alleluia AL68-19 13-25-03
+  + (Messe de Saint Jean) Sanctus AL68-19 13-25-04
+  + (Messe de Saint Jean) Anamnèse AL68-19 13-25-05
+  + Alléluia, Jésus sauveur T552 11-05
+  + Me voici vers Toi EDIT21-06
+  + Acclamons le Roi du ciel EDIT21-42
+  + (Messe Que Tes Œuvres sont belles) Homme au milieu des hommes A220-1 R220-1
+  + (Messe Que Tes Œuvres sont belles) Au plus haut du ciel C221-1 Y221-1
+  + (Messe Que Tes Œuvres sont belles) Hosanna, Hosanna C220-1
+  + (Messe Que Tes Œuvres sont belles) Anamnèse C220-1
+  + (Messe Que Tes Œuvres sont belles) Agneau de Dieu, Agneau vainqueur A221-1 C570-1
+  + Que tes œuvres sont belles A219-1 Y219-1
+  + Alléluia, le Seigneur règne A507 Y548
+  + Céleste Jérusalem 15-09
+  + Chante, chante l'amour du Seigneur R537 Y537
+  + Comme un souffle fragile U45 X785
+  + Comme une biche Z510 Z41-2
+  + Dieu nous appelle A205
+  + En toi Seigneur mon espérance G45-35 GP45-35
+  + Envoyés dans ce monde H20-35 HY20-35
+  + Fais paraître ton jour Y53 HY53
+  + Heureux les hommes au cœur de chair W100 WT100
+  + Laudate Dominum (Taizé)
+  + Le Seigneur est roi Z594 Z95-5
+  + Les saints et les saintes de Dieu EDIT15-98
+  + Nous chanterons pour toi, Seigneur K38
+  + Ouvre mes yeux Seigneur G79-1 GP79-1
+  + Peuple choisi K64
+  + Prenons la main que Dieu nous tend T42-2 GR42-2
+  + Tu es notre Dieu A187 RA187
+  + Tu nous appelles à t'aimer T52
+```

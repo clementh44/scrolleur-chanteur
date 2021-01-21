@@ -8,7 +8,7 @@
         @click="
           $emit('search-score', {
             title: element.title,
-            query: settings.score.query,
+            query: settings.score.query
           })
         "
         title="Rechercher la partition via le lien personnalisé"
@@ -20,7 +20,7 @@
         @click="
           $emit('search-score', {
             title: element.title,
-            query: settings.score.googlePdf,
+            query: settings.score.googlePdf
           })
         "
         title="Rechercher en pdf sur google"
@@ -32,7 +32,7 @@
         @click="
           $emit('search-score', {
             title: element.title,
-            query: settings.score.youtube,
+            query: settings.score.youtube
           })
         "
         title="Rechercher sur youtube"
@@ -40,11 +40,7 @@
         <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
       </button>
     </template>
-    <button
-      class="btn btn-light"
-      @click="$emit('preview', element)"
-      title="Afficher dans la fenêtre d'aperçu"
-    >
+    <button class="btn btn-light" @click="$emit('preview', element)" title="Afficher dans la fenêtre d'aperçu">
       <font-awesome-icon :icon="'eye'"></font-awesome-icon>
     </button>
 
@@ -63,8 +59,8 @@ export default {
   name: "ElementActions",
   props: {
     settings: Object,
-    element: Object,
-  },
+    element: Object
+  }
 }
 </script>
 
