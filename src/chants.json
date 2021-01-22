@@ -1,5 +1,30 @@
 [
   {
+    "id": "viens-embraser-nos-coeurs",
+    "title": "Viens embraser nos cœurs",
+    "rating": "K35-29",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Viens Esprit Saint, viens embraser nos cœurs,\nViens au secours de nos faiblesses.\nViens Esprit Saint, viens Esprit consolateur\nEmplis-nous de joie et d’allégresse."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Viens en nos âmes lasses, Esprit de sainteté ;\nViens nous combler de grâce et viens nous sanctifier.\nViens guérir nos blessures, toi le consolateur,\nViens source vive et pure apaiser notre cœur."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Envoyé par le Père, tu viens nous visiter,\nTu fais de nous des frères, peuple de baptisés.\nEnfants de la lumière, membres de Jésus-Christ,\nNous pouvons crier « Père » d’un seul et même Esprit."
+      },
+      {
+        "type": "verse",
+        "text": "3 - En nos cœurs viens répandre les dons de ton amour ;\nViens inspirer nos langues pour chanter Dieu toujours.\nViens, Esprit de sagesse, viens prier en nos cœurs !\nViens, et redis sans cesse : Jésus Christ est Seigneur !"
+      }
+    ]
+  },
+  {
     "id": "tu-nous-appelles-a-taimer",
     "title": "Tu nous appelles à t'aimer",
     "rating": "T52",
