@@ -769,4 +769,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **24/01/2021 v4.11.0**
 ```
   Ajout d'un bouton pour avoir accès uniquement aux paroles d'un chant depuis le répertoire
+  Ajout d'une fenêtre pour les utilisateurs de safari afin d'expliquer le comportement anormal
 ```

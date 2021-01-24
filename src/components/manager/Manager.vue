@@ -52,6 +52,23 @@
       </SideBox>
 
       <div class="col">
+        <!-- Précisions pour Safari -->
+        <template v-if="isSafari()">
+          <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+            <button type="button" class="close" aria-label="Close" data-dismiss="alert">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="alert-heading">
+              Pour information
+            </h5>
+            <hr />
+            <p>
+              Vous semblez utiliser le navigateur web Safari (mac, iPhone, iPad). Pour information, le défilement du contenu via les boutons (raccourcis clavier ou boutons pour faire défiler ou se
+              déplacer vers une partie d'un chant) n'est pas fluide. Vous pouvez essayer sur un autre navigateur web (Firefox ou Chrome).
+            </p>
+          </div>
+        </template>
+
         <!-- Termes à accepter -->
         <template v-if="!secliAccepted">
           <div class="alert alert-warning fade show mt-3" role="alert">
@@ -165,7 +182,7 @@
                     <button class="btn btn-light" @click="addSong(song)" title="Ajouter dans la playlist">
                       <font-awesome-icon :icon="'plus'"></font-awesome-icon>
                     </button>
-                    <router-link :to="{ name: 'song', params: { id: song.id }}" target="_blank" class="btn btn-light" title="Ouvrir les paroles dans une fenêtre externe">
+                    <router-link :to="{ name: 'song', params: { id: song.id } }" target="_blank" class="btn btn-light" title="Ouvrir les paroles dans une fenêtre externe">
                       <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
                     </router-link>
                   </template>
@@ -443,6 +460,17 @@ export default {
     acceptSecli: function() {
       this.secliAccepted = true
       this.$cookies.set("secliAccepted", true, "30d")
+    },
+    isSafari: function() {
+      var ua = navigator.userAgent.toLowerCase()
+      if (ua.indexOf("safari") != -1) {
+        if (ua.indexOf("chrome") > -1) {
+          return false // Chrome
+        } else {
+          return true // Safari
+        }
+      }
+      return false
     }
   },
   computed: {
