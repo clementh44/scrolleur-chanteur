@@ -813,15 +813,19 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "1 - Sauvés des mêmes eaux, marqués du même sang.\nNous sommes ton Peuple !\nBénis du même amour, signés du même nom ;\nNous sommes ton Peuple\nEt nous te rendons grâce par Jésus ton Enfant !"
+        "text": "1 - Sauvés des mêmes eaux, marqués du même sang.\nNous sommes ton Peuple !\nBénis du même amour, signés du même nom ;\nNous sommes ton Peuple."
+      },
+      {
+        "type": "chorus",
+        "text": "Et nous te rendons grâce par Jésus ton Enfant, et nous te rendons grâce. (bis)"
       },
       {
         "type": "verse",
-        "text": "2 - Remplis du même Esprit, porteurs du même feu,\nNous sommes ton Peuple !\nGreffés au même tronc, unis au même Chef ;\nNous sommes ton Peuple\nEt nous te rendons grâce par Jésus ton Enfant !"
+        "text": "2 - Remplis du même Esprit, porteurs du même feu,\nNous sommes ton Peuple !\nGreffés au même tronc, unis au même Chef ;\nNous sommes ton Peuple."
       },
       {
         "type": "verse",
-        "text": "3 - Pour être un même corps, vivant la même vie.\nNous sommes ton Peuple !\nPour prendre un même Pain et boire un même Vin.\nNous sommes ton Peuple\nEt nous te rendons grâce par Jésus ton Enfant !"
+        "text": "3 - Pour être un même corps, vivant la même vie.\nNous sommes ton Peuple !\nPour prendre un même Pain et boire un même Vin.\nNous sommes ton Peuple."
       }
     ]
   },
