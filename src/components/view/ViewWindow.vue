@@ -52,6 +52,12 @@
           </tr>
         </tbody>
       </table>
+
+      <div v-else-if="element.type == 'error'" class="alert alert-danger m-5" role="alert">
+        <h4 class="alert-heading">Aucune donnée à afficher</h4>
+        <hr />
+        <p>{{ element.text }}</p>
+      </div>
     </transition>
 
     <div class="empty" :style="[{ background: settings.liveView.colors.empty }]" v-if="live"></div>

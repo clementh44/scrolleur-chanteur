@@ -165,6 +165,9 @@
                     <button class="btn btn-light" @click="addSong(song)" title="Ajouter dans la playlist">
                       <font-awesome-icon :icon="'plus'"></font-awesome-icon>
                     </button>
+                    <router-link :to="{ name: 'song', params: { id: song.id }}" target="_blank" class="btn btn-light" title="Ouvrir les paroles dans une fenêtre externe">
+                      <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
+                    </router-link>
                   </template>
                 </ElementActions>
               </li>
@@ -186,10 +189,10 @@ import Settings from "./Settings"
 import ElementActions from "./ElementActions"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faSquare } from "@fortawesome/free-regular-svg-icons"
-import { faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle } from "@fortawesome/free-solid-svg-icons"
+import { faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGoogle } from "@fortawesome/free-brands-svg-icons"
 
-library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle, faGoogle)
+library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt, faGoogle)
 
 export default {
   name: "Manager",
