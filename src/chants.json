@@ -10757,5 +10757,136 @@
         "text": "Agneau de Dieu, Agneau vainqueur,\nDonne-nous la paix Seigneur !\nAgneau de Dieu, Agneau vainqueur,\nDonne-nous la paix Seigneur !"
       }
     ]
+  },
+
+  {
+    "id": "messe-1-saint-boniface-kyrie",
+    "title": "(Messe de Saint Boniface) Kyrie",
+    "rating": "14-28-01",
+    "newrating": "AL68-18",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (M. Wittal)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Christe eleison, Christe eleison, Christe eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
+      }
+    ]
+  },
+  {
+    "id": "messe-2-saint-boniface-gloria",
+    "title": "(Messe de Saint Boniface) Gloria",
+    "rating": "14-28-02",
+    "newrating": "AL68-18",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (M. Wittal)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloria in excelsis Deo ! Gloria Deo Domino ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Et paix sur la terre aux hommes qu’il aime.\nNous Te louons, nous Te bénissons,\nnous T’adorons, nous Te glorifions,\nnous Te rendons grâce pour ton immense gloire."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur Dieu, Roi du Ciel, Dieu le Père tout -puissant.\nSeigneur Fils unique Jésus Christ, Seigneur Dieu, Agneau de Dieu le Fils du Père."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Toi qui enlèves le péché du monde, prends pitié de nous ;\nToi qui enlèves le péché du monde, reçois notre prière ;\nToi qui es assis à la droite du Père, prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Car Toi seul es Saint, Toi seul es Seigneur,\nToi seul es le Très-Haut, Jésus Christ,\navec le Saint Esprit, dans la gloire de Dieu le Père.\nAmen. Amen."
+      }
+    ]
+  },
+  {
+    "id": "messe-3-saint-boniface-alleluia",
+    "title": "(Messe de Saint Boniface) Alleluia",
+    "rating": "14-28-03",
+    "newrating": "AL68-18",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (M. Wittal)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia, Alléluia ! Alléluia, Alléluia !"
+      }
+    ]
+  },
+  {
+    "id": "messe-5-saint-boniface-sanctus",
+    "title": "(Messe de Saint Boniface) Sanctus",
+    "rating": "14-28-04",
+    "newrating": "AL68-18",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (M. Wittal)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Sanctus, Sanctus, Sanctus ! Deus Sabaoth ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "Pleni sunt caeli et terra gloria tua.\nHosanna in excelcis Deo ! Hosanna in excelcis !"
+      },
+      {
+        "type": "verse",
+        "text": "Benedictus qui venit in nomini Domini !\nHosanna in excelcis Deo ! Hosanna in excelcis !"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-saint-boniface-anamnese",
+    "title": "(Messe de Saint Boniface) Anamnèse",
+    "rating": "14-28-05",
+    "newrating": "AL68-18",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (M. Wittal)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Gloire à Toi qui étais mort ! Gloire à toi qui es vivant !\nNotre Sauveur et notre Dieu, viens Seigneur Jésus !"
+      }
+    ]
+  },
+  {
+    "id": "messe-7-saint-boniface-agnus",
+    "title": "(Messe de Saint Boniface) Agnus",
+    "rating": "14-28-06",
+    "newrating": "AL68-18",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (M. Wittal)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Agnus Dei, qui tollis peccata mundi, miserere nobis."
+      },
+      {
+        "type": "verse",
+        "text": "Agnus Dei, qui tollis peccata mundi, miserere nobis."
+      },
+      {
+        "type": "verse",
+        "text": "Agnus Dei, qui tollis peccata mundi, dona nobis pacem."
+      }
+    ]
   }
 ]
