@@ -119,6 +119,8 @@
             Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.<br />Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la
             présentation avec le clavier.
           </p>
+          <hr />
+          <p><strong>Liens utiles</strong></p>
           <p>
             Contact, chant manquant, idée, question... écrivez-moi via
             <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">ce formulaire</a>.
@@ -128,7 +130,13 @@
               >Soutenir le projet</a
             >.
           </p>
-          <p> <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>. </p>
+          <p>
+            <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>.
+          </p>
+          <p>
+            Trouvez les paroles de chants sur les sites suivants : <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> | <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a><br/>
+            Trouvez les textes du jour sur : <a href="https://www.aelf.org/" target="_blank" rel="noopener noreferrer">aelf.org</a>
+          </p>
         </div>
 
         <!-- Playlist -->

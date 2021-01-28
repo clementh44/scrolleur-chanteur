@@ -779,6 +779,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
 **28/01/2021 v4.11.2**
 ```
+  Ajout de liens utiles dans l'aide
+
   + (Messe de Saint Boniface) Kyrie 14-28-01 AL68-18
   + (Messe de Saint Boniface) Gloria 14-28-02 AL68-18
   + (Messe de Saint Boniface) Alleluia 14-28-03 AL68-18
