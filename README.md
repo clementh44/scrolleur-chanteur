@@ -788,3 +788,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe de Saint Boniface) Anamnèse 14-28-05 AL68-18
   + (Messe de Saint Boniface) Agnus 14-28-06 AL68-18
 ```
+
+**05/02/2021 v4.11.3**
+```
+  + Signes par milliers K226 TK226
+  + Comme lui
+  + (Messe du peuple de Dieu) Kyrie AL597
+  + (Messe du peuple de Dieu) Gloria AL597
+  + (Messe du peuple de Dieu) Sanctus AL597
+  + (Messe du peuple de Dieu) Anamnèse AL597
+  + (Messe du peuple de Dieu) Agnus AL597
+```
