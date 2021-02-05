@@ -791,6 +791,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
 **05/02/2021 v4.11.3**
 ```
+  Ajout d'une barre de menu dans la page pour un chant
+
   + Signes par milliers K226 TK226
   + Comme lui
   + (Messe du peuple de Dieu) Kyrie AL597

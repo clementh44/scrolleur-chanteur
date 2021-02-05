@@ -10962,111 +10962,110 @@
     ]
   },
 
-
-{
-	"id": "messe-1-du-peuple-de-dieu-kyrie",
-	"title": "(Messe du peuple de Dieu) Kyrie",
-	"rating": "AL597",
-	"publisher": "Éditions de l'Emmanuel",
-	"writer": "AELF",
-	"composer": "Hauguel C.-E.",
-	"lyrics": [
-		{
-			"type": "verse",
-			"text": "Kyrie eleison, Kyrie eleison,\nKyrie eleison, Kyrie eleison."
-		},
-		{
-			"type": "verse",
-			"text": "Christe eleison, Christe eleison,\nChriste eleison, Christe eleison."
-		},
-		{
-			"type": "verse",
-			"text": "Kyrie eleison, Kyrie eleison,\nKyrie eleison, Kyrie eleison."
-		}
-	]
-},
-{
-	"id": "messe-2-du-peuple-de-dieu-gloria",
-	"title": "(Messe du peuple de Dieu) Gloria",
-	"rating": "AL597",
-	"publisher": "Éditions de l'Emmanuel",
-	"writer": "AELF",
-	"composer": "Hauguel C.-E.",
-	"lyrics": [
-		{
-			"type": "chorus",
-			"text": "Gloire à Dieu ! Gloire à Dieu au plus haut des cieux !"
-		},
-		{
-			"type": "verse",
-			"text": "Et Paix sur la terre aux hommes qu’il aime ! Nous te louons, nous te bénissons, nous t’adorons ! Nous te glorifions, nous te rendons grâce pour ton immense gloire, Seigneur Dieu, Roi du Ciel, Dieu le Père tout puissant."
-		},
-		{
-			"type": "verse",
-			"text": "Seigneur, fils unique Jésus Christ, Seigneur Dieu, Agneau de Dieu, Le fils du Père, toi qui enlèves le péché du monde, Prends pitié de nous, toi qui enlèves le péché du monde, reçois notre prière. Toi qui es assis à la droite du Père, prends pitié de nous !"
-		},
-		{
-			"type": "verse",
-			"text": "Car toi seul est Saint, toi seul es Seigneur, toi seul est le très haut Jésus Christ, avec le Saint Esprit, dans la gloire de Dieu le Père! Amen !"
-		}
-	]
-},
-{
-	"id": "messe-5-du-peuple-de-dieu-sanctus",
-	"title": "(Messe du peuple de Dieu) Sanctus",
-	"rating": "AL597",
-	"publisher": "Éditions de l'Emmanuel",
-	"writer": "AELF",
-	"composer": "Hauguel C.-E.",
-	"lyrics": [
-		{
-			"type": "chorus",
-			"text": "Saint, Saint, Saint,\nLe Seigneur, Dieu de l'univers !"
-		},
-		{
-			"type": "verse",
-			"text": "Le ciel et la terre sont remplis de ta gloire.\nHosanna au plus haut des cieux !"
-		},
-		{
-			"type": "verse",
-			"text": "Béni soit celui qui vient au nom du Seigneur.\nHosanna au plus haut des cieux !"
-		}
-	]
-},
-{
-	"id": "messe-6-du-peuple-de-dieu-anamnese",
-	"title": "(Messe du peuple de Dieu) Anamnèse",
-	"rating": "AL597",
-	"publisher": "Éditions de l'Emmanuel",
-	"writer": "AELF",
-	"composer": "Hauguel C.-E.",
-	"lyrics": [
-		{
-			"type": "verse",
-			"text": "Gloire à toi qui étais mort,\nGloire à toi qui es vivant,\nNotre sauveur et notre Dieu,\nViens, Seigneur Jésus !"
-		}
-	]
-},
-{
-	"id": "messe-7-du-peuple-de-dieu-agnus",
-	"title": "(Messe du peuple de Dieu) Agnus",
-	"rating": "AL597",
-	"publisher": "Éditions de l'Emmanuel",
-	"writer": "AELF",
-	"composer": "Hauguel C.-E.",
-	"lyrics": [
-		{
-			"type": "verse",
-			"text": "Agneau de Dieu,\nQui enlèves le péché du monde,\nPrends pitié de nous, prends pitié de nous !"
-		},
-		{
-			"type": "verse",
-			"text": "Agneau de Dieu,\nQui enlèves le péché du monde,\nPrends pitié de nous, prends pitié de nous !"
-		},
-		{
-			"type": "verse",
-			"text": "Agneau de Dieu,\nQui enlèves le péché du monde,\nDonne-nous la paix, donne-nous la paix !"
-		}
-	]
-}
+  {
+    "id": "messe-1-du-peuple-de-dieu-kyrie",
+    "title": "(Messe du peuple de Dieu) Kyrie",
+    "rating": "AL597",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Hauguel C.-E.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Kyrie eleison, Kyrie eleison,\nKyrie eleison, Kyrie eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Christe eleison, Christe eleison,\nChriste eleison, Christe eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Kyrie eleison, Kyrie eleison,\nKyrie eleison, Kyrie eleison."
+      }
+    ]
+  },
+  {
+    "id": "messe-2-du-peuple-de-dieu-gloria",
+    "title": "(Messe du peuple de Dieu) Gloria",
+    "rating": "AL597",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Hauguel C.-E.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu ! Gloire à Dieu au plus haut des cieux !"
+      },
+      {
+        "type": "verse",
+        "text": "Et Paix sur la terre aux hommes qu’il aime ! Nous te louons, nous te bénissons, nous t’adorons ! Nous te glorifions, nous te rendons grâce pour ton immense gloire, Seigneur Dieu, Roi du Ciel, Dieu le Père tout puissant."
+      },
+      {
+        "type": "verse",
+        "text": "Seigneur, fils unique Jésus Christ, Seigneur Dieu, Agneau de Dieu, Le fils du Père, toi qui enlèves le péché du monde, Prends pitié de nous, toi qui enlèves le péché du monde, reçois notre prière. Toi qui es assis à la droite du Père, prends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "Car toi seul est Saint, toi seul es Seigneur, toi seul est le très haut Jésus Christ, avec le Saint Esprit, dans la gloire de Dieu le Père! Amen !"
+      }
+    ]
+  },
+  {
+    "id": "messe-5-du-peuple-de-dieu-sanctus",
+    "title": "(Messe du peuple de Dieu) Sanctus",
+    "rating": "AL597",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Hauguel C.-E.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Saint, Saint, Saint,\nLe Seigneur, Dieu de l'univers !"
+      },
+      {
+        "type": "verse",
+        "text": "Le ciel et la terre sont remplis de ta gloire.\nHosanna au plus haut des cieux !"
+      },
+      {
+        "type": "verse",
+        "text": "Béni soit celui qui vient au nom du Seigneur.\nHosanna au plus haut des cieux !"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-du-peuple-de-dieu-anamnese",
+    "title": "(Messe du peuple de Dieu) Anamnèse",
+    "rating": "AL597",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Hauguel C.-E.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Gloire à toi qui étais mort,\nGloire à toi qui es vivant,\nNotre sauveur et notre Dieu,\nViens, Seigneur Jésus !"
+      }
+    ]
+  },
+  {
+    "id": "messe-7-du-peuple-de-dieu-agnus",
+    "title": "(Messe du peuple de Dieu) Agnus",
+    "rating": "AL597",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Hauguel C.-E.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu,\nQui enlèves le péché du monde,\nPrends pitié de nous, prends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu,\nQui enlèves le péché du monde,\nPrends pitié de nous, prends pitié de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu,\nQui enlèves le péché du monde,\nDonne-nous la paix, donne-nous la paix !"
+      }
+    ]
+  }
 ]
