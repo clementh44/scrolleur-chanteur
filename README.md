@@ -801,3 +801,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe du peuple de Dieu) Anamnèse AL597
   + (Messe du peuple de Dieu) Agnus AL597
 ```
+
+**07/02/2021 v4.11.4**
+```
+  Corrections chants
+```
