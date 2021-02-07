@@ -68,3 +68,8 @@
 .no-focus.btn-light:focus {
   background-color: var(--light);
 }
+
+/* file - picture */
+img.sc-file {
+  max-height: 100px;
+}

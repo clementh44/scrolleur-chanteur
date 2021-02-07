@@ -805,4 +805,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **07/02/2021 v4.11.4**
 ```
   Corrections chants
+  Ajout d'une miniature de l'image dans la playlist
 ```

@@ -86,7 +86,7 @@
       <li v-for="(element, index) in listLocal" :key="index" class="list-group-item">
         <div class="d-flex align-items-center">
           <div v-if="index == currentElementIndex" class="current-element-icon" style="left:-4px;" title="Elément actuellement dans la présentation"></div>
-          <div class="flex-grow-1">{{ element.title }}</div>
+          <div class="flex-grow-1">{{ element.title }} <img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" class="sc-file border rounded"></div>
 
           <ElementActions
             :element="element"
