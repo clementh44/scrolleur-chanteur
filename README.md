@@ -807,3 +807,30 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections chants
   Ajout d'une miniature de l'image dans la playlist
 ```
+
+**08/02/2021 v4.11.5**
+```
+  + Vivons en enfants de lumière G14-57-1
+  + Avec toi nous irons au désert G229
+  + Lave-moi, Seigneur mon Dieu IEV 824
+  + (Messe de la Réconciliation) Seigneur, prends pitié AL137
+  + (Messe de la Réconciliation) Gloire à Dieu AL137
+  + (Messe de la Réconciliation) Saint le Seigneur AL137
+  + (Messe de la Réconciliation) Anamnèse AL137
+  + (Messe de la Réconciliation) Agneau de Dieu AL137
+  + Sur les routes de l'alliance G321
+  + Peuple de l'alliance G244
+  + Changez vos cœurs G162 GA162
+  + Parole éternelle du Père U13-94 GU13-94
+  + Goûtez et voyez, comme est bon le Seigneur D57-71
+  + Revenez à moi de tout votre cœur SYLK94 GX94
+  + Rends-nous la joie de ton salut G268
+  + Tant qu'il fait jour L231-1 M231-1
+  + Invisible, ô toi, lumière C239 DEV149
+  + Seigneur, ne nous traite pas selon nos péchés G60
+  + Quarante jours dans le désert G275 GY275
+  + Ne craignez pas G139 R559
+  + Le grain de blé G228 GP228
+  + Pour que l'homme soit un fils G297-1 GP297-1
+  + Où sont Amour et Charité D511 X567
+```
