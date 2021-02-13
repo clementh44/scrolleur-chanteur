@@ -1,5 +1,39 @@
 [
   {
+    "id": "levons-les-yeux",
+    "title": "Levons les yeux",
+    "rating": "F67-27",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (Alain Dumont, Alexis Fleury)",
+    "composer": "Communauté de l'Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Levons les yeux, voici la vraie lumière,\nVoici le Christ qui nous donne la paix !\nOuvrons nos cœurs à sa miséricorde,\nNotre Sauveur est au milieu de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Jésus Christ, le Fils de Dieu fait homme\nVient demeurer au milieu de son peuple !\nRegardez ! Voici l’Emmanuel !\nDieu avec nous, venu dans notre chair !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Il est Dieu, il est notre lumière,\nRayon jailli du cœur très saint du Père.\nSa clarté embrase l’univers,\nIl est la vie illuminant la nuit !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - C’est par lui que fut créé le monde\nPour l’habiter, l’habiller de sa gloire.\nPar son nom Dieu se révèle à nous.\nAccueillons-le, Il vient parmi les siens !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Viens, Jésus ! Entre dans ton saint temple !\nNourris nos cœurs, donne-nous ta Parole !\nNous voici, tes enfants rassemblés :\nParle, Seigneur, et nous écouterons !"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Entendons l’appel de la sagesse,\nL’Époux très saint nous invite à ses noces.\n« Venez tous au banquet de l’Agneau,\nMangez ce pain et buvez de ce vin » !"
+      }
+    ]
+  },
+  {
     "id": "ou-sont-amour-et-charite",
     "title": "Où sont Amour et Charité",
     "rating": "D511",

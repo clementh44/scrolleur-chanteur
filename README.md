@@ -834,3 +834,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Pour que l'homme soit un fils G297-1 GP297-1
   + Où sont Amour et Charité D511 X567
 ```
+
+**13/02/2021 v4.11.6**
+```
+  + Levons les yeux F67-27
+```
