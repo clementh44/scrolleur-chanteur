@@ -1,6 +1,6 @@
 {
   "name": "@clementh44/scrolleur-chanteur",
-  "version": "4.11.6",
+  "version": "4.12.0",
   "description": "Pour faire \"scroller\" les chants pour... chanter",
   "scripts": {
     "serve": "vue-cli-service serve",

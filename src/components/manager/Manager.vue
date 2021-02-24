@@ -548,8 +548,11 @@ export default {
       },
       deep: true
     },
-    playlist: function(newPlaylist) {
-      localStorage.setItem("playlist", JSON.stringify(newPlaylist.filter((element) => element.type != "file")))
+    playlist: {
+      handler: function(newPlaylist) {
+        localStorage.setItem("playlist", JSON.stringify(newPlaylist.filter((element) => element.type != "file")))
+      },
+      deep: true
     }
   }
 }
