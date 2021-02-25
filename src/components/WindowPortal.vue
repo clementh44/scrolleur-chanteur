@@ -70,45 +70,12 @@ export default {
       copyStyles(window.document, this.windowRef.document)
       this.windowRef.addEventListener("beforeunload", this.closePortal)
       this.windowRef.addEventListener("keydown", (event) => this.$emit("shortcuts", event))
-      let thinking = false
-      this.windowRef.addEventListener("scroll", () => {
-        if (!thinking) {
-          thinking = true
-          setTimeout(() => {
-            this.$emit("custom-scroll", this.windowRef)
-            thinking = false
-          }, 200)
-        }
-      })
     },
     closePortal() {
       if (this.windowRef) {
         this.windowRef.close()
         this.windowRef = null
         this.$emit("close")
-      }
-    },
-    scrollTop: function() {
-      if (this.windowRef) {
-        this.windowRef.scrollTo(0, 0)
-      }
-    },
-    getLineHeight: function() {
-      return this.windowRef.document.getElementById("invisible-part").clientHeight
-    },
-    scrollDown: function() {
-      this.scroll(this.getLineHeight(), 0, true)
-    },
-    scrollUp: function() {
-      this.scroll(-this.getLineHeight(), 0, true)
-    },
-    scroll(top, left, smooth) {
-      if (this.windowRef) {
-        this.windowRef.scrollBy({
-          top: top,
-          left: left,
-          behavior: smooth ? "smooth" : "auto"
-        })
       }
     }
   },
@@ -127,13 +94,13 @@ export default {
 
 <style>
 /* SCROLLBAR */
-body::-webkit-scrollbar {
+div::-webkit-scrollbar {
   width: 3px;
 }
-body::-webkit-scrollbar-thumb {
+div::-webkit-scrollbar-thumb {
   background-color: rgb(100 100 100);
 }
-body::-webkit-scrollbar-track {
+div::-webkit-scrollbar-track {
   background-color: rgb(127 127 127 / 50%);
 }
 </style>

@@ -86,7 +86,7 @@
       <li v-for="(element, index) in listLocal" :key="index" class="list-group-item">
         <div class="d-flex align-items-center">
           <div v-if="index == currentElementIndex" class="current-element-icon" style="left:-4px;" title="Elément actuellement dans la présentation"></div>
-          <div class="flex-grow-1">{{ element.title }} <img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" class="sc-file border rounded"></div>
+          <div class="flex-grow-1">{{ element.title }} <img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" class="sc-file border rounded"/></div>
 
           <ElementActions
             :element="element"
@@ -308,86 +308,6 @@ export default {
         }
         fr.readAsDataURL(file.target.files[0])
       }
-    },
-    //actualise les éléments visibles ou non d'un chant
-    handleScroll(window) {
-      if (this.currentElementIndex >= 0 && this.playlist[this.currentElementIndex].type == "song") {
-        let windowLyrics = window.document.getElementsByClassName("song-part") //liste des blocs dans le DOM (verse, chorus, translation)
-        let windowHeight = window.innerHeight //hauteur de la fenêtre
-        let lyrics = this.playlist[this.currentElementIndex].lyrics //liste des blocs dans les données
-        if (windowLyrics.length != lyrics.length) {
-          return
-        }
-        let lastStickyHeight = 0
-        let unique = false
-        let lineHeight = 16 * this.settings.liveView.fontSize * 1.3
-        let activeIndex = -1
-        let lastStickyIndex = -1
-        lyrics.forEach((part, i) => {
-          if (part.type != "chorus" || (part.type == "chorus" && !part.sticky)) {
-            if (unique) {
-              part.isActive = false
-            } else {
-              let DOMrect = windowLyrics[i].getBoundingClientRect() //récupération de la taille et de la position de l'élément dans la fenêtre
-              part.isActive = DOMrect.top < windowHeight - lineHeight && DOMrect.bottom > lastStickyHeight + lineHeight //un couplet, une traduction ou un refrain non statique est actif si c'est le premier (unique) élément an partant du haut de la fenêtre (ou juste en dessous d'un refrain statique) et que l'on voit encore 1 ligne
-              if (part.isActive) {
-                unique = true
-                activeIndex = i
-              }
-            }
-          } else {
-            part.isActive = false
-            if (part.sticky) {
-              lastStickyHeight = windowLyrics[i].offsetHeight
-              lastStickyIndex = i
-            }
-          }
-        })
-
-        //parcours des refrains avant le dernier élément actif pour le rendre actif s'il est statique
-        for (let index = activeIndex - 1; index >= 0; index--) {
-          const part = lyrics[index]
-          if (part.type == "chorus" && part.sticky) {
-            part.isActive = true
-            index = -1
-          }
-        }
-
-        if (activeIndex < 0 && lastStickyIndex >= 0) {
-          //s'il n'y a aucun élément actif, on vérifie si un refrain statique est affiché
-          let DOMrect = windowLyrics[lastStickyIndex].getBoundingClientRect() //récupération de la taille et de la position de l'élément dans la fenêtre
-          lyrics[lastStickyIndex].isActive = DOMrect.top < windowHeight - lineHeight && DOMrect.bottom > lineHeight
-        }
-      }
-    },
-    getlastActivePartIndex() {
-      //Retourne l'index de la dernière partie (verse, chorus, translation) du chant qui est active (visible dans la présentation)
-      if (this.playlist[this.currentElementIndex].type == "song") {
-        let stickyIndex = -1
-        let song = this.playlist[this.currentElementIndex]
-        let i = song.lyrics.length - 1
-        while (i >= 0) {
-          let part = song.lyrics[i]
-          if (part.sticky && stickyIndex < 0) {
-            stickyIndex = i
-          } else if (part.isActive) {
-            return i
-          }
-          i--
-        }
-        return stickyIndex
-      }
-      return -1
-    },
-    getNextPartIndex() {
-      return this.getlastActivePartIndex() + 1
-    },
-    getPreviousPartIndex() {
-      let previousPartIndex = this.getlastActivePartIndex()
-      do {
-        previousPartIndex--
-      } while (previousPartIndex > 0 && this.playlist[this.currentElementIndex].lyrics[previousPartIndex].isActive)
-      return previousPartIndex
     }
   }
 }

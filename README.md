@@ -840,8 +840,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Levons les yeux F67-27
 ```
 
-**24/02/2021 v4.12.0**
+**25/02/2021 v4.12.0**
 ```
   Enregistrement automatique de la playlist dans le navigateur : aussi en modifiant les couplets/refrains, textes persos etc...
   Correction du chant où il manquait l'id "rends-nous-la-joie-de-ton-salut"
+  Ajout de bordures personnalisées
+  Amélioration de la gestion du scroll
 ```

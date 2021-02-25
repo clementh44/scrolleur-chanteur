@@ -25,16 +25,8 @@
 
     <div class="row">
       <!-- Fenêtre de présentation -->
-      <WindowPortal
-        v-model="viewOpened"
-        ref="liveWindow"
-        v-on:shortcuts="manageShortCuts"
-        v-on:close="liveClosing"
-        :width="settings.liveView.window.width"
-        :height="settings.liveView.window.height"
-        @custom-scroll="handleScroll"
-      >
-        <ViewWindow :element="viewBody" :settings="settings" :live="true" :duration="500"></ViewWindow>
+      <WindowPortal v-model="viewOpened" v-on:shortcuts="manageShortCuts" v-on:close="liveClosing" :width="settings.liveView.window.width" :height="settings.liveView.window.height">
+        <ViewWindow ref="liveWindow" :element="viewBody" :settings="settings" :live="true" :duration="500"></ViewWindow>
       </WindowPortal>
 
       <!-- Fenêtre d'aperçu -->
@@ -130,11 +122,10 @@
               >Soutenir le projet</a
             >.
           </p>
+          <p> <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>. </p>
           <p>
-            <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>.
-          </p>
-          <p>
-            Trouvez les paroles de chants sur les sites suivants : <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> | <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a><br/>
+            Trouvez les paroles de chants sur les sites suivants : <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
+            <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a><br />
             Trouvez les textes du jour sur : <a href="https://www.aelf.org/" target="_blank" rel="noopener noreferrer">aelf.org</a>
           </p>
         </div>
@@ -157,7 +148,7 @@
               :current-element-index="currentElementIndex"
               v-on:update-current-element-index="currentElementIndex = $event"
               v-on:search-score="searchScore($event.title, $event.query)"
-              v-on:scroll-to-pos="scrollViewToPos($event.pos)"
+              v-on:scroll-to-pos="$refs.liveWindow.scrollViewToPos($event.pos)"
             ></Playlist>
           </div>
         </div>
@@ -233,7 +224,7 @@ export default {
       search: "",
       paramOpened: false,
       settings: {
-        version: 20210103, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+        version: 20210106, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
         liveView: {
           viewThemes: [
             {
@@ -263,6 +254,70 @@ export default {
           window: {
             height: 400,
             width: 600
+          },
+          borders: {
+            styles: [
+              {
+                text: "Solide",
+                value: "solid"
+              },
+              {
+                text: "Pointillé",
+                value: "dotted"
+              },
+              {
+                text: "Tirets",
+                value: "dashed"
+              },
+              {
+                text: "Double",
+                value: "double"
+              },
+              {
+                text: "Rainurée",
+                value: "groove"
+              },
+              {
+                text: "Relief",
+                value: "ridge"
+              },
+              {
+                text: "Relief intérieur",
+                value: "inset"
+              },
+              {
+                text: "Relief extérieur",
+                value: "outset"
+              }
+            ],
+            empty: false,
+            song: false,
+            file: false,
+            text: false,
+            top: {
+              displayed: true,
+              color: "#D6B300",
+              style: "solid",
+              width: 5
+            },
+            right: {
+              displayed: true,
+              color: "#D6B300",
+              style: "solid",
+              width: 5
+            },
+            bottom: {
+              displayed: true,
+              color: "#D6B300",
+              style: "solid",
+              width: 5
+            },
+            left: {
+              displayed: true,
+              color: "#D6B300",
+              style: "solid",
+              width: 5
+            }
           }
         },
         song: {
@@ -319,7 +374,7 @@ export default {
       setTimeout(() => {
         this.$refs.liveWindow.scrollTop()
         this.viewBody = element
-        setTimeout(() => this.handleScroll(this.$refs.liveWindow.$el.ownerDocument.defaultView), 100)
+        setTimeout(() => this.$refs.liveWindow.handleScroll(), 100)
       }, 500)
       if (!this.viewOpened) {
         this.toggleView()
@@ -327,66 +382,6 @@ export default {
     },
     liveClosing: function() {
       this.currentElementIndex = -1
-    },
-    /* Scroll to the position in the song */
-    scrollViewToPos: function(pos) {
-      if (this.viewBody.type == "song") {
-        let DOMelements = this.$refs.liveWindow.$el.getElementsByClassName("song-part") //liste des blocs (verse, chorus, translation)
-        if (pos < 0 || pos > DOMelements.length) {
-          console.warn("I'm not suppose to be here...")
-          return
-        }
-
-        //hauteur de l'élément sticky (chorus) qui est plus haut
-        let getLastStickyHeight = (pos, DOMelements) => {
-          let stickyHeight = 0
-          let searchSticky = pos
-          while (searchSticky >= 0) {
-            let lyrics = this.viewBody.lyrics[searchSticky]
-            if (lyrics.type == "chorus" && lyrics.sticky) {
-              let stickyElement = DOMelements[searchSticky]
-              if (stickyElement.offsetHeight > this.$refs.liveWindow.$el.ownerDocument.defaultView.innerHeight) {
-                this.viewBody.lyrics[searchSticky].sticky = false //on détache le chorus (sticky=false) si sa hauteur dépasse la hauteur de la fenêtre
-              } else {
-                stickyHeight = stickyElement.offsetHeight
-              }
-              searchSticky = 0 //pour sortir de la boucle
-            }
-            searchSticky--
-          }
-          return stickyHeight
-        }
-
-        let stickyHeight = 0 //hauteur de l'élément sticky (chorus) qui est plus haut
-        let scrollHeight = 0 //hauteur du scroll
-
-        if (pos == DOMelements.length) {
-          //si on est au bout du contenu > afficher uniquement le dernier élément sticky ou afficher le vide
-          if (DOMelements[pos - 1].classList.contains("chorus")) {
-            //si le dernier élément est un chorus > vide
-            scrollHeight = DOMelements[pos - 1].offsetTop + DOMelements[pos - 1].offsetHeight
-          } else {
-            //sinon, on récupère le dernier sticky
-            scrollHeight = DOMelements[pos - 1].offsetTop + DOMelements[pos - 1].offsetHeight - getLastStickyHeight(pos - 1, DOMelements)
-          }
-        } else {
-          if (!DOMelements[pos].classList.contains("chorus")) {
-            //récupération de l'hauteur de l'element sticky plus haut
-            stickyHeight = getLastStickyHeight(pos - 1, DOMelements)
-          }
-          scrollHeight = DOMelements[pos].offsetTop - stickyHeight
-        }
-        this.$refs.liveWindow.$el.parentNode.scrollTo({
-          top: scrollHeight,
-          left: 0,
-          behavior: "smooth"
-        })
-      } else {
-        console.warn("scrollViewToPos function : the element has to be a song")
-      }
-    },
-    handleScroll(view) {
-      this.$refs.playlist.handleScroll(view)
     },
     // APERCU
     togglePreview: function() {
@@ -456,12 +451,12 @@ export default {
       } else if (event.key == this.settings.shortcuts.partNext) {
         event.preventDefault()
         if (this.viewOpened && this.viewBody.type == "song") {
-          this.scrollViewToPos(this.$refs.playlist.getNextPartIndex())
+          this.$refs.liveWindow.scrollNextPart()
         }
       } else if (event.key == this.settings.shortcuts.partPrevious) {
         event.preventDefault()
         if (this.viewOpened && this.viewBody.type == "song") {
-          this.scrollViewToPos(this.$refs.playlist.getPreviousPartIndex())
+          this.$refs.liveWindow.scrollPreviousPart()
         }
       }
     },
@@ -563,7 +558,7 @@ export default {
 <!--
 Available elements :
 {
-    type: empty | grid | song | text
+    type: empty | grid | song | text | file
     title: ""
 }
 
@@ -592,5 +587,10 @@ Available elements :
     title: ""
     isTitleDisplayed: true | false
     text: ""
+}
+
+{
+  type: file
+  width:
 }
 -->

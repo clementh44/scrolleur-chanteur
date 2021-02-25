@@ -52,6 +52,144 @@
 
       <hr />
 
+      <h5>Bordures</h5>
+      <div class="custom-control custom-switch form-group">
+        <input class="custom-control-input" type="checkbox" id="param-border-display-empty" v-model="settings.liveView.borders.empty" />
+        <label class="custom-control-label" for="param-border-display-empty">Afficher avec le contenu vide</label>
+      </div>
+      <div class="custom-control custom-switch form-group">
+        <input class="custom-control-input" type="checkbox" id="param-border-display-song" v-model="settings.liveView.borders.song" />
+        <label class="custom-control-label" for="param-border-display-song">Afficher avec les chants</label>
+      </div>
+      <div class="custom-control custom-switch form-group">
+        <input class="custom-control-input" type="checkbox" id="param-border-display-text" v-model="settings.liveView.borders.text" />
+        <label class="custom-control-label" for="param-border-display-text">Afficher avec les textes personnalisés</label>
+      </div>
+      <div class="custom-control custom-switch form-group">
+        <input class="custom-control-input" type="checkbox" id="param-border-display-file" v-model="settings.liveView.borders.file" />
+        <label class="custom-control-label" for="param-border-display-file">Afficher avec les fichiers</label>
+      </div>
+
+      <h6>Haut</h6>
+      <div class="custom-control custom-switch form-group">
+        <input class="custom-control-input" type="checkbox" id="param-border-top-displayed" v-model="settings.liveView.borders.top.displayed" />
+        <label class="custom-control-label" for="param-border-top-displayed">Visible</label>
+      </div>
+      <template v-if="settings.liveView.borders.top.displayed">
+        <div class="custom-control custom-switch form-group">
+          <input class="custom-control-input" type="checkbox" id="param-border-linked" v-model="allBorders" />
+          <label class="custom-control-label" for="param-border-linked">Modifier les 4 côtés en même temps</label>
+        </div>
+        <div class="form-group row">
+          <label for="param-border-top-color" class="col-sm-3 col-form-label">Couleur</label>
+          <div class="col-sm-3 d-flex">
+            <input type="color" class="form-control" id="param-border-top-color" v-model="settings.liveView.borders.top.color" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="param-border-top-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.top.width }}px</label>
+          <div class="col-sm-9 d-flex">
+            <input type="range" v-model="settings.liveView.borders.top.width" id="param-border-top-width" class="form-control-range" min="1" max="100" step="1" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="param-border-top-style" class="col-sm-3 col-form-label">Style</label>
+          <div class="col-sm-9">
+            <select v-model="settings.liveView.borders.top.style" id="param-border-top-style" class="form-control">
+              <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
+            </select>
+          </div>
+        </div>
+      </template>
+
+      <template v-if="!allBorders">
+        <h6>Droite</h6>
+        <div class="custom-control custom-switch form-group">
+          <input class="custom-control-input" type="checkbox" id="param-border-right-displayed" v-model="settings.liveView.borders.right.displayed" />
+          <label class="custom-control-label" for="param-border-right-displayed">Visible</label>
+        </div>
+        <template v-if="settings.liveView.borders.right.displayed">
+          <div class="form-group row">
+            <label for="param-border-right-color" class="col-sm-3 col-form-label">Couleur</label>
+            <div class="col-sm-3 d-flex">
+              <input type="color" class="form-control" id="param-border-right-color" v-model="settings.liveView.borders.right.color" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="param-border-right-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.right.width }}px</label>
+            <div class="col-sm-9 d-flex">
+              <input type="range" v-model="settings.liveView.borders.right.width" id="param-border-right-width" class="form-control-range" min="1" max="100" step="1" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="param-border-right-style" class="col-sm-3 col-form-label">Style</label>
+            <div class="col-sm-9">
+              <select v-model="settings.liveView.borders.right.style" id="param-border-right-style" class="form-control">
+                <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
+              </select>
+            </div>
+          </div>
+        </template>
+
+        <h6>Bas</h6>
+        <div class="custom-control custom-switch form-group">
+          <input class="custom-control-input" type="checkbox" id="param-border-bottom-displayed" v-model="settings.liveView.borders.bottom.displayed" />
+          <label class="custom-control-label" for="param-border-bottom-displayed">Visible</label>
+        </div>
+        <template v-if="settings.liveView.borders.bottom.displayed">
+          <div class="form-group row">
+            <label for="param-border-bottom-color" class="col-sm-3 col-form-label">Couleur</label>
+            <div class="col-sm-3 d-flex">
+              <input type="color" class="form-control" id="param-border-bottom-color" v-model="settings.liveView.borders.bottom.color" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="param-border-bottom-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.bottom.width }}px</label>
+            <div class="col-sm-9 d-flex">
+              <input type="range" v-model="settings.liveView.borders.bottom.width" id="param-border-bottom-width" class="form-control-range" min="1" max="100" step="1" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="param-border-bottom-style" class="col-sm-3 col-form-label">Style</label>
+            <div class="col-sm-9">
+              <select v-model="settings.liveView.borders.bottom.style" id="param-border-bottom-style" class="form-control">
+                <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
+              </select>
+            </div>
+          </div>
+        </template>
+
+        <h6>Gauche</h6>
+        <div class="custom-control custom-switch form-group">
+          <input class="custom-control-input" type="checkbox" id="param-border-left-displayed" v-model="settings.liveView.borders.left.displayed" />
+          <label class="custom-control-label" for="param-border-left-displayed">Visible</label>
+        </div>
+        <template v-if="settings.liveView.borders.left.displayed">
+          <div class="form-group row">
+            <label for="param-border-left-color" class="col-sm-3 col-form-label">Couleur</label>
+            <div class="col-sm-3 d-flex">
+              <input type="color" class="form-control" id="param-border-left-color" v-model="settings.liveView.borders.left.color" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="param-border-left-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.left.width }}px</label>
+            <div class="col-sm-9 d-flex">
+              <input type="range" v-model="settings.liveView.borders.left.width" id="param-border-left-width" class="form-control-range" min="1" max="100" step="1" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="param-border-left-style" class="col-sm-3 col-form-label">Style</label>
+            <div class="col-sm-9">
+              <select v-model="settings.liveView.borders.left.style" id="param-border-left-style" class="form-control">
+                <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
+              </select>
+            </div>
+          </div>
+        </template>
+      </template>
+
+      <hr />
+
       <h6>Chant et texte personnalisé</h6>
       <div class="form-group row">
         <label for="param-padding" class="col-sm-2 col-form-label">Marges</label>
@@ -116,8 +254,10 @@
               <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
             </button>
             <button class="btn btn-info btn-sm" aria-disabled="true" style="pointer-events: none;">
-              <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon> </button></div
-        ></label>
+              <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
+            </button>
+          </div>
+        </label>
       </div>
       <div class="form-group row">
         <label for="search-score-query" class="col-sm-2 col-form-label">Lien</label>
@@ -192,7 +332,8 @@ export default {
   name: "Settings",
   data() {
     return {
-      version: process.env.VUE_APP_VERSION
+      version: process.env.VUE_APP_VERSION,
+      allBorders: false
     }
   },
   props: {
@@ -225,6 +366,20 @@ export default {
             break
         }
         event.preventDefault()
+      }
+    }
+  },
+  watch: {
+    // Pour lier ou délier les paramètres de style des bordures par rapport à celles du haut
+    allBorders: function(linked) {
+      if (linked) {
+        this.settings.liveView.borders.right = this.settings.liveView.borders.top
+        this.settings.liveView.borders.bottom = this.settings.liveView.borders.top
+        this.settings.liveView.borders.left = this.settings.liveView.borders.top
+      } else {
+        this.settings.liveView.borders.right = JSON.parse(JSON.stringify(this.settings.liveView.borders.top))
+        this.settings.liveView.borders.bottom = JSON.parse(JSON.stringify(this.settings.liveView.borders.top))
+        this.settings.liveView.borders.left = JSON.parse(JSON.stringify(this.settings.liveView.borders.top))
       }
     }
   }
