@@ -224,7 +224,7 @@ export default {
       search: "",
       paramOpened: false,
       settings: {
-        version: 20210106, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+        version: 20210225, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
         liveView: {
           viewThemes: [
             {

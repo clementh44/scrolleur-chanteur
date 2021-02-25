@@ -844,6 +844,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Enregistrement automatique de la playlist dans le navigateur : aussi en modifiant les couplets/refrains, textes persos etc...
   Correction du chant où il manquait l'id "rends-nous-la-joie-de-ton-salut"
+  Correciton du chant "Avec toi nous irons au désert" où il y avait une répétition inutile
   Ajout de bordures personnalisées
   Amélioration de la gestion du scroll
 ```
