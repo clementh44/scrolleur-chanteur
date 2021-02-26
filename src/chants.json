@@ -1,5 +1,32 @@
 [
   {
+    "id": "baptise-dans-la-lumiere-de-jesus",
+    "title": "Baptisé dans la lumière de Jésus",
+    "rating": "I297",
+    "newrating": "N297",
+    "publisher": "Studio SM",
+    "writer": "Michel Scouarnec",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Baptisé dans la lumière de Jésus,\nTu renais avec lui du tombeau.\nTu renais avec lui du tombeau.\nPour que s'éclaire chacune de tes nuits.\nDieu te prends aujourd'hui par la main :\nTu es son enfant Bien-aimé."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Baptisé dans le passage de Jésus,\nTu traverses avec lui les déserts.\nTu traverses avec lui les déserts.\nPour que tu brises les forces de la mort.\nDieu te donne aujourd'hui son Esprit :\nTu es son enfant Bien-aimé."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Baptisé dans l'Evangile de Jésus,\nTu découvres avec lui un trésor.\nTu découvres avec lui un trésor.\nPour que tu trouves les mots de liberté.\nDieu te donne aujourd'hui la parole :\nTu es son enfant Bien-aimé."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Baptisé dans le royaume de Jésus,\nTu inventes avec lui ton chemin.\nTu inventes avec lui ton chemin.\nPour que tu cherches les sources de la vie.\nDieu te donne son peuple choisi :\nTu es son enfant Bien-aimé."
+      }
+    ]
+  },
+  {
     "id": "levons-les-yeux",
     "title": "Levons les yeux",
     "rating": "F67-27",

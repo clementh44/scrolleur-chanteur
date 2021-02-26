@@ -848,3 +848,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout de bordures personnalisées
   Amélioration de la gestion du scroll
 ```
+
+**26/02/2021 v4.12.1**
+```
+  + Baptisé dans la lumière de Jésus I297 N297
+```
