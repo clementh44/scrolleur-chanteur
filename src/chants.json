@@ -9873,7 +9873,7 @@
       },
       {
         "type": "verse",
-        "text": "Agneau de Dieu qui enlèves le péché du monde,\ndonne nous la paix, donne nous la paix !."
+        "text": "Agneau de Dieu qui enlèves le péché du monde,\ndonne nous la paix, donne nous la paix !"
       }
     ]
   },
@@ -11554,15 +11554,15 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "Tu sais de quoi nous sommes pétris,\nTu te souviens que nous sommes poussière,\nJésus, homme au milieu des hommes,\nPrends pitié de tout homme pécheur (ter)."
+        "text": "Tu sais de quoi nous sommes pétris,\nTu te souviens que nous sommes poussière,\nJésus, homme au milieu des hommes,\nPrends pitié de tout homme pécheur."
       },
       {
         "type": "verse",
-        "text": "Tu n’agis pas selon nos péchés,\nNe nous rends pas en pesant nos offenses,\nJésus, homme au milieu des hommes,\nPrends pitié de tout homme pécheur (ter)."
+        "text": "Tu n’agis pas selon nos péchés,\nNe nous rends pas en pesant nos offenses,\nJésus, homme au milieu des hommes,\nPrends pitié de tout homme pécheur."
       },
       {
         "type": "verse",
-        "text": "Et comme est loin couchant du levant,\nTu mets au loin le fardeau de nos fautes,\nJésus, homme au milieu des hommes,\nPrends pitié de tout homme pécheur (ter)."
+        "text": "Et comme est loin couchant du levant,\nTu mets au loin le fardeau de nos fautes,\nJésus, homme au milieu des hommes,\nPrends pitié de tout homme pécheur."
       }
     ]
   },
@@ -12002,6 +12002,33 @@
       {
         "type": "verse",
         "text": "Agneau de Dieu, qui enlèves le péché du monde,\ndonne-nous la paix, donne-nous la paix."
+      }
+    ]
+  },
+  {
+    "id": "messe-7-agneau-de-lalliance-fidele",
+    "title": "Agneau de l'Alliance fidèle",
+    "rating": "A240-1",
+    "newrating": "C240-1",
+    "publisher": "Studio SM",
+    "writer": "CNPL/Didier Rimaud",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Agneau de l’alliance fidèle,\nAgneau de Dieu victorieux du péché,\nPrends ce monde en pitié et donne-lui la paix !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Agneau de la Pâque nouvelle,\nAgneau de Dieu victorieux du Mauvais,\nPrends ce monde en pitié et donne-lui la paix !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Agneau du Royaume à venir,\nAgneau de Dieu victorieux des enfers,\nPrends ce monde en pitié et donne-lui la paix !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Agneau de la Ville éternelle,\nAgneau de Dieu victorieux de la mort,\nPrends ce monde en pitié et donne-lui la paix !"
       }
     ]
   }

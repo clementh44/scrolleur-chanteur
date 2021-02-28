@@ -853,3 +853,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   + Baptisé dans la lumière de Jésus I297 N297
 ```
+
+**28/02/2021 v4.12.2**
+```
+  Corrections chants
+  + Agneau de l'Alliance fidèle A240-1 C240-1
+```
