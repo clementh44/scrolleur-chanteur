@@ -44,6 +44,54 @@
       </SideBox>
 
       <div class="col">
+        <!-- Aide -->
+        <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" v-if="settings.help">
+          <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">Scrolleur-Chanteur</a></strong>
+          <button type="button" class="close" aria-label="Close" @click="settings.help = false">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <p>
+            Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à l'ordinateur.
+          </p>
+          <hr />
+          <p><strong>Explications</strong></p>
+          <p>
+            Ici, c'est la page de gestion de la projection. Cliquez sur
+            <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation</em>
+            pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyez sur F11 pour mettre en plein écran).
+          </p>
+          <p>
+            La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un
+            contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une
+            image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
+          </p>
+          <p>
+            Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur
+            <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.
+          </p>
+          <p>
+            Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.<br />Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la
+            présentation avec le clavier depuis les paramètres (voir le menu en haut).
+          </p>
+          <hr />
+          <p><strong>Liens utiles</strong></p>
+          <p>
+            Contact, question, chant manquant, idée... écrivez-moi via
+            <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">ce formulaire</a>.
+          </p>
+          <p>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank" rel="noopener"
+              ><strong>Soutenir</strong> ce site et son développement. Merci !</a
+            >.
+          </p>
+          <p> <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>. </p>
+          <p>
+            Trouvez les paroles de chants sur les sites suivants : <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
+            <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a><br />
+            Trouvez les textes du jour sur : <a href="https://www.aelf.org/" target="_blank" rel="noopener noreferrer">aelf.org</a>
+          </p>
+        </div>
+
         <!-- Précisions pour Safari -->
         <template v-if="isSafari()">
           <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
@@ -82,53 +130,6 @@
             </button>
           </div>
         </template>
-
-        <!-- Aide -->
-        <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" v-if="settings.help">
-          <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">Scrolleur-Chanteur</a></strong>
-          <button type="button" class="close" aria-label="Close" @click="settings.help = false">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <p>
-            Cette version permet de ne rien installer, il suffit de charger cette page quand on a internet et de ne pas la fermer ou l'actualiser pour s'en servir.
-          </p>
-          <hr />
-          <p>
-            Ici, c'est la page de gestion de la projection. Cliquez sur
-            <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation</em>
-            pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyez sur F11 pour mettre en plein écran).
-          </p>
-          <p>
-            Pour afficher un chant, il suffit d'appuyer sur
-            <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.
-          </p>
-          <p>
-            La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un
-            contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une
-            image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
-          </p>
-          <p>
-            Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.<br />Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la
-            présentation avec le clavier.
-          </p>
-          <hr />
-          <p><strong>Liens utiles</strong></p>
-          <p>
-            Contact, chant manquant, idée, question... écrivez-moi via
-            <a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">ce formulaire</a>.
-          </p>
-          <p>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank" rel="noopener"
-              >Soutenir le projet</a
-            >.
-          </p>
-          <p> <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>. </p>
-          <p>
-            Trouvez les paroles de chants sur les sites suivants : <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
-            <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a><br />
-            Trouvez les textes du jour sur : <a href="https://www.aelf.org/" target="_blank" rel="noopener noreferrer">aelf.org</a>
-          </p>
-        </div>
 
         <!-- Playlist -->
         <div class="card mb-3">

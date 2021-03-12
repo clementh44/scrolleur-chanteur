@@ -859,3 +859,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections chants
   + Agneau de l'Alliance fidèle A240-1 C240-1
 ```
+
+**13/03/2021 v4.12.3**
+```
+  Modifications mineures du texte de bienvenue
+```
