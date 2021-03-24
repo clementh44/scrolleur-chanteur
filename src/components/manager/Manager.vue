@@ -1,29 +1,21 @@
 <template>
-  <div class="container-xl">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <a class="navbar-brand" href="#">Scrolleur-chanteur</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li :class="['nav-item', viewOpened ? 'active' : '']">
-            <a class="nav-link" href="#" @click="toggleView" title="Ouvrir/fermer la fenêtre de présentation"><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation</a>
-          </li>
-          <li :class="['nav-item', previewOpened ? 'active' : '']">
-            <a class="nav-link" href="#" @click="togglePreview" title="Ouvrir/fermer l'aperçu d'un élément"><font-awesome-icon :icon="'eye'"></font-awesome-icon> Aperçu</a>
-          </li>
-          <li :class="['nav-item', paramOpened ? 'active' : '']">
-            <a class="nav-link" href="#" @click="toggleParam" title="Ouvrir/fermer les paramètres"><font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres</a>
-          </li>
-          <li :class="['nav-item', settings.help ? 'active' : '']">
-            <a class="nav-link" href="#" @click="settings.help = !settings.help" title="Ouvrir/fermer l'aide'"><font-awesome-icon :icon="'question-circle'"></font-awesome-icon> Aide</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <b-container fluid="xl">
+    <b-navbar toggleable="sm" type="light" class="bg-light">
+      <b-navbar-brand href="#">Scrolleur-chanteur</b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item :active="viewOpened" @click="toggleView" title="Ouvrir/fermer la fenêtre de présentation"> <font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation </b-nav-item>
+          <b-nav-item :active="previewOpened" @click="togglePreview" title="Ouvrir/fermer l'aperçu d'un élément"> <font-awesome-icon :icon="'eye'"></font-awesome-icon> Aperçu </b-nav-item>
+          <b-nav-item :active="paramOpened" @click="toggleParam" title="Ouvrir/fermer les paramètres"> <font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres </b-nav-item>
+          <b-nav-item :active="settings.help" @click="settings.help = !settings.help" title="Ouvrir/fermer l'aide'">
+            <font-awesome-icon :icon="'question-circle'"></font-awesome-icon> Aide
+          </b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
 
-    <div class="row">
+    <b-row>
       <!-- Fenêtre de présentation -->
       <WindowPortal v-model="viewOpened" v-on:shortcuts="manageShortCuts" v-on:close="liveClosing" :width="settings.liveView.window.width" :height="settings.liveView.window.height">
         <ViewWindow ref="liveWindow" :element="viewBody" :settings="settings" :live="true" :duration="500"></ViewWindow>
@@ -45,13 +37,11 @@
 
       <div class="col">
         <!-- Aide -->
-        <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" v-if="settings.help">
+        <b-alert variant="success" :show="settings.help" @dismissed="settings.help = false" dismissible fade class="mt-3">
           <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">Scrolleur-Chanteur</a></strong>
-          <button type="button" class="close" aria-label="Close" @click="settings.help = false">
-            <span aria-hidden="true">&times;</span>
-          </button>
           <p>
-            Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à l'ordinateur.
+            Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à
+            l'ordinateur.
           </p>
           <hr />
           <p><strong>Explications</strong></p>
@@ -65,10 +55,7 @@
             contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une
             image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
           </p>
-          <p>
-            Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur
-            <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.
-          </p>
+          <p> Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
           <p>
             Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.<br />Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la
             présentation avec le clavier depuis les paramètres (voir le menu en haut).
@@ -90,110 +77,105 @@
             <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a><br />
             Trouvez les textes du jour sur : <a href="https://www.aelf.org/" target="_blank" rel="noopener noreferrer">aelf.org</a>
           </p>
-        </div>
+        </b-alert>
 
         <!-- Précisions pour Safari -->
-        <template v-if="isSafari()">
-          <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
-            <button type="button" class="close" aria-label="Close" data-dismiss="alert">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h5 class="alert-heading">
-              Pour information
-            </h5>
-            <hr />
-            <p>
-              Vous semblez utiliser le navigateur web Safari (mac, iPhone, iPad). Pour information, le défilement du contenu via les boutons (raccourcis clavier ou boutons pour faire défiler ou se
-              déplacer vers une partie d'un chant) n'est pas fluide. Vous pouvez essayer sur un autre navigateur web (Firefox ou Chrome).
-            </p>
-          </div>
-        </template>
+        <b-alert variant="danger" :show="isSafari()" dismissible fade class="mt-3">
+          <h5 class="alert-heading">
+            Pour information
+          </h5>
+          <hr />
+          <p>
+            Vous semblez utiliser le navigateur web Safari (mac, iPhone, iPad). Pour information, le défilement du contenu via les boutons (raccourcis clavier ou boutons pour faire défiler ou se
+            déplacer vers une partie d'un chant) n'est pas fluide. Vous pouvez essayer sur un autre navigateur web (Firefox ou Chrome).
+          </p>
+        </b-alert>
 
         <!-- Termes à accepter -->
-        <template v-if="!secliAccepted">
-          <div class="alert alert-warning fade show mt-3" role="alert">
-            <h5 class="alert-heading">
-              Protection des œuvres
-            </h5>
-            <hr />
-            <p>
-              Les textes (faisant partie d'une œuvre au même titre que sa musique) présents sur cet outil sont à l'usage exclusif des cotisants au SECLI.
-            </p>
-            <p>
-              En continuant à utiliser l'outil, vous déclarez cotiser par ailleurs au SECLI (<a href="https://secli.cef.fr/" target="_blank" rel="noopener"
-                >Secrétariat des Editeurs de Chants pour la LIturgie</a
-              >) directement ou via votre paroisse ou groupe.
-            </p>
-            <hr />
-            <button type="button" class="btn btn-primary" @click="acceptSecli">
-              Je comprends et accepte ces termes
-            </button>
-          </div>
-        </template>
+        <b-alert variant="warning" :show="!secliAccepted" fade class="mt-3">
+          <h5 class="alert-heading">
+            Protection des œuvres
+          </h5>
+          <hr />
+          <p>
+            Les textes (faisant partie d'une œuvre au même titre que sa musique) présents sur cet outil sont à l'usage exclusif des cotisants au SECLI.
+          </p>
+          <p>
+            En continuant à utiliser l'outil, vous déclarez cotiser par ailleurs au SECLI (<a href="https://secli.cef.fr/" target="_blank" rel="noopener"
+              >Secrétariat des Editeurs de Chants pour la LIturgie</a
+            >) directement ou via votre paroisse ou groupe.
+          </p>
+          <hr />
+          <b-button variant="primary" @click="acceptSecli">
+            Je comprends et accepte ces termes
+          </b-button>
+        </b-alert>
 
         <!-- Playlist -->
-        <div class="card mb-3">
-          <a id="playlist-header" class="text-decoration-none" data-toggle="collapse" href="#collapse-playlist" aria-expanded="true" aria-controls="collapse-playlist">
-            <h3 class="card-header d-flex justify-content-between">
-              Playlist
-              <font-awesome-icon class="pull-right" :icon="'chevron-down'"></font-awesome-icon>
-            </h3>
-          </a>
-          <div id="collapse-playlist" class="card-body collapse show" aria-labelledby="playlist-header">
-            <Playlist
-              ref="playlist"
-              v-model="playlist"
-              v-on:display="displayElement"
-              v-on:preview="previewElement"
-              :settings="settings"
-              :current-element-index="currentElementIndex"
-              v-on:update-current-element-index="currentElementIndex = $event"
-              v-on:search-score="searchScore($event.title, $event.query)"
-              v-on:scroll-to-pos="$refs.liveWindow.scrollViewToPos($event.pos)"
-            ></Playlist>
-          </div>
-        </div>
+        <b-card class="mb-3" no-body>
+          <b-card-header id="playlist-header" class="text-decoration-none d-flex justify-content-between" header-tag="h3" v-b-toggle.collapse-playlist>
+            Playlist
+            <font-awesome-icon class="pull-right when-open" :icon="'chevron-up'"></font-awesome-icon>
+            <font-awesome-icon class="pull-right when-closed" :icon="'chevron-down'"></font-awesome-icon>
+          </b-card-header>
+          <b-collapse id="collapse-playlist" visible>
+            <b-card-body>
+              <Playlist
+                ref="playlist"
+                v-model="playlist"
+                v-on:display="displayElement"
+                v-on:preview="previewElement"
+                :settings="settings"
+                :current-element-index="currentElementIndex"
+                v-on:update-current-element-index="currentElementIndex = $event"
+                v-on:search-score="searchScore($event.title, $event.query)"
+                v-on:scroll-to-pos="$refs.liveWindow.scrollViewToPos($event.pos)"
+              ></Playlist>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
 
         <!-- Répertoire -->
-        <div class="card mb-3">
-          <a id="repertory-header" class="text-decoration-none" data-toggle="collapse" href="#collapse-repertory" aria-expanded="true" aria-controls="collapse-repertory">
-            <h3 class="card-header d-flex justify-content-between">
-              Répertoire
-              <font-awesome-icon class="pull-right" :icon="'chevron-down'"></font-awesome-icon>
-            </h3>
-          </a>
-          <div id="collapse-repertory" class="card-body collapse show" aria-labelledby="repertory-header">
-            <div class="form-group">
-              <label for="searchInput">Rechercher parmis les {{ songs.length }} chants</label>
-              <div class="input-group">
-                <input @keydown.stop type="text" id="searchInput" class="form-control" placeholder="Rechercher un titre..." v-debounce="searchSong" @click="$event.target.select()" />
-                <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" @click="searchScore(search, settings.score.google)" title="Rechercher le titre sur google">
-                    <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <ul class="list-group">
-              <li :key="index" v-for="(song, index) in filteredSongs" class="list-group-item d-flex align-items-center">
-                <div class="flex-grow-1">{{ song.title }}</div>
-                <ElementActions :element="Object.assign({ type: 'song' }, song)" :settings="settings" @preview="previewElement($event)" @search-score="searchScore($event.title, $event.query)">
-                  <template v-slot:end>
-                    <button class="btn btn-light" @click="addSong(song)" title="Ajouter dans la playlist">
-                      <font-awesome-icon :icon="'plus'"></font-awesome-icon>
-                    </button>
-                    <router-link :to="{ name: 'song', params: { id: song.id } }" target="_blank" class="btn btn-light" title="Ouvrir les paroles dans une fenêtre externe">
-                      <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
-                    </router-link>
-                  </template>
-                </ElementActions>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <b-card class="mb-3" no-body>
+          <b-card-header id="repertory-header" class="text-decoration-none d-flex justify-content-between" data-toggle="collapse" header-tag="h3" v-b-toggle.collapse-repertory>
+            Répertoire
+            <font-awesome-icon class="pull-right when-open" :icon="'chevron-up'"></font-awesome-icon>
+            <font-awesome-icon class="pull-right when-closed" :icon="'chevron-down'"></font-awesome-icon>
+          </b-card-header>
+          <b-collapse id="collapse-repertory" visible>
+            <b-card-body>
+              <b-form-group>
+                <label for="searchInput">Rechercher parmis les {{ songs.length }} chants</label>
+                <b-input-group>
+                  <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher un titre..." v-debounce="searchSong" @click="$event.target.select()"></b-form-input>
+                  <b-input-group-append>
+                    <b-button variant="outline-secondary" @click="searchScore(search, settings.score.google)" title="Rechercher le titre sur google">
+                      <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
+                    </b-button>
+                  </b-input-group-append>
+                </b-input-group>
+              </b-form-group>
+              <b-list-group>
+                <b-list-group-item :key="index" v-for="(song, index) in filteredSongs" class="d-flex align-items-center">
+                  <div class="flex-grow-1">{{ song.title }}</div>
+                  <ElementActions :element="Object.assign({ type: 'song' }, song)" :settings="settings" @preview="previewElement($event)" @search-score="searchScore($event.title, $event.query)">
+                    <template v-slot:end>
+                      <b-button variant="light" @click="addSong(song)" title="Ajouter dans la playlist">
+                        <font-awesome-icon :icon="'plus'"></font-awesome-icon>
+                      </b-button>
+                      <b-button variant="light" :to="{ name: 'song', params: { id: song.id } }" target="_blank" title="Ouvrir les paroles dans une fenêtre externe">
+                        <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
+                      </b-button>
+                    </template>
+                  </ElementActions>
+                </b-list-group-item>
+              </b-list-group>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
       </div>
-    </div>
-  </div>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -206,10 +188,10 @@ import Settings from "./Settings"
 import ElementActions from "./ElementActions"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faSquare } from "@fortawesome/free-regular-svg-icons"
-import { faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
+import { faPlus, faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGoogle } from "@fortawesome/free-brands-svg-icons"
 
-library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt, faGoogle)
+library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt, faGoogle)
 
 export default {
   name: "Manager",

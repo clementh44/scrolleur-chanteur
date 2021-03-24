@@ -1,14 +1,14 @@
 <template>
   <div class="col-12 col-lg-6">
-    <div class="card sticky-top mb-3">
-      <h3 class="card-header d-flex justify-content-between">
+    <b-card class="sticky-top mb-3" no-body>
+      <b-card-header class="d-flex justify-content-between" header-tag="h3">
         {{ header }}
         <a href="#" class="pull-right" @click="close"><font-awesome-icon :icon="'times'"></font-awesome-icon></a>
-      </h3>
-      <div class="card-body overflow-auto" style="height: 90vh;">
+      </b-card-header>
+      <b-card-body class="overflow-auto" style="height: 90vh;">
         <slot name="content"></slot>
-      </div>
-    </div>
+      </b-card-body>
+    </b-card>
   </div>
 </template>
 

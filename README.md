@@ -864,3 +864,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Modifications mineures du texte de bienvenue
 ```
+
+**24/03/2021 v4.13.0**
+```
+  passage de Bootstrap à vue-bootstrap
+  ajout d'une animation au déplacement d'un élément dans la playlist
+  ajout d'un logo/favicon
+```

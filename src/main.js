@@ -3,13 +3,17 @@ import App from "./App.vue"
 import VueRouter from "vue-router"
 import Routes from "./Routes"
 import VueBodyClass from "vue-body-class"
+import { BootstrapVue } from "bootstrap-vue"
 import "bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap-vue/dist/bootstrap-vue.css"
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome"
 import "vue-cookies"
 import vueDebounce from "vue-debounce"
 
 Vue.use(VueRouter)
+
+Vue.use(BootstrapVue)
 
 Vue.use(require("vue-cookies"))
 

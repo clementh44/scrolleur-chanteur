@@ -1,154 +1,152 @@
 <template>
   <div>
-    <div class="btn-toolbar mb-3">
-      <div class="btn-group mr-3">
-        <button @click="display({ type: 'grid' })" type="button" class="btn btn-secondary" title="Quadrillage d'aide au cadrage de la projection">
+    <b-button-toolbar class="mb-3">
+      <b-button-group class="mr-3">
+        <b-button @click="display({ type: 'grid' })" variant="secondary" title="Quadrillage d'aide au cadrage de la projection">
           <font-awesome-icon :icon="'border-all'"></font-awesome-icon>
-        </button>
-      </div>
-      <div class="btn-group mr-3">
-        <div class="btn btn-secondary" aria-disabled="true" style="pointer-events: none;">
+        </b-button>
+      </b-button-group>
+      <b-button-group class="mr-3">
+        <b-button variant="secondary" :pressed="false" aria-disabled="true" style="pointer-events: none;">
           Ajouter :
-        </div>
-        <button @click="addElement({ type: 'empty', title: '_vide_' })" type="button" class="btn btn-secondary" title="Contenu vide">
+        </b-button>
+        <b-button @click="addElement({ type: 'empty', title: '_vide_' })" variant="secondary" title="Contenu vide">
           <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>
-        </button>
-        <button @click="insertEmptyTransition()" v-if="this.playlist.length > 0" type="button" class="btn btn-secondary" title="Intercaler un élément vide entre chaque contenu">
+        </b-button>
+        <b-button @click="insertEmptyTransition()" v-if="this.playlist.length > 0" variant="secondary" title="Intercaler un élément vide entre chaque contenu">
           <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
-        </button>
-        <button @click="addElement({ type: 'text', title: 'Texte à personnaliser' })" type="button" class="btn btn-secondary" title="Texte personnalisé">
+        </b-button>
+        <b-button @click="addElement({ type: 'text', title: 'Texte à personnaliser' })" variant="secondary" title="Texte personnalisé">
           <font-awesome-icon :icon="'align-left'"></font-awesome-icon>
-        </button>
-        <label @change="addFile($event)" class="btn btn-secondary m-0" for="input-file" title="Importer une image"
+        </b-button>
+        <b-button @change="addFile($event)" variant="secondary" class="m-0" tag="label" for="input-file" title="Importer une image"
           ><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"
-        /></label>
-      </div>
-      <div class="btn-group" v-if="this.playlist.length > 0">
-        <div class="btn btn-danger" aria-disabled="true" style="pointer-events: none;">
+        /></b-button>
+      </b-button-group>
+      <b-button-group v-if="this.playlist.length > 0">
+        <b-button variant="danger" :pressed="false" aria-disabled="true" style="pointer-events: none;">
           Supprimer :
-        </div>
-        <button @click="cleanEmpty()" type="button" class="btn btn-danger" title="Supprimer les éléments vides">
+        </b-button>
+        <b-button @click="cleanEmpty()" variant="danger" title="Supprimer les éléments vides">
           <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
-        </button>
-        <button @click="clean()" type="button" class="btn btn-danger" title="Vider la playlist">
+        </b-button>
+        <b-button @click="clean()" variant="danger" title="Vider la playlist">
           <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
-        </button>
-      </div>
-    </div>
+        </b-button>
+      </b-button-group>
+    </b-button-toolbar>
 
     <transition name="edition">
-      <div class="d-flex card border-secondary mb-3" v-if="isEdited" ref="playlistEditionRef">
-        <h5 class="card-header">Édition d'un élément</h5>
-        <div class="card-body">
-          <div class="card-text">
-            <form v-if="editedElement.type == 'text'">
-              <div class="form-group">
-                <label for="custom-text-title">Titre</label>
-                <input @keydown.stop class="form-control" id="custom-text-title" type="text" name="title" v-model="editedElement.title" />
-              </div>
-              <div class="custom-control custom-switch form-group">
-                <input class="custom-control-input" type="checkbox" name="isTitleDisplayed" id="title-displayed-checkbox" v-model="editedElement.isTitleDisplayed" />
-                <label class="custom-control-label" for="title-displayed-checkbox">Afficher le titre dans la présentation (<font-awesome-icon :icon="'desktop'"></font-awesome-icon>)</label>
-              </div>
-              <div class="form-group">
-                <label for="custom-text-body">Corps du texte</label>
-                <textarea @keydown.stop class="form-control" id="custom-text-body" name="content" rows="10" v-model="editedElement.text"></textarea>
-              </div>
-            </form>
-            <form v-if="editedElement.type == 'file'">
-              <div class="form-group">
-                <label for="file-width">Largeur du fichier dans la présentation</label>
-                <input aria-describedby="file-width-help" type="range" v-model="editedElement.width" id="file-width" class="form-control-range" min="10" max="200" step="1" />
-                <small id="file-width-help" class="form-text text-muted">Le fichier prendra {{ editedElement.width }}% de la largeur de la présentation</small>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="card-footer">
-          <button type="button" class="btn btn-primary" @click="isEdited = false">
-            Fermer
-          </button>
-        </div>
-      </div>
+      <b-card border-variant="secondary" class="d-flex mb-3" v-if="isEdited" ref="playlistEditionRef" no-body>
+        <b-card-header header-tag="h5">Édition d'un élément</b-card-header>
+        <b-card-body>
+          <b-card-text>
+            <b-form v-if="editedElement.type == 'text'">
+              <b-form-group label="Titre">
+                <b-form-input @keydown.stop v-model="editedElement.title"></b-form-input>
+              </b-form-group>
+              <b-form-group>
+                <b-form-checkbox v-model="editedElement.isTitleDisplayed" switch>Afficher le titre dans la présentation (<font-awesome-icon :icon="'desktop'"></font-awesome-icon>)</b-form-checkbox>
+              </b-form-group>
+              <b-form-group label="Corps du texte">
+                <b-form-textarea @keydown.stop id="custom-text-body" name="content" rows="10" v-model="editedElement.text"></b-form-textarea>
+              </b-form-group>
+            </b-form>
+            <b-form v-if="editedElement.type == 'file'">
+              <b-form-group label="Largeur du fichier dans la présentation">
+                <b-form-input aria-describedby="file-width-help" type="range" v-model="editedElement.width" min="10" max="200" step="1"></b-form-input>
+                <b-form-text id="file-width-help">Le fichier prendra {{ editedElement.width }}% de la largeur de la présentation</b-form-text>
+              </b-form-group>
+            </b-form>
+          </b-card-text>
+        </b-card-body>
+        <b-card-footer>
+          <b-button @click="isEdited = false">Fermer</b-button>
+        </b-card-footer>
+      </b-card>
     </transition>
 
-    <ul class="list-group">
-      <li class="list-group-item" v-if="listLocal.length == 0">
+    <b-list-group>
+      <b-list-group-item v-if="listLocal.length == 0">
         <strong>La playlist est vide</strong><br />
         Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou du vide
         (<font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>).<br />
         Ci-dessous, recherchez et ajoutez un chant du répertoire (<font-awesome-icon :icon="'plus'"></font-awesome-icon>) pour acceder à plus de contrôles.<br />
         Rappel : laissez la souris sur un bouton pour avoir une description de son action.
-      </li>
-    </ul>
+      </b-list-group-item>
+    </b-list-group>
 
-    <draggable v-model="listLocal" handle=".handle" tag="ul" @start="onStart" @end="onEnd" class="list-group">
-      <li v-for="(element, index) in listLocal" :key="index" class="list-group-item">
-        <div class="d-flex align-items-center">
-          <div v-if="index == currentElementIndex" class="current-element-icon" style="left:-4px;" title="Elément actuellement dans la présentation"></div>
-          <div class="flex-grow-1">{{ element.title }} <img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" class="sc-file border rounded"/></div>
+    <draggable v-model="listLocal" handle=".handle" tag="b-list-group" @start="onStart" @end="onEnd" v-bind="dragOptions">
+      <transition-group type="transition" :name="!drag ? 'flip-list' : null">
+        <b-list-group-item v-for="(element, index) in listLocal" :key="index">
+          <div class="d-flex w-100 justify-content-between align-items-center">
+            <div v-if="index == currentElementIndex" class="current-element-icon" style="left:-4px;" title="Elément actuellement dans la présentation"></div>
+            <div class="flex-grow-1">{{ element.title }} <b-img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" thumbnail rounded class="sc-file"/></div>
 
-          <ElementActions
-            :element="element"
-            :settings="settings"
-            @preview="preview($event)"
-            @search-score="
-              $emit('search-score', {
-                title: $event.title,
-                query: $event.query
-              })
-            "
-          >
-            <template v-slot:first>
-              <button class="btn btn-light" v-if="canEdit(element)" @click="edit(element)" title="Editer l'élément">
-                <font-awesome-icon :icon="['far', 'edit']"></font-awesome-icon>
-              </button>
-            </template>
-            <template v-slot:end>
-              <button class="btn btn-light" @click="display(element, index)" title="Afficher dans la fenêtre de présentation">
-                <font-awesome-icon :icon="'desktop'"></font-awesome-icon>
-              </button>
-              <button class="btn btn-light handle" title="Déplacer l'élément">
-                <font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon>
-              </button>
-              <button class="btn btn-light" @click="removeAt(index)" title="Supprimer l'élément de la playlist">
-                <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
-              </button>
-            </template>
-          </ElementActions>
-        </div>
-        <ul v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
-          <div class="p-2 border d-flex align-items-center lyrics-part-block" v-for="(lyricsBlock, index) in element.lyrics" :key="index">
-            <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left:1px;" title="Partie visible dans la présentation"></div>
-            <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" :title="lyricsBlock.text">
-              {{ lyricsBlock.text }}
-            </div>
-            <div class="btn-group">
-              <button class="btn btn-light no-focus" @click="$emit('scroll-to-pos', { pos: index })" title="Afficher l'élément dans la présentation">
-                <font-awesome-icon :icon="'angle-double-down'"></font-awesome-icon>
-              </button>
-              <button
-                class="btn btn-light no-focus"
-                :class="{ active: lyricsBlock.sticky }"
-                v-if="lyricsBlock.type == 'chorus'"
-                @click="lyricsBlock.sticky = !lyricsBlock.sticky"
-                title="Accrocher ce refrain en haut de la présentation"
-              >
-                <font-awesome-icon :icon="'thumbtack'"></font-awesome-icon>
-              </button>
-              <button
-                class="btn btn-light no-focus"
-                :class="{ active: !lyricsBlock.show }"
-                v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation'"
-                @click="lyricsBlock.show = !lyricsBlock.show"
-                title="Cacher ce couplet"
-              >
-                <font-awesome-icon :icon="['far', 'eye-slash']"></font-awesome-icon>
-              </button>
+            <ElementActions
+              :element="element"
+              :settings="settings"
+              @preview="preview($event)"
+              @search-score="
+                $emit('search-score', {
+                  title: $event.title,
+                  query: $event.query
+                })
+              "
+            >
+              <template v-slot:first>
+                <b-button variant="light" v-if="canEdit(element)" @click="edit(element)" title="Editer l'élément">
+                  <font-awesome-icon :icon="['far', 'edit']"></font-awesome-icon>
+                </b-button>
+              </template>
+              <template v-slot:end>
+                <b-button variant="light" @click="display(element, index)" title="Afficher dans la fenêtre de présentation">
+                  <font-awesome-icon :icon="'desktop'"></font-awesome-icon>
+                </b-button>
+                <b-button variant="light" class="handle" tag="i" title="Déplacer l'élément">
+                  <font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon>
+                </b-button>
+                <b-button variant="outline-danger" @click="removeAt(index)" title="Supprimer l'élément de la playlist">
+                  <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
+                </b-button>
+              </template>
+            </ElementActions>
+          </div>
+          <div v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
+            <div class="p-2 border d-flex align-items-center lyrics-part-block" v-for="(lyricsBlock, index) in element.lyrics" :key="index">
+              <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left:1px;" title="Partie visible dans la présentation"></div>
+              <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" :title="lyricsBlock.text">
+                {{ lyricsBlock.text }}
+              </div>
+              <b-button-group>
+                <b-button variant="light" class="no-focus" @click="$emit('scroll-to-pos', { pos: index })" title="Afficher l'élément dans la présentation">
+                  <font-awesome-icon :icon="'angle-double-down'"></font-awesome-icon>
+                </b-button>
+                <b-button
+                  variant="light"
+                  class="no-focus"
+                  :class="{ active: lyricsBlock.sticky }"
+                  v-if="lyricsBlock.type == 'chorus'"
+                  @click="lyricsBlock.sticky = !lyricsBlock.sticky"
+                  title="Accrocher ce refrain en haut de la présentation"
+                >
+                  <font-awesome-icon :icon="'thumbtack'"></font-awesome-icon>
+                </b-button>
+                <b-button
+                  variant="light"
+                  class="no-focus"
+                  :class="{ active: !lyricsBlock.show }"
+                  v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation'"
+                  @click="lyricsBlock.show = !lyricsBlock.show"
+                  title="Cacher ce couplet"
+                >
+                  <font-awesome-icon :icon="['far', 'eye-slash']"></font-awesome-icon>
+                </b-button>
+              </b-button-group>
             </div>
           </div>
-        </ul>
-      </li>
+        </b-list-group-item>
+      </transition-group>
     </draggable>
 
     <Undo ref="deleteElement" @restoreElement="addElement($event)"></Undo>
@@ -172,7 +170,8 @@ export default {
       editableTypes: ["text", "file"],
       isEdited: false,
       editedElement: null,
-      savedCurrentElementIndex: -1
+      savedCurrentElementIndex: -1,
+      drag: false
     }
   },
   props: {
@@ -196,6 +195,14 @@ export default {
       },
       set: function(value) {
         this.$emit("listChange", value)
+      }
+    },
+    dragOptions() {
+      return {
+        animation: 200,
+        group: "description",
+        disabled: false,
+        ghostClass: "ghost"
       }
     }
   },
@@ -265,10 +272,12 @@ export default {
 
     //gestion du déplacement d'un élément
     onStart() {
+      this.drag = true
       this.savedCurrentElementIndex = this.currentElementIndex
       this.updateCurrentElementIndex(-1)
     },
     onEnd(evt) {
+      this.drag = false
       if (evt.oldIndex == this.savedCurrentElementIndex) {
         this.updateCurrentElementIndex(evt.newIndex)
       } else if (evt.oldIndex < this.savedCurrentElementIndex && evt.newIndex >= this.savedCurrentElementIndex) {

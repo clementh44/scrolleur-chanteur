@@ -1,5 +1,15 @@
 .handle {
-  cursor: move;
+  cursor: move !important;
+}
+.flip-list-move {
+  transition: transform 0.5s;
+}
+.no-move {
+  transition: transform 0s;
+}
+.ghost {
+  opacity: 0.5;
+  background: #d3d3d3;
 }
 
 /* transition pour l'affichage de l'édition d'un élément */
@@ -65,7 +75,7 @@
   width: 100%;
   max-width: 300px;
 }
-.no-focus.btn-light:focus {
+.no-focus.btn-light:not(.active):focus {
   background-color: var(--light);
 }
 

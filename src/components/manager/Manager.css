@@ -4,3 +4,8 @@
 .collapsed .card-header .fa-chevron-down {
   transform: rotate(90deg);
 }
+
+.collapsed > .when-open,
+.not-collapsed > .when-closed {
+  display: none;
+}

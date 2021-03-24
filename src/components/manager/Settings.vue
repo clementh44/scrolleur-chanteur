@@ -2,328 +2,246 @@
   <div>
     <form>
       <h5>Fenêtre de présentation</h5>
-      <div class="form-group row">
-        <label for="param-size" class="col-sm-2 col-form-label">Taille</label>
-        <div class="input-group col-sm-10">
-          <input @keydown.stop type="number" id="param-width" v-model.number="settings.liveView.window.width" class="form-control" />
-          <div class="input-group-prepend" style="margin-left: -1px;">
-            <span class="input-group-text">x</span>
-          </div>
-          <input @keydown.stop type="number" id="param-height" v-model.number="settings.liveView.window.height" class="form-control" />
-        </div>
-        <small id="param-size-help" class="form-text text-muted col-12">Dimensions en pixel de la présentation (largeur x hauteur). Fermer/ouvrir la présentation pour appliquer</small>
-      </div>
-      <div class="form-group row">
-        <label for="param-theme" class="col-sm-2 col-form-label">Thème</label>
-        <div class="col-sm-10">
-          <select v-model="settings.liveView.colors" id="param-theme" class="form-control">
-            <option
-              v-for="(theme, index) in settings.liveView.viewThemes"
-              :key="index"
-              :value="{
-                background: theme.value.background,
-                text: theme.value.text,
-                empty: theme.value.empty
-              }"
-              >{{ theme.text }}</option
-            >
-          </select>
-        </div>
-        <small id="param-theme-help" class="form-text text-muted col-12">Choisir un thème pédéfini ou personnaliser les couleurs ci-dessous.</small>
-      </div>
-      <div class="form-group row">
-        <label for="param-color-background" class="col-sm-2 col-form-label">Fond</label>
-        <div class="col-sm-3 d-flex">
-          <input type="color" class="form-control" id="param-color-background" v-model="settings.liveView.colors.background" />
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="param-color-text" class="col-sm-2 col-form-label">Texte</label>
-        <div class="col-sm-3 d-flex">
-          <input type="color" class="form-control" id="param-color-text" v-model="settings.liveView.colors.text" />
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="param-color-empty" class="col-sm-2 col-form-label">Vide</label>
-        <div class="col-sm-3 d-flex">
-          <input type="color" class="form-control" id="param-color-empty" v-model="settings.liveView.colors.empty" />
-        </div>
-      </div>
+      <b-form-group
+        label-cols-sm="2"
+        label="Taille"
+        content-cols-sm="10"
+        description="Dimensions en pixel de la présentation à son ouverture (largeur x hauteur). Fermer/ouvrir la présentation pour appliquer"
+      >
+        <b-input-group>
+          <b-form-input @keydown.stop type="number" v-model.number="settings.liveView.window.width"></b-form-input>
+          <b-input-group-prepend is-text style="margin-left: -1px;">x</b-input-group-prepend>
+          <b-form-input @keydown.stop type="number" v-model.number="settings.liveView.window.height"></b-form-input>
+        </b-input-group>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Thème" content-cols-sm="10" description="Choisir un thème pédéfini ou personnaliser les couleurs ci-dessous.">
+        <b-form-select v-model="settings.liveView.colors">
+          <b-form-select-option
+            v-for="(theme, index) in settings.liveView.viewThemes"
+            :key="index"
+            :value="{
+              background: theme.value.background,
+              text: theme.value.text,
+              empty: theme.value.empty
+            }"
+            >{{ theme.text }}</b-form-select-option
+          >
+        </b-form-select>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Fond" content-cols-sm="3">
+        <b-form-input type="color" v-model="settings.liveView.colors.background"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Texte" content-cols-sm="3">
+        <b-form-input type="color" v-model="settings.liveView.colors.text"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Vide" content-cols-sm="3">
+        <b-form-input type="color" v-model="settings.liveView.colors.empty"></b-form-input>
+      </b-form-group>
 
       <hr />
 
-      <h5>Bordures</h5>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-border-display-empty" v-model="settings.liveView.borders.empty" />
-        <label class="custom-control-label" for="param-border-display-empty">Afficher avec le contenu vide</label>
-      </div>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-border-display-song" v-model="settings.liveView.borders.song" />
-        <label class="custom-control-label" for="param-border-display-song">Afficher avec les chants</label>
-      </div>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-border-display-text" v-model="settings.liveView.borders.text" />
-        <label class="custom-control-label" for="param-border-display-text">Afficher avec les textes personnalisés</label>
-      </div>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-border-display-file" v-model="settings.liveView.borders.file" />
-        <label class="custom-control-label" for="param-border-display-file">Afficher avec les fichiers</label>
-      </div>
+      <h6 v-b-toggle.collapse-borders class="d-flex justify-content-between"
+        >Bordures personnalisées
+        <font-awesome-icon class="pull-right when-open" :icon="'chevron-up'"></font-awesome-icon>
+        <font-awesome-icon class="pull-right when-closed" :icon="'chevron-down'"></font-awesome-icon
+      ></h6>
+      <b-collapse id="collapse-borders">
+        <b-form-group>
+          <b-form-checkbox v-model="settings.liveView.borders.empty" switch>Afficher avec le contenu vide</b-form-checkbox>
+          <b-form-checkbox v-model="settings.liveView.borders.song" switch>Afficher avec les chants</b-form-checkbox>
+          <b-form-checkbox v-model="settings.liveView.borders.text" switch>Afficher avec les textes personnalisés</b-form-checkbox>
+          <b-form-checkbox v-model="settings.liveView.borders.file" switch>Afficher avec les fichiers</b-form-checkbox>
+        </b-form-group>
 
-      <h6>Haut</h6>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-border-top-displayed" v-model="settings.liveView.borders.top.displayed" />
-        <label class="custom-control-label" for="param-border-top-displayed">Visible</label>
-      </div>
-      <template v-if="settings.liveView.borders.top.displayed">
-        <div class="custom-control custom-switch form-group">
-          <input class="custom-control-input" type="checkbox" id="param-border-linked" v-model="allBorders" />
-          <label class="custom-control-label" for="param-border-linked">Modifier les 4 côtés en même temps</label>
-        </div>
-        <div class="form-group row">
-          <label for="param-border-top-color" class="col-sm-3 col-form-label">Couleur</label>
-          <div class="col-sm-3 d-flex">
-            <input type="color" class="form-control" id="param-border-top-color" v-model="settings.liveView.borders.top.color" />
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="param-border-top-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.top.width }}px</label>
-          <div class="col-sm-9 d-flex">
-            <input type="range" v-model="settings.liveView.borders.top.width" id="param-border-top-width" class="form-control-range" min="1" max="100" step="1" />
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="param-border-top-style" class="col-sm-3 col-form-label">Style</label>
-          <div class="col-sm-9">
-            <select v-model="settings.liveView.borders.top.style" id="param-border-top-style" class="form-control">
-              <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
-            </select>
-          </div>
-        </div>
-      </template>
-
-      <template v-if="!allBorders">
-        <h6>Droite</h6>
-        <div class="custom-control custom-switch form-group">
-          <input class="custom-control-input" type="checkbox" id="param-border-right-displayed" v-model="settings.liveView.borders.right.displayed" />
-          <label class="custom-control-label" for="param-border-right-displayed">Visible</label>
-        </div>
-        <template v-if="settings.liveView.borders.right.displayed">
-          <div class="form-group row">
-            <label for="param-border-right-color" class="col-sm-3 col-form-label">Couleur</label>
-            <div class="col-sm-3 d-flex">
-              <input type="color" class="form-control" id="param-border-right-color" v-model="settings.liveView.borders.right.color" />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="param-border-right-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.right.width }}px</label>
-            <div class="col-sm-9 d-flex">
-              <input type="range" v-model="settings.liveView.borders.right.width" id="param-border-right-width" class="form-control-range" min="1" max="100" step="1" />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="param-border-right-style" class="col-sm-3 col-form-label">Style</label>
-            <div class="col-sm-9">
-              <select v-model="settings.liveView.borders.right.style" id="param-border-right-style" class="form-control">
-                <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
-              </select>
-            </div>
-          </div>
+        <h6>Haut</h6>
+        <b-form-group>
+          <b-form-checkbox v-model="settings.liveView.borders.top.displayed" switch>Visible</b-form-checkbox>
+        </b-form-group>
+        <template v-if="settings.liveView.borders.top.displayed">
+          <b-form-group>
+            <b-form-checkbox v-model="allBorders" switch>Modifier les 4 côtés en même temps</b-form-checkbox>
+          </b-form-group>
+          <b-form-group label-cols-sm="3" label="Couleur" content-cols-sm="3">
+            <b-form-input type="color" v-model="settings.liveView.borders.top.color"></b-form-input>
+          </b-form-group>
+          <b-row>
+            <b-col sm="3">
+              <label for="param-border-top-width">Épaisseur {{ settings.liveView.borders.top.width }}px</label>
+            </b-col>
+            <b-col sm="9">
+              <b-form-input type="range" v-model="settings.liveView.borders.top.width" id="param-border-top-width" min="1" max="100" step="1"></b-form-input>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col sm="3">
+              <label for="param-border-top-style">Style</label>
+            </b-col>
+            <b-col sm="9">
+              <b-form-select v-model="settings.liveView.borders.top.style" :options="settings.liveView.borders.styles" id="param-border-top-style"></b-form-select>
+            </b-col>
+          </b-row>
         </template>
 
-        <h6>Bas</h6>
-        <div class="custom-control custom-switch form-group">
-          <input class="custom-control-input" type="checkbox" id="param-border-bottom-displayed" v-model="settings.liveView.borders.bottom.displayed" />
-          <label class="custom-control-label" for="param-border-bottom-displayed">Visible</label>
-        </div>
-        <template v-if="settings.liveView.borders.bottom.displayed">
-          <div class="form-group row">
-            <label for="param-border-bottom-color" class="col-sm-3 col-form-label">Couleur</label>
-            <div class="col-sm-3 d-flex">
-              <input type="color" class="form-control" id="param-border-bottom-color" v-model="settings.liveView.borders.bottom.color" />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="param-border-bottom-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.bottom.width }}px</label>
-            <div class="col-sm-9 d-flex">
-              <input type="range" v-model="settings.liveView.borders.bottom.width" id="param-border-bottom-width" class="form-control-range" min="1" max="100" step="1" />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="param-border-bottom-style" class="col-sm-3 col-form-label">Style</label>
-            <div class="col-sm-9">
-              <select v-model="settings.liveView.borders.bottom.style" id="param-border-bottom-style" class="form-control">
-                <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
-              </select>
-            </div>
-          </div>
-        </template>
+        <template v-if="!allBorders">
+          <h6>Droite</h6>
+          <b-form-group>
+            <b-form-checkbox v-model="settings.liveView.borders.right.displayed" switch>Visible</b-form-checkbox>
+          </b-form-group>
+          <template v-if="settings.liveView.borders.right.displayed">
+            <b-form-group label-cols-sm="3" label="Couleur" content-cols-sm="3">
+              <b-form-input type="color" v-model="settings.liveView.borders.right.color"></b-form-input>
+            </b-form-group>
+            <b-row>
+              <b-col sm="3">
+                <label for="param-border-right-width">Épaisseur {{ settings.liveView.borders.right.width }}px</label>
+              </b-col>
+              <b-col sm="9">
+                <b-form-input type="range" v-model="settings.liveView.borders.right.width" id="param-border-right-width" min="1" max="100" step="1"></b-form-input>
+              </b-col>
+            </b-row>
+            <b-row>
+              <b-col sm="3">
+                <label for="param-border-right-style">Style</label>
+              </b-col>
+              <b-col sm="9">
+                <b-form-select v-model="settings.liveView.borders.right.style" :options="settings.liveView.borders.styles" id="param-border-right-style"></b-form-select>
+              </b-col>
+            </b-row>
+          </template>
 
-        <h6>Gauche</h6>
-        <div class="custom-control custom-switch form-group">
-          <input class="custom-control-input" type="checkbox" id="param-border-left-displayed" v-model="settings.liveView.borders.left.displayed" />
-          <label class="custom-control-label" for="param-border-left-displayed">Visible</label>
-        </div>
-        <template v-if="settings.liveView.borders.left.displayed">
-          <div class="form-group row">
-            <label for="param-border-left-color" class="col-sm-3 col-form-label">Couleur</label>
-            <div class="col-sm-3 d-flex">
-              <input type="color" class="form-control" id="param-border-left-color" v-model="settings.liveView.borders.left.color" />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="param-border-left-width" class="col-sm-3 col-form-label">Épaisseur {{ settings.liveView.borders.left.width }}px</label>
-            <div class="col-sm-9 d-flex">
-              <input type="range" v-model="settings.liveView.borders.left.width" id="param-border-left-width" class="form-control-range" min="1" max="100" step="1" />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="param-border-left-style" class="col-sm-3 col-form-label">Style</label>
-            <div class="col-sm-9">
-              <select v-model="settings.liveView.borders.left.style" id="param-border-left-style" class="form-control">
-                <option v-for="(style, index) in settings.liveView.borders.styles" :key="index" :value="style.value">{{ style.text }}</option>
-              </select>
-            </div>
-          </div>
+          <h6>Bas</h6>
+          <b-form-group>
+            <b-form-checkbox v-model="settings.liveView.borders.bottom.displayed" switch>Visible</b-form-checkbox>
+          </b-form-group>
+          <template v-if="settings.liveView.borders.bottom.displayed">
+            <b-form-group label-cols-sm="3" label="Couleur" content-cols-sm="3">
+              <b-form-input type="color" v-model="settings.liveView.borders.bottom.color"></b-form-input>
+            </b-form-group>
+            <b-row>
+              <b-col sm="3">
+                <label for="param-border-bottom-width">Épaisseur {{ settings.liveView.borders.bottom.width }}px</label>
+              </b-col>
+              <b-col sm="9">
+                <b-form-input type="range" v-model="settings.liveView.borders.bottom.width" id="param-border-bottom-width" min="1" max="100" step="1"></b-form-input>
+              </b-col>
+            </b-row>
+            <b-row>
+              <b-col sm="3">
+                <label for="param-border-bottom-style">Style</label>
+              </b-col>
+              <b-col sm="9">
+                <b-form-select v-model="settings.liveView.borders.bottom.style" :options="settings.liveView.borders.styles" id="param-border-bottom-style"></b-form-select>
+              </b-col>
+            </b-row>
+          </template>
+
+          <h6>Gauche</h6>
+          <b-form-group>
+            <b-form-checkbox v-model="settings.liveView.borders.left.displayed" switch>Visible</b-form-checkbox>
+          </b-form-group>
+          <template v-if="settings.liveView.borders.left.displayed">
+            <b-form-group label-cols-sm="3" label="Couleur" content-cols-sm="3">
+              <b-form-input type="color" v-model="settings.liveView.borders.left.color"></b-form-input>
+            </b-form-group>
+            <b-row>
+              <b-col sm="3">
+                <label for="param-border-left-width">Épaisseur {{ settings.liveView.borders.left.width }}px</label>
+              </b-col>
+              <b-col sm="9">
+                <b-form-input type="range" v-model="settings.liveView.borders.left.width" id="param-border-left-width" min="1" max="100" step="1"></b-form-input>
+              </b-col>
+            </b-row>
+            <b-row>
+              <b-col sm="3">
+                <label for="param-border-left-style">Style</label>
+              </b-col>
+              <b-col sm="9">
+                <b-form-select v-model="settings.liveView.borders.left.style" :options="settings.liveView.borders.styles" id="param-border-left-style"></b-form-select>
+              </b-col>
+            </b-row>
+          </template>
         </template>
-      </template>
+      </b-collapse>
 
       <hr />
 
       <h6>Chant et texte personnalisé</h6>
-      <div class="form-group row">
-        <label for="param-padding" class="col-sm-2 col-form-label">Marges</label>
-        <div class="col-sm-10 d-flex">
-          <input aria-describedby="param-padding-help" type="range" v-model="settings.liveView.padding" id="param-padding" class="form-control-range" min="0" max="5" step="1" />
-        </div>
-        <small id="param-padding-help" class="form-text text-muted col-12">Marges à gauche et droite</small>
-      </div>
-      <div class="form-group row">
-        <label for="param-font-size" class="col-sm-2 col-form-label">Taille</label>
-        <div class="col-sm-10 d-flex">
-          <input aria-describedby="param-font-size-help" type="range" v-model="settings.liveView.fontSize" id="param-font-size" class="form-control-range" min="0.2" max="8" step="0.2" />
-        </div>
-        <small id="param-font-size-help" class="form-text text-muted col-12">Taille de la police d'écriture multipliée par {{ settings.liveView.fontSize }}</small>
-      </div>
+      <b-form-group label-cols-sm="2" label="Marges" content-cols-sm="10" description="Marges à gauche et droite">
+        <b-form-input type="range" v-model="settings.liveView.padding" min="0" max="5" step="1"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Taille" content-cols-sm="10">
+        <b-form-input type="range" v-model="settings.liveView.fontSize" min="0.2" max="8" step="0.2"></b-form-input>
+        <template #description>Taille de la police d'écriture multipliée par {{ settings.liveView.fontSize }}</template>
+      </b-form-group>
 
       <hr />
 
       <h6>Chant</h6>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-title" v-model="settings.song.showTitle" />
-        <label class="custom-control-label" for="param-title">Afficher le titre</label>
-      </div>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-rating" v-model="settings.song.showRating" />
-        <label class="custom-control-label" for="param-rating">Afficher la cote</label>
-      </div>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-writer" v-model="settings.song.showWriter" />
-        <label class="custom-control-label" for="param-writer">Afficher l'auteur</label>
-      </div>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-composer" v-model="settings.song.showComposer" />
-        <label class="custom-control-label" for="param-composer">Afficher le compositeur</label>
-      </div>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="param-publisher" v-model="settings.song.showPublisher" />
-        <label class="custom-control-label" for="param-publisher">Afficher l'éditeur</label>
-      </div>
-      <div class="form-group row">
-        <label for="param-verse-opacity" class="col-sm-2 col-form-label">Couplet caché</label>
-        <div class="col-sm-10 d-flex">
-          <input aria-describedby="param-verse-opacity-help" type="range" v-model="settings.song.verseOpacity" id="param-verse-opacity" class="form-control-range" min="0" max="0.9" step="0.01" />
-        </div>
-        <small id="param-verse-opacity-help" class="form-text text-muted col-12"
-          >Change la transparence des couplets et traductions quand ils sont cachés à {{ settings.song.verseOpacity }} sur 1 (0 = totalement invisible)</small
-        >
-      </div>
+      <b-form-group>
+        <b-form-checkbox v-model="settings.song.showTitle" switch>Afficher le titre</b-form-checkbox>
+        <b-form-checkbox v-model="settings.song.showRating" switch>Afficher la cote</b-form-checkbox>
+        <b-form-checkbox v-model="settings.song.showWriter" switch>Afficher l'auteur</b-form-checkbox>
+        <b-form-checkbox v-model="settings.song.showComposer" switch>Afficher le compositeur</b-form-checkbox>
+        <b-form-checkbox v-model="settings.song.showPublisher" switch>Afficher l'éditeur</b-form-checkbox>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Couplet caché" content-cols-sm="10" description="Marges à gauche et droite">
+        <b-form-input type="range" v-model="settings.song.verseOpacity" min="0" max="0.9" step="0.01"></b-form-input>
+        <template #description>Change la transparence des couplets et traductions quand ils sont cachés à {{ settings.song.verseOpacity }} sur 1 (0 = totalement invisible)</template>
+      </b-form-group>
 
       <hr />
 
       <h5>Recherche de partition</h5>
-      <div class="custom-control custom-switch form-group">
-        <input class="custom-control-input" type="checkbox" id="search-score-enabled" v-model="settings.score.enabled" />
-        <label class="custom-control-label" for="search-score-enabled"
+      <b-form-group>
+        <b-form-checkbox v-model="settings.score.enabled" switch
           >Afficher les boutons :
-          <div class="btn-group">
-            <button class="btn btn-info btn-sm" aria-disabled="true" style="pointer-events: none;">
+          <b-button-group>
+            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none;">
               <font-awesome-icon :icon="'file-pdf'"></font-awesome-icon>
-            </button>
-            <button class="btn btn-info btn-sm" aria-disabled="true" style="pointer-events: none;">
+            </b-button>
+            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none;">
               <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
-            </button>
-            <button class="btn btn-info btn-sm" aria-disabled="true" style="pointer-events: none;">
+            </b-button>
+            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none;">
               <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
-            </button>
-          </div>
-        </label>
-      </div>
-      <div class="form-group row">
-        <label for="search-score-query" class="col-sm-2 col-form-label">Lien</label>
-        <div class="col-sm-10">
-          <input @keydown.stop type="text" name="search-score-query" aria-describedby="search-score-query-help" id="search-score-query" class="form-control" v-model="settings.score.query" />
-        </div>
-        <small id="search-score-query-help" class="form-text text-muted col-12">Insérer <em>&lt;TITRE&gt;</em> où doit être ajouté le nom du chant recherché</small>
-      </div>
+            </b-button>
+          </b-button-group>
+        </b-form-checkbox>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Lien" content-cols-sm="10">
+        <b-form-input @keydown.stop type="text" v-model="settings.score.query"></b-form-input>
+        <template #description>Insérer <em>&lt;TITRE&gt;</em> où doit être ajouté le nom du chant recherché</template>
+      </b-form-group>
 
       <hr />
 
       <h5>Raccourcis clavier</h5>
-      <div class="form-group row">
-        <label for="short-next" class="col-sm-4 col-form-label">Suivant</label>
-        <div class="col-sm-8 d-flex">
-          <input aria-describedby="short-next-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.playlistNext" id="short-next" class="form-control" />
-        </div>
-        <small id="short-next-help" class="form-text text-muted col-12">Affiche l'élément suivant de la playlist</small>
-      </div>
-      <div class="form-group row">
-        <label for="short-previous" class="col-sm-4 col-form-label">Précédent</label>
-        <div class="col-sm-8 d-flex">
-          <input aria-describedby="short-previous-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.playlistPrevious" id="short-previous" class="form-control" />
-        </div>
-        <small id="short-previous-help" class="form-text text-muted col-12">Affiche l'élément précédent de la playlist</small>
-      </div>
-      <div class="form-group row">
-        <label for="short-scroll-down" class="col-sm-4 col-form-label">Descendre</label>
-        <div class="col-sm-8 d-flex">
-          <input aria-describedby="short-scroll-down-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.scrollDown" id="short-scroll-down" class="form-control" />
-        </div>
-        <small id="short-scroll-down-help" class="form-text text-muted col-12">Descendre légèrement dans la présentation</small>
-      </div>
-      <div class="form-group row">
-        <label for="short-scroll-up" class="col-sm-4 col-form-label">Monter</label>
-        <div class="col-sm-8 d-flex">
-          <input aria-describedby="short-scroll-up-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.scrollUp" id="short-scroll-up" class="form-control" />
-        </div>
-        <small id="short-scroll-up-help" class="form-text text-muted col-12">Monter légèrement dans la présentation</small>
-      </div>
-      <div class="form-group row">
-        <label for="short-part-next" class="col-sm-4 col-form-label">Bloc suivant</label>
-        <div class="col-sm-8 d-flex">
-          <input aria-describedby="short-part-next-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.partNext" id="short-part-next" class="form-control" />
-        </div>
-        <small id="short-part-next-help" class="form-text text-muted col-12">Passer à la partie suivante dans le chant</small>
-      </div>
-      <div class="form-group row">
-        <label for="short-part-previous" class="col-sm-4 col-form-label">Bloc précédent</label>
-        <div class="col-sm-8 d-flex">
-          <input aria-describedby="short-part-previous-help" type="text" @keydown="manageKey" v-model="settings.shortcuts.partPrevious" id="short-part-previous" class="form-control" />
-        </div>
-        <small id="short-part-previous-help" class="form-text text-muted col-12">Passer à la partie précédente dans le chant</small>
-      </div>
-      <div class="form-group row">
-        <label for="short-close-sidebox" class="col-sm-4 col-form-label">Fermer</label>
-        <div class="col-sm-8 d-flex">
-          <input aria-describedby="short-close-sidebox-help" type="text" id="short-close-sidebox" class="form-control" disabled value="Echap" />
-        </div>
-        <small id="short-close-sidebox-help" class="form-text text-muted col-12">Ferme la fenêtre latérale (Paramètres ou Aperçu)</small>
-      </div>
+      <b-form-group label-cols-sm="4" label="Suivant" content-cols-sm="8" description="Affiche l'élément suivant de la playlist">
+        <b-form-input @keydown="manageKey" v-model="settings.shortcuts.playlistNext"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="4" label="Précédent" content-cols-sm="8" description="Affiche l'élément précédent de la playlist">
+        <b-form-input @keydown="manageKey" v-model="settings.shortcuts.playlistPrevious"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="4" label="Descendre" content-cols-sm="8" description="Descendre légèrement dans la présentation">
+        <b-form-input @keydown="manageKey" v-model="settings.shortcuts.scrollDown"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="4" label="Monter" content-cols-sm="8" description="Monter légèrement dans la présentation">
+        <b-form-input @keydown="manageKey" v-model="settings.shortcuts.scrollUp"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="4" label="Bloc suivant" content-cols-sm="8" description="Passer à la partie suivante dans le chant">
+        <b-form-input @keydown="manageKey" v-model="settings.shortcuts.partNext"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="4" label="Bloc précédent" content-cols-sm="8" description="Passer à la partie précédente dans le chant">
+        <b-form-input @keydown="manageKey" v-model="settings.shortcuts.partPrevious"></b-form-input>
+      </b-form-group>
+      <b-form-group label-cols-sm="4" label="Fermer" content-cols-sm="8" description="Ferme la fenêtre latérale (Paramètres ou Aperçu)">
+        <b-form-input disabled value="Echap"></b-form-input>
+      </b-form-group>
     </form>
 
     <hr />
 
-    <p class="text-muted"> Scrolleur-Chanteur version {{ version }} (<a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">GitHub</a>) </p>
+    <p class="text-muted"> Scrolleur-Chanteur version {{ version }} (<a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">GitHub</a>)</p>
   </div>
 </template>
 
@@ -386,4 +304,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.collapsed > .when-open,
+.not-collapsed > .when-closed {
+  display: none;
+}
+</style>

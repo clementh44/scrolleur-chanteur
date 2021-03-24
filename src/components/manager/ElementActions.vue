@@ -1,10 +1,10 @@
 <template>
-  <div class="btn-group">
+  <b-button-group>
     <slot name="first"></slot>
 
     <template v-if="settings.score.enabled && element.type == 'song'">
-      <button
-        class="btn btn-info"
+      <b-button
+        variant="info"
         @click="
           $emit('search-score', {
             title: element.title,
@@ -14,9 +14,9 @@
         title="Rechercher la partition via le lien personnalisé"
       >
         <font-awesome-icon :icon="'file-pdf'"></font-awesome-icon>
-      </button>
-      <button
-        class="btn btn-info"
+      </b-button>
+      <b-button
+        variant="info"
         @click="
           $emit('search-score', {
             title: element.title,
@@ -26,9 +26,9 @@
         title="Rechercher en pdf sur google"
       >
         <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
-      </button>
-      <button
-        class="btn btn-info"
+      </b-button>
+      <b-button
+        variant="info"
         @click="
           $emit('search-score', {
             title: element.title,
@@ -38,14 +38,14 @@
         title="Rechercher sur youtube"
       >
         <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
-      </button>
+      </b-button>
     </template>
-    <button class="btn btn-light" @click="$emit('preview', element)" title="Afficher dans la fenêtre d'aperçu">
+    <b-button variant="light" @click="$emit('preview', element)" title="Afficher dans la fenêtre d'aperçu">
       <font-awesome-icon :icon="'eye'"></font-awesome-icon>
-    </button>
+    </b-button>
 
     <slot name="end"></slot>
-  </div>
+  </b-button-group>
 </template>
 
 <script>

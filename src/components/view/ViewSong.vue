@@ -1,22 +1,15 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
-      <router-link :to="{ name: 'home' }" class="navbar-brand">
-        Scrolleur-chanteur
-      </router-link>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <router-link :to="{ name: 'home' }" class="nav-link">
-              Retourner sur la page d'accueil
-            </router-link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <b-navbar toggleable="sm" type="light" class="bg-light mb-3">
+      <b-navbar-brand :to="{ name: 'home' }">Scrolleur-chanteur</b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item :to="{ name: 'home' }">Retourner sur la page d'accueil</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+
     <ViewWindow :element="element" :settings="settings" :live="false"></ViewWindow>
   </div>
 </template>
