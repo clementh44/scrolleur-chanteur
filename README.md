@@ -871,3 +871,24 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   ajout d'une animation au déplacement d'un élément dans la playlist
   ajout d'un logo/favicon
 ```
+
+**25/03/2021 v4.13.1**
+```
+  + Vivez l'espérance T52-46
+  + Grain de blé H510 GX510
+  + Voici celui qui vient Z44-79 HX44-79
+  + Ô Croix dressée sur le monde H30
+  + Jésus, Messie humilié C246-1
+  + Gloire à Toi, sauveur des hommes H27
+  + Voici que s'ouvrent pour le roi H96-3 HA96-3
+  + Victoire, tu régneras H32
+  + La nuit qu'il fut livré C3 HP3
+  + Chrétiens, chantons le Dieu vainqueur I36
+  + Criez de joie, Christ est ressuscité I52-51
+  + À toi la gloire
+  + Alleluia, louez Dieu (psaume 148) Z585 Z148-3
+  + Alleluia, proclamez que le Seigneur est bon (psaume 117) Z558 Z117-5
+  + Grande est ta puissance EDIT18-34
+
+  correction Hosanna, Ouvrons les portes au Roi
+```

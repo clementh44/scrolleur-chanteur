@@ -4,6 +4,54 @@
 		<loc>https://chantons.netlify.app</loc>
 	</url>
 	<url>
+		<loc>https://chantons.netlify.app/song/grande-est-ta-puissance</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-3-alleluia-proclamez-que-le-seigneur-est-bon-psaume-117</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-3-alleluia-louez-dieu-psaume-148</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/a-toi-la-gloire</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/criez-de-joie-christ-est-ressuscite</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/chretiens-chantons-le-dieu-vainqueur</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/la-nuit-quil-fut-livre</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/victoire-tu-regneras</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/voici-que-souvrent-pour-le-roi</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/gloire-a-toi-sauveur-des-hommes</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-6-jesus-messie-humilie</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/o-croix-dressee-sur-le-monde</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/voici-celui-qui-vient</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/grain-de-ble</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/vivez-lesperance</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/baptise-dans-la-lumiere-de-jesus</loc>
+	</url>
+	<url>
 		<loc>https://chantons.netlify.app/song/levons-les-yeux</loc>
 	</url>
 	<url>
@@ -445,7 +493,7 @@
 		<loc>https://chantons.netlify.app/song/heureux-les-coeurs-misericordieux</loc>
 	</url>
 	<url>
-		<loc>https://chantons.netlify.app/song/hosanna</loc>
+		<loc>https://chantons.netlify.app/song/hosanna-ouvrons-les-portes-au-roi</loc>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/humblement-dans-le-silence</loc>
@@ -1181,5 +1229,8 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-de-la-reconciliation-agneau-de-dieu</loc>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-7-agneau-de-lalliance-fidele</loc>
 	</url>
 </urlset>

@@ -1,5 +1,446 @@
 [
   {
+    "id": "grande-est-ta-puissance",
+    "title": "Grande est ta puissance",
+    "rating": "EDIT18-34",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "Communauté de l’Emmanuel",
+    "composer": "Communauté de l’Emmanuel",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Il est bon de chanter notre joie d’être aimés,\nDe te dire, en retour, notre amour.\nSans mesure, ô Seigneur, nous voulons nous donner.\nPar ces chants, nous t’offrons notre cœur."
+      },
+      {
+        "type": "chorus",
+        "text": "Grande est ta puissance,\nÔ Dieu très saint !\nQue sonne la louange,\nDevant toi, sans fin."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Tu nous combles des biens de ton temple sacré,\nTu rassasies ton peuple affamé.\nIl est grand ton amour, infinie ta bonté,\nQue nos langues t’acclament, à jamais !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tes prodiges sans nombre, œuvre de ta bonté\nNous révèlent ô Seigneur, ta grandeur.\nTout petits devant toi, Dieu de notre Salut,\nHumblement nous venons t’adorer."
+      }
+    ]
+  },
+  {
+    "id": "messe-3-alleluia-proclamez-que-le-seigneur-est-bon-psaume-117",
+    "title": "Alleluia, proclamez que le Seigneur est bon (psaume 117)",
+    "rating": "Z558",
+    "newrating": "Z117-5",
+    "publisher": "Éditions de l'Emmanuel",
+    "writer": "Baranger E.",
+    "composer": "Baranger E.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alleluia Alleluia Alleluia"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Proclamez que le Seigneur est bon\nEternel est son amour !\nQue le dise la maison d’Israël\nEternel est son amour !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Dans l’angoisse, j’ai crié vers lui\nLe Seigneur m’a exaucé\nLe Seigneur est là pour me défendre\nJ’ai bravé mes ennemis."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Le Seigneur est ma force et mon chant\nLe Seigneur est mon salut.\nJe ne mourrai pas non je vivrai\nJe dirai l’œuvre de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Ouvrez-moi les portes de justice\nJ’entrerai, je rendrai grâce\nC’est ici la porte du Seigneur\nTous les justes y entreront."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Oui, c’est toi mon Dieu, je te rends grâce\nSeigneur mon Dieu, je t’exalte.\nProclamez que le Seigneur est bon\nEternel est son amour."
+      }
+    ]
+  },
+  {
+    "id": "messe-3-alleluia-louez-dieu-psaume-148",
+    "title": "Alleluia, louez Dieu (psaume 148)",
+    "rating": "Z585",
+    "newrating": "Z148-3",
+    "publisher": "Éditions de l'Emmanuel",
+    "composer": "Baranger E.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia, alléluia,\nAlléluia, alléluia ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Louez Dieu, depuis les cieux,\nLouez-le, dans les hauteurs,\nLouez-le, tous ses anges,\nLouez-le, toutes ses armées."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Louez-le, soleil et lune,\nLouez-le, astres de lumière,\nLouez-le, cieux des cieux,\nEt les eaux par-dessus les cieux."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Qu’ils louent le Nom du Seigneur,\nSur son ordre ils furent créés,\nSublime est son Nom, lui seul,\nSa majesté par-dessus terre et ciel."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Il soutient la vigueur de son peuple,\nFierté pour tous ses amis,\nPour les enfants d’Israël,\nLe peuple de ses proches."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Gloire au Père Tout-Puissant\nÀ son Fils Jésus le Seigneur,\nÀ l’Esprit qui habite en nos cœurs,\nPour les siècles des siècles. Amen !"
+      }
+    ]
+  },
+  {
+    "id": "a-toi-la-gloire",
+    "title": "À toi la gloire",
+    "publisher": "DP",
+    "writer": "Edmond Budry",
+    "composer": "Georg Friedrich Haendel",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - À toi la gloire, ô Ressuscité,\nÀ toi la victoire pour l'éternité !\nBrillant de lumière, l'ange est descendu ;\nil roule la pierre du tombeau vaincu."
+      },
+      {
+        "type": "verse",
+        "text": "2 - À toi la gloire, ô Ressuscité,\nÀ toi la victoire pour l'éternité !\nSois dans l'allégresse, peuple du Seigneur,\nEt redis sans cesse que Christ est vainqueur !"
+      },
+      {
+        "type": "chorus",
+        "text": "À toi la gloire, ô Ressuscité,\nÀ toi la victoire pour l'éternité !"
+      }
+    ]
+  },
+  {
+    "id": "criez-de-joie-christ-est-ressuscite",
+    "title": "Criez de joie, Christ est ressuscité",
+    "rating": "I52-51",
+    "publisher": "L'Emmanuel/Stichting Emmanuel",
+    "writer": "Communauté de l'Emmanuel",
+    "composer": "Cissy Suijkerbuijk",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Criez de joie, Christ est ressuscité !\nIl est vivant, comme il l’avait promis.\nAlléluia, Christ est ressuscité !\nIl nous ouvre la vie !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Au milieu de notre nuit,\nLa lumière a resplendi.\nLa Vie a détruit la mort,\nChrist ressuscité !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Vous les anges, louez-le,\nExultez depuis les cieux !\nTous les vivants louez Dieu !\nChrist ressuscité !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Louez Dieu dans sa grandeur,\nLouez Dieu, notre Sauveur !\nSans fin louez le Seigneur !\nChrist ressuscité !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Accueillez en votre cœur,\nJésus-Christ, l’Agneau vainqueur !\nIl est le Chemin, la Vie,\nChrist ressuscité !"
+      }
+    ]
+  },
+  {
+    "id": "chretiens-chantons-le-dieu-vainqueur",
+    "title": "Chrétiens, chantons le Dieu vainqueur",
+    "rating": "I36",
+    "publisher": "Mame Le C",
+    "writer": "Jean-Pierre Servel",
+    "composer": "Robert Marthouret dit Jef",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Chrétiens, chantons le Dieu vainqueur !\nFêtons la Pâque du Seigneur !\nAcclamons-le d'un même coeur ! Alléluia !"
+      },
+      {
+        "type": "chorus",
+        "text": "Alléluia ! alléluia ! alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - De son tombeau, Jésus surgit\nIl nous délivre de la nuit,\nEt dans nos coeurs, le jour a lui, alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Nouveau Moïse ouvrant les eaux,\nIl sort vainqueur de son tombeau :\nIl est Seigneur des temps nouveaux, alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - L' Agneau pascal est immolé ;\nIl est vivant, ressuscité,\nSplendeur du monde racheté, alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Le coeur de Dieu est révélé,\nLe coeur de l'homme est délivré,\nCe jour, le monde est rénové, alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Ô jour de joie, de vrai bonheur,\nÔ Pâque sainte du Seigneur,\nPar toi, nous sommes tous vainqueurs, alléluia !"
+      }
+    ]
+  },
+  {
+    "id": "la-nuit-quil-fut-livre",
+    "title": "La nuit qu'il fut livré",
+    "rating": "C3",
+    "newrating": "HP3",
+    "publisher": "Mame Le C",
+    "writer": "P. Dorlay",
+    "composer": "César Geoffray/Mélodie Celtique",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - La nuit qu'il fut livré, le Seigneur prit du pain,\nEn signe de sa mort, le rompit de sa main :\n\"Ma vie, nul ne la prend, mais c'est moi qui la donne\nAfin de racheter tous mes frères humains.\""
+      },
+      {
+        "type": "verse",
+        "text": "2 - Après qu'il eût soupé pour la dernière fois,\nS'offrit comme victime au pressoir de la croix :\n\"Mon sang, versé pour vous, est le sang de l'Alliance ;\nAmis, faites ceci en mémoire de moi.\""
+      },
+      {
+        "type": "verse",
+        "text": "3 - Et nous, peuple de Dieu, nous en sommes témoins :\nTa mort, nous l'annonçons par ce pain et ce vin.\nJésus ressuscité, ton Église t'acclame,\nVainqueur, passé du monde à la gloire sans fin !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Tu viens revivre en nous ton mystère pascal :\nÉteins en notre chair le foyer de tout mal.\nNous sommes tes sarments, sainte vigne du Père :\nFais-nous porter du fruit pour le jour triomphal."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Seigneur, nous attendons ton retour glorieux :\nUn jour tu nous prendras avec toi dans les cieux.\nTon corps est la semence de vie éternelle :\nUn jour tu nous prendras à la table de Dieu."
+      }
+    ]
+  },
+  {
+    "id": "victoire-tu-regneras",
+    "title": "Victoire, tu régneras",
+    "rating": "H32",
+    "publisher": "Fleurus",
+    "writer": "David Julien",
+    "composer": "Mélodie Slave",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Victoire, tu régneras, ô Croix, tu nous sauveras."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Rayonne sur le monde qui cherche la Vérité.\nÔ Croix, source féconde d'amour et de liberté."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Redonne la vaillance au pauvre et au malheureux.\nC'est toi notre espérance qui nous mènera vers Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Rassemble tous nos frères à l'ombre de tes grands bras.\nPar toi Dieu notre Père, au ciel, nous accueillera."
+      }
+    ]
+  },
+  {
+    "id": "voici-que-souvrent-pour-le-roi",
+    "title": "Voici que s'ouvrent pour le roi",
+    "rating": "H96-3",
+    "newrating": "HA96-3",
+    "publisher": "CNPL Éditions/Studio SM",
+    "writer": "Didier Rimaud",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Dieu sauveur,\nOublie notre pêché.\nMais souviens-toi de ton amour.\nQuand tu viendras dans ton Royaume."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Voici que s'ouvre pour le Roi les portes de la ville :\nHosanna ! Béni sois-tu, Seigneur !\nPourquoi fermez-vous sur moi la pierre du tombeau,\ndans le jardin ?"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Je viens, monté sur un ânon en signe de ma gloire:\nHosanna ! Béni sois-tu, Seigneur !\nPourquoi me ferez-vous sortir au rang des malfaiteurs,\net des maudits ?"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Vos rues se drapent de manteaux jetés sur mon passage :\nHosanna ! Béni sois-tu, Seigneur !\nPourquoi souillerez-vous mon corps de pourpre et de crachats,\nmon corps livré ?"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Vos mains me tendent les rameaux pour l'heure du triomphe :\nHosanna ! Béni sois-tu, Seigneur !\nPourquoi blesserez-vous mon front de ronce et de roseaux,\nen vous moquant ?"
+      }
+    ]
+  },
+  {
+    "id": "gloire-a-toi-sauveur-des-hommes",
+    "title": "Gloire à Toi, sauveur des hommes",
+    "rating": "H27",
+    "publisher": "Mame Le C",
+    "composer": "Joseph Gelineau/David Julien",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à toi Sauveur des hommes, notre Chef et notre Roi !\nGloire à toi, pour ton Royaume : qu’il advienne ! Hosanna !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Tu es notre Roi, Noble descendant de David.\nTu viens, Roi béni, nous sauver au nom du Seigneur !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Les anges dans les cieux se rassemblent pour te chanter.\nL’Homme et tout l’univers s’unissent pour t’acclamer !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Portant des rameaux verts, le peuple hébreux t’escortait.\nNous venons nous unir à sa prière et à ses chants !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Il t’offrait sa louange à la veille de ta passion.\nAujourd’hui, nous te chantons. Ô Christ, qui règnes dans le ciel !"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-jesus-messie-humilie",
+    "title": "Jésus, Messie humilié",
+    "rating": "C246-1",
+    "publisher": "Studio SM",
+    "writer": "CNPL/Didier Rimaud",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Jésus, Messie humilié, nous rappelons ta mort sur une croix."
+      },
+      {
+        "type": "chorus",
+        "text": "AMEN !"
+      },
+      {
+        "type": "verse",
+        "text": "Jésus, Messie victorieux, nous célébrons ta résurrection d’entre les morts."
+      },
+      {
+        "type": "chorus",
+        "text": "AMEN !"
+      },
+      {
+        "type": "verse",
+        "text": "Jésus, Messie triomphant, nous appelons le jour de ta venue dans la gloire."
+      },
+      {
+        "type": "chorus",
+        "text": "AMEN !"
+      }
+    ]
+  },
+  {
+    "id": "o-croix-dressee-sur-le-monde",
+    "title": "Ô Croix dressée sur le monde",
+    "rating": "H30",
+    "publisher": "Mame Le C",
+    "writer": "Jean-Pierre Servel",
+    "composer": "César Geoffray/Populaire",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Ô croix dressée sur le monde,\nÔ croix de Jésus-Christ ! (bis)\nFleuve dont l'eau féconde\nDu cœur ouvert a jailli,\nPar toi la vie surabonde,\nÔ croix de Jésus-Christ !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ô croix, sublime folie,\nÔ croix de Jésus-Christ ! (bis)\nDieu rend par toi la vie\nEt nous rachète à grand prix :\nL'amour de Dieu est folie,\nÔ croix de Jésus-Christ !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Ô croix, sagesse suprême,\nÔ croix de Jésus-Christ ! (bis)\nLe Fils de Dieu lui-même\nJusqu'à la mort obéit ;\nTon dénuement est extrême,\nÔ croix de Jésus-Christ !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Ô croix, victoire éclatante,\nÔ croix de Jésus-Christ ! (bis)\nTu jugeras le monde\nAu jour que Dieu s'est choisi.\nCroix à jamais triomphante,\nÔ croix de Jésus-Christ !"
+      }
+    ]
+  },
+  {
+    "id": "voici-celui-qui-vient",
+    "title": "Voici celui qui vient",
+    "rating": "Z44-79",
+    "newrating": "HX44-79",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel",
+    "composer": "Communauté de l'Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Voici celui qui vient au nom du Seigneur.\nAcclamons notre roi,\nHosanna ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Portes, levez vos frontons,\nLevez-vous, portes éternelles,\nQu’il entre le Roi de gloire."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Honneur et gloire à ton Nom\nRoi des rois, Seigneur des puissances\nJésus, que ton règne vienne."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Venez, rameaux à la main,\nCélébrez le Dieu qui vous sauve :\nAujourd’hui s’ouvre son règne."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Jésus, roi d’humilité,\nSouviens-toi de nous dans ton règne,\nAccueille-nous dans ta gloire."
+      }
+    ]
+  },
+  {
+    "id": "grain-de-ble",
+    "title": "Grain de blé",
+    "rating": "H510",
+    "newrating": "GX510",
+    "publisher": "A.C.N.",
+    "writer": "Communauté du Chemin Neuf",
+    "composer": "Communauté du Chemin Neuf",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Grain de blé qui tombe en terre,\nSi tu ne meurs pas,\nTu resteras solitaire,\nNe germeras pas."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Qui à Jésus s'abandonne,\nTrouve la vraie vie.\nHeureux l'homme qui se donne,\nIl sera béni."
+      }
+    ]
+  },
+  {
+    "id": "vivez-lesperance",
+    "title": "Vivez l'espérance",
+    "rating": "T52-46",
+    "publisher": "Jubilus - Editions Voix nouvelles",
+    "writer": "Guillevic A.",
+    "composer": "Belliot A.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Vivez l’espérance, ouvrez vos portes au Christ,\n(et) soyez bâtisseurs du monde de l’amour."
+      },
+      {
+        "type": "verse",
+        "text": "1 - L’Esprit Saint est à l’œuvre dans les cœurs,\nVivez l’espérance !\nJe vous invite à faire grandir l’espérance en vous et autour de vous.\nSoyez bâtisseurs !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - La parole du Christ vous indique le chemin pour aller vers le Père,\nVivez l’espérance !\nQue votre foi soit solidement fondée sur la parole de Dieu.\nSoyez bâtisseurs !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Le Christ vous appelle à transmettre ce message d’espérance,\nVivez l’espérance !\nN’ayez pas peur de répondre au Christ qui vous invite à vous mettre à sa suite.\nSoyez bâtisseurs !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Témoignez de l’amour de Dieu offert à tous les hommes,\nVivez l’espérance !\nAvec tous les hommes de bonne volonté, construisez la civilisation de l’amour.\nSoyez bâtisseurs !"
+      }
+    ]
+  },
+  {
     "id": "baptise-dans-la-lumiere-de-jesus",
     "title": "Baptisé dans la lumière de Jésus",
     "rating": "I297",
@@ -5030,8 +5471,8 @@
     ]
   },
   {
-    "id": "hosanna",
-    "title": "Hosanna",
+    "id": "hosanna-ouvrons-les-portes-au-roi",
+    "title": "Hosanna, Ouvrons les portes au Roi",
     "rating": "JEM573",
     "writer": "Thierry Ostrini – Chris Christensen",
     "composer": "Thierry Ostrini – Chris Christensen",
