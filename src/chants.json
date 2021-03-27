@@ -974,7 +974,7 @@
       },
       {
         "type": "verse",
-        "text": "2 - Voici maintenant le jour du salut :\nconvoquez l’assemblée du peuple devant le Seigneur :\nqui sait ? s’il revenait et nous comblait de sa miséricorde ?"
+        "text": "2 - Voici maintenant le temps du salut :\nconvoquez l’assemblée du peuple devant le Seigneur :\nqui sait ? s’il revenait et nous comblait de sa miséricorde ?"
       },
       {
         "type": "verse",
@@ -12470,6 +12470,137 @@
       {
         "type": "verse",
         "text": "4 - Agneau de la Ville éternelle,\nAgneau de Dieu victorieux de la mort,\nPrends ce monde en pitié et donne-lui la paix !"
+      }
+    ]
+  },
+
+
+  {
+    "id": "messe-7-polyphonie-pour-un-avenir-agneau-de-dieu",
+    "title": "(Messe Polyphonie pour un avenir) Agneau de Dieu",
+    "rating": "AL35-46-20",
+    "publisher": "ADF-Musique",
+    "writer": "AELF",
+    "composer": "Patrick Richard",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Agneau véritable, Jésus Fils de Dieu,\nTu donnes sens à l’homme,\nAgneau sans péché."
+      },
+      {
+        "type": "chorus",
+        "text": "Agneau sans péché, tu donnes sens à l'homme,\nAgneau de Dieu, prends pitié de Nous."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Agneau véritable, Jésus Fils de Dieu,\nTu rassembles les hommes,\nAgneau de la paix."
+      },
+      {
+        "type": "chorus",
+        "text": "Agneau de la paix, tu rassembles les hommes,\nAgneau de Dieu, prends pitié de Nous."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Agneau véritable, Jésus Fils de Dieu,\nPain rompu pour les hommes,\nAgneau immolé."
+      },
+      {
+        "type": "chorus",
+        "text": "Agneau immolé, pain rompu pour les hommes,\nAgneau de Dieu, donne-nous la paix."
+      }
+    ]
+  },
+  {
+    "id": "messe-6-polyphonie-pour-un-avenir-anamnese",
+    "title": "(Messe Polyphonie pour un avenir) Anamnèse",
+    "publisher": "ADF-Musique",
+    "writer": "Patrick Richard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à toi qui étais mort,\nGloire à toi ressuscité,\nGloire à toi notre avenir,\nJésus Christ !"
+      }
+    ]
+  },
+  {
+    "id": "messe-5-polyphonie-pour-un-avenir-sanctus",
+    "title": "(Messe Polyphonie pour un avenir) Sanctus",
+    "publisher": "ADF-Musique",
+    "writer": "Patrick Richard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Saint le Seigneur, Alléluia (x3)\nSaint, Saint, Saint !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Le ciel et la terre sont remplis de ta gloire."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Béni soit celui qui vient au nom du Seigneur."
+      }
+    ]
+  },
+  {
+    "id": "messe-2-polyphonie-pour-un-avenir-gloire-a-dieu",
+    "title": "(Messe Polyphonie pour un avenir) Gloire à Dieu",
+    "publisher": "ADF-Musique",
+    "writer": "AELF",
+    "composer": "Jean-Marc Duménil/Patrick Richard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu, au plus haut des cieux,\net paix sur la terre aux hommes qu'il aime !\nGloire à Dieu, au plus haut des cieux,\nGloire, Gloire, Gloire à Dieu !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Nous te louons, nous te bénissons,\nNous t'adorons, nous te glorifions,\nEt nous te rendons grâce,\nPour ton immense gloire."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur Dieu le Père tout-puissant,\nSeigneur, Fils unique, Jésus Christ,\nSeigneur, Agneau de Dieu\nLe Fils du Père."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Toi qui enlèves tous les péchés,\nSauve-nous du mal, prends pitié,\nAssis auprès du Père,\nÉcoute nos prières."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Car toi seul es Saint et Seigneur,\nToi seul es le Très-Haut : Jésus Christ,\nAvec le Saint Esprit\nDans la gloire du Père."
+      }
+    ]
+  },
+  {
+    "id": "messe-1-polyphonie-pour-un-avenir-kyrie",
+    "title": "(Messe Polyphonie pour un avenir) Kyrie",
+    "rating": "C44-97",
+    "publisher": "ADF-Musique",
+    "writer": "AELF",
+    "composer": "Jean-Marc Duménil/Patrick Richard",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Seigneur Jésus Christ envoyé par le Père\nPour sauver tous les hommes,\nSeigneur prends pitié."
+      },
+      {
+        "type": "chorus",
+        "text": "Seigneur prends pitié\nDes pécheurs que nous sommes,\nSeigneur prends pitié,\nSeigneur prends pitié."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Toi qui es venu appeler les pécheurs,\nToi l’avenir de l’homme,\nÔ Christ prends pitié."
+      },
+      {
+        "type": "chorus",
+        "text": "Ô Christ prends pitié\nDes pécheurs que nous sommes,\nÔ Christ prends pitié,\nÔ Christ prends pitié."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Seigneur élevé dans la gloire du Père,\nIntercède pour l’homme,\nSeigneur prends pitié."
+      },
+      {
+        "type": "chorus",
+        "text": "Seigneur prends pitié\nDes pécheurs que nous sommes,\nSeigneur prends pitié,\nSeigneur prends pitié."
       }
     ]
   }

@@ -892,3 +892,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
   correction Hosanna, Ouvrons les portes au Roi
 ```
+
+**27/03/2021 v4.13.2**
+```
+  + (Messe Polyphonie pour un avenir) Kyrie C44-97
+  + (Messe Polyphonie pour un avenir) Gloire à Dieu
+  + (Messe Polyphonie pour un avenir) Sanctus
+  + (Messe Polyphonie pour un avenir) Anamnèse
+  + (Messe Polyphonie pour un avenir) Agneau de Dieu AL35-46-20
+
+  Correction Revenez à moi
+```
