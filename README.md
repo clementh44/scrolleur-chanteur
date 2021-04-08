@@ -903,3 +903,40 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
   Correction Revenez à moi
 ```
+
+**08/04/2021 v4.13.3**
+```
+  + En toi j'ai mis ma confiance S501 DEV132
+  + Heureux celui qui se souvient G552
+  + En quel pays de solitude G184 GP184-1
+  + Quand je viens vers Toi DEV279 G41
+  + Je te cherche dieu D532 DEV162
+  + Je vous donnerai un cœur nouveau Z566 Z(AT)38
+  + Parole du Seigneur Jésus
+  + Vous m'avez reconnu XD58-47
+  + Quand l'heure fut venue D52-61
+  + Pain de dieu pour notre marche U11-21 GU11-21
+  + Pour toi Seigneur EDIT18-37
+  + Veillez et priez G267 EDIT14-32
+  + Au cœur de nos détresses H128 HP128
+  + Mystère du calvaire H44
+  + Par la croix qui fit mourir H67-1 HP67-1
+  + La coupe que nous bénissons D361-1
+  + Qui mange ma chair D290
+  + Ouvert est le tombeau I298
+  + Bénissez le Seigneur (Cantique des créatures) Z(AT)41
+  + Depuis l'aube où sur la terre I29 IP29
+  + Dieu notre Père, amour puissant L31-44 MP31-44
+  + Il est vraiment ressuscité SYLR1 I1
+  + Il est temps de quitter vos tombeaux EDIT15-89
+  + Il nous précède en Galilée I26-38
+  + Jour du Seigneur, Christ ressuscité A531
+  + Jour du Vivant I34-92-8 IP34-92-8
+  + Par la musique et par nos voix (psaume 150) Y43-38
+  + Sans avoir vu I168
+  + Tu nous as sauvés, alléluia EDIT15-31
+  + Pour accomplir les œuvres du Père K52-92-2
+  + Ravive en toi le don de Dieu KT58-21
+  + Viens, esprit de Dieu K235 KY235
+  + Le Christ est vivant I214
+```
