@@ -940,3 +940,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Viens, esprit de Dieu K235 KY235
   + Le Christ est vivant I214
 ```
+
+**09/04/2021 v4.13.4**
+```
+  Ajout d'un gif comme tuto rapide
+  Ajout d'une couleur pour l'icone de Présentation (en attendant un super redesign...)
+```

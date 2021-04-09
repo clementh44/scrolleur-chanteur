@@ -83,3 +83,7 @@
 img.sc-file {
   max-height: 100px;
 }
+
+.fa-desktop {
+  color: var(--indigo);
+}

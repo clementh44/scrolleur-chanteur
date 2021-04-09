@@ -8,7 +8,7 @@
           <b-nav-item :active="viewOpened" @click="toggleView" title="Ouvrir/fermer la fenêtre de présentation"> <font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation </b-nav-item>
           <b-nav-item :active="previewOpened" @click="togglePreview" title="Ouvrir/fermer l'aperçu d'un élément"> <font-awesome-icon :icon="'eye'"></font-awesome-icon> Aperçu </b-nav-item>
           <b-nav-item :active="paramOpened" @click="toggleParam" title="Ouvrir/fermer les paramètres"> <font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres </b-nav-item>
-          <b-nav-item :active="settings.help" @click="settings.help = !settings.help" title="Ouvrir/fermer l'aide'">
+          <b-nav-item :active="settings.help" @click="settings.help = !settings.help" title="Ouvrir/fermer l'aide'" class="text-success">
             <font-awesome-icon :icon="'question-circle'"></font-awesome-icon> Aide
           </b-nav-item>
         </b-navbar-nav>
@@ -43,6 +43,7 @@
             Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à
             l'ordinateur.
           </p>
+          <p><b-img thumbnail center fluid src="/ScrolleurChanteur Tuto rapide 09042021-1.gif"></b-img></p>
           <hr />
           <p><strong>Explications</strong></p>
           <p>

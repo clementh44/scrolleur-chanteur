@@ -9,3 +9,7 @@
 .not-collapsed > .when-closed {
   display: none;
 }
+
+.fa-desktop {
+  color: var(--indigo);
+}
