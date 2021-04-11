@@ -43,7 +43,7 @@
             Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à
             l'ordinateur.
           </p>
-          <p><b-img thumbnail center fluid src="/ScrolleurChanteur Tuto rapide 09042021-1.gif"></b-img></p>
+          <p><b-img thumbnail center fluid src="/ScrolleurChanteur Tuto rapide 09042021-2.gif"></b-img></p>
           <hr />
           <p><strong>Explications</strong></p>
           <p>
