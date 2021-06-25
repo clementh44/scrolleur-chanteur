@@ -946,3 +946,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout d'un gif comme tuto rapide
   Ajout d'une couleur pour l'icone de Présentation (en attendant un super redesign...)
 ```
+
+**25/06/2021 v4.13.5**
+```
+  + Awesome God (Hillsong)
+  + Saint-Esprit (Voici mon cœur) (Glorious)
+```

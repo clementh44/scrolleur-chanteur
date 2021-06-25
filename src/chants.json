@@ -1,5 +1,45 @@
 [
   {
+    "id": "saint-esprit-voici-mon-coeur-glorious",
+    "title": "Saint-Esprit (Voici mon cœur) (Glorious)",
+    "publisher": "ABT Prod",
+    "writer": "Glorious",
+    "composer": "Glorious",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Viens Saint-Esprit viens\nOuvre le Ciel descends sur nous\nViens Saint-Esprit viens\nFeu éternel embrase nous\n\nViens Saint-Esprit viens\nTouche la terre descends sur nous\nViens Saint-Esprit viens\nAmour du Père embrase nous"
+      },
+      {
+        "type": "chorus",
+        "text": "Sois le feu qui me guérit\nSois l’Amour qui me bénit\nVoici mon cœur, voici mon cœur\n\nViens déverser Ta tendresse\nAu milieu de mes faiblesses\nJe n’ai plus peur Je n’ai plus peur"
+      },
+      {
+        "type": "verse",
+        "text": "Viens Saint-Esprit viens\nFends l’atmosphère descends sur nous\nViens Saint-Esprit viens\nDe Ta lumière envahit-nous"
+      },
+      {
+        "type": "chorus",
+        "text": "PONT\nUne pluie de guérisons\nPour notre génération\nVoici nos cœurs, voici nos cœurs\n\nDans l'onction de ton Esprit\nDans l'amour qui m'envahit\nJe n'ai plus peur, je n'ai plus peur"
+      }
+    ]
+  },
+  {
+    "id": "awesome-god-hillsong",
+    "title": "Awesome God (Hillsong)",
+    "composer": "Hillsong",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Our God is an awesome God\nHe reigns from heaven above\nWith wisdom, power, and love\nOur God is an awesome God"
+      },
+      {
+        "type": "translation",
+        "text": "Notre Dieu est le Dieu tout-puissant\nIl règne au-dessus des cieux\nAvec sagesse, puissance et amour\nNotre Dieu est le Dieu tout-puissant"
+      }
+    ]
+  },
+  {
     "id": "le-christ-est-vivant",
     "title": "Le Christ est vivant",
     "rating": "I214",
