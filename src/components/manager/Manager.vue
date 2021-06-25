@@ -156,21 +156,48 @@
                   </b-input-group-append>
                 </b-input-group>
               </b-form-group>
-              <b-list-group>
-                <b-list-group-item :key="index" v-for="(song, index) in filteredSongs" class="d-flex align-items-center">
-                  <div class="flex-grow-1">{{ song.title }}</div>
-                  <ElementActions :element="Object.assign({ type: 'song' }, song)" :settings="settings" @preview="previewElement($event)" @search-score="searchScore($event.title, $event.query)">
-                    <template v-slot:end>
-                      <b-button variant="light" @click="addSong(song)" title="Ajouter dans la playlist">
-                        <font-awesome-icon :icon="'plus'"></font-awesome-icon>
-                      </b-button>
-                      <b-button variant="light" :to="{ name: 'song', params: { id: song.id } }" target="_blank" title="Ouvrir les paroles dans une fenêtre externe">
-                        <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
-                      </b-button>
-                    </template>
-                  </ElementActions>
-                </b-list-group-item>
-              </b-list-group>
+              <div>
+                <b-pagination
+                  v-model="filteredSongsCurrentPage"
+                  :total-rows="filteredSongsItem"
+                  :per-page="filteredSongsPerPage"
+                  first-number
+                  last-number
+                  align="center"
+                  aria-controls="filtered-songs"
+                ></b-pagination>
+
+                <b-table
+                  id="filtered-songs"
+                  :items="filteredSongs"
+                  :per-page="filteredSongsPerPage"
+                  :current-page="filteredSongsCurrentPage"
+                  :fields="[{ key: 'item', label: '' }]"
+                  :bordered="true"
+                  thead-class="d-none"
+                >
+                  <template #cell(item)="data">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-grow-1">{{ data.item.title }}</div>
+                      <ElementActions
+                        :element="Object.assign({ type: 'song' }, data.item)"
+                        :settings="settings"
+                        @preview="previewElement($event)"
+                        @search-score="searchScore($event.title, $event.query)"
+                      >
+                        <template v-slot:end>
+                          <b-button variant="light" @click="addSong(data.item)" title="Ajouter dans la playlist">
+                            <font-awesome-icon :icon="'plus'"></font-awesome-icon>
+                          </b-button>
+                          <b-button variant="light" :to="{ name: 'song', params: { id: data.item.id } }" target="_blank" title="Ouvrir les paroles dans une fenêtre externe">
+                            <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
+                          </b-button>
+                        </template>
+                      </ElementActions>
+                    </div>
+                  </template>
+                </b-table>
+              </div>
             </b-card-body>
           </b-collapse>
         </b-card>
@@ -205,6 +232,12 @@ export default {
       viewBody: { type: "empty" },
       viewOpened: false,
       playlist: [],
+      filteredSongsPerPage: 10,
+      filteredSongsCurrentPage: 1,
+      filteredSongsHeader: [
+        { key: "title", label: "Titre" },
+        { key: "actions", label: "Actions" }
+      ],
       search: "",
       paramOpened: false,
       settings: {
@@ -474,6 +507,9 @@ export default {
           .split(" ")
           .every((s) => song.id.includes(s))
       })
+    },
+    filteredSongsItem() {
+      return this.filteredSongs.length
     }
   },
   beforeMount() {

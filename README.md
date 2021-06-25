@@ -952,3 +952,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Awesome God (Hillsong)
   + Saint-Esprit (Voici mon cœur) (Glorious)
 ```
+
+**25/06/2021 v4.14.0**
+```
+  Ajout d'un système de pagination pour le répertoire : page et actions pour rapide (possibilité d'améliorer la recherche plus tard)
+```
