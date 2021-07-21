@@ -957,3 +957,79 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Ajout d'un système de pagination pour le répertoire : page et actions pour rapide (possibilité d'améliorer la recherche plus tard)
 ```
+
+**21/07/2021 v4.14.1**
+```
+  + Je veux voir Dieu (canon)
+  + Réjouis-toi, fille de Sion 17-51
+  + Faites tout ce qu'il vous dira
+  + Chantons sans fin le nom du Seigneur EDIT15-85
+  + Criez, criez de joie ! EDIT15-41
+  + Alleluia, Christ est vivant ! I22-15
+  + Dieu te propose le bonheur
+  + Gloire à toi, ô Dieu, notre Père M44-59 IEV : N°14-12
+  + Ô Dieu, Seigneur des puissances Y52-60
+  + Ô Jésus Sauveur EDIT173
+  + Viens, sois ma lumière
+  + Vivre comme le Christ
+  + Oui, le Seigneur est notre joie R524 Y524
+  + Venez, crions de joie, pour le Seigneur Z94-22
+  + Avec des cris de joie
+  + Jeunes et vieux
+  + Gloire à toi, source de toute joie EDIT162
+  + Au matin, la pierre est roulée EDIT157 15-05
+  + Acclamez le Seigneur 22-04 Y69-72
+  + Je veux te louer ô Paraclet
+  + Poussons ensemble des cris d'allégresse
+  + Allez par toute la terre (Psaume 95) TL20-76
+  + Soyons toujours joyeux 04-62 C512
+  + À toi la Gloire
+  + Pousse des cris de joie IEV : N°12-38
+  + Âme du Christ D21
+  + Marche en ma présence BEAT0270
+  + Je te reçois, Jésus 95-15
+  + Vous qui avez soif, venez à moi Z44-82 X44-82
+  + Toi qui règnes dans les cieux
+  + Joie pour ceux qui ont pardonné
+  + Trouver dans ma vie ta présence P205 EDIT13-56
+  + Garde-moi mon Seigneur EDIT161 IEV : N°15-15
+  + O éternel (Garde-moi, mon Dieu) C41-67 DEV240 08-15
+  + Ton amour, ta puissance (More love, more power)
+  + Ô prends mon âme E32-79
+  + Jésus, Jésus
+  + Tu es le roi de gloire
+  + Moi, si j'avais commis EDIT117
+  + Venez à moi, vous qui portez un fardeau IEV : N°16-17 EDIT15-74
+  + En esprit et en vérité
+  + Nous t'adorons dans ton temple (Car un jour près de toi) JEM463
+  + Je vous aime ô mon Dieu IEV 20-09
+  + Me voici, Seigneur (Psaume 138-137) N°837
+  + Puisque tu fais miséricorde Z44-71 Z129-15
+  + Je te donne tout
+  + Nous te rendons grâce (Psaume 63) 01-43 M58
+  + Jésus, adoramus te
+  + À l'Agneau de Dieu (Élevé à la droite de Dieu) JEM519
+  + Ô vrai corps de Jésus
+  + Pour renaître sous le souffle de l'Esprit de Dieu
+  + Vivre d'amour
+  + Souffle, souffle de Dieu, JEM501
+  + Viens descends des cieux 18-32 EDIT18-40
+  + Je sais que tu es là
+  + Ce que Dieu a choisi (Ce qu’il y a de fou dans le monde) O14-49 L14-49
+  + Béni soit Dieu pour le don de son Esprit K35-79
+  + Viens feu de Dieu
+  + Viens Esprit créateur
+  + Viens Esprit de Dieu 17-60
+  + Viens, Esprit très saint K35-30 IEV : N°13-41
+  + Viens, souffle de Dieu K59-28 IEV : N°18-33
+  + Marie, témoin d'une espérance V23-07
+  + Le Seigneur fit pour moi des merveilles SYLS46 Z(NT)1
+  + Ô Maria EDIT169
+  + (Missa pro Europa) Kyrie, eleison
+  + (Missa pro Europa) Gloria
+  + (Missa pro Europa) Alleluia
+  + (Missa pro Europa) Grande doxologie (Gloire et louange à notre Dieu)
+  + (Missa pro Europa) Sanctus
+  + (Missa pro Europa) Agnus
+  + Je suis votre painJe suis votre pain D159-3
+```

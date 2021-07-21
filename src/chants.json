@@ -1,5 +1,1668 @@
 [
   {
+    "id": "je-suis-votre-painje-suis-votre-pain",
+    "title": "Je suis votre painJe suis votre pain",
+    "rating": "D159-3",
+    "publisher": "Lethielleux",
+    "writer": "Jean Martin",
+    "composer": "Paul Décha",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ta parole est notre pain,\nNotre vie, notre lumière.\nTa parole est le chemin\nQui nous mène vers le père."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Je suis votre pain :\nSi vous me mangez, vous ne périrez pas de défaillance,\nMais vous vivrez d'espérance et de foi."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Je suis votre loi :\nSi vous me suivez, vous ne marcherez pas dans les ténèbres,\nMais vous aurez la lumière de Vie."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Je suis votre paix :\nSi vous m'accueillez, vous ne fermerez pas la porte aux autres,\nVous ouvrirez votre cœur à l'amour."
+      }
+    ]
+  },
+  {
+    "id": "o-maria",
+    "title": "Ô Maria",
+    "rating": "EDIT169",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Markus Wittal",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ô Maria, \nTu es mère du Seigneur,\nQuand tu as dit : « Oui », \nNotre Dieu s'est fait chair, \nJésus Sauveur. "
+      },
+      {
+        "type": "verse",
+        "text": "1 - L'Ange vient chez toi pour t'annoncer la naissance du Christ \nEt c'est Dieu lui-même qui vient vers son peuple ! \nLa puissance du Très-Haut, le Saint-Esprit descend sur toi, \nTon enfant, l'Emmanuel est Dieu fait homme"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ta présence auprès de nous, Marie, soutient notre chemin,\nEn toi notre Dieu révèle sa puissance.\nTu as cru et tu nous dis que rien n'est impossible à Dieu,\nCar sa grâce en nous dépasse nos faiblesses."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Aujourd'hui avec Marie, Ô Seigneur, nous te supplions,\nEnvoie ton Esprit, écoute nos prières.\nPrends nos peurs, délivre-nous et nous proclamerons ton Nom,\nCar tu peux tout transformer par ta puissance !\n"
+      },
+      {
+        "type": "chorus",
+        "text": "Me voici, Dieu. \nFais de moi ce qu'il te plaît.\nViens Esprit d'en-haut,\nViens Esprit du Seigneur, \nViens en mon cœur."
+      }
+    ]
+  },
+  {
+    "id": "le-seigneur-fit-pour-moi-des-merveilles",
+    "title": "Le Seigneur fit pour moi des merveilles",
+    "rating": "SYLS46",
+    "newrating": "Z(NT)1",
+    "publisher": "Sylvanes",
+    "writer": "Bourgeois D., Revel J.Ph.",
+    "composer": "Gouzes A.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Le Seigneur fit pour moi des merveilles,\net mon cœur exulte de joie :\nen ma chair s’accomplit la Promesse,\nAlleluia, Alleluia !"
+      },
+      {
+        "type": "verse",
+        "text": "Mon âme exalte le Seigneur,\nExulte mon esprit en Dieu mon Sauveur !\n\nIl s’est penché sur son humble servante,\ndésormais tous les âges me diront bienheureuse.\n\nLe puissant fit pour moi des merveilles,\nSaint est son Nom !\n\nSon amour s’étend d’âge en âge\nsur ceux qui le craignent.\n\nDéployant la force de son bras,\nIl disperse les superbes.\n\nIl renverse les puissants de leurs trônes,\nIl élève les humbles.\n\nIl comble de biens les affamés,\nrenvoie les riches les mains vides.\n\nIl relève Israël son serviteur,\nIl se souvient de son amour,\n\nDe la promesse faite à nos Pères\nen faveur d’Abraham et de sa race à jamais."
+      }
+    ]
+  },
+  {
+    "id": "marie-temoin-dune-esperance",
+    "title": "Marie, témoin d'une espérance",
+    "rating": "V23-07",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Laurent Grzybowski",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Marie, témoin d'une espérance,\nPour le Seigneur tu t'es levée,\nAu sein du peuple de l'alliance,\nTu me fais signe d'avancer,\nToujours plus loin, toujours plus loin."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Mère du Christ et notre Mère,\nTu bénis Dieu, printemps de vie.\nEn toi l'Esprit fait des merveilles,\nAvec amour il te conduit."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Quelqu'un t'appelle et te visite,\nTon cœur frémit à sa venue.\nC'est à l'audace qu'il t'invite,\nTu vas sans peur vers l'inconnu."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tu donnes chair à la Parole,\nJésus grandit dans ta maison.\nLumière et vie pour tous les hommes\nIl vient t'ouvrir ses horizons."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Sur les chemins de l'Evangile\nTu suis le Maître jusqu'au bout,\nEt tu rejoins sur la colline\nTon Fils en croix souffrant pour nous."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Dans le matin du jour de Pâques\nTon cœur exulte et crie de joie.\nLe Christ est là, sur nos rivages,\nIl est vivant et tu le crois."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Comme un grand vent sur les disciples\nL'Esprit de Dieu vient à souffler.\nTu es au cœur de cette Eglise\nOù chacun doit se réveiller."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Pour tes enfants de l'an deux mille\nTu as des mots de vérité:\nJésus vous dit la route à suivre,\nEcoutez-le, vous revivrez !"
+      }
+    ]
+  },
+  {
+    "id": "viens-souffle-de-dieu",
+    "title": "Viens, souffle de Dieu",
+    "rating": "K59-28",
+    "newrating": "IEV : N°18-33",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (Géraldine Creaton)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Viens, Souffle de Dieu, viens !\nViens, hôte très doux.\nViens, Souffle de Dieu, viens !\nSonde-nous, scrute-nous."
+      },
+      {
+        "type": "chorus",
+        "text": "Éclaire-nous, Esprit de Dieu,\nQue brille la vérité.\nInonde-nous de ta clarté,\nViens nous transformer.\nEsprit de Dieu, viens en nos cœurs ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Viens, Souffle de Dieu, viens ! \nViens, Maître, en nos cœurs.\nViens, Souffle de Dieu, viens ! \nGuide-nous, conduis-nous."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Viens, Souffle de Dieu, viens ! \nViens, flamme d’amour.\nViens, Souffle de Dieu, viens ! \nBrûle-nous de ton feu !"
+      }
+    ]
+  },
+  {
+    "id": "viens-esprit-tres-saint",
+    "title": "Viens, Esprit très saint",
+    "rating": "K35-30",
+    "newrating": "IEV : N°13-41",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (D.-M. David)/Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Viens, Esprit très Saint, toi qui emplis tout l’univers.\nViens en nos cœurs, viens, Esprit du Seigneur.\nViens, nous t’attendons.\nViens, Esprit très Saint, toi qui emplis tout l’univers,\nViens et révèle-nous les joies du Royaume qui vient."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Esprit de feu, souffle du Dieu Très-Haut\nEt donateur de vie,\nPar ta puissance viens saisir nos cœurs,\nViens nous recréer."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Toi qui connais les mystères de Dieu,\nEsprit de vérité,\nEnseigne-nous, viens et demeure en nous,\nViens nous éclairer."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Force et douceur, amour et don de Dieu,\nEmplis-nous de ta paix,\nPère des pauvres, Esprit consolateur,\nViens nous relever."
+      }
+    ]
+  },
+  {
+    "id": "viens-esprit-de-dieu",
+    "title": "Viens Esprit de Dieu",
+    "rating": "17-60",
+    "publisher": "Éditions de l´Emmanuel",
+    "writer": "Communauté de l´Emmanuel (H.-R. Tiacoh)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Viens Esprit de Dieu,\nViens, ô viens,\nEmplis-nous de ton feu,\nEsprit de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "Abba Père, Tu es mon Père. \nL'Esprit me fait crier vers Toi\nje suis ton enfant, je me tiens devant Toi,\nEnvoie ton Esprit très Saint."
+      }
+    ]
+  },
+  {
+    "id": "viens-esprit-createur",
+    "title": "Viens Esprit créateur",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Viens, Esprit créateur,\nque rayonne en nous Ta beauté,\nEsprit de grâce et de lumière,\namour sans fin, embrase-nous."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Toi, le don, l'envoyé de Dieu,\nTu œuvres en nous au nom du Père,\nTu es amour, feu, source vive,\nonction de force et de douceur."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Fais-nous le don de Ton amour,\nToi qui sondes nos pauvretés,\nmurmure du Fils au cœur du Père,\nEnseigne-nous comment prier."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Répands en nous la paix de Dieu,\nque soit purifiée notre foi,\nToi la clarté de notre nuit,\nqu'à jamais nous vivions en Toi."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Exulte en nous Père des pauvres,\ncomme exulta en Toi le Fils,\net que l'Eglise chante la gloire\ndu Dieu vivant et trois fois Saint."
+      }
+    ]
+  },
+  {
+    "id": "viens-feu-de-dieu",
+    "title": "Viens feu de Dieu",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Quand le feu de Ton Esprit\nvient pour purifier ma vie,\nma prière et mon cri sont : Viens !\nQuand le feu de Ton Esprit\nvient pour façonner ma vie,\nma prière et mon cri sont : Viens !"
+      },
+      {
+        "type": "chorus",
+        "text": "Viens feu de Dieu, Viens feu de Dieu,\nEpure mon âme, Mets en moi Ta flamme.\nViens feu de Dieu, Viens feu de Dieu,\nÉcris sur mon front : Sainteté à Ton nom !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Quand le feu de Ton Esprit\nvient pour réveiller ma vie,\nma prière et mon cri sont : Viens !\nQuand le feu de Ton Esprit\nvient pour embraser ma vie,\nma prière et mon cri sont : Viens !"
+      },
+      {
+        "type": "chorus",
+        "text": "Viens feu de Dieu, Viens feu de Dieu,\nÔte ma tiédeur, Ranime mon ardeur.\nViens feu de Dieu, Viens feu de Dieu,\nConsume mon cœur d'amour et de ferveur."
+      }
+    ]
+  },
+  {
+    "id": "beni-soit-dieu-pour-le-don-de-son-esprit",
+    "title": "Béni soit Dieu pour le don de son Esprit",
+    "rating": "K35-79",
+    "publisher": "ADF-Musique",
+    "writer": "Claude Bernard",
+    "composer": "Jean-Pierre Kempf",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Béni soit Dieu pour le don de son Esprit,\nSouffle de force et de lumière,\nSouffle d’amour qui nous libère !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - “Le désir de l’Esprit, c’est la vie et la paix”,\nLa vie nouvelle en Jésus Christ, la foi donnée au Dieu fidèle.\nEn recevant le pain de vie, réveillons en nous la voix de l’Esprit !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - “Le désir de l’Esprit, c’est la vie et la paix”,\nLa paix plus forte que la nuit, l’amour qui chasse toute crainte.\nEn recevant le pain de vie, réveillons en nous la voix de l’Esprit !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - “Le désir de l’Esprit, c’est la vie et la paix”,\nLa joie d’aller porter du fruit dans la douceur et la patience.\nEn recevant le pain de vie, réveillons en nous la voix de l’Esprit !"
+      }
+    ]
+  },
+  {
+    "id": "ce-que-dieu-a-choisi-ce-qu’il-y-a-de-fou-dans-le-monde",
+    "title": "Ce que Dieu a choisi (Ce qu’il y a de fou dans le monde)",
+    "rating": "O14-49",
+    "newrating": "L14-49",
+    "writer": "Chemin neuf",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Ce qu’il y a de fou dans le monde, voilà ce que Dieu a choisi.\nCe qu’il y a de faible dans le monde, voilà ce que Dieu a choisi."
+      },
+      {
+        "type": "verse",
+        "text": "Viens, Esprit de Feu, viens, Esprit d’amour,\nViens, Esprit de Dieu, viens, nous t’attendons."
+      }
+    ]
+  },
+  {
+    "id": "je-sais-que-tu-es-la",
+    "title": "Je sais que tu es là",
+    "publisher": "Edition renouveau du Gabon",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Je sais que tu es là Paraclet, je sais que tu es là.\nJe sais que tu es là Esprit-Saint, je sais que tu es là."
+      },
+      {
+        "type": "chorus",
+        "text": "Mon âme te bénit, mon âme te bénit,\nMon âme te bénit car je sais que tu es là. (bis)"
+      }
+    ]
+  },
+  {
+    "id": "viens-descends-des-cieux",
+    "title": "Viens descends des cieux",
+    "rating": "18-32",
+    "newrating": "EDIT18-40",
+    "writer": "D’après le Veni Sancte Spiritus",
+    "composer": "Communauté de l’Emmanuel (P. Martiu)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Viens en nos cœurs, souffle de Dieu !\nViens Esprit très Saint,\nViens descends des Cieux !\nNous t’adorons, souffle de Dieu !\nViens Esprit très Saint,\nViens descends des Cieux !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ô Esprit, viens en nos cœurs,\nEt envoie du haut du ciel\nUn rayon de ta lumière.\nViens, répands sur nous tes dons.\nViens, lumière de nos cœurs.\nViens en nous, Père des pauvres."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Souverain consolateur,\nAdoucissante fraîcheur,\nHôte très doux de nos âmes.\nDans la peine, le repos,\nDans les pleurs, le réconfort.\nDans l’épreuve, notre force."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Ô Lumière et Vérité,\nViens délivre-nous du mal.\nViens en nous, jusqu’à l’intime.\nSans ta grâce et ta douceur,\nSans ton œuvre dans nos cœurs,\nNul n’est libre de te suivre."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Lave-nous de tout péché,\nGuéris ce qui est blessé,\nViens baigner nos âmes arides.\nFais brûler notre tiédeur,\nRends droit ce qui est faussé.\nAssouplis ce qui est raide."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Donne tes sept dons sacrés.\nÀ tous ceux qui ont la foi,\nQui te prient dans la confiance.\nDonne mérite et vertu,\nDonne le salut final,\nEt la joie pour tous les siècles."
+      }
+    ]
+  },
+  {
+    "id": "souffle-souffle-de-dieu",
+    "title": "Souffle, souffle de Dieu,",
+    "rating": "JEM501",
+    "writer": "Patti Ridings",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Souffle, souffle de Dieu,\nNous t'accueillons,\nViens purifier nos cœurs."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Rends-nous souples devant toi,\nÀ l'écoute de ta voix,\nRends-nous sensibles à ton cœur,\nSois le Roi, sois le Seigneur."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Quand ton peuple s'humilie,\nRenouvelle en lui ta vie,\nChasse l'orgueil et la crainte\nEt rends ton Église sainte."
+      }
+    ]
+  },
+  {
+    "id": "vivre-damour",
+    "title": "Vivre d'amour",
+    "writer": "Sainte Thérèse de Lisieux",
+    "composer": "frere Ephraïm (Gérard Croissant), diacre de la communauté des Béatitudes",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - . Au soir d’Amour, parlant sans parabole\nJésus disait : « Si quelqu’un veut m’aimer\nToute sa vie, qu’il garde ma parole\nMon Père et moi viendrons le visiter.\nEt de son cœur faisant notre demeure\nVenant à lui, nous l’aimerons toujours !\nRempli de paix, nous voulons qu’il demeure\nEn notre Amour ! » (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Vivre d’Amour, c’est vivre de ta vie,\nRoi glorieux, délice des élus.\nTu vis pour moi, caché dans une hostie\nJe veux pour toi, me cacher, ô Jésus !\nA des amants, il faut la solitude\nUn cœur à cœur qui dure nuit et jour\nTon seul regard fait ma béatitude\nJe vis d’Amour ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Vivre d’Amour, c’est bannir toute crainte\nTout souvenir des fautes du passé.\nDe mes péchés je ne vois nulle empreinte,\nEn un instant l’amour a tout brûlé…\nFlamme divine, ê très douce Fournaise !\nEn ton foyer je fixe mon séjour\nC’est en tes feux que je chante à mon aise :\n« Je vis d’Amour ! » (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Vivre d’Amour, c’est garder en soi-même\nUn grand trésor en un vase mortel\nMon Bien-Aimé, ma faiblesse est extrême\nAh je suis loin d’être un ange du ciel !…\nMais si je tombe à chaque heure qui passe\nMe relevant tu viens à mon secours,\nA chaque instant, tu me donnes ta Grâce,\nJe vis d’Amour ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Vivre d’Amour, c’est essuyer ta Face\nC’est obtenir des pécheurs le pardon\nO Dieu d’Amour ! Qu’ils rentrent dans ta grâce\nEt qu’à jamais ils bénissent ton Nom…\nJusqu’à mon cœur retentit le blasphème\nPour l’effacer, je veux chanter toujours :\n« Ton Nom Sacré, je l’adore et je l’Aime\nJe vis d’Amour ! » (bis)"
+      }
+    ]
+  },
+  {
+    "id": "pour-renaitre-sous-le-souffle-de-lesprit-de-dieu",
+    "title": "Pour renaître sous le souffle de l'Esprit de Dieu",
+    "publisher": "Editions de l’Emmanuel",
+    "writer": "P ME de l’Enfant Jésus",
+    "composer": "Fr JB de la sainte Famille",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Pour renaître sous le souffle de l’Esprit de Dieu,\nSoyez pauvre et confiant comme un enfant. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Nul ne peut entrer dans le royaume de Dieu,\nÀ moins de renaître de l’eau et de l’Esprit."
+      },
+      {
+        "type": "verse",
+        "text": "2 - La grande espérance, c’est Dieu.\nSi nous espérons Dieu, nous obtiendrons Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tel est l’enfant, un être pauvre et confiant,\nConvaincu que sa pauvreté est son plus précieux trésor."
+      }
+    ]
+  },
+  {
+    "id": "o-vrai-corps-de-jesus",
+    "title": "Ô vrai corps de Jésus",
+    "composer": "T. Dionis du Séjour (Dei Amoris Cantores)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Ô vrai corps de Jésus\nImmolé pour nous sur la croix,\nToi dont le coté transpercé\nlaissa jaillir le sang et l’eau,"
+      },
+      {
+        "type": "verse",
+        "text": "Nous t’adorons, nous te contemplons.\nFais-nous goûter la joie du ciel,\nmaintenant et au combat de la mort !"
+      },
+      {
+        "type": "verse",
+        "text": "Ô doux Jésus, Ô fils de Marie,\nNous t’adorons et nous te contemplons,\nÔ doux Jésus."
+      }
+    ]
+  },
+  {
+    "id": "a-lagneau-de-dieu-eleve-a-la-droite-de-dieu",
+    "title": "À l'Agneau de Dieu (Élevé à la droite de Dieu)",
+    "rating": "JEM519",
+    "writer": "Élisabeth Bourbouze",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Élevé à la droite de Dieu,\nCouronné de mille couronnes,\nTu resplendis comme un soleil radieux ;\nLes êtres crient autour de ton trône :"
+      },
+      {
+        "type": "chorus",
+        "text": "À l'Agneau de Dieu soit la gloire,\nÀ l'Agneau de Dieu la victoire,\nÀ l'Agneau de Dieu soit le règne\nPour tous les siècles, amen."
+      },
+      {
+        "type": "verse",
+        "text": "2 - L'Esprit saint et l'épouse fidèle\nDisent: « viens ! » c'est leur cœur qui appelle.\nViens, ô Jésus, toi l'époux bien aimé ;\nTous tes élus ne cessent de chanter :"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tous les peuples et toutes les nations,\nD'un seul cœur avec les milliers d'anges,\nEntonneront en l'honneur de son nom\nCe chant de gloire, avec force et louange :"
+      }
+    ]
+  },
+  {
+    "id": "jesus-adoramus-te",
+    "title": "Jésus, adoramus te",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Jésus, adoramus te, (x3)\nAdoramus te."
+      },
+      {
+        "type": "verse",
+        "text": "1 - La vie s'est manifestée,\nDans la nuit la lumière a brillé.\nLe Fils de Dieu nous est donné,\nNous sommes venus l'adorer."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Jésus, vrai Dieu et vrai homme,\nEn Marie tu as pris notre chair,\nPour nous unir à ton amour,\nTu demeures au milieu de nous."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Jésus, Agneau immolé,\nNous contemplons ton cœur transpercé.\nDe ton coté jaillit l'Esprit,\nFleuve de vie qui purifie"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Jésus, Christ ressuscité,\nTu délivres chacun de la mort.\nTon corps\nde gloire est apparu,\nNous sommes venus t'adorer."
+      }
+    ]
+  },
+  {
+    "id": "nous-te-rendons-grace-psaume-63",
+    "title": "Nous te rendons grâce (Psaume 63)",
+    "rating": "01-43",
+    "newrating": "M58",
+    "publisher": "Editions Emmanuel",
+    "composer": "C.-E. Hauguel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Nous te rendons grâce\nPour tant de tendresse,\nTu donnes l’eau vive\nPar ton cœur transpercé,\nNous te bénissons\nPour tant de merveilles,\nTu donnes la vie, tu donnes l’Esprit."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Dieu, c’est toi mon Dieu, c’est toi que je cherche,\nToute ma chair après toi languit.\nJe veux ton amour pour guider ma vie,\nMon âme a soif, a soif de toi."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Mes lèvres diront sans fin ton éloge,\nToute ma vie, je veux te bénir.\nJe veux à ton Nom élever les mains,\nMon âme a soif, a soif de toi."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Quand je songe à toi, quand j’espère en toi,\nQuand je t’appelle toujours tu réponds.\nAlors je jubile, en paix sous tes ailes,\nMon âme a soif, a soif de toi."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Et quand je te cherche, tu te laisses trouver,\nRassasie-moi de ta présence.\nJe suis une terre altérée, sans eau,\nMon âme a soif, a soif de toi."
+      }
+    ]
+  },
+  {
+    "id": "je-te-donne-tout",
+    "title": "Je te donne tout",
+    "writer": "Luc Dumont",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Je te donne mon cœur,\nIl ne m'appartient plus,\nCe que j'ai de meilleur,\nTout est pour toi Jésus.\nUn parfum de valeur,\nSur toi est répandu,\nC'est l'offrande de mon cœur,\nJe suis à toi Jésus."
+      },
+      {
+        "type": "chorus",
+        "text": "Prends mon âme,\nPrends mon cœur,\nJe te donne tout.\nPrends ma vie,\nMe voici,\nJe te donne tout.\nMon cœur est à toi,\nTout à toi."
+      }
+    ]
+  },
+  {
+    "id": "puisque-tu-fais-misericorde",
+    "title": "Puisque tu fais miséricorde",
+    "rating": "Z44-71",
+    "newrating": "Z129-15",
+    "publisher": "L'Emmanuel",
+    "writer": "Marc Dannaud",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Puisque tu fais miséricorde,\nPuisque nos vies sont devant toi,\nPuisque tu as versé ton sang pour nous,\nSeigneur Jésus pardonne-nous (exauce-nous)."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Des profondeurs Seigneur, je crie vers Toi,\nSeigneur écoute mon cri d'appel ;\nQue ton oreille ne se ferme pas,\nEntends la plainte de ma prière."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Si Tu retiens les fautes contre nous,\nQui dans ce monde subsistera ?\nMais le pardon se trouve près de Toi ;\nQue nos coeurs s'ouvrent à ta grandeur !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - De tout mon coeur j'espère le Seigneur,\nEt sa parole de vérité.\nPlus qu'un veilleur n'attend le jour nouveau,\nÔ toi, mon peuple, attends ton Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Près du Seigneur se trouve le salut\nEt l'abondance de son pardon.\nC'est Lui qui crée, qui sauve et qui guérit,\nCar sa puissance est sans mesure."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Pitié pour moi, mon Dieu, en ta bonté,\nEn ta tendresse libère-moi.\nLave-moi tout entier de mon péché,\nEt de ma faute, purifie-moi."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Contre Toi et Toi seul, oui, j'ai péché,\nCe qui T'offense, oui, je l'ai fait.\nÔ mon Dieu, lave-moi, je serai pur,\nJe serai blanc plus que la neige."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Rends-moi Seigneur la joie d'être sauvé,\nQue tout mon être danse pour Toi.\nDétourne-Toi, ô Dieu, de mon péché,\nToutes mes fautes, efface-les."
+      },
+      {
+        "type": "verse",
+        "text": "8 - Affranchis-moi, donne-moi ton salut,\nJ'annoncerai ta vérité.\nOuvre mes lèvres, que je loue ton nom,\nEt que ma bouche chante pour Toi."
+      },
+      {
+        "type": "verse",
+        "text": "9 - Ce qui Te plaît c'est un esprit brisé,\nUn coeur contrit, et humilié.\nTu ne rejettes pas le coeur broyé ;\nReçois ma vie, pour la combler."
+      }
+    ]
+  },
+  {
+    "id": "me-voici-seigneur-psaume-138-137",
+    "title": "Me voici, Seigneur (Psaume 138-137)",
+    "rating": "N°837",
+    "writer": "B. Ducatel",
+    "composer": "B. Mélois",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Me voici, Seigneur, \nJe viens faire ta volonté, \nQu´il me soit fait\nSelon ta Parole. "
+      },
+      {
+        "type": "verse",
+        "text": "1 - Je te rends grâce de tout mon cœur, \nTu as entendu \nLe cri de ma prière. \nJe te chante en présence des anges."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Je te rends grâce pour ton amour,\nPrès de toi mon cœur est débordant de joie.\nTu m´exauces le jour où je t´appelle."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Je te rends grâce pour ton alliance,\nDans la joie, la peine ne m´abandonne pas,\nÔ mon Dieu, éternel est ton amour."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Je te rends grâce pour ta victoire,\nIls chantent ton Nom les peuples de la terre,\nÔ Seigneur, ils célèbrent ta gloire."
+      }
+    ]
+  },
+  {
+    "id": "je-vous-aime-o-mon-dieu",
+    "title": "Je vous aime ô mon Dieu",
+    "rating": "IEV 20-09",
+    "publisher": "Sanctuaires d’Ars",
+    "writer": "Arnaud Dumond",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Je vous aime, ô mon Dieu\nEt mon seul désir est de vous aimer,\nDe vous aimer jusqu’au dernier soupir de ma vie,\nJusqu’au dernier soupir de ma vie."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ô Dieu Saint, Tu as fait de mon cœur\nLe Ciel de ta demeure, un temple sacré !\nPère, Fils et Saint-Esprit,\nTon amour est pour moi le plus grand des trésors !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Nous portons le nom de « fils de Dieu »\nCar nous avons un Père qui veille sur nous\nMontrons-nous dignes de Lui,\nIl a livré son Fils, offrons-Lui notre amour !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Jésus Christ, notre Dieu et Seigneur,\nTu nous conduis au Père, Tu es le Chemin !\nTon sang versé sur la Croix\nNous a rendu la vie, nous a ouvert le Ciel !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Esprit Saint, Eau Vive de l’amour\nRépandue sur la terre en fine rosée,\nTu viens arroser le grain\nPour que lève l’épi sous le Soleil de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Ô mon Dieu, ton amour est si bon,\nLui qui remplit notre âme, notre seule joie !\nQuel bonheur que de t’aimer,\nNous sommes si petits, et Tu nous vois si grands !"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Ton amour est de tous les instants,\nDans ta Miséricorde, tout nous est donné,\nTu veilles sur nous sans fin,\nLorsque nous chancelons, Tu es notre soutien."
+      }
+    ]
+  },
+  {
+    "id": "nous-tadorons-dans-ton-temple-car-un-jour-pres-de-toi",
+    "title": "Nous t'adorons dans ton temple (Car un jour près de toi)",
+    "rating": "JEM463",
+    "writer": "Corinne Lafitte",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Nous t'adorons Ô père, dans ton temple,\nNous t'adorons en esprit et en vérité.\nTu habites nos louanges, nous t'adorons en esprit et en vérité."
+      },
+      {
+        "type": "chorus",
+        "text": "Car un jour près de toi, vaut mieux que mille ailleurs,\nJe désire habiter, dans ton temple.\nCar un jour près de toi, vaut mieux que mille ailleurs,\nJe désire habiter, dans ta maison Seigneur."
+      }
+    ]
+  },
+  {
+    "id": "en-esprit-et-en-verite",
+    "title": "En esprit et en vérité",
+    "publisher": "Amoris Cantores",
+    "writer": "Communauté St Jean",
+    "composer": "Communauté St Jean",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Seigneur je m’offre tout à Toi, je m’offre pour devenir\nTon enfant, afin que par moi, à jamais Tu puisses agir.\nSeigneur je m’offre tout à toi, afin que plus rien en moi,\nNe sache plus résister, que Tu puisses me sanctifier."
+      },
+      {
+        "type": "chorus",
+        "text": "Je t’adore en esprit et en vérité,\nÔ mon Seigneur et mon Dieu je désire te rencontrer.\nJe t’adore en esprit et en vérité,\nÔ mon Seigneur et mon Dieu je désire toujours t’aimer."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur je m’offre tout à Toi, je désire m’abandonner,\nÀ ta divine volonté, car Tu es le Dieu d’Amour.\nPère et Source de tout bien, Fils Agneau, doux Rédempteur,\nEsprit de vie d’Amour sans bornes, au cœur même de mon cœur."
+      }
+    ]
+  },
+  {
+    "id": "venez-a-moi-vous-qui-portez-un-fardeau",
+    "title": "Venez à moi, vous qui portez un fardeau",
+    "rating": "IEV : N°16-17",
+    "newrating": "EDIT15-74",
+    "publisher": "Gemeinschaft Emmanuel/L'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (Markus Wittal)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Venez à moi, vous qui portez un fardeau.\nVenez, vous tous qui peinez,\nEt moi, je vous soulagerai.\nJe suis le repos de vos âmes."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Mettez-vous à mon école,\nCar je suis doux, je suis humble de cœur.\nPrenez mon joug il est aisé\nEt vous trouverez la paix.\nMon fardeau est léger !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Devant toi je tiens mon âme,\nComme un enfant dans les bras de sa mère.\nSeigneur, mon âme espère en toi !\nEn silence et dans la foi,\nJ’espère le Seigneur !"
+      }
+    ]
+  },
+  {
+    "id": "moi-si-javais-commis",
+    "title": "Moi, si j'avais commis",
+    "rating": "EDIT117",
+    "publisher": "ADF",
+    "writer": "Sainte-Thérèse de l'Enfant Jésus",
+    "composer": "Vincent J.-M.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Moi si j’avais commis, tous les crimes possibles,\nje garderai toujours la même confiance,\ncar je sais bien que cette multitude d’offenses\nn’est qu’une goutte d’eau dans un brasier ardent,\nn’est qu’une goutte d’eau dans un brasier ardent."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Oui j’ai besoin d’un cœur, tout brûlant de tendresse\nqui reste mon appui, et sans aucun retour,\nqui aime tout en moi, et même ma faiblesse,\net ne me quitte pas, ni la nuit ni le jour. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Non, je n’ai pu trouver, nulle autre créature\nqui m’aimât à ce point, et sans jamais mourir,\ncar il me faut un Dieu qui prenne ma nature,\nqui devienne mon frère, et qui puisse souffrir. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Je ne sais que trop bien, que toutes nos justices\nn’ont devant ton regard, pas la moindre valeur,\net pour donner du prix à tous mes sacrifices\noui je veux les jeter jusqu’en Ton divin cœur. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Non, tu n'as pas trouvé créature sans tache\nAu milieu des éclairs tu nous donnas ta loi\nEt dans ton Cœur Sacré ô Jésus je me cache\nNon, je ne tremble pas car ma vertu c'est toi. (bis)"
+      }
+    ]
+  },
+  {
+    "id": "tu-es-le-roi-de-gloire",
+    "title": "Tu es le roi de gloire",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Tu es le Roi de gloire,\nle Seigneur des seigneurs,\nle soleil de la justice.\nSous Tes ailes est la guérison."
+      }
+    ]
+  },
+  {
+    "id": "jesus-jesus",
+    "title": "Jésus, Jésus",
+    "publisher": "Editions de l'Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Jésus, Jésus"
+      }
+    ]
+  },
+  {
+    "id": "o-prends-mon-ame",
+    "title": "Ô prends mon âme",
+    "rating": "E32-79",
+    "composer": "J.C Rosaz",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Ô prends mon âme, prends-là, Seigneur,\nEt que ta flamme brûle en mon cœur.\nQue tout mon être vibre pour toi,\nSois seul mon maître, ô divin roi."
+      },
+      {
+        "type": "chorus",
+        "text": "Source de vie, de paix, d’amour\nVers toi je crie la nuit, le jour\nGuide mon âme, sois mon soutien\nRemplis ma vie, toi mon seul bien."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Du mal perfide, ô garde-moi,\nSois seul mon guide, chef de ma foi,\nQuand la nuit voile tout à mes yeux,\nSois mon étoile, brille des cieux."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Voici l’aurore d’un jour nouveau,\nLe ciel se dore de feux plus beaux,\nJésus s’apprête, pourquoi gémir,\nLevons nos têtes, il va venir."
+      }
+    ]
+  },
+  {
+    "id": "ton-amour-ta-puissance-more-love-more-power",
+    "title": "Ton amour, ta puissance (More love, more power)",
+    "writer": "Jude del Hierro",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ton amour, ta puissance,\nTa présence dans ma vie.\nTon amour, ta puissance,\nTa présence dans ma vie."
+      },
+      {
+        "type": "verse",
+        "text": "Et je veux t'adorer de tout mon cœur,\nEt je veux t'adorer de toute mon âme,\nEt je veux t'adorer de toute ma force,\nCar tu es mon Dieu, tu es mon Dieu."
+      }
+    ]
+  },
+  {
+    "id": "o-eternel-garde-moi-mon-dieu",
+    "title": "O éternel (Garde-moi, mon Dieu)",
+    "rating": "C41-67 DEV240",
+    "newrating": "08-15",
+    "writer": "Communauté du Chemin Neuf (C. Brun)",
+    "composer": "mélodie hébraïque",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Garde-moi, mon Dieu,\nMa force est en toi ;\nGarde-moi, mon Dieu,\nMon bonheur, c'est toi. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ô Éternel, de toi dépend ma vie,\nTu es mon Dieu et je viens à toi.\nJe te bénis, ô Éternel,\nToi mon conseiller, tu es avec moi."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Mon cœur exulte, mon âme est en fête,\nMa chair repose, j'ai confiance en toi.\nTu ne peux m'abandonner,\nTu montres le chemin, tu es toute ma joie."
+      }
+    ]
+  },
+  {
+    "id": "garde-moi-mon-seigneur",
+    "title": "Garde-moi mon Seigneur",
+    "rating": "EDIT161",
+    "newrating": "IEV : N°15-15",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Garde-moi mon Seigneur,\nJ'ai fait de toi mon refuge.\nJ'ai dit au Seigneur : \"Tu es mon Dieu,\nJe n'ai d'autre bonheur que toi !\nSeigneur, tu es toute ma joie !\""
+      },
+      {
+        "type": "verse",
+        "text": "1 - Je bénis le seigneur qui s'est fait mon conseil,\nEt qui même la nuit instruit mon cœur.\nJe garde le Seigneur devant moi sans relâche,\nPrès de lui, je ne peux chanceler."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Aussi mon coeur exulte et mon âme est en fête,\nEn confiance, je peux reposer.\nTu m'ouvres le chemin de la vie éternelle,\nAvec toi, débordement de joie !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tu es le seul Seigneur, mon partage et ma vie.\nLa part qui me revient fait mon bonheur.\nJe reçois de tes mains le plus bel héritage,\nCar de toi, Seigneur dépend mon sort."
+      }
+    ]
+  },
+  {
+    "id": "trouver-dans-ma-vie-ta-presence",
+    "title": "Trouver dans ma vie ta présence",
+    "rating": "P205",
+    "newrating": "EDIT13-56",
+    "publisher": "Studio SM",
+    "writer": "Jean-Claude Gianadda",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Trouver dans ma vie ta présence,\nTenir une lampe allumée,\nChoisir d’habiter la confiance,\nAimer et se savoir aimé."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Croiser ton regard dans le doute,\nBrûler à l’écho de ta voix,\nRester pour le pain de la route,\nSavoir reconnaître ton pas."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Brûler quand le feu devient cendre,\nPartir vers celui qui attend,\nChoisir de donner sans reprendre,\nFêter le retour d’un enfant."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Ouvrir quand tu frappes à ma porte,\nBriser les verrous de la peur,\nSavoir tout ce que tu m’apportes,\nRester et devenir veilleur."
+      }
+    ]
+  },
+  {
+    "id": "joie-pour-ceux-qui-ont-pardonne",
+    "title": "Joie pour ceux qui ont pardonné",
+    "publisher": "Chemin Neuf",
+    "writer": "Communauté du Chemin Neuf",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Joie pour ceux qui ont pardonné\nL’Esprit de Dieu les a comblés\nIls reçoivent miséricorde,\nDieu les a relevés"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Aimez-vous en frères\nCar tout amour vient de Dieu\nCelui dont le cœur aime\nDevient enfant du Père"
+      },
+      {
+        "type": "verse",
+        "text": "2 - La paix, fruit de l’Esprit\nPar nos mains est à construire\nCelui qui porte en lui la paix\nDevient enfant du Père"
+      },
+      {
+        "type": "verse",
+        "text": "3 - L’Esprit de justice\nNous invite à partager\nCeux qui s’y abandonnent\nDeviennent enfants du Père"
+      }
+    ]
+  },
+  {
+    "id": "toi-qui-regnes-dans-les-cieux",
+    "title": "Toi qui règnes dans les cieux",
+    "publisher": "D.R",
+    "writer": "Famille Loche",
+    "composer": "Famille Loche",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Toi qui règnes dans les cieux,\nFais-nous voir seigneur ta gloire !\nNous chanterons tes louanges\nSur toute la terre."
+      }
+    ]
+  },
+  {
+    "id": "vous-qui-avez-soif-venez-a-moi",
+    "title": "Vous qui avez soif, venez à moi",
+    "rating": "Z44-82",
+    "newrating": "X44-82",
+    "publisher": "Gemeinschaft Emmanuel/L'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (Markus Wittal)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Vous qui avez soif, venez à Moi et buvez\nCar de mon cœur ouvert jaillira, le fleuve qui donne la vie. (bis) "
+      },
+      {
+        "type": "verse",
+        "text": "1 - Que soient remplis d’allégresses les déserts,\nQue la steppe exulte et fleurisse,\nQu’elle se couvre de fleurs et soit en fête :\nLa splendeur de Dieu lui est donnée."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Affermissez les mains et les genoux affaiblis,\nDites aux cœurs défaillants :\nSoyez forts, ne craignez pas, voici votre Dieu.\nCelui Qui vient vous sauver."
+      },
+      {
+        "type": "verse",
+        "text": "3 - En ce jour-là s’ouvriront les yeux des aveugles,\nLes oreilles des sourds entendront ;\nAlors le boiteux bondira comme un cerf,\nEt le muet criera de joie."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Ce jour-là dans le désert, les eaux jailliront,\nEt les torrents dans la steppe.\nLa terre brûlée deviendra un verger,\nLe pays de la soif, un jardin."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Dieu tracera un chemin, une voie sacrée ;\nLes insensés n’y passeront pas.\nTous les rachetés du Seigneur y marcheront,\nDieu lui même les conduira."
+      }
+    ]
+  },
+  {
+    "id": "je-te-recois-jesus",
+    "title": "Je te reçois, Jésus",
+    "rating": "95-15",
+    "writer": "M. et M.-F. Penhard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Je Te reçois,\nJésus, dans cette hostie ;\nMon Sauveur et Mon Roi,\nje m’abandonne à Toi."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Tu as posé Ta main sur moi\net Tu m’as dit : « Viens et suis-moi ».\nMe voici, Seigneur !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Je ne suis pas digne de Te recevoir,\nmais dis seulement une parole :\nje serai guéri !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Le corps très Saint du Dieu vivant\nnous est donné gratuitement.\nPrenez et mangez !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Recevez la paix qui vient de Dieu\nallez annoncer à tous les hommes :\nle Royaume est là !"
+      }
+    ]
+  },
+  {
+    "id": "marche-en-ma-presence",
+    "title": "Marche en ma présence",
+    "rating": "BEAT0270",
+    "composer": "Christine Géraud",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Marche en ma présence,\nAvance et sois confiant.\nGarde mon alliance,\nJe suis le Dieu vivant."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Quitte ton pays, la maison de ton père,\nEt va vers le pays que je te montrerai,\nJe ferai de toi une grande nation,\nTu seras pour tous une bénédiction."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Je te précèderai tout au long du chemin,\nLe jour, c’est la nuée qui conduira tes pas,\nLa nuit comme un feu, elle t’éclairera,\nLe jour et la nuit, elle sera devant toi."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Prenez et mangez car ceci est mon Corps.\nPrenez, buvez en tous, car ceci est mon Sang.\nLe Sang de l’alliance pour la multitude,\nVous ferez cela en mémoire de moi."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Je suis avec vous jusqu’à la fin des temps,\nEt l’Eglise est mon Corps, vous en êtes les membres.\nSoyez mes témoins jusqu’au bout de la terre,\nSoyez dans ce monde le sel et la lumière."
+      }
+    ]
+  },
+  {
+    "id": "ame-du-christ",
+    "title": "Âme du Christ",
+    "rating": "D21",
+    "publisher": "Éditions du Seuil",
+    "writer": "Ignace de Loyola",
+    "composer": "Joseph Gelineau",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Âme du Christ, sanctifie-moi,\nCorps du Christ, sauve-moi,\nSang du Christ, enivre-moi,\nEau du côté du Christ, lave-moi."
+      },
+      {
+        "type": "verse",
+        "text": "Passion du Christ, fortifie-moi.\nÔ Jésus, exauce-moi.\nDans tes blessures, cache-moi,\nNe permets pas que je sois séparé de toi."
+      },
+      {
+        "type": "verse",
+        "text": "De l'ennemi défends-moi.\nÀ ma mort, appelle-moi.\nOrdonne-moi de venir à toi,\nPour qu'avec tes saints je te loue,"
+      },
+      {
+        "type": "verse",
+        "text": "Dans les siècles des siècles.\nAinsi soit-il !"
+      }
+    ]
+  },
+  {
+    "id": "pousse-des-cris-de-joie",
+    "title": "Pousse des cris de joie",
+    "rating": "IEV : N°12-38",
+    "publisher": "Edition de l'Emmanuel",
+    "writer": "Communauté de l’Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Pousse des cris de joie, ô Jérusalem,\n Éclate en ovations, ô fille de Sion. \n Réjouis-toi, tressaille d’allégresse, \n Le Roi d’Israël, ton Seigneur, demeure en toi. "
+      },
+      {
+        "type": "verse",
+        "text": "1 - Le Seigneur a écarté tes accusateurs, \n Rejeté loin de toi tes ennemis. \n Le Roi d’Israël demeure au milieu de toi, \n Tu n’as plus de malheur à redouter. "
+      },
+      {
+        "type": "verse",
+        "text": "2 - En ce jour-là on dira à Jérusalem :\n \"Fille de Sion, ne crains pas le mal.\n Sois sans crainte et que tes mains ne défaillent pas,\n Le Seigneur, héros Sauveur est en toi.\""
+      },
+      {
+        "type": "verse",
+        "text": "3 - Au milieu de toi, il exultera de joie,\n L’amour de Dieu te renouvellera.\n Il dansera pour toi avec des cris de joie,\n Comme aux jours de fête, il exultera."
+      }
+    ]
+  },
+  {
+    "id": "a-toi-la-gloire",
+    "title": "À toi la Gloire",
+    "publisher": "DP",
+    "writer": "Edmond Budry",
+    "composer": "Georg Friedrich Haendel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "À toi la gloire, ô Ressuscité,\nÀ toi la victoire pour l'éternité !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - À toi la gloire, ô Ressuscité,\nÀ toi la victoire pour l'éternité !\nBrillant de lumière, l'ange est descendu ;\nil roule la pierre du tombeau vaincu."
+      },
+      {
+        "type": "verse",
+        "text": "2 - À toi la gloire, ô Ressuscité,\nÀ toi la victoire pour l'éternité !\nSois dans l'allégresse, peuple du Seigneur,\nEt redis sans cesse que Christ est vainqueur !"
+      }
+    ]
+  },
+  {
+    "id": "soyons-toujours-joyeux",
+    "title": "Soyons toujours joyeux",
+    "rating": "04-62",
+    "newrating": "C512",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "d'après 1 Thessaloniciens 5, 16 (refrain) et Psaume 64 (couplets)",
+    "composer": "Communauté de l´Emmanuel (J.-M. Morin / B. Pouzoullic)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Soyons toujours joyeux et prions sans cesse,\nEn toute chose rendons grâce à Dieu !\nC´est sa volonté sur nous dans le Christ.\nGloire à toi, ô Seigneur notre Dieu !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - À toi la louange est due,\nÔ Dieu dans Sion,\nQue pour toi exulte notre cœur,\nTu écoutes la prière."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Vers toi languit toute chair,\nAvec ses œuvres de péché.\nMais toi Seigneur tu nous pardonnes,\nÔ Dieu de miséricorde."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Heureux celui qui t´écoute\nEt qui demeure en ta présence.\nComblés des biens de ta maison,\nTu mets en nous ton allégresse."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Toute la création t´acclame,\nLes montagnes crient de joie,\nLes collines débordent d´allégresse,\nLes cris de joie, ô les chansons !"
+      }
+    ]
+  },
+  {
+    "id": "allez-par-toute-la-terre-psaume-95",
+    "title": "Allez par toute la terre (Psaume 95)",
+    "rating": "TL20-76",
+    "publisher": "Bayard",
+    "writer": "AELF",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Allez par toute la terre,\nAnnoncer l’Evangile aux nations !\nAllez par toute la terre, Alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Chantez au Seigneur un chant nouveau,\nChantez au Seigneur terre entière,\nChantez au Seigneur et bénissez son nom !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - De jour en jour proclamez son salut,\nRacontez à tous les peuples sa gloire,\nA toutes les nations ses merveilles !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Rendez au Seigneur, familles des peuples,\nRendez au Seigneur la gloire et la puissance,\nRendez au Seigneur la gloire de son nom !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Adorez le Seigneur, éblouissant de sainteté.\nAllez dire aux nations : Le Seigneur est roi !\nIl gouverne les peuples avec droiture !"
+      }
+    ]
+  },
+  {
+    "id": "poussons-ensemble-des-cris-dallegresse",
+    "title": "Poussons ensemble des cris d'allégresse",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Poussons ensemble des cris d’allégresse,\ndevant notre Dieu.\nDansons ensemble d’amour et d’ivresse,\ndu vin nouveau."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Il a fait des merveilles pour toi.\nIl a changé ta tristesse en joie.\nIl a proclamé l’année de grâce\net Il t’a libéré de tes chaînes."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Il t'a fait boire le vin du royaume.\nIl a fait jaillir l'eau du désert.\nIl veut te recouvrir de Sa gloire.\nIl veut te couronner de Sa joie."
+      }
+    ]
+  },
+  {
+    "id": "je-veux-te-louer-o-paraclet",
+    "title": "Je veux te louer ô Paraclet",
+    "composer": "Communauté du Chemin Neuf",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Je veux Te louer, ô Paraclet,\nSaint Esprit, Viens, et remplis ma vie ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "Je veux tout quitter pour te servir, \nSaint-Esprit, viens, et remplis ma vie !"
+      }
+    ]
+  },
+  {
+    "id": "acclamez-le-seigneur",
+    "title": "Acclamez le Seigneur",
+    "rating": "22-04",
+    "newrating": "Y69-72",
+    "publisher": "Le Carmel",
+    "writer": "Jean-Paul II",
+    "composer": "Jean-Baptiste Du Jonchay",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Acclamez le Seigneur, vous qui marchez sur ses pas, c'est lui votre Roi ! \nOuvrez tout grand vos cœurs, portez en lui votre croix, c'est lui votre Vie, secret de votre joie !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Jésus, sauveur de tous les hommes,\nJésus, Fils Bien-Aimé du Père.\nC'est lui qui nous a tant aimés.\nVenez à lui, vous trouverez la paix !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Le Christ veut combler notre cœur,\nDonner la vie en plénitude,\nLui seul pourra nous rassasier.\nAccueillez-le, recevez son amour !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Marchez sur le chemin de vie,\nChemin de foi et de confiance,\nChemin de joie, de pauvreté,\nChemin d'amour et de miséricorde."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Laissez tout ce qui vous entrave,\nEn lui, la grâce vous libère\nPour vivre dans la vérité,\nPour vous donner, pour aimer sans mesure."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Allez sur les chemins du monde,\nCourrez au service des hommes,\nSoyez brûlants de charité\nPour témoigner de la grande espérance."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Marie, ô Mère du Seigneur,\nMarie, première des disciples,\nToujours, tu chemines avec nous,\nConduis nos pas dans la clarté de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Louange au Père qui nous aime,\nLouange au Fils qui nous appelle,\nLouange à l'Esprit de lumière,\nA notre Dieu, la gloire pour les siècles !"
+      }
+    ]
+  },
+  {
+    "id": "au-matin-la-pierre-est-roulee",
+    "title": "Au matin, la pierre est roulée",
+    "rating": "EDIT157",
+    "newrating": "15-05",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "André Fleury",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Au matin la pierre est roulée, \nSur la terre un jour nouveau s´est levé.\nQui cherchez-vous parmi les morts ?\nRegardez, levez les yeux et croyez !"
+      },
+      {
+        "type": "chorus",
+        "text": "Christ est ressuscité !\nAlléluia, Dieu l´a glorifié.\nChrist est ressuscité !\nAlléluia, Il nous a sauvés !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Nos yeux ont vu et reconnu\nJésus Christ, notre Seigneur bien-aimé.\nEn lui l´amour a triomphé,\nCar le Père à jamais l´a exalté."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Terre et cieux exultent de joie\nL´univers chante et acclame son Roi.\nSa mort a détruit notre mort\nJour de joie, jour de fête ! Alléluia !"
+      }
+    ]
+  },
+  {
+    "id": "gloire-a-toi-source-de-toute-joie",
+    "title": "Gloire à toi, source de toute joie",
+    "rating": "EDIT162",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (Myriam Debœuf)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à toi, Seigneur, source de toute joie !\nGloire à ton nom, ô Dieu très Saint !\nGloire à toi, Seigneur, ô toi, le Roi des rois !\nAmen, Alléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Le Seigneur est ma lumière et mon salut,\nLe Seigneur est le rempart de ma vie.\nJe vivrai dans la maison du Seigneur,\nMaintenant et à jamais."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Que mon cœur exulte, mon âme te loue,\nTu ne peux m’abandonner à la mort.\nTu m’apprendras le chemin de la vie,\nPlénitude de la joie."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tous les peuples de la terre, louez Dieu,\nAnnoncez la Vérité aux nations.\nBienheureux qui met sa foi dans le Seigneur,\nÉternel est son amour !"
+      }
+    ]
+  },
+  {
+    "id": "jeunes-et-vieux",
+    "title": "Jeunes et vieux",
+    "publisher": "Gordon Thompson Ld",
+    "writer": "Christine et Jacques Wattiaux",
+    "composer": "Alain Langree",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Jeunes et vieux se réjouiront ensemble ;\nles jeunes filles danseront de joie !\nLaï, laï, laï, laï…"
+      },
+      {
+        "type": "verse",
+        "text": "Je changerai leur deuil en allégresse\net je les consolerai.\nJe leur donnerai la joie au lieu du chagrin,\nje leur donnerai la joie !\nJe leur donnerai la joie au lieu du chagrin,\nje leur donnerai la joie !"
+      }
+    ]
+  },
+  {
+    "id": "avec-des-cris-de-joie",
+    "title": "Avec des cris de joie",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Avec des cris de joie, ma bouche te chantera,\nj’élèverai mes mains et Te célébrerai."
+      },
+      {
+        "type": "verse",
+        "text": "1 - . Ô Dieu Tu es mon Dieu,\nmon âme Te recherche\net soupire après Toi\nsur la terre desséchée."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Lorsque je pense à Toi,\nesseulé sur ma couche,\nje médite sur Toi\nles veilles de la nuit."
+      },
+      {
+        "type": "verse",
+        "text": "3 - . Je connais le bonheur\nà l’ombre de Tes ailes,\ncar Tu es mon secours,\nTa droite me soutient."
+      },
+      {
+        "type": "verse",
+        "text": "4 - J’aime Te contempler,\nquand dans Ton sanctuaire\nTa gloire resplendit,\nTa puissance se révèle."
+      }
+    ]
+  },
+  {
+    "id": "venez-crions-de-joie-pour-le-seigneur",
+    "title": "Venez, crions de joie, pour le Seigneur",
+    "rating": "Z94-22",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Venez, crions de joie, pour le Seigneur,\nAcclamons le rocher qui nous sauve,\nAllons devant sa face avec actions de grâces."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Venez, crions de joie pour le Seigneur,\nAcclamons le rocher qui nous sauve\nAllons devant sa face avec actions de grâces,\nAu son des musiques, acclamons-le."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Car c’est un Dieu grand que le Seigneur,\nUn roi grand par dessus tous les dieux.\nEn sa main sont les creux de la terre Et les hauts des montagnes sont à lui,\nA lui la mer, c’est lui qui l’a faite,\nLa terre ferme, ses mains l’ont façonnée."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Entrez, courbons-nous, prosternons-nous,\nA genoux devant le Dieu qui nous a faits. Car c’est lui, notre Dieu,\nEt nous le peuple dont il est le berger, Le troupeau que mène sa main."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Aujourd'hui puissiez-vous écouter sa voix :\n« Ne fermez pas vos cœurs comme à discorde\ncomme aux jours de tentation dans le désert,\nquand vos pères m'ont éprouvé et tenté\net pourtant ils voyaient mes actions. »"
+      }
+    ]
+  },
+  {
+    "id": "oui-le-seigneur-est-notre-joie",
+    "title": "Oui, le Seigneur est notre joie",
+    "rating": "R524",
+    "newrating": "Y524",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l’Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Oui, le Seigneur est notre joie, alegria !\nIl nous partage son amour, alegria !\nOui, le Seigneur est notre joie, alegria !\nIl est fidèle pour toujours, alegria !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Il est notre joie, alegria !\nIl est notre paix, alegria !\nIl est notre frère, alegria !\nIl est la lumière, alegria !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Il est le Sauveur, alegria !\nIl est le pardon, alegria !\nIl est le Seigneur, alegria !\nIl est notre Dieu, alegria !"
+      }
+    ]
+  },
+  {
+    "id": "vivre-comme-le-christ",
+    "title": "Vivre comme le Christ",
+    "writer": "d'après le bienheureux P.Brottier",
+    "composer": "Frère Jean-Baptiste",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Vivre comme le Christ, toujours livré à l'amour, pour aller son chemin de vie dans la confiance, la force et la louange."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ne soyez pas ces ombres d’hommes qui vont devant eux au hasard, Mais faites fructifier en vous les dons que Dieu vous a donnés. (pour vivre)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Pour préparer votre avenir demandez simplement à Dieu, \nLa force de bien accomplir tout ce qu’Il attendra de nous. (pour vivre)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tant que le souffle nous tient vie il nous faut bénir notre Dieu,\nNous chanterons sans nous lasser son infinie miséricorde ! (pour vivre)"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Soyez compatissants et bons pour tous ceux qui souffrent et qui pleurent,\nVous savez que votre bonheur est de semer la joie de Dieu. (pour vivre)"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Avec un cœur plein de confiance remettez à Dieu votre vie,\nAyez foi en sa providence, c’est son Amour qui nous conduit ! (pour vivre)"
+      }
+    ]
+  },
+  {
+    "id": "viens-sois-ma-lumiere",
+    "title": "Viens, sois ma lumière",
+    "writer": "Anne-Sophie Rahm",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Viens, sois ma lumière, mon feu d’amour ! Porte moi dans les trous des pauvres, chez les malades, chez les mourants, allume la flamme de mon amour !\nViens, sois ma lumière, mon feu d’amour ! Porte moi dans les trous des pauvres, je les désire et je les aime, donne-moi leurs âmes, j’ai soif d’amour !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ta vocation est d’aimer, de t’offrit, de sauver des âmes, c’est en faisant ce pas que tu réaliseras le désir de mon cœur pour toi !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Je suis la lumière du monde, qui me suit ne marchera pas dans les ténèbres mais aura la lumière de la vie !"
+      }
+    ]
+  },
+  {
+    "id": "o-jesus-sauveur",
+    "title": "Ô Jésus Sauveur",
+    "rating": "EDIT173",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l’Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "O Jésus Sauveur, cœur brûlant d’amour,\nNous te bénissons, toi la source de vie.\nGloire à Toi, Seigneur,\nDe ton sein jaillit le fleuve d’eau vive."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Tu as pris nos pauvretés ;\nFils de Dieu, tu t’es livré.\nSi nous mourons avec toi,\nAvec toi nous vivrons."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Sur la croix tu as versé\nL’eau et le sang du salut :\n« Qui boira l’eau de la vie\nN’aura plus jamais soif. »"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tu es l’agneau immolé\nCrucifié pour nos péchés,\nDe ton cœur blessé faillit\nTon amour infini !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Venez tous vous qui peinez,\nMoi je vous soulagerai.\nDemeurez en mon amour,\nVous trouverez la Paix !"
+      }
+    ]
+  },
+  {
+    "id": "o-dieu-seigneur-des-puissances",
+    "title": "Ô Dieu, Seigneur des puissances",
+    "rating": "Y52-60",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l’Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ô Dieu, Seigneur des puissances,\nRoi de la Création,\nÔ Dieu, ton peuple t’acclame,\nGloire et louange à toi !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Acclamez Dieu, vous toutes ses œuvres\nChantez la gloire de son nom.\nDites à Dieu : « Tu es le Très-Haut ! »\nAlléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Bénissez Dieu, nations de la terre,\nChantez pour lui à pleine voix.\nIl a rendu notre âme à la vie,\nAlléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tout l’univers devant toi s’incline,\nPour toi, il chante et crie de joie.\nVenez, voyez les gestes de Dieu,\nAlléluia !"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Venez vous tous, et prêtez l’oreille,\nVoyez ce qu’Il a fait pour moi.\nQuand j’ai crié, Il m’a répondu,\nAlléluia !"
+      }
+    ]
+  },
+  {
+    "id": "gloire-a-toi-o-dieu-notre-pere",
+    "title": "Gloire à toi, ô Dieu, notre Père",
+    "rating": "M44-59",
+    "newrating": "IEV : N°14-12",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (Alexis Fleury)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à toi, ô Dieu, notre Père,\nGloire à toi, Jésus-Christ venu nous sauver.\nGloire à toi, Esprit de lumière,\nTrinité Bienheureuse, honneur et gloire à toi !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Père des Cieux, Père infiniment bon,\nTu combles tes enfants de tes dons.\nTu nous as faits, et nous t’offrons nos cœurs,\nNous te bénissons, nous croyons en toi, Seigneur !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Jésus Sauveur, et Fils du Dieu vivant,\nQue s’élève vers toi notre chant.\nTon cœur ouvert nous donne à contempler\nL’amour infini dont le Père nous a aimés."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Esprit de Dieu, Esprit de sainteté,\nTu nous conduis à la vérité.\nDescends sur nous éclairer nos chemins,\nSois le maître en nous, et fais de nous des témoins."
+      }
+    ]
+  },
+  {
+    "id": "dieu-te-propose-le-bonheur",
+    "title": "Dieu te propose le bonheur",
+    "writer": "Fr. Jean-Baptiste du Jonchay",
+    "composer": "Cassiel Cerclé",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Dieu te propose le bonheur, son amour veut combler ton cœur\nrevient aujourd’hui au Seigneur, choisis donc la vie ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Heureux es-tu, pauvre de cœur\nQui ne possède rien ;\nLes Cieux sont ta demeure\nEt mon Royaume est tien. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Heureux es-tu, doux et paisible,\nReçois ce don du Père.\nPour moi rien d’impossible :\nVoici pour toi la Terre. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Heureux es-tu lorsque tu pleures,\nTu es mon bien-aimé.\nJe suis pour toi le pain,\nJe ferai tes délices. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Heureux es-tu, toi qui a faim,\nMendiant de la justice.\nJe suis pour toi le pain,\nJe ferai tes délices. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Heureux es-tu quand tu pardonnes,\nGrande est ta récompense :\nDe ma miséricorde\nDécouvre l’abondance. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Heureux es-tu, toi le cœur pur\nQui demeures en ma grâce.\nDans l’Esprit Saint sois sûr\nDe contempler ma face. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "7 - Heureux es-tu, en travaillant\nAu règne de la paix.\nTu seras mon enfant,\nFils de Dieu à jamais. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "8 - Heureux es-tu, persécuté\npour le juste et le droit.\nLes Cieux te sont donnés,\nViens et règne avec moi. (bis)"
+      }
+    ]
+  },
+  {
+    "id": "alleluia-christ-est-vivant-",
+    "title": "Alleluia, Christ est vivant !",
+    "rating": "I22-15",
+    "publisher": "AME",
+    "writer": "Communauté du Chemin Neuf",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia, Alléluia,\nChrist est vivant Ressuscité ! (Bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - La pierre du tombeau a été roulée ;\nHeureux ceux qui pleurent,\nIls seront consolés !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - En lui se lèvent la justice et la paix ;\nHeureux ceux qui peinent,\nIls seront relevés."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Il est le chemin, la vie, la vérité ;\nHeureux ceux qui cherchent,\nIls seront rassasiés."
+      }
+    ]
+  },
+  {
+    "id": "criez-criez-de-joie",
+    "title": "Criez, criez de joie !",
+    "rating": "EDIT15-41",
+    "publisher": "Emmanuel Publications/L'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (Géraldine Creaton)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Criez, criez de joie,\nLe Seigneur est proche !\nCriez, criez de joie,\nvoici votre sauveur !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - En tout temps en tout lieu,\nDemeurez dans la joie !\nCar le Seigneur est notre Dieu,\nExultez, il est Roi !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Remettez vos soucis\nDans les mains du Seigneur,\nEt dans la foi, présentez-lui\nVos prières et vos cœurs."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Dieu qui donne la paix,\nDieu, source de la Vie,\nPrendra vos cœurs et vos pensées\nEn son Fils Jésus-Christ !"
+      }
+    ]
+  },
+  {
+    "id": "chantons-sans-fin-le-nom-du-seigneur",
+    "title": "Chantons sans fin le nom du Seigneur",
+    "rating": "EDIT15-85",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l’Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Chantons sans fin le nom du Seigneur\nBénissons-le d'âge en âge !\nPar son amour il comble nos cœurs\nEt vient transformer nos vies."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Goûtez, voyez comme est bon le Seigneur\nLui qui pardonne à tout homme pécheur\nQuand il se tourne vers lui !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Changeons nos cœurs et convertissons-nous,\nTournons nos yeux vers Dieu plein d'amour,\nSon pardon redonne vie !"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Quand sur la croix Jésus dans sa passion,\nOffre sa vie pour notre rédemption\nSa mort nous ouvre à la vie."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Le corps de Dieu et le sang du salut\nNous sont donnés pour vivre avec Jésus\nDans la sainte eucharistie."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Lavant les pieds, se faisant serviteur,\nJésus nous ouvre à l'amour de son cœur\nAfin d'aimer comme lui."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Suivons les pas des amis du Seigneur\nQui ont laissé Dieu transformer leurs cœurs\nPar l'amour qui sanctifie."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Soyons témoins de l'amour du Seigneur.\nDieu allume une étincelle en nos cœurs\nQue brûle en nous son Esprit !"
+      }
+    ]
+  },
+  {
+    "id": "faites-tout-ce-quil-vous-dira",
+    "title": "Faites tout ce qu'il vous dira",
+    "writer": "R. Crochu",
+    "composer": "Laetare, R. Crochu",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Faites tout ce qu’il vous dira,\nO Marie apprends-nous à suivre Jésus Christ.\nFaites tout ce qu’il vous dira,\nO Marie aide-nous à vivre de l’Esprit."
+      },
+      {
+        "type": "verse",
+        "text": "1 - O Marie, le Seigneur t’a choisie. O Marie, prie pour nous.\nAu projet de Dieu tu as dit oui. O Marie, prie pour nous.\nEn ses mains tu as remis ta vie. O Marie, prie pour nous.\nEntre les femmes tu es bénie. O Marie, nous voici."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Quand nos vies sont guidées par la peur. O Marie, prie pour nous.\nSi le doute a envahi nos cœurs. O Marie, prie pour nous.\nEntoure-nous de ta tendre douceur. O Marie, prie pour nous.\nRemets-nous dans les bras du Seigneur. O Marie, nous voici."
+      },
+      {
+        "type": "verse",
+        "text": "3 - L’Esprit Saint est descendu sur toi. O Marie, prie pour nous.\nDe ton fils tu écoutes la voix. O Marie, prie pour nous.\nMère aimante jusqu’au pied de la croix. O Marie, prie pour nous.\nGuide-nous, enseigne-nous ta foi. O Marie, nous voici."
+      },
+      {
+        "type": "verse",
+        "text": "4 - A Cana, tu montres le chemin. O Marie, prie pour nous.\nChaque jour tu nous ouvres les mains. O Marie, prie pour nous.\nTa tendresse, fruit d’un amour divin. O Marie, prie pour nous.\nNous invite à un bonheur sans fin. O Marie, nous voici."
+      }
+    ]
+  },
+  {
+    "id": "rejouis-toi-fille-de-sion",
+    "title": "Réjouis-toi, fille de Sion",
+    "rating": "17-51",
+    "writer": "David Loden",
+    "composer": "David Loden",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Réjouis-toi, fille de Sion,\npousse des cris de joie,\nIsraël, pousse des cris d'allégresse,\nFille de Jérusalem."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Tous tes péchés ont été effacés,\nTon ennemi chassé.\nLe Dieu d'Israël, Adonaï,\nEst venu vers toi, ne crains pas"
+      },
+      {
+        "type": "verse",
+        "text": "2 - En ces temps là, nous prophétiserons\nSur toi, Jérusalem,\nEt nous te dirons, Sion, Sion,\nRelève tes bras, car voici ton Roi."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Oui, le Seigneur est au milieu de toi\nComme un héros qui sauve.\nIl te sauvera, il te réjouira.\nIl fera de toi sa plus grande joie."
+      }
+    ]
+  },
+  {
+    "id": "je-veux-voir-dieu-canon",
+    "title": "Je veux voir Dieu (canon)",
+    "writer": "Nathalie Lemoye",
+    "composer": "Pierre-Yves Emery",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Je veux voir Dieu,\nle voir de mes yeux,\njoie sans fin des bienheureux,\nje veux voir Dieu."
+      }
+    ]
+  },
+  {
     "id": "saint-esprit-voici-mon-coeur-glorious",
     "title": "Saint-Esprit (Voici mon cœur) (Glorious)",
     "publisher": "ABT Prod",
@@ -8665,7 +10328,7 @@
     ]
   },
   {
-    "id": "lesprit-sain-qui-nous-est-donne",
+    "id": "lesprit-saint-qui-nous-est-donne",
     "title": "L'Esprit Saint qui nous est donné",
     "rating": "K504",
     "publisher": "Editions De L'Emmanuel",
@@ -9923,8 +11586,8 @@
     ]
   },
   {
-    "id": "partageons-le-pain-du-seigneur",
-    "title": "Partageons le pain du Seigneur",
+    "id": "partageons-le-pain-du-seigneur-nous-chantons-la-croix-du-seigneur",
+    "title": "Partageons le pain du Seigneur (Nous chantons la Croix du Seigneur)",
     "rating": "D39-31",
     "publisher": "Bayard-liturgie",
     "writer": "Hameline J.-y.",
@@ -13673,6 +15336,114 @@
       {
         "type": "chorus",
         "text": "Seigneur prends pitié\nDes pécheurs que nous sommes,\nSeigneur prends pitié,\nSeigneur prends pitié."
+      }
+    ]
+  },
+
+
+  {
+    "id": "messe-1-missa-pro-europa-kyrie-eleison",
+    "title": "(Missa pro Europa) Kyrie, eleison",
+    "publisher": "Scout Europresse",
+    "writer": "Missel Romain",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Kyrie eleison, Kyrie eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Christe, Christe, Christe eleison."
+      },
+      {
+        "type": "verse",
+        "text": "Kyrie eleison, Kyrie eleison."
+      }
+    ]
+  },
+  {
+    "id": "messe-2-missa-pro-europa-gloria",
+    "title": "(Missa pro Europa) Gloria",
+    "publisher": "Scout Europresse",
+    "writer": "En-Calcat (Frère David)",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Gloria in excelsis Deo, Gloria in excelsis Deo, Gloria in excelsis Deo."
+      },
+      {
+        "type": "verse",
+        "text": "Et in terra  pax hominibus  bonae voluntatis\nLaudamus Te\nBenedicimus Te\nAdoramus Te\nGorificamus Te\nGratias agimus tibi propter magnam gloriam tuam\nDomine Deus Rex caelestis,\nDeus Pater omnipotens\nDomine Fili unigenite Jesu Christe\nDomine Deus Agnus Dei Filius Patris\nQui tollis peccata mundi\nmiserere nobis\nQui tollis peccata mundi\nsuscipe deprecationem nostram\nQui sedes ad dexteram Patris\nmiserere nobis\nQuoniam Tu solus Sanctus\nTu solus Dominus\nTu solus altissimus Jesu Christe\ncum Sancto Spiritu in gloria Dei Patris\nAmen."
+      }
+    ]
+  },
+  {
+    "id": "messe-3-missa-pro-europa-alleluia",
+    "title": "(Missa pro Europa) Alleluia",
+    "publisher": "Scout Europresse",
+    "writer": "En-Calcat (Frère David)",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alleluia (x4)"
+      }
+    ]
+  },
+  {
+    "id": "messe-missa-pro-europa-grande-doxologie-gloire-et-louange-a-notre-dieu",
+    "title": "(Missa pro Europa) Grande doxologie (Gloire et louange à notre Dieu)",
+    "publisher": "Scout Europresse",
+    "writer": "AELF",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Amen, Amen !\nGloire et louange à notre Dieu !\nAmen, Amen !\nGloire et louange à notre Dieu !"
+      }
+    ]
+  },
+  {
+    "id": "messe-5-missa-pro-europa-sanctus",
+    "title": "(Missa pro Europa) Sanctus",
+    "publisher": "Scout Europresse",
+    "writer": "Missel Romain",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Sanctus, Sanctus, Sanctus Dominus\nSanctus, Sanctus Deus Sabaoth."
+      },
+      {
+        "type": "verse",
+        "text": "Pleni sunt caeli et terra gloria tua.\nHosanna in excelsis ! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "Benedictus qui venit in nomine Domini.\nHosanna in excelsis ! (bis)"
+      }
+    ]
+  },
+  {
+    "id": "messe-7-missa-pro-europa-agnus",
+    "title": "(Missa pro Europa) Agnus",
+    "publisher": "Scout Europresse",
+    "writer": "Missel Romain",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Agnus dei\nQui tollis peccata mundi\nMiserere nobis, miserere nobis, miserere nobis. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "Agnus dei\nQui tollis peccata mundi\nMiserere nobis, miserere nobis, miserere nobis. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "Agnus dei\nQui tollis peccata mundi\nDona nobis pacem, dona nobis pacem, dona nobis pacem (bis)"
       }
     ]
   }
