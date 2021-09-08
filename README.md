@@ -1040,3 +1040,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections diverses
   ajout des espaces insécables avec \u00a0 ? : ! « » (bis) (x3)
 ```
+
+**08/09/2021 v4.15.0**
+```
+  Ajout de marges personnalisées (à gauche et en bas des couplets, refrains et traductions)
+```

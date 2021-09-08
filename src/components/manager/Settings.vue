@@ -1,7 +1,7 @@
 <template>
   <div>
     <form>
-      <h5>Fenêtre de présentation</h5>
+      <h4>Fenêtre de présentation</h4>
       <b-form-group
         label-cols-sm="2"
         label="Taille"
@@ -40,11 +40,11 @@
 
       <hr />
 
-      <h6 v-b-toggle.collapse-borders class="d-flex justify-content-between"
+      <h5 v-b-toggle.collapse-borders class="d-flex justify-content-between"
         >Bordures personnalisées
         <font-awesome-icon class="pull-right when-open" :icon="'chevron-up'"></font-awesome-icon>
         <font-awesome-icon class="pull-right when-closed" :icon="'chevron-down'"></font-awesome-icon
-      ></h6>
+      ></h5>
       <b-collapse id="collapse-borders">
         <b-form-group>
           <b-form-checkbox v-model="settings.liveView.borders.empty" switch>Afficher avec le contenu vide</b-form-checkbox>
@@ -165,9 +165,9 @@
 
       <hr />
 
-      <h6>Chant et texte personnalisé</h6>
-      <b-form-group label-cols-sm="2" label="Marges" content-cols-sm="10" description="Marges à gauche et droite">
-        <b-form-input type="range" v-model="settings.liveView.padding" min="0" max="5" step="1"></b-form-input>
+      <h5>Chant et texte personnalisé</h5>
+      <b-form-group label-cols-sm="2" label="Marges" content-cols-sm="10" description="Marges à gauche et droite du contenu">
+        <b-form-input type="range" v-model="settings.liveView.padding.view" min="0" max="5" step="1"></b-form-input>
       </b-form-group>
       <b-form-group label-cols-sm="2" label="Taille" content-cols-sm="10">
         <b-form-input type="range" v-model="settings.liveView.fontSize" min="0.2" max="8" step="0.2"></b-form-input>
@@ -176,7 +176,7 @@
 
       <hr />
 
-      <h6>Chant</h6>
+      <h5>Chant</h5>
       <b-form-group>
         <b-form-checkbox v-model="settings.song.showTitle" switch>Afficher le titre</b-form-checkbox>
         <b-form-checkbox v-model="settings.song.showRating" switch>Afficher la cote</b-form-checkbox>
@@ -184,14 +184,41 @@
         <b-form-checkbox v-model="settings.song.showComposer" switch>Afficher le compositeur</b-form-checkbox>
         <b-form-checkbox v-model="settings.song.showPublisher" switch>Afficher l'éditeur</b-form-checkbox>
       </b-form-group>
-      <b-form-group label-cols-sm="2" label="Couplet caché" content-cols-sm="10" description="Marges à gauche et droite">
+      <h6>Couplet</h6>
+      <b-form-group label-cols-sm="2" label="Caché" content-cols-sm="10" description="Marges à gauche et droite">
         <b-form-input type="range" v-model="settings.song.verseOpacity" min="0" max="0.9" step="0.01"></b-form-input>
         <template #description>Change la transparence des couplets et traductions quand ils sont cachés à {{ settings.song.verseOpacity }} sur 1 (0 = totalement invisible)</template>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Marge gauche" content-cols-sm="10">
+        <b-form-input type="range" v-model="settings.liveView.padding.verse.left" min="0" max="5" step="0.5"></b-form-input>
+        <template #description>Espace de {{ settings.liveView.padding.verse.left }} à gauche des couplets</template>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Marge bas" content-cols-sm="10">
+        <b-form-input type="range" v-model="settings.liveView.padding.verse.bottom" min="0" max="5" step="0.5"></b-form-input>
+        <template #description>Espace de {{ settings.liveView.padding.verse.bottom }} en bas des couplets</template>
+      </b-form-group>
+      <h6>Refrain</h6>
+      <b-form-group label-cols-sm="2" label="Marge gauche" content-cols-sm="10">
+        <b-form-input type="range" v-model="settings.liveView.padding.chorus.left" min="0" max="5" step="0.5"></b-form-input>
+        <template #description>Espace de {{ settings.liveView.padding.chorus.left }} à gauche des refrains</template>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Marge bas" content-cols-sm="10">
+        <b-form-input type="range" v-model="settings.liveView.padding.chorus.bottom" min="0" max="5" step="0.5"></b-form-input>
+        <template #description>Espace de {{ settings.liveView.padding.chorus.bottom }} en bas des refrains</template>
+      </b-form-group>
+      <h6>Traduction</h6>
+      <b-form-group label-cols-sm="2" label="Marge gauche" content-cols-sm="10">
+        <b-form-input type="range" v-model="settings.liveView.padding.translation.left" min="0" max="5" step="0.5"></b-form-input>
+        <template #description>Espace de {{ settings.liveView.padding.translation.left }} à gauche des traductions</template>
+      </b-form-group>
+      <b-form-group label-cols-sm="2" label="Marge bas" content-cols-sm="10">
+        <b-form-input type="range" v-model="settings.liveView.padding.translation.bottom" min="0" max="5" step="0.5"></b-form-input>
+        <template #description>Espace de {{ settings.liveView.padding.translation.bottom }} en bas des traductions</template>
       </b-form-group>
 
       <hr />
 
-      <h5>Recherche de partition</h5>
+      <h4>Recherche de partition</h4>
       <b-form-group>
         <b-form-checkbox v-model="settings.score.enabled" switch
           >Afficher les boutons :
@@ -215,7 +242,7 @@
 
       <hr />
 
-      <h5>Raccourcis clavier</h5>
+      <h4>Raccourcis clavier</h4>
       <b-form-group label-cols-sm="4" label="Suivant" content-cols-sm="8" description="Affiche l'élément suivant de la playlist">
         <b-form-input @keydown="manageKey" v-model="settings.shortcuts.playlistNext"></b-form-input>
       </b-form-group>

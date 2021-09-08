@@ -31,7 +31,8 @@
             :class="['song-part', lyrics.type, { show: lyrics.show, sticky: lyrics.sticky }]"
             :style="[
               lyrics.type == 'chorus' || lyrics.show ? '' : { opacity: settings.song.verseOpacity },
-              lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : ''
+              lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : '',
+              live ? paddingStyle(lyrics) : ''
             ]"
             @click="toggleLyrics(lyrics)"
             >{{ lyrics.text }}</div
@@ -180,6 +181,24 @@ export default {
       } else {
         return ""
       }
+    },
+    paddingStyle: function(lyrics) {
+      var styles = {}
+      switch (lyrics.type) {
+        case "verse":
+          styles.paddingLeft = this.settings.liveView.padding.verse.left + "em"
+          styles.paddingBottom = this.settings.liveView.padding.verse.bottom + "em"
+          break
+        case "chorus":
+          styles.paddingLeft = this.settings.liveView.padding.chorus.left + "em"
+          styles.paddingBottom = this.settings.liveView.padding.chorus.bottom + "em"
+          break
+        case "translation":
+          styles.paddingLeft = this.settings.liveView.padding.translation.left + "em"
+          styles.paddingBottom = this.settings.liveView.padding.translation.bottom + "em"
+          break
+      }
+      return styles
     },
     //actualise les éléments visibles ou non d'un chant
     handleScroll() {

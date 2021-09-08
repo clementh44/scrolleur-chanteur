@@ -29,7 +29,6 @@
 
 .song .chorus {
   font-weight: bold;
-  padding-bottom: 10px;
   font-size: 1.1em;
 }
 
@@ -40,7 +39,6 @@
 }
 
 .song .verse {
-  margin-bottom: 10px;
   opacity: 0.1;
   transition: opacity 1s;
   font-size: 1em;
@@ -49,7 +47,6 @@
 .translation {
   font-style: italic;
   font-size: smaller;
-  margin-left: 1em;
   font-weight: 100;
   font-size: 0.9em;
   transition: opacity 1s;

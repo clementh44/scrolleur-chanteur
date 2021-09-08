@@ -241,7 +241,7 @@ export default {
       search: "",
       paramOpened: false,
       settings: {
-        version: 20210225, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+        version: 20210908, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
         liveView: {
           viewThemes: [
             {
@@ -266,7 +266,21 @@ export default {
             text: "#000000",
             empty: "#FFFFFF"
           },
-          padding: 0,
+          padding: {
+            view: 0,
+            verse: {
+              left: 0,
+              bottom: 0.5
+            },
+            chorus: {
+              left: 0.5,
+              bottom: 0.5
+            },
+            translation: {
+              left: 1,
+              bottom: 0.5
+            }
+          },
           fontSize: 1,
           window: {
             height: 400,
