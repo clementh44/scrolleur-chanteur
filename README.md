@@ -1033,3 +1033,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Missa pro Europa) Agnus
   + Je suis votre painJe suis votre pain D159-3
 ```
+
+**08/09/2021 v4.14.2**
+```
+  mise à jour du sitemap
+  Corrections diverses
+  ajout des espaces insécables avec \u00a0 ? : ! « » (bis) (x3)
+```
