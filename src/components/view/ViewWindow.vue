@@ -16,6 +16,7 @@
   >
     <div :class="[live ? 'user-select-none' : '']">
       <transition name="fade" :duration="duration">
+        <!-- Type chant -->
         <div
           key="{{element.title}}"
           v-if="element.type == 'song'"
@@ -35,11 +36,12 @@
               live ? paddingStyle(lyrics) : ''
             ]"
             @click="toggleLyrics(lyrics)"
-            >{{ lyrics.text }}</div
-          >
+            v-html="lyrics.text"
+          ></div>
           <div id="invisible-part" v-if="live">&#8205;</div>
         </div>
 
+        <!-- Type texte -->
         <div
           key="text"
           v-else-if="element.type == 'text'"
@@ -47,14 +49,16 @@
           :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
         >
           <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
-          <div class="custom-text-body">{{ element.text }}</div>
+          <div class="custom-text-body" v-html="element.text"></div>
           <div id="invisible-part" class="custom-text-body" v-if="live">&#8205;</div>
         </div>
 
+        <!-- Type fichier -->
         <div key="file" v-else-if="element.type == 'file'" class="file">
           <img :src="element.file" :style="{ width: element.width + '%' }" />
         </div>
 
+        <!-- Type quadrillage -->
         <table v-else-if="element.type == 'grid'" id="screenTable">
           <tbody>
             <tr v-for="(line, index) in 10" :key="index">
@@ -63,6 +67,7 @@
           </tbody>
         </table>
 
+        <!-- Type erreur -->
         <div v-else-if="element.type == 'error'" class="alert alert-danger m-5" role="alert">
           <h4 class="alert-heading">Aucune donnée à afficher</h4>
           <hr />
@@ -70,6 +75,7 @@
         </div>
       </transition>
 
+      <!-- Type vide -->
       <div class="empty" :style="[{ background: settings.liveView.colors.empty }]" v-if="live"></div>
     </div>
   </div>

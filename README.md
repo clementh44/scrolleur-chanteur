@@ -1045,3 +1045,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Ajout de marges personnalisées (à gauche et en bas des couplets, refrains et traductions)
 ```
+
+**27/09/2021 v4.16.0**
+```
+  Modification de l'affichage de texte (chant ou texte personnalisé) pour pouvoir afficher du format html (modification de la base de données pour retours à la ligne et espaces insécables)
+```
