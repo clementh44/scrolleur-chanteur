@@ -1050,3 +1050,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Modification de l'affichage de texte (chant ou texte personnalisé) pour pouvoir afficher du format html (modification de la base de données pour retours à la ligne et espaces insécables)
 ```
+
+**07/10/2021 v4.17.0**
+```
+  Ajout d'un éditeur plus poussé (tiptap.dev) pour le texte personnalisable
+```

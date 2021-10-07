@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Barre d'actions -->
     <b-button-toolbar class="mb-3">
       <b-button-group class="mr-3">
         <b-button @click="display({ type: 'grid' })" variant="secondary" title="Quadrillage d'aide au cadrage de la projection">
@@ -36,6 +37,7 @@
       </b-button-group>
     </b-button-toolbar>
 
+    <!-- Editeur -->
     <transition name="edition">
       <b-card border-variant="secondary" class="d-flex mb-3" v-if="isEdited" ref="playlistEditionRef" no-body>
         <b-card-header header-tag="h5">Édition d'un élément</b-card-header>
@@ -49,7 +51,7 @@
                 <b-form-checkbox v-model="editedElement.isTitleDisplayed" switch>Afficher le titre dans la présentation (<font-awesome-icon :icon="'desktop'"></font-awesome-icon>)</b-form-checkbox>
               </b-form-group>
               <b-form-group label="Corps du texte">
-                <b-form-textarea @keydown.stop id="custom-text-body" name="content" rows="10" v-model="editedElement.text"></b-form-textarea>
+                <editor v-model="editedElement.text" />
               </b-form-group>
             </b-form>
             <b-form v-if="editedElement.type == 'file'">
@@ -66,6 +68,7 @@
       </b-card>
     </transition>
 
+    <!-- Playlist vide -->
     <b-list-group>
       <b-list-group-item v-if="listLocal.length == 0">
         <strong>La playlist est vide</strong><br />
@@ -76,6 +79,7 @@
       </b-list-group-item>
     </b-list-group>
 
+    <!-- Playlist -->
     <draggable v-model="listLocal" handle=".handle" tag="b-list-group" @start="onStart" @end="onEnd" v-bind="dragOptions">
       <transition-group type="transition" :name="!drag ? 'flip-list' : null">
         <b-list-group-item v-for="(element, index) in listLocal" :key="index">
@@ -149,6 +153,7 @@
       </transition-group>
     </draggable>
 
+    <!-- Composant pour annuler la suppression d'un élément -->
     <Undo ref="deleteElement" @restoreElement="addElement($event)"></Undo>
   </div>
 </template>
@@ -157,6 +162,7 @@
 import draggable from "vuedraggable"
 import ElementActions from "./ElementActions"
 import Undo from "./Undo"
+import Editor from "./Editor.vue"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faSquare, faEdit, faClone, faEyeSlash } from "@fortawesome/free-regular-svg-icons"
 import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus } from "@fortawesome/free-solid-svg-icons"
@@ -186,7 +192,8 @@ export default {
   components: {
     draggable,
     ElementActions,
-    Undo
+    Undo,
+    Editor
   },
   computed: {
     listLocal: {
