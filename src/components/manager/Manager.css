@@ -13,3 +13,9 @@
 .fa-desktop {
   color: var(--indigo);
 }
+
+.missel-card-title {
+  color: #8f713d;
+  font-weight: bold;
+  font-family: serif;
+}

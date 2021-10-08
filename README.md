@@ -93,6 +93,16 @@ Les chants ajoutés dans la version 4 ne seront peut-être pas dans cette versio
 
 si plusieurs messes ont les mêmes paroles, juste modifier l'id et le titre en ajoutant le nom de la messe
 
+- **Missel** (pour ajouter un texte)
+  - l'identifiant commence par
+    - 1xx = Rites initiaux
+      - 11x = Salutation
+      - 12x = Acte pénitentiel
+      - 13x = Gloire à Dieu
+    - 2xx = Liturgie de la Parole
+    - 3xx = Liturgie de l'Eucharistie
+    - 4xx = Rite de communion
+
 ## Changelog
 ### *** v1.0 ***
 
@@ -1054,4 +1064,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **07/10/2021 v4.17.0**
 ```
   Ajout d'un éditeur plus poussé (tiptap.dev) pour le texte personnalisable
+```
+
+**07/10/2021 v4.18.0**
+```
+  Aide pour l'assemblée avec la nouvelle traduction du Missel Romain en français appliquée au premier dimanche de l'avent le dimanche 28 novembre 2021
 ```

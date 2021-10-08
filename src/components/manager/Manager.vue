@@ -36,6 +36,18 @@
       </SideBox>
 
       <div class="col">
+        <!-- Information Missel -->
+        <b-alert show variant="info" dismissible fade class="mt-3">
+          <p><strong>Nouveau !</strong> Aide à destination des fidèles pour la nouvelle traduction du Missel Romain. (voir après le Répertoire)</p>
+          <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Signaler des erreurs, suggestions ou manques.</a></p>
+          <p>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank" rel="noopener"
+              ><strong>Soutenir</strong> ce site et son développement. Merci !</a
+            >
+          </p>
+          <small>Version {{ version }}</small>
+        </b-alert>
+
         <!-- Aide -->
         <b-alert variant="success" :show="settings.help" @dismissed="settings.help = false" dismissible fade class="mt-3">
           <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">Scrolleur-Chanteur</a></strong>
@@ -70,7 +82,7 @@
           <p>
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank" rel="noopener"
               ><strong>Soutenir</strong> ce site et son développement. Merci !</a
-            >.
+            >
           </p>
           <p> <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>. </p>
           <p>
@@ -186,11 +198,64 @@
                         @search-score="searchScore($event.title, $event.query)"
                       >
                         <template v-slot:end>
-                          <b-button variant="light" @click="addSong(data.item)" title="Ajouter dans la playlist">
+                          <b-button variant="light" @click="addElement(data.item)" title="Ajouter dans la playlist">
                             <font-awesome-icon :icon="'plus'"></font-awesome-icon>
                           </b-button>
                           <b-button variant="light" :to="{ name: 'song', params: { id: data.item.id } }" target="_blank" title="Ouvrir les paroles dans une fenêtre externe">
                             <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
+                          </b-button>
+                        </template>
+                      </ElementActions>
+                    </div>
+                  </template>
+                </b-table>
+              </div>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+
+        <!-- Missel Romain -->
+        <b-card class="mb-3" no-body border-variant="warning">
+          <b-card-header id="missel-header" class="text-decoration-none d-flex justify-content-between missel-card-title" data-toggle="collapse" header-tag="h3" v-b-toggle.collapse-missel>
+            Missel Romain
+            <font-awesome-icon class="pull-right when-open" :icon="'chevron-up'"></font-awesome-icon>
+            <font-awesome-icon class="pull-right when-closed" :icon="'chevron-down'"></font-awesome-icon>
+          </b-card-header>
+          <b-collapse id="collapse-missel" visible>
+            <b-card-body>
+              <div class="mb-3">Aide à destination des fidèles pour la <strong>nouvelle traduction du Missel Romain</strong> appliquée à partir du premier dimanche de l'avent 2021 (28/11/2021)</div>
+              <b-form-group>
+                <b-input-group>
+                  <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher..." v-debounce="searchMissel" @click="$event.target.select()"></b-form-input>
+                </b-input-group>
+              </b-form-group>
+              <div>
+                <b-pagination
+                  v-model="filteredMisselCurrentPage"
+                  :total-rows="filteredMisselItem"
+                  :per-page="filteredMisselPerPage"
+                  first-number
+                  last-number
+                  align="center"
+                  aria-controls="filtered-missel"
+                ></b-pagination>
+
+                <b-table
+                  id="filtered-missel"
+                  :items="filteredMissel"
+                  :per-page="filteredMisselPerPage"
+                  :current-page="filteredMisselCurrentPage"
+                  :fields="[{ key: 'item', label: '' }]"
+                  :bordered="true"
+                  thead-class="d-none"
+                >
+                  <template #cell(item)="data">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-grow-1">{{ data.item.title }}</div>
+                      <ElementActions :element="Object.assign({ type: 'text' }, data.item)" :settings="settings" @preview="previewElement($event)">
+                        <template v-slot:end>
+                          <b-button variant="light" @click="addElement(data.item)" title="Ajouter dans la playlist">
+                            <font-awesome-icon :icon="'plus'"></font-awesome-icon>
                           </b-button>
                         </template>
                       </ElementActions>
@@ -208,6 +273,7 @@
 
 <script>
 import Chants from "../../chants.json"
+import Missel from "../../misselRomain.json"
 import WindowPortal from "../WindowPortal"
 import ViewWindow from "../view/ViewWindow"
 import SideBox from "../sideBox/SideBox"
@@ -227,6 +293,7 @@ export default {
     return {
       version: process.env.VUE_APP_VERSION,
       songs: Chants,
+      missel: Missel,
       secliAccepted: false,
       currentElementIndex: -1,
       viewBody: { type: "empty" },
@@ -239,6 +306,13 @@ export default {
         { key: "actions", label: "Actions" }
       ],
       search: "",
+      filteredMisselPerPage: 10,
+      filteredMisselCurrentPage: 1,
+      filteredMisselHeader: [
+        { key: "title", label: "Titre" },
+        { key: "actions", label: "Actions" }
+      ],
+      searchMisselText: "",
       paramOpened: false,
       settings: {
         version: 20210908, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
@@ -435,9 +509,9 @@ export default {
       }
     },
     // PLAYLIST
-    addSong: function(song) {
-      if (!this.playlist.find((element) => element.id == song.id)) {
-        this.playlist.push(song)
+    addElement: function(el) {
+      if (!this.playlist.find((element) => element.id == el.id)) {
+        this.playlist.push(el)
       }
     },
     // PARTITION
@@ -450,6 +524,9 @@ export default {
     // fonction pour le debounce de la recherche d'un titre
     searchSong: function(title) {
       this.search = title
+    },
+    searchMissel: function(title) {
+      this.searchMisselText = title
     },
 
     // AUTRE
@@ -524,6 +601,23 @@ export default {
     },
     filteredSongsItem() {
       return this.filteredSongs.length
+    },
+    filteredMissel: function() {
+      if (this.searchMisselText == "") {
+        return this.missel
+      }
+      return this.missel.filter((text) => {
+        // normalise le terme recherché (sans accents, minuscule)
+        return this.searchMisselText
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f,']/g, "")
+          .toLowerCase()
+          .split(" ")
+          .every((s) => text.id.includes(s))
+      })
+    },
+    filteredMisselItem() {
+      return this.filteredMissel.length
     }
   },
   beforeMount() {
@@ -567,6 +661,15 @@ export default {
       })
     })
     this.songs.sort(function(a, b) {
+      return a.id.localeCompare(b.id)
+    })
+
+    //tri et préparation du Missel
+    this.missel.forEach((element) => {
+      this.$set(element, "type", "text")
+      this.$set(element, "isTitleDisplayed", false)
+    })
+    this.missel.sort(function(a, b) {
       return a.id.localeCompare(b.id)
     })
   },
