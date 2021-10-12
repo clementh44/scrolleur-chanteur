@@ -1070,3 +1070,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Aide pour l'assemblée avec la nouvelle traduction du Missel Romain en français appliquée au premier dimanche de l'avent le dimanche 28 novembre 2021
 ```
+
+**12/10/2021 v4.18.1**
+```
+  Amélioration du SiteMap pour un meilleur référencement sur le long terme
+    Supprimer le sitemap existant (le copier)
+    npm run sitemap
+    Coller les éléments les plus récents dans l'ancien sitemap (page principale et nouveaux chants)
+```
