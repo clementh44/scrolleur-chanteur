@@ -15,7 +15,6 @@ export const routes = [
   {
     path: "/song/:id",
     name: "song",
-    lastmod: new Date().toISOString().slice(0, 10),
     component: () => import(/* webpackChunkName: "song" */ "./components/view/ViewSong.vue"),
     meta: {
       sitemap: {
@@ -33,7 +32,7 @@ function getSitemapInfo() {
     ids.push({
       id: song.id,
       lastmod: new Date().toISOString().slice(0, 10),
-	  changefreq: "monthly"
+      changefreq: "monthly"
     })
   )
   return ids
