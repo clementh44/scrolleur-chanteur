@@ -1081,6 +1081,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
 **13/10/2021 v4.18.2**
 ```
+  + Nous voici, Église notre mère (Fratello 2016)
+
   quelques corrections
     id de chants (Messe du partage, Je crois en un seul Dieu, Je suis votre pain)
     détails pour Missel Romain

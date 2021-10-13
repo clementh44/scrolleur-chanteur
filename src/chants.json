@@ -1,5 +1,44 @@
 [
   {
+    "id": "nous-voici-eglise-notre-mere-fratello-2006",
+    "title": "Nous voici, Église notre mère (Fratello 2016)",
+    "composer": "A-S Rahm",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Nous voici, Église notre Mère,\nNous tes enfants, tes pauvres, ton trésor.\nPorte sainte, accueillant tous les hommes,\ntu nous donnes ta seule richesse :\nJésus au milieu de nous !"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Toi qui nous invites à franchir la Porte\ndu pardon et du Salut,\naide-nous à croire à la miséricorde,\nà revenir à Jésus !"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Toi la Porte sainte toujours grande ouverte,\nla mère prête à consoler,\nnous te déposons nos fardeaux et nos peines,\nconfie-les au Bon Berger."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Toi qui nous rappelles que Jésus se tient\nà la porte de nos cœurs,\naide-nous à croire qu'il peut tout transformer\ns'il fait en nous sa demeure."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Toi qui nous appelles à être des frères,\nà rechercher l’unité,\nfais-nous devenir gardiens les uns des autres,\nconduis nos pas vers la paix."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Toi qui nous invites à suivre Jésus,\nattaché nu à la croix,\ndans le dénuement, garde nos yeux fixés\nsur Jésus ressuscité."
+      },
+      {
+        "type": "verse",
+        "text": "6 -  Toi qui manifestes au milieu du monde\nle visage du Dieu-Amour,\nallume en nos cœurs le feu de l'Esprit Saint,\nqu'il fasse de nous des témoins!"
+      },
+      {
+        "type": "chorus",
+        "text": "PONT\nJésus au milieu de nous,\nJésus au milieu de nous."
+      }
+    ]
+  },
+  {
     "id": "je-suis-votre-pain",
     "title": "Je suis votre pain",
     "rating": "D159-3",
