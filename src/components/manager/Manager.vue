@@ -38,7 +38,10 @@
       <div class="col">
         <!-- Information Missel -->
         <b-alert show variant="info" dismissible fade class="mt-3">
-          <p><strong>Nouveau !</strong> Aide à destination des fidèles pour la nouvelle traduction du Missel Romain. (voir après le Répertoire)</p>
+          <p
+            ><strong>Nouveau !</strong> Aide à destination des fidèles pour la nouvelle traduction française du Missel Romain. (voir après le Répertoire)<br />
+            Prières aucharistiques, réponses de l'assemblée, mise en évidence des modifications etc... Tout est prêt pour découvrir les textes de la liturgie pour l'avent 2021 !</p
+          >
           <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Signaler des erreurs, suggestions ou manques.</a></p>
           <p>
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank" rel="noopener"
@@ -64,9 +67,13 @@
             pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyez sur F11 pour mettre en plein écran).
           </p>
           <p>
-            La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec <font-awesome-icon :icon="'plus'"></font-awesome-icon> depuis le <strong>Répertoire</strong>) ; un
-            contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une
-            image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
+            La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec
+            <b-iconstack variant="success">
+              <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
+              <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
+            </b-iconstack>
+            depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec
+            <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
           </p>
           <p> Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
           <p>
@@ -126,8 +133,8 @@
 
         <!-- Playlist -->
         <b-card class="mb-3" no-body>
-          <b-card-header id="playlist-header" class="text-decoration-none d-flex justify-content-between" header-tag="h3" v-b-toggle.collapse-playlist>
-            Playlist
+          <b-card-header id="playlist-header" class="text-decoration-none d-flex justify-content-between" header-text-variant="success" header-tag="h3" v-b-toggle.collapse-playlist>
+            <div><b-icon icon="music-note-list"></b-icon> Playlist</div>
             <font-awesome-icon class="pull-right when-open" :icon="'chevron-up'"></font-awesome-icon>
             <font-awesome-icon class="pull-right when-closed" :icon="'chevron-down'"></font-awesome-icon>
           </b-card-header>
@@ -199,7 +206,10 @@
                       >
                         <template v-slot:end>
                           <b-button variant="light" @click="addElement(data.item)" title="Ajouter dans la playlist">
-                            <font-awesome-icon :icon="'plus'"></font-awesome-icon>
+                            <b-iconstack variant="success">
+                              <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
+                              <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
+                            </b-iconstack>
                           </b-button>
                           <b-button variant="light" :to="{ name: 'song', params: { id: data.item.id } }" target="_blank" title="Ouvrir les paroles dans une fenêtre externe">
                             <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
@@ -255,7 +265,10 @@
                       <ElementActions :element="Object.assign({ type: 'text' }, data.item)" :settings="settings" @preview="previewElement($event)">
                         <template v-slot:end>
                           <b-button variant="light" @click="addElement(data.item)" title="Ajouter dans la playlist">
-                            <font-awesome-icon :icon="'plus'"></font-awesome-icon>
+                            <b-iconstack variant="success">
+                              <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
+                              <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
+                            </b-iconstack>
                           </b-button>
                         </template>
                       </ElementActions>
@@ -282,10 +295,10 @@ import Settings from "./Settings"
 import ElementActions from "./ElementActions"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faSquare } from "@fortawesome/free-regular-svg-icons"
-import { faPlus, faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
+import { faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGoogle } from "@fortawesome/free-brands-svg-icons"
 
-library.add(faSquare, faPlus, faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt, faGoogle)
+library.add(faSquare, faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt, faGoogle)
 
 export default {
   name: "Manager",
@@ -336,9 +349,9 @@ export default {
             }
           ],
           colors: {
-            background: "#FFFFFF",
-            text: "#000000",
-            empty: "#FFFFFF"
+            background: "#000000",
+            text: "#FFFFFF",
+            empty: "#000000"
           },
           padding: {
             view: 0,

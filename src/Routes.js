@@ -6,6 +6,7 @@ export const routes = [
     name: "home",
     component: () => import(/* webpackChunkName: "home" */ "./components/manager/Manager.vue"),
     meta: {
+      title: "Scolleur Chanteur",
       bodyClass: "bg-light",
       sitemap: {
         lastmod: new Date().toISOString().slice(0, 10)

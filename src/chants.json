@@ -1,7 +1,7 @@
 [
   {
-    "id": "je-suis-votre-painje-suis-votre-pain",
-    "title": "Je suis votre painJe suis votre pain",
+    "id": "je-suis-votre-pain",
+    "title": "Je suis votre pain",
     "rating": "D159-3",
     "publisher": "Lethielleux",
     "writer": "Jean Martin",
@@ -12764,8 +12764,8 @@
     ]
   },
   {
-    "id": "messe-4-je-crois-en-dieu-symbole-de-nicee",
-    "title": "Je crois en Dieu (Symbole de Nicée)",
+    "id": "messe-4-je-crois-en-un-seul-dieu-symbole-de-nicee-constantinople ",
+    "title": "Je crois en un seul Dieu (Symbole de Nicée-Constantinople)",
     "lyrics": [
       {
         "type": "verse",
@@ -13055,7 +13055,7 @@
   },
 
   {
-    "id": "messe-1-partage-kyrie",
+    "id": "messe-1-du-partage-kyrie",
     "title": "(Messe du Partage) Kyrie",
     "rating": "A23-08",
     "newrating": "AL23-08",
@@ -13092,7 +13092,7 @@
     ]
   },
   {
-    "id": "messe-5-partage-sanctus-saint-le-seigneur",
+    "id": "messe-5-du-partage-sanctus-saint-le-seigneur",
     "title": "(Messe du Partage) Sanctus",
     "rating": "AL173",
     "publisher": "Fleurus",
@@ -13114,7 +13114,7 @@
     ]
   },
   {
-    "id": "messe-6-partage-anamnese",
+    "id": "messe-6-du-partage-anamnese",
     "title": "(Messe du Partage) Anamnèse",
     "rating": "C23-10",
     "publisher": "Bayard-liturgie",
@@ -13132,7 +13132,7 @@
     ]
   },
   {
-    "id": "messe-partage-doxologie",
+    "id": "messe-du-partage-doxologie",
     "title": "(Messe du Partage) Doxologie",
     "rating": "AL23-11",
     "publisher": "Bayard-liturgie",
@@ -13166,7 +13166,7 @@
     ]
   },
   {
-    "id": "messe-7-partage-agneau-de-dieu-agnus",
+    "id": "messe-7-du-partage-agneau-de-dieu-agnus",
     "title": "(Messe du Partage) Agnus",
     "rating": "AL23-12",
     "publisher": "Bayard-liturgie",

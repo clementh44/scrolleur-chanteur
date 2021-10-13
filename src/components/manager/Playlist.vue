@@ -119,8 +119,7 @@
           <div v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
             <div class="p-2 border d-flex align-items-center lyrics-part-block" v-for="(lyricsBlock, index) in element.lyrics" :key="index">
               <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left:1px;" title="Partie visible dans la présentation"></div>
-              <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" :title="lyricsBlock.text">
-                {{ lyricsBlock.text }}
+              <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" :title="lyricsBlock.text" v-html="lyricsBlock.text">
               </div>
               <b-button-group>
                 <b-button variant="light" class="no-focus" @click="$emit('scroll-to-pos', { pos: index })" title="Afficher l'élément dans la présentation">

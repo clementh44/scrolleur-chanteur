@@ -57,6 +57,7 @@ export default {
       }, this.songId)
       if (this.element) {
         this.element.type = "song"
+        document.title = this.element.title + " - Scrolleur Chanteur"
       } else {
         this.element = {
           type: "error",

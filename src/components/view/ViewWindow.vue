@@ -20,7 +20,7 @@
         <div
           key="{{element.title}}"
           v-if="element.type == 'song'"
-          :class="['song', live ? 'px-' + settings.liveView.padding : '']"
+          :class="['song', live ? 'px-' + settings.liveView.padding.view : '']"
           :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
         >
           <div class="title mb-1" v-show="!live || settings.song.showTitle">{{ element.title }}</div>
@@ -45,7 +45,7 @@
         <div
           key="text"
           v-else-if="element.type == 'text'"
-          :class="['custom-text', live ? 'px-' + settings.liveView.padding : '']"
+          :class="['custom-text', live ? 'px-' + settings.liveView.padding.view : '']"
           :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
         >
           <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
