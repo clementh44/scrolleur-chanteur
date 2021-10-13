@@ -150,6 +150,7 @@
                 v-on:update-current-element-index="currentElementIndex = $event"
                 v-on:search-score="searchScore($event.title, $event.query)"
                 v-on:scroll-to-pos="$refs.liveWindow.scrollViewToPos($event.pos)"
+                v-on:display-and-scroll="$refs.liveWindow.displayAndScroll($event.pos)"
               ></Playlist>
             </b-card-body>
           </b-collapse>

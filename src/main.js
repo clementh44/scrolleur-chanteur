@@ -7,7 +7,7 @@ import { BootstrapVue, BootstrapVueIcons, BIconMusicNoteList, BIconPlus } from "
 import "bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome"
+import { FontAwesomeIcon, FontAwesomeLayers } from "@fortawesome/vue-fontawesome"
 import "vue-cookies"
 import vueDebounce from "vue-debounce"
 
@@ -21,6 +21,7 @@ Vue.component("BIconPlus", BIconPlus)
 Vue.use(require("vue-cookies"))
 
 Vue.component("font-awesome-icon", FontAwesomeIcon)
+Vue.component('font-awesome-layers', FontAwesomeLayers)
 
 Vue.use(vueDebounce)
 

@@ -119,9 +119,15 @@
           <div v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
             <div class="p-2 border d-flex align-items-center lyrics-part-block" v-for="(lyricsBlock, index) in element.lyrics" :key="index">
               <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left:1px;" title="Partie visible dans la présentation"></div>
-              <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" :title="lyricsBlock.text" v-html="lyricsBlock.text">
+              <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" style="height: 1.5rem" :title="lyricsBlock.text" v-html="lyricsBlock.text">
               </div>
               <b-button-group>
+                <b-button v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation'" variant="light" class="no-focus" @click="$emit('display-and-scroll', { pos: index })" title="Afficher ce couplet et cacher les autres">
+                  <font-awesome-layers>
+                    <font-awesome-icon :icon="'angle-double-down'" transform="left-5 up-4 shrink-2"></font-awesome-icon>
+                    <font-awesome-icon :icon="['far', 'eye']" transform="right-4 down-4 shrink-2"></font-awesome-icon>
+                  </font-awesome-layers>
+                </b-button>
                 <b-button variant="light" class="no-focus" @click="$emit('scroll-to-pos', { pos: index })" title="Afficher l'élément dans la présentation">
                   <font-awesome-icon :icon="'angle-double-down'"></font-awesome-icon>
                 </b-button>
@@ -163,10 +169,10 @@ import ElementActions from "./ElementActions"
 import Undo from "./Undo"
 import Editor from "./Editor.vue"
 import { library } from "@fortawesome/fontawesome-svg-core"
-import { faSquare, faEdit, faClone, faEyeSlash } from "@fortawesome/free-regular-svg-icons"
+import { faSquare, faEdit, faClone, faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons"
 import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus } from "@fortawesome/free-solid-svg-icons"
 
-library.add(faSquare, faEdit, faClone, faEyeSlash, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus)
+library.add(faSquare, faEdit, faClone, faEye, faEyeSlash, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus)
 
 export default {
   name: "Playlist",

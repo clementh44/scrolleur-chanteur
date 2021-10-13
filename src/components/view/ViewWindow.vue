@@ -322,6 +322,16 @@ export default {
         behavior: smooth ? "smooth" : "auto"
       })
     },
+    /* Cache tous les couplets et traductions */
+    hideAllVerses() {
+      this.element.lyrics.forEach((el) => {if(el.show) {el.show=false}})
+    },
+    /* Affiche l'élément à la position pos, y scroll et cache les autres éléments */
+    displayAndScroll(pos) {
+      this.hideAllVerses()
+      this.element.lyrics[pos].show = true
+      this.scrollViewToPos(pos)
+    },
     /* Scroll to the position in the song */
     scrollViewToPos(pos) {
       if (this.element.type == "song") {

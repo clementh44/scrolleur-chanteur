@@ -1084,10 +1084,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   quelques corrections
     id de chants (Messe du partage, Je crois en un seul Dieu, Je suis votre pain)
     détails pour Missel Romain
-    &nbsp; dans la playlist (v-html)
+    &nbsp; dans la playlist (v-html) puis mauvais affichage des parties d'un chant dans la playlist
     marge droite/gauche pour chants et texte personnalisé
     Style par défaut en blanc sur noir
 
   Ajout d'un style pour la playlist
   Personnalisation du titre pour les chants
+  Ajout d'un bouton pour rapidement aller vers un couplet, l'afficher et cacher tous les autres
 ```
