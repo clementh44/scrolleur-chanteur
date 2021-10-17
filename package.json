@@ -37,6 +37,7 @@
     "vue-body-class": "^3.0.2",
     "vue-cookies": "^1.7.4",
     "vue-debounce": "^2.6.0",
+    "vue-gtag": "^1.16.1",
     "vue-router": "^3.4.9",
     "vuedraggable": "^2.24.3"
   },

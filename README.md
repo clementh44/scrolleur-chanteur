@@ -1101,4 +1101,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout du fichier robot.txt
   Ajout lien dans le message d'annonce de la nouvelle traduction du missel romain
   Affichage d'une aide pour les boutons
+  Ajout de Google Analytics (essai peut-être temporaire) (plugin vue-gtag)
 ```

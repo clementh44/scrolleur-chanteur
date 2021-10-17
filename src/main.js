@@ -10,6 +10,7 @@ import "bootstrap-vue/dist/bootstrap-vue.css"
 import { FontAwesomeIcon, FontAwesomeLayers } from "@fortawesome/vue-fontawesome"
 import "vue-cookies"
 import vueDebounce from "vue-debounce"
+import VueGtag from "vue-gtag"
 
 Vue.use(VueRouter)
 
@@ -21,7 +22,7 @@ Vue.component("BIconPlus", BIconPlus)
 Vue.use(require("vue-cookies"))
 
 Vue.component("font-awesome-icon", FontAwesomeIcon)
-Vue.component('font-awesome-layers', FontAwesomeLayers)
+Vue.component("font-awesome-layers", FontAwesomeLayers)
 
 Vue.use(vueDebounce)
 
@@ -31,6 +32,8 @@ const router = new VueRouter({
   routes: Routes,
   mode: "history"
 })
+
+Vue.use(VueGtag, { config: { id: "G-JCLGZK4V9Y" }, router })
 
 const DEFAULT_TITLE = "Scrolleur Chanteur"
 const vueBodyClass = new VueBodyClass(Routes)
