@@ -85,7 +85,7 @@
         <b-list-group-item v-for="(element, index) in listLocal" :key="index">
           <div class="d-flex w-100 justify-content-between align-items-center">
             <div v-if="index == currentElementIndex" class="current-element-icon" style="left:-4px;" title="Elément actuellement dans la présentation"></div>
-            <div class="flex-grow-1">{{ element.title }} <b-img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" thumbnail rounded class="sc-file"/></div>
+            <div class="flex-grow-1"><span v-html="element.title"></span> <b-img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" thumbnail rounded class="sc-file"/></div>
 
             <ElementActions
               :element="element"
@@ -119,7 +119,7 @@
           <div v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
             <div class="p-2 border d-flex align-items-center lyrics-part-block" v-for="(lyricsBlock, index) in element.lyrics" :key="index">
               <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left:1px;" title="Partie visible dans la présentation"></div>
-              <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" style="height: 1.5rem" :title="lyricsBlock.text" v-html="lyricsBlock.text">
+              <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" style="height: 1.5rem" v-html="lyricsBlock.text">
               </div>
               <b-button-group>
                 <b-button v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation'" variant="light" class="no-focus" @click="$emit('display-and-scroll', { pos: index })" title="Afficher ce couplet et cacher les autres">

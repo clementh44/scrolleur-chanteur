@@ -39,7 +39,7 @@
         <!-- Information Missel -->
         <b-alert show variant="info" dismissible fade class="mt-3">
           <p
-            ><strong>Nouveau !</strong> Aide à destination des fidèles pour la nouvelle traduction française du Missel Romain. (voir après le Répertoire)<br />
+            ><strong>Nouveau !</strong> <a href="#missel-header">Aide à destination des fidèles pour la nouvelle traduction française du Missel Romain. (voir après le Répertoire)</a><br />
             Prières aucharistiques, réponses de l'assemblée, mise en évidence des modifications etc... Tout est prêt pour découvrir les textes de la liturgie pour l'avent 2021 !</p
           >
           <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Signaler des erreurs, suggestions ou manques.</a></p>
@@ -198,7 +198,7 @@
                 >
                   <template #cell(item)="data">
                     <div class="d-flex align-items-center">
-                      <div class="flex-grow-1">{{ data.item.title }}</div>
+                      <div class="flex-grow-1" v-html="data.item.title"></div>
                       <ElementActions
                         :element="Object.assign({ type: 'song' }, data.item)"
                         :settings="settings"

@@ -1094,3 +1094,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Personnalisation du titre pour les chants
   Ajout d'un bouton pour rapidement aller vers un couplet, l'afficher et cacher tous les autres
 ```
+
+**17/10/2021 v4.18.3**
+```
+  Correction de bug avec des espaces insécables
+  Ajout du fichier robot.txt
+  Ajout lien dans le message d'annonce de la nouvelle traduction du missel romain
+```

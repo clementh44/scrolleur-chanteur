@@ -23,8 +23,8 @@
           :class="['song', live ? 'px-' + settings.liveView.padding.view : '']"
           :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
         >
-          <div class="title mb-1" v-show="!live || settings.song.showTitle">{{ element.title }}</div>
-          <div class="secli" v-show="haveSecliToShow()">{{ getSecliString() }}</div>
+          <div class="title mb-1" v-show="!live || settings.song.showTitle" v-html="element.title"></div>
+          <div class="secli" v-show="haveSecliToShow()" v-html="getSecliString()"></div>
 
           <div
             v-for="(lyrics, index) in element.lyrics"
@@ -48,7 +48,7 @@
           :class="['custom-text', live ? 'px-' + settings.liveView.padding.view : '']"
           :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
         >
-          <div class="title" v-if="element.isTitleDisplayed">{{ element.title }}</div>
+          <div class="title" v-if="element.isTitleDisplayed" v-html="element.title"></div>
           <div class="custom-text-body" v-html="element.text"></div>
           <div id="invisible-part" class="custom-text-body" v-if="live">&#8205;</div>
         </div>
@@ -129,21 +129,21 @@ export default {
         if (array.length > 0) {
           array.push(" | ")
         }
-        array.push("Paroles : " + this.element.writer)
+        array.push("Paroles&nbsp;: " + this.element.writer)
       }
 
       if ((!this.live || this.settings.song.showComposer) && this.element.composer) {
         if (array.length > 0) {
           array.push(" | ")
         }
-        array.push("Musique : " + this.element.composer)
+        array.push("Musique&nbsp;: " + this.element.composer)
       }
 
       if ((!this.live || this.settings.song.showPublisher) && this.element.publisher) {
         if (array.length > 0) {
           array.push(" | ")
         }
-        array.push("Éditeur : " + this.element.publisher)
+        array.push("Éditeur&nbsp;: " + this.element.publisher)
       }
       return array
     },
