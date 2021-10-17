@@ -1100,4 +1100,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction de bug avec des espaces insécables
   Ajout du fichier robot.txt
   Ajout lien dans le message d'annonce de la nouvelle traduction du missel romain
+  Affichage d'une aide pour les boutons
 ```

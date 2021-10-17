@@ -11,6 +11,7 @@
             query: settings.score.query
           })
         "
+        v-b-tooltip.hover
         title="Rechercher la partition via le lien personnalisé"
       >
         <font-awesome-icon :icon="'file-pdf'"></font-awesome-icon>
@@ -23,6 +24,7 @@
             query: settings.score.googlePdf
           })
         "
+        v-b-tooltip.hover
         title="Rechercher en pdf sur google"
       >
         <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
@@ -35,12 +37,13 @@
             query: settings.score.youtube
           })
         "
+        v-b-tooltip.hover
         title="Rechercher sur youtube"
       >
         <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
       </b-button>
     </template>
-    <b-button variant="light" @click="$emit('preview', element)" title="Afficher dans la fenêtre d'aperçu">
+    <b-button variant="light" @click="$emit('preview', element)" v-b-tooltip.hover title="Afficher dans la fenêtre d'aperçu">
       <font-awesome-icon :icon="'eye'"></font-awesome-icon>
     </b-button>
 
