@@ -33,7 +33,7 @@ const router = new VueRouter({
   mode: "history"
 })
 
-Vue.use(VueGtag, { config: { id: "G-JCLGZK4V9Y" }, router })
+Vue.use(VueGtag, { config: { id: "G-JCLGZK4V9Y" } }, router)
 
 const DEFAULT_TITLE = "Scrolleur Chanteur"
 const vueBodyClass = new VueBodyClass(Routes)
