@@ -1103,3 +1103,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Affichage d'une aide pour les boutons
   Ajout de Google Analytics (essai peut-être temporaire) (plugin vue-gtag)
 ```
+
+**16/11/2021 v4.18.4**
+```
+  Personnalisation de la couleur des éléments modifiés pour la nouvelle traduction du Missel Romain
+```

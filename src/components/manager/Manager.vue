@@ -235,6 +235,17 @@
           <b-collapse id="collapse-missel" visible>
             <b-card-body>
               <div class="mb-3">Aide à destination des fidèles pour la <strong>nouvelle traduction du Missel Romain</strong> appliquée à partir du premier dimanche de l'avent 2021 (28/11/2021)</div>
+              <div class="mb-3"
+                >Il est possible de changer la couleur des élements modifiés
+                <b-dropdown text="Couleur">
+                  <b-dropdown-item @click="changeMisselColor('#FFFA70')">
+                    <span style="color:#FFFA70; background-color: #000;"><strong>Jaune</strong></span>
+                  </b-dropdown-item>
+                  <b-dropdown-item @click="changeMisselColor('#4DACFE')">
+                    <span style="color:#4DACFE;"><strong>Bleu</strong></span>
+                  </b-dropdown-item>
+                </b-dropdown>
+              </div>
               <b-form-group>
                 <b-input-group>
                   <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher..." v-debounce="searchMissel" @click="$event.target.select()"></b-form-input>
@@ -596,6 +607,11 @@ export default {
         }
       }
       return false
+    },
+    changeMisselColor: function(newColor) {
+      this.missel.forEach((element) => {
+        this.$set(element, "text", element.text.replaceAll(/#....../g, newColor))
+      })
     }
   },
   computed: {
