@@ -87,7 +87,7 @@
     {
         "id": "304-liturgie-de-leucharistie-priere-sur-les-offrandes-developpee-priez-freres-et-soeurs",
         "title": "[Liturgie de l'Eucharistie] Prière sur les offrandes (développée) Priez, frères et sœurs",
-        "text": "<p><em><span style='color: #FFFA70'>Priez, frères et sœurs&nbsp;:</span><br><span style='color: #FFFA70'>que mon sacrifice, et le vôtre,</span><br><span style='color: #FFFA70'>soit agréable à Dieu le Père tout-puissant.</span></em></p><p><strong><span style='color: #FFFA70'>R/. Que le Seigneur reçoive de vos mains ce sacrifice</span></strong><br><strong><span style='color: #FFFA70'>à la louange et à la gloire de son nom,</span></strong><br><strong><span style='color: #FFFA70'>pour notre bien et celui de toute l’Église.</span></strong></p>"
+        "text": "<p><em><span style='color: #FFFA70'>Priez, frères et sœurs&nbsp;:</span><br><span style='color: #FFFA70'>que mon sacrifice, qui est aussi le vôtre,</span><br><span style='color: #FFFA70'>soit agréable à Dieu le Père tout-puissant.</span></em></p><p><strong><span style='color: #FFFA70'>R/. Que le Seigneur reçoive de vos mains ce sacrifice</span></strong><br><strong><span style='color: #FFFA70'>à la louange et à la gloire de son nom,</span></strong><br><strong><span style='color: #FFFA70'>pour notre bien et celui de toute l’Église.</span></strong></p>"
     },
     {
         "id": "305-liturgie-de-leucharistie-priere-eucharistique-le-seigneur-soit-avec-vous",
@@ -132,6 +132,31 @@
     {
         "id": "404-rite-de-communion-voici-lagneau-de-dieu",
         "title": "[Rite de Communion] Voici l'Agneau de Dieu...",
-        "text": "<p><em>Voici l’Agneau de Dieu,</em><br><em>voici celui qui enlève <span style='color: #FFFA70'>les péchés</span> du monde.</em><br><em><span style='color: #FFFA70'>Heureux les invités au repas des noces de l’Agneau&nbsp;!</span></em></p><p><strong>Saigneur, je ne suis pas digne de te recevoir&nbsp;;</strong><br><strong>mais dis seulement une parole,</strong><br><strong>et je serai guéri.</strong></p>"
+        "text": "<p><em>Voici l’Agneau de Dieu,</em><br><em>voici celui qui enlève <span style='color: #FFFA70'>les péchés</span> du monde.</em><br><em><span style='color: #FFFA70'>Heureux les invités au repas des noces de l’Agneau&nbsp;!</span></em></p><p><strong>Seigneur, je ne suis pas digne de te recevoir&nbsp;;</strong><br><strong>mais dis seulement une parole,</strong><br><strong>et je serai guéri.</strong></p>"
+    },
+    {
+        "id": "501-rite-de-conclusion-benediction-le-seigneur-soit-avec-vous",
+        "title": "[Rite de conclusion] (Bénédiction) Le Seigneur soit avec vous.",
+        "text": "<p><em>Le Seigneur soit avec vous.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p><p><em>Que Dieu tout-puissant vous bénisse, le Père, et le Fils, † et le Saint-Esprit.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Amen.</strong></p>"
+    },
+    {
+        "id": "502-rite-de-conclusion-envoi-allez-dans-la-paix-du-christ",
+        "title": "[Rite de conclusion] (Envoi) Allez, dans la paix du Christ",
+        "text": "<p><em>Allez, dans la paix du Christ</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    },
+    {
+        "id": "503-rite-de-conclusion-envoi-allez-porter-levangile-du-seigneur",
+        "title": "[Rite de conclusion] (Envoi) Allez porter l'Evangile du Seigneur",
+        "text": "<p><span style='color: #FFFA70'><em>Allez porter l'Evangile du Seigneur.</em></span></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    },
+    {
+        "id": "504-rite-de-conclusion-envoi-allez-en-paix-glorifiez-le-seigneur-par-votre-vie",
+        "title": "[Rite de conclusion] (Envoi) Allez en paix, glorifiez le Seigneur par votre vie",
+        "text": "<p><span style='color: #FFFA70'><em>Allez en paix, glorifiez le Seigneur par votre vie.</em></span></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    },
+    {
+        "id": "505-rite-de-conclusion-envoi-allez-en-paix",
+        "title": "[Rite de conclusion] (Envoi) Allez en paix",
+        "text": "<p><span style='color: #FFFA70'><em>Allez en paix.</em></span></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
     }
 ]

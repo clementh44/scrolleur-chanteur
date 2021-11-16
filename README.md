@@ -102,6 +102,7 @@ si plusieurs messes ont les mêmes paroles, juste modifier l'id et le titre en a
     - 2xx = Liturgie de la Parole
     - 3xx = Liturgie de l'Eucharistie
     - 4xx = Rite de communion
+    - 5xx = Rite de conclusion
 
 ## Changelog
 ### *** v1.0 ***
@@ -1106,5 +1107,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
 **16/11/2021 v4.18.4**
 ```
-  Personnalisation de la couleur des éléments modifiés pour la nouvelle traduction du Missel Romain
+  Nouvelle traduction du Missel Romain :
+    Personnalisation de la couleur des éléments modifiés
+    Corrections
+    Ajout du rite de conclusion
+    Ajout d'un lien vers une aide
 ```

@@ -234,7 +234,12 @@
           </b-card-header>
           <b-collapse id="collapse-missel" visible>
             <b-card-body>
-              <div class="mb-3">Aide à destination des fidèles pour la <strong>nouvelle traduction du Missel Romain</strong> appliquée à partir du premier dimanche de l'avent 2021 (28/11/2021)</div>
+              <div class="mb-3">
+                Aide à destination des fidèles pour la <strong>nouvelle traduction du Missel Romain</strong> appliquée à partir du premier dimanche de l'avent 2021 (28/11/2021)<br />
+                <a href="https://docs.google.com/document/d/18QE7Okgjws0reUaglACkB8djVEE9dCwaDcs8OZQuUcs/edit?usp=sharing" target="_blank" rel="noopener"
+                  >Aide à propos du déroulement d'une liturgie de l'eucharistie.</a
+                >
+              </div>
               <div class="mb-3"
                 >Il est possible de changer la couleur des élements modifiés
                 <b-dropdown text="Couleur">
