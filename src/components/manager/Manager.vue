@@ -49,52 +49,52 @@
                 <ul class="card-text">
                   <li
                     >Messe de Sylvanes : <a href="/song/messe-1-de-sylvanes-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
-                    <a href="/song/messe-2-de-sylvanes-gloire-a-dieu-gloria">Gloria</a>, <a href="/song/messe-7-de-sylvanes-agneau-de-dieu-agnus">agneau de Dieu</a>,
-                    <a href="/song/messe-6-de-sylvanes-anamnese">anamnèse</a></li
+                    <a href="/song/messe-2-de-sylvanes-gloire-a-dieu-gloria">Gloria</a>, <a href="/song/messe-7-de-sylvanes-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>,
+                    <a href="/song/messe-6-de-sylvanes-anamnese" target="_blank">anamnèse</a></li
                   >
                   <li
                     >Messe de l'Ermitage : <a href="/song/messe-1-de-lermitage-seigneur-prends-pitie-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
-                    <a href="/song/messe-7-de-lermitage-agneau-de-dieu-agnus">agneau de Dieu</a>, <a href="/song/messe-6-de-lermitage-anamnese">anamnèse</a></li
+                    <a href="/song/messe-7-de-lermitage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>, <a href="/song/messe-6-de-lermitage-anamnese" target="_blank">anamnèse</a></li
                   >
                   <li
                     >Messe de Saint-Paul : <a href="/song/messe-1-saint-paul-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
-                    <a href="/song/messe-2-saint-paul-gloria">Gloria</a></li
+                    <a href="/song/messe-2-saint-paul-gloria" target="_blank">Gloria</a></li
                   >
                   <li
                     >Messe Polyphonie pour un avenir :
                     <a href="/song/messe-1-polyphonie-pour-un-avenir-kyrie-nouvelle-traduction" target="_blank">proposition pour les versets de l'acte pénitentiel</a></li
                   >
-                  <li>Messe Emmaüs : <a href="/song/messe-7-emmaus-agneau-de-dieu">agneau de Dieu</a></li>
+                  <li>Messe Emmaüs : <a href="/song/messe-7-emmaus-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
                   <li
-                    >Messe Saint Claude de la Colombière : <a href="/song/messe-2-claude-colombiere-gloria">Gloria</a>,
-                    <a href="/song/messe-7-claude-colombiere-agnus-agneau-de-dieu">agneau de Dieu</a></li
+                    >Messe Saint Claude de la Colombière : <a href="/song/messe-2-claude-colombiere-gloria" target="_blank">Gloria</a>,
+                    <a href="/song/messe-7-claude-colombiere-agnus-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
                   >
-                  <li>Messe du Partage : <a href="/song/messe-2-du-partage-gloire-a-dieu">Gloire à Dieu</a>, <a href="/song/messe-7-du-partage-agneau-de-dieu-agnus">agneau de Dieu</a></li>
+                  <li>Messe du Partage : <a href="/song/messe-2-du-partage-gloire-a-dieu" target="_blank">Gloire à Dieu</a>, <a href="/song/messe-7-du-partage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a></li>
                   <li
-                    >Messe Soleil des Nations : <a href="/song/messe-7-soleil-des-nations-agneau-de-dieu-agnus">agneau de Dieu</a>, <a href="/song/messe-6-soleil-des-nations-anamnese">anamnèse</a></li
+                    >Messe Soleil des Nations : <a href="/song/messe-7-soleil-des-nations-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>, <a href="/song/messe-6-soleil-des-nations-anamnese" target="_blank">anamnèse</a></li
                   >
-                  <li>Messe de la Trinité : <a href="/song/messe-2-trinite-gloire-a-dieu-gloria">Gloire à Dieu</a></li>
+                  <li>Messe de la Trinité : <a href="/song/messe-2-trinite-gloire-a-dieu-gloria" target="_blank">Gloire à Dieu</a></li>
                   <li
-                    >Messe de Saint François-Xavier : <a href="/song/messe-2-saint-francois-xavier-gloire-a-dieu-gloria">Gloire à Dieu</a>,
-                    <a href="/song/messe-7-de-saint-francois-xavier-agnus">agneau de Dieu</a></li
+                    >Messe de Saint François-Xavier : <a href="/song/messe-2-saint-francois-xavier-gloire-a-dieu-gloria" target="_blank">Gloire à Dieu</a>,
+                    <a href="/song/messe-7-de-saint-francois-xavier-agnus" target="_blank">agneau de Dieu</a></li
                   >
-                  <li>Messe de Lourdes : <a href="/song/messe-2-de-lourdes-gloria">Gloria</a>, <a href="/song/messe-7-de-lourdes-agneau-de-dieu">agneau de Dieu</a></li>
-                  <li>Messe Christus Vincit : <a href="/song/messe-2-christus-vincit-gloire-a-dieu">Gloire à Dieu</a>, <a href="/song/messe-christus-vincit-agneau-de-dieu">agneau de Dieu</a></li>
+                  <li>Messe de Lourdes : <a href="/song/messe-2-de-lourdes-gloria" target="_blank">Gloria</a>, <a href="/song/messe-7-de-lourdes-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
+                  <li>Messe Christus Vincit : <a href="/song/messe-2-christus-vincit-gloire-a-dieu" target="_blank">Gloire à Dieu</a>, <a href="/song/messe-christus-vincit-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
                   <li
-                    >Messe festive pour les dimanches du temps ordinaire (Isabelle Fontaine) : <a href="/song/messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu">Gloire à Dieu</a>,
-                    <a href="/song/messe-7-festive-pour-les-dimanches-du-temps-ordinaire-agneau-de-dieu">agneau de Dieu</a></li
+                    >Messe festive pour les dimanches du temps ordinaire (Isabelle Fontaine) : <a href="/song/messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                    <a href="/song/messe-7-festive-pour-les-dimanches-du-temps-ordinaire-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
                   >
-                  <li>Messe de Saint Jean : <a href="/song/messe-2-de-saint-jean-gloria">Gloria</a></li>
-                  <li>Messe de Saint Boniface : <a href="/song/messe-2-saint-boniface-gloria">Gloria</a></li>
-                  <li>Messe du Peuple de Dieu : <a href="/song/messe-2-du-peuple-de-dieu-gloria">Gloria</a>, <a href="/song/messe-7-du-peuple-de-dieu-agnus">agneau de Dieu</a></li>
+                  <li>Messe de Saint Jean : <a href="/song/messe-2-de-saint-jean-gloria" target="_blank">Gloria</a></li>
+                  <li>Messe de Saint Boniface : <a href="/song/messe-2-saint-boniface-gloria" target="_blank">Gloria</a></li>
+                  <li>Messe du Peuple de Dieu : <a href="/song/messe-2-du-peuple-de-dieu-gloria" target="_blank">Gloria</a>, <a href="/song/messe-7-du-peuple-de-dieu-agnus" target="_blank">agneau de Dieu</a></li>
                   <li
-                    >Messe de la Réconciliation : <a href="/song/messe-2-de-la-reconciliation-gloire-a-dieu">Gloire à Dieu</a>,
-                    <a href="/song/messe-7-de-la-reconciliation-agneau-de-dieu">agneau de Dieu</a></li
+                    >Messe de la Réconciliation : <a href="/song/messe-2-de-la-reconciliation-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                    <a href="/song/messe-7-de-la-reconciliation-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
                   >
-                  <li>Messe Que Tes Œuvres sont belles : <a href="/song/messe-6-que-tes-oeuvres-sont-belles-anamnese">anamnèse</a></li>
-                  <li><a href="/song/messe-7-agneau-de-dieu-mozart">Agneau de Dieu de Mozart</a></li>
-                  <li><a href="/song/gloire-a-dieu-pour-le-temps-de-noel">Gloire à Dieu pour le temps de Noël</a></li>
-                  <li><a href="/song/messe-6-jesus-messie-humilie">Anamnèse Jésus, Messie humilié</a></li>
+                  <li>Messe Que Tes Œuvres sont belles : <a href="/song/messe-6-que-tes-oeuvres-sont-belles-anamnese" target="_blank">anamnèse</a></li>
+                  <li><a href="/song/messe-7-agneau-de-dieu-mozart" target="_blank">Agneau de Dieu de Mozart</a></li>
+                  <li><a href="/song/gloire-a-dieu-pour-le-temps-de-noel" target="_blank">Gloire à Dieu pour le temps de Noël</a></li>
+                  <li><a href="/song/messe-6-jesus-messie-humilie" target="_blank">Anamnèse Jésus, Messie humilié</a></li>
                 </ul>
               </b-card>
             </b-collapse>
