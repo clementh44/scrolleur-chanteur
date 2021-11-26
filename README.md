@@ -1118,4 +1118,26 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **26/11/2021 v4.18.5**
 ```
   Ajout d'un lien direct vers la description de la dernière version
+  Modification des ordinaires de messe pour la nouvelle traduction du missel romain. Tout est prêt pour la projection !
+    Messe de Sylvanes : versets de l'acte pénitentiel, Gloria, agneau de Dieu, anamnèse
+    Messe de l'Ermitage : versets de l'acte pénitentiel, agneau de Dieu, anamnèse
+    Messe de Saint-Paul : versets de l'acte pénitentiel, Gloria
+    Messe Polyphonie pour un avenir : proposition pour les versets de l'acte pénitentiel
+    Messe Emmaüs : agneau de Dieu
+    Messe Saint Claude de la Colombière : Gloria, agneau de Dieu
+    Messe du Partage : Gloire à Dieu, agneau de Dieu
+    Messe Soleil des Nations : agneau de Dieu, anamnèse
+    Messe de la Trinité : Gloire à Dieu
+    Messe de Saint François-Xavier : Gloire à Dieu, agneau de Dieu
+    Messe de Lourdes : Gloria, agneau de Dieu
+    Messe Christus Vincit : Gloire à Dieu, agneau de Dieu
+    Messe festive pour les dimanches du temps ordinaire (Isabelle Fontaine) : Gloire à Dieu, agneau de Dieu
+    Messe de Saint Jean : Gloria
+    Messe de Saint Boniface : Gloria
+    Messe du Peuple de Dieu : Gloria, agneau de Dieu
+    Messe de la Réconciliation : Gloire à Dieu, agneau de Dieu
+    Messe Que Tes Œuvres sont belles : anamnèse
+    Agneau de Dieu de Mozart
+    Gloire à Dieu pour le temps de Noël
+    Anamnèse Jésus, Messie humilié
 ```
