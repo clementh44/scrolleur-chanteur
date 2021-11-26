@@ -40,7 +40,7 @@
         <b-alert show variant="info" dismissible fade class="mt-3">
           <p
             ><strong>Nouveau !</strong> <a href="#missel-header">Aide à destination des fidèles pour la nouvelle traduction française du Missel Romain. (voir après le Répertoire)</a><br />
-            Prières aucharistiques, réponses de l'assemblée, mise en évidence des modifications etc... Tout est prêt pour découvrir les textes de la liturgie pour l'avent 2021 !</p
+            Prières eucharistiques, réponses de l'assemblée, mise en évidence des modifications etc... Tout est prêt pour découvrir les textes de la liturgie pour l'avent 2021 !</p
           >
           <p>
             Depuis le 26 novembre, modification des ordinaires de messe. <b-button v-b-toggle.collapse-ordinaires variant="outline-primary" size="sm">Voir les ordinaires modifiés</b-button><br />
