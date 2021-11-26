@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://chantons.netlify.app</loc>
-		<lastmod>2021-10-13</lastmod>
+		<lastmod>2021-11-26</lastmod>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/nous-voici-eglise-notre-mere-fratello-2006</loc>
@@ -556,7 +556,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-6-jesus-messie-humilie</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2086,7 +2086,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-emmaus-agneau-de-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2096,7 +2096,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-claude-colombiere-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2111,7 +2111,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-claude-colombiere-agnus-agneau-de-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2121,7 +2121,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-du-partage-gloire-a-dieu</loc>
-		<lastmod>2021-10-13</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2141,17 +2141,22 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-du-partage-agneau-de-dieu-agnus</loc>
-		<lastmod>2021-10-13</lastmod>
+		<lastmod>2021-11-26</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-1-de-sylvanes-kyrie-nouvelle-traduction</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-1-de-sylvanes-kyrie</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-10-13</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-de-sylvanes-gloire-a-dieu-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2161,12 +2166,12 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-6-de-sylvanes-anamnese</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-de-sylvanes-agneau-de-dieu-agnus</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2191,12 +2196,17 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-6-soleil-des-nations-anamnese</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-soleil-des-nations-agneau-de-dieu-agnus</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-1-de-lermitage-seigneur-prends-pitie-kyrie-nouvelle-traduction</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2211,37 +2221,37 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-6-de-lermitage-anamnese</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-de-lermitage-agneau-de-dieu-agnus</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-1-de-la-trinite-seigneur-prends-pitie-kyrie</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>https://chantons.netlify.app/song/messe-2-trinite-gloire-a-dieu-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<loc>https://chantons.netlify.app/song/messe-2-de-la-trinite-gloire-a-dieu-gloria</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>https://chantons.netlify.app/song/messe-5-trinite-saint-le-seigneur-sanctus</loc>
-		<lastmod>2021-10-12</lastmod>
+		<loc>https://chantons.netlify.app/song/messe-5-de-la-trinite-saint-le-seigneur-sanctus</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>https://chantons.netlify.app/song/messe-6-trinite-anamnese</loc>
-		<lastmod>2021-10-12</lastmod>
+		<loc>https://chantons.netlify.app/song/messe-6-de-la-trinite-anamnese</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>https://chantons.netlify.app/song/messe-7-trinite-agneau-de-dieu-agnus</loc>
-		<lastmod>2021-10-12</lastmod>
+		<loc>https://chantons.netlify.app/song/messe-7-de-la-trinite-agneau-de-dieu-agnus</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2251,7 +2261,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-saint-francois-xavier-gloire-a-dieu-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2266,7 +2276,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-de-saint-francois-xavier-agnus</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2300,13 +2310,18 @@
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>https://chantons.netlify.app/song/messe-6-agneau-de-dieu-mozart</loc>
-		<lastmod>2021-10-12</lastmod>
+		<loc>https://chantons.netlify.app/song/messe-7-agneau-de-dieu-mozart</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/gloire-a-dieu-pour-le-temps-de-noel</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-1-saint-paul-kyrie-nouvelle-traduction</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2316,7 +2331,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-saint-paul-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2346,7 +2361,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-de-lourdes-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2356,12 +2371,12 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-de-lourdes-agneau-de-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-christus-vincit-agneau-de-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2376,7 +2391,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-christus-vincit-gloire-a-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2386,7 +2401,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-festive-pour-les-dimanches-du-temps-ordinaire-agneau-de-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2406,7 +2421,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2421,7 +2436,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-de-saint-jean-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2461,7 +2476,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-6-que-tes-oeuvres-sont-belles-anamnese</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2476,7 +2491,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-saint-boniface-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2506,7 +2521,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-du-peuple-de-dieu-gloria</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2521,7 +2536,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-du-peuple-de-dieu-agnus</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2531,7 +2546,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-de-la-reconciliation-gloire-a-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2546,7 +2561,7 @@
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-de-la-reconciliation-agneau-de-dieu</loc>
-		<lastmod>2021-10-12</lastmod>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -2572,6 +2587,11 @@
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-2-polyphonie-pour-un-avenir-gloire-a-dieu</loc>
 		<lastmod>2021-10-12</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-1-polyphonie-pour-un-avenir-kyrie-nouvelle-traduction</loc>
+		<lastmod>2021-11-26</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
