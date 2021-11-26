@@ -1,5 +1,151 @@
 [
   {
+    "id": "le-monde-ancien-sen-est-alle",
+    "title": "Le monde ancien s'en est allé",
+    "rating": "E135",
+    "newrating": "X894",
+    "publisher": "Mame (Le Chalet)",
+    "writer": "Gelineau J.",
+    "composer": "Gelineau J.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Le monde ancien s'en est allé,<br/>Un nouveau monde est déjà né&nbsp;:<br/>Nous attendons le jour de Dieu<br/>Qui transfigure terre et cieux."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Le monde ancien s'en est allé,<br/>Un nouveau monde est déjà né&nbsp;:<br/>Ne vois-tu pas le jour venir<br/>Et tous les arbres reverdir&nbsp;?"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Le monde ancien s'en est allé,<br/>Un nouveau monde est déjà né&nbsp;:<br/>Le Fils de l'Homme est revenu,<br/>Ressuscité, il ne meurt plus."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Le monde ancien s'en est allé,<br/>Un nouveau monde est déjà né&nbsp;:<br/>Il s'est levé le jour de Dieu<br/>Qui fait renaître terre et cieux."
+      }
+    ]
+  },
+  {
+    "id": "viens-pour-notre-attente",
+    "title": "Viens pour notre attente",
+    "rating": "E34",
+    "publisher": "Mame (Le Chalet)",
+    "writer": "Ombrie D.",
+    "composer": "Ombrie D.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Viens pour notre attente, ne tarde plus.<br/>Pour notre délivrance, viens, Seigneur Jésus&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Dans notre monde de détresse,<br/>Nous t’appelons, Seigneur Jésus&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - L’amour, plus fort que nos misères,<br/>Nous réunit, Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Dans notre angoisse, nos ténèbres,<br/>Nous te cherchons, Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Dans nos discordes qui te blessent,<br/>Nous t’implorons, Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Tu es venu chez nous en pauvre<br/>Pour nous sauver, Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Pour avoir fait de nous des frères,<br/>Nous te louons, Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Pour l’unité de ton Eglise,<br/>Nous te prions Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "8 - Nous voulons vivre ta parole,<br/>Unis en toi, Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "9 - Ta croix sera notre espérance<br/>Dans notre nuit, Seigneur Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "10 - Un jour enfin naîtra l’aurore,<br/>Nous te verrons, Seigneur Jésus."
+      }
+    ]
+  },
+  {
+    "id": "seigneur-venez",
+    "title": "Seigneur, venez",
+    "rating": "E20",
+    "publisher": "Le Seuil",
+    "writer": "Rimaud D.",
+    "composer": "Rimaud D.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Seigneur, venez, la terre est prête pour vous accueillir.<br/>Seigneur, venez, sur nos sillons le grain peut mûrir.<br/>Car toute chair attend le Verbe de Dieu.<br/>Qu’à notre désir enfin se rouvrent les cieux&nbsp;!"
+      },
+      {
+        "type": "chorus",
+        "text": "Mon Dieu, que votre règne vienne&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur, venez, le pain nous manque et nos âmes ont faim.<br/>Seigneur, venez, la table est mise pour le festin.<br/>Que votre Corps nous soit la force du jour,<br/>Que votre présence en nous ravive l’amour&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Seigneur, venez souffrir en nous les tourments de la mort&nbsp;!<br/>Seigneur, venez, porter le poids qui courbe nos corps.<br/>Que votre Croix se dresse et calme nos pleurs,<br/>Que votre regard bientôt dissipe nos peurs&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Seigneur, venez, le froid nous mord et la nuit est sans fin&nbsp;!<br/>Seigneur, venez, nos yeux espèrent votre matin.<br/>Que votre Paix se lève sur nos douleurs,<br/>Qu’au feu de l’Esprit renaisse un monde qui meurt&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "comme-un-ami",
+    "title": "Comme un ami",
+    "rating": "T58",
+    "newrating": "M534",
+    "publisher": "Fleurus",
+    "writer": "Duchesneau Cl.",
+    "composer": "Berthier J., Duchesneau Cl.",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Comme un ami à notre porte,<br/>Jésus se tient prêt à entrer.<br/>C'est son Royaume qu'il apporte&nbsp;:<br/>Ne risquons pas de le manquer.<br/>Si un voleur forçait nos portes,<br/>Nous saurions bien nous réveiller."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Comme un ami qui tient parole,<br/>Jésus revient nous visiter.<br/>Mais il l'a dit en parabole<br/>Et c'est pour nous réalité&nbsp;:<br/>Celui qui rode et qui nous vole<br/>Ne dit pas l'heure d'arrivée."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Comme un ami que l'on invite,<br/>Jésus viendra quand il voudra.<br/>La table mise dira vite<br/>S'il a sa place à nos repas.<br/>La nuit, son arrivée subite<br/>Viendra combler qui veillera."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Gardons nos lampes toujours prêtes<br/>Pour accueillir le visiteur.<br/>Quand il viendra tout sera fête.<br/>Comme est l'aurore à tout veilleur,<br/>Veillons comme on attend un maître<br/>Qui servira ses serviteurs."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Comme un ami qui tient parole,<br/>Jésus revient nous visiter.<br/>Mais il l'a dit en parabole<br/>Et c'est pour nous réalité&nbsp;:<br/>Celui qui rode et qui nous vole<br/>Ne dit pas l'heure d'arrivée."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Comme un ami que l'on invite,<br/>Jésus viendra quand il voudra.<br/>La table mise dira vite<br/>S'il a sa place à nos repas.<br/>La nuit, son arrivée subite<br/>Viendra combler qui veillera."
+      }
+    ]
+  },
+  {
     "id": "nous-voici-eglise-notre-mere-fratello-2006",
     "title": "Nous voici, Église notre mère (Fratello 2016)",
     "composer": "A-S Rahm",

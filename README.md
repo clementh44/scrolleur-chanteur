@@ -1117,6 +1117,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ##### Dernière version
 **26/11/2021 v4.18.5**
 ```
+  + Comme un ami T58 M534
+  + Seigneur, venez E20
+  + Viens pour notre attente E34
+  + Le monde ancien s'en est allé E135 X894
+
   Ajout d'un lien direct vers la description de la dernière version
   Modification des ordinaires de messe pour la nouvelle traduction du missel romain. Tout est prêt pour la projection !
     Messe de Sylvanes : versets de l'acte pénitentiel, Gloria, agneau de Dieu, anamnèse
