@@ -1113,3 +1113,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Ajout du rite de conclusion
     Ajout d'un lien vers une aide
 ```
+
+##### Dernière version
+**26/11/2021 v4.18.5**
+```
+  Ajout d'un lien direct vers la description de la dernière version
+```

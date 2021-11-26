@@ -268,7 +268,7 @@
 
     <hr />
 
-    <p class="text-muted"> Scrolleur-Chanteur version {{ version }} (<a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">GitHub</a>)</p>
+    <p class="text-muted"> Scrolleur-Chanteur version {{ version }} (<a href="https://github.com/clementh44/scrolleur-chanteur#dernière-version" target="_blank" rel="noopener">GitHub</a>)</p>
   </div>
 </template>
 

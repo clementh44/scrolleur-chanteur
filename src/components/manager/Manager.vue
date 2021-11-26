@@ -48,12 +48,16 @@
               ><strong>Soutenir</strong> ce site et son développement. Merci !</a
             >
           </p>
-          <small>Version {{ version }}</small>
+          <small
+            ><a href="https://github.com/clementh44/scrolleur-chanteur#dernière-version" target="_blank">Version {{ version }}</a></small
+          >
         </b-alert>
 
         <!-- Aide -->
         <b-alert variant="success" :show="settings.help" @dismissed="settings.help = false" dismissible fade class="mt-3">
-          <strong>Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur" target="_blank" rel="noopener">Scrolleur-Chanteur</a></strong>
+          <strong
+            >Bienvenue dans cette version {{ version }} du <a href="https://github.com/clementh44/scrolleur-chanteur#dernière-version" target="_blank" rel="noopener">Scrolleur-Chanteur</a></strong
+          >
           <p>
             Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à
             l'ordinateur.
