@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://chantons.netlify.app/sitemap.xml
