@@ -69,9 +69,13 @@
                     >Messe Saint Claude de la Colombière : <a href="/song/messe-2-claude-colombiere-gloria" target="_blank">Gloria</a>,
                     <a href="/song/messe-7-claude-colombiere-agnus-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
                   >
-                  <li>Messe du Partage : <a href="/song/messe-2-du-partage-gloire-a-dieu" target="_blank">Gloire à Dieu</a>, <a href="/song/messe-7-du-partage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a></li>
                   <li
-                    >Messe Soleil des Nations : <a href="/song/messe-7-soleil-des-nations-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>, <a href="/song/messe-6-soleil-des-nations-anamnese" target="_blank">anamnèse</a></li
+                    >Messe du Partage : <a href="/song/messe-2-du-partage-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                    <a href="/song/messe-7-du-partage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a></li
+                  >
+                  <li
+                    >Messe Soleil des Nations : <a href="/song/messe-7-soleil-des-nations-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>,
+                    <a href="/song/messe-6-soleil-des-nations-anamnese" target="_blank">anamnèse</a></li
                   >
                   <li>Messe de la Trinité : <a href="/song/messe-2-trinite-gloire-a-dieu-gloria" target="_blank">Gloire à Dieu</a></li>
                   <li
@@ -79,14 +83,21 @@
                     <a href="/song/messe-7-de-saint-francois-xavier-agnus" target="_blank">agneau de Dieu</a></li
                   >
                   <li>Messe de Lourdes : <a href="/song/messe-2-de-lourdes-gloria" target="_blank">Gloria</a>, <a href="/song/messe-7-de-lourdes-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
-                  <li>Messe Christus Vincit : <a href="/song/messe-2-christus-vincit-gloire-a-dieu" target="_blank">Gloire à Dieu</a>, <a href="/song/messe-christus-vincit-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
                   <li
-                    >Messe festive pour les dimanches du temps ordinaire (Isabelle Fontaine) : <a href="/song/messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                    >Messe Christus Vincit : <a href="/song/messe-2-christus-vincit-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                    <a href="/song/messe-christus-vincit-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
+                  >
+                  <li
+                    >Messe festive pour les dimanches du temps ordinaire (Isabelle Fontaine) :
+                    <a href="/song/messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
                     <a href="/song/messe-7-festive-pour-les-dimanches-du-temps-ordinaire-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
                   >
                   <li>Messe de Saint Jean : <a href="/song/messe-2-de-saint-jean-gloria" target="_blank">Gloria</a></li>
                   <li>Messe de Saint Boniface : <a href="/song/messe-2-saint-boniface-gloria" target="_blank">Gloria</a></li>
-                  <li>Messe du Peuple de Dieu : <a href="/song/messe-2-du-peuple-de-dieu-gloria" target="_blank">Gloria</a>, <a href="/song/messe-7-du-peuple-de-dieu-agnus" target="_blank">agneau de Dieu</a></li>
+                  <li
+                    >Messe du Peuple de Dieu : <a href="/song/messe-2-du-peuple-de-dieu-gloria" target="_blank">Gloria</a>,
+                    <a href="/song/messe-7-du-peuple-de-dieu-agnus" target="_blank">agneau de Dieu</a></li
+                  >
                   <li
                     >Messe de la Réconciliation : <a href="/song/messe-2-de-la-reconciliation-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
                     <a href="/song/messe-7-de-la-reconciliation-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
@@ -119,7 +130,9 @@
             Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à
             l'ordinateur.
           </p>
-          <p><b-img thumbnail center fluid src="/ScrolleurChanteur Tuto rapide 09042021-2.gif"></b-img></p>
+          <p>
+            <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/xu5QKXBiqMk?disablekb=1&loop=1" frameborder="0" allowfullscreen></iframe
+          ></p>
           <hr />
           <p><strong>Explications</strong></p>
           <p>

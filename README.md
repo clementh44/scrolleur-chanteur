@@ -1152,5 +1152,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections
     &nbsp; afficher dans le title de la page
     optimisation des packages
+    Vidéo à la place du gif
   Ajout d'un meta description personnalisé aux chants
 ```
