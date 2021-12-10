@@ -1149,7 +1149,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ##### Dernière version
 **10/12/2021 v4.18.6**
 ```
-  Correction
+  Corrections
     &nbsp; afficher dans le title de la page
+    optimisation des packages
   Ajout d'un meta description personnalisé aux chants
 ```
