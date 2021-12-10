@@ -12,6 +12,7 @@ Genre de logiciel gratuit de vidéo-projection des paroles de chants et même pl
   - [Version 2.0](#-v20-)
   - [Version 3.0](#-v30-)
   - [Version 4.0](#-v40-)
+  - [Dernière version](#dernière-version)
 
 ## Installation locale
 ### Prérequis
