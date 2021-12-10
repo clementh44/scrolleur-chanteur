@@ -1114,7 +1114,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Ajout d'un lien vers une aide
 ```
 
-##### Dernière version
 **26/11/2021 v4.18.5**
 ```
   + Comme un ami T58 M534
@@ -1145,4 +1144,12 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Agneau de Dieu de Mozart
     Gloire à Dieu pour le temps de Noël
     Anamnèse Jésus, Messie humilié
+```
+
+##### Dernière version
+**10/12/2021 v4.18.6**
+```
+  Correction
+    &nbsp; afficher dans le title de la page
+  Ajout d'un meta description personnalisé aux chants
 ```

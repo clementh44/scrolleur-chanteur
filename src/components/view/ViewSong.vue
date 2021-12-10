@@ -57,7 +57,21 @@ export default {
       }, this.songId)
       if (this.element) {
         this.element.type = "song"
-        document.title = this.element.title + " - Scrolleur Chanteur"
+        document.title = this.element.title.replaceAll("&nbsp;", ' ') + " - Scrolleur Chanteur"
+        var descriptions = [
+          "Site pour projeter les chants d'une messe",
+          "Outil de projection des peroles de chant lors d'une célébration",
+          "Scrolleur Chanteur, pour projeter facilement les chants !",
+          "Mieux que Powerpoint pour projeter les chants",
+          "Répertoire pour vidéo-projection",
+          "Vidéo-projection des chants, psaumes, versets de la Bible, annonces d'une messe",
+          "Nouveau : projection de la nouvelle traduction du missel romain !",
+          "Logiciel musical gratuit de vidéo-projection des chants",
+          "Logiciel gratuit de vidéo-projection de recueil de chants",
+          "Pour une messe, un temps de louange ou autre culte, projetez facilement les chants pour l'assemblée !",
+          "Plus de 500 chants et ordinaires de messe à projeter. NOUVEAU : nouvelle traduction du Missel Romain !"
+        ]
+        document.querySelector('meta[name="description"]').setAttribute("content", "Paroles du chant '" + this.element.title.replaceAll("&nbsp;", ' ') + "' - " + descriptions[Math.floor(Math.random() * descriptions.length)])
       } else {
         this.element = {
           type: "error",
