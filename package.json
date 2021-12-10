@@ -32,6 +32,7 @@
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.8.1",
     "esm": "^3.2.25",
+    "jquery": "^3.6.0",
     "vue": "^2.6.12",
     "vue-body-class": "^3.0.2",
     "vue-cookies": "^1.7.4",
