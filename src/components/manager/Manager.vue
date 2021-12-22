@@ -131,7 +131,7 @@
             l'ordinateur.
           </p>
           <p>
-            <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/xu5QKXBiqMk?disablekb=1&loop=1" frameborder="0" allowfullscreen></iframe
+            <iframe id="ytplayer" type="text/html" width="100%" height="405px" src="https://www.youtube.com/embed/xu5QKXBiqMk?disablekb=1&loop=1" frameborder="0" allowfullscreen></iframe
           ></p>
           <hr />
           <p><strong>Explications</strong></p>

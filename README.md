@@ -1147,7 +1147,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Anamnèse Jésus, Messie humilié
 ```
 
-##### Dernière version
 **10/12/2021 v4.18.6**
 ```
   Corrections
@@ -1155,4 +1154,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     optimisation des packages
     Vidéo à la place du gif
   Ajout d'un meta description personnalisé aux chants
+```
+
+##### Dernière version
+**22/12/2021 v4.18.7**
+```
+  Correction
+    Fenêtre de l'aperçu tout en haut à cause de l'aide
 ```
