@@ -305,15 +305,23 @@
                 >
               </div>
               <div class="mb-3"
-                >Il est possible de changer la couleur des élements modifiés
-                <b-dropdown text="Couleur">
-                  <b-dropdown-item @click="changeMisselColor('#FFFA70')">
-                    <span style="color: #fffa70; background-color: #000"><strong>Jaune</strong></span>
-                  </b-dropdown-item>
-                  <b-dropdown-item @click="changeMisselColor('#4DACFE')">
-                    <span style="color: #4dacfe"><strong>Bleu</strong></span>
-                  </b-dropdown-item>
-                </b-dropdown>
+                >Il est possible de changer la couleur des élements modifiés :
+                <b-form inline>
+                  <b-dropdown text="Couleur">
+                    <b-dropdown-item @click="changeMisselColor('#FFFA70')">
+                      <span style="color: #fffa70; background-color: #000"><strong>Jaune</strong></span>
+                    </b-dropdown-item>
+                    <b-dropdown-item @click="changeMisselColor('#4DACFE')">
+                      <span style="color: #4dacfe"><strong>Bleu</strong></span>
+                    </b-dropdown-item>
+                  </b-dropdown>
+                  <b-input-group class="ml-3">
+                    <b-input type="color" v-model="misselColor" style="width:50px"></b-input>
+                  <b-input-group-append>
+                    <b-button @click="changeMisselColor(misselColor)">Appliquer</b-button>
+                  </b-input-group-append>
+                  </b-input-group>
+                </b-form>
               </div>
               <b-form-group>
                 <b-input-group>
@@ -400,6 +408,7 @@ export default {
         { key: "actions", label: "Actions" },
       ],
       search: "",
+      misselColor: "#000000",
       filteredMisselPerPage: 10,
       filteredMisselCurrentPage: 1,
       filteredMisselHeader: [

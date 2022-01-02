@@ -1166,4 +1166,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **02/01/2022 v4.18.8**
 ```
   Ajout de choix dans les couleurs pour les temps liturgiques
+  Possibilité de personnaliser la couleur des modifications du Missel Romain
 ```
