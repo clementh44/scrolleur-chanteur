@@ -32,25 +32,25 @@ export default {
   name: "window-portal",
   model: {
     prop: "open",
-    event: "close"
+    event: "close",
   },
   props: {
     open: {
       type: Boolean,
-      default: false
+      default: false,
     },
     width: {
       type: Number,
-      default: 600
+      default: 600,
     },
     height: {
       type: Number,
-      default: 400
-    }
+      default: 400,
+    },
   },
   data() {
     return {
-      windowRef: null
+      windowRef: null,
     }
   },
   watch: {
@@ -60,7 +60,7 @@ export default {
       } else {
         this.closePortal()
       }
-    }
+    },
   },
   methods: {
     openPortal() {
@@ -77,7 +77,7 @@ export default {
         this.windowRef = null
         this.$emit("close")
       }
-    }
+    },
   },
   mounted() {
     if (this.open) {
@@ -88,7 +88,7 @@ export default {
     if (this.windowRef) {
       this.closePortal()
     }
-  }
+  },
 }
 </script>
 

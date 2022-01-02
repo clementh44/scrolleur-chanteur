@@ -30,10 +30,10 @@ export default {
           colors: {
             background: "#FFFFFF",
             text: "#000000",
-            empty: "#FFFFFF"
+            empty: "#FFFFFF",
           },
           padding: 0,
-          fontSize: 1
+          fontSize: 1,
         },
         song: {
           showTitle: true,
@@ -41,23 +41,23 @@ export default {
           showWriter: true,
           showComposer: true,
           showPublisher: true,
-          verseOpacity: 1
-        }
-      }
+          verseOpacity: 1,
+        },
+      },
     }
   },
   components: {
-    ViewWindow
+    ViewWindow,
   },
   methods: {},
   created() {
     if (this.songId) {
-      this.element = this.songs.find(function(element) {
+      this.element = this.songs.find(function (element) {
         return element.id == this
       }, this.songId)
       if (this.element) {
         this.element.type = "song"
-        document.title = this.element.title.replaceAll("&nbsp;", ' ') + " - Scrolleur Chanteur"
+        document.title = this.element.title.replaceAll("&nbsp;", " ") + " - Scrolleur Chanteur"
         var descriptions = [
           "Site pour projeter les chants d'une messe",
           "Outil de projection des peroles de chant lors d'une célébration",
@@ -69,17 +69,19 @@ export default {
           "Logiciel musical gratuit de vidéo-projection des chants",
           "Logiciel gratuit de vidéo-projection de recueil de chants",
           "Pour une messe, un temps de louange ou autre culte, projetez facilement les chants pour l'assemblée !",
-          "Plus de 500 chants et ordinaires de messe à projeter. NOUVEAU : nouvelle traduction du Missel Romain !"
+          "Plus de 500 chants et ordinaires de messe à projeter. NOUVEAU : nouvelle traduction du Missel Romain !",
         ]
-        document.querySelector('meta[name="description"]').setAttribute("content", "Paroles du chant '" + this.element.title.replaceAll("&nbsp;", ' ') + "' - " + descriptions[Math.floor(Math.random() * descriptions.length)])
+        document
+          .querySelector('meta[name="description"]')
+          .setAttribute("content", "Paroles du chant '" + this.element.title.replaceAll("&nbsp;", " ") + "' - " + descriptions[Math.floor(Math.random() * descriptions.length)])
       } else {
         this.element = {
           type: "error",
-          text: "Pas de chant trouvé avec comme identifiant '" + this.songId + "'"
+          text: "Pas de chant trouvé avec comme identifiant '" + this.songId + "'",
         }
       }
     }
-  }
+  },
 }
 </script>
 

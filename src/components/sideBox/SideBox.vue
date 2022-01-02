@@ -5,7 +5,7 @@
         {{ header }}
         <a href="#" class="pull-right" @click="close"><font-awesome-icon :icon="'times'"></font-awesome-icon></a>
       </b-card-header>
-      <b-card-body class="overflow-auto" style="height: 90vh;">
+      <b-card-body class="overflow-auto" style="height: 90vh">
         <slot name="content"></slot>
       </b-card-body>
     </b-card>
@@ -21,12 +21,12 @@ library.add(faTimes)
 export default {
   name: "SideBox",
   props: {
-    header: String
+    header: String,
   },
   methods: {
     close() {
       this.$emit("close")
-    }
+    },
   },
   created() {
     window.addEventListener("keydown", (e) => {
@@ -34,6 +34,6 @@ export default {
         this.close()
       }
     })
-  }
+  },
 }
 </script>

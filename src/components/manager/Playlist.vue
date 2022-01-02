@@ -8,9 +8,7 @@
         </b-button>
       </b-button-group>
       <b-button-group class="mr-3">
-        <b-button variant="secondary" :pressed="false" aria-disabled="true" style="pointer-events: none;">
-          Ajouter :
-        </b-button>
+        <b-button variant="secondary" :pressed="false" aria-disabled="true" style="pointer-events: none"> Ajouter : </b-button>
         <b-button @click="addElement({ type: 'empty', title: '_vide_' })" variant="secondary" v-b-tooltip.hover title="Contenu vide">
           <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>
         </b-button>
@@ -25,9 +23,7 @@
         /></b-button>
       </b-button-group>
       <b-button-group v-if="this.playlist.length > 0">
-        <b-button variant="danger" :pressed="false" aria-disabled="true" style="pointer-events: none;">
-          Supprimer :
-        </b-button>
+        <b-button variant="danger" :pressed="false" aria-disabled="true" style="pointer-events: none"> Supprimer : </b-button>
         <b-button @click="cleanEmpty()" variant="danger" v-b-tooltip.hover title="Supprimer les éléments vides">
           <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
         </b-button>
@@ -84,8 +80,8 @@
       <transition-group type="transition" :name="!drag ? 'flip-list' : null">
         <b-list-group-item v-for="(element, index) in listLocal" :key="index">
           <div class="d-flex w-100 justify-content-between align-items-center">
-            <div v-if="index == currentElementIndex" class="current-element-icon" style="left:-4px;" v-b-tooltip.hover title="Elément actuellement dans la présentation"></div>
-            <div class="flex-grow-1"><span v-html="element.title"></span> <b-img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" thumbnail rounded class="sc-file"/></div>
+            <div v-if="index == currentElementIndex" class="current-element-icon" style="left: -4px" v-b-tooltip.hover title="Elément actuellement dans la présentation"></div>
+            <div class="flex-grow-1"><span v-html="element.title"></span> <b-img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" thumbnail rounded class="sc-file" /></div>
 
             <ElementActions
               :element="element"
@@ -94,7 +90,7 @@
               @search-score="
                 $emit('search-score', {
                   title: $event.title,
-                  query: $event.query
+                  query: $event.query,
                 })
               "
             >
@@ -118,7 +114,7 @@
           </div>
           <div v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
             <div class="p-2 border d-flex align-items-center lyrics-part-block" v-for="(lyricsBlock, index) in element.lyrics" :key="index">
-              <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left:1px;" v-b-tooltip.hover title="Partie visible dans la présentation"></div>
+              <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left: 1px" v-b-tooltip.hover title="Partie visible dans la présentation"></div>
               <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" style="height: 1.5rem" v-html="lyricsBlock.text"></div>
               <b-button-group>
                 <b-button
@@ -184,47 +180,47 @@ library.add(faSquare, faEdit, faClone, faEye, faEyeSlash, faArrowsAltV, faBorder
 
 export default {
   name: "Playlist",
-  data: function() {
+  data: function () {
     return {
       editableTypes: ["text", "file"],
       isEdited: false,
       editedElement: null,
       savedCurrentElementIndex: -1,
-      drag: false
+      drag: false,
     }
   },
   props: {
     playlist: Array,
     settings: Object,
-    currentElementIndex: Number
+    currentElementIndex: Number,
   },
   model: {
     prop: "playlist",
-    event: "listChange"
+    event: "listChange",
   },
   components: {
     draggable,
     ElementActions,
     Undo,
-    Editor
+    Editor,
   },
   computed: {
     listLocal: {
-      get: function() {
+      get: function () {
         return this.playlist
       },
-      set: function(value) {
+      set: function (value) {
         this.$emit("listChange", value)
-      }
+      },
     },
     dragOptions() {
       return {
         animation: 200,
         group: "description",
         disabled: false,
-        ghostClass: "ghost"
+        ghostClass: "ghost",
       }
-    }
+    },
   },
   methods: {
     updateCurrentElementIndex(newIndex) {
@@ -332,13 +328,13 @@ export default {
             type: "file",
             title: "Fichier : " + file.target.files[0].name,
             file: fr.result,
-            width: 100
+            width: 100,
           })
         }
         fr.readAsDataURL(file.target.files[0])
       }
-    }
-  }
+    },
+  },
 }
 </script>
 

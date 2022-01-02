@@ -30,7 +30,7 @@ Vue.config.productionTip = false
 
 const router = new VueRouter({
   routes: Routes,
-  mode: "history"
+  mode: "history",
 })
 
 Vue.use(VueGtag, { config: { id: "G-JCLGZK4V9Y" } }, router)
@@ -44,5 +44,5 @@ router.beforeEach((to, from, next) => {
 
 new Vue({
   render: (h) => h(App),
-  router
+  router,
 }).$mount("#app")

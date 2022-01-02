@@ -130,9 +130,7 @@
             Cette page est chargée, plus besoin d'internet et rien à installer pour projeter dès maintenant ce que l'on souhaite (chant, image, texte) via le vidéoprojecteur ou l'écran branché à
             l'ordinateur.
           </p>
-          <p>
-            <iframe id="ytplayer" type="text/html" width="100%" height="405px" src="https://www.youtube.com/embed/xu5QKXBiqMk?disablekb=1&loop=1" frameborder="0" allowfullscreen></iframe
-          ></p>
+          <p> <iframe id="ytplayer" type="text/html" width="100%" height="405px" src="https://www.youtube.com/embed/xu5QKXBiqMk?disablekb=1&loop=1" frameborder="0" allowfullscreen></iframe></p>
           <hr />
           <p><strong>Explications</strong></p>
           <p>
@@ -175,9 +173,7 @@
 
         <!-- Précisions pour Safari -->
         <b-alert variant="danger" :show="isSafari()" dismissible fade class="mt-3">
-          <h5 class="alert-heading">
-            Pour information
-          </h5>
+          <h5 class="alert-heading"> Pour information </h5>
           <hr />
           <p>
             Vous semblez utiliser le navigateur web Safari (mac, iPhone, iPad). Pour information, le défilement du contenu via les boutons (raccourcis clavier ou boutons pour faire défiler ou se
@@ -187,22 +183,16 @@
 
         <!-- Termes à accepter -->
         <b-alert variant="warning" :show="!secliAccepted" fade class="mt-3">
-          <h5 class="alert-heading">
-            Protection des œuvres
-          </h5>
+          <h5 class="alert-heading"> Protection des œuvres </h5>
           <hr />
-          <p>
-            Les textes (faisant partie d'une œuvre au même titre que sa musique) présents sur cet outil sont à l'usage exclusif des cotisants au SECLI.
-          </p>
+          <p> Les textes (faisant partie d'une œuvre au même titre que sa musique) présents sur cet outil sont à l'usage exclusif des cotisants au SECLI. </p>
           <p>
             En continuant à utiliser l'outil, vous déclarez cotiser par ailleurs au SECLI (<a href="https://secli.cef.fr/" target="_blank" rel="noopener"
               >Secrétariat des Editeurs de Chants pour la LIturgie</a
             >) directement ou via votre paroisse ou groupe.
           </p>
           <hr />
-          <b-button variant="primary" @click="acceptSecli">
-            Je comprends et accepte ces termes
-          </b-button>
+          <b-button variant="primary" @click="acceptSecli"> Je comprends et accepte ces termes </b-button>
         </b-alert>
 
         <!-- Playlist -->
@@ -318,10 +308,10 @@
                 >Il est possible de changer la couleur des élements modifiés
                 <b-dropdown text="Couleur">
                   <b-dropdown-item @click="changeMisselColor('#FFFA70')">
-                    <span style="color:#FFFA70; background-color: #000;"><strong>Jaune</strong></span>
+                    <span style="color: #fffa70; background-color: #000"><strong>Jaune</strong></span>
                   </b-dropdown-item>
                   <b-dropdown-item @click="changeMisselColor('#4DACFE')">
-                    <span style="color:#4DACFE;"><strong>Bleu</strong></span>
+                    <span style="color: #4dacfe"><strong>Bleu</strong></span>
                   </b-dropdown-item>
                 </b-dropdown>
               </div>
@@ -407,14 +397,14 @@ export default {
       filteredSongsCurrentPage: 1,
       filteredSongsHeader: [
         { key: "title", label: "Titre" },
-        { key: "actions", label: "Actions" }
+        { key: "actions", label: "Actions" },
       ],
       search: "",
       filteredMisselPerPage: 10,
       filteredMisselCurrentPage: 1,
       filteredMisselHeader: [
         { key: "title", label: "Titre" },
-        { key: "actions", label: "Actions" }
+        { key: "actions", label: "Actions" },
       ],
       searchMisselText: "",
       paramOpened: false,
@@ -426,67 +416,67 @@ export default {
               value: {
                 background: "#FFFFFF",
                 text: "#000000",
-                empty: "#FFFFFF"
-              }
+                empty: "#FFFFFF",
+              },
             },
             {
               text: "Blanc sur noir",
               value: {
                 background: "#000000",
                 text: "#FFFFFF",
-                empty: "#000000"
-              }
+                empty: "#000000",
+              },
             },
             {
               text: "Temps ordinaire",
               value: {
                 background: "#09904b",
                 text: "#FFFFFF",
-                empty: "#09904b"
-              }
+                empty: "#09904b",
+              },
             },
             {
               text: "Célébration Mariale",
               value: {
                 background: "#62cdf5",
                 text: "#24408f",
-                empty: "#62cdf5"
-              }
+                empty: "#62cdf5",
+              },
             },
             {
               text: "Temps de l'Avent et Carême",
               value: {
                 background: "#894594",
                 text: "#FFFFFF",
-                empty: "#894594"
-              }
+                empty: "#894594",
+              },
             },
             {
               text: "3è dim. de l'Avent, 4è dim de Carême",
               value: {
                 background: "#f38eba",
                 text: "#24408f",
-                empty: "#f38eba"
-              }
+                empty: "#f38eba",
+              },
             },
             {
               text: "Temps de Noël et temps Pascal",
               value: {
                 background: "#fff8b2",
                 text: "#24408f",
-                empty: "#fff8b2"
-              }
+                empty: "#fff8b2",
+              },
             },
             {
               text: "Rameaux, Vendredi Saint, Pentecôte, Martyrs",
               value: {
                 background: "#c0262d",
                 text: "#FFFFFF",
-                empty: "#c0262d"
-              }
-            }
+                empty: "#c0262d",
+              },
+            },
           ],
-        }
+        },
       },
       settings: {
         version: 20210908, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
@@ -494,62 +484,62 @@ export default {
           colors: {
             background: "#000000",
             text: "#FFFFFF",
-            empty: "#000000"
+            empty: "#000000",
           },
           padding: {
             view: 0,
             verse: {
               left: 0,
-              bottom: 0.5
+              bottom: 0.5,
             },
             chorus: {
               left: 0.5,
-              bottom: 0.5
+              bottom: 0.5,
             },
             translation: {
               left: 1,
-              bottom: 0.5
-            }
+              bottom: 0.5,
+            },
           },
           fontSize: 1,
           window: {
             height: 400,
-            width: 600
+            width: 600,
           },
           borders: {
             styles: [
               {
                 text: "Solide",
-                value: "solid"
+                value: "solid",
               },
               {
                 text: "Pointillé",
-                value: "dotted"
+                value: "dotted",
               },
               {
                 text: "Tirets",
-                value: "dashed"
+                value: "dashed",
               },
               {
                 text: "Double",
-                value: "double"
+                value: "double",
               },
               {
                 text: "Rainurée",
-                value: "groove"
+                value: "groove",
               },
               {
                 text: "Relief",
-                value: "ridge"
+                value: "ridge",
               },
               {
                 text: "Relief intérieur",
-                value: "inset"
+                value: "inset",
               },
               {
                 text: "Relief extérieur",
-                value: "outset"
-              }
+                value: "outset",
+              },
             ],
             empty: false,
             song: false,
@@ -559,27 +549,27 @@ export default {
               displayed: true,
               color: "#D6B300",
               style: "solid",
-              width: 5
+              width: 5,
             },
             right: {
               displayed: true,
               color: "#D6B300",
               style: "solid",
-              width: 5
+              width: 5,
             },
             bottom: {
               displayed: true,
               color: "#D6B300",
               style: "solid",
-              width: 5
+              width: 5,
             },
             left: {
               displayed: true,
               color: "#D6B300",
               style: "solid",
-              width: 5
-            }
-          }
+              width: 5,
+            },
+          },
         },
         song: {
           showTitle: true,
@@ -587,14 +577,14 @@ export default {
           showWriter: false,
           showComposer: false,
           showPublisher: false,
-          verseOpacity: 0.1
+          verseOpacity: 0.1,
         },
         score: {
           enabled: false,
           query: "",
           google: "http://www.google.com/search?q=<TITRE>",
           googlePdf: "http://www.google.com/search?q=<TITRE>+filetype:pdf",
-          youtube: "https://www.youtube.com/results?search_query=<TITRE>"
+          youtube: "https://www.youtube.com/results?search_query=<TITRE>",
         },
         help: true,
         shortcuts: {
@@ -603,11 +593,11 @@ export default {
           scrollDown: "ArrowDown",
           scrollUp: "ArrowUp",
           partNext: "*",
-          partPrevious: "$"
-        }
+          partPrevious: "$",
+        },
       },
       previewOpened: false,
-      previewBody: { type: "empty" }
+      previewBody: { type: "empty" },
     }
   },
   components: {
@@ -616,17 +606,17 @@ export default {
     Playlist,
     SideBox,
     Settings,
-    ElementActions
+    ElementActions,
   },
   methods: {
     // LIVE
-    toggleView: function() {
+    toggleView: function () {
       if (!this.viewOpened) {
         this.viewBody = { type: "empty" }
       }
       this.viewOpened = !this.viewOpened
     },
-    displayElement: function(element, index) {
+    displayElement: function (element, index) {
       if (index != undefined) {
         this.currentElementIndex = index
       }
@@ -641,55 +631,55 @@ export default {
         this.toggleView()
       }
     },
-    liveClosing: function() {
+    liveClosing: function () {
       this.currentElementIndex = -1
     },
     // APERCU
-    togglePreview: function() {
+    togglePreview: function () {
       this.previewOpened = !this.previewOpened
       if (this.previewOpened && this.paramOpened) {
         this.paramOpened = false
       }
     },
-    previewElement: function(element) {
+    previewElement: function (element) {
       this.previewBody = element
       if (!this.previewOpened) {
         this.togglePreview()
       }
     },
     // PARAMETRES
-    toggleParam: function() {
+    toggleParam: function () {
       this.paramOpened = !this.paramOpened
       if (this.paramOpened && this.previewOpened) {
         this.previewOpened = false
       }
     },
     // PLAYLIST
-    addElement: function(el) {
+    addElement: function (el) {
       if (!this.playlist.find((element) => element.id == el.id)) {
         this.playlist.push(el)
       }
     },
     // PARTITION
-    searchScore: function(title, query) {
+    searchScore: function (title, query) {
       if (query && query.includes("<TITRE>")) {
         window.open(query.replace("<TITRE>", title.replace(/ /g, "+")))
       }
     },
 
     // fonction pour le debounce de la recherche d'un titre
-    searchSong: function(title) {
+    searchSong: function (title) {
       this.search = title
     },
-    searchMissel: function(title) {
+    searchMissel: function (title) {
       this.searchMisselText = title
     },
 
     // AUTRE
-    beforeClose: function(event) {
+    beforeClose: function (event) {
       event.returnValue = "Fermez ou rafraichissez la page si vous avez une connection internet. Les paramètres et la playlist sont enregistrés (sauf les images)"
     },
-    manageShortCuts: function(event) {
+    manageShortCuts: function (event) {
       if (event.key == this.settings.shortcuts.playlistNext) {
         event.preventDefault()
         if (this.currentElementIndex + 1 < this.playlist.length) {
@@ -724,11 +714,11 @@ export default {
         }
       }
     },
-    acceptSecli: function() {
+    acceptSecli: function () {
       this.secliAccepted = true
       this.$cookies.set("secliAccepted", true, "30d")
     },
-    isSafari: function() {
+    isSafari: function () {
       var ua = navigator.userAgent.toLowerCase()
       if (ua.indexOf("safari") != -1) {
         if (ua.indexOf("chrome") > -1) {
@@ -739,14 +729,14 @@ export default {
       }
       return false
     },
-    changeMisselColor: function(newColor) {
+    changeMisselColor: function (newColor) {
       this.missel.forEach((element) => {
         this.$set(element, "text", element.text.replaceAll(/#....../g, newColor))
       })
-    }
+    },
   },
   computed: {
-    filteredSongs: function() {
+    filteredSongs: function () {
       if (this.search == "") {
         return this.songs
       }
@@ -763,7 +753,7 @@ export default {
     filteredSongsItem() {
       return this.filteredSongs.length
     },
-    filteredMissel: function() {
+    filteredMissel: function () {
       if (this.searchMisselText == "") {
         return this.missel
       }
@@ -779,7 +769,7 @@ export default {
     },
     filteredMisselItem() {
       return this.filteredMissel.length
-    }
+    },
   },
   beforeMount() {
     window.addEventListener("beforeunload", this.beforeClose)
@@ -821,7 +811,7 @@ export default {
         }
       })
     })
-    this.songs.sort(function(a, b) {
+    this.songs.sort(function (a, b) {
       return a.id.localeCompare(b.id)
     })
 
@@ -830,24 +820,24 @@ export default {
       this.$set(element, "type", "text")
       this.$set(element, "isTitleDisplayed", false)
     })
-    this.missel.sort(function(a, b) {
+    this.missel.sort(function (a, b) {
       return a.id.localeCompare(b.id)
     })
   },
   watch: {
     settings: {
-      handler: function(newSettings) {
+      handler: function (newSettings) {
         localStorage.setItem("settings", JSON.stringify(newSettings))
       },
-      deep: true
+      deep: true,
     },
     playlist: {
-      handler: function(newPlaylist) {
+      handler: function (newPlaylist) {
         localStorage.setItem("playlist", JSON.stringify(newPlaylist.filter((element) => element.type != "file")))
       },
-      deep: true
-    }
-  }
+      deep: true,
+    },
+  },
 }
 </script>
 

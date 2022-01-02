@@ -12,16 +12,16 @@
 <script>
 export default {
   name: "Undo",
-  data: function() {
+  data: function () {
     return {
-      deletedElements: []
+      deletedElements: [],
     }
   },
   methods: {
     addElement(element, title) {
       var deletedElement = {
         element: element,
-        title: title
+        title: title,
       }
       this.deletedElements.push(deletedElement)
     },
@@ -31,8 +31,8 @@ export default {
     restore(deletedElement) {
       this.deleteElement(deletedElement)
       this.$emit("restoreElement", deletedElement.element)
-    }
-  }
+    },
+  },
 }
 </script>
 

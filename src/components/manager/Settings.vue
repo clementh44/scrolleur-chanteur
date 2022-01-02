@@ -10,7 +10,7 @@
       >
         <b-input-group>
           <b-form-input @keydown.stop type="number" v-model.number="settings.liveView.window.width"></b-form-input>
-          <b-input-group-prepend is-text style="margin-left: -1px;">x</b-input-group-prepend>
+          <b-input-group-prepend is-text style="margin-left: -1px">x</b-input-group-prepend>
           <b-form-input @keydown.stop type="number" v-model.number="settings.liveView.window.height"></b-form-input>
         </b-input-group>
       </b-form-group>
@@ -22,7 +22,7 @@
             :value="{
               background: theme.value.background,
               text: theme.value.text,
-              empty: theme.value.empty
+              empty: theme.value.empty,
             }"
             :style="{ color: theme.value.text, backgroundColor: theme.value.background }"
             >{{ theme.text }}</b-form-select-option
@@ -224,13 +224,13 @@
         <b-form-checkbox v-model="settings.score.enabled" switch
           >Afficher les boutons :
           <b-button-group>
-            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none;">
+            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none">
               <font-awesome-icon :icon="'file-pdf'"></font-awesome-icon>
             </b-button>
-            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none;">
+            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none">
               <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
             </b-button>
-            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none;">
+            <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none">
               <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
             </b-button>
           </b-button-group>
@@ -279,7 +279,7 @@ export default {
   data() {
     return {
       version: process.env.VUE_APP_VERSION,
-      allBorders: false
+      allBorders: false,
     }
   },
   props: {
@@ -314,11 +314,11 @@ export default {
         }
         event.preventDefault()
       }
-    }
+    },
   },
   watch: {
     // Pour lier ou délier les paramètres de style des bordures par rapport à celles du haut
-    allBorders: function(linked) {
+    allBorders: function (linked) {
       if (linked) {
         this.settings.liveView.borders.right = this.settings.liveView.borders.top
         this.settings.liveView.borders.bottom = this.settings.liveView.borders.top
@@ -328,8 +328,8 @@ export default {
         this.settings.liveView.borders.bottom = JSON.parse(JSON.stringify(this.settings.liveView.borders.top))
         this.settings.liveView.borders.left = JSON.parse(JSON.stringify(this.settings.liveView.borders.top))
       }
-    }
-  }
+    },
+  },
 }
 </script>
 

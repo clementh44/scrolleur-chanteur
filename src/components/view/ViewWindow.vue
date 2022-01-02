@@ -7,10 +7,10 @@
         ? {
             cursor: smallCursor,
             background: settings.liveView.colors.background,
-            color: settings.liveView.colors.text
+            color: settings.liveView.colors.text,
           }
         : '',
-      live ? bordersStyle() : ''
+      live ? bordersStyle() : '',
     ]"
     @scroll.passive="handleScroll()"
   >
@@ -33,7 +33,7 @@
             :style="[
               lyrics.type == 'chorus' || lyrics.show ? '' : { opacity: settings.song.verseOpacity },
               lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : '',
-              live ? paddingStyle(lyrics) : ''
+              live ? paddingStyle(lyrics) : '',
             ]"
             @click="toggleLyrics(lyrics)"
             v-html="lyrics.text"
@@ -90,17 +90,17 @@ export default {
     live: Boolean,
     duration: {
       type: Number,
-      default: 0
-    }
+      default: 0,
+    },
   },
   data() {
     return {
-      smallCursor: `url("data:image/svg+xml, %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E  %3Ctext stroke='%23ffffff' transform='matrix(12.617019653320312,0,0,12.617019653320312,-2852.15984082222,-2618.911868095398) ' xml:space='preserve' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='40' y='247.63125' x='229.70045' stroke-width='2' fill='%23000000'%3E•%3C/text%3EE %3C/svg%3E") 8 20, pointer`
+      smallCursor: `url("data:image/svg+xml, %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E  %3Ctext stroke='%23ffffff' transform='matrix(12.617019653320312,0,0,12.617019653320312,-2852.15984082222,-2618.911868095398) ' xml:space='preserve' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='40' y='247.63125' x='229.70045' stroke-width='2' fill='%23000000'%3E•%3C/text%3EE %3C/svg%3E") 8 20, pointer`,
     }
   },
   components: {},
   methods: {
-    toggleLyrics: function(lyrics) {
+    toggleLyrics: function (lyrics) {
       switch (lyrics.type) {
         case "chorus":
           lyrics.sticky = !lyrics.sticky
@@ -113,7 +113,7 @@ export default {
           break
       }
     },
-    getSecliArray: function() {
+    getSecliArray: function () {
       let array = []
       if ((!this.live || this.settings.song.showRating) && this.element.rating) {
         array.push(this.element.rating)
@@ -147,13 +147,13 @@ export default {
       }
       return array
     },
-    haveSecliToShow: function() {
+    haveSecliToShow: function () {
       return this.getSecliArray().length > 0
     },
-    getSecliString: function() {
+    getSecliString: function () {
       return this.getSecliArray().join("")
     },
-    bordersStyle: function() {
+    bordersStyle: function () {
       var hasBorder = false
       switch (this.element.type) {
         case "empty":
@@ -188,7 +188,7 @@ export default {
         return ""
       }
     },
-    paddingStyle: function(lyrics) {
+    paddingStyle: function (lyrics) {
       var styles = {}
       switch (lyrics.type) {
         case "verse":
@@ -319,12 +319,16 @@ export default {
       this.$el.scrollBy({
         top: top,
         left: left,
-        behavior: smooth ? "smooth" : "auto"
+        behavior: smooth ? "smooth" : "auto",
       })
     },
     /* Cache tous les couplets et traductions */
     hideAllVerses() {
-      this.element.lyrics.forEach((el) => {if(el.show) {el.show=false}})
+      this.element.lyrics.forEach((el) => {
+        if (el.show) {
+          el.show = false
+        }
+      })
     },
     /* Affiche l'élément à la position pos, y scroll et cache les autres éléments */
     displayAndScroll(pos) {
@@ -387,8 +391,8 @@ export default {
       } else {
         console.warn("scrollViewToPos function : the element has to be a song")
       }
-    }
-  }
+    },
+  },
 }
 </script>
 

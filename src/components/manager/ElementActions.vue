@@ -8,7 +8,7 @@
         @click="
           $emit('search-score', {
             title: element.title,
-            query: settings.score.query
+            query: settings.score.query,
           })
         "
         v-b-tooltip.hover
@@ -21,7 +21,7 @@
         @click="
           $emit('search-score', {
             title: element.title,
-            query: settings.score.googlePdf
+            query: settings.score.googlePdf,
           })
         "
         v-b-tooltip.hover
@@ -34,7 +34,7 @@
         @click="
           $emit('search-score', {
             title: element.title,
-            query: settings.score.youtube
+            query: settings.score.youtube,
           })
         "
         v-b-tooltip.hover
@@ -62,8 +62,8 @@ export default {
   name: "ElementActions",
   props: {
     settings: Object,
-    element: Object
-  }
+    element: Object,
+  },
 }
 </script>
 

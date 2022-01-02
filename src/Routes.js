@@ -9,9 +9,9 @@ export const routes = [
       title: "Scolleur Chanteur",
       bodyClass: "bg-light",
       sitemap: {
-        lastmod: new Date().toISOString().slice(0, 10)
-      }
-    }
+        lastmod: new Date().toISOString().slice(0, 10),
+      },
+    },
   },
   {
     path: "/song/:id",
@@ -19,10 +19,10 @@ export const routes = [
     component: () => import(/* webpackChunkName: "song" */ "./components/view/ViewSong.vue"),
     meta: {
       sitemap: {
-        slugs: getSitemapInfo()
-      }
-    }
-  }
+        slugs: getSitemapInfo(),
+      },
+    },
+  },
 ]
 
 export default routes
@@ -33,7 +33,7 @@ function getSitemapInfo() {
     ids.push({
       id: song.id,
       lastmod: new Date().toISOString().slice(0, 10),
-      changefreq: "monthly"
+      changefreq: "monthly",
     })
   )
   return ids
