@@ -31,7 +31,7 @@
       <!-- Fenêtre des paramètres -->
       <SideBox v-show="paramOpened" header="Paramètres" @close="paramOpened = false">
         <template v-slot:content>
-          <Settings :settings="settings"></Settings>
+          <Settings :settings="settings" :defaultSettings="defaultSettings"></Settings>
         </template>
       </SideBox>
 
@@ -418,8 +418,7 @@ export default {
       ],
       searchMisselText: "",
       paramOpened: false,
-      settings: {
-        version: 20210908, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+      defaultSettings: {
         liveView: {
           viewThemes: [
             {
@@ -437,8 +436,61 @@ export default {
                 text: "#FFFFFF",
                 empty: "#000000"
               }
+            },
+            {
+              text: "Temps ordinaire",
+              value: {
+                background: "#09904b",
+                text: "#FFFFFF",
+                empty: "#09904b"
+              }
+            },
+            {
+              text: "Célébration Mariale",
+              value: {
+                background: "#62cdf5",
+                text: "#24408f",
+                empty: "#62cdf5"
+              }
+            },
+            {
+              text: "Temps de l'Avent et Carême",
+              value: {
+                background: "#894594",
+                text: "#FFFFFF",
+                empty: "#894594"
+              }
+            },
+            {
+              text: "3è dim. de l'Avent, 4è dim de Carême",
+              value: {
+                background: "#f38eba",
+                text: "#24408f",
+                empty: "#f38eba"
+              }
+            },
+            {
+              text: "Temps de Noël et temps Pascal",
+              value: {
+                background: "#fff8b2",
+                text: "#24408f",
+                empty: "#fff8b2"
+              }
+            },
+            {
+              text: "Rameaux, Vendredi Saint, Pentecôte, Martyrs",
+              value: {
+                background: "#c0262d",
+                text: "#FFFFFF",
+                empty: "#c0262d"
+              }
             }
           ],
+        }
+      },
+      settings: {
+        version: 20210908, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+        liveView: {
           colors: {
             background: "#000000",
             text: "#FFFFFF",

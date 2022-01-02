@@ -1156,9 +1156,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout d'un meta description personnalisé aux chants
 ```
 
-##### Dernière version
 **22/12/2021 v4.18.7**
 ```
   Correction
     Fenêtre de l'aperçu tout en haut à cause de l'aide
+```
+
+##### Dernière version
+**02/01/2022 v4.18.8**
+```
+  Ajout de choix dans les couleurs pour les temps liturgiques
 ```

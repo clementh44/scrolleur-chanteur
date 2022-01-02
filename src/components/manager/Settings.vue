@@ -17,13 +17,14 @@
       <b-form-group label-cols-sm="2" label="Thème" content-cols-sm="10" description="Choisir un thème pédéfini ou personnaliser les couleurs ci-dessous.">
         <b-form-select v-model="settings.liveView.colors">
           <b-form-select-option
-            v-for="(theme, index) in settings.liveView.viewThemes"
+            v-for="(theme, index) in defaultSettings.liveView.viewThemes"
             :key="index"
             :value="{
               background: theme.value.background,
               text: theme.value.text,
               empty: theme.value.empty
             }"
+            :style="{ color: theme.value.text, backgroundColor: theme.value.background }"
             >{{ theme.text }}</b-form-select-option
           >
         </b-form-select>
@@ -282,7 +283,8 @@ export default {
     }
   },
   props: {
-    settings: Object
+    settings: Object,
+    defaultSettings: Object,
   },
   methods: {
     manageKey(event) {
