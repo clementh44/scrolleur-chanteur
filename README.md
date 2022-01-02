@@ -1165,6 +1165,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ##### Dernière version
 **02/01/2022 v4.18.8**
 ```
+  + En mémoire du Seigneur D304-1
+  + Il vient EY73-74
+  + (Messe sur des Noëls populaires) Kyrie A13-00
+  + (Messe sur des Noëls populaires) Sur notre terre et dans les cieux - Gloria AL14-06
+  + (Messe sur des Noëls populaires) Saint notre dieu (Sanctus) C14-54
+  + (Messe sur des Noëls populaires) Agneau de Dieu, sauveur du monde (Agnus) D14-55
+  + Sur tes murs, Jérusalem (Pour l'amour de Sion) JEM713
+
   Ajout de choix dans les couleurs pour les temps liturgiques
   Possibilité de personnaliser la couleur des modifications du Missel Romain
 ```

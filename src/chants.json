@@ -1,5 +1,89 @@
 [
   {
+    "id": "sur-tes-murs-jerusalem-pour-lamour-de-sion",
+    "title": "Sur tes murs, Jérusalem (Pour l'amour de Sion)",
+    "rating": "JEM713",
+    "writer": "Rolf Schneider",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Sur tes murs, Jérusalem,<br/>J'ai placé des sentinelles.<br/>Elles ne se tairont jamais,<br/>Ni le jour ni la nuit.<br/>On n'te nommera plus délaissée,<br/>Ni ta terre la dévastée.<br/>Tu porteras un nom nouveau:<br/>Mon plaisir est en elle&nbsp;!"
+      },
+      {
+        "type": "chorus",
+        "text": "Pour l'amour de Sion, je n'me tairai pas&nbsp;!<br/>Pour l'amour de Jérusalem, point de repos&nbsp;!<br/>Pour que son salut brille comme l'aurore<br/>Et sa délivrance comme un flambeau."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Toutes les nations de la terre<br/>Regarderont ta justice<br/>Et les rois contempleront<br/>La gloire de ton nom.<br/>Tu seras comme un diadème,<br/>Scintillant dans la main de Dieu,<br/>Comme une couronne royale<br/>Préparée pour la fête."
+      },
+      {
+        "type": "verse",
+        "text": "PONT<br/>Comme un jeune homme s'unit à sa fiancée,<br/>Tous tes enfants s'uniront à leur Dieu."
+      }
+    ]
+  },
+  {
+    "id": "il-vient",
+    "title": "Il vient",
+    "rating": "EY73-74",
+    "publisher": "A.C.N.",
+    "writer": "Communauté du Chemin Neuf",
+    "composer": "Communauté du Chemin Neuf",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Il vient, messager de paix,<br/>Il a donné sa vie pour la vie des hommes. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Il vient comme un enfant,<br/>Qui le reconnaîtra<br/>Sous l'habit du mendiant&nbsp;?"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Il vient comme un voleur,<br/>Personne ne connait<br/>Ni le moment, ni l’heure."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Il vient sans prévenir,<br/>Heureux qui veillera<br/>Sachant qu'il va venir."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Il vient et il est là,<br/>Déjà il apparaît<br/>Ne le voyez vous pas&nbsp;?"
+      }
+    ]
+  },
+  {
+    "id": "en-memoire-du-seigneur",
+    "title": "En mémoire du Seigneur",
+    "rating": "D304-1",
+    "publisher": "Studio SM",
+    "writer": "Didier Rimaud",
+    "composer": "Joseph Gelineau",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "En mémoire du Seigneur<br/>Qui nous a rompu le pain,<br/>En mémoire du Seigneur,<br/>Nous serons le pain rompu."
+      },
+      {
+        "type": "verse",
+        "text": "1 - En mémoire du Seigneur<br/>Qui nous a rompu le pain,<br/>En mémoire du Seigneur,<br/>Nous serons le pain rompu."
+      },
+      {
+        "type": "verse",
+        "text": "2 - En mémoire du Seigneur<br/>Qui nous a donné son sang,<br/>En mémoire du Seigneur,<br/>Nous serons le sang versé."
+      },
+      {
+        "type": "verse",
+        "text": "3 - En mémoire du Seigneur<br/>Qui a fait de nous son corps,<br/>En mémoire du Seigneur<br/>Nous serons son corps livré."
+      },
+      {
+        "type": "verse",
+        "text": "4 - En mémoire du Seigneur,<br/>Tout le pain soit partagé&nbsp;!<br/>En mémoire du Seigneur,<br/>Tous les pauvres soient comblés&nbsp;!"
+      }
+    ]
+  },
+  {
     "id": "le-monde-ancien-sen-est-alle",
     "title": "Le monde ancien s'en est allé",
     "rating": "E135",
@@ -15766,6 +15850,94 @@
       {
         "type": "verse",
         "text": "Agnus dei<br/>Qui tollis peccata mundi<br/>Dona nobis pacem, dona nobis pacem, dona nobis pacem&nbsp;(bis)"
+      }
+    ]
+  },
+  {
+    "id": "messe-1-sur-des-noels-populaires-kyrie",
+    "title": "(Messe sur des Noëls populaires) Kyrie",
+    "rating": "A13-00",
+    "publisher": "Signes musique",
+    "writer": "AELF",
+    "composer": "A Langree",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Kyrie eleison (bis)<br/>Jésus-Christ l’Emmanuel, Dieu lumière de Noël<br/>Kyrie eleison"
+      },
+      {
+        "type": "verse",
+        "text": "Christe eleison (bis)<br/>Vainqueur de nos ténèbres tu viens sauver ton peuple<br/>Dieu de paix parmi les hommes tu te fais miséricorde<br/>Christe eleison"
+      },
+      {
+        "type": "verse",
+        "text": "Kyrie eleison (bis)<br/>Toi le fils du Dieu vivant, tu nous donne un cœur d’enfant.<br/>Kyrie eleison<br/>"
+      }
+    ]
+  },
+  {
+    "id": "messe-2-sur-des-noels-populaires-sur-notre-terre-et-dans-les-cieux-gloria",
+    "title": "(Messe sur des Noëls populaires) Sur notre terre et dans les cieux - Gloria",
+    "rating": "AL14-06",
+    "publisher": "Signes musique",
+    "writer": "AELF/Cl Bernard",
+    "composer": "A Langree",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Sur notre terre et dans les cieux,<br/>gloire et louange à notre Dieu&nbsp;!<br/>Paix du Seigneur de l'univers,<br/>joie pour les hommes, Alléluia."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Nous te louons, nous te bénissons, nous t'adorons,<br/>nous te glorifions, nous te rendons grâce pour ton immense gloire,<br/>Seigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur, Fils unique, Jésus-Christ,<br/>Seigneur Dieu, Agneau de Dieu le Fils du Père&nbsp;;<br/>Toi qui enlève les péchés du monde, prends pitié de nous&nbsp;;<br/>Toi qui enlèves les péchés du monde, reçois notre prière&nbsp;;<br/>Toi qui es assis à la droite du Père, prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Car Toi seul es Saint, Toi seul es Seigneur, Toi seul es le Très-haut&nbsp;: Jésus-Christ,<br/>avec le Saint-Esprit, dans la gloire de Dieu le Père&nbsp;:<br/>Amen. Amen."
+      }
+    ]
+  },
+  {
+    "id": "messe-5-sur-des-noels-populaires-saint-notre-dieu-sanctus",
+    "title": "(Messe sur des Noëls populaires) Saint notre dieu (Sanctus)",
+    "rating": "C14-54",
+    "publisher": "Signes musique",
+    "writer": "AELF",
+    "composer": "A Langree",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Saint notre Dieu, Seigneur d'immense gloire,<br/>Saint notre Dieu, le Roi de l'univers&nbsp;!<br/>Saint le Seigneur, au ciel et sur la terre,<br/>Saint le Seigneur, louange et gloire à Dieu&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Hosanna, hosanna,<br/>Hosanna Seigneur du monde&nbsp;!<br/>Hosanna, hosanna,<br/>Hosanna, béni soit celui qui vient&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-7-sur-des-noels-populaires-agneau-de-dieu-sauveur-du-monde-agnus",
+    "title": "(Messe sur des Noëls populaires) Agneau de Dieu, sauveur du monde (Agnus)",
+    "rating": "D14-55",
+    "publisher": "Signes musique",
+    "writer": "AELF",
+    "composer": "A Langree",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1- Agneau de Dieu, Sauveur du monde, libérateur des hommes,<br/>donne la paix de ton Royaume, pitié pour nous, pitié Seigneur&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2- Agneau pascal, Agneau vainqueur présent à notre table,<br/>Corps immolé, sang répandu, Jésus livré pour nos péchés."
+      },
+      {
+        "type": "verse",
+        "text": "3- Agneau de Dieu, Sauveur du monde, libérateur des hommes,<br/>donne la paix de ton Royaume, pitié pour nous, pitié Seigneur&nbsp;!"
       }
     ]
   }

@@ -5,6 +5,21 @@
 		<lastmod>2021-12-10</lastmod>
 	</url>
 	<url>
+		<loc>https://chantons.netlify.app/song/sur-tes-murs-jerusalem-pour-lamour-de-sion</loc>
+		<lastmod>2022-01-02</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/il-vient</loc>
+		<lastmod>2022-01-02</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/en-memoire-du-seigneur</loc>
+		<lastmod>2022-01-02</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
 		<loc>https://chantons.netlify.app/song/le-monde-ancien-sen-est-alle</loc>
 		<lastmod>2021-12-10</lastmod>
 		<changefreq>monthly</changefreq>
@@ -2647,6 +2662,26 @@
 	<url>
 		<loc>https://chantons.netlify.app/song/messe-7-missa-pro-europa-agnus</loc>
 		<lastmod>2021-12-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-1-sur-des-noels-populaires-kyrie</loc>
+		<lastmod>2022-01-02</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-2-sur-des-noels-populaires-sur-notre-terre-et-dans-les-cieux-gloria</loc>
+		<lastmod>2022-01-02</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-5-sur-des-noels-populaires-saint-notre-dieu-sanctus</loc>
+		<lastmod>2022-01-02</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-7-sur-des-noels-populaires-agneau-de-dieu-sauveur-du-monde-agnus</loc>
+		<lastmod>2022-01-02</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 </urlset>
