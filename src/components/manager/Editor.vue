@@ -79,9 +79,6 @@
         <!-- Ligne horizontale et retour à la ligne -->
         <b-button-group class="mr-1 mb-1">
           <b-button @click="editor.chain().focus().setHorizontalRule().run()" v-b-tooltip.hover title="Ligne horizontale" variant="light"> — </b-button>
-          <b-button @click="editor.chain().focus().setHardBreak().run()" v-b-tooltip.hover title="Retour à la ligne (sans nouveau paragraphe) Shift+Entrée ou Maj+Entrée" variant="light">
-            <font-awesome-icon icon="level-down-alt" rotation="90"></font-awesome-icon>
-          </b-button>
         </b-button-group>
         <!-- Aide -->
         <b-button-group class="mr-1 mb-1">
@@ -97,18 +94,14 @@
 
 <script>
 import { Editor, EditorContent } from "@tiptap/vue-2"
+import { mergeAttributes } from "@tiptap/core"
 import StarterKit from "@tiptap/starter-kit"
-import TextStyle from "@tiptap/extension-text-style"
 import Color from "@tiptap/extension-color"
-import Underline from "@tiptap/extension-underline"
+import Paragraph from "@tiptap/extension-paragraph"
 import TextAlign from "@tiptap/extension-text-align"
+import TextStyle from "@tiptap/extension-text-style"
 import Typography from "@tiptap/extension-typography"
-import Blockquote from "@tiptap/extension-blockquote"
-import HorizontalRule from "@tiptap/extension-horizontal-rule"
-import Heading from "@tiptap/extension-heading"
-import BulletList from "@tiptap/extension-bullet-list"
-import OrderedList from "@tiptap/extension-ordered-list"
-import ListItem from "@tiptap/extension-list-item"
+import Underline from "@tiptap/extension-underline"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import {
   faReply,
@@ -128,7 +121,6 @@ import {
   faListUl,
   faListOl,
   faQuoteRight,
-  faLevelDownAlt,
   faInfo,
 } from "@fortawesome/free-solid-svg-icons"
 
@@ -150,7 +142,6 @@ library.add(
   faListUl,
   faListOl,
   faQuoteRight,
-  faLevelDownAlt,
   faInfo
 )
 
@@ -186,41 +177,49 @@ export default {
   mounted() {
     this.editor = new Editor({
       extensions: [
-        StarterKit,
-        TextStyle,
+        StarterKit.configure({
+          blockquote: {
+            HTMLAttributes: {
+              class: "custom-blockquote",
+            },
+          },
+          bulletList: {
+            HTMLAttributes: {
+              class: "custom-list",
+            },
+          },
+          heading: {
+            levels: [1, 2, 3],
+            HTMLAttributes: {
+              class: "custom-heading",
+            },
+          },
+          horizontalRule: {
+            HTMLAttributes: {
+              class: "custom-horizontal-line",
+            },
+          },
+          orderedList: {
+            HTMLAttributes: {
+              class: "custom-list",
+            },
+          },
+        }),
         Color,
-        Underline,
+        Paragraph.extend({
+          parseHTML() {
+            return [{ tag: "div" }]
+          },
+          renderHTML({ HTMLAttributes }) {
+            return ["div", mergeAttributes(this.options.HTMLAttributes, HTMLAttributes), 0]
+          },
+        }),
         TextAlign.configure({
           types: ["heading", "paragraph"],
         }),
+        TextStyle,
         Typography,
-        Blockquote.configure({
-          HTMLAttributes: {
-            class: "custom-blockquote",
-          },
-        }),
-        HorizontalRule.configure({
-          HTMLAttributes: {
-            class: "custom-horizontal-line",
-          },
-        }),
-        Heading.configure({
-          levels: [1, 2, 3],
-          HTMLAttributes: {
-            class: "custom-heading",
-          },
-        }),
-        BulletList.configure({
-          HTMLAttributes: {
-            class: "custom-list",
-          },
-        }),
-        OrderedList.configure({
-          HTMLAttributes: {
-            class: "custom-list",
-          },
-        }),
-        ListItem,
+        Underline,
       ],
       content: this.value,
       editorProps: {

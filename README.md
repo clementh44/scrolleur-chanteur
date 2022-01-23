@@ -1181,4 +1181,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   + Viens ma toute belle
   + Gloria Guillou AL13-89
+
+  Texte persdonnalisé : retour à la ligne simple en appuyant sur la touche Entrée
 ```
