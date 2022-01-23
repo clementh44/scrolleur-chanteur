@@ -254,6 +254,7 @@
                 <b-table
                   id="filtered-songs"
                   :items="filteredSongs"
+                  :sort-by="'id'"
                   :per-page="filteredSongsPerPage"
                   :current-page="filteredSongsCurrentPage"
                   :fields="[{ key: 'item', label: '' }]"
@@ -316,10 +317,10 @@
                     </b-dropdown-item>
                   </b-dropdown>
                   <b-input-group class="ml-3">
-                    <b-input type="color" v-model="misselColor" style="width:50px"></b-input>
-                  <b-input-group-append>
-                    <b-button @click="changeMisselColor(misselColor)">Appliquer</b-button>
-                  </b-input-group-append>
+                    <b-input type="color" v-model="misselColor" style="width: 50px"></b-input>
+                    <b-input-group-append>
+                      <b-button @click="changeMisselColor(misselColor)">Appliquer</b-button>
+                    </b-input-group-append>
                   </b-input-group>
                 </b-form>
               </div>
@@ -342,6 +343,7 @@
                 <b-table
                   id="filtered-missel"
                   :items="filteredMissel"
+                  :sort-by="'id'"
                   :per-page="filteredMisselPerPage"
                   :current-page="filteredMisselCurrentPage"
                   :fields="[{ key: 'item', label: '' }]"
@@ -806,7 +808,7 @@ export default {
   created() {
     window.addEventListener("keydown", this.manageShortCuts)
 
-    //tri et préparation de la liste des chants
+    //préparation de la liste des chants
     this.songs.forEach((song) => {
       this.$set(song, "type", "song")
       song.lyrics.forEach((lyrics) => {
@@ -820,17 +822,11 @@ export default {
         }
       })
     })
-    this.songs.sort(function (a, b) {
-      return a.id.localeCompare(b.id)
-    })
 
-    //tri et préparation du Missel
+    //préparation du Missel
     this.missel.forEach((element) => {
       this.$set(element, "type", "text")
       this.$set(element, "isTitleDisplayed", false)
-    })
-    this.missel.sort(function (a, b) {
-      return a.id.localeCompare(b.id)
     })
   },
   watch: {

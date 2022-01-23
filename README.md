@@ -1183,4 +1183,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Gloria Guillou AL13-89
 
   Texte persdonnalisé : retour à la ligne simple en appuyant sur la touche Entrée
+  Tableaux Répartoire et Missel Romain :
+    tri avec l'outil intégré et non manuellement
 ```
