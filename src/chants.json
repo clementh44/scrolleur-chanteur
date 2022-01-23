@@ -1,5 +1,58 @@
 [
   {
+    "id": "messe-2-gloria-in-excelsis-deo",
+    "title": "Gloria",
+    "rating": "AL13-89",
+    "writer": "AELF",
+    "composer": "Léon Guillou",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloria, gloria<br/>In excelsis Deo&nbsp;! (x2)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Et paix sur la terre aux hommes qu’il aime.<br/>Nous te louons, nous te bénissons, nous t’adorons.<br/>Nous te glorifions, nous te rendons grâce pour ton immense gloire.<br/>Seigneur Dieu, roi du ciel, Dieu le Père tout puissant."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur, Fils unique, Jésus Christ, Seigneur Dieu, Agneau de Dieu, le Fils du Père.<br/>Toi qui enlèves les péchés du monde, prends pitié de nous&nbsp;;<br/>Toi qui enlèves les péchés du monde, reçois notre prière&nbsp;;<br/>Toi qui es assis à la droite du Père, prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Car toi seul es saint,<br/>toi seul es Seigneur,<br/>Toi seul es le Très-Haut, Jésus Christ, avec le Saint Esprit,<br/>Dans la gloire de Dieu le Père. Amen."
+      }
+    ]
+  },
+  {
+    "id": "viens-ma-toute-belle",
+    "title": "Viens ma toute belle",
+    "writer": "Gen Rosso",
+    "composer": "Martin Tschernovitz",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Dans la nuit j’ai cherché celui que mon cœur aime<br/>Dans mon jardin aride, il a fait son domaine<br/>De perles de rosée, il a couvert ma tête<br/>Mon âme est toute prête, mon bien-aimé m’appelle."
+      },
+      {
+        "type": "chorus",
+        "text": "Viens ma toute belle, viens dans mon jardin,<br/>L’hiver s’en est allé, et les vignes en fleur exhalent leur parfum.<br/>Viens dans mon jardin."
+      },
+      {
+        "type": "verse",
+        "text": "2 - J’entends mon bien-aimé, il guette à la fenêtre<br/>Les fruits sont au figuier, mon âme est toute prête.<br/>J’attends son bon plaisir, il me dira d’ouvrir.<br/>Chante la tourterelle, mon bien aimé m’appelle."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tu es là mon Amour, revenu de toi-même<br/>Enfin j'ai retrouvé celui que mon cœur aime.<br/>J'accueilles ce que tu es, le gris et le splendide<br/>Je vois tes dons, tes peurs, je te choisis, lucide."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Oui l'amour est plus fort que la mort dévorante<br/>Comme le feu divin, ses flammes sont brûlantes<br/>Ne peuvent les torrents éteindre notre amour<br/>Ni le fleuve puissant l'emporter pour toujours."
+      }
+    ]
+  },
+  {
     "id": "sur-tes-murs-jerusalem-pour-lamour-de-sion",
     "title": "Sur tes murs, Jérusalem (Pour l'amour de Sion)",
     "rating": "JEM713",

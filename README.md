@@ -1162,7 +1162,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Fenêtre de l'aperçu tout en haut à cause de l'aide
 ```
 
-##### Dernière version
 **02/01/2022 v4.18.8**
 ```
   + En mémoire du Seigneur D304-1
@@ -1175,4 +1174,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
   Ajout de choix dans les couleurs pour les temps liturgiques
   Possibilité de personnaliser la couleur des modifications du Missel Romain
+```
+
+##### Dernière version
+**23/01/2022 v4.18.9**
+```
+  + Viens ma toute belle
+  + Gloria Guillou AL13-89
 ```
