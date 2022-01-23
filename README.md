@@ -1177,7 +1177,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
 
 ##### Dernière version
-**23/01/2022 v4.18.9**
+**23/01/2022 v4.19.0**
 ```
   + Viens ma toute belle
   + Gloria Guillou AL13-89
@@ -1185,4 +1185,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Texte persdonnalisé : retour à la ligne simple en appuyant sur la touche Entrée
   Tableaux Répartoire et Missel Romain :
     tri avec l'outil intégré et non manuellement
+    recherche plus poussée : possiblité de rechercher dans le contenu (paroles, auteur, compositeur, éditeur etc...)
 ```

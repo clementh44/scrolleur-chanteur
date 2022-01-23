@@ -234,17 +234,24 @@
                 <b-input-group>
                   <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher un titre..." v-debounce="searchSong" @click="$event.target.select()"></b-form-input>
                   <b-input-group-append>
-                    <b-button variant="outline-secondary" @click="searchScore(search, settings.score.google)" v-b-tooltip.hover title="Rechercher le titre sur google">
+                    <b-button variant="outline-secondary" @click="searchScore(songsFilter.search, settings.score.google)" v-b-tooltip.hover title="Rechercher le titre sur google">
                       <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
                     </b-button>
                   </b-input-group-append>
                 </b-input-group>
               </b-form-group>
+              <b-form-group label="Rechercher dans :">
+                <b-form-checkbox-group v-model="songsFilter.searchFilter">
+                  <b-form-checkbox value="title">le titre</b-form-checkbox>
+                  <b-form-checkbox value="lyrics">les paroles</b-form-checkbox>
+                  <b-form-checkbox value="secli">les autres données (auteur, compositeur, éditeur, cote)</b-form-checkbox>
+                </b-form-checkbox-group>
+              </b-form-group>
               <div>
                 <b-pagination
-                  v-model="filteredSongsCurrentPage"
-                  :total-rows="filteredSongsItem"
-                  :per-page="filteredSongsPerPage"
+                  v-model="songsFilter.currentPage"
+                  :total-rows="songsFilter.totalRows"
+                  :per-page="songsFilter.perPage"
                   first-number
                   last-number
                   align="center"
@@ -253,10 +260,13 @@
 
                 <b-table
                   id="filtered-songs"
-                  :items="filteredSongs"
+                  :items="songs"
                   :sort-by="'id'"
-                  :per-page="filteredSongsPerPage"
-                  :current-page="filteredSongsCurrentPage"
+                  :filter="songsFilter.search"
+                  :filter-function="filterSongs"
+                  @filtered="onFilteredSongs"
+                  :per-page="songsFilter.perPage"
+                  :current-page="songsFilter.currentPage"
                   :fields="[{ key: 'item', label: '' }]"
                   :bordered="true"
                   thead-class="d-none"
@@ -329,11 +339,17 @@
                   <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher..." v-debounce="searchMissel" @click="$event.target.select()"></b-form-input>
                 </b-input-group>
               </b-form-group>
+              <b-form-group label="Rechercher dans :">
+                <b-form-checkbox-group v-model="misselFilter.searchFilter">
+                  <b-form-checkbox value="title">le titre</b-form-checkbox>
+                  <b-form-checkbox value="text">le contenu</b-form-checkbox>
+                </b-form-checkbox-group>
+              </b-form-group>
               <div>
                 <b-pagination
-                  v-model="filteredMisselCurrentPage"
-                  :total-rows="filteredMisselItem"
-                  :per-page="filteredMisselPerPage"
+                  v-model="misselFilter.currentPage"
+                  :total-rows="misselFilter.totalRows"
+                  :per-page="misselFilter.perPage"
                   first-number
                   last-number
                   align="center"
@@ -342,10 +358,13 @@
 
                 <b-table
                   id="filtered-missel"
-                  :items="filteredMissel"
+                  :items="missel"
                   :sort-by="'id'"
-                  :per-page="filteredMisselPerPage"
-                  :current-page="filteredMisselCurrentPage"
+                  :filter="misselFilter.search"
+                  :filter-function="filterMissel"
+                  @filtered="onFilteredMissel"
+                  :per-page="misselFilter.perPage"
+                  :current-page="misselFilter.currentPage"
                   :fields="[{ key: 'item', label: '' }]"
                   :bordered="true"
                   thead-class="d-none"
@@ -403,21 +422,29 @@ export default {
       viewBody: { type: "empty" },
       viewOpened: false,
       playlist: [],
-      filteredSongsPerPage: 10,
-      filteredSongsCurrentPage: 1,
-      filteredSongsHeader: [
-        { key: "title", label: "Titre" },
-        { key: "actions", label: "Actions" },
-      ],
-      search: "",
+      songsFilter: {
+        header: [
+          { key: "title", label: "Titre" },
+          { key: "actions", label: "Actions" },
+        ],
+        totalRows: 1,
+        perPage: 10,
+        currentPage: 1,
+        search: "",
+        searchFilter: ["title"],
+      },
       misselColor: "#000000",
-      filteredMisselPerPage: 10,
-      filteredMisselCurrentPage: 1,
-      filteredMisselHeader: [
-        { key: "title", label: "Titre" },
-        { key: "actions", label: "Actions" },
-      ],
-      searchMisselText: "",
+      misselFilter: {
+        header: [
+          { key: "title", label: "Titre" },
+          { key: "actions", label: "Actions" },
+        ],
+        totalRows: 1,
+        perPage: 10,
+        currentPage: 1,
+        search: "",
+        searchFilter: ["title"],
+      },
       paramOpened: false,
       defaultSettings: {
         liveView: {
@@ -677,13 +704,62 @@ export default {
         window.open(query.replace("<TITRE>", title.replace(/ /g, "+")))
       }
     },
+    // REPERTOIRE+MISSEL
+    normalize: function (text) {
+      // normalise le texte (sans accents, minuscule)
+      return text
+        .normalize("NFD") //sépare lettre et accents
+        .replace(/[\u0300-\u036f,']/g, "") //supprime accents
+        .toLowerCase() //minuscule
+    },
+    includes: function (text1, text2) {
+      // recherche la présence de tous les mots de text2 dans text1
+      return text1.match(RegExp("^(?=.*" + this.normalize(text2).split(" ").join(")(?=.*") + ").*$", "g"))
+    },
+    // REPERTOIRE
+    filterSongs(song, search) {
+      let data = ""
+      if (this.songsFilter.searchFilter.length == 0 || this.songsFilter.searchFilter.includes("title")) {
+        data = song.id
+      }
+      if (this.songsFilter.searchFilter.length == 0 || this.songsFilter.searchFilter.includes("secli")) {
+        data = data + " " + this.normalize([song.publisher, song.writer, song.composer, song.rating, song.newRating].join(" "))
+      }
+      if (this.songsFilter.searchFilter.length == 0 || this.songsFilter.searchFilter.includes("lyrics")) {
+        for (const block of song.lyrics) {
+          data = data + " " + this.normalize(block.text)
+        }
+      }
+      return this.includes(data, search)
+    },
+    onFilteredSongs(filteredItems) {
+      // actualisation du nombre d'élément et donc de page après une recherche
+      this.songsFilter.totalRows = filteredItems.length
+      this.songsFilter.currentPage = 1
+    },
+    // MISSEL
+    filterMissel(item, search) {
+      let data = ""
+      if (this.misselFilter.searchFilter.length == 0 || this.misselFilter.searchFilter.includes("title")) {
+        data = item.id
+      }
+      if (this.misselFilter.searchFilter.length == 0 || this.misselFilter.searchFilter.includes("text")) {
+        data = data + " " + this.normalize(item.text)
+      }
+      return this.includes(data, search)
+    },
+    onFilteredMissel(filteredItems) {
+      // actualisation du nombre d'élément et donc de page après une recherche
+      this.misselFilter.totalRows = filteredItems.length
+      this.misselFilter.currentPage = 1
+    },
 
     // fonction pour le debounce de la recherche d'un titre
     searchSong: function (title) {
-      this.search = title
+      this.songsFilter.search = title
     },
     searchMissel: function (title) {
-      this.searchMisselText = title
+      this.misselFilter.search = title
     },
 
     // AUTRE
@@ -746,42 +822,6 @@ export default {
       })
     },
   },
-  computed: {
-    filteredSongs: function () {
-      if (this.search == "") {
-        return this.songs
-      }
-      return this.songs.filter((song) => {
-        // normalise le terme recherché (sans accents, minuscule)
-        return this.search
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f,']/g, "")
-          .toLowerCase()
-          .split(" ")
-          .every((s) => song.id.includes(s))
-      })
-    },
-    filteredSongsItem() {
-      return this.filteredSongs.length
-    },
-    filteredMissel: function () {
-      if (this.searchMisselText == "") {
-        return this.missel
-      }
-      return this.missel.filter((text) => {
-        // normalise le terme recherché (sans accents, minuscule)
-        return this.searchMisselText
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f,']/g, "")
-          .toLowerCase()
-          .split(" ")
-          .every((s) => text.id.includes(s))
-      })
-    },
-    filteredMisselItem() {
-      return this.filteredMissel.length
-    },
-  },
   beforeMount() {
     window.addEventListener("beforeunload", this.beforeClose)
     this.$once("hook:beforeDestroy", () => {
@@ -804,6 +844,8 @@ export default {
     if (this.$cookies.isKey("secliAccepted")) {
       this.secliAccepted = this.$cookies.get("secliAccepted")
     }
+    this.songsFilter.totalRows = this.songs.length
+    this.misselFilter.totalRows = this.missel.length
   },
   created() {
     window.addEventListener("keydown", this.manageShortCuts)
