@@ -73,11 +73,11 @@ export default {
         ]
         document
           .querySelector('meta[name="description"]')
-          .setAttribute("content", "Paroles du chant '" + this.element.title.replaceAll("&nbsp;", " ") + "' - " + descriptions[Math.floor(Math.random() * descriptions.length)])
+          .setAttribute("content", `Paroles du chant '${this.element.title.replaceAll("&nbsp;", " ")}' - ${descriptions[Math.floor(Math.random() * descriptions.length)]}`)
       } else {
         this.element = {
           type: "error",
-          text: "Pas de chant trouvé avec comme identifiant '" + this.songId + "'",
+          text: `Pas de chant trouvé avec comme identifiant '${this.songId}'`,
         }
       }
     }

@@ -714,10 +714,10 @@ export default {
     },
     includes: function (text1, text2) {
       // recherche la présence de tous les mots de text2 dans text1
-      return text1.match(RegExp("^(?=.*" + this.normalize(text2).split(" ").join(")(?=.*") + ").*$", "g"))
+      return text1.match(RegExp(`^(?=.*${this.normalize(text2).split(" ").join(")(?=.*")}).*$`, "g"))
     },
     // REPERTOIRE
-    filterSongs(song, search) {
+    filterSongs: function (song, search) {
       let data = ""
       if (this.songsFilter.searchFilter.length == 0 || this.songsFilter.searchFilter.includes("title")) {
         data = song.id
@@ -732,13 +732,13 @@ export default {
       }
       return this.includes(data, search)
     },
-    onFilteredSongs(filteredItems) {
+    onFilteredSongs: function (filteredItems) {
       // actualisation du nombre d'élément et donc de page après une recherche
       this.songsFilter.totalRows = filteredItems.length
       this.songsFilter.currentPage = 1
     },
     // MISSEL
-    filterMissel(item, search) {
+    filterMissel: function (item, search) {
       let data = ""
       if (this.misselFilter.searchFilter.length == 0 || this.misselFilter.searchFilter.includes("title")) {
         data = item.id
@@ -748,7 +748,7 @@ export default {
       }
       return this.includes(data, search)
     },
-    onFilteredMissel(filteredItems) {
+    onFilteredMissel: function (filteredItems) {
       // actualisation du nombre d'élément et donc de page après une recherche
       this.misselFilter.totalRows = filteredItems.length
       this.misselFilter.currentPage = 1
@@ -817,9 +817,9 @@ export default {
       return false
     },
     changeMisselColor: function (newColor) {
-      this.missel.forEach((element) => {
+      for (const element of this.missel) {
         this.$set(element, "text", element.text.replaceAll(/#....../g, newColor))
-      })
+      }
     },
   },
   beforeMount() {
@@ -851,9 +851,9 @@ export default {
     window.addEventListener("keydown", this.manageShortCuts)
 
     //préparation de la liste des chants
-    this.songs.forEach((song) => {
+    for (const song of this.songs) {
       this.$set(song, "type", "song")
-      song.lyrics.forEach((lyrics) => {
+      for (const lyrics of song.lyrics) {
         if (lyrics.type == "chorus" && lyrics.sticky == undefined) {
           this.$set(lyrics, "sticky", true)
         } else if ((lyrics.type == "verse" || lyrics.type == "translation") && lyrics.show == undefined) {
@@ -862,14 +862,14 @@ export default {
         if (lyrics.isActive == undefined) {
           this.$set(lyrics, "isActive", false)
         }
-      })
-    })
+      }
+    }
 
     //préparation du Missel
-    this.missel.forEach((element) => {
+    for (const element of this.missel) {
       this.$set(element, "type", "text")
       this.$set(element, "isTitleDisplayed", false)
-    })
+    }
   },
   watch: {
     settings: {

@@ -6,12 +6,12 @@
 
 <script>
 function copyStyles(sourceDoc, targetDoc) {
-  Array.from(sourceDoc.styleSheets).forEach((styleSheet) => {
+  Array.from(sourceDoc.styleSheets, (styleSheet) => {
     if (styleSheet.cssRules) {
       // for <style> elements
       const newStyleEl = sourceDoc.createElement("style")
 
-      Array.from(styleSheet.cssRules).forEach((cssRule) => {
+      Array.from(styleSheet.cssRules, (cssRule) => {
         // write the text of each rule into the body of the style element
         newStyleEl.appendChild(sourceDoc.createTextNode(cssRule.cssText))
       })
@@ -54,7 +54,7 @@ export default {
     }
   },
   watch: {
-    open(newOpen) {
+    open: function (newOpen) {
       if (newOpen) {
         this.openPortal()
       } else {
@@ -63,15 +63,15 @@ export default {
     },
   },
   methods: {
-    openPortal() {
-      this.windowRef = window.open("", "scrolleur-chanteur-live", "width=" + this.width + ",height=" + this.height + ",left=200,top=200")
+    openPortal: function () {
+      this.windowRef = window.open("", "scrolleur-chanteur-live", `width=${this.width},height=${this.height},left=200,top=200`)
       this.windowRef.document.body.innerHTML = ""
       this.windowRef.document.body.appendChild(this.$el)
       copyStyles(window.document, this.windowRef.document)
       this.windowRef.addEventListener("beforeunload", this.closePortal)
       this.windowRef.addEventListener("keydown", (event) => this.$emit("shortcuts", event))
     },
-    closePortal() {
+    closePortal: function () {
       if (this.windowRef) {
         this.windowRef.close()
         this.windowRef = null

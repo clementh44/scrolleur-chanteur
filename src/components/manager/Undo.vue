@@ -18,17 +18,17 @@ export default {
     }
   },
   methods: {
-    addElement(element, title) {
+    addElement: function (element, title) {
       var deletedElement = {
         element: element,
         title: title,
       }
       this.deletedElements.push(deletedElement)
     },
-    deleteElement(deletedElement) {
+    deleteElement: function (deletedElement) {
       this.deletedElements.splice(this.deletedElements.indexOf(deletedElement), 1)
     },
-    restore(deletedElement) {
+    restore: function (deletedElement) {
       this.deleteElement(deletedElement)
       this.$emit("restoreElement", deletedElement.element)
     },

@@ -1186,4 +1186,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Tableaux Répartoire et Missel Romain :
     tri avec l'outil intégré et non manuellement
     recherche plus poussée : possiblité de rechercher dans le contenu (paroles, auteur, compositeur, éditeur etc...)
+  Nettoyage dans le code (forEach en for...of, `${}` pour la concaténation de text)
 ```

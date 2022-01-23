@@ -172,16 +172,16 @@ export default {
       if (hasBorder) {
         var styles = {}
         if (this.settings.liveView.borders.top.displayed) {
-          styles.borderTop = this.settings.liveView.borders.top.width + "px " + this.settings.liveView.borders.top.style + " " + this.settings.liveView.borders.top.color
+          styles.borderTop = `${this.settings.liveView.borders.top.width}px ${this.settings.liveView.borders.top.style} ${this.settings.liveView.borders.top.color}`
         }
         if (this.settings.liveView.borders.right.displayed) {
-          styles.borderRight = this.settings.liveView.borders.right.width + "px " + this.settings.liveView.borders.right.style + " " + this.settings.liveView.borders.right.color
+          styles.borderRight = `${this.settings.liveView.borders.right.width}px ${this.settings.liveView.borders.right.style} ${this.settings.liveView.borders.right.color}`
         }
         if (this.settings.liveView.borders.bottom.displayed) {
-          styles.borderBottom = this.settings.liveView.borders.bottom.width + "px " + this.settings.liveView.borders.bottom.style + " " + this.settings.liveView.borders.bottom.color
+          styles.borderBottom = `${this.settings.liveView.borders.bottom.width}px ${this.settings.liveView.borders.bottom.style} ${this.settings.liveView.borders.bottom.color}`
         }
         if (this.settings.liveView.borders.left.displayed) {
-          styles.borderLeft = this.settings.liveView.borders.left.width + "px " + this.settings.liveView.borders.left.style + " " + this.settings.liveView.borders.left.color
+          styles.borderLeft = `${this.settings.liveView.borders.left.width}px ${this.settings.liveView.borders.left.style} ${this.settings.liveView.borders.left.color}`
         }
         return styles
       } else {
@@ -207,7 +207,7 @@ export default {
       return styles
     },
     //actualise les éléments visibles ou non d'un chant
-    handleScroll() {
+    handleScroll: function () {
       if (this.element.type == "song") {
         let windowLyrics = this.$el.ownerDocument.getElementsByClassName("song-part") //liste des blocs dans le DOM (verse, chorus, translation)
         let lyrics = this.element.lyrics //liste des blocs dans les données
@@ -220,7 +220,7 @@ export default {
         let lineHeight = this.$el.ownerDocument.getElementById("invisible-part").clientHeight
         let activeIndex = -1
         let lastStickyIndex = -1
-        lyrics.forEach((part, i) => {
+        for (const [i, part] of lyrics.entries()) {
           if (part.type != "chorus" || (part.type == "chorus" && !part.sticky)) {
             if (unique) {
               part.isActive = false
@@ -239,7 +239,7 @@ export default {
               lastStickyIndex = i
             }
           }
-        })
+        }
 
         //parcours des refrains avant le dernier élément actif pour le rendre actif s'il est statique
         for (let index = activeIndex - 1; index >= 0; index--) {
@@ -257,7 +257,7 @@ export default {
         }
       }
     },
-    getlastActivePartIndex() {
+    getlastActivePartIndex: function () {
       //Retourne l'index de la dernière partie (verse, chorus, translation) du chant qui est active (visible dans la présentation)
       if (this.element.type == "song") {
         let stickyIndex = -1
@@ -275,10 +275,10 @@ export default {
       }
       return -1
     },
-    getNextPartIndex() {
+    getNextPartIndex: function () {
       return this.getlastActivePartIndex() + 1
     },
-    getPreviousPartIndex() {
+    getPreviousPartIndex: function () {
       let previousPartIndex = this.getlastActivePartIndex()
       if (previousPartIndex == -1) {
         return this.element.lyrics.length - 1
@@ -289,33 +289,33 @@ export default {
       } while (previousPartIndex > 0 && this.element.lyrics[previousPartIndex].isActive)
       return previousPartIndex
     },
-    scrollNextPart() {
+    scrollNextPart: function () {
       this.scrollViewToPos(this.getNextPartIndex())
     },
-    scrollPreviousPart() {
+    scrollPreviousPart: function () {
       this.scrollViewToPos(this.getPreviousPartIndex())
     },
-    scrollTop() {
+    scrollTop: function () {
       this.scroll(-99999, 0, false)
     },
-    getLineHeight() {
+    getLineHeight: function () {
       if (this.$el.ownerDocument.getElementById("invisible-part")) {
         return this.$el.ownerDocument.getElementById("invisible-part").clientHeight
       } else {
         return 16
       }
     },
-    scrollDown() {
+    scrollDown: function () {
       if (["song", "text", "file"].includes(this.element.type)) {
         this.scroll(this.getLineHeight(), 0, true)
       }
     },
-    scrollUp() {
+    scrollUp: function () {
       if (["song", "text", "file"].includes(this.element.type)) {
         this.scroll(-this.getLineHeight(), 0, true)
       }
     },
-    scroll(top, left, smooth) {
+    scroll: function (top, left, smooth) {
       this.$el.scrollBy({
         top: top,
         left: left,
@@ -323,21 +323,21 @@ export default {
       })
     },
     /* Cache tous les couplets et traductions */
-    hideAllVerses() {
-      this.element.lyrics.forEach((el) => {
+    hideAllVerses: function () {
+      for (const el of this.element.lyrics) {
         if (el.show) {
           el.show = false
         }
-      })
+      }
     },
     /* Affiche l'élément à la position pos, y scroll et cache les autres éléments */
-    displayAndScroll(pos) {
+    displayAndScroll: function (pos) {
       this.hideAllVerses()
       this.element.lyrics[pos].show = true
       this.scrollViewToPos(pos)
     },
     /* Scroll to the position in the song */
-    scrollViewToPos(pos) {
+    scrollViewToPos: function (pos) {
       if (this.element.type == "song") {
         let DOMelements = this.$el.getElementsByClassName("song-part") //liste des blocs (verse, chorus, translation)
         if (pos < 0 || pos > DOMelements.length) {

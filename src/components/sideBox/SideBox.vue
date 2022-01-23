@@ -24,7 +24,7 @@ export default {
     header: String,
   },
   methods: {
-    close() {
+    close: function () {
       this.$emit("close")
     },
   },

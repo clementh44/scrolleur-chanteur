@@ -213,7 +213,7 @@ export default {
         this.$emit("listChange", value)
       },
     },
-    dragOptions() {
+    dragOptions: function () {
       return {
         animation: 200,
         group: "description",
@@ -223,18 +223,18 @@ export default {
     },
   },
   methods: {
-    updateCurrentElementIndex(newIndex) {
+    updateCurrentElementIndex: function (newIndex) {
       this.$emit("update-current-element-index", newIndex)
     },
 
-    display(element, index) {
+    display: function (element, index) {
       this.$emit("display", element, index)
     },
-    preview(element) {
+    preview: function (element) {
       this.$emit("preview", element)
     },
 
-    removeAt(index) {
+    removeAt: function (index) {
       if (index == this.currentElementIndex) {
         //si élément suppr est l'actuel
         this.display({ type: "empty" })
@@ -249,10 +249,10 @@ export default {
         this.$refs.deleteElement.addElement(element, element.title)
       }
     },
-    addElement(element) {
+    addElement: function (element) {
       this.playlist.push(element)
     },
-    insertEmptyTransition() {
+    insertEmptyTransition: function () {
       //intercaler un élément vide entre les autres éléments pour faire des transitions contenu>vide>contenu>vide etc...
       if (this.playlist.length > 0) {
         for (let index = 0; index < this.playlist.length; index++) {
@@ -272,13 +272,13 @@ export default {
       }
     },
     //vider la playlist
-    clean() {
+    clean: function () {
       for (let index = this.playlist.length - 1; index >= 0; index--) {
         this.removeAt(index)
       }
     },
     //supprimer les éléments vides
-    cleanEmpty() {
+    cleanEmpty: function () {
       for (let index = this.playlist.length - 1; index >= 0; index--) {
         if (this.playlist[index].type == "empty") {
           this.removeAt(index)
@@ -287,12 +287,12 @@ export default {
     },
 
     //gestion du déplacement d'un élément
-    onStart() {
+    onStart: function () {
       this.drag = true
       this.savedCurrentElementIndex = this.currentElementIndex
       this.updateCurrentElementIndex(-1)
     },
-    onEnd(evt) {
+    onEnd: function (evt) {
       this.drag = false
       if (evt.oldIndex == this.savedCurrentElementIndex) {
         this.updateCurrentElementIndex(evt.newIndex)
@@ -305,14 +305,14 @@ export default {
       }
     },
 
-    canEdit(element) {
+    canEdit: function (element) {
       if (this.editableTypes.includes(element.type)) {
         element.isEdited = false
         return true
       }
       return false
     },
-    edit(element) {
+    edit: function (element) {
       this.editedElement = element
       this.isEdited = true
       setTimeout(() => {
@@ -320,7 +320,7 @@ export default {
       }, 100)
     },
 
-    addFile(file) {
+    addFile: function (file) {
       if (file.target.files && file.target.files[0]) {
         var fr = new FileReader()
         fr.onload = () => {

@@ -287,7 +287,7 @@ export default {
     defaultSettings: Object,
   },
   methods: {
-    manageKey(event) {
+    manageKey: function (event) {
       if (event.key != "Escape") {
         switch (event.target.id) {
           case "short-next":
