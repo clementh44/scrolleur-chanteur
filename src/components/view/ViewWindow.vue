@@ -23,7 +23,14 @@
           key="{{element.title}}"
           v-if="element.type == 'song'"
           :class="['song', live ? 'px-' + settings.liveView.padding.view : '']"
-          :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
+          :style="[
+            live
+              ? {
+                  fontSize: settings.liveView.fontSize + 'em',
+                  textAlign: settings.song.textAlign,
+                }
+              : '',
+          ]"
         >
           <h1 itemprop="headline" class="title mb-1" v-show="!live || settings.song.showTitle" v-html="element.title"></h1>
           <p class="secli" v-show="haveSecliToShow()" v-html="getSecliString()"></p>

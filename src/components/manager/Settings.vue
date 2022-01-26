@@ -189,6 +189,12 @@
         <b-form-input type="range" v-model="settings.song.verseOpacity" min="0" max="0.9" step="0.01"></b-form-input>
         <template #description>Change la transparence des couplets, traductions et refrains quand ils sont cachés à {{ settings.song.verseOpacity }} sur 1 (0 = totalement invisible)</template>
       </b-form-group>
+      <b-form-group label-cols-sm="2" label="Aligner" content-cols-sm="10" description="Alignement du chant affiché dans la présentation">
+        <b-form-select v-model="settings.song.textAlign">
+          <b-form-select-option value="left">à gauche (par défaut)</b-form-select-option>
+          <b-form-select-option value="center">au milieu</b-form-select-option>
+        </b-form-select>
+      </b-form-group>
       <h6>Couplet uniquement</h6>
       <b-form-group label-cols-sm="2" label="Marge gauche" content-cols-sm="10">
         <b-form-input type="range" v-model="settings.liveView.padding.verse.left" min="0" max="5" step="0.5"></b-form-input>

@@ -37,7 +37,7 @@
 
       <div class="col">
         <!-- Information Missel -->
-        <b-alert show variant="info" dismissible fade class="mt-3">
+        <b-alert variant="info" :show="settings.help" @dismissed="settings.help = false" dismissible fade class="mt-3">
           <p
             ><strong>Nouveau !</strong> <a href="#missel-header">Aide à destination des fidèles pour la nouvelle traduction française du Missel Romain. (voir après le Répertoire)</a><br />
             Prières eucharistiques, réponses de l'assemblée, mise en évidence des modifications etc... Tout est prêt pour découvrir les textes de la liturgie pour l'avent 2021 !</p
@@ -541,7 +541,7 @@ export default {
         },
       },
       settings: {
-        version: 20210908, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
+        version: 20220126, // à incrémenter s'il y a des changements dans la structure des paramètres et forcer la ràz des paramètres sauvegardés dans le navigateur
         liveView: {
           colors: {
             background: "#000000",
@@ -640,6 +640,7 @@ export default {
           showComposer: false,
           showPublisher: false,
           verseOpacity: 0.1,
+          textAligne: "left",
         },
         score: {
           enabled: false,

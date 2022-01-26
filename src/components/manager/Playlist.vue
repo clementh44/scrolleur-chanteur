@@ -1,6 +1,8 @@
 <template>
   <div>
     <!-- Barre d'actions -->
+    <b-badge variant="success">Nouveautés du 26/01</b-badge><small> paramètre pour centrer l'affichage des paroles | possiblité de cacher le refrain</small>
+    <hr/>
     <b-button-toolbar class="mb-3">
       <b-button-group class="mr-3">
         <b-button @click="display({ type: 'grid' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Quadrillage d'aide au cadrage de la projection">
