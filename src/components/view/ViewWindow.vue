@@ -1,7 +1,7 @@
 <template>
   <div
     id="scrollable-content"
-    class="h-100 overflow-auto"
+    :class="[live ? 'h-100 overflow-auto' : 'container']"
     :style="[
       live
         ? {
@@ -23,10 +23,10 @@
           :class="['song', live ? 'px-' + settings.liveView.padding.view : '']"
           :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
         >
-          <div class="title mb-1" v-show="!live || settings.song.showTitle" v-html="element.title"></div>
-          <div class="secli" v-show="haveSecliToShow()" v-html="getSecliString()"></div>
+          <h1 class="title mb-1" v-show="!live || settings.song.showTitle" v-html="element.title"></h1>
+          <p class="secli" v-show="haveSecliToShow()" v-html="getSecliString()"></p>
 
-          <div
+          <p
             v-for="(lyrics, index) in element.lyrics"
             :key="index"
             :class="['song-part', lyrics.type, { show: lyrics.show, sticky: lyrics.sticky }]"
@@ -37,7 +37,7 @@
             ]"
             @click="toggleLyrics(lyrics)"
             v-html="lyrics.text"
-          ></div>
+          ></p>
           <div id="invisible-part" v-if="live">&#8205;</div>
         </div>
 

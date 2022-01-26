@@ -27,9 +27,18 @@
   line-height: normal;
 }
 
+.song .title {
+  margin: 0;
+}
+
 .song .chorus {
   font-weight: bold;
   font-size: 1.1em;
+}
+
+.song .song-part {
+  margin: 0;
+  padding-bottom: 0.5em;
 }
 
 .sticky {

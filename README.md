@@ -1176,7 +1176,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Possibilité de personnaliser la couleur des modifications du Missel Romain
 ```
 
-##### Dernière version
 **23/01/2022 v4.19.0**
 ```
   + Viens ma toute belle
@@ -1187,4 +1186,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     tri avec l'outil intégré et non manuellement
     recherche plus poussée : possiblité de rechercher dans le contenu (paroles, auteur, compositeur, éditeur etc...)
   Nettoyage dans le code (forEach en for...of, `${}` pour la concaténation de text)
+```
+
+##### Dernière version
+**26/01/2022 v4.19.1**
+```
+  Améliorations pour le référencement
 ```
