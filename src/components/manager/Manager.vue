@@ -271,6 +271,7 @@
                   :fields="[{ key: 'item', label: '' }]"
                   :bordered="true"
                   thead-class="d-none"
+                  show-empty
                 >
                   <template #cell(item)="data">
                     <div class="d-flex align-items-center">
@@ -288,12 +289,34 @@
                               <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
                             </b-iconstack>
                           </b-button>
-                          <b-button variant="light" :to="{ name: 'song', params: { id: data.item.id } }" target="_blank" v-b-tooltip.hover.noninteractive title="Ouvrir les paroles dans une fenêtre externe">
+                          <b-button
+                            variant="light"
+                            :to="{ name: 'song', params: { id: data.item.id } }"
+                            target="_blank"
+                            v-b-tooltip.hover.noninteractive
+                            title="Ouvrir les paroles dans une fenêtre externe"
+                          >
                             <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
                           </b-button>
                         </template>
                       </ElementActions>
                     </div>
+                  </template>
+                  <template #emptyfiltered="">
+                    <h5>Aucun chant trouvé</h5>
+                    <p>Vous pouvez rechercher dans les paroles en cochant la bonne case ci-dessus.</p>
+                    <p
+                      >Ou rechercher ce chant sur internet et l'insérer dans la
+                      <b-iconstack variant="success">
+                        <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
+                        <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
+                      </b-iconstack>
+                      playlist sous forme de texte personnalisé (avec
+                      <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) :
+                      <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
+                      <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a></p
+                    >
+                    <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Pour la prochaine fois, envoyer une demande pour que ce chant soit ajouté.</a></p>
                   </template>
                 </b-table>
               </div>

@@ -1198,6 +1198,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Les refrains peuvent être cachés
   Ajout d'un bouton pour afficher les paramètres depuis la playlist
+  Ajout d'un message quand le chant recherché n'existe pas
 
   Corrections
     chant À ce monde que tu fais
