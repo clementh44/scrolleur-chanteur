@@ -18,26 +18,30 @@
       <transition name="fade" :duration="duration">
         <!-- Type chant -->
         <div
+          itemscope
+          itemtype="https://schema.org/MusicComposition"
           key="{{element.title}}"
           v-if="element.type == 'song'"
           :class="['song', live ? 'px-' + settings.liveView.padding.view : '']"
           :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
         >
-          <h1 class="title mb-1" v-show="!live || settings.song.showTitle" v-html="element.title"></h1>
+          <h1 itemprop="headline" class="title mb-1" v-show="!live || settings.song.showTitle" v-html="element.title"></h1>
           <p class="secli" v-show="haveSecliToShow()" v-html="getSecliString()"></p>
-
-          <p
-            v-for="(lyrics, index) in element.lyrics"
-            :key="index"
-            :class="['song-part', lyrics.type, { show: lyrics.show, sticky: lyrics.sticky }]"
-            :style="[
-              lyrics.type == 'chorus' || lyrics.show ? '' : { opacity: settings.song.verseOpacity },
-              lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : '',
-              live ? paddingStyle(lyrics) : '',
-            ]"
-            @click="toggleLyrics(lyrics)"
-            v-html="lyrics.text"
-          ></p>
+          <div itemprop="lyrics" itemscope itemtype="https://schema.org/CreativeWork">
+            <p
+              itemprop="text"
+              v-for="(lyrics, index) in element.lyrics"
+              :key="index"
+              :class="['song-part', lyrics.type, { show: lyrics.show, sticky: lyrics.sticky }]"
+              :style="[
+                lyrics.type == 'chorus' || lyrics.show ? '' : { opacity: settings.song.verseOpacity },
+                lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : '',
+                live ? paddingStyle(lyrics) : '',
+              ]"
+              @click="toggleLyrics(lyrics)"
+              v-html="lyrics.text"
+            ></p
+          ></div>
           <div id="invisible-part" v-if="live">&#8205;</div>
         </div>
 

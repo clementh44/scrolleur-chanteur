@@ -10,6 +10,19 @@
       </b-collapse>
     </b-navbar>
 
+    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <router-link :to="{ name: 'home' }" itemprop="item"><span itemprop="name">Scrolleur Chanteur</span></router-link>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name">{{ element.title }}</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
+
     <ViewWindow :element="element" :settings="settings" :live="false"></ViewWindow>
   </div>
 </template>

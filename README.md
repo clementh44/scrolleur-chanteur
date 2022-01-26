@@ -1191,5 +1191,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ##### Dernière version
 **26/01/2022 v4.19.1**
 ```
-  Améliorations pour le référencement
+  Améliorations pour le référencement : h1 et p ; breadcrum ; utilisation de schema.org
 ```
