@@ -3,36 +3,36 @@
     <!-- Barre d'actions -->
     <b-button-toolbar class="mb-3">
       <b-button-group class="mr-3">
-        <b-button @click="display({ type: 'grid' })" variant="secondary" v-b-tooltip.hover title="Quadrillage d'aide au cadrage de la projection">
+        <b-button @click="display({ type: 'grid' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Quadrillage d'aide au cadrage de la projection">
           <font-awesome-icon :icon="'border-all'"></font-awesome-icon>
         </b-button>
       </b-button-group>
       <b-button-group class="mr-3">
         <b-button variant="secondary" :pressed="false" aria-disabled="true" style="pointer-events: none"> Ajouter : </b-button>
-        <b-button @click="addElement({ type: 'empty', title: '_vide_' })" variant="secondary" v-b-tooltip.hover title="Contenu vide">
+        <b-button @click="addElement({ type: 'empty', title: '_vide_' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Contenu vide">
           <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>
         </b-button>
-        <b-button @click="insertEmptyTransition()" v-if="this.playlist.length > 0" variant="secondary" v-b-tooltip.hover title="Intercaler un élément vide entre chaque contenu">
+        <b-button @click="insertEmptyTransition()" v-if="this.playlist.length > 0" variant="secondary" v-b-tooltip.hover.noninteractive title="Intercaler un élément vide entre chaque contenu">
           <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
         </b-button>
-        <b-button @click="addElement({ type: 'text', title: 'Texte à personnaliser' })" variant="secondary" v-b-tooltip.hover title="Texte personnalisé">
+        <b-button @click="addElement({ type: 'text', title: 'Texte à personnaliser' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Texte personnalisé">
           <font-awesome-icon :icon="'align-left'"></font-awesome-icon>
         </b-button>
-        <b-button @change="addFile($event)" variant="secondary" class="m-0" tag="label" for="input-file" v-b-tooltip.hover title="Importer une image"
+        <b-button @change="addFile($event)" variant="secondary" class="m-0" tag="label" for="input-file" v-b-tooltip.hover.noninteractive title="Importer une image"
           ><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"
         /></b-button>
       </b-button-group>
       <b-button-group v-if="this.playlist.length > 0" class="mr-3">
         <b-button variant="danger" :pressed="false" aria-disabled="true" style="pointer-events: none"> Supprimer : </b-button>
-        <b-button @click="cleanEmpty()" variant="danger" v-b-tooltip.hover title="Supprimer les éléments vides">
+        <b-button @click="cleanEmpty()" variant="danger" v-b-tooltip.hover.noninteractive title="Supprimer les éléments vides">
           <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
         </b-button>
-        <b-button @click="clean()" variant="danger" v-b-tooltip.hover title="Vider la playlist">
+        <b-button @click="clean()" variant="danger" v-b-tooltip.hover.noninteractive title="Vider la playlist">
           <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
         </b-button>
       </b-button-group>
       <b-button-group>
-        <b-button @click="$emit('toggle-param')" v-b-tooltip.hover title="Ouvrir/fermer les paramètres">
+        <b-button @click="$emit('toggle-param')" v-b-tooltip.hover.noninteractive title="Ouvrir/fermer les paramètres">
           <font-awesome-icon :icon="'sliders-h'"></font-awesome-icon>
         </b-button>
       </b-button-group>
@@ -85,7 +85,7 @@
       <transition-group type="transition" :name="!drag ? 'flip-list' : null">
         <b-list-group-item v-for="(element, index) in listLocal" :key="index">
           <div class="d-flex w-100 justify-content-between align-items-center">
-            <div v-if="index == currentElementIndex" class="current-element-icon" style="left: -4px" v-b-tooltip.hover title="Elément actuellement dans la présentation"></div>
+            <div v-if="index == currentElementIndex" class="current-element-icon" style="left: -4px" v-b-tooltip.hover.noninteractive title="Elément actuellement dans la présentation"></div>
             <div class="flex-grow-1"><span v-html="element.title"></span> <b-img v-if="element.type == 'file'" :src="element.file" alt="Miniature image" thumbnail rounded class="sc-file" /></div>
 
             <ElementActions
@@ -100,18 +100,18 @@
               "
             >
               <template v-slot:first>
-                <b-button variant="light" v-if="canEdit(element)" @click="edit(element)" v-b-tooltip.hover title="Editer l'élément">
+                <b-button variant="light" v-if="canEdit(element)" @click="edit(element)" v-b-tooltip.hover.noninteractive title="Editer l'élément">
                   <font-awesome-icon :icon="['far', 'edit']"></font-awesome-icon>
                 </b-button>
               </template>
               <template v-slot:end>
-                <b-button variant="light" @click="display(element, index)" v-b-tooltip.hover title="Afficher dans la fenêtre de présentation">
+                <b-button variant="light" @click="display(element, index)" v-b-tooltip.hover.noninteractive title="Afficher dans la fenêtre de présentation">
                   <font-awesome-icon :icon="'desktop'"></font-awesome-icon>
                 </b-button>
-                <b-button variant="light" class="handle" tag="i" v-b-tooltip.hover title="Déplacer l'élément">
+                <b-button variant="light" class="handle" tag="i" v-b-tooltip.hover.noninteractive title="Déplacer l'élément">
                   <font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon>
                 </b-button>
-                <b-button variant="outline-danger" @click="removeAt(index)" v-b-tooltip.hover title="Supprimer l'élément de la playlist">
+                <b-button variant="outline-danger" @click="removeAt(index)" v-b-tooltip.hover.noninteractive title="Supprimer l'élément de la playlist">
                   <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
                 </b-button>
               </template>
@@ -119,7 +119,7 @@
           </div>
           <div v-if="index == currentElementIndex && element.type == 'song'" class="d-flex flex-wrap mt-1">
             <div class="p-2 border d-flex align-items-center lyrics-part-block" v-for="(lyricsBlock, index) in element.lyrics" :key="index">
-              <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left: 1px" v-b-tooltip.hover title="Partie visible dans la présentation"></div>
+              <div v-if="lyricsBlock.isActive" class="current-element-icon" style="left: 1px" v-b-tooltip.hover.noninteractive title="Partie visible dans la présentation"></div>
               <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" style="height: 1.5rem" v-html="lyricsBlock.text"></div>
               <b-button-group>
                 <b-button
@@ -127,7 +127,7 @@
                   variant="light"
                   class="no-focus"
                   @click="$emit('display-and-scroll', { pos: index })"
-                  v-b-tooltip.hover
+                  v-b-tooltip.hover.noninteractive
                   title="Afficher cet élément et cacher le reste"
                 >
                   <font-awesome-layers>
@@ -135,7 +135,7 @@
                     <font-awesome-icon :icon="['far', 'eye']" transform="right-4 down-4 shrink-2"></font-awesome-icon>
                   </font-awesome-layers>
                 </b-button>
-                <b-button variant="light" class="no-focus" @click="$emit('scroll-to-pos', { pos: index })" v-b-tooltip.hover title="Afficher l'élément dans la présentation">
+                <b-button variant="light" class="no-focus" @click="$emit('scroll-to-pos', { pos: index })" v-b-tooltip.hover.noninteractive title="Afficher l'élément dans la présentation">
                   <font-awesome-icon :icon="'angle-double-down'"></font-awesome-icon>
                 </b-button>
                 <b-button
@@ -144,7 +144,7 @@
                   :class="{ active: lyricsBlock.sticky }"
                   v-if="lyricsBlock.type == 'chorus'"
                   @click="lyricsBlock.sticky = !lyricsBlock.sticky"
-                  v-b-tooltip.hover
+                  v-b-tooltip.hover.noninteractive
                   title="Accrocher/Décrocher ce refrain en haut de la présentation"
                 >
                   <font-awesome-icon :icon="'thumbtack'"></font-awesome-icon>
@@ -155,7 +155,7 @@
                   :class="{ active: !lyricsBlock.show }"
                   v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation' || lyricsBlock.type == 'chorus'"
                   @click="lyricsBlock.show = !lyricsBlock.show"
-                  v-b-tooltip.hover
+                  v-b-tooltip.hover.noninteractive
                   title="Cacher/Afficher ce couplet ou refrain"
                 >
                   <font-awesome-icon :icon="['far', 'eye-slash']"></font-awesome-icon>

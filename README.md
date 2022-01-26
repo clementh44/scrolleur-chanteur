@@ -1201,4 +1201,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 
   Corrections
     chant À ce monde que tu fais
+    Aide (tooltip) disparait quand le curseur passe dessus (plus pratique)
 ```

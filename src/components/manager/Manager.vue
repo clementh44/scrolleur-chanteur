@@ -235,7 +235,7 @@
                 <b-input-group>
                   <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher un titre..." v-debounce="searchSong" @click="$event.target.select()"></b-form-input>
                   <b-input-group-append>
-                    <b-button variant="outline-secondary" @click="searchScore(songsFilter.search, settings.score.google)" v-b-tooltip.hover title="Rechercher le titre sur google">
+                    <b-button variant="outline-secondary" @click="searchScore(songsFilter.search, settings.score.google)" v-b-tooltip.hover.noninteractive title="Rechercher le titre sur google">
                       <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
                     </b-button>
                   </b-input-group-append>
@@ -282,13 +282,13 @@
                         @search-score="searchScore($event.title, $event.query)"
                       >
                         <template v-slot:end>
-                          <b-button variant="light" @click="addElement(data.item)" v-b-tooltip.hover title="Ajouter dans la playlist">
+                          <b-button variant="light" @click="addElement(data.item)" v-b-tooltip.hover.noninteractive title="Ajouter dans la playlist">
                             <b-iconstack variant="success">
                               <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
                               <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
                             </b-iconstack>
                           </b-button>
-                          <b-button variant="light" :to="{ name: 'song', params: { id: data.item.id } }" target="_blank" v-b-tooltip.hover title="Ouvrir les paroles dans une fenêtre externe">
+                          <b-button variant="light" :to="{ name: 'song', params: { id: data.item.id } }" target="_blank" v-b-tooltip.hover.noninteractive title="Ouvrir les paroles dans une fenêtre externe">
                             <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
                           </b-button>
                         </template>
@@ -375,7 +375,7 @@
                       <div class="flex-grow-1">{{ data.item.title }}</div>
                       <ElementActions :element="Object.assign({ type: 'text' }, data.item)" :settings="settings" @preview="previewElement($event)">
                         <template v-slot:end>
-                          <b-button variant="light" @click="addElement(data.item)" v-b-tooltip.hover title="Ajouter dans la playlist">
+                          <b-button variant="light" @click="addElement(data.item)" v-b-tooltip.hover.noninteractive title="Ajouter dans la playlist">
                             <b-iconstack variant="success">
                               <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
                               <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
