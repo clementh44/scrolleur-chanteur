@@ -1197,4 +1197,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **26/01/2022 v4.20.0**
 ```
   Les refrains peuvent être cachés
+  Ajout d'un bouton pour afficher les paramètres depuis la playlist
 ```

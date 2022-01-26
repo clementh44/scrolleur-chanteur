@@ -22,13 +22,18 @@
           ><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"
         /></b-button>
       </b-button-group>
-      <b-button-group v-if="this.playlist.length > 0">
+      <b-button-group v-if="this.playlist.length > 0" class="mr-3">
         <b-button variant="danger" :pressed="false" aria-disabled="true" style="pointer-events: none"> Supprimer : </b-button>
         <b-button @click="cleanEmpty()" variant="danger" v-b-tooltip.hover title="Supprimer les éléments vides">
           <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
         </b-button>
         <b-button @click="clean()" variant="danger" v-b-tooltip.hover title="Vider la playlist">
           <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
+        </b-button>
+      </b-button-group>
+      <b-button-group>
+        <b-button @click="$emit('toggle-param')" v-b-tooltip.hover title="Ouvrir/fermer les paramètres">
+          <font-awesome-icon :icon="'sliders-h'"></font-awesome-icon>
         </b-button>
       </b-button-group>
     </b-button-toolbar>

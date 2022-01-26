@@ -211,6 +211,7 @@
                 v-on:preview="previewElement"
                 :settings="settings"
                 :current-element-index="currentElementIndex"
+                v-on:toggle-param="toggleParam"
                 v-on:update-current-element-index="currentElementIndex = $event"
                 v-on:search-score="searchScore($event.title, $event.query)"
                 v-on:scroll-to-pos="$refs.liveWindow.scrollViewToPos($event.pos)"
