@@ -185,11 +185,11 @@
         <b-form-checkbox v-model="settings.song.showComposer" switch>Afficher le compositeur</b-form-checkbox>
         <b-form-checkbox v-model="settings.song.showPublisher" switch>Afficher l'éditeur</b-form-checkbox>
       </b-form-group>
-      <h6>Couplet</h6>
       <b-form-group label-cols-sm="2" label="Caché" content-cols-sm="10" description="Marges à gauche et droite">
         <b-form-input type="range" v-model="settings.song.verseOpacity" min="0" max="0.9" step="0.01"></b-form-input>
-        <template #description>Change la transparence des couplets et traductions quand ils sont cachés à {{ settings.song.verseOpacity }} sur 1 (0 = totalement invisible)</template>
+        <template #description>Change la transparence des couplets, traductions et refrains quand ils sont cachés à {{ settings.song.verseOpacity }} sur 1 (0 = totalement invisible)</template>
       </b-form-group>
+      <h6>Couplet uniquement</h6>
       <b-form-group label-cols-sm="2" label="Marge gauche" content-cols-sm="10">
         <b-form-input type="range" v-model="settings.liveView.padding.verse.left" min="0" max="5" step="0.5"></b-form-input>
         <template #description>Espace de {{ settings.liveView.padding.verse.left }} à gauche des couplets</template>
@@ -198,7 +198,7 @@
         <b-form-input type="range" v-model="settings.liveView.padding.verse.bottom" min="0" max="5" step="0.5"></b-form-input>
         <template #description>Espace de {{ settings.liveView.padding.verse.bottom }} en bas des couplets</template>
       </b-form-group>
-      <h6>Refrain</h6>
+      <h6>Refrain uniquement</h6>
       <b-form-group label-cols-sm="2" label="Marge gauche" content-cols-sm="10">
         <b-form-input type="range" v-model="settings.liveView.padding.chorus.left" min="0" max="5" step="0.5"></b-form-input>
         <template #description>Espace de {{ settings.liveView.padding.chorus.left }} à gauche des refrains</template>
@@ -207,7 +207,7 @@
         <b-form-input type="range" v-model="settings.liveView.padding.chorus.bottom" min="0" max="5" step="0.5"></b-form-input>
         <template #description>Espace de {{ settings.liveView.padding.chorus.bottom }} en bas des refrains</template>
       </b-form-group>
-      <h6>Traduction</h6>
+      <h6>Traduction uniquement</h6>
       <b-form-group label-cols-sm="2" label="Marge gauche" content-cols-sm="10">
         <b-form-input type="range" v-model="settings.liveView.padding.translation.left" min="0" max="5" step="0.5"></b-form-input>
         <template #description>Espace de {{ settings.liveView.padding.translation.left }} à gauche des traductions</template>

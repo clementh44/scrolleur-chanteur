@@ -1188,8 +1188,13 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Nettoyage dans le code (forEach en for...of, `${}` pour la concaténation de text)
 ```
 
-##### Dernière version
-**26/01/2022 v4.19.1**
+**26/01/2022 v4.20.0**
 ```
   Améliorations pour le référencement : h1 et p ; breadcrum ; utilisation de schema.org
+```
+
+##### Dernière version
+**26/01/2022 v4.20.0**
+```
+  Les refrains peuvent être cachés
 ```

@@ -854,8 +854,13 @@ export default {
     for (const song of this.songs) {
       this.$set(song, "type", "song")
       for (const lyrics of song.lyrics) {
-        if (lyrics.type == "chorus" && lyrics.sticky == undefined) {
-          this.$set(lyrics, "sticky", true)
+        if (lyrics.type == "chorus") {
+          if (lyrics.sticky == undefined) {
+            this.$set(lyrics, "sticky", true)
+          }
+          if (lyrics.show == undefined) {
+            this.$set(lyrics, "show", true)
+          }
         } else if ((lyrics.type == "verse" || lyrics.type == "translation") && lyrics.show == undefined) {
           this.$set(lyrics, "show", true)
         }
@@ -910,7 +915,7 @@ Available elements :
             type: verse | chorus | translation
             text: ""
             sticky: true | false (chorus)
-            show: true | false (verse or translation)
+            show: true | false (chorus, verse or translation)
             isActive: true | false
         },
         {...}

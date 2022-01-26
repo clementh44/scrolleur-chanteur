@@ -34,7 +34,7 @@
               :key="index"
               :class="['song-part', lyrics.type, { show: lyrics.show, sticky: lyrics.sticky }]"
               :style="[
-                lyrics.type == 'chorus' || lyrics.show ? '' : { opacity: settings.song.verseOpacity },
+                lyrics.show ? '' : { opacity: settings.song.verseOpacity },
                 lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : '',
                 live ? paddingStyle(lyrics) : '',
               ]"
@@ -107,7 +107,11 @@ export default {
     toggleLyrics: function (lyrics) {
       switch (lyrics.type) {
         case "chorus":
-          lyrics.sticky = !lyrics.sticky
+          if (lyrics.show) {
+            lyrics.sticky = !lyrics.sticky
+          } else {
+            lyrics.show = !lyrics.show
+          }
           break
         case "verse":
         case "translation":
@@ -329,7 +333,7 @@ export default {
     /* Cache tous les couplets et traductions */
     hideAllVerses: function () {
       for (const el of this.element.lyrics) {
-        if (el.show) {
+        if (el.show && el.type != "chorus") {
           el.show = false
         }
       }
@@ -345,7 +349,7 @@ export default {
       if (this.element.type == "song") {
         let DOMelements = this.$el.getElementsByClassName("song-part") //liste des blocs (verse, chorus, translation)
         if (pos < 0 || pos > DOMelements.length) {
-          console.warn("I'm not suppose to be here...")
+          console.warn("I'm not supposed to be here...")
           return
         }
 
@@ -355,7 +359,7 @@ export default {
           let searchSticky = pos
           while (searchSticky >= 0) {
             let lyrics = this.element.lyrics[searchSticky]
-            if (lyrics.type == "chorus" && lyrics.sticky) {
+            if (lyrics.type == "chorus" && lyrics.sticky && lyrics.show) {
               let stickyElement = DOMelements[searchSticky]
               if (stickyElement.offsetHeight + this.getLineHeight() * 2 > this.$el.ownerDocument.getElementById("scrollable-content").clientHeight) {
                 this.element.lyrics[searchSticky].sticky = false //on détache le chorus (sticky=false) si sa hauteur dépasse la hauteur de la fenêtre
@@ -383,10 +387,10 @@ export default {
           }
         } else {
           if (!DOMelements[pos].classList.contains("chorus")) {
-            //récupération de l'hauteur de l'element sticky plus haut
+            //récupération de la hauteur de l'element sticky plus haut
             stickyHeight = getLastStickyHeight(pos - 1, DOMelements)
           }
-          scrollHeight = DOMelements[pos].offsetTop - stickyHeight - DOMelements[pos].parentElement.parentElement.parentElement.scrollTop
+          scrollHeight = DOMelements[pos].offsetTop - stickyHeight - this.$el.scrollTop
           if (this.settings.liveView.borders.song && this.settings.liveView.borders.top.displayed) {
             scrollHeight -= this.settings.liveView.borders.top.width
           }

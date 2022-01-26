@@ -118,12 +118,12 @@
               <div :class="['text-truncate', 'flex-grow-1', lyricsBlock.type == 'chorus' ? 'font-weight-bold' : '']" style="height: 1.5rem" v-html="lyricsBlock.text"></div>
               <b-button-group>
                 <b-button
-                  v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation'"
+                  v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation' || lyricsBlock.type == 'chorus'"
                   variant="light"
                   class="no-focus"
                   @click="$emit('display-and-scroll', { pos: index })"
                   v-b-tooltip.hover
-                  title="Afficher ce couplet et cacher les autres"
+                  title="Afficher cet élément et cacher le reste"
                 >
                   <font-awesome-layers>
                     <font-awesome-icon :icon="'angle-double-down'" transform="left-5 up-4 shrink-2"></font-awesome-icon>
@@ -148,10 +148,10 @@
                   variant="light"
                   class="no-focus"
                   :class="{ active: !lyricsBlock.show }"
-                  v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation'"
+                  v-if="lyricsBlock.type == 'verse' || lyricsBlock.type == 'translation' || lyricsBlock.type == 'chorus'"
                   @click="lyricsBlock.show = !lyricsBlock.show"
                   v-b-tooltip.hover
-                  title="Cacher/Afficher ce couplet"
+                  title="Cacher/Afficher ce couplet ou refrain"
                 >
                   <font-awesome-icon :icon="['far', 'eye-slash']"></font-awesome-icon>
                 </b-button>
