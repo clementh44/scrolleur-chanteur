@@ -1193,7 +1193,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Améliorations pour le référencement : h1 et p ; breadcrum ; utilisation de schema.org
 ```
 
-##### Dernière version
 **26/01/2022 v4.20.0**
 ```
   Les refrains peuvent être cachés
@@ -1204,4 +1203,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections
     chant À ce monde que tu fais
     Aide (tooltip) disparait quand le curseur passe dessus (plus pratique)
+```
+
+##### Dernière version
+**03/02/2022 v4.21.0**
+```
+  Optimisation des imports (icons bootstrap et icons FontAwesome) (~30% en moins du javascript)
 ```

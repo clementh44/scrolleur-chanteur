@@ -427,12 +427,6 @@ import SideBox from "../sideBox/SideBox"
 import Playlist from "./Playlist"
 import Settings from "./Settings"
 import ElementActions from "./ElementActions"
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { faSquare } from "@fortawesome/free-regular-svg-icons"
-import { faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
-import { faGoogle } from "@fortawesome/free-brands-svg-icons"
-
-library.add(faSquare, faDesktop, faSlidersH, faChevronDown, faChevronUp, faFileAlt, faImage, faQuestionCircle, faExternalLinkAlt, faGoogle)
 
 export default {
   name: "Manager",

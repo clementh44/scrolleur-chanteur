@@ -179,11 +179,6 @@ import draggable from "vuedraggable"
 import ElementActions from "./ElementActions"
 import Undo from "./Undo"
 import Editor from "./Editor.vue"
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { faSquare, faEdit, faClone, faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons"
-import { faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus } from "@fortawesome/free-solid-svg-icons"
-
-library.add(faSquare, faEdit, faClone, faEye, faEyeSlash, faArrowsAltV, faBorderAll, faTrashAlt, faAlignLeft, faImage, faAngleDoubleDown, faThumbtack, faPlus)
 
 export default {
   name: "Playlist",

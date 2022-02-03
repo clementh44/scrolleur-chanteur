@@ -52,12 +52,6 @@
 </template>
 
 <script>
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { faEye, faFilePdf } from "@fortawesome/free-solid-svg-icons"
-import { faGoogle, faYoutube } from "@fortawesome/free-brands-svg-icons"
-
-library.add(faEye, faFilePdf, faGoogle, faYoutube)
-
 export default {
   name: "ElementActions",
   props: {

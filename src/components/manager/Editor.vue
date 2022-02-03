@@ -102,48 +102,6 @@ import TextAlign from "@tiptap/extension-text-align"
 import TextStyle from "@tiptap/extension-text-style"
 import Typography from "@tiptap/extension-typography"
 import Underline from "@tiptap/extension-underline"
-import { library } from "@fortawesome/fontawesome-svg-core"
-import {
-  faReply,
-  faShare,
-  faBold,
-  faItalic,
-  faUnderline,
-  faStrikethrough,
-  faRemoveFormat,
-  faTint,
-  faTintSlash,
-  faAlignCenter,
-  faAlignJustify,
-  faAlignLeft,
-  faAlignRight,
-  faTextHeight,
-  faListUl,
-  faListOl,
-  faQuoteRight,
-  faInfo,
-} from "@fortawesome/free-solid-svg-icons"
-
-library.add(
-  faReply,
-  faShare,
-  faBold,
-  faItalic,
-  faUnderline,
-  faStrikethrough,
-  faRemoveFormat,
-  faTint,
-  faTintSlash,
-  faAlignCenter,
-  faAlignJustify,
-  faAlignLeft,
-  faAlignRight,
-  faTextHeight,
-  faListUl,
-  faListOl,
-  faQuoteRight,
-  faInfo
-)
 
 export default {
   components: {

@@ -3,11 +3,11 @@ import App from "./App.vue"
 import VueRouter from "vue-router"
 import Routes from "./Routes"
 import VueBodyClass from "vue-body-class"
-import { BootstrapVue, BootstrapVueIcons, BIconMusicNoteList, BIconPlus } from "bootstrap-vue"
+import { BootstrapVue, BIcon, BIconstack, BIconMusicNoteList, BIconPlus } from "bootstrap-vue"
 import "bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"
-import { FontAwesomeIcon, FontAwesomeLayers } from "@fortawesome/vue-fontawesome"
+import "./fa.config"
 import "vue-cookies"
 import vueDebounce from "vue-debounce"
 import VueGtag from "vue-gtag"
@@ -15,14 +15,12 @@ import VueGtag from "vue-gtag"
 Vue.use(VueRouter)
 
 Vue.use(BootstrapVue)
-Vue.use(BootstrapVueIcons)
+Vue.component("BIcon", BIcon)
+Vue.component("BIconstack", BIconstack)
 Vue.component("BIconMusicNoteList", BIconMusicNoteList)
 Vue.component("BIconPlus", BIconPlus)
 
 Vue.use(require("vue-cookies"))
-
-Vue.component("font-awesome-icon", FontAwesomeIcon)
-Vue.component("font-awesome-layers", FontAwesomeLayers)
 
 Vue.use(vueDebounce)
 
