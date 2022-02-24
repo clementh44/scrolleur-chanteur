@@ -1205,8 +1205,35 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Aide (tooltip) disparait quand le curseur passe dessus (plus pratique)
 ```
 
-##### Dernière version
 **03/02/2022 v4.21.0**
 ```
   Optimisation des imports (icons bootstrap et icons FontAwesome) (~30% en moins du javascript)
+```
+
+##### Dernière version
+**24/02/2022 v4.21.1**
+```
+  Correction :
+    A toi la gloire (doublon)
+
+  + Ta parole, Seigneur, est vérité, et ta loi délivrance ! (Psaume 018 - 15ème dimanche du temps ordinaire - Année C)
+  + Peuple d'un Dieu qui est justice K19-93-1 KP19-93-1
+  + Ta parole est la lumière de mes pas U11-19 GU11-19
+  + Gloire au Christ, Parole/sagesse/Lumière éternelle du Dieu vivant A7 U640
+  + Gloire et louange à toi, Seigneur, Jésus
+  + Appelés à la liberté SM177 EDIT292
+  + Prends Seigneur et reçois (La prière de St Ignace) EDIT17-19
+  + Approchons-nous du Seigneur
+  + Au désert avec l'Esprit G525
+  + Au désert avec toi, Jésus-Christ G52-81
+  + Avec toi, Seigneur A123
+  + Christ, le fils du Père G50 GY50
+  + Fais grandir en nous la foi GX60-80
+  + Habitant du désert G27-47-1 GP27-47-1
+  + Le chemin du serviteur G291
+  + Point de prodigue sans pardon G183-1 GP183-1
+  + Quarante jours d'une avancée GA58-20-4
+  + Ton peuple dans la nuit se met en marche G26-36 GR26-36
+  + Tu connais ton œuvre, Dieu créateur G109-1 GX109-1
+  + Tu es passé faisant le bien G47-92
 ```

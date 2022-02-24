@@ -1,5 +1,724 @@
 [
   {
+    "id": "tu-es-passe-faisant-le-bien",
+    "title": "Tu es passé faisant le bien",
+    "rating": "G47-92",
+    "publisher": "Kinnor",
+    "writer": "Frère Maurice",
+    "composer": "Rosenmuller J.(17°s), Schutz H.(17°s)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ouverture<br/>Tu es passé faisant le bien,<br/>Jésus, Fils de l'homme&nbsp;!<br/>Aux affligés tu as montré<br/>Ta miséricorde.<br/>Guéris-nous du péché<br/>Guide-nous sur le chemin<br/>Qui conduit à Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ton père était Araméen<br/>Venu en Egypte.<br/>En immigré il endura<br/>Un dur esclavage.<br/>Le Seigneur l'a sauvé<br/>Par la force de sa main<br/>Et par ses prodiges&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - C'est dans ta bouche et dans ton coeur<br/>Que gît la Parole&nbsp;;<br/>Elle est message de la foi<br/>Proclamée au monde.<br/>Si tu crois, dans ton coeur,<br/>Que Jésus est le Seigneur,<br/>Tu deviendras juste."
+      },
+      {
+        "type": "chorus",
+        "text": "Évangile<br/>Jésus rempli de l'Esprit Saint<br/>Est sorti du fleuve&nbsp;;<br/>Quarante jours dans le désert<br/>Il connut l'épreuve.<br/>Au démon il répond&nbsp;:<br/>«&nbsp;L'homme ne vit pas de pain<br/>Mais de la Parole.&nbsp;»"
+      },
+      {
+        "type": "chorus",
+        "text": "Ouverture<br/>Tu es passé faisant le bien,<br/>Jésus, Fils de l'homme&nbsp;!<br/>Aux affligés tu as montré<br/>Ta miséricorde.<br/>Guéris-nous du péché<br/>Guide-nous sur le chemin<br/>Qui conduit à Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Le Seigneur dit à Abraham&nbsp;:<br/>«&nbsp;Compte les étoiles&nbsp;;<br/>Ta descendance deviendra<br/>Plus nombreuses qu'elles&nbsp;!&nbsp;»<br/>Et voici, qu'aujourd'hui,<br/>Avec toi je conclurai<br/>Un pacte d'alliance."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ceux qui renient la Croix du Christ<br/>Courent à leur perte&nbsp;;<br/>Ils tendent vers ce qui est bas,<br/>Leur dieu c'est leur ventre&nbsp;!<br/>Attendez le Seigneur<br/>Qui transformera vos corps<br/>En son Corps de gloire."
+      },
+      {
+        "type": "chorus",
+        "text": "Évangile<br/>Jésus prenant Pierre, Jacques et Jean<br/>Gravit la montagne&nbsp;;<br/>Pendant qu'il priait devant eux<br/>Il devint tout autre&nbsp;!<br/>Et Moïse, et Elie<br/>Apparus à ses cotés,<br/>Parlaient de sa Pâque."
+      },
+      {
+        "type": "chorus",
+        "text": "Ouverture<br/>Tu es passé faisant le bien,<br/>Jésus, Fils de l'homme&nbsp;!<br/>Aux affligés tu as montré<br/>Ta miséricorde.<br/>Guéris-nous du péché<br/>Guide-nous sur le chemin<br/>Qui conduit à Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Dans le désert, près du buisson<br/>Qui semblait en flamme,<br/>Dieu révéla qui il était<br/>Au berger Moïse.<br/>«&nbsp;Oui, je suis, qui je suis,<br/>Tel est mon nom pour toujours,<br/>Moi, Dieu de vos pères.&nbsp;»"
+      },
+      {
+        "type": "verse",
+        "text": "2 - C'est dans la mer et la nuée,<br/>En sortant d'Egypte,<br/>Que le Baptême fut donné<br/>A tous nos ancêtres.<br/>Ils ont bu au rocher<br/>Qui préfigurait le Christ<br/>Notre unique source."
+      },
+      {
+        "type": "chorus",
+        "text": "Évangile<br/>Un homme avait un bon figuier<br/>Planté dans sa vigne&nbsp;;<br/>Quand il vint pour cueillir les fruits<br/>Plus aucune figue&nbsp;!<br/>Il voulait le couper<br/>Mais le vigneron lui dit&nbsp;:<br/>«&nbsp;Donne-lui sa chance&nbsp;!&nbsp;»"
+      },
+      {
+        "type": "chorus",
+        "text": "Ouverture<br/>Tu es passé faisant le bien,<br/>Jésus, Fils de l'homme&nbsp;!<br/>Aux affligés tu as montré<br/>Ta miséricorde.<br/>Guéris-nous du péché<br/>Guide-nous sur le chemin<br/>Qui conduit à Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Quand le Jourdain fut traversé,<br/>Tout le peuple en fête,<br/>Le quatorzième jour du mois<br/>Célébra la Pâque&nbsp;!<br/>Il mangea, désormais,<br/>Les produits de ce pays&nbsp;:<br/>Plus besoin de manne."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Celui qui est en Jésus-Christ<br/>Est un nouvel homme&nbsp;;<br/>Le monde ancien s'en est allé,<br/>Vienne un nouveau monde&nbsp;!<br/>C'est bien Dieu, dans le Christ,<br/>Qui veut nous réconcilier<br/>Avec tous nos frères."
+      },
+      {
+        "type": "chorus",
+        "text": "Évangile<br/>Contre le ciel et contre toi,<br/>J'ai péché, ô Père.<br/>Je viens me jeter dans tes bras<br/>En enfant prodigue&nbsp;!&nbsp;»<br/>«&nbsp;Venez-tous, festoyons,<br/>Car mon fils qui était mort<br/>Revient à la vie&nbsp;!&nbsp;»"
+      },
+      {
+        "type": "chorus",
+        "text": "Ouverture<br/>Tu es passé faisant le bien,<br/>Jésus, Fils de l'homme&nbsp;!<br/>Aux affligés tu as montré<br/>Ta miséricorde.<br/>Guéris-nous du péché<br/>Guide-nous sur le chemin<br/>Qui conduit à Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Voici, je trace en plein désert<br/>Une route droite&nbsp;;<br/>Voici, des fleuves vont couler<br/>Dans les terres arides.<br/>C'est pourquoi, chaque jour,<br/>Ce peuple formé pour moi<br/>Dira ma louange."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Mes avantages d'autrefois<br/>Ne sont que chimères&nbsp;;<br/>Pour le Seigneur j'ai tout perdu,<br/>Pour mieux le connaître.<br/>Partager sa passion,<br/>En reproduisant sa mort&nbsp;:<br/>Voilà ma justice&nbsp;!"
+      },
+      {
+        "type": "chorus",
+        "text": "Évangile<br/>La loi prescrit de lapider<br/>La femme adultère&nbsp;;<br/>Que celui qui est sans péché<br/>Lui jette la pierre&nbsp;!<br/>«&nbsp;Va en paix, dit Jésus,<br/>Désormais ne pèche plus,<br/>Nul ne te condamne.&nbsp;»"
+      }
+    ]
+  },
+  {
+    "id": "tu-connais-ton-œuvre-dieu-createur",
+    "title": "Tu connais ton œuvre, Dieu créateur",
+    "rating": "G109-1",
+    "newrating": "GX109-1",
+    "publisher": "CNPL",
+    "writer": "Joseph Gelineau/Didier Rimaud",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Stance<br/>Tu connais ton œuvre, Dieu créateur&nbsp;:<br/>Souviens-toi que nous sommes poussière;<br/>Ferme les yeux sur les péchés des hommes,<br/>et ne condamne pas le pauvre qui t'implore&nbsp;:"
+      },
+      {
+        "type": "chorus",
+        "text": "N'oublie pas tes miséricordes,<br/>Seigneur, pardonne-moi&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Pitié pour moi, Ô Dieu, pitié pour moi, en toi s'abrite mon âme."
+      },
+      {
+        "type": "verse",
+        "text": "2 - J'appelle vers Dieu, le Très-Haut, le Dieu qui a tout fait pour moi."
+      },
+      {
+        "type": "verse",
+        "text": "Verset<br/>Seigneur, ne nous traite pas selon nos péchés; ne nous punis pas selon nos fautes."
+      }
+    ]
+  },
+  {
+    "id": "ton-peuple-dans-la-nuit-se-met-en-marche",
+    "title": "Ton peuple dans la nuit se met en marche",
+    "rating": "G26-36",
+    "newrating": "GR26-36",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ton peuple dans la nuit se met en marche,<br/>Seigneur, tu le conduis vers la clarté.<br/>Ta main le sauvera des esclavages,<br/>Dieu de liberté, Dieu de liberté&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Esclaves de nos peurs, esclaves du passé,<br/>Nous cherchons un sauveur, Lumière à nos côtés.<br/>Dieu grand, Dieu saint, Dieu grand,<br/>Dieu saint, montre-nous ton chemin&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Esclaves de nos riens, esclaves d'autres dieux,<br/>Nous crions notre faim, l'espoir emplit nos yeux.<br/>Dieu grand, Dieu saint, Dieu grand,<br/>Dieu saint, soutiens-nous en chemin&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Sauvés des jours amers, sauvés des jougs pesants,<br/>Nous franchissons la mer, la foi nous tient vivants.<br/>Dieu grand, Dieu saint, Dieu grand,<br/>Dieu saint, nous suivrons ton chemin&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "quarante-jours-dune-avancee",
+    "title": "Quarante jours d'une avancée",
+    "rating": "GA58-20-4",
+    "publisher": "Bayard",
+    "writer": "Claude Bernard",
+    "composer": "Marcel Viau",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Quarante jours d’une avancée<br/>Dans le désert où l’Esprit nous entraîne&nbsp;;<br/>Quarante nuits de ciel voilé<br/>Avant l’aurore où Jésus nous libère&nbsp;;<br/>Quarante nuits, quarante jours<br/>Sur les chemins du Dieu d’amour."
+      },
+      {
+        "type": "chorus",
+        "text": "Vienne la Pâque du Seigneur,<br/>Le temps béni des enfants de lumière&nbsp;!<br/>Vienne son Jour dans tous les cœurs,<br/>Pâque fleurie pour la joie de la terre&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Quarante jours sans autre pain<br/>Que la Parole envoyée par le Père&nbsp;;<br/>Quarante nuits creusant la faim<br/>De mieux connaître Celui qui nous aime&nbsp;;<br/>Quarante nuits, quarante jours<br/>A se nourrir du Dieu d’amour."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Quarante jours de seul à seul<br/>Avec l’Unique au visage indicible&nbsp;;<br/>Quarante nuits dans la douleur<br/>D’une âme éprise de voir l’Invisible&nbsp;;<br/>Quarante nuits, quarante jours<br/>Avec la soif du Dieu d’amour."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Quarante jours de pleins combats<br/>Dans un vieux monde aux orages multiples&nbsp;;<br/>Quarante nuits baignées d’espoir<br/>Quand nous prenons des sentiers de justice&nbsp;;<br/>Quarante nuits, quarante jours<br/>En vrais témoins du Dieu d’amour."
+      }
+    ]
+  },
+  {
+    "id": "point-de-prodigue-sans-pardon",
+    "title": "Point de prodigue sans pardon",
+    "rating": "G183-1",
+    "newrating": "GP183-1",
+    "publisher": "Studio SM",
+    "writer": "CFC (Commission Francophone Cistércienne)",
+    "composer": "Joseph Gelineau",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Point de prodigue sans pardon qui le cherche,<br/>Nul n'est trop loin pour Dieu&nbsp;;<br/>Viennent les larmes où le fils renaît,<br/>Joie du retour au Père."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Point de blessure que sa main ne guérisse,<br/>Rien n'est perdu pour Dieu&nbsp;;<br/>Vienne la grâce où la vie reprend,<br/>Flamme jaillie des cendres."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Point de ténèbres sans espoir de lumière,<br/>Rien n'est fini pour Dieu&nbsp;;<br/>Vienne l'aurore où l'amour surgit,<br/>Chant d'un matin de Pâques."
+      }
+    ]
+  },
+  {
+    "id": "le-chemin-du-serviteur",
+    "title": "Le chemin du serviteur",
+    "rating": "G291",
+    "publisher": "Studio SM",
+    "writer": "Michel Scouarnec",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ravive en ton peuple, Seigneur<br/>La soif et la faim.<br/>Rappelle à ton peuple, Seigneur,<br/>Le chemin du serviteur."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Est-ce de voir les pierres devenir du bon pain,<br/>Que nous croirons en toi&nbsp;? (bis)<br/>Est-ce de voir les pierres se lever pour crier<br/>Que nous suivrons tes pas&nbsp;? (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Est-ce de voir ton Fils se montrer le plus fort,<br/>Que nous croirons en toi&nbsp;? (bis)<br/>Est-ce de voir ton Fils échapper à la mort,<br/>Que nous suivrons tes pas&nbsp;? (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Est-ce de voir ton Fils sur le trône des rois,<br/>Que nous croirons en toi&nbsp;? (bis)<br/>Est-ce de voir ton Fils refuser une croix,<br/>Que nous suivrons tes pas&nbsp;? (bis)"
+      }
+    ]
+  },
+  {
+    "id": "habitant-du-desert",
+    "title": "Habitant du désert",
+    "rating": "G27-47-1",
+    "newrating": "GP27-47-1",
+    "publisher": "Bayard",
+    "writer": "CFC (Frère MAURICE)",
+    "composer": "Philippe Robert",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Habitant du désert,<br/>A l'heure du combat<br/>Résiste au Menteur.<br/>Ferme ton oreille à ses ruses<br/>Et avance au nom de Jésus&nbsp;:<br/>Le pain de sa Pâque<br/>T'est offert."
+      },
+      {
+        "type": "verse",
+        "text": "Au sommet du Tabor,<br/>Découvre le secret<br/>Du Fils bien-aimé.<br/>Vois comme il rayonne de gloire,<br/>C'est en lui que Dieu met sa joie.<br/>Lui seul nous libère<br/>De la mort."
+      },
+      {
+        "type": "verse",
+        "text": "Comme Dieu sois patient<br/>Et crois aux fruits nouveaux<br/>Promis au labeur.<br/>L'arbre étend au loin ses racines<br/>Pour puiser la sève de vie&nbsp;:<br/>Viendra la récolte<br/>En son temps."
+      },
+      {
+        "type": "verse",
+        "text": "Comme Dieu sois patient<br/>Et crois aux fruits nouveaux<br/>Promis au labeur.<br/>L'arbre étend au loin ses racines<br/>Pour puiser la sève de vie&nbsp;:<br/>Viendra la récolte<br/>En son temps."
+      },
+      {
+        "type": "verse",
+        "text": "Qui pourrait face au Christ<br/>Brûler d'un zèle amer<br/>Au nom de la Loi&nbsp;?<br/>Nul n'est sans péché mais le Juste<br/>Veut offrir à tous le salut&nbsp;:<br/>En lui la lumière<br/>De la vie."
+      },
+      {
+        "type": "verse",
+        "text": "Il est proche le Jour<br/>Où Dieu rassemblera<br/>Ses fils dispersés.<br/>Jour du Christ où passe le peuple<br/>Baptisé dans l'eau et le feu&nbsp;:<br/>Ô jour de victoire<br/>Pour l'amour&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "fais-grandir-en-nous-la-foi",
+    "title": "Fais grandir en nous la foi",
+    "rating": "GX60-80",
+    "publisher": "ADF-Musique",
+    "writer": "Claude Bernard",
+    "composer": "Michel Wackenheim",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Fais grandir en nous la foi, (bis)<br/>Toi Jésus qui nous recrées<br/>Par des mots brûlants de vie.<br/>Guide notre marche (bis)<br/>Par-delà tous nos déserts<br/>Jusqu’à l’aube de la Pâque."
+      },
+      {
+        "type": "chorus",
+        "text": "Rassemblés dans la même foi,<br/>réveillés par le même Esprit,<br/>nous formons un même corps,<br/>ton Église, Ô Jésus Christ&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Fais grandir en nous la foi, (bis)<br/>Ton Mystère est célébré<br/>Dans le Souffle de l’Esprit.<br/>Source d’espérance (bis)<br/>Qui jaillis dans nos déserts,<br/>Fais-nous boire à tes eaux vives&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Fais grandir en nous la foi, (bis)<br/>Chaque jour elle est vécue<br/>En réponse à tes appels.<br/>Toi qui nous fais signe (bis)<br/>Au milieu de nos déserts,<br/>Donne-nous d’oser te suivre."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Fais grandir en nous la foi, (bis)<br/>Tu nous mènes à des montées<br/>Pour la fête inattendue.<br/>Joie dans ta lumière&nbsp;! (bis)<br/>Elle apporte à nos déserts<br/>Des instants de paix divine&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Fais grandir en nous la foi, (bis)<br/>Toi qui nommes Dieu «&nbsp;JE SUIS&nbsp;»,<br/>Et nous dis qu’il est Sauveur.<br/>Grande est ta patience, (bis)<br/>Tu fécondes nos déserts<br/>Pour que nos figuiers mûrissent."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Fais grandir en nous la foi, (bis)<br/>Tu révèles un Dieu d’amour<br/>Qui pardonne au fils pécheur.<br/>Gloire à notre Père, (bis)<br/>Qui nous voit dans nos déserts<br/>Et nous ouvre à sa tendresse&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "7 - Fais grandir en nous la foi, (bis)<br/>Toi qui sauves l’affligée<br/>Et lui donnes sa grandeur&nbsp;!<br/>Nul ne la condamne, (bis)<br/>Tu l’arraches à ses déserts<br/>Pour l’entrée dans ton Royaume."
+      }
+    ]
+  },
+  {
+    "id": "christ-le-fils-du-pere",
+    "title": "Christ, le fils du Père",
+    "rating": "G50",
+    "newrating": "GY50",
+    "publisher": "Éditions du Seuil",
+    "writer": "Bernard Geoffroy",
+    "composer": "Populaire",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Christ, le Fils du Père, qui vins pour sauver ce qui était perdu,"
+      },
+      {
+        "type": "chorus",
+        "text": "Vois notre misère, Daigne avoir pitié&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Toi, pour qui les Anges ont chanté Noël à l’aube du salut,"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Toi, qui de ton Père voyais le reflet dans un regard d’enfant,"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Toi, dont la tendresse ne repoussait pas le cri du malheureux,"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Toi, vers qui les pauvres venaient, pleins de foi, chercher le réconfort,"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Toi, l’ami des humbles, qui ne craignais pas de partager leur pain,"
+      },
+      {
+        "type": "verse",
+        "text": "7 - Toi, que les infirmes entouraient de cris, quêtant leur guérison,"
+      },
+      {
+        "type": "verse",
+        "text": "8 - Toi, qui sais poursuivre la brebis perdue, errante dans la nuit,"
+      },
+      {
+        "type": "verse",
+        "text": "9 - Toi, que le prodigue trouvera toujours au bout de son chemin,"
+      },
+      {
+        "type": "verse",
+        "text": "10 - Toi, dont la présence apaisait soudain la mer et les démons,"
+      },
+      {
+        "type": "verse",
+        "text": "11 - Toi, dont Madeleine, par son repentir, a su toucher le coeur,"
+      },
+      {
+        "type": "verse",
+        "text": "12 - Toi, qui fis de Pierre, malgré son péché, le chef de ton Troupeau,"
+      },
+      {
+        "type": "verse",
+        "text": "13 - Toi, sur qui nos fautes ont pesé si lourd quand tu portais ta Croix,"
+      },
+      {
+        "type": "verse",
+        "text": "14 - Toi, dont Véronique vit les traits sanglants revivre dans ses mains,"
+      },
+      {
+        "type": "verse",
+        "text": "15 - Toi, dont la promesse ouvrit au larron la joie du Paradis,"
+      },
+      {
+        "type": "verse",
+        "text": "16 - Toi, dont la parole fit lever Lazare au fond de son tombeau,"
+      },
+      {
+        "type": "verse",
+        "text": "17 - Toi, dont la puissance a cloué la mort sur l’arbre de la Croix,"
+      }
+    ]
+  },
+  {
+    "id": "avec-toi-seigneur",
+    "title": "Avec toi, Seigneur",
+    "rating": "A123",
+    "publisher": "Studio SM",
+    "writer": "Maurice Debaisieux/Michelle Debaisieux",
+    "composer": "Patrice Sciortino",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Avec toi, Seigneur, tous ensemble,<br/>Nous voici joyeux et sûrs de ton amour<br/>Tu nous as rassemblés dans la joie de ta présence,<br/>Et c'est toi qui nous unis."
+      },
+      {
+        "type": "verse",
+        "text": "1 - C'est toi qui nous unis,<br/>Ton amour a fait de nous des frères,<br/>Tu es vivant au milieu de nous."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Les mains tendues vers toi,<br/>Nous venons t'offrir le chant du monde.<br/>Tu es vivant au milieu de nous."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Venus à ton appel,<br/>Nous voulons entendre ta Parole.<br/>Tu es vivant au milieu de nous."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Seigneur, nous avons faim,<br/>Que ton corps soit notre nourriture.<br/>Tu es vivant au milieu de nous."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Ô Christ ressuscité,<br/>Nous chantons la vie que tu nous donnes.<br/>Tu es vivant au milieu de nous."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Tu donnes ton Amour&nbsp;;<br/>Ton esprit fait vivre ton Eglise.<br/>Tu es vivant au milieu de nous."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Venus à ton festin,<br/>Que ce vin déride nos visages.<br/>Tu es vivant au milieu de nous."
+      }
+    ]
+  },
+  {
+    "id": "au-desert-avec-toi-jesus-christ",
+    "title": "Au désert avec toi, Jésus-Christ",
+    "rating": "G52-81",
+    "publisher": "ADF-Musique",
+    "writer": "Claude Bernard",
+    "composer": "Jean-Pascal Hervy",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Au désert avec toi, Jésus Christ,<br/>Nous venons à l’appel de l’Esprit.<br/>Quarante jours dans le silence<br/>Nous entendrons chanter l’Alliance.<br/>Tu parles au cœur et ta tendresse nous séduit."
+      },
+      {
+        "type": "chorus",
+        "text": "Au désert avec toi, Jésus Christ,<br/>notre pâque aujourd'hui s'accomplit/"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Au désert avec toi, Jésus Christ,<br/>Nous voyons quel trésor est la vie.<br/>Le feu qui brûle sous la cendre<br/>Deviendra flamme incandescente.<br/>Dans la prière au plus secret Dieu nous le dit."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Au désert avec toi, Jésus Christ,<br/>Grandira notre soif d'infini.<br/>Tu nous entraînes vers la Source<br/>Où les vivants reprennent souffle.<br/>Viens nous combler par les eaux vives de ton puits."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Au désert avec toi, Jésus Christ,<br/>Notre jeûne a la force d'un cri&nbsp;:<br/>Le cri monté de la planète<br/>Où tant de faims se manifestent.<br/>Voici le temps de partager le pain de vie."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Au désert avec toi, Jésus Christ,<br/>Nous luttons tant que dure la nuit.<br/>Vers quelle épreuve et quel exode<br/>Nous mènes-tu, ô Fils de l'homme&nbsp;?<br/>Soutiens nos pas jusqu'à la Terre où tu conduis."
+      }
+    ]
+  },
+  {
+    "id": "au-desert-avec-lesprit",
+    "title": "Au désert avec l'Esprit",
+    "rating": "G525",
+    "publisher": "Studio SM",
+    "writer": "Benoît Gschwind",
+    "composer": "Bertrand Bayle",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Tu nous précèdes au désert<br/>Quarante jours, quarante nuits,<br/>tu nous conduis.<br/>Ouvre nos yeux, change nos cœurs,<br/>quarante jours, quarante nuits,<br/>avec l'Esprit."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Pitié Seigneur dans ton amour<br/>Tu peux parler et pardonner;<br/>Des profondeurs je crie vers toi&nbsp;:<br/>Seigneur écoute mon appel…<br/>Conduis mes pas jusqu’à la Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ouvre mes yeux d’aveugle-né<br/>Oui je connais tout mon péché;<br/>Mais près de toi est le pardon&nbsp;:<br/>Seigneur écoute mon appel…<br/>Conduis mes pas jusqu’à la Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Tu veux de moi la vérité<br/>Purifie-moi, je serai pur;<br/>J’attends Seigneur le jour nouveau&nbsp;:<br/>Seigneur écoute mon appel…<br/>Conduis mes pas jusqu’à la Pâque."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Rends-moi la joie d’être sauvé<br/>Je chanterai rien que pour toi;<br/>Tu es Seigneur le Dieu d’amour&nbsp;:<br/>Seigneur écoute mon appel…<br/>Conduis mes pas jusqu’à la Pâque."
+      }
+    ]
+  },
+  {
+    "id": "approchons-nous-du-seigneur",
+    "title": "Approchons-nous du Seigneur",
+    "publisher": "Bayard",
+    "writer": "Bénédictines du Sacré Coeur de Montmartre",
+    "composer": "Philippe Robert",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Approchons-nous du Seigneur,<br/>il nous a réconciliés avec Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Seigneur Jésus, tu nous as aimés malgré nos péchés.<br/>LAISSEZ-VOUS RÉCONCILIER.<br/>Seigneur Jésus, tu nous as aimés jusqu’à mourir en croix.<br/>LAISSEZ-VOUS RÉCONCILIER."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur Jésus, tu nous donnes la vie par ta résurrection.<br/>LAISSEZ-VOUS RÉCONCILIER.<br/>Seigneur Jésus, tu nous donnes l’amour par le don de l’Esprit.<br/>LAISSEZ-VOUS RÉCONCILIER."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Seigneur Jésus, tu nous demandes d’aimer comme tu aimes.<br/>LAISSEZ-VOUS RÉCONCILIER.<br/>Seigneur Jésus, tu fais de nous des témoins de ton amour.<br/>LAISSEZ-VOUS RÉCONCILIER."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Seigneur Jésus, tu nous appelles tes amis et non plus serviteurs.<br/>LAISSEZ-VOUS RÉCONCILIER.<br/>Seigneur Jésus, tu nous appelles à demeurer dans ton amour.<br/>LAISSEZ-VOUS RÉCONCILIER."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Seigneur Jésus, tu nous introduis dans la joie de ton Père.<br/>LAISSEZ-VOUS RÉCONCILIER.<br/>Seigneur Jésus, tu nous laisses la Paix, tu nous donnes la Paix.<br/>LAISSEZ-VOUS RÉCONCILIER."
+      }
+    ]
+  },
+  {
+    "id": "prends-seigneur-et-recois-la-priere-de-st-ignace",
+    "title": "Prends Seigneur et reçois (La prière de St Ignace)",
+    "rating": "EDIT17-19",
+    "publisher": "Chemin Neuf",
+    "writer": "Ignace de Loyola",
+    "composer": "Elzbieta Borawska/Urszula Pietrusewicz",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Prends, Seigneur, et reçois,<br/>toute ma liberté, ma mémoire,<br/>mon intelligence et toute ma volonté,<br/>tout ce que j’ai et possède.<br/>Tu me l’as donné&nbsp;: à Toi, Seigneur, je le rends.<br/>Tout est tien, disposes-en selon Ta volonté.<br/>Donne-moi Ton amour et Ta grâce. (bis)"
+      },
+      {
+        "type": "chorus",
+        "text": "Ton amour et Ta grâce,<br/>C’est assez pour moi. (bis)<br/>Allélu-alléluia, Alléluia, amen&nbsp;! (bis)"
+      }
+    ]
+  },
+  {
+    "id": "appeles-a-la-liberte",
+    "title": "Appelés à la liberté",
+    "rating": "SM177",
+    "newrating": "EDIT292",
+    "publisher": "Studio SM",
+    "writer": "Richard P.",
+    "composer": "Richard P.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Nous sommes le peuple de la longue marche<br/>Peuple des chrétiens, peuple de frères<br/>Nous sommes le peuple de la nouvelle alliance<br/>Un peuple appelé à la liberté."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Nous continuons la caravane<br/>Des peuples de la longue nuit<br/>Derrière notre père Abraham<br/>Guidés par le vent de l'Esprit."
+      },
+      {
+        "type": "verse",
+        "text": "2 - La mer a été traversée<br/>Moïse a sauvé tout son peuple<br/>La mort a été renversée<br/>Christ nous donne la Liberté."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Les boiteux rentrent dans la danse<br/>Les lépreux ont été guéris<br/>Les muets chantent l'Espérance<br/>Les morts vivants reprennent vie."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Peuples chantez votre louange<br/>Chantez un cantique nouveau<br/>Chantez le cantique des anges<br/>Bâtisseurs d'un Monde Nouveau."
+      }
+    ]
+  },
+  {
+    "id": "gloire-et-louange-a-toi-seigneur-jesus",
+    "title": "Gloire et louange à toi, Seigneur, Jésus",
+    "publisher": "ADF-Musique/Bayard",
+    "writer": "AELF",
+    "composer": "Michel Wackenheim",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire et louange à toi,<br/>Seigneur, Jésus."
+      },
+      {
+        "type": "verse",
+        "text": "Tu nous donnes un commandement nouveau&nbsp;:<br/>Aimez-vous les uns les autres<br/>Comme je vous ai aimés."
+      }
+    ]
+  },
+  {
+    "id": "gloire-au-christ-parole-sagesse-lumiere-eternelle-du-dieu-vivant",
+    "title": "Gloire au Christ, Parole/sagesse/Lumière éternelle du Dieu vivant",
+    "rating": "A7",
+    "newrating": "U640",
+    "publisher": "Mame (Le Chalet)",
+    "writer": "Servel J.",
+    "composer": "Jef R.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire au Christ, Parole éternelle du Dieu vivant&nbsp;!<br/>Gloire à Toi Seigneur&nbsp;!"
+      },
+      {
+        "type": "chorus",
+        "text": "Gloire au Christ, sagesse éternelle du Dieu vivant&nbsp;!<br/>Gloire à Toi Seigneur&nbsp;!"
+      },
+      {
+        "type": "chorus",
+        "text": "Gloire au Christ, Lumière éternelle du Dieu vivant&nbsp;!<br/>Gloire à Toi Seigneur&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "ta-parole-est-la-lumiere-de-mes-pas",
+    "title": "Ta parole est la lumière de mes pas",
+    "rating": "U11-19",
+    "newrating": "GU11-19",
+    "publisher": "Studio SM",
+    "writer": "Scouarnec M.",
+    "composer": "Akepsimas J.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ta parole est la lumière de mes pas,<br/>la lampe sur ma route."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ouvre mes oreilles à ta voix,<br/>Parle, Seigneur, ton serviteur écoute,<br/>Donne-moi de goûter ta parole,<br/>enseigne-moi les chemins de ton salut."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ouvre les portes de mon cœur,<br/>qu'il soit fidèle à vivre ton Alliance.<br/>Ouvre mes lèvres, Seigneur,<br/>et ma bouche publiera ta louange."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Jésus, parole de Dieu vivant,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!<br/>O Christ, lumière pour les peuples,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Jésus, visage du Dieu vivant<br/>GLOIRE ET LOUANGE A TOI&nbsp;!<br/>O Christ, tendresse pour les pauvres,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "peuple-dun-dieu-qui-est-justice",
+    "title": "Peuple d'un Dieu qui est justice",
+    "rating": "K19-93-1",
+    "newrating": "KP19-93-1",
+    "publisher": "Bayard-Liturgie",
+    "writer": "Rimaud D.",
+    "composer": "Berthier J.",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Invente avec ton Dieu l'avenir qu'Il te donne.<br/>Invente avec ton Dieu tout un monde plus beau&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Peuple d'un Dieu qui est justice<br/>en prenant soin des plus petits,<br/>ta seule gloire est le service,<br/>l'amour de ceux que l'on oublie."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Le Fils de l'Homme est plein de grâce<br/>Quand il descend chez les pécheurs,<br/>Fais comme lui et prends ta place<br/>Sous la livrée du serviteur."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Peuple d'un Dieu qui est tendresse<br/>et qui te dit son amitié,<br/>ne sois pas sourd à la tendresse,<br/>reçois de Lui d'avoir pitié."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Rappelle-toi, c'est au calvaire<br/>Qu'il s'est montré le tout-puissant.<br/>Pour triompher de l'adversaire,<br/>Sois Fils de Dieu en pardonnant."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Peuple d'un Dieu qui est lumière,<br/>qui fait lever le jour nouveau,<br/>tu es lumière pour la terre&nbsp;:<br/>ne reste pas sous le boisseau&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Va témoigner de l'espérance<br/>En recherchant partout la paix&nbsp;:<br/>Deviens le signe de l'Alliance<br/>et du bonheur que Dieu promet."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Peuple d'un Dieu qui fait renaître<br/>et qui t'engendre pour son corps,<br/>tu es vivant de ton baptême&nbsp;:<br/>déjà tu as passé la mort&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "8 - Ouvre ton coeur à rendre grâce<br/>Dans l'univers où Dieu t'envoie&nbsp;:<br/>Eglise heureuse de ta Pâque,<br/>Tu as la charge de ta joie&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "ta-parole-seigneur-est-verite-et-ta-loi-delivrance-psaume-018-15eme-dimanche-du-temps-ordinaire-annee-c",
+    "title": "Ta parole, Seigneur, est vérité, et ta loi délivrance ! (Psaume 018 - 15ème dimanche du temps ordinaire - Année C)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ta parole, Seigneur, est vérité, et ta loi délivrance&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - La loi du Seigneur est parfaite,<br/>qui redonne vie&nbsp;;<br/>la charte du Seigneur est sûre,<br/>qui rend sage les simples."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Les préceptes du Seigneur sont droits,<br/>ils réjouissent le cœur&nbsp;;<br/>le commandement du Seigneur est limpide,<br/>il clarifie le regard."
+      },
+      {
+        "type": "verse",
+        "text": "3 - La crainte qu'il inspire est pure,<br/>elle est là pour toujours&nbsp;;<br/>les décisions du Seigneur sont justes<br/>et vraiment équitables."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Plus désirables que l'or,<br/>qu'une masse d'or fin,<br/>plus savoureuses que le miel<br/>qui coule des rayons."
+      }
+    ]
+  },
+  {
     "id": "messe-2-gloria-in-excelsis-deo",
     "title": "Gloria",
     "rating": "AL13-89",
@@ -1350,7 +2069,7 @@
   },
   {
     "id": "a-toi-la-gloire",
-    "title": "À toi la Gloire",
+    "title": "À toi la gloire",
     "publisher": "DP",
     "writer": "Edmond Budry",
     "composer": "Georg Friedrich Haendel",
@@ -3148,27 +3867,6 @@
       {
         "type": "verse",
         "text": "5 - Gloire au Père Tout-Puissant<br/>À son Fils Jésus le Seigneur,<br/>À l’Esprit qui habite en nos cœurs,<br/>Pour les siècles des siècles. Amen&nbsp;!"
-      }
-    ]
-  },
-  {
-    "id": "a-toi-la-gloire",
-    "title": "À toi la gloire",
-    "publisher": "DP",
-    "writer": "Edmond Budry",
-    "composer": "Georg Friedrich Haendel",
-    "lyrics": [
-      {
-        "type": "verse",
-        "text": "1 - À toi la gloire, ô Ressuscité,<br/>À toi la victoire pour l'éternité !<br/>Brillant de lumière, l'ange est descendu ;<br/>il roule la pierre du tombeau vaincu."
-      },
-      {
-        "type": "verse",
-        "text": "2 - À toi la gloire, ô Ressuscité,<br/>À toi la victoire pour l'éternité !<br/>Sois dans l'allégresse, peuple du Seigneur,<br/>Et redis sans cesse que Christ est vainqueur !"
-      },
-      {
-        "type": "chorus",
-        "text": "À toi la gloire, ô Ressuscité,<br/>À toi la victoire pour l'éternité !"
       }
     ]
   },
