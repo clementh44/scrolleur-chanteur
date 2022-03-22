@@ -2,7 +2,7 @@
   <div>
     <!-- Barre d'actions -->
     <b-badge variant="success">Nouveautés du 26/01</b-badge><small> paramètre pour centrer l'affichage des paroles | possiblité de cacher le refrain</small>
-    <hr/>
+    <hr />
     <b-button-toolbar class="mb-3">
       <b-button-group class="mr-3">
         <b-button @click="display({ type: 'grid' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Quadrillage d'aide au cadrage de la projection">
@@ -77,7 +77,9 @@
         <strong>La playlist est vide</strong><br />
         Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou du vide
         (<font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>).<br />
-        Ci-dessous, recherchez et ajoutez un chant du répertoire (<font-awesome-icon :icon="'plus'"></font-awesome-icon>) pour acceder à plus de contrôles.<br />
+        Ci-dessous, recherchez et ajoutez un chant du répertoire (<b-iconstack variant="success"
+          ><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack
+        >) pour acceder à plus de contrôles.<br />
         Rappel : laissez la souris sur un bouton pour avoir une description de son action.
       </b-list-group-item>
     </b-list-group>

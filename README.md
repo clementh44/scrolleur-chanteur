@@ -1240,6 +1240,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ##### Dernière version
 **22/03/2022 v4.21.2**
 ```
+  Correction de l'icône quand la playlist est vide
+
   + Pain de Dieu, pain de vie D381
   + Ubi caritas X78-01
   + Joyeuse lumière de la gloire P28
