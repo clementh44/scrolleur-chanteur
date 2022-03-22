@@ -1210,7 +1210,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Optimisation des imports (icons bootstrap et icons FontAwesome) (~30% en moins du javascript)
 ```
 
-##### Dernière version
 **24/02/2022 v4.21.1**
 ```
   Correction :
@@ -1236,4 +1235,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Ton peuple dans la nuit se met en marche G26-36 GR26-36
   + Tu connais ton œuvre, Dieu créateur G109-1 GX109-1
   + Tu es passé faisant le bien G47-92
+```
+
+##### Dernière version
+**22/03/2022 v4.21.2**
+```
+  + Pain de Dieu, pain de vie D381
+  + Ubi caritas X78-01
+  + Joyeuse lumière de la gloire P28
+  + Qu'éclate dans le ciel (Exultet) IL111-3
+  + À la victime pascale
 ```

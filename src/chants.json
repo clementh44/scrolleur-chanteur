@@ -1,5 +1,135 @@
 [
   {
+    "id": "a-la-victime-pascale",
+    "title": "À la victime pascale",
+    "composer": "Henri Duchatel",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "À la Victime pascale, chrétiens, offrez le sacrifice de louange. <br/>L'Agneau a racheté les brebis&nbsp;; <br/>le Christ innocent a réconcilié l'homme pécheur avec le Père. <br/>La mort et la vie s'affrontèrent en un duel prodigieux. <br/>Le Maître de la vie mourut&nbsp;; vivant, il règne."
+      },
+      {
+        "type": "verse",
+        "text": "\"Dis-nous, Marie Madeleine, qu'as-tu vu en chemin&nbsp;? <br/>J'ai vu le sépulcre du Christ vivant, <br/>j'ai vu la gloire du Ressuscité&nbsp;! <br/>J'ai vu les anges, ses témoins, le suaire et les vêtements. <br/>Le Christ, mon espérance est ressuscité! Il vous précèdera en Galilée.\""
+      },
+      {
+        "type": "verse",
+        "text": "Nous le savons&nbsp;: le Christ est vraiment ressuscité des morts. <br/>Roi victorieux, prends-nous tous en pitié&nbsp;!<br/>Amen."
+      }
+    ]
+  },
+  {
+    "id": "queclate-dans-le-ciel-exultet",
+    "title": "Qu'éclate dans le ciel (Exultet)",
+    "rating": "IL111-3",
+    "publisher": "Mame Le C",
+    "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
+    "composer": "Henri Trouillet",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Qu'éclate dans le ciel la joie des anges,<br/>Qu'éclate de partout la joie du monde,<br/>Qu'éclate dans l'Eglise la joie des fils de Dieu&nbsp;!<br/>La lumière éclaire l'Eglise,<br/>La lumière éclaire la terre,<br/>Peuples chantez&nbsp;!"
+      },
+      {
+        "type": "chorus",
+        "text": "Nous te louons, splendeur du Père,<br/>Jésus fils de Dieu&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Voici pour tous les temps l'unique Pâque,<br/>Voici pour Israël le grand passage,<br/>Voici la longue marche vers la terre de liberté&nbsp;!<br/>Ta lumière éclaire la route,<br/>Dans la nuit ton peuple s'avance,<br/>Libre, vainqueur&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Voici maintenant la Victoire,<br/>Voici la liberté pour tous les peuples,<br/>Le Christ ressuscité triomphe de la mort&nbsp;!<br/>Ô nuit qui nous rend la lumière,<br/>Ô nuit qui vit dans sa Gloire<br/>Le Christ Seigneur&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Amour infini de notre Père,<br/>Suprême témoignage de tendresse,<br/>Pour libérer l'esclave, tu as livré le Fils&nbsp;!<br/>Bienheureuse faute de l'homme<br/>Qui valut au monde en détresse<br/>Le seul Sauveur&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Victoire qui rassemble ciel et terre,<br/>Victoire où Dieu se donne un nouveau peuple,<br/>Victoire de l'Amour, victoire de la Vie&nbsp;!<br/>Ô Père, accueille la flamme<br/>Qui vers Toi s'élève en offrande,<br/>Feu de nos cœurs&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Que brille devant Toi cette lumière&nbsp;:<br/>Demain se lèvera l'aube nouvelle<br/>Et que règnent la Paix, la Justice et l'Amour&nbsp;!<br/>Et que passent tous les hommes<br/>De cette terre à ta grande maison,<br/>Par Jésus-Christ&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "joyeuse-lumiere-de-la-gloire",
+    "title": "Joyeuse lumière de la gloire",
+    "rating": "P28",
+    "publisher": "Studio SM",
+    "writer": "Lucien Deiss",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Joyeuse lumière de la sainte gloire du Père céleste immortel.<br/>Saint et bienheureux Jésus Christ."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Venant au coucher du soleil contemplant la lumière du soir<br/>Nous chantons le Père et le Fils et le Saint-Esprit de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Digne es-tu en tout temps d'être loué par de saintes voix.<br/>Fils de Dieu qui donnas la vie, aussi le monde te glorifie."
+      }
+    ]
+  },
+  {
+    "id": "ubi-caritas",
+    "title": "Ubi caritas",
+    "rating": "X78-01",
+    "publisher": "Taizé",
+    "writer": "Ateliers et presses de Taizé",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Ubi caritas et amor, ubi caritas Deus ibi est."
+      },
+      {
+        "type": "translation",
+        "text": "Là où sont la charité et l'amour, là est Dieu."
+      }
+    ]
+  },
+  {
+    "id": "pain-de-dieu-pain-de-vie",
+    "title": "Pain de Dieu, pain de vie",
+    "rating": "D381",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Pain de Dieu, pain de vie,<br/>signe de l'amour du Seigneur<br/>pain du ciel, Jésus-Christ<br/>viens semer l'amour dans nos cœurs."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Toi le passant sur l’autre rive,<br/>Tu nous connais par notre nom,<br/>Tu sais la faim qui nous habite<br/>Et les désirs dont nous brûlons.<br/>Donne-nous ton pain pour la vie éternelle. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Tu multiplies pour nous les signes<br/>Mais nos regards sont aveuglés.<br/>Sois la lumière qui délivre,<br/>Dis-nous tes mots de vérité.<br/>Donne-nous ton pain pour la vie éternelle. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Toi l’Envoyé d’auprès du Père,<br/>Viens nous marquer de ton Esprit.<br/>Tu es la manne sur nos terres,<br/>Le pain d’espoir dans notre nuit.<br/>Donne-nous ton pain pour la vie éternelle. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Ton corps livré à notre table<br/>Nourrit la force des croyants.<br/>Béni sois-tu pour le partage<br/>Qui fait grandir ton Corps vivant&nbsp;!<br/>Donne-nous ton pain pour la vie éternelle. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Sur les chemins de l’aventure<br/>Soutiens la foi qui nous conduit.<br/>Tu es la joie qui transfigure<br/>Le pas à pas vers l’infini.<br/>Donne-nous ton pain pour la vie éternelle. (bis)"
+      }
+    ]
+  },
+  {
     "id": "tu-es-passe-faisant-le-bien",
     "title": "Tu es passé faisant le bien",
     "rating": "G47-92",
