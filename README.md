@@ -1252,4 +1252,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **27/03/2022 v4.22.0**
 ```
   Import-Export de la playlist (chants, textes, images)
+  Corrections :
+    Import de plusieurs fois la même image impossible
 ```

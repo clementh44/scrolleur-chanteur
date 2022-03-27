@@ -21,7 +21,7 @@
           <font-awesome-icon :icon="'align-left'"></font-awesome-icon>
         </b-button>
         <b-button @change="addFile($event)" variant="secondary" class="m-0" tag="label" for="input-file" v-b-tooltip.hover.noninteractive title="Importer une image"
-          ><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"
+          ><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" ref="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"
         /></b-button>
       </b-button-group>
       <b-button-group v-if="this.playlist.length > 0" class="mr-3">
@@ -342,6 +342,7 @@ export default {
             file: fr.result,
             width: 100,
           })
+          this.$refs["input-file"].value = null
         }
         fr.readAsDataURL(file.target.files[0])
       }
