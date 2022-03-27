@@ -1254,4 +1254,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Import-Export de la playlist (chants, textes, images)
   Corrections :
     Import de plusieurs fois la même image impossible
+    Affichage de l'aide dans l'éditeur du texte personnalisable reste affiché en passant le curseur dessus
 ```
