@@ -1237,7 +1237,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Tu es passé faisant le bien G47-92
 ```
 
-##### Dernière version
 **22/03/2022 v4.21.2**
 ```
   Correction de l'icône quand la playlist est vide
@@ -1247,4 +1246,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Joyeuse lumière de la gloire P28
   + Qu'éclate dans le ciel (Exultet) IL111-3
   + À la victime pascale
+```
+
+##### Dernière version
+**27/03/2022 v4.22.0**
+```
+  Import-Export de la playlist (chants, textes, images)
 ```

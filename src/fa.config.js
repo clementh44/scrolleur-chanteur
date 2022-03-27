@@ -37,6 +37,8 @@ import {
   faListOl,
   faQuoteRight,
   faInfo,
+  faFileExport,
+  faFileImport,
 } from "@fortawesome/free-solid-svg-icons"
 import { faGoogle, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon, FontAwesomeLayers } from "@fortawesome/vue-fontawesome"
@@ -82,6 +84,8 @@ library.add(
   faListOl,
   faQuoteRight,
   faInfo,
+  faFileExport,
+  faFileImport,
   faGoogle,
   faYoutube
 )

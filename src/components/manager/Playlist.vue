@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Barre d'actions -->
-    <b-badge variant="success">Nouveautés du 26/01</b-badge><small> paramètre pour centrer l'affichage des paroles | possiblité de cacher le refrain</small>
+    <b-badge variant="success">Nouveauté du 27/03</b-badge><small> export/import de la playlist !</small>
     <hr />
     <b-button-toolbar class="mb-3">
       <b-button-group class="mr-3">
@@ -31,6 +31,14 @@
         </b-button>
         <b-button @click="clean()" variant="danger" v-b-tooltip.hover.noninteractive title="Vider la playlist">
           <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
+        </b-button>
+      </b-button-group>
+      <b-button-group class="mr-3">
+        <b-button @click="exportPlaylist()" v-if="this.playlist.length > 0" v-b-tooltip.hover.noninteractive title="Exporter et télécharger la playlist">
+          <font-awesome-icon :icon="'file-export'"></font-awesome-icon>
+        </b-button>
+        <b-button @change="importPlaylist($event)" variant="secondary" class="m-0" tag="label" for="import-playlist" v-b-tooltip.hover.noninteractive title="Importer des éléments dans la playlist">
+          <font-awesome-icon :icon="'file-import'"></font-awesome-icon> <input type="file" id="import-playlist" ref="import-playlist" hidden accept=".scrolleurchanteur" />
         </b-button>
       </b-button-group>
       <b-button-group>
@@ -336,6 +344,27 @@ export default {
           })
         }
         fr.readAsDataURL(file.target.files[0])
+      }
+    },
+
+    //Import-Export de la playlist pour la partager facilement
+    exportPlaylist: function () {
+      let blob = new Blob([JSON.stringify(this.playlist)], { type: "application/json" })
+      let link = document.createElement("a")
+      link.href = window.URL.createObjectURL(blob)
+      link.download = "playlist.scrolleurchanteur"
+      link.click()
+    },
+    importPlaylist: function (file) {
+      if (file.target.files && file.target.files[0]) {
+        var fr = new FileReader()
+        fr.onload = () => {
+          for (const element of JSON.parse(fr.result)) {
+            this.addElement(element)
+          }
+          this.$refs["import-playlist"].value = null
+        }
+        fr.readAsText(file.target.files[0])
       }
     },
   },
