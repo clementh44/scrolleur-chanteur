@@ -139,9 +139,9 @@
         <strong>La playlist est vide</strong><br />
         Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou du vide
         (<font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>).<br />
-        Ci-dessous, recherchez et ajoutez un chant du répertoire (<b-iconstack variant="success"
-          ><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack
-        >) pour acceder à plus de contrôles.<br />
+        Ci-dessous, recherchez et ajoutez un chant du répertoire (
+        <b-iconstack variant="success"><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack> ) pour acceder à plus
+        de contrôles.<br />
         Rappel : laissez la souris sur un bouton pour avoir une description de son action.
       </b-list-group-item>
     </b-list-group>
@@ -434,7 +434,9 @@ export default {
       axios.get(`https://api.aelf.org/v1/messes/${this.nextSunday.yyyy}/france`).then((response) => (this.aelf = response.data))
     },
     getAelfMesse: function () {
-      return `<center><h2>Dimanche ${this.nextSunday.date.toLocaleDateString('fr-FR', {year: "numeric", month: "long", day: "numeric"})}</h2><h1>${this.aelf.informations.jour_liturgique_nom}</h1></center>`
+      return `<center><h2>Dimanche ${this.nextSunday.date.toLocaleDateString("fr-FR", { year: "numeric", month: "long", day: "numeric" })}</h2><h1>${
+        this.aelf.informations.jour_liturgique_nom
+      }</h1></center>`
     },
     //AELF - Formatage du type
     getAelfType: function (type) {

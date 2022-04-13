@@ -1260,4 +1260,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **13/04/2022 v4.23.0**
 ```
   Insertion des textes du prochain dimanche depuis aelf.org
+  Corrections :
+    petite correction d'affichage
 ```
