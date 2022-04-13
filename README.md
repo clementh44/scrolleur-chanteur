@@ -1262,4 +1262,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Insertion des textes du prochain dimanche depuis aelf.org
   Corrections :
     petite correction d'affichage
+    Heureux les cœurs miséricordieux
 ```
