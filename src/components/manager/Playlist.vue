@@ -1,14 +1,16 @@
 <template>
   <div>
     <!-- Barre d'actions -->
-    <b-badge variant="success">Nouveauté du 27/03</b-badge><small> export/import de la playlist !</small>
+    <b-badge variant="success">Nouveauté du 13/04</b-badge><small> export/import de la playlist ! | Import des textes de la liturgie de dimanche prochain (bouton Aelf)</small>
     <hr />
     <b-button-toolbar class="mb-3">
+      <!-- Quadrillage -->
       <b-button-group class="mr-3">
         <b-button @click="display({ type: 'grid' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Quadrillage d'aide au cadrage de la projection">
           <font-awesome-icon :icon="'border-all'"></font-awesome-icon>
         </b-button>
       </b-button-group>
+      <!-- Ajouter... -->
       <b-button-group class="mr-3">
         <b-button variant="secondary" :pressed="false" aria-disabled="true" style="pointer-events: none"> Ajouter : </b-button>
         <b-button @click="addElement({ type: 'empty', title: '_vide_' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Contenu vide">
@@ -23,7 +25,57 @@
         <b-button @change="addFile($event)" variant="secondary" class="m-0" tag="label" for="input-file" v-b-tooltip.hover.noninteractive title="Importer une image"
           ><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" ref="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"
         /></b-button>
+        <b-dropdown id="aelf-dropdown">
+          <template #button-content><img src="https://www.aelf.org/images/logo-aelf-2016.svg" alt="AELF" height="16px" /></template>
+          <b-dropdown-text
+            ><strong>Dimanche {{ this.nextSunday.text }}</strong></b-dropdown-text
+          >
+          <template v-if="this.aelf">
+            <b-dropdown-text>{{ this.aelf.informations.jour_liturgique_nom }}</b-dropdown-text>
+            <b-dropdown-group v-for="(messe, index) in this.aelf.messes" :key="index">
+              <b-dropdown-divider></b-dropdown-divider>
+              <b-dropdown-text>
+                <strong
+                  ><u>{{ messe.nom }}</u></strong
+                >
+              </b-dropdown-text>
+              <b-dropdown-item @click="addElement({ type: 'text', title: messe.nom, text: getAelfMesse() })">
+                <b-iconstack variant="success"><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack> Insérer la
+                référence de la messe
+              </b-dropdown-item>
+              <b-dropdown-group v-for="(lecture, indexx) in messe.lectures" :key="indexx">
+                <b-dropdown-header>
+                  {{ getAelfType(lecture.type) }}<template v-if="lecture.ref"> ({{ lecture.ref }})</template>
+                </b-dropdown-header>
+                <b-dropdown-item @click="addElement({ type: 'text', title: getAelfTitle(lecture, ' - Références'), text: getAelfRef(lecture) })">
+                  <b-iconstack variant="success"><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack> Insérer les
+                  références
+                </b-dropdown-item>
+                <b-dropdown-item @click="addElement({ type: 'text', title: getAelfTitle(lecture, ' - Texte'), text: getAelfContenu(lecture) })">
+                  <b-iconstack variant="success"><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack> Insérer le
+                  texte
+                </b-dropdown-item>
+                <b-dropdown-item
+                  @click="
+                    addElement({ type: 'text', title: getAelfTitle(lecture, ' - Texte + Références'), text: getAelfRef(lecture) + '<hr class=custom-horizontal-line>' + getAelfContenu(lecture) })
+                  "
+                >
+                  <b-iconstack variant="success"><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack> Insérer le
+                  texte avec les références
+                </b-dropdown-item>
+              </b-dropdown-group>
+            </b-dropdown-group>
+          </template>
+          <template v-else>
+            <b-dropdown-divider></b-dropdown-divider>
+            <a class="dropdown-item" @click.stop="downloadAelf()" href="#"><font-awesome-icon :icon="'cloud-download-alt'"></font-awesome-icon> Charger les données depuis aelf.org</a>
+          </template>
+          <b-dropdown-divider></b-dropdown-divider>
+          <b-dropdown-text>Données venant de <a href="https://aelf.org" target="_blank">aelf.org</a></b-dropdown-text>
+        </b-dropdown>
+        <b-tooltip target="aelf-dropdown" noninteractive>Insérer des références et textes de dimanche prochain</b-tooltip>
       </b-button-group>
+      <!-- Supprimer -->
       <b-button-group v-if="this.playlist.length > 0" class="mr-3">
         <b-button variant="danger" :pressed="false" aria-disabled="true" style="pointer-events: none"> Supprimer : </b-button>
         <b-button @click="cleanEmpty()" variant="danger" v-b-tooltip.hover.noninteractive title="Supprimer les éléments vides">
@@ -33,6 +85,7 @@
           <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
         </b-button>
       </b-button-group>
+      <!-- Import/Export -->
       <b-button-group class="mr-3">
         <b-button @click="exportPlaylist()" v-if="this.playlist.length > 0" v-b-tooltip.hover.noninteractive title="Exporter et télécharger la playlist">
           <font-awesome-icon :icon="'file-export'"></font-awesome-icon>
@@ -41,6 +94,7 @@
           <font-awesome-icon :icon="'file-import'"></font-awesome-icon> <input type="file" id="import-playlist" ref="import-playlist" hidden accept=".scrolleurchanteur" />
         </b-button>
       </b-button-group>
+      <!-- Paramètres -->
       <b-button-group>
         <b-button @click="$emit('toggle-param')" v-b-tooltip.hover.noninteractive title="Ouvrir/fermer les paramètres">
           <font-awesome-icon :icon="'sliders-h'"></font-awesome-icon>
@@ -189,6 +243,7 @@ import draggable from "vuedraggable"
 import ElementActions from "./ElementActions"
 import Undo from "./Undo"
 import Editor from "./Editor.vue"
+import axios from "axios"
 
 export default {
   name: "Playlist",
@@ -199,6 +254,12 @@ export default {
       editedElement: null,
       savedCurrentElementIndex: -1,
       drag: false,
+      nextSunday: {
+        yyyy: "",
+        text: "",
+        date: null,
+      },
+      aelf: null,
     }
   },
   props: {
@@ -368,6 +429,83 @@ export default {
         fr.readAsText(file.target.files[0])
       }
     },
+    //AELF - Téléchargement des textes AELF
+    downloadAelf: function () {
+      axios.get(`https://api.aelf.org/v1/messes/${this.nextSunday.yyyy}/france`).then((response) => (this.aelf = response.data))
+    },
+    getAelfMesse: function () {
+      return `<center><h2>Dimanche ${this.nextSunday.date.toLocaleDateString('fr-FR', {year: "numeric", month: "long", day: "numeric"})}</h2><h1>${this.aelf.informations.jour_liturgique_nom}</h1></center>`
+    },
+    //AELF - Formatage du type
+    getAelfType: function (type) {
+      switch (type) {
+        case "lecture_1":
+          return "Première lecture"
+        case "lecture_2":
+          return "Deuxième lecture"
+        case "lecture_3":
+          return "Troisième lecture"
+        case "lecture_4":
+          return "Quatrième lecture"
+        case "lecture_5":
+          return "Cinquième lecture"
+        case "lecture_6":
+          return "Sixième lecture"
+        case "lecture_7":
+          return "Septième lecture"
+        case "psaume":
+          return "Psaume"
+        case "cantique":
+          return "Cantique"
+        case "epitre":
+          return "Épître"
+        case "evangile":
+          return "Évangile"
+        case "sequence":
+          return "Séquence"
+      }
+    },
+    //AELF - formatage du titre pour l'élément dans la playlist
+    getAelfTitle: function (lecture, custom) {
+      var result = this.getAelfType(lecture.type)
+      if (lecture.ref) {
+        result += ` (${lecture.ref})`
+      }
+      result += custom
+      return result
+    },
+    //AELF - formatage de l'en-tête de la lecture
+    getAelfRef: function (lecture) {
+      var result = `<h1>${this.getAelfType(lecture.type)}</h1>`
+      if (lecture.intro_lue) {
+        result += `<strong>${lecture.intro_lue} (${lecture.ref})</strong>`
+      } else if (lecture.ref) {
+        result += `<strong>${lecture.ref}</strong>`
+      }
+      if (lecture.titre) {
+        result += "<br> " + lecture.titre
+      }
+      return result
+    },
+    //AELF - suppression des retours à la ligne en trop et de la fin "ou lecture breve"
+    getAelfContenu: function (lecture) {
+      var result = ""
+      if (lecture.type == "psaume" || lecture.type == "cantique") {
+        result += `<h3>${lecture.refrain_psalmique.replaceAll("<br />", "").replaceAll("<p><em>OU BIEN</em></p>", "")}</h3>`
+      }
+      result += lecture.contenu.replaceAll("<br />", "").replaceAll("</p>\n\n<p>", "</p><p>").replaceAll("<p>OU LECTURE BREVE</p>", "")
+      return result
+    },
+  },
+  mounted() {
+    //AELF - Récupération des données de AELF France https://api.aelf.org
+    var curr = new Date()
+    var sunday = curr.getDay() == 0 ? curr : new Date(curr.setDate(curr.getDate() - curr.getDay() + 7)) //jour du mois - jour de la semaine + 7 ; jour de la semaine de dimanche 0 à samedi 6
+    this.nextSunday = {
+      yyyy: `${sunday.getFullYear()}-${String(sunday.getMonth() + 1).padStart(2, "0")}-${String(sunday.getDate()).padStart(2, "0")}`,
+      text: sunday.toLocaleDateString(),
+      date: sunday,
+    }
   },
 }
 </script>

@@ -39,6 +39,7 @@ import {
   faInfo,
   faFileExport,
   faFileImport,
+  faCloudDownloadAlt,
 } from "@fortawesome/free-solid-svg-icons"
 import { faGoogle, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon, FontAwesomeLayers } from "@fortawesome/vue-fontawesome"
@@ -87,7 +88,8 @@ library.add(
   faFileExport,
   faFileImport,
   faGoogle,
-  faYoutube
+  faYoutube,
+  faCloudDownloadAlt,
 )
 
 Vue.component("font-awesome-icon", FontAwesomeIcon)

@@ -1248,11 +1248,16 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + À la victime pascale
 ```
 
-##### Dernière version
 **27/03/2022 v4.22.0**
 ```
   Import-Export de la playlist (chants, textes, images)
   Corrections :
     Import de plusieurs fois la même image impossible
     Affichage de l'aide dans l'éditeur du texte personnalisable reste affiché en passant le curseur dessus
+```
+
+##### Dernière version
+**13/04/2022 v4.23.0**
+```
+  Insertion des textes du prochain dimanche depuis aelf.org
 ```
