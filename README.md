@@ -1270,4 +1270,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout d'un nouveau sitemap pour google........?
   Suppression de l'info du missel romain, liste des ordinaires modifiés tout en bas.
   Modification de l'aide
+
+  Modification dans tous les chants pour passer de "homme" à "Homme" dans le sens humain.
+    Sur 564 références,
+      Homme(s) apparait 267 fois
+      Femme/femme 11 fois (obligé pour évoquer Marie ou la femme adultère)
 ```
