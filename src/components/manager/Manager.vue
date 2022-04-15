@@ -51,7 +51,7 @@
           <p>
             Ici, c'est la page de gestion de la projection. Cliquez sur
             <em><font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation</em>
-            pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyez sur F11 pour mettre en plein écran).
+            pour afficher la fenêtre de présentation (à mettre sur le vidéo-projecteur. Appuyez sur la touche <u>F11</u> pour mettre en plein écran).
           </p>
           <p>
             La <strong>Playlist</strong> permet de préparer une liste avec : des chants (ajouter avec
@@ -60,12 +60,20 @@
               <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
             </b-iconstack>
             depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec
-            <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
+            <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image à importer (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
           </p>
-          <p> Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
+          <p>Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
           <p>
-            Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur.<br />Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la
-            présentation avec le clavier depuis les paramètres (voir le menu en haut).
+            Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur. Il est aussi possible de télécharger (<font-awesome-icon :icon="'file-export'"></font-awesome-icon>) la playlist (avec les images) pour la partager à d'autres personnes (importer <font-awesome-icon :icon="'file-import'"></font-awesome-icon>).
+          </p>
+          <p>
+            Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la présentation avec le clavier depuis les paramètres (voir le menu en haut).<br/>
+            Par défaut : flèches droite/gauche pour naviguer dans la playlist ; flèches haut/bas pour faire monter/descendre l'affichage du texte.
+          </p>
+          <p>
+            <strong
+              ><a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Voir la documentation détaillée</a></strong
+            >
           </p>
           <hr />
           <p><strong>Liens utiles</strong></p>
@@ -78,7 +86,6 @@
               ><strong>Soutenir</strong> ce site et son développement. Merci !</a
             >
           </p>
-          <p> <a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Documentation détaillée</a>. </p>
           <p>
             Trouvez les paroles de chants sur les sites suivants : <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
             <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a><br />
