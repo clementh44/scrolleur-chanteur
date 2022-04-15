@@ -1275,4 +1275,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Sur 564 références,
       Homme(s) apparait 267 fois
       Femme/femme 11 fois (obligé pour évoquer Marie ou la femme adultère)
+
+  Correction de Mendiant du jour
 ```
