@@ -1256,11 +1256,16 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Affichage de l'aide dans l'éditeur du texte personnalisable reste affiché en passant le curseur dessus
 ```
 
-##### Dernière version
 **13/04/2022 v4.23.0**
 ```
   Insertion des textes du prochain dimanche depuis aelf.org
   Corrections :
     petite correction d'affichage
     Heureux les cœurs miséricordieux
+```
+
+##### Dernière version
+**15/04/2022 v4.23.1**
+```
+  Ajout d'un nouveau sitemap pour google........?
 ```
