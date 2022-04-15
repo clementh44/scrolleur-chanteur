@@ -1268,4 +1268,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **15/04/2022 v4.23.1**
 ```
   Ajout d'un nouveau sitemap pour google........?
+  Suppression de l'info du missel romain, liste des ordinaires modifiés tout en bas
 ```

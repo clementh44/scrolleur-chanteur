@@ -36,91 +36,6 @@
       </SideBox>
 
       <div class="col">
-        <!-- Information Missel -->
-        <b-alert variant="info" :show="settings.help" @dismissed="settings.help = false" dismissible fade class="mt-3">
-          <p
-            ><strong>Nouveau !</strong> <a href="#missel-header">Aide à destination des fidèles pour la nouvelle traduction française du Missel Romain. (voir après le Répertoire)</a><br />
-            Prières eucharistiques, réponses de l'assemblée, mise en évidence des modifications etc... Tout est prêt pour découvrir les textes de la liturgie pour l'avent 2021 !</p
-          >
-          <p>
-            Depuis le 26 novembre, modification des ordinaires de messe. <b-button v-b-toggle.collapse-ordinaires variant="outline-primary" size="sm">Voir les ordinaires modifiés</b-button><br />
-            <b-collapse id="collapse-ordinaires" class="mt-2">
-              <b-card>
-                <ul class="card-text">
-                  <li
-                    >Messe de Sylvanes : <a href="/song/messe-1-de-sylvanes-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
-                    <a href="/song/messe-2-de-sylvanes-gloire-a-dieu-gloria">Gloria</a>, <a href="/song/messe-7-de-sylvanes-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>,
-                    <a href="/song/messe-6-de-sylvanes-anamnese" target="_blank">anamnèse</a></li
-                  >
-                  <li
-                    >Messe de l'Ermitage : <a href="/song/messe-1-de-lermitage-seigneur-prends-pitie-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
-                    <a href="/song/messe-7-de-lermitage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>, <a href="/song/messe-6-de-lermitage-anamnese" target="_blank">anamnèse</a></li
-                  >
-                  <li
-                    >Messe de Saint-Paul : <a href="/song/messe-1-saint-paul-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
-                    <a href="/song/messe-2-saint-paul-gloria" target="_blank">Gloria</a></li
-                  >
-                  <li
-                    >Messe Polyphonie pour un avenir :
-                    <a href="/song/messe-1-polyphonie-pour-un-avenir-kyrie-nouvelle-traduction" target="_blank">proposition pour les versets de l'acte pénitentiel</a></li
-                  >
-                  <li>Messe Emmaüs : <a href="/song/messe-7-emmaus-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
-                  <li
-                    >Messe Saint Claude de la Colombière : <a href="/song/messe-2-claude-colombiere-gloria" target="_blank">Gloria</a>,
-                    <a href="/song/messe-7-claude-colombiere-agnus-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
-                  >
-                  <li
-                    >Messe du Partage : <a href="/song/messe-2-du-partage-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
-                    <a href="/song/messe-7-du-partage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a></li
-                  >
-                  <li
-                    >Messe Soleil des Nations : <a href="/song/messe-7-soleil-des-nations-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>,
-                    <a href="/song/messe-6-soleil-des-nations-anamnese" target="_blank">anamnèse</a></li
-                  >
-                  <li>Messe de la Trinité : <a href="/song/messe-2-trinite-gloire-a-dieu-gloria" target="_blank">Gloire à Dieu</a></li>
-                  <li
-                    >Messe de Saint François-Xavier : <a href="/song/messe-2-saint-francois-xavier-gloire-a-dieu-gloria" target="_blank">Gloire à Dieu</a>,
-                    <a href="/song/messe-7-de-saint-francois-xavier-agnus" target="_blank">agneau de Dieu</a></li
-                  >
-                  <li>Messe de Lourdes : <a href="/song/messe-2-de-lourdes-gloria" target="_blank">Gloria</a>, <a href="/song/messe-7-de-lourdes-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
-                  <li
-                    >Messe Christus Vincit : <a href="/song/messe-2-christus-vincit-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
-                    <a href="/song/messe-christus-vincit-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
-                  >
-                  <li
-                    >Messe festive pour les dimanches du temps ordinaire (Isabelle Fontaine) :
-                    <a href="/song/messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
-                    <a href="/song/messe-7-festive-pour-les-dimanches-du-temps-ordinaire-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
-                  >
-                  <li>Messe de Saint Jean : <a href="/song/messe-2-de-saint-jean-gloria" target="_blank">Gloria</a></li>
-                  <li>Messe de Saint Boniface : <a href="/song/messe-2-saint-boniface-gloria" target="_blank">Gloria</a></li>
-                  <li
-                    >Messe du Peuple de Dieu : <a href="/song/messe-2-du-peuple-de-dieu-gloria" target="_blank">Gloria</a>,
-                    <a href="/song/messe-7-du-peuple-de-dieu-agnus" target="_blank">agneau de Dieu</a></li
-                  >
-                  <li
-                    >Messe de la Réconciliation : <a href="/song/messe-2-de-la-reconciliation-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
-                    <a href="/song/messe-7-de-la-reconciliation-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
-                  >
-                  <li>Messe Que Tes Œuvres sont belles : <a href="/song/messe-6-que-tes-oeuvres-sont-belles-anamnese" target="_blank">anamnèse</a></li>
-                  <li><a href="/song/messe-7-agneau-de-dieu-mozart" target="_blank">Agneau de Dieu de Mozart</a></li>
-                  <li><a href="/song/gloire-a-dieu-pour-le-temps-de-noel" target="_blank">Gloire à Dieu pour le temps de Noël</a></li>
-                  <li><a href="/song/messe-6-jesus-messie-humilie" target="_blank">Anamnèse Jésus, Messie humilié</a></li>
-                </ul>
-              </b-card>
-            </b-collapse>
-          </p>
-          <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Signaler des erreurs, suggestions ou manques.</a></p>
-          <p>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8C9QSKX238UGU&item_name=Soutenir+le+d%C3%A9veloppement+du+projet&currency_code=EUR" target="_blank" rel="noopener"
-              ><strong>Soutenir</strong> ce site et son développement. Merci !</a
-            >
-          </p>
-          <small
-            ><a href="https://github.com/clementh44/scrolleur-chanteur#dernière-version" target="_blank">Version {{ version }}</a></small
-          >
-        </b-alert>
-
         <!-- Aide -->
         <b-alert variant="success" :show="settings.help" @dismissed="settings.help = false" dismissible fade class="mt-3">
           <strong
@@ -334,7 +249,7 @@
           <b-collapse id="collapse-missel" visible>
             <b-card-body>
               <div class="mb-3">
-                Aide à destination des fidèles pour la <strong>nouvelle traduction du Missel Romain</strong> appliquée à partir du premier dimanche de l'avent 2021 (28/11/2021)<br />
+                Aide à destination des fidèles pour la <strong>nouvelle traduction du Missel Romain</strong> appliquée à partir du premier dimanche de l'avent 2021.<br />
                 <a href="https://docs.google.com/document/d/18QE7Okgjws0reUaglACkB8djVEE9dCwaDcs8OZQuUcs/edit?usp=sharing" target="_blank" rel="noopener"
                   >Aide à propos du déroulement d'une liturgie de l'eucharistie.</a
                 >
@@ -410,6 +325,82 @@
                   </template>
                 </b-table>
               </div>
+              <!-- Information traduction des ordinaires -->
+              <b-alert variant="info" show class="mb-0">
+                <p>Modification des ordinaires de messe suite à la nouvelle traduction du missel romain. </p>
+                <p>
+                  <b-button v-b-toggle.collapse-ordinaires variant="outline-primary" size="sm">Voir les ordinaires modifiés</b-button><br />
+                  <b-collapse id="collapse-ordinaires" class="mt-2">
+                    <b-card>
+                      <ul class="card-text">
+                        <li
+                          >Messe de Sylvanes : <a href="/song/messe-1-de-sylvanes-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
+                          <a href="/song/messe-2-de-sylvanes-gloire-a-dieu-gloria">Gloria</a>, <a href="/song/messe-7-de-sylvanes-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>,
+                          <a href="/song/messe-6-de-sylvanes-anamnese" target="_blank">anamnèse</a></li
+                        >
+                        <li
+                          >Messe de l'Ermitage : <a href="/song/messe-1-de-lermitage-seigneur-prends-pitie-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
+                          <a href="/song/messe-7-de-lermitage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>, <a href="/song/messe-6-de-lermitage-anamnese" target="_blank">anamnèse</a></li
+                        >
+                        <li
+                          >Messe de Saint-Paul : <a href="/song/messe-1-saint-paul-kyrie-nouvelle-traduction" target="_blank">versets de l'acte pénitentiel</a>,
+                          <a href="/song/messe-2-saint-paul-gloria" target="_blank">Gloria</a></li
+                        >
+                        <li
+                          >Messe Polyphonie pour un avenir :
+                          <a href="/song/messe-1-polyphonie-pour-un-avenir-kyrie-nouvelle-traduction" target="_blank">proposition pour les versets de l'acte pénitentiel</a></li
+                        >
+                        <li>Messe Emmaüs : <a href="/song/messe-7-emmaus-agneau-de-dieu" target="_blank">agneau de Dieu</a></li>
+                        <li
+                          >Messe Saint Claude de la Colombière : <a href="/song/messe-2-claude-colombiere-gloria" target="_blank">Gloria</a>,
+                          <a href="/song/messe-7-claude-colombiere-agnus-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li
+                          >Messe du Partage : <a href="/song/messe-2-du-partage-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                          <a href="/song/messe-7-du-partage-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li
+                          >Messe Soleil des Nations : <a href="/song/messe-7-soleil-des-nations-agneau-de-dieu-agnus" target="_blank">agneau de Dieu</a>,
+                          <a href="/song/messe-6-soleil-des-nations-anamnese" target="_blank">anamnèse</a></li
+                        >
+                        <li>Messe de la Trinité : <a href="/song/messe-2-trinite-gloire-a-dieu-gloria" target="_blank">Gloire à Dieu</a></li>
+                        <li
+                          >Messe de Saint François-Xavier : <a href="/song/messe-2-saint-francois-xavier-gloire-a-dieu-gloria" target="_blank">Gloire à Dieu</a>,
+                          <a href="/song/messe-7-de-saint-francois-xavier-agnus" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li
+                          >Messe de Lourdes : <a href="/song/messe-2-de-lourdes-gloria" target="_blank">Gloria</a>,
+                          <a href="/song/messe-7-de-lourdes-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li
+                          >Messe Christus Vincit : <a href="/song/messe-2-christus-vincit-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                          <a href="/song/messe-christus-vincit-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li
+                          >Messe festive pour les dimanches du temps ordinaire (Isabelle Fontaine) :
+                          <a href="/song/messe-2-festive-pour-les-dimanches-du-temps-ordinaire-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                          <a href="/song/messe-7-festive-pour-les-dimanches-du-temps-ordinaire-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li>Messe de Saint Jean : <a href="/song/messe-2-de-saint-jean-gloria" target="_blank">Gloria</a></li>
+                        <li>Messe de Saint Boniface : <a href="/song/messe-2-saint-boniface-gloria" target="_blank">Gloria</a></li>
+                        <li
+                          >Messe du Peuple de Dieu : <a href="/song/messe-2-du-peuple-de-dieu-gloria" target="_blank">Gloria</a>,
+                          <a href="/song/messe-7-du-peuple-de-dieu-agnus" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li
+                          >Messe de la Réconciliation : <a href="/song/messe-2-de-la-reconciliation-gloire-a-dieu" target="_blank">Gloire à Dieu</a>,
+                          <a href="/song/messe-7-de-la-reconciliation-agneau-de-dieu" target="_blank">agneau de Dieu</a></li
+                        >
+                        <li>Messe Que Tes Œuvres sont belles : <a href="/song/messe-6-que-tes-oeuvres-sont-belles-anamnese" target="_blank">anamnèse</a></li>
+                        <li><a href="/song/messe-7-agneau-de-dieu-mozart" target="_blank">Agneau de Dieu de Mozart</a></li>
+                        <li><a href="/song/gloire-a-dieu-pour-le-temps-de-noel" target="_blank">Gloire à Dieu pour le temps de Noël</a></li>
+                        <li><a href="/song/messe-6-jesus-messie-humilie" target="_blank">Anamnèse Jésus, Messie humilié</a></li>
+                      </ul>
+                    </b-card>
+                  </b-collapse>
+                </p>
+                <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Signaler des erreurs, suggestions ou manques.</a></p>
+              </b-alert>
             </b-card-body>
           </b-collapse>
         </b-card>
