@@ -1264,7 +1264,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Heureux les cœurs miséricordieux
 ```
 
-##### Dernière version
 **15/04/2022 v4.23.1**
 ```
   Ajout d'un nouveau sitemap pour google........?
@@ -1277,4 +1276,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
       Femme/femme 11 fois (obligé pour évoquer Marie ou la femme adultère)
 
   Correction de Mendiant du jour
+```
+
+##### Dernière version
+**17/05/2022 v4.23.2**
+```
+  Corrections
+    FIX marges sur le chant même quand le texte est centré
 ```

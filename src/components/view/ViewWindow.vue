@@ -43,12 +43,12 @@
               :style="[
                 lyrics.show ? '' : { opacity: settings.song.verseOpacity },
                 lyrics.sticky ? (live ? { background: settings.liveView.colors.background } : { background: '#FFFFFF' }) : '',
-                live ? paddingStyle(lyrics) : '',
+                live ? paddingStyle(lyrics, settings.song.textAlign) : '',
               ]"
               @click="toggleLyrics(lyrics)"
               v-html="lyrics.text"
-            ></p
-          ></div>
+            ></p>
+          </div>
           <div id="invisible-part" v-if="live">&#8205;</div>
         </div>
 
@@ -203,21 +203,31 @@ export default {
         return ""
       }
     },
-    paddingStyle: function (lyrics) {
+    paddingStyle: function (lyrics, textAlign) {
       var styles = {}
       switch (lyrics.type) {
         case "verse":
-          styles.paddingLeft = this.settings.liveView.padding.verse.left + "em"
           styles.paddingBottom = this.settings.liveView.padding.verse.bottom + "em"
           break
         case "chorus":
-          styles.paddingLeft = this.settings.liveView.padding.chorus.left + "em"
           styles.paddingBottom = this.settings.liveView.padding.chorus.bottom + "em"
           break
         case "translation":
-          styles.paddingLeft = this.settings.liveView.padding.translation.left + "em"
           styles.paddingBottom = this.settings.liveView.padding.translation.bottom + "em"
           break
+      }
+      if (textAlign === "left") {
+        switch (lyrics.type) {
+          case "verse":
+            styles.paddingLeft = this.settings.liveView.padding.verse.left + "em"
+            break
+          case "chorus":
+            styles.paddingLeft = this.settings.liveView.padding.chorus.left + "em"
+            break
+          case "translation":
+            styles.paddingLeft = this.settings.liveView.padding.translation.left + "em"
+            break
+        }
       }
       return styles
     },
