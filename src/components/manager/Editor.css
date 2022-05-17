@@ -52,3 +52,6 @@ ul.custom-list,
 ol.custom-list {
   padding-inline-start: 2em;
 }
+p.custom-paragraph {
+  margin-bottom: 0;
+}

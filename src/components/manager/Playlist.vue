@@ -434,9 +434,11 @@ export default {
       axios.get(`https://api.aelf.org/v1/messes/${this.nextSunday.yyyy}/france`).then((response) => (this.aelf = response.data))
     },
     getAelfMesse: function () {
-      return `<center><h2>Dimanche ${this.nextSunday.date.toLocaleDateString("fr-FR", { year: "numeric", month: "long", day: "numeric" })}</h2><h1>${
-        this.aelf.informations.jour_liturgique_nom
-      }</h1></center>`
+      return `<h2 class="custom-heading" style="text-align: center">Dimanche ${this.nextSunday.date.toLocaleDateString("fr-FR", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })}</h2><h1 class="custom-heading" style="text-align: center">${this.aelf.informations.jour_liturgique_nom}</h1>`
     },
     //AELF - Formatage du type
     getAelfType: function (type) {
@@ -478,7 +480,7 @@ export default {
     },
     //AELF - formatage de l'en-tête de la lecture
     getAelfRef: function (lecture) {
-      var result = `<h1>${this.getAelfType(lecture.type)}</h1>`
+      var result = `<h1 class="custom-heading">${this.getAelfType(lecture.type)}</h1>`
       if (lecture.intro_lue) {
         result += `<strong>${lecture.intro_lue} (${lecture.ref})</strong>`
       } else if (lecture.ref) {
@@ -493,9 +495,9 @@ export default {
     getAelfContenu: function (lecture) {
       var result = ""
       if (lecture.type == "psaume" || lecture.type == "cantique") {
-        result += `<h3>${lecture.refrain_psalmique.replaceAll("<br />", "").replaceAll("<p><em>OU BIEN</em></p>", "")}</h3>`
+        result += `<h3>${lecture.refrain_psalmique.replaceAll("<br />\n", "<br>").replaceAll("<p><em>OU BIEN</em></p>", "")}</h3>`
       }
-      result += lecture.contenu.replaceAll("<br />", "").replaceAll("</p>\n\n<p>", "</p><p>").replaceAll("<p>OU LECTURE BREVE</p>", "")
+      result += lecture.contenu.replaceAll("<br />\n", "<br>").replaceAll("</p>\n\n<p>", "</p><p>").replaceAll("<p>OU LECTURE BREVE</p>", "")
       return result
     },
   },

@@ -38,16 +38,34 @@
         </b-button-group>
         <!-- Alignement -->
         <b-button-group class="mr-1 mb-1">
-          <b-button @click="editor.chain().focus().setTextAlign('left').run()" :pressed="editor.isActive({ textAlign: 'left' })" v-b-tooltip.hover.noninteractive title="Aligner à gauche" variant="light">
+          <b-button
+            @click="editor.chain().focus().setTextAlign('left').run()"
+            :pressed="editor.isActive({ textAlign: 'left' })"
+            v-b-tooltip.hover.noninteractive
+            title="Aligner à gauche"
+            variant="light"
+          >
             <font-awesome-icon icon="align-left"></font-awesome-icon>
           </b-button>
           <b-button @click="editor.chain().focus().setTextAlign('center').run()" :pressed="editor.isActive({ textAlign: 'center' })" v-b-tooltip.hover.noninteractive title="Centrer" variant="light">
             <font-awesome-icon icon="align-center"></font-awesome-icon>
           </b-button>
-          <b-button @click="editor.chain().focus().setTextAlign('right').run()" :pressed="editor.isActive({ textAlign: 'right' })" v-b-tooltip.hover.noninteractive title="Aligner à droite" variant="light">
+          <b-button
+            @click="editor.chain().focus().setTextAlign('right').run()"
+            :pressed="editor.isActive({ textAlign: 'right' })"
+            v-b-tooltip.hover.noninteractive
+            title="Aligner à droite"
+            variant="light"
+          >
             <font-awesome-icon icon="align-right"></font-awesome-icon>
           </b-button>
-          <b-button @click="editor.chain().focus().setTextAlign('justify').run()" :pressed="editor.isActive({ textAlign: 'justify' })" v-b-tooltip.hover.noninteractive title="Justifier" variant="light">
+          <b-button
+            @click="editor.chain().focus().setTextAlign('justify').run()"
+            :pressed="editor.isActive({ textAlign: 'justify' })"
+            v-b-tooltip.hover.noninteractive
+            title="Justifier"
+            variant="light"
+          >
             <font-awesome-icon icon="align-justify"></font-awesome-icon>
           </b-button>
         </b-button-group>
@@ -80,6 +98,12 @@
         <b-button-group class="mr-1 mb-1">
           <b-button @click="editor.chain().focus().setHorizontalRule().run()" v-b-tooltip.hover.noninteractive title="Ligne horizontale" variant="light"> — </b-button>
         </b-button-group>
+        <!-- Retour à la ligne simple -->
+        <b-button-group class="mr-1 mb-1">
+          <b-button @click="editor.chain().focus().setHardBreak().run()" v-b-tooltip.hover.noninteractive title="Retour à la ligne simple (SHIFT + Entrée)" variant="primary">
+            <font-awesome-icon icon="level-down-alt" rotation="90"></font-awesome-icon>
+          </b-button>
+        </b-button-group>
         <!-- Aide -->
         <b-button-group class="mr-1 mb-1">
           <b-button v-b-tooltip.hover.html="helpTip" title="Aide" variant="light">
@@ -94,7 +118,6 @@
 
 <script>
 import { Editor, EditorContent } from "@tiptap/vue-2"
-import { mergeAttributes } from "@tiptap/core"
 import StarterKit from "@tiptap/starter-kit"
 import Color from "@tiptap/extension-color"
 import Paragraph from "@tiptap/extension-paragraph"
@@ -164,12 +187,9 @@ export default {
           },
         }),
         Color,
-        Paragraph.extend({
-          parseHTML() {
-            return [{ tag: "div" }]
-          },
-          renderHTML({ HTMLAttributes }) {
-            return ["div", mergeAttributes(this.options.HTMLAttributes, HTMLAttributes), 0]
+        Paragraph.configure({
+          HTMLAttributes: {
+            class: "custom-paragraph",
           },
         }),
         TextAlign.configure({

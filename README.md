@@ -1283,4 +1283,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Corrections
     FIX marges sur le chant même quand le texte est centré
+    FIX éditeur/aelf sur l'import et la modification par la suite de ce qui est importé
+    FIX éditeur sur le retour à la ligne
 ```
