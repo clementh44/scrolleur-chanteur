@@ -60,7 +60,8 @@
               <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
             </b-iconstack>
             depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec
-            <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) ; une image à importer (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
+            <font-awesome-layers><font-awesome-icon icon="align-left" transform="left-2" /><font-awesome-icon icon="pen" transform="right-7" />
+          </font-awesome-layers> ) ; une image à importer (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
           </p>
           <p>Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
           <p>
@@ -234,7 +235,7 @@
                         <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
                       </b-iconstack>
                       playlist sous forme de texte personnalisé (avec
-                      <font-awesome-icon :icon="'align-left'"></font-awesome-icon>) :
+                      <font-awesome-layers><font-awesome-icon icon="align-left" transform="left-2" /><font-awesome-icon icon="pen" transform="right-7"/></font-awesome-layers> ) :
                       <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
                       <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a></p
                     >

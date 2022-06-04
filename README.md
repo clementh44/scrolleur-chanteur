@@ -1303,4 +1303,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections
     esprit > Esprit
     "sticky": false, sur certaines messes où le refrain n'a pas besoin de rester au-dessus des autres éléments (chants avec plusieurs)
+    changement de l'icone d'ajout d'un text personnalisé
 ```

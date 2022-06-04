@@ -20,7 +20,10 @@
           <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
         </b-button>
         <b-button @click="addElement({ type: 'text', title: 'Texte à personnaliser' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Texte personnalisé">
-          <font-awesome-icon :icon="'align-left'"></font-awesome-icon>
+          <font-awesome-layers>
+            <font-awesome-icon icon="align-left" transform="left-2" />
+            <font-awesome-icon icon="pen" transform="right-7" style="stroke: #6c757d; stroke-width: 40" />
+          </font-awesome-layers>
         </b-button>
         <b-button @change="addFile($event)" variant="secondary" class="m-0" tag="label" for="input-file" v-b-tooltip.hover.noninteractive title="Importer une image"
           ><font-awesome-icon :icon="'image'"></font-awesome-icon> <input type="file" id="input-file" ref="input-file" hidden accept="image/gif,image/png,image/jpeg,image/bmp,image/webp"
