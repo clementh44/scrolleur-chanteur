@@ -1,5 +1,71 @@
 [
   {
+    "id": "",
+    "title": "Manifeste-toi",
+    "rating": "JEM452",
+    "composer": "Gérard Bryon",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Manifeste-toi,<br/>Donne-nous de l'assurance&nbsp;;<br/>Révèle-toi,<br/>Remplis-nous de ta présence.<br/>Étends ta main,<br/>Qu'il se produise des prodiges<br/>Par le nom de Jésus-Christ,<br/>Des guérisons et des signes."
+      }
+    ]
+  },
+  {
+    "id": "que-ces-lieux-soient-visites",
+    "title": "Que ces lieux soient visités",
+    "rating": "JEM647",
+    "composer": "Corinne Lafitte",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Que ces lieux soient visités<br/>Par ta sainte présence.<br/>Que ces lieux soient balayés<br/>Par le vent de ton Esprit.<br/>Lève-toi de ton saint lieu<br/>Et descends au milieu de nous.<br/>Pose sur nous des langues de feu,<br/>Verse ton onction sur nous."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Que ces lieux soient visités<br/>Par ta sainte présence.<br/>Que toute ombre soit chassée<br/>Par ta lumière, éclairée.<br/>Dans ta main, tiens-nous cachés,<br/>Garde-nous au creux du rocher.<br/>Lorsque tu passeras parmi nous,<br/>Que ta bonté soit proclamée."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Que ces lieux soient visités<br/>Par ta sainte présence.<br/>Que ces lieux soient les témoins<br/>De l'action de ton Esprit.<br/>Dans ta gloire, viens maintenant.<br/>Unis-nous en cet instant.<br/>Que ta vie jaillisse en abondance&nbsp;;<br/>Nous allons voir ta puissance."
+      }
+    ]
+  },
+  {
+    "id": "donne-nous-ton-fils",
+    "title": "Donne-nous ton Fils",
+    "rating": "V116",
+    "publisher": "Studio SM",
+    "writer": "Maurice Debaisieux",
+    "composer": "Maurice Debaisieux",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Vierge bénie entre toutes les femmes,<br/>Mère choisie entre toutes les mères,<br/>Mère du Christ et mère des Hommes,<br/>Donne-nous ton Fils,<br/>Donne-nous ton Fils."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Entre toutes les femmes du monde<br/>Le Seigneur t'a choisie<br/>Pour que brille à jamais sur la terre<br/>La lumière de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Comme coule la source limpide<br/>La tendresse de Dieu<br/>Envahit chaque instant de ta vie<br/>Et nous donne un Sauveur"
+      },
+      {
+        "type": "verse",
+        "text": "3 - En ton cœur, ô Marie, nul obstacle<br/>À l'amour infini.<br/>Le Seigneur fait en toi des merveilles<br/>Il nous donne son Fils."
+      },
+      {
+        "type": "verse",
+        "text": "4 - L'univers tout entier te contemple<br/>Il acclame ton Fils.<br/>Grâce à toi, au milieu de son peuple<br/>Le Seigneur est présent."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Tu chemines avec nous sur la route<br/>Tu connais notre espoir<br/>Au milieu de nos croix et nos larmes<br/>Tu nous montres ton Fils."
+      }
+    ]
+  },
+  {
     "id": "a-la-victime-pascale",
     "title": "À la victime pascale",
     "composer": "Henri Duchatel",
@@ -550,7 +616,7 @@
       },
       {
         "type": "verse",
-        "text": "6 - Tu donnes ton Amour&nbsp;;<br/>Ton esprit fait vivre ton Eglise.<br/>Tu es vivant au milieu de nous."
+        "text": "6 - Tu donnes ton Amour&nbsp;;<br/>Ton Esprit fait vivre ton Eglise.<br/>Tu es vivant au milieu de nous."
       },
       {
         "type": "verse",
@@ -1240,7 +1306,7 @@
       },
       {
         "type": "verse",
-        "text": "Mon âme exalte le Seigneur,<br/>Exulte mon esprit en Dieu mon Sauveur&nbsp;!<br/><br/>Il s’est penché sur son humble servante,<br/>désormais tous les âges me diront bienheureuse.<br/><br/>Le puissant fit pour moi des merveilles,<br/>Saint est son Nom&nbsp;!<br/><br/>Son amour s’étend d’âge en âge<br/>sur ceux qui le craignent.<br/><br/>Déployant la force de son bras,<br/>Il disperse les superbes.<br/><br/>Il renverse les puissants de leurs trônes,<br/>Il élève les humbles.<br/><br/>Il comble de biens les affamés,<br/>renvoie les riches les mains vides.<br/><br/>Il relève Israël son serviteur,<br/>Il se souvient de son amour,<br/><br/>De la promesse faite à nos Pères<br/>en faveur d’Abraham et de sa race à jamais."
+        "text": "Mon âme exalte le Seigneur,<br/>Exulte mon Esprit en Dieu mon Sauveur&nbsp;!<br/><br/>Il s’est penché sur son humble servante,<br/>désormais tous les âges me diront bienheureuse.<br/><br/>Le puissant fit pour moi des merveilles,<br/>Saint est son Nom&nbsp;!<br/><br/>Son amour s’étend d’âge en âge<br/>sur ceux qui le craignent.<br/><br/>Déployant la force de son bras,<br/>Il disperse les superbes.<br/><br/>Il renverse les puissants de leurs trônes,<br/>Il élève les humbles.<br/><br/>Il comble de biens les affamés,<br/>renvoie les riches les mains vides.<br/><br/>Il relève Israël son serviteur,<br/>Il se souvient de son amour,<br/><br/>De la promesse faite à nos Pères<br/>en faveur d’Abraham et de sa race à jamais."
       }
     ]
   },
@@ -1728,7 +1794,7 @@
       },
       {
         "type": "verse",
-        "text": "9 - Ce qui Te plaît c'est un esprit brisé,<br/>Un coeur contrit, et humilié.<br/>Tu ne rejettes pas le coeur broyé ;<br/>Reçois ma vie, pour la combler."
+        "text": "9 - Ce qui Te plaît c'est un Esprit brisé,<br/>Un coeur contrit, et humilié.<br/>Tu ne rejettes pas le coeur broyé ;<br/>Reçois ma vie, pour la combler."
       }
     ]
   },
@@ -1806,7 +1872,7 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "Nous t'adorons Ô père, dans ton temple,<br/>Nous t'adorons en esprit et en vérité.<br/>Tu habites nos louanges, nous t'adorons en esprit et en vérité."
+        "text": "Nous t'adorons Ô père, dans ton temple,<br/>Nous t'adorons en Esprit et en vérité.<br/>Tu habites nos louanges, nous t'adorons en Esprit et en vérité."
       },
       {
         "type": "chorus",
@@ -1816,7 +1882,7 @@
   },
   {
     "id": "en-esprit-et-en-verite",
-    "title": "En esprit et en vérité",
+    "title": "En Esprit et en vérité",
     "publisher": "Amoris Cantores",
     "writer": "Communauté St Jean",
     "composer": "Communauté St Jean",
@@ -1827,7 +1893,7 @@
       },
       {
         "type": "chorus",
-        "text": "Je t’adore en esprit et en vérité,<br/>Ô mon Seigneur et mon Dieu je désire te rencontrer.<br/>Je t’adore en esprit et en vérité,<br/>Ô mon Seigneur et mon Dieu je désire toujours t’aimer."
+        "text": "Je t’adore en Esprit et en vérité,<br/>Ô mon Seigneur et mon Dieu je désire te rencontrer.<br/>Je t’adore en Esprit et en vérité,<br/>Ô mon Seigneur et mon Dieu je désire toujours t’aimer."
       },
       {
         "type": "verse",
@@ -2909,7 +2975,7 @@
   },
   {
     "id": "viens-esprit-de-dieu",
-    "title": "Viens, esprit de Dieu",
+    "title": "Viens, Esprit de Dieu",
     "rating": "K235",
     "newrating": "KY235",
     "publisher": "Studio SM",
@@ -3744,7 +3810,7 @@
     "lyrics": [
       {
         "type": "chorus",
-        "text": "Je vous donnerai un cœur nouveau,<br/>Je mettrai en vous un esprit nouveau,<br/>J’ôterai de vous le cœur de pierre,<br/>Et vous donnerai un cœur de chair."
+        "text": "Je vous donnerai un cœur nouveau,<br/>Je mettrai en vous un Esprit nouveau,<br/>J’ôterai de vous le cœur de pierre,<br/>Et vous donnerai un cœur de chair."
       },
       {
         "type": "verse",
@@ -4199,6 +4265,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "AMEN&nbsp;!"
       },
       {
@@ -4207,6 +4274,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "AMEN&nbsp;!"
       },
       {
@@ -4215,6 +4283,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "AMEN&nbsp;!"
       }
     ]
@@ -5083,7 +5152,7 @@
       },
       {
         "type": "verse",
-        "text": "3 - Ne me repousse pas loin de ta face,<br/>Ne m'ôte pas ton Esprit Saint.<br/>Recrée en moi, ô Dieu un cœur pur,<br/>Remets en moi un esprit résolu."
+        "text": "3 - Ne me repousse pas loin de ta face,<br/>Ne m'ôte pas ton Esprit Saint.<br/>Recrée en moi, ô Dieu un cœur pur,<br/>Remets en moi un Esprit résolu."
       },
       {
         "type": "verse",
@@ -6663,7 +6732,7 @@
       },
       {
         "type": "verse",
-        "text": "10 - L'esprit de Dieu m'a envoyé pour annoncer la joie,<br/>Pour libérer les prisonniers, pour apporter la paix."
+        "text": "10 - L'Esprit de Dieu m'a envoyé pour annoncer la joie,<br/>Pour libérer les prisonniers, pour apporter la paix."
       },
       {
         "type": "verse",
@@ -8760,7 +8829,7 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "1 - Nous t'avons reconnu, Seigneur, à la fraction du pain,<br/>Notre cœur est tout brûlant quand nous venons jusqu'à toi,<br/>Fortifie notre foi, ô Christ, en cette communion,<br/>Fais de nous un seul corps, uni en un seul esprit&nbsp;!"
+        "text": "1 - Nous t'avons reconnu, Seigneur, à la fraction du pain,<br/>Notre cœur est tout brûlant quand nous venons jusqu'à toi,<br/>Fortifie notre foi, ô Christ, en cette communion,<br/>Fais de nous un seul corps, uni en un seul Esprit&nbsp;!"
       },
       {
         "type": "verse",
@@ -9615,7 +9684,7 @@
       },
       {
         "type": "verse",
-        "text": "7 - Vous tous qui avez soifs,<br/>Approchez-vous de lui,<br/>Ouvrez grand votre cœur,<br/>Recevez son esprit."
+        "text": "7 - Vous tous qui avez soifs,<br/>Approchez-vous de lui,<br/>Ouvrez grand votre cœur,<br/>Recevez son Esprit."
       }
     ]
   },
@@ -10128,7 +10197,7 @@
       },
       {
         "type": "verse",
-        "text": "2 - Je veux te donner ma vie<br/>Mettre mes pas dans tes pas<br/>Je veux à ta suite prendre ma croix<br/>Poussé par le souffle de l'esprit."
+        "text": "2 - Je veux te donner ma vie<br/>Mettre mes pas dans tes pas<br/>Je veux à ta suite prendre ma croix<br/>Poussé par le souffle de l'Esprit."
       },
       {
         "type": "verse",
@@ -10154,7 +10223,7 @@
       },
       {
         "type": "verse",
-        "text": "2 - Mon Père, mon Père, en toi je me confie,<br/>En tes mains, je mets mon esprit.<br/>Je te le donne, le cœur plein d'amour.<br/>Je n'ai qu'un désir&nbsp;: t'appartenir."
+        "text": "2 - Mon Père, mon Père, en toi je me confie,<br/>En tes mains, je mets mon Esprit.<br/>Je te le donne, le cœur plein d'amour.<br/>Je n'ai qu'un désir&nbsp;: t'appartenir."
       }
     ]
   },
@@ -13383,7 +13452,7 @@
       },
       {
         "type": "verse",
-        "text": "1 - Comme la plante pour grandir<br/>A besoin d'air et de lumière<br/>Tes enfants pour s'épanouir<br/>Ont ta Parole qui éclaire<br/>Ceux qui ont soif de vérité<br/>En ton esprit se voient comblés."
+        "text": "1 - Comme la plante pour grandir<br/>A besoin d'air et de lumière<br/>Tes enfants pour s'épanouir<br/>Ont ta Parole qui éclaire<br/>Ceux qui ont soif de vérité<br/>En ton Esprit se voient comblés."
       },
       {
         "type": "verse",
@@ -13403,7 +13472,7 @@
       },
       {
         "type": "chorus",
-        "text": "Ô Père, voici tes enfants<br/>Formant une seule famille<br/>Un même esprit les animant<br/>La même foi, la même vie."
+        "text": "Ô Père, voici tes enfants<br/>Formant une seule famille<br/>Un même Esprit les animant<br/>La même foi, la même vie."
       }
     ]
   },
@@ -13670,7 +13739,7 @@
       },
       {
         "type": "verse",
-        "text": "4 - Pour toujours, tu es vivant, alléluia&nbsp;!<br/>De ton cœur, brasier ardent, alléluia&nbsp;!<br/>Nous puisons l'esprit de vie, alléluia&nbsp;!<br/>Pour t'annoncer au monde entier&nbsp;: alléluia&nbsp;!"
+        "text": "4 - Pour toujours, tu es vivant, alléluia&nbsp;!<br/>De ton cœur, brasier ardent, alléluia&nbsp;!<br/>Nous puisons l'Esprit de vie, alléluia&nbsp;!<br/>Pour t'annoncer au monde entier&nbsp;: alléluia&nbsp;!"
       }
     ]
   },
@@ -14299,6 +14368,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen."
       },
       {
@@ -14307,6 +14377,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen."
       },
       {
@@ -14315,6 +14386,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen."
       }
     ]
@@ -14357,6 +14429,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison&nbsp;(x3)"
       },
       {
@@ -14365,6 +14438,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Christe eleison&nbsp;(x3)"
       },
       {
@@ -14373,6 +14447,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison&nbsp;(x3)"
       }
     ]
@@ -14392,6 +14467,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison&nbsp;(x3)"
       },
       {
@@ -14400,6 +14476,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Christe eleison&nbsp;(x3)"
       },
       {
@@ -14408,6 +14485,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison&nbsp;(x3)"
       }
     ]
@@ -14660,6 +14738,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié&nbsp;(x3)"
       },
       {
@@ -14668,6 +14747,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Ô Christ prends pitié&nbsp;(x3)"
       },
       {
@@ -14676,6 +14756,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié&nbsp;(x3)"
       }
     ]
@@ -14695,6 +14776,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié&nbsp;(x3)"
       },
       {
@@ -14703,6 +14785,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Ô Christ prends pitié&nbsp;(x3)"
       },
       {
@@ -14711,6 +14794,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié&nbsp;(x3)"
       }
     ]
@@ -14726,6 +14810,7 @@
     "lyrics": [
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Saint, Saint, Saint le Seigneur,<br/>Dieu de l'univers."
       },
       {
@@ -14734,6 +14819,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Hosanna au plus haut des cieux&nbsp;!"
       },
       {
@@ -14742,6 +14828,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Hosanna au plus haut des cieux&nbsp;!"
       }
     ]
@@ -14761,6 +14848,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen&nbsp;!"
       },
       {
@@ -14769,6 +14857,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen&nbsp;!"
       }
     ]
@@ -14810,6 +14899,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur, prends pitié de nous,<br/>Seigneur, prends pitié de nous,<br/>Seigneur, prends pitié."
       },
       {
@@ -14818,6 +14908,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Ô Christ, prends pitié de nous,<br/>Ô Christ, prends pitié de nous,<br/>Ô Christ, prends pitié."
       },
       {
@@ -14826,6 +14917,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur, prends pitié de nous,<br/>Seigneur, prends pitié de nous,<br/>Seigneur, prends pitié."
       }
     ]
@@ -14932,6 +15024,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison,<br/>Kyrie eleison.&nbsp;(bis)"
       },
       {
@@ -14940,6 +15033,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Christe eleison,<br/>Christe eleison.&nbsp;(bis)"
       },
       {
@@ -14948,6 +15042,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison,<br/>Kyrie eleison.&nbsp;(bis)"
       }
     ]
@@ -14990,6 +15085,7 @@
     "lyrics": [
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Sanctus, sanctus, sanctus, sanctus.&nbsp;(bis)"
       },
       {
@@ -15031,11 +15127,11 @@
     "publisher": "Cté Chemin Neuf",
     "lyrics": [
       {
-        "type": "chorus",
+        "type": "verse",
         "text": "Toi l'Agneau de Dieu qui enlèves les péchés du monde.<br/>Prends pitié de nous, prends pitié de nous."
       },
       {
-        "type": "chorus",
+        "type": "verse",
         "text": "Toi l'Agneau de Dieu qui enlèves les péchés du monde.<br/>Prends pitié de nous, prends pitié de nous."
       },
       {
@@ -15095,7 +15191,7 @@
       },
       {
         "type": "verse",
-        "text": "Le seul Saint, le seul Seigneur, le seul Très Haut&nbsp;!<br/>Jésus-Christ, avec l'esprit, dans la gloire du Père&nbsp;!"
+        "text": "Le seul Saint, le seul Seigneur, le seul Très Haut&nbsp;!<br/>Jésus-Christ, avec l'Esprit, dans la gloire du Père&nbsp;!"
       }
     ]
   },
@@ -15187,6 +15283,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen"
       },
       {
@@ -15195,6 +15292,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen"
       },
       {
@@ -15203,6 +15301,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen"
       },
       {
@@ -15211,6 +15310,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen"
       }
     ]
@@ -15279,6 +15379,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
       },
       {
@@ -15287,6 +15388,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Christe eleison, Christe eleison, Christe eleison."
       },
       {
@@ -15295,6 +15397,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
       }
     ]
@@ -15314,6 +15417,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
       },
       {
@@ -15322,6 +15426,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Christe eleison, Christe eleison, Christe eleison."
       },
       {
@@ -15330,6 +15435,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison, Kyrie eleison, Kyrie eleison."
       }
     ]
@@ -15387,6 +15493,7 @@
     "lyrics": [
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Sanctus, Sanctus, Sanctus, Dominus&nbsp;! Dominus Deus Sabaoth&nbsp;(bis)"
       },
       {
@@ -15395,6 +15502,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Hosanna in excelsis&nbsp;(bis)"
       },
       {
@@ -15403,6 +15511,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Hosanna in excelsis&nbsp;(bis)"
       }
     ]
@@ -15460,6 +15569,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison.<br/>Kyrie eleison."
       },
       {
@@ -15468,6 +15578,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Christe eleison.<br/>Christe eleison."
       },
       {
@@ -15476,6 +15587,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Kyrie eleison.<br/>Kyrie eleison."
       }
     ]
@@ -15652,7 +15764,8 @@
     "composer": "Pascal Daniel",
     "lyrics": [
       {
-        "type": "verse",
+        "type": "chorus",
+        "sticky": false,
         "text": "Saint, Saint, Saint, le Seigneur,<br/>le Seigneur, Dieu de l'univers."
       },
       {
@@ -15760,6 +15873,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Gloire à Dieu au plus haut des cieux,<br/>et paix sur la terre aux Hommes qu’il aime."
       },
       {
@@ -15768,6 +15882,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "nous t’adorons, nous te glorifions,"
       },
       {
@@ -15776,6 +15891,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
       },
       {
@@ -15784,6 +15900,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur Dieu, Agneau de Dieu, le Fils du Père ;"
       },
       {
@@ -15792,6 +15909,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Toi qui enlèves les péchés du monde, reçois notre prière ;"
       },
       {
@@ -15800,6 +15918,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "prends pitié de nous."
       },
       {
@@ -15808,6 +15927,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Toi seul es Seigneur,"
       },
       {
@@ -15816,6 +15936,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "avec le Saint-Esprit dans la gloire de Dieu le Père."
       },
       {
@@ -15824,6 +15945,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Amen"
       }
     ]
@@ -16482,6 +16604,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Agneau sans péché, tu donnes sens à l'Homme,<br/>Agneau de Dieu, prends pitié de Nous."
       },
       {
@@ -16490,6 +16613,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Agneau de la paix, tu rassembles les Hommes,<br/>Agneau de Dieu, prends pitié de Nous."
       },
       {
@@ -16498,6 +16622,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Agneau immolé, pain rompu pour les Hommes,<br/>Agneau de Dieu, donne-nous la paix."
       }
     ]
@@ -16577,6 +16702,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié<br/>Des pécheurs que nous sommes,<br/>Seigneur prends pitié,<br/>Seigneur prends pitié."
       },
       {
@@ -16585,6 +16711,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Ô Christ prends pitié<br/>Des pécheurs que nous sommes,<br/>Ô Christ prends pitié,<br/>Ô Christ prends pitié."
       },
       {
@@ -16593,6 +16720,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié<br/>Des pécheurs que nous sommes,<br/>Seigneur prends pitié,<br/>Seigneur prends pitié."
       }
     ]
@@ -16611,6 +16739,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié<br/>Des pécheurs que nous sommes,<br/>Seigneur prends pitié,<br/>Seigneur prends pitié."
       },
       {
@@ -16619,6 +16748,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Ô Christ prends pitié<br/>Des pécheurs que nous sommes,<br/>Ô Christ prends pitié,<br/>Ô Christ prends pitié."
       },
       {
@@ -16627,6 +16757,7 @@
       },
       {
         "type": "chorus",
+        "sticky": false,
         "text": "Seigneur prends pitié<br/>Des pécheurs que nous sommes,<br/>Seigneur prends pitié,<br/>Seigneur prends pitié."
       }
     ]
@@ -16823,6 +16954,178 @@
       {
         "type": "verse",
         "text": "3- Agneau de Dieu, Sauveur du monde, libérateur des Hommes,<br/>donne la paix de ton Royaume, pitié pour nous, pitié Seigneur&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-3-polyphonie-pour-un-avenir-alleluia",
+    "title": "(Messe Polyphonie pour un avenir) Alléluia",
+    "rating": "U44-83",
+    "publisher": "ADF-Musique",
+    "writer": "AELF",
+    "composer": "Jean-Marc Duménil/Patrick Richard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia&nbsp;! Amen&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-1-de-la-visitation-kyrie",
+    "title": "(Messe de la Visitation) Kyrie",
+    "rating": "14-27-01",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Seigneur Jésus envoyé par le Père pour guérir et sauver les hommes, prends pitié de nous."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Seigneur, prends pitié. (x3)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ô Christ venu dans le monde appeler tous les pécheurs, prends pitié de nous."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Ô Christ, prends pitié. (x3)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Seigneur Jésus élevé dans la gloire du Père où Tu intercèdes pour nous, prends pitié de nous."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Seigneur, prends pitié. (x3)"
+      }
+    ]
+  },
+  {
+    "id": "messe-2-de-la-visitation-gloria",
+    "title": "(Messe de la Visitation) Gloria",
+    "rating": "14-27-03",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu au plus haut des cieux, et paix sur la terre aux hommes qu’Il aime&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Nous Te louons, nous Te bénissons, nous T’adorons,<br/>nous Te glorifions, nous Te rendons grâce pour ton immense gloire,<br/>Seigneur Dieu, Roi du Ciel, Dieu le Père tout-puissant."
+      },
+      {
+        "type": "verse",
+        "text": "Seigneur, Fils unique, Jésus-Christ,<br/>Seigneur Dieu, Agneau de Dieu le Fils du Père&nbsp;;"
+      },
+      {
+        "type": "verse",
+        "text": "Toi qui enlèves le péché du monde, prends pitié de nous&nbsp;;<br/>Toi qui enlèves le péché du monde, reçois notre prière&nbsp;;<br/>Toi qui es assis à la droite du Père, prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Car Toi seul es Saint, Toi seul es Seigneur, Toi seul es le Très-Haut&nbsp;:<br/>Jésus-Christ, avec le Saint Esprit, dans la gloire de Dieu le Père."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Amen."
+      }
+    ]
+  },
+  {
+    "id": "messe-3-de-la-visitation-alleluia",
+    "title": "(Messe de la Visitation) Alléluia",
+    "rating": "14-27-02",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-5-de-la-visitation-sanctus",
+    "title": "(Messe de la Visitation) Sanctus",
+    "rating": "14-27-04",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Saint&nbsp;! Saint&nbsp;! Saint, le Seigneur, Dieu de l’univers&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Le ciel et la terre sont remplis de ta gloire,"
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Hosanna au plus haut des cieux&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Béni soit Celui qui vient au Nom du Seigneur,"
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Hosanna au plus haut des cieux&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-de-la-visitation-anamnese",
+    "title": "(Messe de la Visitation) Anamnèse",
+    "publisher": "Edition de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "translation",
+        "text": "Quand nous mangeons ce pain et buvons à cette coupe,<br/>Nous célébrons le mystère de la foi."
+      },
+      {
+        "type": "chorus",
+        "text": "Nous rappelons ta mort, Seigneur ressuscité,<br/>et nous attendons que tu viennes."
+      }
+    ]
+  },
+  {
+    "id": "messe-7-de-la-visitation-agnus",
+    "title": "(Messe de la Visitation) Agnus",
+    "rating": "14-27-05",
+    "publisher": "Edition de l'Emmanuel",
+    "writer": "AELF",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu, qui enlèves le péché du monde, prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu, qui enlèves le péché du monde, prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Agneau de Dieu, qui enlèves le péché du monde, donne-nous la paix."
       }
     ]
   }

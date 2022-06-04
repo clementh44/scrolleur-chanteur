@@ -1278,11 +1278,29 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction de Mendiant du jour
 ```
 
-##### Dernière version
 **17/05/2022 v4.23.2**
 ```
   Corrections
     FIX marges sur le chant même quand le texte est centré
     FIX éditeur/aelf sur l'import et la modification par la suite de ce qui est importé
     FIX éditeur sur le retour à la ligne
+```
+
+##### Dernière version
+**04/06/2022 v4.23.3**
+```
+  + Donne-nous ton Fils V116
+  + Que ces lieux soient visités JEM647
+  + Manifeste-toi JEM452
+  + (Messe Polyphonie pour un avenir) Alléluia U44-83
+  + (Messe de la Visitation) Kyrie 14-27-01
+  + (Messe de la Visitation) Gloria 14-27-03
+  + (Messe de la Visitation) Alléluia 14-27-02
+  + (Messe de la Visitation) Sanctus 14-27-04
+  + (Messe de la Visitation) Anamnèse
+  + (Messe de la Visitation) Agnus 14-27-05
+
+  Corrections
+    esprit > Esprit
+    "sticky": false, sur certaines messes où le refrain n'a pas besoin de rester au-dessus des autres éléments (chants avec plusieurs)
 ```
