@@ -3718,48 +3718,6 @@
     ]
   },
   {
-    "id": "vous-mavez-reconnu",
-    "title": "Vous m'avez reconnu",
-    "rating": "XD58-47",
-    "publisher": "ADF-Musique",
-    "writer": "Claire Châtaigner",
-    "composer": "Samuel Brouillet",
-    "lyrics": [
-      {
-        "type": "chorus",
-        "text": "Vous m’avez reconnu à la fraction du pain, prenez-le&nbsp;!<br/>Vous m’avez reconnu à ce pain en vos mains, mangez-le&nbsp;!<br/>Avec vous je conclus une alliance nouvelle,<br/>Avec vous je conclus une alliance éternelle."
-      },
-      {
-        "type": "verse",
-        "text": "1 - Voici le commencement<br/>\"Le Verbe s'est fait chair\"<br/>Voici le commencement<br/>Je suis venu sur terre<br/>Couché dans une mangeoire.&nbsp;(bis)"
-      },
-      {
-        "type": "verse",
-        "text": "2 - Me voici devant la porte<br/>M'entends-tu donc frapper&nbsp;?<br/>Me voici devant la porte<br/>Si tu me laisses entrer<br/>Je mangerai chez toi.&nbsp;(bis)"
-      },
-      {
-        "type": "verse",
-        "text": "3 - Me voici parmi la foule<br/>Comment la rassasier&nbsp;?<br/>Me voici parmi la foule<br/>Je veux tout lui donner<br/>Je suis le pain de vie.&nbsp;(bis)"
-      },
-      {
-        "type": "verse",
-        "text": "4 - Me voici au bord du puits<br/>Si je te donne à boire<br/>Me voici au bord du puits<br/>Et si tu veux y croire<br/>Je suis source d'eau vive.&nbsp;(bis)"
-      },
-      {
-        "type": "verse",
-        "text": "5 - Me voici aux pieds des Hommes<br/>Laissez-moi vous laver<br/>Me voici aux pieds des Hommes<br/>Laissez-moi vous aimer<br/>Je suis le serviteur.&nbsp;(bis)"
-      },
-      {
-        "type": "verse",
-        "text": "6 - Me voici vers Emmaüs<br/>De quoi avez-vous peur&nbsp;?<br/>Me voici vers Emmaüs<br/>Ecoutez votre coeur<br/>Je suis ressuscité.&nbsp;(bis)"
-      },
-      {
-        "type": "verse",
-        "text": "7 - Me voici Ressuscité<br/>Qui viendra au festin&nbsp;?<br/>Me voici Ressuscité<br/>Qui recevra mon pain&nbsp;?<br/>Vous serez mes témoins.&nbsp;(bis)"
-      }
-    ]
-  },
-  {
     "id": "parole-du-seigneur-jesus",
     "title": "Parole du Seigneur Jésus",
     "publisher": "Scout Europresse",
@@ -7341,7 +7299,7 @@
     ]
   },
   {
-    "id": "vous-m'avez-reconnu",
+    "id": "vous-mavez-reconnu",
     "title": "Vous m'avez reconnu",
     "rating": "SD58-47",
     "publisher": "ADF-Musique",
