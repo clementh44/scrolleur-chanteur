@@ -227,9 +227,9 @@
                   </template>
                   <template #emptyfiltered="">
                     <h5>Aucun chant trouvé</h5>
-                    <p>Vous pouvez rechercher dans les paroles en cochant la bonne case ci-dessus.</p>
+                    <p>Vous pouvez rechercher dans les paroles en cochant la bonne case ci-dessus,</p>
                     <p
-                      >Ou rechercher ce chant sur internet et l'insérer dans la
+                      >Recherchez ce chant sur internet et insérez-le dans la
                       <b-iconstack variant="success">
                         <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
                         <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
@@ -239,7 +239,7 @@
                       <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
                       <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a></p
                     >
-                    <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Pour la prochaine fois, envoyer une demande pour que ce chant soit ajouté.</a></p>
+                    <p><a href="https://forms.gle/NtKpdCazNs9N4NY88" target="_blank" rel="noopener">Pour la prochaine fois, envoyez une demande pour que ce chant soit ajouté.</a></p>
                   </template>
                 </b-table>
               </div>
