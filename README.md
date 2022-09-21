@@ -1286,7 +1286,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     FIX éditeur sur le retour à la ligne
 ```
 
-##### Dernière version
 **04/06/2022 v4.23.3**
 ```
   + Donne-nous ton Fils V116
@@ -1304,4 +1303,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     esprit > Esprit
     "sticky": false, sur certaines messes où le refrain n'a pas besoin de rester au-dessus des autres éléments (chants avec plusieurs)
     changement de l'icone d'ajout d'un text personnalisé
+```
+
+##### Dernière version
+**21/09/2022 v4.23.4**
+```
+  Correction du title de la page principale
 ```
