@@ -23,6 +23,12 @@
       </ol>
     </nav>
 
+    <b-alert show variant="success">
+      <router-link :to="{ name: 'home' }" itemprop="item"
+        ><span itemprop="name">Accéder à la page d'accueil pour décourir l'<strong>outil de projection des paroles de chants !</strong></span></router-link
+      >&nbsp;<a href="https://youtu.be/xu5QKXBiqMk">Voir une vidéo de présentation</a>.
+    </b-alert>
+
     <ViewWindow :element="element" :settings="settings" :live="false"></ViewWindow>
   </div>
 </template>

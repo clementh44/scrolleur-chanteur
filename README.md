@@ -1313,6 +1313,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction doublon du chant Vous m'avez reconnu
   Missel : suppression des couleurs après presque 1 an avec la nouvelle traduction
   Correction text si résultat de recher dans le répertoire vide
+  Ajout d'un message dans la page des paroles d'un chant
 
   + Jésus, Verbe de Dieu, Kyrie G323-1 AL323-1
   + Recevez le Christ D74-13
