@@ -1,5 +1,274 @@
 [
   {
+    "id": "louange-a-toi-o-christ",
+    "title": "Louange à toi, ô Christ",
+    "rating": "IEV&nbsp;: N°17-40",
+    "newrating": "EDIT15-99",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (A. Fleury / A. Dumont)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Louange à toi, ô Christ<br/>Berger de ton Église,<br/>Joyeuse et vraie lumière,<br/>Tu nous donnes la vie&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Toi l'étoile dans la nuit,<br/>Tu rayonnes avec le Père. <br/>Par toi nous avons la vie,<br/>Nous voyons la vraie lumière&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Que nos chants te glorifient, <br/>Qu'ils embrasent notre terre&nbsp;! <br/>Fils de Dieu, tu t'es fait chair <br/>Pour nous mener vers le Père&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Envoie sur nous ton Esprit, <br/>Fais briller sur nous ta Face&nbsp;! <br/>Ô Jésus ressuscité, <br/>Que nos chants te rendent grâce&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Ta splendeur nous as sauvés<br/>Des ténèbres éternelles. <br/>Donne-nous de proclamer tes prodiges, <br/>Tes merveilles&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Sois la source de la vie, <br/>Sois la rosée de nos âmes&nbsp;! <br/>Que se lève pour chanter <br/>Ton Église bienheureuse&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "allez-vous-en-sur-les-places",
+    "title": "Allez-vous en sur les places",
+    "rating": "T28",
+    "publisher": "Studio SM",
+    "writer": "Odette Vercruysse",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Allez-vous en sur les places et sur les parvis&nbsp;!<br/>Allez-vous en sur les places y chercher mes amis,<br/>Tous mes enfants de lumière qui vivent dans la nuit,<br/>Tous les enfants de mon Père séparés de Lui,<br/>Allez-vous en sur les places<br/>Et soyez mes témoins chaque jour."
+      },
+      {
+        "type": "verse",
+        "text": "1 - En quittant cette terre, je vous ai laissé<br/>Un message de lumière, qu'en avez-vous donc fait&nbsp;?<br/>Quand je vois aujourd'hui mes enfants révoltés,<br/>Aigris et douloureux d'avoir pleuré&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - En quittant cette terre, je vous ai donné<br/>La justice de mon Père, l'avez-vous partagée&nbsp;?<br/>Quand je vois, aujourd'hui, mes enfants qui ont peur<br/>Sans amour, et sans foi et sans honneur."
+      },
+      {
+        "type": "verse",
+        "text": "3 - En quittant cette terre, je vous avais dit&nbsp;:<br/>Aimez-vous comme des frères, m'avez-vous obéi&nbsp;?<br/>Quand je vois aujourd'hui, mes enfants torturés,<br/>Sans amis, sans espoir, abandonnés."
+      }
+    ]
+  },
+  {
+    "id": "dieu-qui-nous-appelle-a-vivre",
+    "title": "Dieu qui nous appelle à vivre",
+    "rating": "K158",
+    "publisher": "Studio SM",
+    "writer": "Michel Scouarnec",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Dieu, qui nous appelles à vivre<br/>Aux combats de la liberté,<br/><br/>Pour briser nos chaînes<br/>Fais en nous ce que tu dis&nbsp;!<br/>Pour briser nos chaînes<br/>Fais jaillir en nous l'Esprit&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Dieu, qui nous apprends à vivre<br/>Aux chemins de la vérité,<br/><br/>Pour lever le jour<br/>Fais en nous ce que tu dis&nbsp;!<br/>Pour lever le jour<br/>Fais jaillir en nous l'Esprit&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Dieu, qui nous invites à suivre<br/>Le soleil du Ressuscité,<br/><br/>Pour passer la mort<br/>Fais en nous ce que tu dis&nbsp;!<br/>Pour passer la mort<br/>Fais jaillir en nous l'Esprit&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Dieu, qui as ouvert le livre<br/>Où s'écrit notre dignité,<br/><br/>Pour tenir debout<br/>Fais en nous ce que tu dis&nbsp;!<br/>Pour tenir debout<br/>Fais jaillir en nous l'Esprit&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "allez-porter-ma-joie-au-monde",
+    "title": "Allez porter ma joie au monde",
+    "rating": "EDIT47-07",
+    "publisher": "Cristal Music",
+    "writer": "Jean-Jacques Juven",
+    "composer": "Jean-Jacques Juven",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Vers les hommes sans lumière<br/>Allez porter la paix<br/>Et cette amitié qui éclaire<br/>Portez l'amour qui ne finit jamais."
+      },
+      {
+        "type": "chorus",
+        "text": "Allez porter la joie au monde par toute la planète<br/>Portez la joie au monde porter ma fête.&nbsp;(x2)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Aux travaux de cette terre<br/>Allez pour la moisson<br/>Il y a tant de travail à faire<br/>Pour moissonner à tous les horizons."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Pour le royaume à construire<br/>Allez porter vos vies<br/>Porter vos pierres et vos rires<br/>Au monde neuf qui doucement grandit."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Aux enfants de la souffrance<br/>Allez tendre vos mains<br/>Offrir une seconde chance<br/>Pour inventer ensemble un lendemain."
+      }
+    ]
+  },
+  {
+    "id": "venez-ayez-foi-en-lui",
+    "title": "Venez, ayez foi en lui",
+    "rating": "DEV363",
+    "newrating": "IEV 17-59",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (P. Schneider)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Venez, ayez foi en lui<br/>car il est notre espérance.<br/>Venez, ayez foi en lui,<br/>Jésus vous attend&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "venez-a-lui",
+    "title": "Venez à lui",
+    "rating": "T508 ",
+    "newrating": "X508 ",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Communauté de l'Emmanuel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Venez à lui, il est la source d'eau, le bonheur,<br/>Venez à lui, il est la source d'eau, la paix du cœur."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Longtemps, longtemps, je l'ai cherché,<br/>Mais ne l'ai jamais trouvé,<br/>Mon cœur est las, ma vie gâchée<br/>Pour trouver la vérité."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Mais aujourd'hui, ma vie a changé,<br/>Jésus-Christ l'a transformée,<br/>Je veux chanter et proclamer<br/>Que Dieu aussi veut t'aimer."
+      }
+    ]
+  },
+  {
+    "id": "pain-des-merveilles",
+    "title": "Pain des merveilles",
+    "rating": "D203",
+    "publisher": "Studio SM",
+    "writer": "Michel Scouarnec",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Voici le pain, voici le vin,<br/>Pour le repas et pour la route,<br/>Voici ton corps, voici ton sang<br/>Entre nos mains, voici ta vie qui renaît de nos cendres."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Pain des merveilles de notre Dieu<br/>Pain du Royaume, table de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Vin pour les noces de l'homme-Dieu<br/>Vin de la fête, Pâque de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Force plus forte que notre mort<br/>Vie éternelle en notre corps."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Source d'eau vive pour notre soif<br/>Pain qui ravive tous nos espoirs."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Porte qui s'ouvre sur nos prisons,<br/>Mains qui se tendent pour le pardon."
+      }
+    ]
+  },
+  {
+    "id": "recevez-le-christ",
+    "title": "Recevez le Christ",
+    "rating": "D74-13",
+    "publisher": "Editions de l'Emmanuel",
+    "writer": "Cissy Suijkerbuijk",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Voici le Fils aimé du Père,<br/>Don de Dieu pour sauver le monde.<br/>Devant nous il est là, il se fait proche,<br/>Jésus, l’Agneau de Dieu&nbsp;!"
+      },
+      {
+        "type": "chorus",
+        "text": "Recevez le Christ doux et humble,<br/>Dieu caché en cette hostie.<br/>Bienheureux disciples du Seigneur,<br/>Reposez sur son cœur, apprenez tout de lui."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Jésus, jusqu’au bout tu nous aimes,<br/>Tu prends la condition d’esclave.<br/>Roi des rois, tu t’abaisses jusqu’à terre<br/>Pour nous laver les pieds."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Seigneur, comme est grand ce mystère,<br/>Maître comment te laisser faire&nbsp;?<br/>En mon corps, en mon âme pécheresse,<br/>Tu viens pour demeurer."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Je crois, mon Dieu, en toi j’espère.<br/>Lave mes pieds et tout mon être&nbsp;:<br/>De ton cœur, fais jaillir en moi la source,<br/>L’eau vive de l’Esprit."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Seigneur, tu m’appelles à te suivre.<br/>Viens au secours de ma faiblesse.<br/>En mon cœur, viens, établis ta demeure,<br/>Que brûle ton Amour."
+      }
+    ]
+  },
+  {
+    "id": "messe-1-jesus-verbe-de-dieu-kyrie",
+    "title": "Jésus, Verbe de Dieu, Kyrie",
+    "rating": "G323-1",
+    "newrating": "AL323-1",
+    "publisher": "CNPL/Studio SM",
+    "writer": "Didier Rimaud",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Kyrie, Christe,<br/>Kyrie eleison"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Jésus, Verbe de Dieu,<br/>Verbe fait chair par amour pour les pécheurs,"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Jésus, Maître et Seigneur,<br/>Gloire humiliée par amour pour les pécheurs,"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Jésus, homme au cœur pur,<br/>Homme enchaîné par amour pour les pécheurs."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Jésus, Prince de Paix,<br/>Roi bafoué par amour pour les pécheurs,"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Jésus, Fils Premier-Né,<br/>Dieu crucifié par amour pour les pécheurs,"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Jésus, Source de vie,<br/>Corps assoiffé par amour pour les pécheurs."
+      },
+      {
+        "type": "verse",
+        "text": "7 - Jésus, Source de vie,<br/>Corps assoiffé par amour pour les pécheurs."
+      },
+      {
+        "type": "verse",
+        "text": "8 - Jésus, notre grand Dieu,<br/>Mis au tombeau par amour pour les pécheurs,"
+      },
+      {
+        "type": "verse",
+        "text": "9 - Jésus, ressuscité,<br/>Prêtre éternel par amour pour les pécheurs."
+      }
+    ]
+  },
+  {
     "id": "manifeste-toi",
     "title": "Manifeste-toi",
     "rating": "JEM452",
@@ -17084,6 +17353,198 @@
       {
         "type": "verse",
         "text": "Agneau de Dieu, qui enlèves le péché du monde, donne-nous la paix."
+      }
+    ]
+  },
+  {
+    "id": "messe-1-de-lalliance-dans-ton-amour-pitie-pour-moi",
+    "title": "(Messe de l'Alliance) Dans ton amour, pitié pour moi !",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Dans ton amour pitié pour moi,<br/>Je suis un homme au cœur blessé.<br/>Fais-moi connaître mon péché,<br/>Dieu de ma joie&nbsp;! (bis)"
+      },
+      {
+        "type": "chorus",
+        "text": "Dieu plus grand que notre cœur,<br/>kyrie eleison&nbsp;!<br/>Dieu plus grand que notre cœur,<br/>kyrie eleison&nbsp;!<br/>(Prends pitié de nous, Seigneur&nbsp;!)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Dans ton amour tu viens à moi,<br/>Jésus mon frère au sang versé.<br/>Toi seul pourras me pardonner,<br/>Dieu de ma joie&nbsp;! (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Par ton amour entraîne-moi,<br/>Sous ton soleil je revivrai.<br/>Inonde-moi de ta clarté,<br/>Dieu de ma joie&nbsp;! (bis)"
+      }
+    ]
+  },
+  {
+    "id": "messe-2-de-lalliance-gloire-a-dieu-notre-pere",
+    "title": "(Messe de l'Alliance) Gloire à Dieu notre Père",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas / Jean-Marie Belliard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu, notre Père, gloire à Dieu par l'Esprit.<br/>Joie du ciel sur la Terre, paix du Christ en nos vies."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Créateur du monde,<br/>jeunesse des vivants&nbsp;! (bis)<br/>Tu nous as faits à ton image,<br/>Louange à toi dans l’univers&nbsp;! (bis)<br/>Tes merveilles proclament ton nom. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Dieu Sauveur du monde,<br/>Lumière des vivants&nbsp;! (bis)<br/>Tu nous relèves au jour de Pâques,<br/>Louange à toi, Ressuscité&nbsp;! (bis)<br/>Fils de l’homme, avec toi nous chantons. (bis)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Souffle sur le monde,<br/>Sagesse des vivants&nbsp;! (bis)<br/>Tu nous choisis pour ta demeure,<br/>Louange à toi qui nous conduis&nbsp;! (bis)<br/>D’un seul cœur avec toi nous chantons. (bis)"
+      }
+    ]
+  },
+  {
+    "id": "messe-3-de-lalliance-alleluia-de-lalliance",
+    "title": "(Messe de l'Alliance) Alléluia de l'Alliance",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Jo Akepsimas",
+    "composer": "Jean-Marie Belliard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Bénis le Seigneur, ô mon âme,<br/>N'oublie aucun de ses bienfaits."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Fidèle est le Seigneur à sa parole,<br/>Il observe son alliance éternelle."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Il a fait les cieux par sa parole,<br/>L'univers par le souffle de sa bouche."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Le Seigneur est tendresse et pitié,<br/>Lent à la colère et plein d'amour."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Nos jours sont comme l'herbe des champs,<br/>Mais l'amour du Seigneur est de toujours."
+      }
+    ]
+  },
+  {
+    "id": "messe-4-de-lalliance-je-crois-en-dieu-qui-donne-vie",
+    "title": "(Messe de l'Alliance) Je crois en Dieu qui donne vie",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Je crois en Dieu qui donne vie,<br/>Dieu de lumière en Jésus Christ."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Il crée les mondes par myriades,<br/>Nous sommes fiers de les nommer.<br/>Il fait de l'homme son image<br/>Nous apprenons sa liberté&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Il fait alliance avec son peuple,<br/>Il le conduit par le désert.<br/>Il nous choisit pour sa demeure,<br/>Nous découvrons son univers."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Il se révèle à notre terre<br/>Par Jésus-Christ, Fils de Marie.<br/>Le crucifié sur le calvaire<br/>Détruit la mort quand Pâques luit."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Dans son Esprit Dieu nous baptise,<br/>Il veut que l'homme soit sauvé.<br/>Dieu d'unité dans nos Eglises,<br/>Il nous prépare à sa clarté."
+      }
+    ]
+  },
+  {
+    "id": "messe-5-de-lalliance-saint-le-tres-haut",
+    "title": "(Messe de l'Alliance) Saint, le Très-Haut",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas / Jean-Marie Belliard",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Saint le Très-haut, Saint le Vivant,<br/>Saint le Seigneur de l'univers &nbsp;!&nbsp;(x2)"
+      },
+      {
+        "type": "verse",
+        "text": "Gloire à toi dans le ciel et sur la terre,<br/>Gloire à toi, Hosanna, notre Dieu !"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-de-lalliance-anamnese",
+    "title": "(Messe de l'Alliance) Anamnèse",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Christ et Sauveur, mort sur la croix,<br/>Dieu plus puissant que nos tombeaux !&nbsp;(x2)"
+      },
+      {
+        "type": "verse",
+        "text": "Gloire à toi, le soleil du jour de Pâques,<br/>Fils de Dieu, tu viendras dans la gloire !"
+      }
+    ]
+  },
+  {
+    "id": "messe-de-lalliance-doxologie",
+    "title": "(Messe de l'Alliance) Doxologie",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Par Jésus-Christ,<br/>Ton bien-aimé,<br/>Nous rendons grâce au long des temps.&nbsp;(x2)"
+      },
+      {
+        "type": "verse",
+        "text": "Gloire à toi, Dieu le Père des lumières,<br/>Gloire à toi par l'Esprit dans nos cœurs."
+      }
+    ]
+  },
+  {
+    "id": "messe-7-de-lalliance-corps-du-seigneur-sang-de-lagneau",
+    "title": "(Messe de l'Alliance) Corps du Seigneur, sang de l'Agneau",
+    "rating": "A220",
+    "publisher": "Studio SM",
+    "writer": "Claude Bernard",
+    "composer": "Jo Akepsimas",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Corps du Seigneur,<br/>Sang de l'Agneau,<br/>Paix qui désarme le pécheur&nbsp;!&nbsp;(x2)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Gloire à toi, Jésus-Christ à notre table,<br/>Gloire à toi, Sang de l'homme nouveau&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Gloire à toi, pain de Dieu pour notre marche,<br/>Gloire à toi, notre force aujourd'hui&nbsp;!"
       }
     ]
   }

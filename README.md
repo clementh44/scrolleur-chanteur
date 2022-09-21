@@ -1312,4 +1312,22 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction du chant Manifeste-toi
   Correction doublon du chant Vous m'avez reconnu
   Missel : suppression des couleurs après presque 1 an avec la nouvelle traduction
+
+  + Jésus, Verbe de Dieu, Kyrie G323-1 AL323-1
+  + Recevez le Christ D74-13
+  + Pain des merveilles D203
+  + (Messe de l'Alliance) Dans ton amour, pitié pour moi ! A220
+  + (Messe de l'Alliance) Gloire à Dieu notre Père A220
+  + (Messe de l'Alliance) Alléluia de l'Alliance A220
+  + (Messe de l'Alliance) Je crois en Dieu qui donne vie A220
+  + (Messe de l'Alliance) Saint, le Très-Haut A220
+  + (Messe de l'Alliance) Anamnèse A220
+  + (Messe de l'Alliance) Doxologie A220
+  + (Messe de l'Alliance) Corps du Seigneur, sang de l'Agneau A220
+  + Venez à lui T508 X508
+  + Venez, ayez foi en lui DEV363 IEV 17-59
+  + Allez porter ma joie au monde EDIT47-07
+  + Dieu qui nous appelle à vivre K158
+  + Allez-vous en sur les places T28
+  + Louange à toi, ô Christ IEV : N°17-40 EDIT15-99
 ```
