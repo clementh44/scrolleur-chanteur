@@ -1309,4 +1309,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **21/09/2022 v4.23.4**
 ```
   Correction du title de la page principale
+  Correction du chant Manifeste-toi
 ```
