@@ -2,62 +2,62 @@
   {
     "id": "100-rites-initiaux-signe-de-croix-au-nom-du-pere",
     "title": "[Rites initiaux] (Signe de croix) Au nom du Père...",
-    "text": "<p><em>Au nom du Père, et du Fils, et du Saint-Esprit.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Amen.</strong></p>"
+    "text": "<p><em>Au nom du Père, et du Fils, et du Saint-Esprit.</em></p><p><strong>R/. Amen.</strong></p>"
   },
   {
     "id": "111-rites-initiaux-salutation-la-grace-de-jesus",
     "title": "[Rites initiaux] (Salutation) La grâce de Jésus...",
-    "text": "<p><em>La grâce de Jésus, le Christ, notre Seigneur,</em><br><em>l’amour de Dieu le Père,</em><br><em>et la communion de l’Esprit Saint,</em><br><em>soient toujours avec vous.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p>"
+    "text": "<p><em>La grâce de Jésus, le Christ, notre Seigneur,</em><br><em>l’amour de Dieu le Père,</em><br><em>et la communion de l’Esprit Saint,</em><br><em>soient toujours avec vous.</em></p><p><strong>R/. Et avec votre esprit.</strong></p>"
   },
   {
     "id": "112-rites-initiaux-salutation-que-la-grace-et-la-paix",
     "title": "[Rites initiaux] (Salutation) Que la grâce et la paix...",
-    "text": "<p><em><span style='color: #FFFA70'>Que la grâce et la paix</span></em><span style='color: #FFFA70'><br></span><em><span style='color: #FFFA70'>de Dieu notre Père</span></em><span style='color: #FFFA70'><br></span><em><span style='color: #FFFA70'>et du Seigneur Jésus, le Christ,</span></em><span style='color: #FFFA70'><br></span><em><span style='color: #FFFA70'>soient toujours avec vous.</span></em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p>"
+    "text": "<p><em>Que la grâce et la paix</em><br><em>de Dieu notre Père</em><br><em>et du Seigneur Jésus, le Christ,</em><br><em>soient toujours avec vous.</em></p><p><strong>R/. Et avec votre esprit.</strong></p>"
   },
   {
     "id": "113-rites-initiauxsalutation-le-seigneur-soit-avec-vous-",
     "title": "[Rites initiaux] (Salutation) Le Seigneur soit avec vous.",
-    "text": "<p><em>Le Seigneur soit avec vous.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p>"
+    "text": "<p><em>Le Seigneur soit avec vous.</em></p><p><strong>R/. Et avec votre esprit.</strong></p>"
   },
   {
     "id": "114-rites-initiaux-salutation-la-paix-soit-avec-vous",
     "title": "[Rites initiaux] (Salutation) La paix soit avec vous.",
-    "text": "<p><em>La paix soit avec vous.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p>"
+    "text": "<p><em>La paix soit avec vous.</em></p><p><strong>R/. Et avec votre esprit.</strong></p>"
   },
   {
     "id": "121-rites-initiaux-acte-penitentiel-je-confesse-a-dieu-tout-puissant",
     "title": "[Rites initiaux] (Acte pénitentiel) Je confesse à Dieu tout-puissant",
-    "text": "<p>Je confesse à Dieu tout-puissant,<br>je reconnais <strong><span style='color: #FFFA70'>devant vous, frères et sœurs</span></strong>, que j’ai péché<br>en pensée, en parole, par action et par omission&nbsp;;</p><p>oui, j’ai vraiment péché.</p><p>C’est pourquoi je supplie<br>la <strong><span style='color: #FFFA70'>bienheureuse</span></strong> Vierge Marie,<br>les anges et tous les saints,<br>et vous aussi, <strong><span style='color: #FFFA70'>frères et sœurs</span></strong>,<br>de prier pour moi le Seigneur notre Dieu.</p>"
+    "text": "<p>Je confesse à Dieu tout-puissant,<br>je reconnais <strong>devant vous, frères et sœurs</strong>, que j’ai péché<br>en pensée, en parole, par action et par omission&nbsp;;</p><p>oui, j’ai vraiment péché.</p><p>C’est pourquoi je supplie<br>la <strong>bienheureuse</strong> Vierge Marie,<br>les anges et tous les saints,<br>et vous aussi, <strong>frères et sœurs</strong>,<br>de prier pour moi le Seigneur notre Dieu.</p>"
   },
   {
     "id": "122-rites-initiaux-acte-penitentiel-nous-avons-peche-contre-toi",
     "title": "[Rites initiaux] (Acte pénitentiel) Nous avons péché contre toi",
-    "text": "<p><em><span style='color: #FFFA70'>Prends pitié de nous, Seigneur.</span></em><br><strong><span style='color: #FFFA70'>R/. </span>Nous avons péché contre toi.</strong></p><p><em>Montre-nous, <span style='color: #FFFA70'>Seigneur</span>, ta miséricorde.</em><br><strong><span style='color: #FFFA70'>R/. </span>Et<span style='color: #FFFA70'> donne-nous ton salut.</span></strong></p>"
+    "text": "<p><em>Prends pitié de nous, Seigneur.</em><br><strong>R/. Nous avons péché contre toi.</strong></p><p><em>Montre-nous, Seigneur, ta miséricorde.</em><br><strong>R/. Et donne-nous ton salut.</strong></p>"
   },
   {
     "id": "123-rites-initiaux-acte-penitentiel-seigneur-prends-pitie",
     "title": "[Rites initiaux] (Acte pénitentiel) Seigneur, prends pitié",
-    "text": "<p><em>Seigneur Jésus, <span style='color: #FFFA70'>envoyé pour guérir</span><br><span style='color: #FFFA70'>les cœurs qui reviennent vers toi&nbsp;:</span><br><span style='color: #FFFA70'>Seigneur, prends pitié.</span></em><br><strong><span style='color: #FFFA70'>R/. Seigneur, prends pitié.</span></strong></p><p><em>Ô Christ, <span style='color: #FFFA70'>venu appeler les pécheurs&nbsp;:</span><br><span style='color: #FFFA70'>ô Christ, prends pitié.</span></em><br><strong><span style='color: #FFFA70'>R/. Ô Christ, prends pitié.</span></strong></p><p><em>Seigneur, <span style='color: #FFFA70'>qui sièges à la droite</span> du Père<br>où tu intercèdes pour nous&nbsp;:<br><span style='color: #FFFA70'>Seigneur, prends pitié.</span></em><br><strong><span style='color: #FFFA70'>R/. Seigneur, prends pitié.</span></strong></p>"
+    "text": "<p><em>Seigneur Jésus, envoyé pour guérir<br>les cœurs qui reviennent vers toi&nbsp;:<br>Seigneur, prends pitié.</em><br><strong>R/. Seigneur, prends pitié.</strong></p><p><em>Ô Christ, venu appeler les pécheurs&nbsp;:<br>ô Christ, prends pitié.</em><br><strong>R/. Ô Christ, prends pitié.</strong></p><p><em>Seigneur, qui sièges à la droite du Père<br>où tu intercèdes pour nous&nbsp;:<br>Seigneur, prends pitié.</em><br><strong>R/. Seigneur, prends pitié.</strong></p>"
   },
   {
     "id": "131-rites-initiaux-gloire-a-dieu",
     "title": "[Rites initiaux] Gloire à Dieu",
-    "text": "<p>Gloire à Dieu, au plus haut des cieux,<br>Et paix sur la terre aux hommes qu’il aime.</p><p>Nous te louons, nous te bénissons,<br>nous t’adorons,<br>Nous te glorifions, nous te rendons grâce,<br>pour ton immense gloire,<br>Seigneur Dieu, Roi du ciel,<br>Dieu le Père tout-puissant.</p><p>Seigneur, Fils unique, Jésus Christ,<br>Seigneur<strong><span style='color: #FFFA70'>,</span></strong> Dieu, Agneau de Dieu, le Fils du Père&nbsp;;</p><p>Toi qui enlèves <strong><span style='color: #FFFA70'>les péchés</span></strong> du monde,<br>prends pitié de nous&nbsp;;<br>Toi qui enlèves <strong><span style='color: #FFFA70'>les péchés</span></strong> du monde,<br>reçois notre prière&nbsp;;<br>Toi qui es assis à la droite du Père,<br>prends pitié de nous.</p><p>Car toi seul es <strong><span style='color: #FFFA70'>S</span></strong>aint, toi seul es Seigneur,<br>Toi seul es le Très-Haut&nbsp;: Jésus Christ,<br>avec le Saint-Esprit<br>Dans la gloire de Dieu le Père. Amen.</p>"
+    "text": "<p>Gloire à Dieu, au plus haut des cieux,<br>Et paix sur la terre aux hommes qu’il aime.</p><p>Nous te louons, nous te bénissons,<br>nous t’adorons,<br>Nous te glorifions, nous te rendons grâce,<br>pour ton immense gloire,<br>Seigneur Dieu, Roi du ciel,<br>Dieu le Père tout-puissant.</p><p>Seigneur, Fils unique, Jésus Christ,<br>Seigneur<strong>,</strong> Dieu, Agneau de Dieu, le Fils du Père&nbsp;;</p><p>Toi qui enlèves <strong>les péchés</strong> du monde,<br>prends pitié de nous&nbsp;;<br>Toi qui enlèves <strong>les péchés</strong> du monde,<br>reçois notre prière&nbsp;;<br>Toi qui es assis à la droite du Père,<br>prends pitié de nous.</p><p>Car toi seul es <strong>S</strong>aint, toi seul es Seigneur,<br>Toi seul es le Très-Haut&nbsp;: Jésus Christ,<br>avec le Saint-Esprit<br>Dans la gloire de Dieu le Père. Amen.</p>"
   },
   {
     "id": "201-liturgie-de-la-parole-parole-du-seigneur",
     "title": "[Liturgie de la Parole] Parole du Seigneur",
-    "text": "<p><em>Parole du Seigneur</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    "text": "<p><em>Parole du Seigneur</em></p><p><strong>R/. Nous rendons grâce à Dieu.</strong></p>"
   },
   {
     "id": "202-liturgie-de-la-parole-le-seigneur-soit-avec-vous",
     "title": "[Liturgie de la Parole] Le Seigneur soit avec vous.",
-    "text": "<p><em>Le Seigneur soit avec vous.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p><p><em>Évangile de Jésus Christ selon saint <span style='color: #FFFA70'>N</span>.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Gloire à toi, Seigneur&nbsp;!</strong></p>"
+    "text": "<p><em>Le Seigneur soit avec vous.</em></p><p><strong>R/. Et avec votre esprit.</strong></p><p><em>Évangile de Jésus Christ selon saint N.</em></p><p><strong>R/. Gloire à toi, Seigneur&nbsp;!</strong></p>"
   },
   {
     "id": "203-liturgie-de-la-parole-acclamons-la-parole-de-dieu",
     "title": "[Liturgie de la Parole] Acclamons la Parole de Dieu.",
-    "text": "<p><em>Acclamons la Parole de Dieu.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Louange à toi, Seigneur Jésus&nbsp;!</strong></p>"
+    "text": "<p><em>Acclamons la Parole de Dieu.</em></p><p><strong>R/. Louange à toi, Seigneur Jésus&nbsp;!</strong></p>"
   },
   {
     "id": "204-liturgie-de-la-parole-profession-de-foi-symbole-des-apotres-je-crois-en-dieu",
@@ -67,96 +67,96 @@
   {
     "id": "205-liturgie-de-la-parole-profession-de-foi-symbole-de-nicee-constantinople-je-crois-en-un-seul-dieu",
     "title": "[Liturgie de la Parole] (Profession de foi) Symbole de Nicée-Constantinople (Je crois en un seul Dieu)",
-    "text": "<p>Je crois en un seul Dieu,<br>le Père Tout-Puissant, créateur du ciel et de la terre<br>de l’univers visible et invisible.</p><p>Je crois en un seul Seigneur, Jésus Christ<br>le Fils unique de Dieu, né du Père avant tous les siècles&nbsp;:<br>Il est Dieu, né de Dieu,<br>Lumière, né de la Lumière,<br>vrai Dieu, né du vrai Dieu,<br>engendré, non pas créé,<br><strong><span style='color: #FFFA70'>consubstantiel au Père</span></strong>,<br>et par lui tout a été fait.</p><p>Pour nous les hommes, et pour notre salut,<br>il descendit du ciel&nbsp;;</p><p>Par l’Esprit Saint, il a pris chair de la Vierge Marie,<br>et s’est fait homme.</p><p>Crucifié pour nous sous Ponce Pilate,<br>il souffrit sa passion et fut mis au tombeau.</p><p>Il ressuscita le troisième jour, conformément aux Écritures,<br>et il monta au ciel&nbsp;; il est assis à la droite du Père.</p><p>Il reviendra dans la gloire,<br>pour juger les vivants et les morts&nbsp;;<br>et son règne n’aura pas de fin.</p><p>Je crois en l’Esprit Saint,<br>qui est Seigneur et qui donne la vie&nbsp;;<br>il procède du Père et du Fils&nbsp;;<br>avec le Père et le Fils,<br>il reçoit même adoration et même gloire&nbsp;;<br>il a parlé par les prophètes.</p><p>Je crois en l’Église, une, sainte, catholique et apostolique.</p><p>Je reconnais un seul baptême pour le pardon des péchés.</p><p>J’attends la résurrection des morts,<br>et la vie du monde à venir. Amen.</p>"
+    "text": "<p>Je crois en un seul Dieu,<br>le Père Tout-Puissant, créateur du ciel et de la terre<br>de l’univers visible et invisible.</p><p>Je crois en un seul Seigneur, Jésus Christ<br>le Fils unique de Dieu, né du Père avant tous les siècles&nbsp;:<br>Il est Dieu, né de Dieu,<br>Lumière, né de la Lumière,<br>vrai Dieu, né du vrai Dieu,<br>engendré, non pas créé,<br><strong>consubstantiel au Père</strong>,<br>et par lui tout a été fait.</p><p>Pour nous les hommes, et pour notre salut,<br>il descendit du ciel&nbsp;;</p><p>Par l’Esprit Saint, il a pris chair de la Vierge Marie,<br>et s’est fait homme.</p><p>Crucifié pour nous sous Ponce Pilate,<br>il souffrit sa passion et fut mis au tombeau.</p><p>Il ressuscita le troisième jour, conformément aux Écritures,<br>et il monta au ciel&nbsp;; il est assis à la droite du Père.</p><p>Il reviendra dans la gloire,<br>pour juger les vivants et les morts&nbsp;;<br>et son règne n’aura pas de fin.</p><p>Je crois en l’Esprit Saint,<br>qui est Seigneur et qui donne la vie&nbsp;;<br>il procède du Père et du Fils&nbsp;;<br>avec le Père et le Fils,<br>il reçoit même adoration et même gloire&nbsp;;<br>il a parlé par les prophètes.</p><p>Je crois en l’Église, une, sainte, catholique et apostolique.</p><p>Je reconnais un seul baptême pour le pardon des péchés.</p><p>J’attends la résurrection des morts,<br>et la vie du monde à venir. Amen.</p>"
   },
   {
     "id": "301-liturgie-de-leucharistie-preparations-des-dons-tu-es-beni-le-pain",
     "title": "[Liturgie de l'Eucharistie] (Préparations des dons) Tu es béni ... le pain...",
-    "text": "<p><em>Tu es béni<span style='color: #FFFA70'>, Seigneur,</span> Dieu de l’univers&nbsp;:</em><br><em><span style='color: #FFFA70'>nous avons reçu de ta bonté</span></em><span style='color: #FFFA70'><br></span><em><span style='color: #FFFA70'>le pain que nous te présentons,</span></em><br><em>fruit de la terre et du travail des hommes&nbsp;;</em><br><em>il deviendra <span style='color: #FFFA70'>pour nous</span> le pain de la vie.</em></p><p><strong><span style='color: #FFFA70'>R/.</span> Béni soit Dieu, maintenant et toujours&nbsp;!</strong></p>"
+    "text": "<p><em>Tu es béni, Seigneur, Dieu de l’univers&nbsp;:</em><br><em>nous avons reçu de ta bonté</em><br><em>le pain que nous te présentons,</em><br><em>fruit de la terre et du travail des hommes&nbsp;;</em><br><em>il deviendra pour nous le pain de la vie.</em></p><p><strong>R/. Béni soit Dieu, maintenant et toujours&nbsp;!</strong></p>"
   },
   {
     "id": "302-liturgie-de-leucharistie-preparations-des-dons-tu-es-beni-le-vin",
     "title": "[Liturgie de l'Eucharistie] (Préparations des dons) Tu es béni ... le vin...",
-    "text": "<p><em>Tu es béni<span style='color: #FFFA70'>, Seigneur,</span> Dieu de l’univers&nbsp;:</em><br><em><span style='color: #FFFA70'>nous avons reçu de ta bonté</span></em><span style='color: #FFFA70'><br></span><em><span style='color: #FFFA70'>le vin que nous te présentons,</span></em><br><em>fruit de la vigne et du travail des hommes&nbsp;;</em><br><em>il deviendra <span style='color: #FFFA70'>pour nous</span> le vin du Royaume éternel.</em></p><p><strong><span style='color: #FFFA70'>R/.</span> Béni soit Dieu, maintenant et toujours&nbsp;!</strong></p>"
+    "text": "<p><em>Tu es béni, Seigneur, Dieu de l’univers&nbsp;:</em><br><em>nous avons reçu de ta bonté</em><br><em>le vin que nous te présentons,</em><br><em>fruit de la vigne et du travail des hommes&nbsp;;</em><br><em>il deviendra pour nous le vin du Royaume éternel.</em></p><p><strong>R/. Béni soit Dieu, maintenant et toujours&nbsp;!</strong></p>"
   },
   {
     "id": "303-liturgie-de-leucharistie-priere-sur-les-offrandes-preferee-prions-ensemble",
     "title": "[Liturgie de l'Eucharistie] Prière sur les offrandes (préférée) Prions ensemble...",
-    "text": "<p><em>Prions ensemble,<br>au moment d’offrir le sacrifice de toute l’Église.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Pour la gloire de Dieu et le salut du monde.</strong></p>"
+    "text": "<p><em>Prions ensemble,<br>au moment d’offrir le sacrifice de toute l’Église.</em></p><p><strong>R/. Pour la gloire de Dieu et le salut du monde.</strong></p>"
   },
   {
     "id": "304-liturgie-de-leucharistie-priere-sur-les-offrandes-developpee-priez-freres-et-soeurs",
     "title": "[Liturgie de l'Eucharistie] Prière sur les offrandes (développée) Priez, frères et sœurs",
-    "text": "<p><em><span style='color: #FFFA70'>Priez, frères et sœurs&nbsp;:</span><br><span style='color: #FFFA70'>que mon sacrifice, qui est aussi le vôtre,</span><br><span style='color: #FFFA70'>soit agréable à Dieu le Père tout-puissant.</span></em></p><p><strong><span style='color: #FFFA70'>R/. Que le Seigneur reçoive de vos mains ce sacrifice</span></strong><br><strong><span style='color: #FFFA70'>à la louange et à la gloire de son nom,</span></strong><br><strong><span style='color: #FFFA70'>pour notre bien et celui de toute l’Église.</span></strong></p>"
+    "text": "<p><em>Priez, frères et sœurs&nbsp;:<br>que mon sacrifice, qui est aussi le vôtre,<br>soit agréable à Dieu le Père tout-puissant.</em></p><p><strong>R/. Que le Seigneur reçoive de vos mains ce sacrifice</strong><br><strong>à la louange et à la gloire de son nom,</strong><br><strong>pour notre bien et celui de toute l’Église.</strong></p>"
   },
   {
     "id": "305-liturgie-de-leucharistie-priere-eucharistique-le-seigneur-soit-avec-vous",
     "title": "[Liturgie de l'Eucharistie] (Prière eucharistique) Le Seigneur soit avec vous.",
-    "text": "<p><em>Le Seigneur soit avec vous.</em><br><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p><p><em>Élevons notre cœur.</em><br><strong><span style='color: #FFFA70'>R/. </span>Nous le tournons vers le Seigneur.</strong></p><p><em>Rendons grâce au Seigneur notre Dieu.</em><br><strong><span style='color: #FFFA70'>R/. </span>Cela est juste et bon.</strong></p>"
+    "text": "<p><em>Le Seigneur soit avec vous.</em><br><strong>R/. Et avec votre esprit.</strong></p><p><em>Élevons notre cœur.</em><br><strong>R/. Nous le tournons vers le Seigneur.</strong></p><p><em>Rendons grâce au Seigneur notre Dieu.</em><br><strong>R/. Cela est juste et bon.</strong></p>"
   },
   {
     "id": "321-liturgie-de-leucharistie-anamnese-i-1-il-est-grand-le-mystere-de-la-foi",
     "title": "[Liturgie de l'Eucharistie] (Anamnèse I) Il est grand, le mystère de la foi",
-    "text": "<p><em>Il est grand, le mystère de la foi&nbsp;:</em></p><p><strong><span style='color: #FFFA70'>R/.</span> Nous <span style='color: #FFFA70'>annonçons</span> ta mort, Seigneur Jésus,</strong><br><strong>nous <span style='color: #FFFA70'>proclamons</span> ta résurrection,</strong><br><strong>nous attendons ta venue dans la gloire.</strong></p>"
+    "text": "<p><em>Il est grand, le mystère de la foi&nbsp;:</em></p><p><strong>R/. Nous annonçons ta mort, Seigneur Jésus,</strong><br><strong>nous proclamons ta résurrection,</strong><br><strong>nous attendons ta venue dans la gloire.</strong></p>"
   },
   {
     "id": "322-liturgie-de-leucharistie-anamnese-ii-2-acclamons-le-mystere-de-la-foi",
     "title": "[Liturgie de l'Eucharistie] (Anamnèse II) Acclamons le mystère de la foi",
-    "text": "<p><em><span style='color: #FFFA70'>Acclamons le mystère de la foi&nbsp;:</span></em></p><p><strong><span style='color: #FFFA70'>R/. Quand nous mangeons ce Pain</span></strong><br><strong><span style='color: #FFFA70'>et buvons à cette Coupe,</span></strong><br><strong>nous <span style='color: #FFFA70'>annonçons</span> ta mort, Seigneur ressuscité,</strong><br><strong>et nous attendons que tu viennes.</strong></p>"
+    "text": "<p><em>Acclamons le mystère de la foi&nbsp;:</em></p><p><strong>R/. Quand nous mangeons ce Pain</strong><br><strong>et buvons à cette Coupe,</strong><br><strong>nous annonçons ta mort, Seigneur ressuscité,</strong><br><strong>et nous attendons que tu viennes.</strong></p>"
   },
   {
     "id": "323-liturgie-de-leucharistie-anamnese-iii-3-quil-soit-loue-le-mystere-de-la-foi",
     "title": "[Liturgie de l'Eucharistie] (Anamnèse III) Qu'il soit loué, le mystère de la foi",
-    "text": "<p><em><span style='color: #FFFA70'>Qu’il soit loué, le mystère de la foi&nbsp;:</span></em></p><p><strong><span style='color: #FFFA70'>R/. Sauveur du monde, sauve-nous&nbsp;!</span></strong><br><strong><span style='color: #FFFA70'>Par ta croix et ta résurrection, tu nous as libérés.</span></strong></p>"
+    "text": "<p><em>Qu’il soit loué, le mystère de la foi&nbsp;:</em></p><p><strong>R/. Sauveur du monde, sauve-nous&nbsp;!</strong><br><strong>Par ta croix et ta résurrection, tu nous as libérés.</strong></p>"
   },
   {
     "id": "324-liturgie-de-leucharistie-anamnese-proclamons-le-mystere-de-la-foi",
     "title": "[Liturgie de l'Eucharistie] (Anamnèse) Proclamons le mystère de la foi",
-    "text": "<p><em>Proclamons le mystère de la foi</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Gloire à toi qui étais mort,</strong><br><strong>gloire à toi qui es vivant,</strong><br><strong>notre sauveur et notre Dieu&nbsp;:</strong><br><strong>Viens, Seigneur Jésus&nbsp;!</strong></p>"
+    "text": "<p><em>Proclamons le mystère de la foi</em></p><p><strong>R/. Gloire à toi qui étais mort,</strong><br><strong>gloire à toi qui es vivant,</strong><br><strong>notre sauveur et notre Dieu&nbsp;:</strong><br><strong>Viens, Seigneur Jésus&nbsp;!</strong></p>"
   },
   {
     "id": "401-rite-de-communion-notre-pere",
     "title": "[Rite de Communion] Notre Père",
-    "text": "<p><strong>Notre père qui es aux cieux,<br>que ton nom soit sanctifié,<br>que ton règne vienne,<br>que ta volonté soit faite<br>sur la terre comme au ciel.</strong></p><p><strong>Donne nous aujourd'hui<br>notre pain de ce jour.<br>Pardonne nous nos offenses,<br>comme nous pardonnons aussi<br>à ceux qui nous ont offensés.</strong></p><p><strong><span style='color: #FFFA70'>Ne nous laisse pas entrer en tentation,</span><br>mais délivre nous du mal.</strong></p><p><em>Délivre-nous de tout mal, Seigneur,</em><br><em>[…]</em><br><em>l’avènement de Jésus Christ, notre Sauveur.</em></p><p><strong>Car c'est à toi qu'appartiennent<br>le règne, la puissance et la gloire<br>pour les siècles des siècles&nbsp;!</strong></p>"
+    "text": "<p><strong>Notre père qui es aux cieux,<br>que ton nom soit sanctifié,<br>que ton règne vienne,<br>que ta volonté soit faite<br>sur la terre comme au ciel.</strong></p><p><strong>Donne nous aujourd'hui<br>notre pain de ce jour.<br>Pardonne nous nos offenses,<br>comme nous pardonnons aussi<br>à ceux qui nous ont offensés.</strong></p><p><strong>Ne nous laisse pas entrer en tentation,<br>mais délivre nous du mal.</strong></p><p><em>Délivre-nous de tout mal, Seigneur,</em><br><em>[…]</em><br><em>l’avènement de Jésus Christ, notre Sauveur.</em></p><p><strong>Car c'est à toi qu'appartiennent<br>le règne, la puissance et la gloire<br>pour les siècles des siècles&nbsp;!</strong></p>"
   },
   {
     "id": "402-rite-de-communion-que-la-paix-du-seigneur",
     "title": "[Rite de Communion] Que la paix du Seigneur...",
-    "text": "<p><em>Que la paix du Seigneur soit toujours avec vous.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p>"
+    "text": "<p><em>Que la paix du Seigneur soit toujours avec vous.</em></p><p><strong>R/. Et avec votre esprit.</strong></p>"
   },
   {
     "id": "403-rite-de-communion-agneau-de-dieu",
     "title": "[Rite de Communion] Agneau de Dieu",
-    "text": "<p><strong>Agneau de Dieu,</strong><br><strong>qui enlèves <span style='color: #FFFA70'>les péchés</span> du monde,</strong><br><strong>prends pitié de nous.</strong></p><p><strong>Agneau de Dieu,</strong><br><strong>qui enlèves <span style='color: #FFFA70'>les péchés</span> du monde,</strong><br><strong>prends pitié de nous.</strong></p><p><strong>Agneau de Dieu,</strong><br><strong>qui enlèves <span style='color: #FFFA70'>les péchés</span> du monde,</strong><br><strong>donne-nous la paix.</strong></p>"
+    "text": "<p><strong>Agneau de Dieu,</strong><br><strong>qui enlèves les péchés du monde,</strong><br><strong>prends pitié de nous.</strong></p><p><strong>Agneau de Dieu,</strong><br><strong>qui enlèves les péchés du monde,</strong><br><strong>prends pitié de nous.</strong></p><p><strong>Agneau de Dieu,</strong><br><strong>qui enlèves les péchés du monde,</strong><br><strong>donne-nous la paix.</strong></p>"
   },
   {
     "id": "404-rite-de-communion-voici-lagneau-de-dieu",
     "title": "[Rite de Communion] Voici l'Agneau de Dieu...",
-    "text": "<p><em>Voici l’Agneau de Dieu,</em><br><em>voici celui qui enlève <span style='color: #FFFA70'>les péchés</span> du monde.</em><br><em><span style='color: #FFFA70'>Heureux les invités au repas des noces de l’Agneau&nbsp;!</span></em></p><p><strong>Seigneur, je ne suis pas digne de te recevoir&nbsp;;</strong><br><strong>mais dis seulement une parole,</strong><br><strong>et je serai guéri.</strong></p>"
+    "text": "<p><em>Voici l’Agneau de Dieu,</em><br><em>voici celui qui enlève les péchés du monde.</em><br><em>Heureux les invités au repas des noces de l’Agneau&nbsp;!</em></p><p><strong>Seigneur, je ne suis pas digne de te recevoir&nbsp;;</strong><br><strong>mais dis seulement une parole,</strong><br><strong>et je serai guéri.</strong></p>"
   },
   {
     "id": "501-rite-de-conclusion-benediction-le-seigneur-soit-avec-vous",
     "title": "[Rite de conclusion] (Bénédiction) Le Seigneur soit avec vous.",
-    "text": "<p><em>Le Seigneur soit avec vous.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Et avec votre esprit.</strong></p><p><em>Que Dieu tout-puissant vous bénisse, le Père, et le Fils, † et le Saint-Esprit.</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Amen.</strong></p>"
+    "text": "<p><em>Le Seigneur soit avec vous.</em></p><p><strong>R/. Et avec votre esprit.</strong></p><p><em>Que Dieu tout-puissant vous bénisse, le Père, et le Fils, † et le Saint-Esprit.</em></p><p><strong>R/. Amen.</strong></p>"
   },
   {
     "id": "502-rite-de-conclusion-envoi-allez-dans-la-paix-du-christ",
     "title": "[Rite de conclusion] (Envoi) Allez, dans la paix du Christ",
-    "text": "<p><em>Allez, dans la paix du Christ</em></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    "text": "<p><em>Allez, dans la paix du Christ</em></p><p><strong>R/. Nous rendons grâce à Dieu.</strong></p>"
   },
   {
     "id": "503-rite-de-conclusion-envoi-allez-porter-levangile-du-seigneur",
     "title": "[Rite de conclusion] (Envoi) Allez porter l'Evangile du Seigneur",
-    "text": "<p><span style='color: #FFFA70'><em>Allez porter l'Evangile du Seigneur.</em></span></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    "text": "<p><em>Allez porter l'Evangile du Seigneur.</em></p><p><strong>R/. Nous rendons grâce à Dieu.</strong></p>"
   },
   {
     "id": "504-rite-de-conclusion-envoi-allez-en-paix-glorifiez-le-seigneur-par-votre-vie",
     "title": "[Rite de conclusion] (Envoi) Allez en paix, glorifiez le Seigneur par votre vie",
-    "text": "<p><span style='color: #FFFA70'><em>Allez en paix, glorifiez le Seigneur par votre vie.</em></span></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    "text": "<p><em>Allez en paix, glorifiez le Seigneur par votre vie.</em></p><p><strong>R/. Nous rendons grâce à Dieu.</strong></p>"
   },
   {
     "id": "505-rite-de-conclusion-envoi-allez-en-paix",
     "title": "[Rite de conclusion] (Envoi) Allez en paix",
-    "text": "<p><span style='color: #FFFA70'><em>Allez en paix.</em></span></p><p><strong><span style='color: #FFFA70'>R/. </span>Nous rendons grâce à Dieu.</strong></p>"
+    "text": "<p><em>Allez en paix.</em></p><p><strong>R/. Nous rendons grâce à Dieu.</strong></p>"
   }
 ]

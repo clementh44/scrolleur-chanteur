@@ -262,25 +262,6 @@
                   >Aide à propos du déroulement d'une liturgie de l'eucharistie.</a
                 >
               </div>
-              <div class="mb-3"
-                >Il est possible de changer la couleur des élements modifiés :
-                <b-form inline>
-                  <b-dropdown text="Couleur">
-                    <b-dropdown-item @click="changeMisselColor('#FFFA70')">
-                      <span style="color: #fffa70; background-color: #000"><strong>Jaune</strong></span>
-                    </b-dropdown-item>
-                    <b-dropdown-item @click="changeMisselColor('#4DACFE')">
-                      <span style="color: #4dacfe"><strong>Bleu</strong></span>
-                    </b-dropdown-item>
-                  </b-dropdown>
-                  <b-input-group class="ml-3">
-                    <b-input type="color" v-model="misselColor" style="width: 50px"></b-input>
-                    <b-input-group-append>
-                      <b-button @click="changeMisselColor(misselColor)">Appliquer</b-button>
-                    </b-input-group-append>
-                  </b-input-group>
-                </b-form>
-              </div>
               <b-form-group>
                 <b-input-group>
                   <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher..." v-debounce="searchMissel" @click="$event.target.select()"></b-form-input>
@@ -833,11 +814,6 @@ export default {
         }
       }
       return false
-    },
-    changeMisselColor: function (newColor) {
-      for (const element of this.missel) {
-        this.$set(element, "text", element.text.replaceAll(/#....../g, newColor))
-      }
     },
   },
   beforeMount() {

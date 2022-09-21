@@ -1311,4 +1311,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction du title de la page principale
   Correction du chant Manifeste-toi
   Correction doublon du chant Vous m'avez reconnu
+  Missel : suppression des couleurs après presque 1 an avec la nouvelle traduction
 ```
