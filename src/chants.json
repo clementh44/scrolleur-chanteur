@@ -1,4 +1,403 @@
 [
+{
+  "id": "dans-nos-obscurites-taize",
+  "title": "Dans nos obscurités (Taizé)",
+  "publisher": "Taizé",
+  "writer": "Communauté de Taizé",
+  "composer": "Jacques Berthier",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "Dans nos obscurités,<br/>Allume le feu qui ne s'éteint jamais, qui ne s'éteint jamais."
+    }
+  ]
+},
+  {
+    "id": "chercher-avec-toi-marie-avec-toi-dans-nos-vie",
+    "title": "Chercher avec toi, Marie (avec toi dans nos vie)",
+    "rating": "V282",
+    "publisher": "Studio SM",
+    "writer": "Jean-Claude Gianadda",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Chercher avec toi, dans nos vies<br/>Les pas de Dieu, Vierge Marie,<br/>Par toi, accueillir aujourd'hui<br/>Le don de Dieu, Vierge Marie."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Puisque tu chantes avec nous,<br/>Magnificat, Vierge Marie,<br/>Permets la Pâque sur nos pas,<br/>Nous ferons tout ce qu'il dira."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Puisque tu souffres avec nous,<br/>Gethsémani, Vierge Marie,<br/>Soutiens nos croix de l'“aujourd'hui”,<br/>Entre tes mains, voici ma vie."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Puisque tu demeures avec nous<br/>Pour l'angélus, Vierge Marie,<br/>Guide nos pas dans l'inconnu,<br/>Car tu es celle qui a cru."
+      }
+    ]
+  },
+  {
+    "id": "celui-qui-croit-en-moi",
+    "title": "Celui qui croit en moi",
+    "writer": "Communauté du Chemin Neuf",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Celui qui croit en moi,<br/>Qu'il s'approche et qu'il boive,<br/>De son cœur jaillira une source d'eau vive.<br/>Celui qui croit en moi,<br/>Qu'il s'approche et qu'il boive,<br/>Et cette eau lui donnera la vie."
+      },
+      {
+        "type": "verse",
+        "text": "1 - L'Esprit Saint est lumière<br/>Qui embrase ton cœur,<br/>L'Esprit Saint est un torrent<br/>Qui abreuve ton âme."
+      },
+      {
+        "type": "verse",
+        "text": "2 -  L'Esprit Saint est un souffle<br/>Qui murmure en ton cœur,<br/>L'Esprit Saint comme un oiseau<br/>Te prendra sous son aile."
+      },
+      {
+        "type": "verse",
+        "text": "3 - L'Esprit Saint est une huile<br/>Qui fortifie ton cœur,<br/>L'Esprit Saint est don de Dieu<br/>Pour tous ceux qui l'appellent."
+      }
+    ]
+  },
+  {
+    "id": "bonum-est-confidere-taize",
+    "title": "Bonum est confidere (Taizé)",
+    "publisher": "Taizé",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Bonum est confidere in Domino,<br/>bonum sperare in Domino."
+      },
+      {
+        "type": "translation",
+        "text": "Il est bon de se confier et d'espérer dans le Seigneur."
+      }
+    ]
+  },
+  {
+    "id": "benedictus-taize",
+    "title": "Benedictus (Taizé)",
+    "publisher": "Taizé",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Benedictus qui venit,<br/>benedictus qui venit, in nomine, in nomine, in nomine Domini."
+      },
+      {
+        "type": "translation",
+        "text": "Béni celui qui vient au nom du Seigneur."
+      }
+    ]
+  },
+  {
+    "id": "adoramus-te-o-christe-taize",
+    "title": "Adoramus te, O Christe (taizé)",
+    "publisher": "Taizé",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Oh Adoramus te O Christe."
+      },
+      {
+        "type": "translation",
+        "text": "Nous t'adorons, O Christ."
+      }
+    ]
+  },
+  {
+    "id": "adoramus-te",
+    "title": "Adoramus te",
+    "rating": "EDIT15-40",
+    "publisher": "Gemeinschaft Emmanuel/L'Emmanuel",
+    "writer": "Communauté de l'Emmanuel (M. Hagemann)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Adoramus te, Jésus, Fils de Dieu,<br/>Ô Dieu Saint, nous venons t'adorer.<br/>Adoramus te, Jésus, Roi des rois,<br/>Dieu Sauveur, nous venons t'adorer."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Jésus, Image du Père, Splendeur éternelle,<br/>Jésus, Source de la Vie,<br/>Adoramus te&nbsp;!<br/>Jésus, Dieu fait homme, Fils du Dieu vivant<br/>Jésus, Prince de la Paix,<br/>Adoramus te&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Jésus, Père des pauvres, secours des malades,<br/>Jésus, Ami des pécheurs,<br/>Adoramus te&nbsp;!<br/>Jésus, Bon Berger, doux et humble de cœur<br/>Jésus, bonté infinie,<br/>Adoramus te&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Jésus, Parole vivante, patient et fidèle,<br/>Jésus, toi, notre chemin,<br/>Adoramus te&nbsp;!<br/>Jésus, Dieu très saint, notre Rédempteur<br/>Jésus, Vérité et Vie,<br/>Adoramus te&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Jésus, notre refuge, trésor de nos âmes,<br/>Jésus, maître de nos cœurs,<br/>Adoramus te&nbsp;!<br/>Jésus, Bon Pasteur, Agneau immolé,<br/>Jésus, Roi d'humilité,<br/>Adoramus te&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "5 - Jésus, roi des anges, maître des Apôtres<br/>Jésus, force des martyrs,<br/>Adoramus te&nbsp;!<br/>Jésus, joie des vierges, gloire de l'Eglise<br/>Jésus, Christ ressuscité,<br/>Adoramus te&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "the-kingdom-of-god-taize",
+    "title": "The kingdom of God (Taizé)",
+    "publisher": "Taizé",
+    "writer": "Communauté de Taizé",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "The kingdom of God is justice and peace and joy in the Holy Spirit.<br/>Come, Lord, and open in us the gates of your kingdom."
+      },
+      {
+        "type": "translation",
+        "text": "Le royaume de Dieu est justice, paix et joie dans l'Esprit-Saint.<br/>Viens, Seigneur, et ouvre en nous les portes de ton royaume."
+      }
+    ]
+  },
+  {
+    "id": "rejouis-toi-marie",
+    "title": "Réjouis-toi, Marie",
+    "rating": "V144",
+    "publisher": "Studio SM",
+    "writer": "Georges Plaisantin",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Réjouis-toi, Marie, toute aimée de Dieu.<br/>Réjouis-toi, mère de Dieu."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Marie, le Seigneur est toujours avec toi."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Mère, femme comblée entre toutes les femmes."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Marie, ton enfant est le Fils bien-aimé."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Mère, Dieu t'a choisie, porte-lui nos prières."
+      },
+      {
+        "type": "verse",
+        "text": "5 - Marie, par Jésus obtiens-nous le pardon."
+      },
+      {
+        "type": "verse",
+        "text": "6 - Mère, guide nos pas vers le Dieu de lumière."
+      }
+    ]
+  },
+  {
+    "id": "naie-pas-peur",
+    "title": "N'aie pas peur",
+    "rating": "G249",
+    "newrating": "R249",
+    "publisher": "Studio SM",
+    "writer": "Georges Lefebvre",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "N'aie pas peur,<br/>Laisse-toi regarder par le Christ&nbsp;;<br/>Laisse-toi regarder car il t'aime.&nbsp;(bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Il a posé sur moi son regard,<br/>Un regard plein de tendresse.<br/>Il a posé sur moi son regard,<br/>Un regard long de promesse."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Il a posé sur moi son regard,<br/>Et m'a dit «&nbsp;Viens et suis-moi&nbsp;».<br/>Il a posé sur moi son regard,<br/>Et m'a dit «&nbsp;Viens, ne crains pas&nbsp;»."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Il a posé sur moi son regard,<br/>Et ses yeux en disaient long.<br/>Il a posé sur moi son regard,<br/>C'était celui du pardon."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Il a posé sur moi son regard,<br/>Alors j'ai vu qu'il pleurait.<br/>Il a posé sur moi son regard,<br/>Alors j'ai su qu'il m'aimait."
+      }
+    ]
+  },
+  {
+    "id": "les-pauvres-mangeront-a-la-table-du-seigneur",
+    "title": "Les pauvres mangeront à la table du Seigneur",
+    "rating": "SYLF501",
+    "newrating": "B512",
+    "publisher": "Sylvanès",
+    "writer": "AELF, Frère Daniel Bourgeois, Jean-Philippe Revel",
+    "composer": "André Gouzes",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Les pauvres mangeront à la table du Seigneur&nbsp;;<br/>Il sera leur nourriture, le Seigneur les servira."
+      },
+      {
+        "type": "verse",
+        "text": "1 - Le Seigneur est mon berger,<br/>Je ne manque de rien.<br/>Sur des prés d'herbe fraîche,<br/>Il me fait reposer."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Il me conduit au bord des eaux tranquilles,<br/>Il y fait revivre mon âme.<br/>Il me guide par les sentiers du salut,<br/>pour la gloire de son Nom."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Et si je dois franchir la vallée des ténèbres,<br/>je ne crains aucun mal, car Tu es près de moi.<br/>Ton bâton est là qui me protège,<br/>et ta houlette me rassure."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Devant moi, tu prépares une table,<br/>sous les yeux de ceux qui me poursuivent.<br/>Tu répands sur ma tête un parfum de joie,<br/>et ma coupe déborde."
+      },
+      {
+        "type": "verse",
+        "text": "5 - La grâce et le bonheur m'accompagnent,<br/>tous les jours de ma vie.<br/>J'ai ma demeure dans la maison de Dieu,<br/>pour ces jours qui n'auront pas de fin."
+      }
+    ]
+  },
+  {
+    "id": "toi-qui-viens-pour-tout-sauver",
+    "title": "Toi qui viens pour tout sauver",
+    "rating": "E68-2SM",
+    "newrating": "EP68-2SM",
+    "publisher": "Studio SM",
+    "writer": "Claude Rozier",
+    "composer": "Jean Bonfils/Erfurt Enchiridion",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Toi qui viens pour tout sauver,<br/>L'univers périt sans toi&nbsp;;<br/>Fais pleuvoir sur lui ta joie,<br/>Toi qui viens pour tout sauver."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Viens sauver tes fils perdus,<br/>Dispersés, mourant de froid&nbsp;;<br/>Dieu qui fus un jour en croix,<br/>Viens sauver tes fils perdus."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Viens offrir encore ton pain,<br/>Et ton vin aux miséreux,<br/>Pour qu'ils voient le don de Dieu,<br/>Viens offrir encore ton pain."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Toi qui viens pour tout sauver,<br/>Fais lever enfin le jour<br/>De la paix dans ton amour,<br/>Toi qui viens pour tout sauver."
+      }
+    ]
+  },
+  {
+    "id": "o-viens-jesus-o-viens-emmanuel",
+    "title": "Ô viens, Jésus, ô viens, Emmanuel",
+    "rating": "E147",
+    "publisher": "Fleurus",
+    "writer": "CFC (Commission Francophone Cistércienne)",
+    "composer": "Jacques Berthier",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Chantez&nbsp;! Chantez&nbsp;!<br/>Il vient à notre appel combler nos cœurs, Emmanuel&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Ô viens, Jésus, ô viens Emmanuel,<br/>Nous dévoiler le monde fraternel<br/>Où ton amour, plus fort que la mort,<br/>Nous régénère au sein d'un même corps."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ô viens, Berger, que Dieu nous a promis,<br/>Entends au loin ton peuple qui gémit&nbsp;;<br/>Dans la violence il vit son exil,<br/>De ses souffrances, quand renaîtra-t-il&nbsp;?"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Ô viens, Jésus, et dans la chair blessée,<br/>Fleuris pour nous racine de Jessé&nbsp;:<br/>Près de l'eau vive, l'arbre planté<br/>Soulève jusqu'à Dieu le monde entier."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Ô viens, Jésus, tracer notre chemin,<br/>Visite-nous, étoile du matin&nbsp;;<br/>Au fond de nos regards, fais monter<br/>L'éclat soudain du jour d'éternité."
+      }
+    ]
+  },
+  {
+    "id": "maranatha-viens-seigneur-jesus",
+    "title": "Maranatha, viens Seigneur Jésus",
+    "rating": "E511",
+    "newrating": "EX511",
+    "publisher": "L'Emmanuel",
+    "writer": "Gilles du Boullay",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Maranatha, viens, Seigneur Jésus&nbsp;!<br/>Maranatha, viens nous t'attendons.<br/>Ne tarde plus, l'heure est avancée,<br/>Viens, Seigneur, viens&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Il régnera sur son peuple à jamais,<br/>Protégera les enfants des pauvres.<br/>Ses jugements produiront la justice,<br/>Viens, Seigneur Jésus&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - En ces jours-là fleuriront la justice,<br/>Et puis la paix jusqu'à la fin des temps,<br/>D'une mer à l'autre il dominera.<br/>Viens, Seigneur Jésus&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Il sauvera le pauvre et le petit,<br/>Aura pitié de celui qui l'invoque,<br/>Leur vie sera précieuse à ses yeux,<br/>Viens, Seigneur Jésus&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "4 - Son Nom sera glorifié pour toujours,<br/>En lui seront bénis races et peuples,<br/>Que terre et ciel soient remplis de sa gloire,<br/>Viens, Seigneur Jésus&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "relever-le-faible-glorious",
+    "title": "Relever le faible (Glorious)",
+    "publisher": "ABT Prod",
+    "writer": "Glorious",
+    "composer": "Glorious",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Au delà des océans, Tu es venu me chercher.<br/>Au delà de mes tourments, Ton amour a triomphé.<br/>Montre moi la splendeur et la beauté qu'il y a<br/>À T'obéir, de tout cœur à se confier à Ta voix."
+      },
+      {
+        "type": "chorus",
+        "text": "Tu viens relever le faible,<br/>Tu le prends dans Tes bras.<br/>Tu le conduis vers Ton Père<br/>Qui le console ici-bas.<br/>Entends le cri de ma prière,<br/>Sois mon secours et ma joie.<br/>Passé de l'ombre à Ta lumière,<br/>J'ai mis mon espoir en Toi."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Puisque ma vie passera, en Toi je veux demeurer.<br/>Puisque Tu triompheras, mon cœur en Toi veut s'ancrer.<br/>Montre moi la splendeur et la beauté qu'il y a <br/>À T'obéir, de tout cœur à se confier à Ta voix."
+      }
+    ]
+  },
+  {
+    "id": "que-soit-beni-le-nom-de-dieu",
+    "title": "Que soit béni le Nom de Dieu",
+    "rating": "A245",
+    "newrating": "Y245",
+    "publisher": "L'Emmanuel",
+    "writer": "Bénédicte Ducatel",
+    "composer": "Bernadette Mélois",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Que soit béni le nom de Dieu,<br/>De siècles en siècles, qu'il soit béni.&nbsp;(bis)"
+      },
+      {
+        "type": "verse",
+        "text": "1 - À lui la sagesse et la force, toutes ses voies sont droites<br/>Il porte juste sentence en toutes choses."
+      },
+      {
+        "type": "verse",
+        "text": "2 - À Lui le secret des abîmes, Il connaît les ténèbres<br/>Et la lumière réside auprès de Lui."
+      },
+      {
+        "type": "verse",
+        "text": "3 - À Lui la gloire et la louange, Il répond aux prières,<br/>Il donne l'intelligence et la sagesse."
+      },
+      {
+        "type": "verse",
+        "text": "4 - Rendons gloire à Dieu notre Père à son fils Jésus-Christ,<br/>Gloire à l'Esprit d'amour dans tous les siècles."
+      }
+    ]
+  },
   {
     "id": "louange-a-toi-o-christ",
     "title": "Louange à toi, ô Christ",
@@ -3639,8 +4038,8 @@
     ]
   },
   {
-    "id": "benissez-le-seigneur-cantique-des-creatures",
-    "title": "Bénissez le Seigneur (Cantique des créatures)",
+    "id": "benissez-le-seigneur-cantique-des-creatures-taize",
+    "title": "Bénissez le Seigneur (Cantique des créatures) (Taizé)",
     "rating": "Z(AT)41",
     "writer": "Frère Robert (Taizé)",
     "composer": "Jacques Berthier",

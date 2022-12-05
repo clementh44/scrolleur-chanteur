@@ -1305,7 +1305,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     changement de l'icone d'ajout d'un text personnalisé
 ```
 
-##### Dernière version
 **21/09/2022 v4.23.4**
 ```
   Correction du title de la page principale
@@ -1332,4 +1331,25 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Dieu qui nous appelle à vivre K158
   + Allez-vous en sur les places T28
   + Louange à toi, ô Christ IEV : N°17-40 EDIT15-99
+```
+
+##### Dernière version
+**05/12/2022 v4.23.5**
+```
+  + Que soit béni le Nom de Dieu A245 Y245
+  + Relever le faible (Glorious)
+  + Maranatha, viens Seigneur Jésus E511 EX511
+  + Ô viens, Jésus, ô viens, Emmanuel E147
+  + Toi qui viens pour tout sauver E68-2SM EP68-2SM
+  + Les pauvres mangeront à la table du Seigneur SYLF501 B512
+  + N'aie pas peur G249 R249
+  + Réjouis-toi, Marie V144
+  + The kingdom of God (Taizé)
+  + Adoramus te EDIT15-40
+  + Adoramus te, O Christe (taizé)
+  + Benedictus (Taizé)
+  + Bonum est confidere (Taizé)
+  + Celui qui croit en moi
+  + Chercher avec toi, Marie (avec toi dans nos vie) V282
+  + Dans nos obscurités (Taizé)
 ```
