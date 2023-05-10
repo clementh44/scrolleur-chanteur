@@ -1333,7 +1333,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Louange à toi, ô Christ IEV : N°17-40 EDIT15-99
 ```
 
-##### Dernière version
 **05/12/2022 v4.23.5**
 ```
   + Que soit béni le Nom de Dieu A245 Y245
@@ -1352,4 +1351,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Celui qui croit en moi
   + Chercher avec toi, Marie (avec toi dans nos vie) V282
   + Dans nos obscurités (Taizé)
+```
+
+##### Dernière version
+**10/05/2023 v4.23.6**
+```
+  Suppression de JQuery
 ```
