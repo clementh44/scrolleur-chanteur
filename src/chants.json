@@ -1,5 +1,214 @@
 [
 {
+  "id": "ave-maria-sois-notre-secours",
+  "title": "Ave Maria sois notre secours",
+  "rating": "IEV&nbsp;: n°10-06",
+  "composer": "Communauté de l'Emmanuel (P. Schneider / M. Wittal)",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Ave Maria sois notre secours<br/>Entends nos prières et prie Dieu pour nous."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Toi notre Mère, prends nous par la main,<br/>Montre-nous la route qui conduit vers Dieu."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Comblée de grâce, fille de Sion,<br/>Choisie par le Père, tu lui as dit oui."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Arche d'alliance, tu as cru en Dieu&nbsp;;<br/>Fais que sa parole prenne chair en nous."
+    },
+    {
+      "type": "verse",
+      "text": "4 - Espoir des hommes, reste auprès de nous.<br/>Apprends-nous à vivre unis à ton Fils."
+    },
+    {
+      "type": "verse",
+      "text": "5 - Mère très Sainte, abri des pécheurs,<br/>Conduis vers le Père ceux qui crient vers toi."
+    }
+  ]
+},
+{
+  "id": "venez-vous-abreuver",
+  "title": "Venez vous abreuver",
+  "rating": "DEV524",
+  "publisher": "Carmelodie",
+  "writer": "Sainte Benedicte de la Croix",
+  "composer": "Frère Jean-Baptiste",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Venez vous abreuver à la source cachée,<br/>venez vous abreuver sur le cœur du bien-aimé."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Dans le cœur transpercé de Jésus sont unis<br/>le Royaume des cieux et la terre d'ici-bas,<br/>la source de la vie pour nous se trouve là."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Il nous attire à lui par sa force secrète<br/>et dans le sein du Père, il nous abrite en lui,<br/>nous saisit dans le flot du Saint Esprit de Dieu."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Ce cœur, il bat pour nous dans la petite tente<br/>où il demeure caché si mystérieusement<br/>dans l'hostie de blancheur pétrie de fin silence."
+    },
+    {
+      "type": "verse",
+      "text": "4 - Tu plonges plein d'amour ton regard dans le mien<br/>et tu prêtes l'oreille à mon faible murmure.<br/>Tu remplis de ta paix le tréfonds de mon cœur."
+    },
+    {
+      "type": "verse",
+      "text": "5 - Et pourtant ton amour ne peut se contenter<br/>de cet échange-là qui nous tient séparés<br/>le désir de ton cœur réclame plus encore."
+    },
+    {
+      "type": "verse",
+      "text": "6 - Tu viens en nourriture chaque matin pour moi<br/>et ton Corps et ton Sang me sont vin et repas.<br/>Prodigieuse merveille que tu accomplis là."
+    },
+    {
+      "type": "verse",
+      "text": "7 - Ton Corps en ce mystère vient pénétrer le mien<br/>et ton âme elle aussi vient s'unir à la mienne.<br/>Flot jaillissant de vie qui jaillit de ton cœur."
+    }
+  ]
+},
+{
+  "id": "grandes-et-merveilleuses",
+  "title": "Grandes et merveilleuses",
+  "rating": "JEM414",
+  "writer": "Stuart Dauerman",
+  "composer": "F. Pissaloux",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "Grandes et merveilleuses sont toutes tes œuvres,<br/>O Seigneur, notre Dieu tout-puissant,<br/>Juste et véritable dans toute ta volonté,<br/>Toi le Roi éternel."
+    },
+    {
+      "type": "verse",
+      "text": "Qui sur la terre et dans le ciel<br/>Est semblable à toi&nbsp;?<br/>Tu règnes sur tout l'univers,<br/>Dieu d'Israël&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "Un jour, devant toi,<br/>Tout genou fléchira,<br/>Toute langue te bénira.<br/>Alléluia, alléluia, alléluia, amen&nbsp;!"
+    }
+  ]
+},
+{
+  "id": "a-toi-notre-louange",
+  "title": "À toi notre louange",
+  "writer": "Erwan de Gevigney",
+  "composer": "Erwan de Gevigney",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "A Toi notre louange, à Toi nos chants de joie&nbsp;:<br/>nous T'acclamons, Tu es Seigneur&nbsp;!<br/>Oui Toi seul es Saint, Toi le Roi des nations.<br/>Gloire et louange à Toi Seigneur&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "1 - Le salut, la puissance et la gloire à notre Dieu.<br/>Ses jugements sont justes et vrais, Alléluia!"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Célébrez notre Dieu, vous tous qui le servez.<br/>Louez-le vous tous qui le craignez, tous, petits et grands."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Il règne notre Dieu, le Seigneur de l'Univers.<br/>Exultons et crions de joie, et rendons-lui gloire."
+    },
+    {
+      "type": "verse",
+      "text": "4 - Car elles sont venues les noces de l'Agneau,<br/>et son épouse est belle pour lui, Alléluia!"
+    },
+    {
+      "type": "verse",
+      "text": "5 - J'ai vu la cité Sainte, la Nouvelle Jérusalem,<br/>toute parée comme une fiancée pour son fiancé."
+    }
+  ]
+},
+{
+  "id": "la-voix-du-bien-aime",
+  "title": "La voix du bien aimé",
+  "writer": "Cantique des Cantiques",
+  "composer": "Tanguy Dionis du Séjour",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Le voici, il se tient, derrière la fenêtre il regarde,<br/>Me fait entrer dans la maison du vin,<br/>Sa bannière sur moi, c'est l'amour.<br/>Car l'hiver est passé, la pluie déjà s'en est allée,<br/>Les grenadiers et les vignes en fleurs,<br/>Exhalent leurs parfums."
+    },
+    {
+      "type": "chorus",
+      "text": "Le voici, bondissant, sur les hautes montagnes il se tient,<br/>Mon bien-aimé me parle et me dit&nbsp;: «&nbsp;ne crains pas mon ami et viens&nbsp;!&nbsp;»<br/>C'est sa voix qui m'appelle&nbsp;:<br/>«&nbsp;Ouvre-moi car la nuit s'est enfuie,<br/>La saison des chants est arrivée, au jardin de la vie&nbsp;»."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Dans la nuit j'ai cherché, celui que mon cœur a choisi,<br/>Je l'ai saisi et ne l'ai pas lâché,<br/>Je sais que mon bonheur c'est lui.<br/>Dans les lieux escarpés, toujours du regard il me suit,<br/>Il est pour moi une branche d'henné,<br/>Des vignes d'Enguédi."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Dans la nuit je dormais, mais mon cœur était réveillé,<br/>C'est la voix du bien aimé qui heurte,<br/>Du désert mon âme tressaille.<br/>A mon ombre regarde, les sources coulant du Liban,<br/>Dans ce jardin de myrrhe et de safran,<br/>Céleste Jérusalem."
+    }
+  ]
+},
+{
+  "id": "source-de-tout-amour",
+  "title": "Source de tout amour",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Source de tout amour, de toute vie et de tout don,<br/>Fais de nous, ô Père, une vivante offrande<br/>À la louange de ta gloire, de ta gloire."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Voici nos cœurs&nbsp;:<br/>Reçois-les, console-les, pour qu'ils se donnent sans compter.<br/>Et pour aimer en vérité,<br/>Donne-nous le cœur de ton Fils."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Voici nos corps&nbsp;:<br/>Reçois-les, affermis-les, pour qu'ils te servent dans la joie.<br/>Et pour aimer en vérité,<br/>Donne-nous le corps de ton Fils."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Voici nos âmes&nbsp;:<br/>Reçois-les, purifie-les, pour qu'elles te chantent à jamais.<br/>Et pour aimer en vérité,<br/>Donne-nous la vie de ton Fils."
+    },
+    {
+      "type": "verse",
+      "text": "4 - Voici ces dons&nbsp;:<br/>Reçois-les, féconde-les, pour qu'ils prolongent ici ton œuvre.<br/>Et pour aimer en vérité,<br/>Envoi-nous l'Esprit d'unité."
+    }
+  ]
+},
+{
+  "id": "o-clemens-maria",
+  "title": "O clemens Maria",
+  "writer": "fr. David Perrin, op",
+  "composer": "fr. Clément Binachon, o",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "O clemens, o pia, o dulcis, Virgo Maria,<br/>Vita, dulcedo et spes nostra, salve&nbsp;!"
+    },
+    {
+      "type": "translation",
+      "text": "Ô clémente, ô miséricordieuse, ô douce Vierge Marie,<br/>Toi, notre vie, notre douceur, notre espérance, salut."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Salut ô Reine des anges, ô toi l'Épouse immaculée,<br/>Salut sainte Mère de Dieu, ô Marie, terre sainte, où fleurit la promesse,<br/>En ton sein, le Seigneur a pris chair.<br/>Sainte Vierge Marie, intercède pour nous,<br/>Toi qui es le secours et l'abri des pécheurs."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Réjouis-toi, ô Marie, par toi le salut est venu.<br/>Exulte de joie dans l'Esprit, toi la chambre nuptiale et la porte du ciel<br/>D'où jaillit la lumière du Christ.<br/>Illumine nos vies, toi l'étoile qui brille<br/>Au-dessus de la mer, au milieu des tempêtes."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Ô Cœur de Marie doux et humble, ô cœur transpercé de douleur,<br/>Ô cœur exalté dans les cieux, obtiens-nous cette grâce d'aimer sans retour,<br/>De savoir nous donner pour toujours.<br/>Que sans fin, nous ayons Dieu au cœur,<br/>Ô Marie, voici notre désir, le souhait de nos âmes."
+    },
+    {
+      "type": "verse",
+      "text": "4 - Ô Vierge vêtue de soleil, ô Vierge couronnée d'étoiles,<br/>Ô Vierge élevée dans la gloire à genoux, je t'implore ô Marie, aide-moi<br/>À servir mon Sauveur comme toi.<br/>Car je t'aime, ô Jésus, mon Seigneur et mon roi,<br/>Et je veux par Marie te faire don de ma vie."
+    }
+  ]
+},
+{
   "id": "dans-nos-obscurites-taize",
   "title": "Dans nos obscurités (Taizé)",
   "publisher": "Taizé",
@@ -363,7 +572,7 @@
       },
       {
         "type": "verse",
-        "text": "2 - Puisque ma vie passera, en Toi je veux demeurer.<br/>Puisque Tu triompheras, mon cœur en Toi veut s'ancrer.<br/>Montre moi la splendeur et la beauté qu'il y a <br/>À T'obéir, de tout cœur à se confier à Ta voix."
+        "text": "2 - Puisque ma vie passera, en Toi je veux demeurer.<br/>Puisque Tu triompheras, mon cœur en Toi veut s'ancrer.<br/>Montre moi la splendeur et la beauté qu'il y a<br/>À T'obéir, de tout cœur à se confier à Ta voix."
       }
     ]
   },
@@ -412,23 +621,23 @@
       },
       {
         "type": "verse",
-        "text": "1 - Toi l'étoile dans la nuit,<br/>Tu rayonnes avec le Père. <br/>Par toi nous avons la vie,<br/>Nous voyons la vraie lumière&nbsp;!"
+        "text": "1 - Toi l'étoile dans la nuit,<br/>Tu rayonnes avec le Père.<br/>Par toi nous avons la vie,<br/>Nous voyons la vraie lumière&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "2 - Que nos chants te glorifient, <br/>Qu'ils embrasent notre terre&nbsp;! <br/>Fils de Dieu, tu t'es fait chair <br/>Pour nous mener vers le Père&nbsp;!"
+        "text": "2 - Que nos chants te glorifient,<br/>Qu'ils embrasent notre terre&nbsp;!<br/>Fils de Dieu, tu t'es fait chair<br/>Pour nous mener vers le Père&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "3 - Envoie sur nous ton Esprit, <br/>Fais briller sur nous ta Face&nbsp;! <br/>Ô Jésus ressuscité, <br/>Que nos chants te rendent grâce&nbsp;!"
+        "text": "3 - Envoie sur nous ton Esprit,<br/>Fais briller sur nous ta Face&nbsp;!<br/>Ô Jésus ressuscité,<br/>Que nos chants te rendent grâce&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "4 - Ta splendeur nous as sauvés<br/>Des ténèbres éternelles. <br/>Donne-nous de proclamer tes prodiges, <br/>Tes merveilles&nbsp;!"
+        "text": "4 - Ta splendeur nous as sauvés<br/>Des ténèbres éternelles.<br/>Donne-nous de proclamer tes prodiges,<br/>Tes merveilles&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "5 - Sois la source de la vie, <br/>Sois la rosée de nos âmes&nbsp;! <br/>Que se lève pour chanter <br/>Ton Église bienheureuse&nbsp;!"
+        "text": "5 - Sois la source de la vie,<br/>Sois la rosée de nos âmes&nbsp;!<br/>Que se lève pour chanter<br/>Ton Église bienheureuse&nbsp;!"
       }
     ]
   },
@@ -740,15 +949,15 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "À la Victime pascale, chrétiens, offrez le sacrifice de louange. <br/>L'Agneau a racheté les brebis&nbsp;; <br/>le Christ innocent a réconcilié l'Homme pécheur avec le Père. <br/>La mort et la vie s'affrontèrent en un duel prodigieux. <br/>Le Maître de la vie mourut&nbsp;; vivant, il règne."
+        "text": "À la Victime pascale, chrétiens, offrez le sacrifice de louange.<br/>L'Agneau a racheté les brebis&nbsp;;<br/>le Christ innocent a réconcilié l'Homme pécheur avec le Père.<br/>La mort et la vie s'affrontèrent en un duel prodigieux.<br/>Le Maître de la vie mourut&nbsp;; vivant, il règne."
       },
       {
         "type": "verse",
-        "text": "\"Dis-nous, Marie Madeleine, qu'as-tu vu en chemin&nbsp;? <br/>J'ai vu le sépulcre du Christ vivant, <br/>j'ai vu la gloire du Ressuscité&nbsp;! <br/>J'ai vu les anges, ses témoins, le suaire et les vêtements. <br/>Le Christ, mon espérance est ressuscité! Il vous précèdera en Galilée.\""
+        "text": "\"Dis-nous, Marie Madeleine, qu'as-tu vu en chemin&nbsp;?<br/>J'ai vu le sépulcre du Christ vivant,<br/>j'ai vu la gloire du Ressuscité&nbsp;!<br/>J'ai vu les anges, ses témoins, le suaire et les vêtements.<br/>Le Christ, mon espérance est ressuscité! Il vous précèdera en Galilée.\""
       },
       {
         "type": "verse",
-        "text": "Nous le savons&nbsp;: le Christ est vraiment ressuscité des morts. <br/>Roi victorieux, prends-nous tous en pitié&nbsp;!<br/>Amen."
+        "text": "Nous le savons&nbsp;: le Christ est vraiment ressuscité des morts.<br/>Roi victorieux, prends-nous tous en pitié&nbsp;!<br/>Amen."
       }
     ]
   },
@@ -2274,6 +2483,18 @@
       {
         "type": "verse",
         "text": "5 - Vivre d'Amour, c'est essuyer ta Face<br/>C'est obtenir des pécheurs le pardon<br/>O Dieu d'Amour&nbsp;! Qu'ils rentrent dans ta grâce<br/>Et qu'à jamais ils bénissent ton Nom…<br/>Jusqu'à mon cœur retentit le blasphème<br/>Pour l'effacer, je veux chanter toujours&nbsp;:<br/>«&nbsp;Ton Nom Sacré, je l'adore et je l'Aime<br/>Je vis d'Amour&nbsp;!&nbsp;»&nbsp;(bis)"
+      },
+      {
+        "type": "verse",
+        "text": "6 - Vivre d'amour, c'est imiter Marie, baignant de pleurs, de parfum précieux,<br/>Tes pieds divins, qu'elle baise ravie, les essuyant avec ses longs cheveux.<br/>Puis se levant, elle brise le vase, ton doux visage elle embaume à son tour,<br/>Moi le parfum dont j'embaume ta face&nbsp;:<br/>C'est mon amour.&nbsp;(bis)"
+      },
+      {
+        "type": "verse",
+        "text": "7 - Vivre d'amour, quelle étrange folie, me dit le monde&nbsp;: «&nbsp;Ah&nbsp;! Cessez de chanter,<br/>Ne perdez pas vos parfums votre vie, utilement sachez les employer&nbsp;!&nbsp;»<br/>T'aimer Jésus, quelle perte féconde, tous mes parfums sont à toi sans retour.<br/>Je veux chanter en sortant de ce monde&nbsp;:<br/>Je meurs d'amour.&nbsp;(bis)"
+      },
+      {
+        "type": "verse",
+        "text": "8 - Mourir d'amour, voilà mon espérance, quand je verrai se briser tous mes liens.<br/>Mon Dieu sera ma grande récompense, je ne veux point posséder d'autres biens.<br/>De son amour, je veux être embrasée&nbsp;; je veux le voir, m'unir à Lui toujours.<br/>Voilà mon ciel, voilà ma destinée&nbsp;:<br/>Vivre d'amour.&nbsp;(bis)"
       }
     ]
   },
@@ -3244,23 +3465,23 @@
       },
       {
         "type": "verse",
-        "text": "1 - Ne soyez pas ces ombres d'Hommes qui vont devant eux au hasard, Mais faites fructifier en vous les dons que Dieu vous a donnés. (pour vivre)"
+        "text": "1 - Ne soyez pas ces ombres d'Hommes qui vont devant eux au hasard, Mais faites fructifier en vous les dons que Dieu vous a donnés. Pour vivre&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "2 - Pour préparer votre avenir demandez simplement à Dieu,<br/>La force de bien accomplir tout ce qu'Il attendra de nous. (pour vivre)"
+        "text": "2 - Pour préparer votre avenir demandez simplement à Dieu,<br/>La force de bien accomplir tout ce qu'Il attendra de nous. Pour vivre&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "3 - Tant que le souffle nous tient vie il nous faut bénir notre Dieu,<br/>Nous chanterons sans nous lasser son infinie miséricorde&nbsp;! (pour vivre)"
+        "text": "3 - Tant que le souffle nous tient vie il nous faut bénir notre Dieu,<br/>Nous chanterons sans nous lasser son infinie miséricorde&nbsp;! Pour vivre&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "4 - Soyez compatissants et bons pour tous ceux qui souffrent et qui pleurent,<br/>Vous savez que votre bonheur est de semer la joie de Dieu. (pour vivre)"
+        "text": "4 - Soyez compatissants et bons pour tous ceux qui souffrent et qui pleurent,<br/>Vous savez que votre bonheur est de semer la joie de Dieu. Pour vivre&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "5 - Avec un cœur plein de confiance remettez à Dieu votre vie,<br/>Ayez foi en sa providence, c'est son Amour qui nous conduit&nbsp;! (pour vivre)"
+        "text": "5 - Avec un cœur plein de confiance remettez à Dieu votre vie,<br/>Ayez foi en sa providence, c'est son Amour qui nous conduit&nbsp;! Pour vivre&nbsp;!"
       }
     ]
   },
@@ -6278,6 +6499,10 @@
       {
         "type": "chorus",
         "text": "Laudate Dominum, laudate Dominum, Omnes gentes, Alléluia&nbsp;!&nbsp;(bis)"
+      },
+      {
+        "type": "translation",
+        "text": "Louez le Seigneur tous les peuples, Alleluia."
       },
       {
         "type": "verse",
@@ -9750,15 +9975,15 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "1 - Tout mon être cherche,<br/>D'où viendra le secours,<br/>Mon secours est en Dieu,<br/>Qui a créé les cieux.<br/>De toute détresse,<br/>Il vient me libérer,<br/>Lui le Dieu fidèle<br/>De toute éternité."
+        "text": "1 - Tout mon être cherche, d'où viendra le secours,<br/>Mon secours est en Dieu, qui a créé les cieux.<br/>De toute détresse, il vient me libérer,<br/>Lui le Dieu fidèle de toute éternité."
       },
       {
         "type": "chorus",
-        "text": "C'est par ta grâce,<br/>Que je peux m'approcher de toi,<br/>C'est par ta grâce,<br/>Que je suis racheté.<br/>Tu fais de moi,<br/>Une nouvelle création,<br/>De la mort, tu m'as sauvé<br/>Par ta résurrection."
+        "text": "C'est par ta grâce, que je peux m'approcher de toi,<br/>C'est par ta grâce, que je suis racheté.<br/>Tu fais de moi, une nouvelle création,<br/>De la mort, tu m'as sauvé par ta résurrection."
       },
       {
         "type": "verse",
-        "text": "2 - Tu connais mes craintes,<br/>Tu connais mes pensées.<br/>Avant que je naisse,<br/>Tu m'avais appelé.<br/>Toujours tu pardonnes,<br/>D'un amour infini.<br/>Ta miséricorde<br/>Est un chemin de vie."
+        "text": "2 - Tu connais mes craintes, tu connais mes pensées.<br/>Avant que je naisse, tu m'avais appelé.<br/>Toujours tu pardonnes, d'un amour infini.<br/>Ta miséricorde est un chemin de vie."
       }
     ]
   },
@@ -11471,11 +11696,11 @@
       },
       {
         "type": "verse",
-        "text": "1 - La muerte, donde esta la muerte&nbsp;?<br/>Donde esta la muerte&nbsp;?<br/>Donde esta su victoria&nbsp;?"
+        "text": "1 - La muerte, donde esta la muerte&nbsp;?<br/>Donde esta mi muerte&nbsp;?<br/>Donde esta su victoria&nbsp;?"
       },
       {
         "type": "verse",
-        "text": "2 - Alegria, alegria hemanos,<br/>Que si hoy nos queremos,<br/>Es porque Resucito."
+        "text": "2 - Alegria, alegria hermanos,<br/>Que si hoy nos queremos,<br/>Es porque Resucito."
       },
       {
         "type": "verse",
@@ -12137,31 +12362,51 @@
       },
       {
         "type": "verse",
-        "text": "1 - Esprit de Dieu, Esprit d'amour,<br/>Viens Esprit-Saint embrase-nous.<br/>Vent créateur, doigt du Père,<br/>Viens Esprit-Saint embrase-nous.<br/>2 - Ombre féconde, Brise légère,<br/>Viens Esprit-Saint embrase-nous.<br/>Sève du monde, don gratuit,<br/>Viens Esprit-Saint embrase-nous.<br/>Viens Esprit-Saint embrase-nous."
+        "text": "1 - Esprit de Dieu, Esprit d'amour,<br/>Viens Esprit-Saint embrase-nous.<br/>Vent créateur, doigt du Père,<br/>Viens Esprit-Saint embrase-nous."
       },
       {
         "type": "verse",
-        "text": "3 - Source très pure, Torrent de vie, ...<br/>Fleuve puissant de la grâce, ...<br/>4 - Clarté d'en haut, Langue de feu, ...<br/>Flambeau de Gloire, feu vivant, ..."
+        "text": "2 - Ombre féconde, Brise légère,<br/>Viens Esprit-Saint embrase-nous.<br/>Sève du monde, don gratuit,<br/>Viens Esprit-Saint embrase-nous."
       },
       {
         "type": "verse",
-        "text": "5 - Vrai Défenseur, Consolateur, ...<br/>Joie de l'Eglise, souffle pur ...<br/>6 - Onction royale, force et douceur, ...<br/>Sainte lumière des prophètes, ..."
+        "text": "3 - Source très pure, Torrent de vie,<br/>Viens Esprit-Saint embrase-nous.<br/>Fleuve puissant de la grâce,<br/>Viens Esprit-Saint embrase-nous."
       },
       {
         "type": "verse",
-        "text": "7 - Trésor de bien, douce vigueur, ...<br/>Hôte intérieur, Don suprême, ...<br/>8 - Père des pauvres, humble richesse, ...<br/>Beauté radieuse sanctifiante, ..."
+        "text": "4 - Clarté d'en haut, Langue de feu,<br/>Viens Esprit-Saint embrase-nous.<br/>Flambeau de Gloire, feu vivant,<br/>Viens Esprit-Saint embrase-nous."
       },
       {
         "type": "verse",
-        "text": "9 - Bon Conseiller, paix en nos âmes, ...<br/>Voix de silence, vraie sagesse, ...<br/>10 - Brasier ardent de notre foi, ...<br/>Mémoire vive des croyants, ..."
+        "text": "5 - Vrai Défenseur, Consolateur,<br/>Viens Esprit-Saint embrase-nous.<br/>Joie de l'Eglise, souffle pur<br/>Viens Esprit-Saint embrase-nous."
       },
       {
         "type": "verse",
-        "text": "11 - Splendeur divine, Bonté de Dieu, ...<br/>Vie éternelle, vie nouvelle, ...<br/>12 - Esprit du Père, Esprit du Fils, ...<br/>Rayon d'amour glorieux, ..."
+        "text": "6 - Onction royale, force et douceur,<br/>Viens Esprit-Saint embrase-nous.<br/>Sainte lumière des prophètes,<br/>Viens Esprit-Saint embrase-nous."
       },
       {
-        "type": "chorus",
-        "text": "Répands ton feu sur la terre Esprit de Dieu,<br/>Répands ton feu dans nos cœurs Esprit d'amour.<br/>Que brille ta flamme dans nos vies,<br/>Dans le monde, viens Saint-Esprit&nbsp;!"
+        "type": "verse",
+        "text": "7 - Trésor de bien, douce vigueur,<br/>Viens Esprit-Saint embrase-nous.<br/>Hôte intérieur, Don suprême,<br/>Viens Esprit-Saint embrase-nous."
+      },
+      {
+        "type": "verse",
+        "text": "8 - Père des pauvres, humble richesse,<br/>Viens Esprit-Saint embrase-nous.<br/>Beauté radieuse sanctifiante,<br/>Viens Esprit-Saint embrase-nous."
+      },
+      {
+        "type": "verse",
+        "text": "9 - Bon Conseiller, paix en nos âmes,<br/>Viens Esprit-Saint embrase-nous.<br/>Voix de silence, vraie sagesse,<br/>Viens Esprit-Saint embrase-nous."
+      },
+      {
+        "type": "verse",
+        "text": "10 - Brasier ardent de notre foi,<br/>Viens Esprit-Saint embrase-nous.<br/>Mémoire vive des croyants,<br/>Viens Esprit-Saint embrase-nous."
+      },
+      {
+        "type": "verse",
+        "text": "11 - Splendeur divine, Bonté de Dieu,<br/>Viens Esprit-Saint embrase-nous.<br/>Vie éternelle, vie nouvelle,<br/>Viens Esprit-Saint embrase-nous."
+      },
+      {
+        "type": "verse",
+        "text": "12 - Esprit du Père, Esprit du Fils,<br/>Viens Esprit-Saint embrase-nous.<br/>Rayon d'amour glorieux,<br/>Viens Esprit-Saint embrase-nous."
       }
     ]
   },

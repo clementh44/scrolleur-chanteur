@@ -1357,5 +1357,16 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **10/05/2023 v4.23.6**
 ```
   Suppression de JQuery
-  Correction des espaces insécables
+  Correction des espaces insécables, d'espaces inutiles
+
+  Corrections des chants Resucito, Vivre comme le Christ, C'est par ta grâce, Répands ton feu
+  Ajout de couplets au chant Vivre d'amour
+
+  + O clemens Maria
+  + Source de tout amour
+  + La voix du bien aimé
+  + À toi notre louange
+  + Grandes et merveilleuses JEM414
+  + Venez vous abreuver DEV524
+  + Ave Maria sois notre secours IEV : n°10-06
 ```
