@@ -1357,4 +1357,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 **10/05/2023 v4.23.6**
 ```
   Suppression de JQuery
+  Correction des espaces insécables
 ```
