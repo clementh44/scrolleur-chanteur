@@ -1,6 +1,6 @@
 {
   "name": "@clementh44/scrolleur-chanteur",
-  "version": "4.23.6",
+  "version": "4.24.0",
   "description": "Pour faire \"scroller\" les chants pour... chanter",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,10 +10,10 @@
     "build-report": "vue-cli-service build --report"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-regular-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "@tiptap/extension-blockquote": "^2.0.0-beta.15",
     "@tiptap/extension-bullet-list": "^2.0.0-beta.15",
@@ -42,13 +42,13 @@
     "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.4.0",
-    "@vue/cli-plugin-eslint": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-cli-plugin-sitemap": "~2.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^9.12.0",
+    "vue-cli-plugin-sitemap": "^2.0.2",
     "vue-template-compiler": "^2.6.12"
   },
   "eslintConfig": {

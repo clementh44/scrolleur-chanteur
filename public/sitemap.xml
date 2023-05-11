@@ -2,7 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://chantons.netlify.app</loc>
-		<lastmod>2022-03-22</lastmod>
+		<lastmod>2023-05-11</lastmod>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/ave-maria-sois-notre-secours</loc>
+		<lastmod>2023-05-11</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/venez-vous-abreuver</loc>
+		<lastmod>2023-05-11</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/grandes-et-merveilleuses</loc>
+		<lastmod>2023-05-11</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/a-toi-notre-louange</loc>
+		<lastmod>2023-05-11</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/la-voix-du-bien-aime</loc>
+		<lastmod>2023-05-11</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/source-de-tout-amour</loc>
+		<lastmod>2023-05-11</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/o-clemens-maria</loc>
+		<lastmod>2023-05-11</lastmod>
+		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://chantons.netlify.app/song/dans-nos-obscurites-taize</loc>

@@ -1353,7 +1353,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Dans nos obscurités (Taizé)
 ```
 
-##### Dernière version
 **10/05/2023 v4.23.6**
 ```
   Suppression de JQuery
@@ -1369,4 +1368,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Grandes et merveilleuses JEM414
   + Venez vous abreuver DEV524
   + Ave Maria sois notre secours IEV : n°10-06
+```
+
+##### Dernière version
+**12/05/2023 v4.24.0**
+```
+  Correction des problèmes de compilation (mise à jour des icones)
 ```
