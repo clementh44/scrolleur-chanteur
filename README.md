@@ -1370,8 +1370,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Ave Maria sois notre secours IEV : n°10-06
 ```
 
-##### Dernière version
 **12/05/2023 v4.24.0**
 ```
   Correction des problèmes de compilation (mise à jour des icones)
+```
+
+##### Dernière version
+**19/06/2023 v4.24.1**
+```
+  Correction(s) :
+    Symbole de Nicée (consubstantiel)
 ```
