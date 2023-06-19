@@ -1380,6 +1380,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Correction(s) :
     Symbole de Nicée (consubstantiel)
+    homme > Homme quand cela revient de parler d'humain
 
   Corrections dans les icons suite à la mise à jour de FontAwesome en version 6 https://fontawesome.com/v6/docs/web/setup/upgrade/whats-changed
 ```
