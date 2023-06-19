@@ -3,7 +3,7 @@
     <b-card class="sticky-top mb-3" no-body>
       <b-card-header class="d-flex justify-content-between" header-tag="h3">
         {{ header }}
-        <a href="#" class="pull-right" @click="close"><font-awesome-icon :icon="'times'"></font-awesome-icon></a>
+        <a href="#" class="pull-right" @click="close"><font-awesome-icon :icon="'xmark'"></font-awesome-icon></a>
       </b-card-header>
       <b-card-body class="overflow-auto" style="height: 90vh">
         <slot name="content"></slot>

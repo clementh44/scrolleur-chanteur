@@ -7,9 +7,9 @@
         <b-navbar-nav>
           <b-nav-item :active="viewOpened" @click="toggleView" title="Ouvrir/fermer la fenêtre de présentation"> <font-awesome-icon :icon="'desktop'"></font-awesome-icon> Présentation </b-nav-item>
           <b-nav-item :active="previewOpened" @click="togglePreview" title="Ouvrir/fermer l'aperçu d'un élément"> <font-awesome-icon :icon="'eye'"></font-awesome-icon> Aperçu </b-nav-item>
-          <b-nav-item :active="paramOpened" @click="toggleParam" title="Ouvrir/fermer les paramètres"> <font-awesome-icon :icon="'sliders-h'"></font-awesome-icon> Paramètres </b-nav-item>
+          <b-nav-item :active="paramOpened" @click="toggleParam" title="Ouvrir/fermer les paramètres"> <font-awesome-icon :icon="'sliders'"></font-awesome-icon> Paramètres </b-nav-item>
           <b-nav-item :active="settings.help" @click="settings.help = !settings.help" title="Ouvrir/fermer l'aide'" class="text-success">
-            <font-awesome-icon :icon="'question-circle'"></font-awesome-icon> Aide
+            <font-awesome-icon :icon="'circle-question'"></font-awesome-icon> Aide
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -59,7 +59,7 @@
               <b-icon stacked icon="music-note-list" shift-h="-2"></b-icon>
               <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
             </b-iconstack>
-            depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec
+            depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['fa-regular', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec
             <font-awesome-layers><font-awesome-icon icon="align-left" transform="left-2" /><font-awesome-icon icon="pen" transform="right-7" />
           </font-awesome-layers> ) ; une image à importer (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
           </p>
@@ -159,7 +159,7 @@
                   <b-form-input @keydown.stop type="text" id="searchInput" placeholder="Rechercher un titre..." v-debounce="searchSong" @click="$event.target.select()"></b-form-input>
                   <b-input-group-append>
                     <b-button variant="outline-secondary" @click="searchScore(songsFilter.search, settings.score.google)" v-b-tooltip.hover.noninteractive title="Rechercher le titre sur google">
-                      <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
+                      <font-awesome-icon :icon="['fa-brands', 'google']"></font-awesome-icon>
                     </b-button>
                   </b-input-group-append>
                 </b-input-group>
@@ -219,7 +219,7 @@
                             v-b-tooltip.hover.noninteractive
                             title="Ouvrir les paroles dans une fenêtre externe"
                           >
-                            <font-awesome-icon :icon="'external-link-alt'"></font-awesome-icon>
+                            <font-awesome-icon :icon="'up-right-from-square'"></font-awesome-icon>
                           </b-button>
                         </template>
                       </ElementActions>

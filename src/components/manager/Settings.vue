@@ -234,10 +234,10 @@
               <font-awesome-icon :icon="'file-pdf'"></font-awesome-icon>
             </b-button>
             <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none">
-              <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
+              <font-awesome-icon :icon="['fa-brands', 'google']"></font-awesome-icon>
             </b-button>
             <b-button variant="info" size="sm" aria-disabled="true" style="pointer-events: none">
-              <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
+              <font-awesome-icon :icon="['fa-brands', 'youtube']"></font-awesome-icon>
             </b-button>
           </b-button-group>
         </b-form-checkbox>

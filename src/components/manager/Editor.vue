@@ -26,7 +26,7 @@
             <font-awesome-icon icon="strikethrough"></font-awesome-icon>
           </b-button>
           <b-button @click="editor.chain().focus().unsetAllMarks().run()" v-b-tooltip.hover.noninteractive title="Supprimer les styles (gras, italique, souligné, barré, couleur)" variant="light">
-            <font-awesome-icon icon="remove-format"></font-awesome-icon>
+            <font-awesome-icon icon="text-slash"></font-awesome-icon>
           </b-button>
           <b-dropdown v-b-tooltip.hover.noninteractive title="Taille" variant="light">
             <template #button-content><font-awesome-icon icon="text-height"></font-awesome-icon></template>
@@ -72,11 +72,11 @@
         <!-- Couleur -->
         <b-button-group class="mr-1 mb-1">
           <b-button v-b-tooltip.hover.noninteractive title="Changer la couleur de la sélection" variant="light">
-            <font-awesome-icon icon="tint" :style="{ color: editor.getAttributes('textStyle').color }"></font-awesome-icon>
+            <font-awesome-icon icon="droplet" :style="{ color: editor.getAttributes('textStyle').color }"></font-awesome-icon>
             <input type="color" class="hidden-input-color" @input="editor.chain().focus().setColor($event.target.value).run()" v-model="editor.getAttributes('textStyle').color" />
           </b-button>
           <b-button @click="editor.chain().focus().unsetColor().run()" v-b-tooltip.hover.noninteractive title="Supprimer la couleur de la sélection" variant="light">
-            <font-awesome-icon icon="tint-slash"></font-awesome-icon>
+            <font-awesome-icon icon="droplet-slash"></font-awesome-icon>
           </b-button>
         </b-button-group>
         <!-- Style block -->

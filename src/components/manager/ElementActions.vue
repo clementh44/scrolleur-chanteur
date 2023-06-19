@@ -27,7 +27,7 @@
         v-b-tooltip.hover.noninteractive
         title="Rechercher en pdf sur google"
       >
-        <font-awesome-icon :icon="['fab', 'google']"></font-awesome-icon>
+        <font-awesome-icon :icon="['fa-brands', 'google']"></font-awesome-icon>
       </b-button>
       <b-button
         variant="info"
@@ -40,7 +40,7 @@
         v-b-tooltip.hover.noninteractive
         title="Rechercher sur youtube"
       >
-        <font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon>
+        <font-awesome-icon :icon="['fa-brands', 'youtube']"></font-awesome-icon>
       </b-button>
     </template>
     <b-button variant="light" @click="$emit('preview', element)" v-b-tooltip.hover.noninteractive title="Afficher dans la fenêtre d'aperçu">

@@ -14,10 +14,10 @@
       <b-button-group class="mr-3">
         <b-button variant="secondary" :pressed="false" aria-disabled="true" style="pointer-events: none"> Ajouter : </b-button>
         <b-button @click="addElement({ type: 'empty', title: '_vide_' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Contenu vide">
-          <font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>
+          <font-awesome-icon :icon="['fa-regular', 'square']"></font-awesome-icon>
         </b-button>
         <b-button @click="insertEmptyTransition()" v-if="this.playlist.length > 0" variant="secondary" v-b-tooltip.hover.noninteractive title="Intercaler un élément vide entre chaque contenu">
-          <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
+          <font-awesome-icon :icon="['fa-regular', 'clone']"></font-awesome-icon>
         </b-button>
         <b-button @click="addElement({ type: 'text', title: 'Texte à personnaliser' })" variant="secondary" v-b-tooltip.hover.noninteractive title="Texte personnalisé">
           <font-awesome-layers>
@@ -71,7 +71,7 @@
           </template>
           <template v-else>
             <b-dropdown-divider></b-dropdown-divider>
-            <a class="dropdown-item" @click.stop="downloadAelf()" href="#"><font-awesome-icon :icon="'cloud-download-alt'"></font-awesome-icon> Charger les données depuis aelf.org</a>
+            <a class="dropdown-item" @click.stop="downloadAelf()" href="#"><font-awesome-icon :icon="'cloud-arrow-down'"></font-awesome-icon> Charger les données depuis aelf.org</a>
           </template>
           <b-dropdown-divider></b-dropdown-divider>
           <b-dropdown-text>Données venant de <a href="https://aelf.org" target="_blank">aelf.org</a></b-dropdown-text>
@@ -82,10 +82,10 @@
       <b-button-group v-if="this.playlist.length > 0" class="mr-3">
         <b-button variant="danger" :pressed="false" aria-disabled="true" style="pointer-events: none"> Supprimer : </b-button>
         <b-button @click="cleanEmpty()" variant="danger" v-b-tooltip.hover.noninteractive title="Supprimer les éléments vides">
-          <font-awesome-icon :icon="['far', 'clone']"></font-awesome-icon>
+          <font-awesome-icon :icon="['fa-regular', 'clone']"></font-awesome-icon>
         </b-button>
         <b-button @click="clean()" variant="danger" v-b-tooltip.hover.noninteractive title="Vider la playlist">
-          <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
+          <font-awesome-icon :icon="'trash-can'"></font-awesome-icon>
         </b-button>
       </b-button-group>
       <!-- Import/Export -->
@@ -100,7 +100,7 @@
       <!-- Paramètres -->
       <b-button-group>
         <b-button @click="$emit('toggle-param')" v-b-tooltip.hover.noninteractive title="Ouvrir/fermer les paramètres">
-          <font-awesome-icon :icon="'sliders-h'"></font-awesome-icon>
+          <font-awesome-icon :icon="'sliders'"></font-awesome-icon>
         </b-button>
       </b-button-group>
     </b-button-toolbar>
@@ -141,7 +141,7 @@
       <b-list-group-item v-if="listLocal.length == 0">
         <strong>La playlist est vide</strong><br />
         Ci-dessus, ajoutez un texte personnalisé (<font-awesome-icon :icon="'align-left'"></font-awesome-icon>), une image (<font-awesome-icon :icon="'image'"></font-awesome-icon>) ou du vide
-        (<font-awesome-icon :icon="['far', 'square']"></font-awesome-icon>).<br />
+        (<font-awesome-icon :icon="['fa-regular', 'square']"></font-awesome-icon>).<br />
         Ci-dessous, recherchez et ajoutez un chant du répertoire (
         <b-iconstack variant="success"><b-icon stacked icon="music-note-list" shift-h="-2"></b-icon><b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon></b-iconstack> ) pour acceder à plus
         de contrôles.<br />
@@ -170,7 +170,7 @@
             >
               <template v-slot:first>
                 <b-button variant="light" v-if="canEdit(element)" @click="edit(element)" v-b-tooltip.hover.noninteractive title="Editer l'élément">
-                  <font-awesome-icon :icon="['far', 'edit']"></font-awesome-icon>
+                  <font-awesome-icon :icon="['fa-regular', 'edit']"></font-awesome-icon>
                 </b-button>
               </template>
               <template v-slot:end>
@@ -178,10 +178,10 @@
                   <font-awesome-icon :icon="'desktop'"></font-awesome-icon>
                 </b-button>
                 <b-button variant="light" class="handle" tag="i" v-b-tooltip.hover.noninteractive title="Déplacer l'élément">
-                  <font-awesome-icon :icon="'arrows-alt-v'"></font-awesome-icon>
+                  <font-awesome-icon :icon="'up-down'"></font-awesome-icon>
                 </b-button>
                 <b-button variant="outline-danger" @click="removeAt(index)" v-b-tooltip.hover.noninteractive title="Supprimer l'élément de la playlist">
-                  <font-awesome-icon :icon="'trash-alt'"></font-awesome-icon>
+                  <font-awesome-icon :icon="'trash-can'"></font-awesome-icon>
                 </b-button>
               </template>
             </ElementActions>
@@ -200,12 +200,12 @@
                   title="Afficher cet élément et cacher le reste"
                 >
                   <font-awesome-layers>
-                    <font-awesome-icon :icon="'angle-double-down'" transform="left-5 up-4 shrink-2"></font-awesome-icon>
-                    <font-awesome-icon :icon="['far', 'eye']" transform="right-4 down-4 shrink-2"></font-awesome-icon>
+                    <font-awesome-icon :icon="'angles-down'" transform="left-5 up-4 shrink-2"></font-awesome-icon>
+                    <font-awesome-icon :icon="['fa-regular', 'eye']" transform="right-4 down-4 shrink-2"></font-awesome-icon>
                   </font-awesome-layers>
                 </b-button>
                 <b-button variant="light" class="no-focus" @click="$emit('scroll-to-pos', { pos: index })" v-b-tooltip.hover.noninteractive title="Afficher l'élément dans la présentation">
-                  <font-awesome-icon :icon="'angle-double-down'"></font-awesome-icon>
+                  <font-awesome-icon :icon="'angles-down'"></font-awesome-icon>
                 </b-button>
                 <b-button
                   variant="light"
@@ -227,7 +227,7 @@
                   v-b-tooltip.hover.noninteractive
                   title="Cacher/Afficher ce couplet ou refrain"
                 >
-                  <font-awesome-icon :icon="['far', 'eye-slash']"></font-awesome-icon>
+                  <font-awesome-icon :icon="['fa-regular', 'eye-slash']"></font-awesome-icon>
                 </b-button>
               </b-button-group>
             </div>
