@@ -1375,7 +1375,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction des problèmes de compilation (mise à jour des icones)
 ```
 
-##### Dernière version
 **19/06/2023 v4.24.1**
 ```
   Correction(s) :
@@ -1383,4 +1382,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     homme > Homme quand cela revient de parler d'humain
 
   Corrections dans les icons suite à la mise à jour de FontAwesome en version 6 https://fontawesome.com/v6/docs/web/setup/upgrade/whats-changed
+```
+
+##### Dernière version
+**05/07/2023 v4.24.2**
+```
+  Correction(s) :
+    Angélus : et à l'heure de la mort
+    Anamnèse messe de la Trinité : (bis) ajouté
+
+  + Totus tuus IEV 16-16 EDIT15-72
 ```

@@ -1,5 +1,23 @@
 [
 {
+  "id": "totus-tuus",
+  "title": "Totus tuus",
+  "rating": "IEV 16-16",
+  "newrating": "EDIT15-72",
+  "publisher": "Communauté de l'Emmanuel",
+  "writer": "Communauté de l'Emmanuel (M. Wittal)",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Totus tuus Maria&nbsp;! Gratia plena, Dominus tecum&nbsp;!<br/>Totus tuus, Ora pro nobis, Maria, Maria."
+    },
+    {
+      "type": "translation",
+      "text": "\"Je suis tout à toi et tout ce qui est à moi est à toi\"<br/>Tout à toi Marie&nbsp;! Pleine de grâce, le Seigneur est avec vous&nbsp;!<br/>Tout à toi, priez pour nous, Marie."
+    }
+  ]
+},
+{
   "id": "ave-maria-sois-notre-secours",
   "title": "Ave Maria sois notre secours",
   "rating": "IEV&nbsp;: n°10-06",
@@ -14292,7 +14310,7 @@
     "lyrics": [
       {
         "type": "chorus",
-        "text": "Je vous salue, Marie, comblée de grâce;<br/>Le Seigneur est avec vous;<br/>Vous êtes bénie entre toutes les femmes,<br/>et Jésus, votre enfant, est béni.<br/>Sainte Marie, Mère de Dieu,<br/>priez pour nous, pauvres pécheurs,<br/>maintenant et à l'heure de notre mort.<br/>Amen, amen, alléluia."
+        "text": "Je vous salue, Marie, comblée de grâce;<br/>Le Seigneur est avec vous;<br/>Vous êtes bénie entre toutes les femmes,<br/>et Jésus, votre enfant, est béni.<br/>Sainte Marie, Mère de Dieu,<br/>priez pour nous, pauvres pécheurs,<br/>maintenant et à l'heure de la mort.<br/>Amen, amen, alléluia."
       },
       {
         "type": "verse",
@@ -15856,7 +15874,7 @@
       },
       {
         "type": "chorus",
-        "text": "Gloire à Toi qui étais mort&nbsp;!<br/>Gloire à Toi qui est vivant&nbsp;!<br/>Dieu sauveur, nous attendons ton retour&nbsp;:<br/>Viens, Seigneur Jésus&nbsp;!&nbsp;(bis)"
+        "text": "Gloire à Toi qui étais mort&nbsp;!&nbsp;(bis)<br/>Gloire à Toi qui est vivant&nbsp;!&nbsp;(bis)<br/>Dieu sauveur, nous attendons ton retour&nbsp;:<br/>Viens, Seigneur Jésus&nbsp;!&nbsp;(bis)"
       }
     ]
   },
