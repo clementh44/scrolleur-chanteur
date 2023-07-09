@@ -1,5 +1,92 @@
 [
 {
+  "id": "salve-regina",
+  "title": "Salve Regina",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Salve, Regína, Máter misericórdiæ"
+    },
+    {
+      "type": "translation",
+      "text": "Salut Ô Reine, Mère de miséricorde"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Víta, dulcédo, et spes nóstra, sálve."
+    },
+    {
+      "type": "translation",
+      "text": "Notre vie, notre consolation, notre espoir, salut"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Ad te clamámus, éxules, fílii Hévæ."
+    },
+    {
+      "type": "translation",
+      "text": "Enfants d'Eve, de cette terre d'exil, nous crions vers vous"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Ad te suspirámus, geméntes et flentes in hac lacrimárum válle."
+    },
+    {
+      "type": "translation",
+      "text": "Vers vous nous soupirons, gémissant et pleurant dans cette vallée de larmes."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Eia ergo, Advocáta nóstra,"
+    },
+    {
+      "type": "translation",
+      "text": "Ô vous, notre Avocate,"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "íllos túos misericórdes óculos ad nos convérte."
+    },
+    {
+      "type": "translation",
+      "text": "Tournez vers nous votre regard compatissant."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Et Jésum, benedíctum frúctum véntris túi,"
+    },
+    {
+      "type": "translation",
+      "text": "Et après cet exil, obtenez nous de comptempler Jésus"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "nóbis post hoc exsílium osténde."
+    },
+    {
+      "type": "translation",
+      "text": "le fruit de vos entrailles"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "O clémens, O pía, O dúlcis Vírgo María."
+    },
+    {
+      "type": "translation",
+      "text": "Ô Clémente, Ô Miséricordieuse, Ô Douce Vierge Marie."
+    }
+  ]
+},
+{
   "id": "totus-tuus",
   "title": "Totus tuus",
   "rating": "IEV 16-16",

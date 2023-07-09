@@ -1384,7 +1384,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections dans les icons suite à la mise à jour de FontAwesome en version 6 https://fontawesome.com/v6/docs/web/setup/upgrade/whats-changed
 ```
 
-##### Dernière version
 **05/07/2023 v4.24.2**
 ```
   Correction(s) :
@@ -1392,4 +1391,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Anamnèse messe de la Trinité : (bis) ajouté
 
   + Totus tuus IEV 16-16 EDIT15-72
+```
+
+##### Dernière version
+**09/07/2023 v4.24.3**
+```
+  + Salve Regina
 ```
