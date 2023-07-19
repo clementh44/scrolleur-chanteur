@@ -1,5 +1,568 @@
 [
 {
+  "id": "jattendrai-glorious",
+  "title": "J'attendrai (Glorious)",
+  "publisher": "Glorious Pop Edition",
+  "writer": "Glorious",
+  "composer": "Glorious",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "Envoie ton Esprit Saint, envoie ton feu divin,<br/>J'attendrai les mains levées vers Celui qui peut tout."
+    },
+    {
+      "type": "verse",
+      "text": "Fais pleuvoir ton Esprit, sur ton fils repenti,<br/>J'attendrai les mains levées vers Celui qui peut tout."
+    },
+    {
+      "type": "verse",
+      "text": "Ouvre les écluses des Cieux Tu règnes,<br/>Fais pleuvoir l'eau de ton Saint lieu du Ciel,<br/>Que Ton Esprit Saint souffle en ce lieu qu'il vienne,<br/>Viens seigneur envois sur nous ton feu."
+    }
+  ]
+},
+{
+  "id": "marie-douce-lumiere",
+  "title": "Marie, douce lumière",
+  "writer": "Anne Piraux",
+  "composer": "Anne Piraux",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Maire, douce lumière,<br/>Porte du ciel, temple de l'Esprit,<br/>Guide-nous vers Jésus et vers le Père,<br/>Mère des pauvres et des tout petits."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Bénie sois tu, Marie,<br/>Ton visage rayonne de l'Esprit,<br/>Sa lumière repose sur toi.<br/>Tu restes ferme dans la foi."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Bénie sois-tu, Marie,<br/>En ton sein, tu portes Jésus-Christ,<br/>Le créateur de tout l'univers,<br/>Le Dieu du ciel et de la terre."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Bénie sois-tu, Marie,<br/>Dans tes mains qui sans cesse supplient,<br/>Tu portes la douleur du pêché,<br/>Le corps de Jésus déchiré."
+    },
+    {
+      "type": "verse",
+      "text": "4 - Bénie sois-tu, Marie,<br/>La grâce de Dieu t'a envahie,<br/>En toi le Christ est déjà sauveur<br/>De tout pêché il est vainqueur."
+    },
+    {
+      "type": "verse",
+      "text": "5 - Bénie sois-tu, Marie,<br/>Toi l'icône de l'Église qui prie,<br/>Pour l'éternité, avec tous les saints,<br/>Les anges te changent sans fin."
+    }
+  ]
+},
+{
+  "id": "tu-es-benie-o-marie",
+  "title": "Tu es bénie, ô Marie",
+  "rating": "EDIT25-10",
+  "publisher": "Éditions de l'Emmanuel",
+  "writer": "B. Pavageau",
+  "composer": "B. Pavageau",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Tu es bénie, ô Marie, le Père t'a choisie.<br/>Tu conçus l'Emmanuel pour nous ouvrir le ciel.<br/>Viens enfanter en nos cœurs le Fils de Dieu sauveur.<br/>Nous t'accueillons&nbsp;!"
+    },
+    {
+      "type": "chorus",
+      "text": "Ave Maria&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Tu es bénie, ô Marie, le Père t'a choisie.<br/>Sa grâce en toi est donnée pour tous ses bien-aimés.<br/>Avec toi, l'Église croit que son royaume est là.<br/>Nous t'accueillons&nbsp;! "
+    },
+    {
+      "type": "verse",
+      "text": "3 - Tu es bénie, ô Marie, le Père t'a choisie.<br/>Si l'Esprit consolateur te trouve dans nos cœurs, <br/>Il s'y précipitera, nous comblera de joie.<br/>Nous t'accueillons&nbsp;! "
+    }
+  ]
+},
+{
+  "id": "o-mere-bien-aimee",
+  "title": "Ô Mère bien aimée",
+  "composer": "Communauté du Verbe de Vie",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "Ô Mère bien aimée malgré ma petitesse,<br/>Comme toi, je possède en moi le Tout-Puissant.<br/>Et je ne tremble pas en voyant ma faiblesse&nbsp;:<br/>Le trésor de la mère appartient à l'enfant."
+    },
+    {
+      "type": "verse",
+      "text": "Et je suis ton enfant, ô ma Mère chérie,<br/>Tes vertus, ton amour, ne sont-ils pas à moi&nbsp;?"
+    },
+    {
+      "type": "verse",
+      "text": "Aussi lorsqu'en mon cœur descend la blanche Hostie,<br/>Jésus, ton doux agneau croit reposer en toi."
+    }
+  ]
+},
+{
+  "id": "chez-nous-soyez-reine",
+  "title": "Chez nous soyez Reine",
+  "composer": "Chanoine Huet",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Chez nous soyez Reine, nous sommes à vous<br/>Régnez en souveraine<br/>Chez nous, Chez nous<br/>Soyez la madone qu'on prie à genoux,<br/>Qui sourit et pardonne,<br/>Chez nous, Chez nous."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Salut, ô Notre-Dame,<br/>Nous voici devant Vous,<br/>Pour confier nos âmes<br/>À votre cœur si doux."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Vous êtes notre Mère,<br/>Portez à votre Fils<br/>La fervente prière<br/>De vos enfants chéris."
+    },
+    {
+      "type": "verse",
+      "text": "3 - L'Archange qui s'incline,<br/>Vous loue au nom du ciel,<br/>Donnez la paix divine,<br/>A notre cœur mortel."
+    },
+    {
+      "type": "verse",
+      "text": "4 - Gardez, ô Vierge pure,<br/>O Cœur doux entre tous,<br/>Nos âmes sans souillure,<br/>Nos cœurs vaillants et doux."
+    },
+    {
+      "type": "verse",
+      "text": "5 - Dites à ceux qui peinent<br/>Et souffrent sans savoir,<br/>Combien lourde est la haine,<br/>Combien doux est l'espoir."
+    },
+    {
+      "type": "verse",
+      "text": "6 - Lorsque la nuit paisible<br/>Nous invite au sommeil,<br/>Près de nous, invisible,<br/>Restez jusqu'au réveil."
+    },
+    {
+      "type": "verse",
+      "text": "7 - Soyez pour nous la Reine<br/>De douce charité,<br/>Et bannissez la haine<br/>De toute la cité."
+    },
+    {
+      "type": "verse",
+      "text": "8 - À notre heure dernière,<br/>Accueillez dans les cieux,<br/>À la maison du Père,<br/>Notre retour joyeux."
+    }
+  ]
+},
+{
+  "id": "pere-saint",
+  "title": "Père saint",
+  "rating": "IEV 15-43",
+  "newrating": "EDIT15-60",
+  "publisher": "Communauté de l'Emmanuel",
+  "composer": "Communauté de l'Emmanuel (A. Broeders)",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Père Saint, vois ton peuple qui t'offre<br/>Ces présents que tu lui as donnés,<br/>Dans la joie et dans l'action de grâce<br/>Pour ton immense bonté."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Ce pain, ce vin, que ta main nous donne,<br/>Père Saint, Dieu, Source de tous biens<br/>Par l'Esprit, pour nous tu les transformes,<br/>En sacrement du Salut."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Qu'il est grand ô Seigneur ce mystère<br/>Qui nous rend dignes de vivre en toi.<br/>Prends nos vies et reçois nos louanges,<br/>Comme une offrande d'amour."
+    }
+  ]
+},
+{
+  "id": "hymne-des-cherubins",
+  "title": "Hymne des chérubins",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Nous qui dans ce mystère<br/>Représentons les chérubins.&nbsp;(bis)"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Chantons l'hymne trois fois sainte<br/>À la bienheureuse Trinité.&nbsp;(bis)"
+    },
+    {
+      "type": "verse",
+      "text": "3 - Déposons tous soucis du monde<br/>Déposons tous soucis du monde.&nbsp;(bis)"
+    },
+    {
+      "type": "verse",
+      "text": "4 - Allons à la rencontre<br/>De notre Roi de gloire.&nbsp;(bis)"
+    }
+  ]
+},
+{
+  "id": "criez-de-joie-pauvres-de-cœur",
+  "title": "Criez de joie, pauvres de cœur",
+  "rating": "IEV 15-11",
+  "newrating": "EDIT159",
+  "publisher": "Communauté de l'Emmanuel",
+  "composer": "Communauté de l'Emmanuel",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Criez de joie, vous les pauvres de cœur,<br/>Vous les enfants bien-aimés du Seigneur.<br/>Ouvrez les yeux, car le Royaume est là, voici pour vous le Sauveur."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Je bénirai le Seigneur en tout temps, mon âme exalte et jubile en mon Dieu.<br/>Que les petits écoutent et crient de joie, heureux, car ils verront Dieu."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Venez chanter, magnifier le Seigneur, quand je l'appelle, toujours il répond.<br/>De mes frayeurs, il vient me délivrer, son nom de gloire est puissant."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Tournez les yeux, regardez notre Dieu, qui le contemple, par lui resplendit.<br/>Un pauvre crie, le Seigneur lui répond, voyez le Seigneur est bon&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "4 - Heureux celui qui prend refuge en Dieu, qui le choisit ne manquera de rien.<br/>Écoute-le et recherche la paix, en lui, fais ce qui est bien."
+    }
+  ]
+},
+{
+  "id": "a-toi-puissance-et-gloire",
+  "title": "À toi puissance et gloire",
+  "rating": "A29-45",
+  "newrating": "Y29-45",
+  "publisher": "Communauté de l'Emmanuel",
+  "composer": "Communauté de l'Emmanuel (E. Baranger)",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "À Toi puissance et gloire,<br/>À Toi honneur et force,<br/>À Toi la majesté, ô Dieu à jamais&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "1 - Toi l'agneau immolé&nbsp;(bis)<br/>Tu t'es livré pour nous&nbsp;(bis)<br/>Tu as versé ton sang&nbsp;(bis)<br/>Pour nous sauver."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Et Dieu t'a exalté&nbsp;(bis)<br/>Il t'a donné le nom&nbsp;(bis)<br/>Au-dessus de tout nom&nbsp;(bis)<br/>Jésus vainqueur."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Sur la terre et aux cieux&nbsp;(bis)<br/>Tout genou fléchira&nbsp;(bis)<br/>Toute langue dira&nbsp;(bis)<br/>Tu es Seigneur&nbsp;!"
+    }
+  ]
+},
+{
+  "id": "car-dieu-est-un-dieu-puissant-our-god-is-a-awesome-god",
+  "title": "Car Dieu est un Dieu puissant - Our God is a awesome God",
+  "rating": "JEM 385",
+  "writer": "Rich Mullins",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Car Dieu est un Dieu puissant,<br/>Il règne de son saint lieu,<br/>Avec sagesse, amour&nbsp;;<br/>Oui, Dieu est un Dieu puissant."
+    }
+  ]
+},
+{
+  "id": "je-benirai-glorious",
+  "title": "Je bénirai (Glorious)",
+  "publisher": "ABT prod",
+  "writer": "Glorious",
+  "composer": "Glorious",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Je bénirai le Seigneur,<br/>en tout temps, tous lieux,<br/>sa louange sans cesse, à mes lèvres,<br/>oui je chante,"
+    }
+  ]
+},
+{
+  "id": "tu-viens-pour-moi-glorious",
+  "title": "Tu viens pour moi (Glorious)",
+  "publisher": "ABT prod",
+  "writer": "Glorious",
+  "composer": "Glorious",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Laisse-moi Te donner tout ce que je vis,<br/>Laisse-moi T'apporter tout ce que je suis,<br/>Je viens pour Toi.<br/>Laisse-moi Te donner mon cri, ma prière,<br/>Laisse-moi T'apporter mes joies, mes misères,<br/>Je viens pour Toi."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Tu es là et Tu viens au cœur de ma vie,<br/>Tu es là et Tu viens au creux de mes nuits,<br/>Tu viens pour moi.<br/>Tu guéris, tu consoles et Tu me bénis,<br/>De Ta main Tu me guides et Tu me saisis,<br/>Tu viens pour moi."
+    }
+  ]
+},
+{
+  "id": "ta-majeste-glorious",
+  "title": "Ta majesté (Glorious)",
+  "publisher": "ABT Prod/GLORIOUS",
+  "writer": "Benjamin & Thomas POUZIN",
+  "composer": "Benjamin & Thomas POUZIN",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Là devant Toi, tout genou fléchira,<br/>Toute langue dira Tu es Seigneur<br/>Tu monteras, tu seras élevé<br/>Tu seras exalté en serviteur<br/>Tout l'Amour dont Tu m'as comblé"
+    },
+    {
+      "type": "chorus",
+      "text": "Je Te loue mon Dieu pour Ta Majesté<br/>À la Croix Tu me rends la liberté<br/>Jamais je ne pourrai imaginer<br/>Tout l'Amour dont Tu m'as comblé"
+    },
+    {
+      "type": "verse",
+      "text": "2 - C'est nos souffrances dont il était chargé<br/>Et c'est nos fautes qu'il portait<br/>Et nous pensions, qu'il était châtié<br/>Et frappé par Dieu, humilié"
+    },
+    {
+      "type": "verse",
+      "text": "3 - C'est par nos fautes qu'on l'a transpercé<br/>C'est pour nous sauver qu'il s'est donné<br/>Le châtiment qui nous obtient la paix<br/>Est tombé sur lui, nous sommes guéris"
+    }
+  ]
+},
+{
+  "id": "ce-nom-si-merveilleux-o-ce-nom-est-si-merveilleux-beautiful-name",
+  "title": "Ce Nom si merveilleux - O ce nom est si merveilleux - Beautiful Name",
+  "rating": "JEM 1079",
+  "publisher": "Hillsong Publishing/Song Solutions CopyCare/LTC",
+  "composer": "Ben Fielding et Brook Ligertwood",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Tu étais là dès la création,<br/>Fils unique du Dieu très haut,<br/>Les mystères de ta gloire révélés<br/>En toi Christ notre Seigneur."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Oh&nbsp;! ce nom est si merveilleux&nbsp;!&nbsp;(bis)<br/>Le nom de Jésus-Christ mon Roi,<br/>Oh&nbsp;! ce nom est si merveilleux&nbsp;!<br/>Sa beauté est sans pareille.<br/>Oh&nbsp;! ce nom est si merveilleux,<br/>Le nom de Jésus."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Tu n'as pas voulu les cieux sans nous,<br/>Alors, Jésus, tu es venu.<br/>Ton amour a vaincu mon péché,<br/>Rien ne peut nous séparer."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Oh&nbsp;! ce nom est si glorieux&nbsp;!&nbsp;(bis)<br/>Le nom de Jésus-Christ mon Roi,<br/>Oh&nbsp;! ce nom est si glorieux&nbsp;!<br/>Sa beauté est sans pareille.<br/>Oh&nbsp;! ce nom est si glorieux,<br/>Le nom de Jésus."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "PONT<br/>La terre a tremblé,<br/>Le voile s'est déchiré,<br/>Désarmant la mort et le péché.<br/>Les cieux chantent ta gloire,<br/>L'écho de ta victoire,<br/>Car tu es le Roi ressuscité.<br/><br/>Tu es sans rival,<br/>Tu es sans égal.<br/>Dieu, tu triomphes à tout jamais.<br/>À toi soit le règne,<br/>À toi soit la gloire,<br/>Ton nom surpasse tout autre nom."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "Oh&nbsp;! ce nom est victorieux&nbsp;!&nbsp;(bis)<br/>Le nom de Jésus-Christ mon Roi,<br/>Oh&nbsp;! ce nom est victorieux&nbsp;!<br/>Sa puissance est sans pareille.<br/>Oh&nbsp;! ce nom est victorieux,<br/>Le nom de Jésus."
+    }
+  ]
+},
+{
+  "id": "lumiere-du-monde-et-me-voici-pour-louer-light-of-the-world",
+  "title": "Lumière du monde - Et me voici pour louer - Light of the World",
+  "rating": "JEM 788",
+  "writer": "Tim Hughes",
+  "composer": "Tim Hughes",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Lumière du monde venue dans l'obscurité,<br/>Tu m'ouvres les yeux et je vois<br/>Tant de beauté que mon cœur ému t'adore&nbsp;;<br/>Je sais que ma vie est en toi."
+    },
+    {
+      "type": "chorus",
+      "text": "Et me voici pour louer, me voici à tes pieds,<br/>Me voici pour dire: «&nbsp;Tu es mon Dieu.&nbsp;»<br/>Car tout en toi est beauté, tout en toi est grandeur,<br/>Tout en toi est merveilleux pour moi."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Roi éternel, élevé au-dessus de tout,<br/>Ta gloire resplendit dans le ciel.<br/>Tu es venu humblement sur cette terre,<br/>Tu t'es donné par amour."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "PONT<br/>Je ne pourrais imaginer<br/>Le prix payé pour mon péché."
+    }
+  ]
+},
+{
+  "id": "abba-pere-collectif-cieux-ouverts",
+  "title": "Abba Père (Collectif Cieux Ouverts)",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Bien avant le chant qui créa l'univers<br/>Bien avant l'Esprit qui planait sur la Terre<br/>Bien avant que tu me formes de la poussière<br/>Tu rêvais du jour ou Tu pourrais m'aimer<br/><br/>Bien avant les premiers battements de mon cœur <br/>Bien avant que je m'éveille à Ta douceur <br/>Bien avant mes doutes, mes joies et mes douleurs <br/>Tu rêvais du jour ou je pourrais T'aimer &nbsp;(bis)"
+    },
+    {
+      "type": "chorus",
+      "text": "Abba Père, je suis à Toi"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Bien avant que Jésus marche sur la Terre <br/>Bien avant le Fils qui nous montre le Père <br/>Bien avant que les cieux sur moi soient ouverts <br/>Tu rêvais du jour ou Tu pourrais m'aimer <br/><br/>Bien avant que mon péché brise Ton cœur <br/>Bien avant que coulent le sang et la sueur <br/>Bien avant les clous, le froid, et la douleur <br/>Tu rêvais du jour ou je pourrais T'aimer&nbsp;(bis)"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "PONT<br/>Abba Père, je suis émerveillé<br/>Saisi par l'immensité de Ton amour pour moi<br/>Abba Père, si grande est ta tendresse <br/>Ton cœur est grand ouvert, et je viens plonger dans Tes bras "
+    }
+  ]
+},
+{
+  "id": "pour-bruler-le-monde-anuncio",
+  "title": "Pour brûler le monde (Anuncio)",
+  "publisher": "Rejoyce",
+  "writer": "Aurélien Joos, Sandra Joos",
+  "composer": "Aurélien Joos, Sandra Joos",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Tant de cris, tant de misère<br/>Vois notre monde qui se perd, qui se noie,<br/>Mais qui croit au pouvoir de l'or<br/>La voix s'élève dans le désert<br/>Elle parle au nom de la lumière<br/>Mais ici on préfère le pouvoir de la mort"
+    },
+    {
+      "type": "chorus",
+      "text": "Seigneur entend le cri de ma prière monter vers ton cœur<br/>Jésus répands sur nous le feu du ciel pour embraser la terre<br/>Pour brûler le monde, brûler le monde<br/><br/>Brûler le monde, embraser<br/>Réchauffer les cœurs, illuminer<br/>Envoie ton feu Seigneur"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Un seul chemin, un seul emblème<br/>Une seule réponse, un seul baptême<br/>Pour que l'eau et le feu descendent du ciel<br/>Les yeux fermés le voile se lève<br/>Le cœur transpercé il appelle<br/>Il attend le retour de ces hommes qui se perdent"
+    }
+  ]
+},
+{
+  "id": "viens-esprit-saint-ruah-shalom",
+  "title": "Viens esprit saint - Ruah (Shalom)",
+  "publisher": "Communauté Shalom",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "Viens, Esprit Saint,<br/>remplis les cœurs de Tes fidèles<br/>Et embrase-les du feu de Ton amour<br/>Envoie Ton Saint Esprit et tout sera recrée<br/>Et Tu renouvelleras la face de la terre."
+    },
+    {
+      "type": "chorus",
+      "text": "Ruah&nbsp;! Ruah&nbsp;!"
+    }
+  ]
+},
+{
+  "id": "sauve-ton-peuple",
+  "title": "Sauve ton peuple",
+  "rating": "IEV 22-21",
+  "publisher": "Communauté de l'Emmanuel",
+  "writer": "Communauté de l'Emmanuel (A. Fleury)",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Sauve ton peuple, accorde ta grâce,<br/>Nous chanterons ta miséricorde&nbsp;!<br/>Sauve ton peuple, accorde ta grâce,<br/>Allélu-Alléluia&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "1 - Bienheureux ceux qui prient et qui pleurent,<br/>Ton amour vient consoler leurs cœurs.<br/>Bienheureux les petits et les pauvres,<br/>Le Royaume des cieux est à eux&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Heureux ceux qui ont soif de justice,<br/>Ils seront abreuvés de l'Esprit.<br/>Bienheureux sont les cœurs doux, les cœurs purs,<br/>Ils auront ta terre en héritage&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "3 - Bienheureux sont les artisans de paix,<br/>Ils seront appelés fils de Dieu.<br/>Bienheureux ceux qui souffrent pour ton nom,<br/>Tu les combleras de tes bienfaits&nbsp;!"
+    }
+  ]
+},
+{
+  "id": "celebrez-la-douceur-de-son-nom",
+  "title": "Célébrez la douceur de son nom",
+  "rating": "IEV 19-09",
+  "publisher": "Communauté de l'Emmanuel",
+  "writer": "Communauté de l'Emmanuel (B. Carraud)",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Louez le nom du Seigneur&nbsp;!<br/>Louez, serviteurs du Seigneur&nbsp;!<br/>Louez-le car il est bon&nbsp;!<br/>Célébrez la douceur de son nom&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "1 - Venez, crions de joie, pour le Seigneur&nbsp;;<br/>Acclamons le Rocher, Dieu de notre Salut<br/>Approchons-nous de lui, chantons pour lui&nbsp;!<br/>Au son des instruments, jouons pour notre Roi&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Il est grand, il est bon notre Seigneur.<br/>Par-dessus tous les dieux, il domine les cieux<br/>Il est Roi tout-puissant, Dieu créateur,<br/>L'univers tout entier ses mains l'ont façonné."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Entrez, inclinez-vous, prosternez-vous.<br/>Adorons le Seigneur, c'est lui qui nous a faits.<br/>Oui, il est notre Dieu, il nous conduit&nbsp;;<br/>En ses mains sont nos vies et nous sommes à lui&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "4 - Accueillons sa Parole, écoutons-la&nbsp;:<br/>Ne fermons pas nos cœurs, et méditons sa loi.<br/>Dieu de fidélité, reste avec nous&nbsp;!<br/>Affermis notre foi, nous espérons en toi&nbsp;!"
+    }
+  ]
+},
+{
+  "id": "christ-est-la-lumiere-light-of-all-the-earth",
+  "title": "Christ est la lumière (Light Of All The Earth)",
+  "rating": "JEM1057",
+  "publisher": "Resistance",
+  "writer": "Matt Marvane et Paul Baloche",
+  "composer": "Matt Marvane et Paul Baloche",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Quittant la gloire de ton ciel, tu es venu sur terre.<br/>Fils aimé du Dieu éternel, tes bras tu as ouverts.<br/>Ta grâce a bouleversé, le cours de notre humanité.<br/>Nous crions ensemble&nbsp;: «&nbsp;Victoire&nbsp;!&nbsp;»"
+    },
+    {
+      "type": "chorus",
+      "text": "Christ est la lumière du monde.<br/>Que sa gloire couvre la terre,<br/>Puissance infinie qui libère.<br/>Son nom est saint, il est saint, il est saint."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Nous, les fils et les filles du Roi, entonnons chaque jour<br/>Un hymne de gloire et de joie, célébrant son amour.<br/>Les nations de la terre s'inclineront devant le Père,<br/>Chanteront ensemble&nbsp;: «&nbsp;Victoire&nbsp;!&nbsp;»"
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "PONT<br/>Son nom est saint (son nom est saint)<br/>Il est saint&nbsp;(x4)"
+    }
+  ]
+},
+{
+  "id": "dansons-ensemble",
+  "title": "Dansons ensemble",
+  "publisher": "Béatitudes Musique",
+  "writer": "Communauté des béatitudes",
+  "composer": "Jean-Charles Edouard",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Poussons ensemble des cris d'allégresse<br/>devant notre Dieu<br/>Dansons ensemble d'amour et d'ivresse<br/>du vin nouveau."
+    },
+    {
+      "type": "verse",
+      "text": "1 - Il a fait des merveilles pour toi<br/>Il a changé ta tristesse en joie<br/>Il a proclamé l'année de grâce<br/>et il t'a libéré de tes chaînes."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Il t'a fait boire le vin du royaume<br/>Il a fait jaillir l'eau du désert<br/>Il veut te recouvrir de sa gloire<br/>Il veut te couronner de sa joie."
+    }
+  ]
+},
+{
+  "id": "glorifie-le-seigneur",
+  "title": "Glorifie le seigneur",
+  "publisher": "Communauté de l'Emmanuel",
+  "writer": "Communauté de l'Emmanuel (M. Poisbeau)",
+  "composer": "Communauté de l'Emmanuel (M. Poisbeau)",
+  "lyrics": [
+    {
+      "type": "chorus",
+      "text": "Glorifie le Seigneur, glorifie son nom<br/>Et célèbre ton Dieu, lui, le roi des cieux&nbsp;!<br/>Glorifie le Seigneur et acclame ton roi, hosanna&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "1 - Louange à toi, ô Créateur,<br/>Maître et Seigneur de l'univers&nbsp;!<br/>Tu fis pour nous la mer et les flots,<br/>La terre entière et tous ses biens."
+    },
+    {
+      "type": "verse",
+      "text": "2 - Qui peut monter vers les hauteurs<br/>Et se tenir dans le lieu saint&nbsp;?<br/>L'homme aux mains pures, au cœur innocent&nbsp;:<br/>Dieu le reçoit et le bénit."
+    },
+    {
+      "type": "verse",
+      "text": "3 - Guide nos cœurs sur tes sentiers,<br/>Dieu de justice et de bonté.<br/>Voici ton peuple en marche vers toi,<br/>Lui qui te cherche en vérité."
+    },
+    {
+      "type": "chorus",
+      "sticky": false,
+      "text": "PONT<br/>Ouvrez-vous, ouvrez vos cœurs&nbsp;:<br/>Voici le roi, voici le Dieu fort&nbsp;!&nbsp;(bis)<br/>Viens, Seigneur,<br/>Viens transformer nos vies&nbsp;!"
+    }
+  ]
+},
+{
   "id": "salve-regina",
   "title": "Salve Regina",
   "lyrics": [
@@ -3919,8 +4482,8 @@
     ]
   },
   {
-    "id": "awesome-god-hillsong",
-    "title": "Awesome God (Hillsong)",
+    "id": "our-god-is-an-awesome-god-hillsong",
+    "title": "Our god is an awesome God (Hillsong)",
     "composer": "Hillsong",
     "lyrics": [
       {

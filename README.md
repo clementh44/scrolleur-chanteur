@@ -1393,8 +1393,35 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Totus tuus IEV 16-16 EDIT15-72
 ```
 
-##### Dernière version
 **09/07/2023 v4.24.3**
 ```
   + Salve Regina
+```
+
+##### Dernière version
+**19/07/2023 v4.24.4**
+```
+  + Glorifie le seigneur
+  + Dansons ensemble
+  + Christ est la lumière (Light Of All The Earth) JEM1057
+  + Célébrez la douceur de son nom IEV 19-09
+  + Sauve ton peuple IEV 22-21
+  + Viens esprit saint - Ruah (Shalom)
+  + Pour brûler le monde (Anuncio)
+  + Abba Père (Collectif Cieux Ouverts)
+  + Lumière du monde - Et me voici pour louer - Light of the World JEM 788
+  + Ce Nom si merveilleux - O ce nom est si merveilleux - Beautiful Name JEM 1079
+  + Ta majesté (Glorious)
+  + Tu viens pour moi (Glorious)
+  + Je bénirai (Glorious)
+  + Car Dieu est un Dieu puissant - Our God is a awesome God JEM 385
+  + À toi puissance et gloire A29-45 Y29-45
+  + Criez de joie, pauvres de cœur IEV 15-11 EDIT159
+  + Hymne des chérubins
+  + Père saint IEV 15-43 EDIT15-60
+  + Chez nous soyez Reine
+  + Ô Mère bien aimée
+  + Tu es bénie, ô Marie EDIT25-10
+  + Marie, douce lumière
+  + J'attendrai (Glorious)
 ```
