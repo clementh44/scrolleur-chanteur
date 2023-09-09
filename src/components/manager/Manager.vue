@@ -694,7 +694,7 @@ export default {
     // PLAYLIST
     addElement: function (el) {
       if (!this.playlist.find((element) => element.id == el.id)) {
-        this.playlist.push(el)
+        this.playlist.push(JSON.parse(JSON.stringify(el)))
       }
     },
     // PARTITION

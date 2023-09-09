@@ -1435,6 +1435,8 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Je t'exalte ô roi mon Dieu
     À ce monde que tu fais
 
+    chant du répertoire et chant de la playlist indépendant
+
   + Dieu Très-Haut qui fais merveille C127-1 Y127-1
   + Qui donc est Dieu ? L82-2 MP82-2
   + Vers toi, terre promise E18 GA18
