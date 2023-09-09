@@ -1431,4 +1431,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Correction(s) :
     Gloria (Messe de Lourdes)
+
+  + Dieu Très-Haut qui fais merveille C127-1 Y127-1
+  + Qui donc est Dieu ? L82-2 MP82-2
+  + Vers toi, terre promise E18 GA18
+  + Réveille les sources de l'eau vive G548
+  + Source d'espérance K240
 ```

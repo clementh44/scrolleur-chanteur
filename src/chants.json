@@ -1,5 +1,165 @@
 [
 {
+"id": "source-desperance",
+"title": "Source d'espérance",
+"rating": "K240",
+"publisher": "Studio SM",
+"writer": "Claude Bernard",
+"composer": "Jo Akepsimas",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Source d'Espérance, fais jaillir la vie&nbsp;!<br/>Dieu qui nous devances, fais lever l'Esprit&nbsp;!<br/>Jeunesse au cœur du monde, Dieu notre avenir&nbsp;!<br/>Tendresse au cœur du monde, Dieu notre avenir&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "1 - Pour des œuvres de lumière<br/>Ton amour nous a créés.<br/>Gloire à toi, créateur&nbsp;! Gloire à toi, Dieu sauveur&nbsp;!<br/>Dans nos mains fleurit la terre que toi-même a façonnée.<br/>Créateurs avec toi, messagers de ta joie&nbsp;!<br/>Par Jésus tu nous éclaires, le vieux monde est rénové."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Pour des œuvres de justice<br/>Tu demeures à nos côtés.<br/>Gloire à toi, créateur&nbsp;! Gloire à toi, Dieu sauveur&nbsp;!<br/>Nous luttons en hommes libres, défenseurs des opprimés,<br/>Créateurs avec toi, messagers de ta joie&nbsp;!<br/>Par Jésus tu nous inspires de vrais gestes pour la paix."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Dans les œuvres de patience,<br/>Tu éprouves notre foi.<br/>Gloire à toi, créateur&nbsp;! Gloire à toi, Dieu sauveur&nbsp;!<br/>Face au vent de la violence pourrons-nous porter la croix&nbsp;?<br/>Créateurs avec toi, messagers de ta joie&nbsp;!<br/>Par Jésus tu nous devances, il connaît tous nos pourquoi."
+  },
+  {
+    "type": "verse",
+    "text": "4 - Pour des œuvres de partage<br/>Tu nous donnes un cœur nouveau.<br/>Gloire à toi, créateur! Gloire à toi, Dieu sauveur&nbsp;!<br/>Ton Esprit nous mène au large, il nous sort des mondes clos.<br/>Créateurs avec toi, messagers de ta joie&nbsp;!<br/>Par Jésus tu nous arraches à la nuit de nos tombeaux."
+  },
+  {
+    "type": "verse",
+    "text": "5 - Pour des œuvres qui rassemblent<br/>Fais de nous des envoyés.<br/>Gloire à toi, créateur! Gloire à toi, Dieu sauveur&nbsp;!<br/>Dans le peuple de l'Alliance nous serons les ouvriers,<br/>Créateurs avec toi, messagers de ta joie&nbsp;!<br/>Par Jésus ta ressemblance nous vivrons dans l'unité&nbsp;!"
+  }
+]
+},
+{
+"id": "reveille-les-sources-de-leau-vive",
+"title": "Réveille les sources de l'eau vive",
+"rating": "G548",
+"publisher": "Studio SM",
+"writer": "Michel Scouarnec",
+"composer": "Jo Akepsimas",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Réveille les sources de l'eau vive<br/>qui dorment dans nos cœurs,<br/>toi, Jésus qui nous délivres,<br/>toi, le don de Dieu&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "1 - Au passant sur la route<br/>Tu demandes un verre d'eau<br/>TOI, LA SOURCE DE LA VIE."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Au passant sur la route<br/>Tu demandes un mot d'espoir<br/>TOI PAROLE QUI LIBERES."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Au passant sur la route<br/>Tu demandes une lumière<br/>TOI SOLEIL DE VERITE"
+  },
+  {
+    "type": "verse",
+    "text": "4 - Au passant sur la route<br/>Tu demandes une amitié<br/>TOI L'AMOUR VENU DU PERE"
+  },
+  {
+    "type": "verse",
+    "text": "5 - Au passant sur la route<br/>Tu demandes un peu de pain<br/>TOI FESTIN DES AFFAMES"
+  },
+  {
+    "type": "verse",
+    "text": "6 - Au passant sur la route<br/>Tu demandes un cri de joie<br/>TOI JESUS RESSUSCITE"
+  }
+]
+},
+{
+"id": "vers-toi-terre-promise",
+"title": "Vers toi, terre promise",
+"rating": "E18",
+"newrating": "GA18",
+"publisher": "Fleurus",
+"writer": "David Julien",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Vers toi, Terre promise,<br/>Il tourne son cœur et sa foi.<br/>Vers toi, Terre promise,<br/>Il marche malgré les combats.<br/>Vers toi, Terre promise, Vers toi&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "1 - Le peuple de Dieu qui se traîne<br/>À travers l'immense désert,<br/>A fui esclavage et la haine&nbsp;;<br/>Il s'avance sous un ciel clair.<br/>Il va vers la terre lointaine<br/>Que son Dieu promit aux anciens.<br/>Où se guériront toutes peines.<br/>Dans un monde calme et serein."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Courbés sous le poids des misères.<br/>Tous les peuples marchent aussi&nbsp;;<br/>Ils cherchent la joie, la lumière,<br/>Ils ont soif d'un monde infini.<br/>Où donc est la Terre promise<br/>Qui ne peut tromper leur espoir&nbsp;?<br/>Oui, c'est leur entrée dans l'Église<br/>Qu'ils poursuivent sans le savoir."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Les chaînes du vieil esclavage<br/>Sont rompues par notre Sauveur.<br/>Et nous poursuivons ce voyage<br/>Vers un autre monde meilleur.<br/>Le Ciel et la Terre éternelle<br/>Où la mort nous introduira.<br/>Si nous savons suivre, fidèles,<br/>Le Seigneur qui nous ouvrira."
+  }
+]
+},
+{
+"id": "qui-donc-est-dieu",
+"title": "Qui donc est Dieu ?",
+"rating": "L82-2",
+"newrating": "MP82-2",
+"publisher": "Mame Le C",
+"writer": "Jean-Pierre Servel",
+"composer": "Claude Rozier/Michel Wackenheim",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Qui donc est Dieu, pour nous aimer ainsi&nbsp;?"
+  },
+  {
+    "type": "verse",
+    "text": "1 - Qui donc est Dieu pour nous aimer ainsi, fils de la terre&nbsp;?&nbsp;<strong>R\\</strong><br/>Qui donc est Dieu si démuni si grand si vulnérable&nbsp;?&nbsp;<strong>R\\</strong>"
+  },
+  {
+    "type": "verse",
+    "text": "2 - Qui donc est Dieu pour se lier d'amour à part égale&nbsp;?&nbsp;<strong>R\\</strong><br/>Qui donc est Dieu s'il faut pour le trouver un cœur de pauvre&nbsp;?&nbsp;<strong>R\\</strong>"
+  },
+  {
+    "type": "verse",
+    "text": "3 - Qui donc est Dieu, s'il vient à nos cotés prendre nos routes&nbsp;?&nbsp;<strong>R\\</strong><br/>Qui donc est Dieu, qui vient sans perdre cœur à notre table&nbsp;?&nbsp;<strong>R\\</strong>"
+  },
+  {
+    "type": "verse",
+    "text": "4 - Qui donc est Dieu, que nul ne peut aimer s'il n'aime l'homme&nbsp;?&nbsp;<strong>R\\</strong><br/>Qui donc est Dieu, qu'on peut si fort blesser en blessant l'homme&nbsp;?&nbsp;<strong>R\\</strong>"
+  },
+  {
+    "type": "verse",
+    "text": "5 - Qui donc est Dieu pour se livrer perdant aux mains de l'homme&nbsp;?&nbsp;<strong>R\\</strong><br/>Qui donc est Dieu, qui pleure notre mal comme une mère&nbsp;?&nbsp;<strong>R\\</strong>"
+  },
+  {
+    "type": "verse",
+    "text": "6 - Qui donc est Dieu, qui tire de sa mort notre naissance&nbsp;?&nbsp;<strong>R\\</strong><br/>Qui donc est Dieu pour nous ouvrir sa joie et son royaume&nbsp;?&nbsp;<strong>R\\</strong>"
+  }
+]
+},
+{
+  "id": "dieu-tres-haut-qui-fais-merveille",
+  "title": "Dieu Très-Haut qui fais merveille",
+  "rating": "C127-1",
+  "newrating": "Y127-1",
+  "publisher": "Fleurus",
+  "writer": "CFC (Commission Francophone Cistércienne)",
+  "composer": "Joseph Gelineau",
+  "lyrics": [
+    {
+      "type": "verse",
+      "text": "1 - Dieu Très-Haut qui fais merveille, Béni soit ton Nom&nbsp;!<br/>Dieu vivant qui fais largesse, Béni soit ton Nom&nbsp;!<br/>Comme au ciel t'adorent les anges<br/>Et sans fin te chantent louange,<br/>Aussi prions sur la terre&nbsp;: Béni soit ton Nom&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "2 - Dieu vainqueur de nos ténèbres, Béni soit ton Nom&nbsp;!<br/>Dieu penché sur nos faiblesses, Béni soit ton Nom&nbsp;!<br/>Ton amour est notre espérance,<br/>Ta bonté nous rend l'innocence,<br/>De toi seul nous vient la lumière&nbsp;: Béni soit ton Nom&nbsp;!"
+    },
+    {
+      "type": "verse",
+      "text": "3 - Dieu très saint qui nous libères, Béni soit ton Nom&nbsp;!<br/>Dieu fidèle en tes promesses, Béni soit ton Nom&nbsp;!<br/>Ton Eglise adore en silence<br/>Et proclame la délivrance,<br/>De nos cœurs monte une prière&nbsp;: Béni soit ton Nom&nbsp;!"
+    }
+  ]
+},
+{
   "id": "jattendrai-glorious",
   "title": "J'attendrai (Glorious)",
   "publisher": "Glorious Pop Edition",
