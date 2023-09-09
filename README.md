@@ -1425,3 +1425,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Marie, douce lumière
   + J'attendrai (Glorious)
 ```
+
+##### Dernière version
+**09/09/2023 v4.24.5**
+```
+  Correction(s) :
+    Gloria (Messe de Lourdes)
+```
