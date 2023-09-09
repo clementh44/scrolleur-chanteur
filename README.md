@@ -1431,6 +1431,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Correction(s) :
     Gloria (Messe de Lourdes)
+    Tu as porté celui qui porte tout
+    Je t'exalte ô roi mon Dieu
+    À ce monde que tu fais
 
   + Dieu Très-Haut qui fais merveille C127-1 Y127-1
   + Qui donc est Dieu ? L82-2 MP82-2
