@@ -66,6 +66,7 @@
   },
   {
     "type": "chorus",
+    "sticky": false,
     "text": "PONT<br/>Si notre Dieu est pour nous<br/>Qui pourra nous arrêter&nbsp;?<br/>Et, si Dieu est avec nous,<br/>Qui sera contre nous&nbsp;?"
   }
 ]
@@ -158,10 +159,6 @@
   {
     "type": "verse",
     "text": "2 - Seigneur, tu me conduis dans ta présence,<br/>De la nuit dans l'éclat de ta puissance.<br/>Par ton sang, je prends part à ta sainteté.<br/>Sonde-moi, mes ténèbres, consume-les.<br/>Brille sur moi, brille sur moi."
-  },
-  {
-    "type": "chorus",
-    "text": "Brille, ô Jésus, couvre ce pays de ta gloire,<br/>Brûle, Esprit-Saint embrase nos cœurs,<br/>Coule en torrent,<br/>De ta grâce remplis les nations,<br/>Parle, Seigneur. Que la lumière soit&nbsp;!"
   },
   {
     "type": "verse",
