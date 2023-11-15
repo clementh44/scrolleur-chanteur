@@ -1426,7 +1426,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + J'attendrai (Glorious)
 ```
 
-##### Dernière version
 **09/09/2023 v4.24.5**
 ```
   Correction(s) :
@@ -1442,4 +1441,18 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Vers toi, terre promise E18 GA18
   + Réveille les sources de l'eau vive G548
   + Source d'espérance K240
+```
+
+##### Dernière version
+**15/11/2023 v4.24.6**
+```
+  + Dieu de l'Univers, Dieu saint DEV47-29
+  + Laissons entrer le Roi de gloire JEM1097
+  + Seigneur, par la clarté - Brille, ô Jésus (Lord, the light of your love - Shine Jesus shine) JEM495
+  + Barukh ha ba be shem Adonai ASA352
+  + Nous n'aurons pas de répit (We Will Give Ourselves no Rest) ASA299
+  + Lumière de la joie ALG1402
+  + Notre Dieu (Our God) JEM951
+  + Célébrez l'Éternel JEM661
+  + Victoire, alléluia
 ```

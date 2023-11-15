@@ -1,5 +1,234 @@
 [
 {
+"id": "victoire-alleluia",
+"title": "Victoire, alléluia",
+"publisher": "Communauté du Chemin Neuf",
+"writer": "Renouveau Côte d'Ivoire",
+"composer": "Renouveau Côte d'Ivoire",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "Victoire, alléluia&nbsp;! Chantons, crions de joie&nbsp;!<br/>Jésus Christ est sorti du tombeau."
+  },
+  {
+    "type": "chorus",
+    "text": "Galilée, Galilée, Galilée,<br/>je viens de la Galilée,<br/>Jésus m'a chargé d'annoncer à tous mes frères<br/>qu'il est ressuscité."
+  },
+  {
+    "type": "verse",
+    "text": "Jésus, je t'aime tant, tu m'as donne la vie c'est<br/>pourquoi je veux être ton témoin."
+  }
+]
+},
+{
+"id": "celebrez-leternel",
+"title": "Célébrez l'Éternel",
+"rating": "JEM661",
+"publisher": "Sylvain Freymond",
+"writer": "Sylvain Freymond",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Célébrez l'Éternel,<br/>Habitants de la terre.<br/>Vous, tous les peuples et les nations,<br/>Réjouissez-vous en lui."
+  },
+  {
+    "type": "verse",
+    "text": "1 - Ensemble nous disons<br/>La grandeur du Seigneur.<br/>Il est bon pour Israël.<br/>Joignez-vous à moi pour l'adorer&nbsp;;<br/>C'est le seul Sauveur."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Il a montré au monde<br/>Sa puissance éternelle,<br/>Son savoir et son pouvoir.<br/>Tout ce qu'il a fait est merveilleux&nbsp;;<br/>Il n'a pas changé&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "3 - La louange sur nos lèvres<br/>Et l'épée dans nos mains,<br/>Poussons des cris de triomphe.<br/>Acclamons le Roi et proclamons:<br/>«&nbsp;Il est le Dieu fort&nbsp;!&nbsp;»"
+  }
+]
+},
+{
+"id": "notre-dieu-our-god",
+"title": "Notre Dieu (Our God)",
+"rating": "JEM951",
+"publisher": "Kingswaysongs.com/Thankyou/LTC",
+"writer": "Matt Redman, Jonas Myrin, Chris Tomlin, Jesse Reeves",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Tu as changé l'eau en vin,<br/>Ouvert les yeux par ta main.<br/>Nul n'est comme toi, comme toi&nbsp;!<br/>Dans nos ténèbres tu brilles,<br/>Nous revenons à la vie.<br/>Nul n'est comme toi, comme toi&nbsp;!"
+  },
+  {
+    "type": "chorus",
+    "text": "Dieu est le plus grand,<br/>Dieu est le plus fort&nbsp;;<br/>Dieu, tu es bien au-dessus de tout autre.<br/>Notre Dieu guérit&nbsp;;<br/>Puissant, il agit,<br/>Oh&nbsp;! Dieu, notre Dieu&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "2 - Tu as changé l'eau en vin,<br/>Ouvert les yeux par ta main.<br/>Nul n'est comme toi, comme toi&nbsp;!<br/>Dans nos ténèbres tu brilles,<br/>Nous revenons à la vie.<br/>Nul n'est comme toi, comme toi&nbsp;!"
+  },
+  {
+    "type": "chorus",
+    "text": "PONT<br/>Si notre Dieu est pour nous<br/>Qui pourra nous arrêter&nbsp;?<br/>Et, si Dieu est avec nous,<br/>Qui sera contre nous&nbsp;?"
+  }
+]
+},
+{
+"id": "lumiere-de-la-joie",
+"title": "Lumière de la joie",
+"rating": "ALG1402",
+"publisher": "Éditions de l'Emmanuel",
+"writer": "Alexis Fleury",
+"composer": "Alexis Fleury",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Viens, Seigneur, ne tarde plus, illumine les vallées de la mort.&nbsp;(bis)<br/>Viens, Seigneur, ne tarde plus, revêts-moi tout entier de ta force.&nbsp;(bis)"
+  },
+  {
+    "type": "chorus",
+    "text": "Étends ton bras puissant, ton amour me soutient,<br/>Je ne peux trébucher car je suis dans ta main."
+  },
+  {
+    "type": "chorus",
+    "text": "Fais briller sur moi la lumière de la joie, Seigneur&nbsp;!<br/>Fais briller sur moi la lumière de la joie."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Viens, Seigneur, ne tarde plus, guide-moi sur le juste chemin.&nbsp;(bis)<br/>Viens, Seigneur, ne tarde plus, mène-moi aux sources du salut.&nbsp;(bis)"
+  }
+]
+},
+{
+"id": "nous-naurons-pas-de-repit-we-will-give-ourselves-no-rest",
+"title": "Nous n'aurons pas de répit (We Will Give Ourselves no Rest)",
+"rating": "ASA299",
+"publisher": "Kingsway Thankyou Music / LTC",
+"writer": "Matt Redman",
+"composer": "Matt Redman",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "Nous n'aurons pas de répit<br/>En attendant ton royaume&nbsp;;<br/>Tu as mis des gardes sur les murs.<br/>Nous répandons nos prières<br/>En accord avec ton cœur&nbsp;;<br/>Dieu du ciel, nous tombons à genoux."
+  },
+  {
+    "type": "verse",
+    "text": "Descends avec force, révèle-nous ton cœur.<br/>Entends nos cris, nous implorons la pluie."
+  },
+  {
+    "type": "chorus",
+    "text": "Nous frappons, frappons à la porte du ciel.<br/>Nous pleurons, pleurons pour cette génération.<br/>Nous prions que ton nom soit connu sur toute la terre.<br/><br/>Nous guettons, guettons sur les murs ta venue.<br/>Nous semons, semons toujours ta parole<br/>Et nous prions pour qu'elle porte du fruit sur toute la terre,<br/>Sur toute la terre."
+  }
+]
+},
+{
+"id": "barukh-ha-ba-be-shem-adonai-abba",
+"title": "Barukh ha ba be shem Adonai",
+"rating": "ASA352",
+"publisher": "Collectif Béatitudes",
+"writer": "Collectif Béatitudes",
+"composer": "Marie-Liesse Bigot",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Baruch ha ba be Shem Adonaï,<br/>Baruch ha ba Ben David."
+  },
+  {
+    "type": "chorus",
+    "text": "Hoshanna (Hosanna)"
+  },
+  {
+    "type": "verse",
+    "text": "2 - Béni soit Celui qui vient<br/>Au nom du Seigneur."
+  }
+]
+},
+{
+"id": "seigneur-par-la-clarte-brille-o-jesus-lord-the-light-of-your-love-shine-jesus-shine",
+"title": "Seigneur, par la clarté - Brille, ô Jésus (Lord, the light of your love - Shine Jesus shine)",
+"rating": "JEM495",
+"publisher": "Make Way Music/LTC",
+"writer": "Graham Kendrick",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Seigneur, par la clarté de ton amour,<br/>Chasse l'obscurité qui nous entoure.<br/>Jésus, toi la lumière qui nous éclaires,<br/>Vérité qui nous guides et qui nous libères,<br/>Brille sur moi, brille sur moi."
+  },
+  {
+    "type": "chorus",
+    "text": "Brille, ô Jésus, couvre ce pays de ta gloire,<br/>Brûle, Esprit-Saint embrase nos cœurs,<br/>Coule en torrent,<br/>De ta grâce remplis les nations,<br/>Parle, Seigneur. Que la lumière soit&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "2 - Seigneur, tu me conduis dans ta présence,<br/>De la nuit dans l'éclat de ta puissance.<br/>Par ton sang, je prends part à ta sainteté.<br/>Sonde-moi, mes ténèbres, consume-les.<br/>Brille sur moi, brille sur moi."
+  },
+  {
+    "type": "chorus",
+    "text": "Brille, ô Jésus, couvre ce pays de ta gloire,<br/>Brûle, Esprit-Saint embrase nos cœurs,<br/>Coule en torrent,<br/>De ta grâce remplis les nations,<br/>Parle, Seigneur. Que la lumière soit&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "3 - Et quand nous contemplons ta royauté,<br/>Nos visages reflètent ta beauté.<br/>Et transformés sans cesse de gloire en gloire,<br/>Que sans fin notre vie dise ton histoire.<br/>Brille sur moi, brille sur moi."
+  }
+]
+},
+{
+"id": "laissons-entrer-le-roi-de-gloire",
+"title": "Laissons entrer le Roi de gloire",
+"rating": "JEM1097",
+"writer": "Dan Luiten et Jérémie Poulet",
+"composer": "Dan Luiten et Jérémie Poulet",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Nous venons célébrer Dieu,<br/>Nous voulons l'adorer.<br/>Devant lui, nous nous courbons<br/>Pour élever son nom."
+  },
+  {
+    "type": "chorus",
+    "text": "Laissons entrer le Roi de gloire,<br/>Acclamons le Dieu de victoire.<br/>Il est vainqueur, faisons-lui place.<br/>Il est Roi, il est Roi et Seigneur."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Dieu est là, il nous attend.<br/>Il entend nos prières.<br/>Sa parole est éternelle<br/>Elle est notre essentiel."
+  },
+  {
+    "type": "chorus",
+    "sticky": false,
+    "text": "PONT<br/>Accueillons notre Dieu,<br/>Il est le Merveilleux,<br/>Glorieux, Majestueux."
+  }
+]
+},
+{
+"id": "dieu-de-lunivers-dieu-saint",
+"title": "Dieu de l'Univers, Dieu saint",
+"rating": "DEV47-29",
+"publisher": "Edition de l'Emmanuel",
+"writer": "Communauté de l'Emmanuel",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Dieu de l'univers, Dieu saint&nbsp;!<br/>Du haut des cieux, regarde et vois ton peuple.<br/>Jamais plus nous n'irons loin de toi,<br/>Fais-nous vivre<br/>Pour te chanter sans fin&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "1 - Nous étions dans la nuit,<br/>Aveugles et asservis,<br/>Ta main nous libère.<br/>En prenant nos fardeaux,<br/>Par la croix de ton Fils,<br/>Tu nous as sauvés."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Seigneur, Dieu d'Abraham,<br/>Tu te révèles à nous.<br/>Tu crées une alliance,<br/>Tu nous donnes la vie,<br/>Promesse du salut<br/>Dans le Christ Jésus&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "3 - Seigneur, Dieu de Moïse,<br/>Tu dévoiles ton nom,<br/>Nous te rendons grâce.<br/>Tu es juste, Seigneur,<br/>Vraiment pure est ta loi,<br/>Chemin du salut."
+  },
+  {
+    "type": "verse",
+    "text": "4 - Tu rejoins les petits,<br/>Abaissé jusqu'à nous,<br/>Prenant nos faiblesses.<br/>Tu nous donnes de vivre,<br/>Fils enfin retrouvés,<br/>Dans la joie du Père."
+  },
+  {
+    "type": "verse",
+    "text": "5 - Dieu d'amour infini,<br/>Ton peuple rassemblé<br/>Célèbre ta gloire.<br/>Tu te livres en nos mains,<br/>Donnant ta vie pour nous,<br/>Sois notre secours."
+  }
+]
+},
+{
 "id": "source-desperance",
 "title": "Source d'espérance",
 "rating": "K240",
