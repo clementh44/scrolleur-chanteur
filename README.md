@@ -1443,7 +1443,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Source d'espérance K240
 ```
 
-##### Dernière version
 **15/11/2023 v4.24.6**
 ```
   + Dieu de l'Univers, Dieu saint DEV47-29
@@ -1455,4 +1454,16 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Notre Dieu (Our God) JEM951
   + Célébrez l'Éternel JEM661
   + Victoire, alléluia
+```
+
+##### Dernière version
+**15/11/2023 v4.24.7**
+```
+  + (Messe de San Lorenzo) Kyrie AL595 07-41-01
+  + (Messe de San Lorenzo) Gloria AL595
+  + (Messe de San Lorenzo) Alleluia AL595 07-41-03
+  + (Messe de San Lorenzo) Sanctus AL595 07-41-04
+  + (Messe de San Lorenzo) Anamnèse AL595 07-41-05
+  + (Messe de San Lorenzo) Agnus Dui AL595 07-41-04
+  + L'Esprit et l'épouse JEM869
 ```

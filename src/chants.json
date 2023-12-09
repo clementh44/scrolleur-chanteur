@@ -19245,5 +19245,167 @@
         "text": "2 - Gloire à toi, pain de Dieu pour notre marche,<br/>Gloire à toi, notre force aujourd'hui&nbsp;!"
       }
     ]
+  },
+  {
+    "id": "messe-1-de-san-lorenzo-kyrie",
+    "title": "(Messe de San Lorenzo) Kyrie",
+    "rating": "AL595",
+    "newrating": "07-41-01",
+    "publisher": "L'Emmanuel",
+    "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
+    "composer": "Charles-Eric Hauguel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Kyrie eleison&nbsp;(x3)"
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Christe eleison&nbsp;(x3)"
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Kyrie eleison&nbsp;(x3)"
+      }
+    ]
+  },
+  {
+    "id": "messe-2-de-san-lorenzo-gloria",
+    "title": "(Messe de San Lorenzo) Gloria",
+    "rating": "AL595",
+    "publisher": "L'Emmanuel",
+    "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
+    "composer": "Charles-Eric Hauguel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Gloria, gloria, in excelsis Deo&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-3-de-san-lorenzo-alleluia",
+    "title": "(Messe de San Lorenzo) Alleluia",
+    "rating": "AL595",
+    "newrating": "07-41-03",
+    "publisher": "L'Emmanuel",
+    "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
+    "composer": "Charles-Eric Hauguel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Alléluia, Alléluia, Alléluia&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-5-de-san-lorenzo-sanctus",
+    "title": "(Messe de San Lorenzo) Sanctus",
+    "rating": "AL595",
+    "newrating": "07-41-04",
+    "publisher": "L'Emmanuel",
+    "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
+    "composer": "Charles-Eric Hauguel",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Sanctus, Sanctus, Dominus, Sanctus, Sanctus Dominus, Deus sabaoth&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "1 - Pleni sunt coeli et terra gloria tua."
+      },
+      {
+        "type": "chorus",
+        "text": "Hosanna, hosanna, in excelsis&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Benedictus qui venit in nomine Domini."
+      }
+    ]
+  },
+  {
+    "id": "messe-6-de-san-lorenzo-anamnese",
+    "title": "(Messe de San Lorenzo) Anamnèse",
+    "rating": "AL595",
+    "newrating": "07-41-05",
+    "publisher": "L'Emmanuel",
+    "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
+    "composer": "Charles-Eric Hauguel",
+    "lyrics": [
+      {
+        "type": "translation",
+        "text": "Il est grand le mystère de la foi."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Nous proclamons ta mort, Seigneur Jésus,<br/>nous célébrons ta résurrection,<br/>nous attendons ta venue dans la gloire."
+      },
+      {
+        "type": "translation",
+        "show": false,
+        "text": "Mysterium fidei."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "show": false,
+        "text": "Mortem tua annunciamus Domine,<br/>et tuam resurrectionem confitemur,<br/>donec venias."
+      }
+    ]
+  },
+  {
+    "id": "messe-de-san-lorenzo-agnus-dui",
+    "title": "(Messe de San Lorenzo) Agnus Dui",
+    "rating": "AL595",
+    "newrating": "07-41-04",
+    "publisher": "L'Emmanuel",
+    "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
+    "composer": "Charles-Eric Hauguel",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Agnus Dei qui tolis peccata mundi<br/>miserere nobis, miserere nobis."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Agnus Dei qui tolis peccata mundi<br/>miserere nobis, miserere nobis."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Agnus Dei qui tolis peccata mundi<br/>dona nobis pacem, dona nobis pacem."
+      }
+    ]
+  },
+  {
+    "id": "lesprit-et-lepouse",
+    "title": "L'Esprit et l'épouse",
+    "rating": "JEM869",
+    "writer": "Corinne Lafitte",
+    "composer": "Corinne Lafitte",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "Il y aura en divers endroits<br/>Des tremblements de terre.<br/>Vous entendrez parler de guerre<br/>Et de bruits de guerre.<br/>Lorsque vous verrez ces choses arriver,<br/>Gardez-vous d'être troublés.<br/>Relevez la tête, votre délivrance approche."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "L'Esprit et l'épouse disent&nbsp;: viens&nbsp;!<br/>Que celui qui entend dise&nbsp;: viens&nbsp;!<br/>Que celui qui a soif vienne aussi.<br/>Que celui qui le veut prenne<br/>L'eau de la vie gratuitement."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Amen, amen, viens bientôt Seigneur Jésus."
+      }
+    ]
   }
 ]
