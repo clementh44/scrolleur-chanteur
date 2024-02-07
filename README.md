@@ -1456,7 +1456,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Victoire, alléluia
 ```
 
-##### Dernière version
 **15/11/2023 v4.24.7**
 ```
   + (Messe de San Lorenzo) Kyrie AL595 07-41-01
@@ -1466,4 +1465,14 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe de San Lorenzo) Anamnèse AL595 07-41-05
   + (Messe de San Lorenzo) Agnus Dui AL595 07-41-04
   + L'Esprit et l'épouse JEM869
+```
+
+##### Dernière version
+**07/02/2024 v4.24.8**
+```
+  Correction(s) :
+    Ne crains pas
+    Me voici vers Toi
+    Sanctus - Messe Saint François-Xavier
+    "homme" / "Homme"
 ```
