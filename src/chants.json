@@ -1,5 +1,65 @@
 [
 {
+"id": "a-vous-den-etre-les-temoins-kerygma-2023",
+"title": "À vous d'en être les témoins (Kerygma 2023)",
+"writer": "Christophe Sperissen",
+"composer": "Philippe Tailleux",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "À vous d'en être les témoins&nbsp;:<br/>Christ est Vivant il est Ressuscité&nbsp;! <br/>À vous d'en être les témoins,<br/>Ici chez vous et dans le monde entier&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "1 - Comme Marie femme de foi,<br/>Servant son Dieu le créateur<br/>Entrez dans le chant de sa joie<br/>À votre tour ouvrez vos cœurs."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Comme Joseph dans son sommeil<br/>Perçoit la voix de l'envoyé<br/>Sortez c'est Dieu qui vous réveille<br/>Il fait de vous ses messagers."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Comme les mages en chemin<br/>Visitent l'enfant nouveau-né<br/>Adorez-le, voici enﬁn<br/>Le Fils de Dieu tant espéré."
+  },
+  {
+    "type": "verse",
+    "text": "4 - Comme la femme vient au puits<br/>Pour y puiser l'eau en secret<br/>Hâtez-vous, criez c'est bien lui<br/>Le Messie, prince de la paix."
+  },
+  {
+    "type": "verse",
+    "text": "5 - Comme l'aveugle qui mendie<br/>Un peu d'amour pour exister<br/>Appelez-le pour que vos cris<br/>Touchent son cœur de bon berger."
+  },
+  {
+    "type": "verse",
+    "text": "6 - Comme Matthieu voit ce regard<br/>Sur lui se poser sans mépris<br/>Approchez même s'il est tard<br/>Il vient vous sortir de vos nuits."
+  },
+  {
+    "type": "verse",
+    "text": "7 - Comme Marie de grand matin<br/>Etonnée d'entendre sa voix<br/>Ecoutez Celui qui soudain<br/>Vous donne la vie par sa croix."
+  },
+  {
+    "type": "verse",
+    "text": "8 - Comme les siens désemparés<br/>Reclus dans la maison fermée<br/>Recevez le feu annoncé<br/>Courez, vous êtes messagers."
+  },
+  {
+    "type": "verse",
+    "text": "9 - Comme les saints de tous pays<br/>Offrant leur vie pour témoigner<br/>Accueillez sa joie, Il vous dit:<br/>\"Semez des mots d'éternité\"."
+  },
+  {
+    "type": "verse",
+    "text": "10 - Comme vos frères baptisés<br/>Rassemblés pour le célébrer<br/>Partagez le pain consacré<br/>De sa Parole vous vivrez."
+  },
+  {
+    "type": "verse",
+    "text": "11 - Comme disciples de Jésus<br/>Servant vos frères patiemment<br/>Recherchez la voie du Salut<br/>Offert aux hommes de tout temps."
+  },
+  {
+    "type": "verse",
+    "text": "12 - Comme l'Eglise dans la foi<br/>Attend le retour du Seigneur<br/>Patientez, certains que le Roi,<br/>Ressuscité, est le vainqueur."
+  }
+]
+},
+{
 "id": "pange-lingua",
 "title": "Pange lingua",
 "rating": "EDIT15-59",

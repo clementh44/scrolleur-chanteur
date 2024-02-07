@@ -1484,4 +1484,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Habiter le seuil de ta maison, Seigneur E22-11 EDIT626
   + Magnificat
   + Pange lingua EDIT15-59 IEV 14-34
+  + À vous d'en être les témoins (Kerygma 2023)
 ```
