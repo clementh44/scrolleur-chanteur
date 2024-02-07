@@ -1475,4 +1475,13 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Me voici vers Toi
     Sanctus - Messe Saint François-Xavier
     "homme" / "Homme"
+
+  + Ave Maria
+  + À toi, Seigneur
+  + Dieu notre Père, voici le pain B57-30
+  + Éclate de joie
+  + Goûtez et voyez D68-45 IEV 21-06
+  + Habiter le seuil de ta maison, Seigneur E22-11 EDIT626
+  + Magnificat
+  + Pange lingua EDIT15-59 IEV 14-34
 ```

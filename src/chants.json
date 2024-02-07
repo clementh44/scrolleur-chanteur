@@ -1,5 +1,233 @@
 [
 {
+"id": "pange-lingua",
+"title": "Pange lingua",
+"rating": "EDIT15-59",
+"newrating": "IEV 14-34",
+"publisher": "L'Emmanuel",
+"writer": "Liturgie Romaine",
+"composer": "Communauté de l'Emmanuel",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Pange, lingua, gloriosi corporis mysterium,<br/>Sanguinisque pretiosi, quem in mundi pretium<br/>Fructus ventris generosi rex effudit gentium."
+  },
+  {
+    "type": "chorus",
+    "text": "Jésus, Jésus, nous t'adorons, ô Jésus."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Nobis datus, nobis natus ex intacta Virgine<br/>Et in mundo conversatus, sparso verbi semine,<br/>Sui moras incolatus miro clausit ordine."
+  },
+  {
+    "type": "verse",
+    "text": "3 - In supremæ nocte cenæ recumbens cum fratribus,<br/>Observata lege plene cibis in legalibus,<br/>Cibum turbæ duodenæ se dat suis manibus."
+  },
+  {
+    "type": "verse",
+    "text": "4 - Verbum caro, panem verum verbo carnem efficit&nbsp;;<br/>Fitque sanguis Christi merum, et,si sensus deficit,<br/>Ad firmandum cor sincerum sola fides sufficit."
+  },
+  {
+    "type": "verse",
+    "text": "5 - Tantum ergo sacramentum veneremur cernui,<br/>Et antiquum documentum novo cedat ritui&nbsp;;<br/>Præstet fides supplementum sensuum defectui."
+  },
+  {
+    "type": "verse",
+    "text": "6 - Genitori Genitoque laus et jubilatio,<br/>Salus, honor, virtus quoque sit et benedictio&nbsp;;<br/>Procedenti ab utroque compar sit laudatio. Amen."
+  },
+  {
+    "type": "translation",
+    "text": "Chante, ô ma langue, le mystère de ce corps très glorieux<br/>Et de ce sang si précieux que le Roi de nations<br/>Issu d'une noble lignée versa pour le prix de ce monde.<br/><br/>Fils d'une mère toujours vierge né pour nous, à nous donné,<br/>Et dans ce monde ayant vécu, verbe en semence semé,<br/>Il conclut son temps d'ici-bas par une action incomparable&nbsp;:<br/><br/>La nuit de la dernière Cène, à table avec ses amis,<br/>Ayant pleinement observé l a Pâque selon la loi,<br/>De ses propres mains il s'offrit en nourriture aux douze Apôtres.<br/><br/>Le Verbe fait chair, par son verbe, fait de sa chair le vrai pain;<br/>Le sang du Christ devient boisson; Nos sens étant limités,<br/>C'est la foi seule qui suffit pour affermir les cœurs sincères.<br/><br/>Il est si grand, ce sacrement&nbsp;! adorons-le, prosternés.<br/>Que s'effacent les anciens rites devant le culte nouveau&nbsp;!<br/>Que la foi vienne suppléer aux faiblesses de nos sens&nbsp;!<br/><br/>Au Père et au Fils qu'il engendre, louange et joie débordante,<br/>Salut, honneur, toute-puissance et toujours bénédiction&nbsp;!<br/>À l'Esprit qui des deux procède soit rendue même louange. Amen."
+  }
+]
+},
+{
+"id": "magnificat",
+"title": "Magnificat",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "Mon âme exalte le Seigneur,<br/>exulte mon esprit en Dieu, mon Sauveur&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "Il s'est penché sur son humble servante&nbsp;;<br/>désormais, tous les âges me diront bienheureuse."
+  },
+  {
+    "type": "verse",
+    "text": "Le Puissant fit pour moi des merveilles&nbsp;;<br/>Saint est son nom&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "Son amour s'étend d'âge en âge<br/>sur ceux qui le craignent."
+  },
+  {
+    "type": "verse",
+    "text": "Déployant la force de son bras,<br/>il disperse les superbes."
+  },
+  {
+    "type": "verse",
+    "text": "Il renverse les puissants de leurs trônes,<br/>il élève les humbles."
+  },
+  {
+    "type": "verse",
+    "text": "Il comble de biens les affamés,<br/>renvoie les riches les mains vides."
+  },
+  {
+    "type": "verse",
+    "text": "Il relève Israël son serviteur,<br/>il se souvient de son amour,"
+  },
+  {
+    "type": "verse",
+    "text": "de la promesse faite à nos pères,<br/>en faveur d'Abraham et de sa race, à jamais."
+  },
+  {
+    "type": "verse",
+    "text": "Gloire au Père, et au Fils, et au Saint-Esprit,<br/>pour les siècles des siècles. Amen."
+  }
+]
+},
+{
+"id": "habiter-le-seuil-de-ta-maison-seigneur",
+"title": "Habiter le seuil de ta maison, Seigneur",
+"rating": "E22-11",
+"newrating": "EDIT626",
+"publisher": "Artemas",
+"writer": "Communauté du Chemin Neuf",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Habiter le seuil de ta maison, Seigneur,<br/>Guetter le temps de ton retour.<br/>Comme un veilleur guette le jour,<br/>Rester dans l'amour de ton nom."
+  },
+  {
+    "type": "verse",
+    "text": "1 - Veiller pour être prêt<br/>Le jour où tu viendras,<br/>Préparer ton retour.<br/>Viens, Seigneur, le monde a tant besoin de toi."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Veiller en espérant<br/>Que se lève le jour,<br/>Annoncer ton retour.<br/>Viens, Seigneur, le monde a tant besoin de toi."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Veiller pour accueillir<br/>La promesse donnée,<br/>Témoigner de ce jour.<br/>Viens, Seigneur, le monde a tant besoin de toi."
+  },
+  {
+    "type": "verse",
+    "text": "4 - Veiller pour accomplir<br/>Les œuvres de l'amour,<br/>Connaître ton retour.<br/>Viens, Seigneur, le monde a tant besoin de toi."
+  }
+]
+},
+{
+"id": "goutez-et-voyez",
+"title": "Goûtez et voyez",
+"rating": "D68-45",
+"newrating": "IEV 21-06",
+"publisher": "L'Emmanuel",
+"writer": "Étienne Durier",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Goûtez et voyez comme est bon notre Seigneur,<br/>Recevez Jésus, livré pour le Salut.<br/>Devenez le temple saint du Christ Ressuscité,<br/>Devenez le temple saint,<br/>Demeure du Sauveur."
+  },
+  {
+    "type": "verse",
+    "text": "1 - Par ton corps livré, tu prends sur toi la faute,<br/>Par ton sang versé, tu laves nos péchés,<br/>Par ton cœur blessé, d'où jaillit le Salut,<br/>Tu nous as rachetés."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Jésus, pain du ciel, tu descends dans le monde,<br/>Dieu parmi les siens, mystère de l'amour,<br/>Tu te rends présent, livré entre nos mains,<br/>Près de nous pour toujours."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Seigneur, tu nous offres, en ce banquet de Noces,<br/>Le vin de l'alliance et le pain de la Vie,<br/>Nous vivons en toi, comme tu vis en nous,<br/>Un seul corps dans l'Esprit."
+  },
+  {
+    "type": "verse",
+    "text": "4 - En te recevant, nous devenons l'Église,<br/>Peuple racheté, prémices du Salut.<br/>Par ta charité, tu rassembles en un corps<br/>Les enfants dispersés."
+  },
+  {
+    "type": "verse",
+    "text": "5 - Qu'il est grand, Seigneur, l'amour dont tu nous aimes,<br/>Tu te livres à nous en cette Eucharistie,<br/>Sommet de l'amour, don de la Trinité,<br/>Tu te fais pain de Vie."
+  }
+]
+},
+{
+"id": "eclate-de-joie",
+"title": "Éclate de joie",
+"publisher": "Chemin Neuf",
+"writer": "Communauté du Chemin Neuf",
+"composer": "Communauté du Chemin Neuf",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Éclate de joie, fille de Sion,<br/>Et tu verras ton roi danser pour toi.<br/>Éclate de joie, fille de Sion,<br/>Et ton Roi dansera tout autour de toi."
+  },
+  {
+    "type": "verse",
+    "text": "1 - Élargis ta tente, à droite et à gauche,<br/>Étends tes cordages, mets-toi plus au large.<br/>Fais-moi de la place au fond de ton cœur,<br/>Et je vais venir, tu n'auras plus peur."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Perdue dans tes doutes, je t'avais laissée,<br/>Mais vois je suis là, pour te consoler.<br/>Jamais plus les fleuves ne t'emporteront,<br/>Jamais mon visage ne sera caché."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Jamais les collines ne s'éloigneront,<br/>Jamais les montagnes ne chancelleront.<br/>Jamais ma tendresse ne te manquera,<br/>Ne t'inquiète pas, je suis avec toi."
+  }
+]
+},
+{
+"id": "dieu-notre-pere-voici-le-pain",
+"title": "Dieu notre Père, voici le pain",
+"rating": "B57-30",
+"publisher": "BAYARD-LITURGIE",
+"writer": "Notebaert Grégory",
+"composer": "Notebaert Grégory",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Dieu notre Père, voici le pain.<br/>Dieu notre Père, voici le vin.<br/>Pour ces offrandes, fruits de la terre,<br/>béni sois-tu, Dieu créateur.<br/>Sur cet autel, voici nos vies,<br/>vin du Royaume, pain de la vie."
+  }
+]
+},
+{
+"id": "a-toi-seigneur",
+"title": "À toi, Seigneur",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - À toi, Seigneur, à toi notre louange,<br/>nous rendons grâce à ton immense amour.<br/>Voici nos cœurs, ils chantent l'espérance<br/>que nous vivrons avec toi pour toujours."
+  },
+  {
+    "type": "chorus",
+    "text": "Mon cœur exulte en Dieu notre sauveur,<br/>il est la joie de mon salut.<br/>Je veux chanter le Dieu de mon amour.<br/>Alleluia, alleluia&nbsp;(bis)."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Nous partageons le pain de ta tendresse,<br/>signe d'amour et signe d'unité.<br/>Ton corps, Seigneur, est notre nourriture,<br/>le pain rompu pour le monde nouveau."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Quand vient le soir, quand viennent les ténèbres,<br/>reste avec nous, éclaire nos chemins.<br/>Partage-nous le pain qui donne force,<br/>embrase-nous au feu de ton amour."
+  },
+  {
+    "type": "verse",
+    "text": "4 - Ouvre nos cœurs aux cris de tous nos frères<br/>qui dans la nuit te cherchent en pleurant.<br/>Que dans nos vies rayonne ta lumière<br/>qui rend gloire au Père tout puissant."
+  }
+]
+},
+{
+"id": "ave-maria",
+"title": "Ave Maria",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "Ave Maria, gratia plena<br/>Dominus tecum<br/>Benedicta tu in mulieribus&nbsp;;<br/>Et benedictus fructus ventris tui, Jesus&nbsp;!<br/>Sancta Maria, Mater Dei,<br/>Ora pro nobis, peccatoribus,<br/>Nunc, et in ora mortis nostræ.<br/>Amen"
+  }
+]
+},
+{
 "id": "victoire-alleluia",
 "title": "Victoire, alléluia",
 "publisher": "Communauté du Chemin Neuf",
