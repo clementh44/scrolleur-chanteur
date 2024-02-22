@@ -1467,7 +1467,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + L'Esprit et l'épouse JEM869
 ```
 
-##### Dernière version
 **07/02/2024 v4.24.8**
 ```
   Correction(s) :
@@ -1485,4 +1484,16 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Magnificat
   + Pange lingua EDIT15-59 IEV 14-34
   + À vous d'en être les témoins (Kerygma 2023)
+```
+
+##### Dernière version
+**22/02/2024 v4.24.9**
+```
+  Correction(s) :
+    À toi notre louange
+    côtes IEV
+
+  + Ave Maria de Lourdes V125 DEV71
+  + Emmène-moi vers le large
+  + Glorificamus Te IEV 18-10 EDIT18-33
 ```

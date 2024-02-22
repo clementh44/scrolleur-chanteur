@@ -1,5 +1,132 @@
 [
 {
+"id": "glorificamus-te",
+"title": "Glorificamus Te",
+"rating": "IEV 18-10",
+"newrating": "EDIT18-33",
+"publisher": "Éditions de l'Emmanuel",
+"writer": "Communauté de l'Emmanuel (Benjamin Pavageau)",
+"composer": "Communauté de l'Emmanuel (Benjamin Pavageau)",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Viens, Esprit de Dieu, et nous serons humbles et pauvres.<br/>Viens nous apprêter à hériter de ton Royaume.<br/>Viens nous fortifier dans la douleur et dans l'épreuve.<br/>Viens nous rassasier de ton eau vive."
+  },
+  {
+    "type": "chorus",
+    "text": "Veni Sancte Spiritus&nbsp;(x3)<br/>Glorificamus Te&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "2 - Viens, Esprit de Dieu, mettre ta paix dans la discorde.<br/>Viens nous serons doux, nous obtiendrons miséricorde.<br/>Viens et nous serons des artisans de paix sur terre.<br/>Viens donner la joie, qui vient du Père."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Viens, Esprit de Dieu, et sanctifie nos sacrifices.<br/>Viens nous soutenir dans nos combats pour la justice.<br/>Viens rends nos cœurs purs et nous verrons l'éclat du Père.<br/>Viens, éclaire-nous de sa lumière."
+  },
+  {
+    "type": "chorus",
+    "sticky": false,
+    "text": "PONT<br/>Deo Patri sit Gloria, <br/>Et Filio, qui a mortuis,<br/>Surrexit ac Paraclito<br/>In saeculorum saecula.<br/>Amen (x4)"
+  }
+]
+},
+{
+"id": "emmene-moi-vers-le-large",
+"title": "Emmène-moi vers le large",
+"publisher": "ADF-Musique",
+"writer": "Camille Devillers",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Il vient un jour<br/>Où l'on se dit&nbsp;:<br/>«&nbsp;Moi qui cherche l'amour,<br/>Où va ma vie&nbsp;?&nbsp;»<br/>J'ai tant besoin d'une flamme<br/>Qui me guide en pleine nuit<br/>Tu connais si bien mon âme<br/>Seigneur, fais-moi découvrir qui je suis."
+  },
+  {
+    "type": "chorus",
+    "text": "Emmène-moi vers le large<br/>Risquer ma vie avec Toi<br/>Je mettrai le cap sur d'autres rivages<br/>Malgré la tempête ou le calme plat<br/>Je mets ma confiance en Toi."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Tant de chemins<br/>Mènent à la Vie<br/>Il me faudra demain<br/>Avoir choisi<br/>Je porte en moi tant de doutes<br/>Comment faire le premier pas<br/>J'ai peur de prendre la route<br/>Seigneur, délivre mon cœur de ce poids."
+  },
+  {
+    "type": "verse",
+    "text": "3 - J'ouvre les yeux<br/>Sur mon parcours<br/>Pour y chercher le feu<br/>De ton amour<br/>Lorsque les vagues sont fortes<br/>Tu tiens la barre avec moi<br/>Les jours où le vent me porte<br/>Seigneur, tu souffles au plus profond de moi."
+  },
+  {
+    "type": "verse",
+    "text": "4 - J'entends ta voix<br/>Qui m'interpelle<br/>Tu me promets l'éclat<br/>D'une vie nouvelle<br/>Je t'offre ma soif de vivre<br/>Mes désirs seront les tiens<br/>Je fais le choix de te suivre<br/>Seigneur, aujourd'hui je crois en demain."
+  },
+  {
+    "type": "verse",
+    "text": "5 - Sous ton soleil<br/>Ma vie s'éclaire<br/>Je grandis, je m'éveille<br/>Tu me libères<br/>Comme un père, tu prends patience<br/>Lorsque parfois je m'égare<br/>Et malgré mon inconstance<br/>Seigneur, tu es au cœur de mon histoire."
+  }
+]
+},
+{
+"id": "ave-maria-de-lourdes",
+"title": "Ave Maria de Lourdes",
+"rating": "V125",
+"newrating": "DEV71",
+"publisher": "Lethielleux",
+"writer": "Maurice Le Bas",
+"composer": "Alexandre Lesbordes/Traditionnel/Daniel White",
+"lyrics": [
+  {
+    "type": "verse",
+    "text": "1 - Ô Vierge Marie<br/>Le peuple chrétien<br/>À Lourdes vous prie<br/>Chez vous il revient."
+  },
+  {
+    "type": "chorus",
+    "text": "Ave, ave, ave Maria.&nbsp;(bis)"
+  },
+  {
+    "type": "verse",
+    "text": "2 - Le fond de la roche<br/>S'éclaire à l'instant<br/>La Dame s'approche<br/>Fait signe à l'enfant."
+  },
+  {
+    "type": "verse",
+    "text": "3 - «&nbsp;Venez, je vous prie<br/>Ici, quinze fois<br/>Avec vos amies<br/>Entendre ma voix&nbsp;»."
+  },
+  {
+    "type": "verse",
+    "text": "4 - Avec insistance<br/>La Dame, trois fois<br/>A dit&nbsp;: «&nbsp;Pénitence&nbsp;».<br/>Chrétien, c¹est pour toi&nbsp;!"
+  },
+  {
+    "type": "verse",
+    "text": "5 - À cette fontaine<br/>Venez et buvez<br/>Dans l¹eau pure et sainte<br/>Allez vous laver."
+  },
+  {
+    "type": "verse",
+    "text": "6 - «&nbsp;Je veux qu'ici même<br/>Au pied de ces monts<br/>Le peuple que j'aime<br/>Vienne en procession."
+  },
+  {
+    "type": "verse",
+    "text": "7 - Et qu'une chapelle<br/>Bâtie en ce lieu<br/>Aux hommes rappelle<br/>Qu'il faut prier Dieu&nbsp;»."
+  },
+  {
+    "type": "verse",
+    "text": "8 - Marie est venue<br/>Chez nous dix-huit fois<br/>L'enfant qui l'a vue<br/>Est digne de foi."
+  },
+  {
+    "type": "verse",
+    "text": "9 - La grotte où l'on prie<br/>Dispense la paix<br/>C'est là que Marie<br/>Répand ses bienfaits."
+  },
+  {
+    "type": "verse",
+    "text": "10 - Aux grâces nouvelles<br/>Sachons obéir<br/>Car Dieu nous appelle<br/>À nous convertir."
+  },
+  {
+    "type": "verse",
+    "text": "11 - Le Dieu qui pardonne<br/>Absout le pécheur<br/>La grâce rayonne<br/>Au nom du Sauveur."
+  },
+  {
+    "type": "verse",
+    "text": "12 - À l'heure dernière<br/>Pour nous, les pécheurs<br/>Veuillez, Sainte Mère,<br/>Prier le Sauveur."
+  }
+]
+},
+{
 "id": "a-vous-den-etre-les-temoins-kerygma-2023",
 "title": "À vous d'en être les témoins (Kerygma 2023)",
 "writer": "Christophe Sperissen",
@@ -794,7 +921,7 @@
     },
     {
       "type": "verse",
-      "text": "4 - Gardez, ô Vierge pure,<br/>O Cœur doux entre tous,<br/>Nos âmes sans souillure,<br/>Nos cœurs vaillants et doux."
+      "text": "4 - Gardez, ô Vierge pure,<br/>Ô Cœur doux entre tous,<br/>Nos âmes sans souillure,<br/>Nos cœurs vaillants et doux."
     },
     {
       "type": "verse",
@@ -984,7 +1111,7 @@
 },
 {
   "id": "ce-nom-si-merveilleux-o-ce-nom-est-si-merveilleux-beautiful-name",
-  "title": "Ce Nom si merveilleux - O ce nom est si merveilleux - Beautiful Name",
+  "title": "Ce Nom si merveilleux - Ô ce nom est si merveilleux - Beautiful Name",
   "rating": "JEM 1079",
   "publisher": "Hillsong Publishing/Song Solutions CopyCare/LTC",
   "composer": "Ben Fielding et Brook Ligertwood",
@@ -1315,7 +1442,7 @@
     {
       "type": "chorus",
       "sticky": false,
-      "text": "O clémens, O pía, O dúlcis Vírgo María."
+      "text": "Ô clémens, Ô pía, Ô dúlcis Vírgo María."
     },
     {
       "type": "translation",
@@ -1344,7 +1471,7 @@
 {
   "id": "ave-maria-sois-notre-secours",
   "title": "Ave Maria sois notre secours",
-  "rating": "IEV&nbsp;: n°10-06",
+  "rating": "IEV 10-06",
   "composer": "Communauté de l'Emmanuel (P. Schneider / M. Wittal)",
   "lyrics": [
     {
@@ -1424,7 +1551,7 @@
   "lyrics": [
     {
       "type": "verse",
-      "text": "Grandes et merveilleuses sont toutes tes œuvres,<br/>O Seigneur, notre Dieu tout-puissant,<br/>Juste et véritable dans toute ta volonté,<br/>Toi le Roi éternel."
+      "text": "Grandes et merveilleuses sont toutes tes œuvres,<br/>Ô Seigneur, notre Dieu tout-puissant,<br/>Juste et véritable dans toute ta volonté,<br/>Toi le Roi éternel."
     },
     {
       "type": "verse",
@@ -1444,11 +1571,11 @@
   "lyrics": [
     {
       "type": "chorus",
-      "text": "A Toi notre louange, à Toi nos chants de joie&nbsp;:<br/>nous T'acclamons, Tu es Seigneur&nbsp;!<br/>Oui Toi seul es Saint, Toi le Roi des nations.<br/>Gloire et louange à Toi Seigneur&nbsp;!"
+      "text": "À Toi notre louange, à Toi nos chants de joie&nbsp;:<br/>nous T'acclamons, Tu es Seigneur&nbsp;!<br/>Oui Toi seul es Saint, Toi le Roi des nations.<br/>Gloire et louange à Toi Seigneur&nbsp;!"
     },
     {
       "type": "verse",
-      "text": "1 - Le salut, la puissance et la gloire à notre Dieu.<br/>Ses jugements sont justes et vrais, Alléluia!"
+      "text": "1 - Le salut, la puissance et la gloire à notre Dieu.<br/>Ses jugements sont justes et vrais, Alléluia&nbsp;!"
     },
     {
       "type": "verse",
@@ -1460,7 +1587,7 @@
     },
     {
       "type": "verse",
-      "text": "4 - Car elles sont venues les noces de l'Agneau,<br/>et son épouse est belle pour lui, Alléluia!"
+      "text": "4 - Car elles sont venues les noces de l'Agneau,<br/>et son épouse est belle pour lui, Alléluia&nbsp;!"
     },
     {
       "type": "verse",
@@ -1520,13 +1647,13 @@
 },
 {
   "id": "o-clemens-maria",
-  "title": "O clemens Maria",
+  "title": "Ô clemens Maria",
   "writer": "fr. David Perrin, op",
   "composer": "fr. Clément Binachon, o",
   "lyrics": [
     {
       "type": "chorus",
-      "text": "O clemens, o pia, o dulcis, Virgo Maria,<br/>Vita, dulcedo et spes nostra, salve&nbsp;!"
+      "text": "Ô clemens, o pia, o dulcis, Virgo Maria,<br/>Vita, dulcedo et spes nostra, salve&nbsp;!"
     },
     {
       "type": "translation",
@@ -1645,17 +1772,17 @@
   },
   {
     "id": "adoramus-te-o-christe-taize",
-    "title": "Adoramus te, O Christe (taizé)",
+    "title": "Adoramus te, Ô Christe (taizé)",
     "publisher": "Taizé",
     "composer": "Jacques Berthier",
     "lyrics": [
       {
         "type": "verse",
-        "text": "Oh Adoramus te O Christe."
+        "text": "Oh Adoramus te Ô Christe."
       },
       {
         "type": "translation",
-        "text": "Nous t'adorons, O Christ."
+        "text": "Nous t'adorons, Ô Christ."
       }
     ]
   },
@@ -1952,7 +2079,7 @@
   {
     "id": "louange-a-toi-o-christ",
     "title": "Louange à toi, ô Christ",
-    "rating": "IEV&nbsp;: N°17-40",
+    "rating": "IEV 17-40",
     "newrating": "EDIT15-99",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Communauté de l'Emmanuel (A. Fleury / A. Dumont)",
@@ -3052,11 +3179,11 @@
       },
       {
         "type": "verse",
-        "text": "1 - Jésus, parole de Dieu vivant,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!<br/>O Christ, lumière pour les peuples,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!"
+        "text": "1 - Jésus, parole de Dieu vivant,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!<br/>Ô Christ, lumière pour les peuples,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "2 - Jésus, visage du Dieu vivant<br/>GLOIRE ET LOUANGE A TOI&nbsp;!<br/>O Christ, tendresse pour les pauvres,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!"
+        "text": "2 - Jésus, visage du Dieu vivant<br/>GLOIRE ET LOUANGE A TOI&nbsp;!<br/>Ô Christ, tendresse pour les pauvres,<br/>GLOIRE ET LOUANGE A TOI&nbsp;!"
       }
     ]
   },
@@ -3575,7 +3702,7 @@
     "id": "viens-souffle-de-dieu",
     "title": "Viens, souffle de Dieu",
     "rating": "K59-28",
-    "newrating": "IEV&nbsp;: N°18-33",
+    "newrating": "IEV 18-33",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Communauté de l'Emmanuel (Géraldine Creaton)",
     "lyrics": [
@@ -3601,7 +3728,7 @@
     "id": "viens-esprit-tres-saint",
     "title": "Viens, Esprit très saint",
     "rating": "K35-30",
-    "newrating": "IEV&nbsp;: N°13-41",
+    "newrating": "IEV 13-41",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Communauté de l'Emmanuel (D.-M. David)/Communauté de l'Emmanuel (Louis-Etienne de Labarthe)",
     "lyrics": [
@@ -3626,7 +3753,7 @@
   {
     "id": "viens-esprit-de-dieu",
     "title": "Viens Esprit de Dieu",
-    "rating": "17-60",
+    "rating": "IEV 17-60",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "Communauté de l'Emmanuel (H.-R. Tiacoh)",
     "lyrics": [
@@ -3749,7 +3876,7 @@
   {
     "id": "viens-descends-des-cieux",
     "title": "Viens descends des cieux",
-    "rating": "18-32",
+    "rating": "IEV 18-32",
     "newrating": "EDIT18-40",
     "writer": "D'après le Veni Sancte Spiritus",
     "composer": "Communauté de l'Emmanuel (P. Martiu)",
@@ -3824,7 +3951,7 @@
       },
       {
         "type": "verse",
-        "text": "5 - Vivre d'Amour, c'est essuyer ta Face<br/>C'est obtenir des pécheurs le pardon<br/>O Dieu d'Amour&nbsp;! Qu'ils rentrent dans ta grâce<br/>Et qu'à jamais ils bénissent ton Nom…<br/>Jusqu'à mon cœur retentit le blasphème<br/>Pour l'effacer, je veux chanter toujours&nbsp;:<br/>«&nbsp;Ton Nom Sacré, je l'adore et je l'Aime<br/>Je vis d'Amour&nbsp;!&nbsp;»&nbsp;(bis)"
+        "text": "5 - Vivre d'Amour, c'est essuyer ta Face<br/>C'est obtenir des pécheurs le pardon<br/>Ô Dieu d'Amour&nbsp;! Qu'ils rentrent dans ta grâce<br/>Et qu'à jamais ils bénissent ton Nom…<br/>Jusqu'à mon cœur retentit le blasphème<br/>Pour l'effacer, je veux chanter toujours&nbsp;:<br/>«&nbsp;Ton Nom Sacré, je l'adore et je l'Aime<br/>Je vis d'Amour&nbsp;!&nbsp;»&nbsp;(bis)"
       },
       {
         "type": "verse",
@@ -3937,7 +4064,7 @@
   {
     "id": "nous-te-rendons-grace-psaume-63",
     "title": "Nous te rendons grâce (Psaume 63)",
-    "rating": "01-43",
+    "rating": "IEV 01-43",
     "newrating": "M58",
     "publisher": "Editions Emmanuel",
     "composer": "C.-E. Hauguel",
@@ -4135,7 +4262,7 @@
   {
     "id": "venez-a-moi-vous-qui-portez-un-fardeau",
     "title": "Venez à moi, vous qui portez un fardeau",
-    "rating": "IEV&nbsp;: N°16-17",
+    "rating": "IEV 16-17",
     "newrating": "EDIT15-74",
     "publisher": "Gemeinschaft Emmanuel/L'Emmanuel",
     "writer": "Communauté de l'Emmanuel (Markus Wittal)",
@@ -4246,7 +4373,7 @@
   },
   {
     "id": "o-eternel-garde-moi-mon-dieu",
-    "title": "O éternel (Garde-moi, mon Dieu)",
+    "title": "Ô éternel (Garde-moi, mon Dieu)",
     "rating": "C41-67 DEV240",
     "newrating": "08-15",
     "writer": "Communauté du Chemin Neuf (C. Brun)",
@@ -4270,7 +4397,7 @@
     "id": "garde-moi-mon-seigneur",
     "title": "Garde-moi mon Seigneur",
     "rating": "EDIT161",
-    "newrating": "IEV&nbsp;: N°15-15",
+    "newrating": "IEV 15-15",
     "lyrics": [
       {
         "type": "chorus",
@@ -4472,7 +4599,7 @@
   {
     "id": "pousse-des-cris-de-joie",
     "title": "Pousse des cris de joie",
-    "rating": "IEV&nbsp;: N°12-38",
+    "rating": "IEV 12-38",
     "publisher": "Edition de l'Emmanuel",
     "writer": "Communauté de l'Emmanuel",
     "lyrics": [
@@ -4518,7 +4645,7 @@
   {
     "id": "soyons-toujours-joyeux",
     "title": "Soyons toujours joyeux",
-    "rating": "04-62",
+    "rating": "IEV 04-62",
     "newrating": "C512",
     "publisher": "Editions de l'Emmanuel",
     "writer": "d'après 1 Thessaloniciens 5, 16 (refrain) et Psaume 64 (couplets)",
@@ -4656,7 +4783,7 @@
     "id": "au-matin-la-pierre-est-roulee",
     "title": "Au matin, la pierre est roulée",
     "rating": "EDIT157",
-    "newrating": "15-05",
+    "newrating": "IEV 15-05",
     "publisher": "Editions de l'Emmanuel",
     "writer": "André Fleury",
     "lyrics": [
@@ -4855,7 +4982,7 @@
     "lyrics": [
       {
         "type": "chorus",
-        "text": "O Jésus Sauveur, cœur brûlant d'amour,<br/>Nous te bénissons, toi la source de vie.<br/>Gloire à Toi, Seigneur,<br/>De ton sein jaillit le fleuve d'eau vive."
+        "text": "Ô Jésus Sauveur, cœur brûlant d'amour,<br/>Nous te bénissons, toi la source de vie.<br/>Gloire à Toi, Seigneur,<br/>De ton sein jaillit le fleuve d'eau vive."
       },
       {
         "type": "verse",
@@ -4908,7 +5035,7 @@
     "id": "gloire-a-toi-o-dieu-notre-pere",
     "title": "Gloire à toi, ô Dieu, notre Père",
     "rating": "M44-59",
-    "newrating": "IEV&nbsp;: N°14-12",
+    "newrating": "IEV 14-12",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Communauté de l'Emmanuel (Alexis Fleury)",
     "lyrics": [
@@ -5073,23 +5200,23 @@
     "lyrics": [
       {
         "type": "chorus",
-        "text": "Faites tout ce qu'il vous dira,<br/>O Marie apprends-nous à suivre Jésus Christ.<br/>Faites tout ce qu'il vous dira,<br/>O Marie aide-nous à vivre de l'Esprit."
+        "text": "Faites tout ce qu'il vous dira,<br/>Ô Marie apprends-nous à suivre Jésus Christ.<br/>Faites tout ce qu'il vous dira,<br/>Ô Marie aide-nous à vivre de l'Esprit."
       },
       {
         "type": "verse",
-        "text": "1 - O Marie, le Seigneur t'a choisie. O Marie, prie pour nous.<br/>Au projet de Dieu tu as dit oui. O Marie, prie pour nous.<br/>En ses mains tu as remis ta vie. O Marie, prie pour nous.<br/>Entre les femmes tu es bénie. O Marie, nous voici."
+        "text": "1 - Ô Marie, le Seigneur t'a choisie. Ô Marie, prie pour nous.<br/>Au projet de Dieu tu as dit oui. Ô Marie, prie pour nous.<br/>En ses mains tu as remis ta vie. Ô Marie, prie pour nous.<br/>Entre les femmes tu es bénie. Ô Marie, nous voici."
       },
       {
         "type": "verse",
-        "text": "2 - Quand nos vies sont guidées par la peur. O Marie, prie pour nous.<br/>Si le doute a envahi nos cœurs. O Marie, prie pour nous.<br/>Entoure-nous de ta tendre douceur. O Marie, prie pour nous.<br/>Remets-nous dans les bras du Seigneur. O Marie, nous voici."
+        "text": "2 - Quand nos vies sont guidées par la peur. Ô Marie, prie pour nous.<br/>Si le doute a envahi nos cœurs. Ô Marie, prie pour nous.<br/>Entoure-nous de ta tendre douceur. Ô Marie, prie pour nous.<br/>Remets-nous dans les bras du Seigneur. Ô Marie, nous voici."
       },
       {
         "type": "verse",
-        "text": "3 - L'Esprit Saint est descendu sur toi. O Marie, prie pour nous.<br/>De ton fils tu écoutes la voix. O Marie, prie pour nous.<br/>Mère aimante jusqu'au pied de la croix. O Marie, prie pour nous.<br/>Guide-nous, enseigne-nous ta foi. O Marie, nous voici."
+        "text": "3 - L'Esprit Saint est descendu sur toi. Ô Marie, prie pour nous.<br/>De ton fils tu écoutes la voix. Ô Marie, prie pour nous.<br/>Mère aimante jusqu'au pied de la croix. Ô Marie, prie pour nous.<br/>Guide-nous, enseigne-nous ta foi. Ô Marie, nous voici."
       },
       {
         "type": "verse",
-        "text": "4 - A Cana, tu montres le chemin. O Marie, prie pour nous.<br/>Chaque jour tu nous ouvres les mains. O Marie, prie pour nous.<br/>Ta tendresse, fruit d'un amour divin. O Marie, prie pour nous.<br/>Nous invite à un bonheur sans fin. O Marie, nous voici."
+        "text": "4 - A Cana, tu montres le chemin. Ô Marie, prie pour nous.<br/>Chaque jour tu nous ouvres les mains. Ô Marie, prie pour nous.<br/>Ta tendresse, fruit d'un amour divin. Ô Marie, prie pour nous.<br/>Nous invite à un bonheur sans fin. Ô Marie, nous voici."
       }
     ]
   },
@@ -5522,23 +5649,23 @@
       },
       {
         "type": "verse",
-        "text": "3 - Tu ouvres la fête de l'Esprit,<br/>Tu nous entraînes dans la danse mystique,<br/>O pâque de Dieu qui descend du ciel sur la terre,<br/>et qui de la terre remonte au ciel,<br/>En Toi la création tout entière<br/>s'assemble et se réjouit. Alleluia&nbsp;!"
+        "text": "3 - Tu ouvres la fête de l'Esprit,<br/>Tu nous entraînes dans la danse mystique,<br/>Ô pâque de Dieu qui descend du ciel sur la terre,<br/>et qui de la terre remonte au ciel,<br/>En Toi la création tout entière<br/>s'assemble et se réjouit. Alleluia&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "4 - O Joie de l'Univers,<br/>Festin de grâce&nbsp;!<br/>Tu dissipes les ténèbres de la mort,<br/>Tu ouvres les portes de la vie,<br/>En Toi les promesses sont accomplies,<br/>les chants sont rendus à la terre. Alleluia&nbsp;!"
+        "text": "4 - Ô Joie de l'Univers,<br/>Festin de grâce&nbsp;!<br/>Tu dissipes les ténèbres de la mort,<br/>Tu ouvres les portes de la vie,<br/>En Toi les promesses sont accomplies,<br/>les chants sont rendus à la terre. Alleluia&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "5 - O Pâque Noces de l'Agneau,<br/>Le Dieu du ciel vient s'unir à nous dans l'Esprit,<br/>L'immense salle des Noces<br/>est remplie de convives.<br/>Tous portent la robe nuptiale,<br/>Et nul n'est rejeté. Alleluia&nbsp;!"
+        "text": "5 - Ô Pâque Noces de l'Agneau,<br/>Le Dieu du ciel vient s'unir à nous dans l'Esprit,<br/>L'immense salle des Noces<br/>est remplie de convives.<br/>Tous portent la robe nuptiale,<br/>Et nul n'est rejeté. Alleluia&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "6 - O Pâque Nouvelle Clarté,<br/>Splendeur du cortège virginal,<br/>Chez tous le feu de la Grâce<br/>brûle dans le corps et dans l'Esprit,<br/>Les lampes ne s'éteindront plus,<br/>Car c'est l'huile du Christ qui brûle en elles. Alleluia&nbsp;!"
+        "text": "6 - Ô Pâque Nouvelle Clarté,<br/>Splendeur du cortège virginal,<br/>Chez tous le feu de la Grâce<br/>brûle dans le corps et dans l'Esprit,<br/>Les lampes ne s'éteindront plus,<br/>Car c'est l'huile du Christ qui brûle en elles. Alleluia&nbsp;!"
       },
       {
         "type": "verse",
-        "text": "7 - O Christ, Dieu Souverain, Roi dans l'Esprit,<br/>Étends les mains sur ton Église protège la du mal&nbsp;!<br/>Et donne-lui de pouvoir chanter avec Moïse<br/>Le chant triomphal,<br/>Car à Toi est la victoire,<br/>dans les siècles des siècles. Alleluia&nbsp;!"
+        "text": "7 - Ô Christ, Dieu Souverain, Roi dans l'Esprit,<br/>Étends les mains sur ton Église protège la du mal&nbsp;!<br/>Et donne-lui de pouvoir chanter avec Moïse<br/>Le chant triomphal,<br/>Car à Toi est la victoire,<br/>dans les siècles des siècles. Alleluia&nbsp;!"
       }
     ]
   },
@@ -6064,7 +6191,7 @@
       },
       {
         "type": "verse",
-        "text": "3 - Que je suis comblé quand tu m'appelles,<br/>O Seigneur qui m'as aimé&nbsp;(bis)<br/>De ta croix sans fin tu me regardes<br/>Et tu m'offres ton pardon.<br/>Que je suis comblé quand tu m'appelles,<br/>O Seigneur qui m'as aimé&nbsp;(bis)"
+        "text": "3 - Que je suis comblé quand tu m'appelles,<br/>Ô Seigneur qui m'as aimé&nbsp;(bis)<br/>De ta croix sans fin tu me regardes<br/>Et tu m'offres ton pardon.<br/>Que je suis comblé quand tu m'appelles,<br/>Ô Seigneur qui m'as aimé&nbsp;(bis)"
       },
       {
         "type": "verse",
@@ -7690,7 +7817,7 @@
       },
       {
         "type": "verse",
-        "text": "5 - Garde ma foi, Seigneur<br/>Tant de voix proclament ta mort.<br/>Quand vient le soir et le poids du jour,<br/>O Seigneur reste avec moi,<br/>O Seigneur reste avec moi."
+        "text": "5 - Garde ma foi, Seigneur<br/>Tant de voix proclament ta mort.<br/>Quand vient le soir et le poids du jour,<br/>Ô Seigneur reste avec moi,<br/>Ô Seigneur reste avec moi."
       }
     ]
   },
@@ -8269,7 +8396,7 @@
     "id": "alleluia-jesus-sauveur",
     "title": "Alléluia, Jésus sauveur",
     "rating": "T552",
-    "newrating": "11-05",
+    "newrating": "IEV 11-05",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Bernadette Mélois",
     "composer": "Gilles du Boullay",
@@ -8804,7 +8931,7 @@
       },
       {
         "type": "verse",
-        "text": "1 - Fermer les yeux pour tout quitter<br/>Et les ouvrir sur l'inconnu<br/>Vouloir donner son fils unique<br/>Etre témoin de la confiance."
+        "text": "1 - Fermer les yeux pour tout quitter<br/>Et les ouvrir sur l'inconnu<br/>Vouloir donner son fils unique<br/>Être témoin de la confiance."
       },
       {
         "type": "verse",
@@ -8828,7 +8955,7 @@
       },
       {
         "type": "verse",
-        "text": "7 - Etre attentif aux cris de l'Homme<br/>Accueillir le désir de Dieu<br/>Recevoir l'Esprit qui libère<br/>Témoin du \"oui\" offert à Dieu"
+        "text": "7 - Être attentif aux cris de l'Homme<br/>Accueillir le désir de Dieu<br/>Recevoir l'Esprit qui libère<br/>Témoin du \"oui\" offert à Dieu"
       },
       {
         "type": "verse",
@@ -10655,7 +10782,7 @@
       },
       {
         "type": "verse",
-        "text": "1 - O Fils de Dieu, ne tardez pas ;<br/>Par votre Corps donnez la joie<br/>À notre monde en désarroi.<br/>Redites-nous encore<br/>De quel amour vous nous aimez ;<br/>Tant d'Hommes vous ignorent&nbsp;!<br/>Venez, venez, venez&nbsp;!"
+        "text": "1 - Ô Fils de Dieu, ne tardez pas ;<br/>Par votre Corps donnez la joie<br/>À notre monde en désarroi.<br/>Redites-nous encore<br/>De quel amour vous nous aimez ;<br/>Tant d'Hommes vous ignorent&nbsp;!<br/>Venez, venez, venez&nbsp;!"
       },
       {
         "type": "verse",
@@ -10767,7 +10894,7 @@
       },
       {
         "type": "verse",
-        "text": "5 - Vous êtes toute pure<br/>O Mère de mon Dieu<br/>Intacte et sans souillure<br/>Plus belle que les cieux<br/>Noble parure<br/>Plus belle que les cieux."
+        "text": "5 - Vous êtes toute pure<br/>Ô Mère de mon Dieu<br/>Intacte et sans souillure<br/>Plus belle que les cieux<br/>Noble parure<br/>Plus belle que les cieux."
       }
     ]
   },
@@ -11440,7 +11567,7 @@
       },
       {
         "type": "verse",
-        "text": "4 - O Vierge immaculée, préservée du péché,<br/>en ton âme, en ton corps, tu entres dans les cieux.<br/>Emportée dans la gloire, sainte Reine des cieux,<br/>Tu nous accueilleras un jour auprès de Dieu."
+        "text": "4 - Ô Vierge immaculée, préservée du péché,<br/>en ton âme, en ton corps, tu entres dans les cieux.<br/>Emportée dans la gloire, sainte Reine des cieux,<br/>Tu nous accueilleras un jour auprès de Dieu."
       }
     ]
   },
@@ -11561,7 +11688,7 @@
   {
     "id": "glory-to-the-lord",
     "title": "Glory to the Lord",
-    "rating": "17-19",
+    "rating": "IEV 17-19",
     "newrating": "EDIT15-86",
     "publisher": "Editions De L'Emmanuel",
     "composer": "Communauté De L'Emmanuel",
@@ -11813,7 +11940,7 @@
       },
       {
         "type": "verse",
-        "text": "9 - O Jésus&nbsp;! O Roi tout-puissant<br/>Tout petit enfant que vous êtes,<br/>O Jésus&nbsp;! O Roi tout-puissant,<br/>Régnez sur nous entièrement&nbsp;!"
+        "text": "9 - Ô Jésus&nbsp;! Ô Roi tout-puissant<br/>Tout petit enfant que vous êtes,<br/>Ô Jésus&nbsp;! Ô Roi tout-puissant,<br/>Régnez sur nous entièrement&nbsp;!"
       }
     ]
   },
@@ -11843,7 +11970,7 @@
   {
     "id": "il-sest-manifeste",
     "title": "Il s'est manifesté",
-    "rating": "12-14",
+    "rating": "IEV 12-14",
     "publisher": "Editions De L'Emmanuel",
     "composer": "D.-M. David / L.-E. de Labarthe",
     "lyrics": [
@@ -11893,7 +12020,7 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "1 - Je n'ai d'autre désir que de t'appartenir,<br/>Etre à toi pour toujours, et livrée à l'amour.<br/>Je n'ai d'autre désir que de t'appartenir."
+        "text": "1 - Je n'ai d'autre désir que de t'appartenir,<br/>Être à toi pour toujours, et livrée à l'amour.<br/>Je n'ai d'autre désir que de t'appartenir."
       },
       {
         "type": "verse",
@@ -11905,7 +12032,7 @@
       },
       {
         "type": "verse",
-        "text": "4 - Je n'ai d'autre raison que l'amour de ton nom.<br/>Mon bonheur est de vivre, O Jésus, pour te suivre.<br/>Je n'ai d'autre raison que l'amour de ton nom."
+        "text": "4 - Je n'ai d'autre raison que l'amour de ton nom.<br/>Mon bonheur est de vivre, Ô Jésus, pour te suivre.<br/>Je n'ai d'autre raison que l'amour de ton nom."
       }
     ]
   },
@@ -12032,7 +12159,7 @@
   {
     "id": "je-veux-me-rejouir",
     "title": "Je veux me réjouir",
-    "rating": "24-08",
+    "rating": "IEV 24-08",
     "writer": "R. Koumba",
     "composer": "R. Koumba",
     "publisher": "Editions De L'Emmanuel",
@@ -12386,7 +12513,7 @@
       },
       {
         "type": "verse",
-        "text": "1 - O mon Dieu de vérité<br/>Je ne désire que Toi<br/>Je veux proclamer que tu es roi,<br/>Et Sauveur pour l'éternité."
+        "text": "1 - Ô mon Dieu de vérité<br/>Je ne désire que Toi<br/>Je veux proclamer que tu es roi,<br/>Et Sauveur pour l'éternité."
       },
       {
         "type": "verse",
@@ -12401,7 +12528,7 @@
   {
     "id": "mon-pere-je-mabandonne-a-toi",
     "title": "Mon Père, je m'abandonne à toi",
-    "rating": "14-30",
+    "rating": "IEV 14-30",
     "writer": "J.-F. Léost D'après Charles de Foucauld et sainte Thérèse de l'Enfant Jésus",
     "composer": "J.-F. Léost",
     "publisher": "Editions De L'Emmanuel",
@@ -12779,7 +12906,7 @@
     "lyrics": [
       {
         "type": "verse",
-        "text": "1 - Sans fin j'exulterai, pour toi je chanterai,<br/>O Dieu car tu es bon.<br/>Je danserai pour toi, tu es toute ma joie,<br/>O Dieu car tu es bon."
+        "text": "1 - Sans fin j'exulterai, pour toi je chanterai,<br/>Ô Dieu car tu es bon.<br/>Je danserai pour toi, tu es toute ma joie,<br/>Ô Dieu car tu es bon."
       },
       {
         "type": "chorus",
@@ -12787,19 +12914,19 @@
       },
       {
         "type": "verse",
-        "text": "2 - Nous recevons de toi la force de nos pas,<br/>O Dieu car tu es bon.<br/>Que craindre désormais, tu marches à nos côtés,<br/>O Dieu car tu es bon."
+        "text": "2 - Nous recevons de toi la force de nos pas,<br/>Ô Dieu car tu es bon.<br/>Que craindre désormais, tu marches à nos côtés,<br/>Ô Dieu car tu es bon."
       },
       {
         "type": "verse",
-        "text": "3 - Chacun est à tes yeux unique et merveilleux,<br/>O Dieu car tu es bon.<br/>Tu donnes chaque jour le Pain de ton amour,<br/>O Dieu car tu es bon."
+        "text": "3 - Chacun est à tes yeux unique et merveilleux,<br/>Ô Dieu car tu es bon.<br/>Tu donnes chaque jour le Pain de ton amour,<br/>Ô Dieu car tu es bon."
       },
       {
         "type": "verse",
-        "text": "4 - Que toutes les nations s'assemblent pour ton Nom,<br/>O Dieu car tu es bon.<br/>De toi vient toute paix, c'est toi notre unité,<br/>O Dieu car tu es bon."
+        "text": "4 - Que toutes les nations s'assemblent pour ton Nom,<br/>Ô Dieu car tu es bon.<br/>De toi vient toute paix, c'est toi notre unité,<br/>Ô Dieu car tu es bon."
       },
       {
         "type": "verse",
-        "text": "5 - Que s'élèvent toujours vers toi nos chants d'amour,<br/>O Dieu car tu es bon.<br/>En toi tout reprend vie au feu de ton Esprit,<br/>O Dieu car tu es bon."
+        "text": "5 - Que s'élèvent toujours vers toi nos chants d'amour,<br/>Ô Dieu car tu es bon.<br/>En toi tout reprend vie au feu de ton Esprit,<br/>Ô Dieu car tu es bon."
       }
     ]
   },
@@ -12866,7 +12993,7 @@
   {
     "id": "que-vive-mon-ame-a-te-louer",
     "title": "Que vive mon âme à te louer",
-    "rating": "IEV946",
+    "rating": "IEV 946",
     "writer": "Bénédicte Ducatel",
     "composer": "Bénédicte Ducatel",
     "publisher": "Editions De L'Emmanuel",
@@ -13596,7 +13723,7 @@
   {
     "id": "seigneur-mon-secours",
     "title": "Seigneur, mon secours",
-    "rating": "14-43",
+    "rating": "IEV 14-43",
     "composer": "M. Hagemann",
     "writer": "D'après Psaume 120",
     "publisher": "Editions De L'Emmanuel",
@@ -13816,7 +13943,7 @@
   {
     "id": "le-saint-esprit-descendra",
     "title": "Le Saint Esprit descendra",
-    "rating": "19-23",
+    "rating": "IEV 19-23",
     "composer": "B. Pavageau",
     "publisher": "Editions De L'Emmanuel",
     "lyrics": [
@@ -13992,7 +14119,7 @@
   {
     "id": "laissez-vous-consumer",
     "title": "Laissez-vous consumer",
-    "rating": "21-07",
+    "rating": "IEV 21-07",
     "writer": "Marc Dannaud",
     "composer": "Marc Dannaud",
     "publisher": "Editions De L'Emmanuel",
@@ -14140,7 +14267,7 @@
       },
       {
         "type": "chorus",
-        "text": "C'est mon corps&nbsp;: prenez et mangez&nbsp;!<br/>C'est mon sang&nbsp;: prenez et buvez&nbsp;!<br/>Car je suis la vie et je suis l'amour,<br/>O Seigneur, emporte-nous dans ton amour&nbsp;!"
+        "text": "C'est mon corps&nbsp;: prenez et mangez&nbsp;!<br/>C'est mon sang&nbsp;: prenez et buvez&nbsp;!<br/>Car je suis la vie et je suis l'amour,<br/>Ô Seigneur, emporte-nous dans ton amour&nbsp;!"
       },
       {
         "type": "verse",
@@ -14662,7 +14789,7 @@
   {
     "id": "tournez-les-yeux-vers-le-seigneur",
     "title": "Tournez les yeux vers le Seigneur",
-    "rating": "IEV371",
+    "rating": "IEV 371",
     "composer": "Chantal Guerret-Fourneau",
     "writer": "Chantal Guerret-Fourneau",
     "lyrics": [
@@ -15907,7 +16034,7 @@
   {
     "id": "benissez-dieu",
     "title": "Bénissez Dieu",
-    "rating": "14-05",
+    "rating": "IEV 14-05",
     "composer": "C. Brasseur",
     "writer": "C. Brasseur",
     "publisher": "Editions des Béatitudes",
@@ -16022,7 +16149,7 @@
     "id": "jesus-agneau-de-dieu",
     "title": "Jésus, Agneau de Dieu",
     "newrating": "DEV361",
-    "rating": "17-35",
+    "rating": "IEV 17-35",
     "writer": "B. Pavageau",
     "publisher": "Editions De L'Emmanuel",
     "lyrics": [
@@ -16069,7 +16196,7 @@
   {
     "id": "par-toute-la-terre",
     "title": "Par toute la terre",
-    "rating": "19-14",
+    "rating": "IEV 19-14",
     "publisher": "Editions De L'Emmanuel",
     "writer": "Communauté De L'Emmanuel",
     "composer": "Communauté De L'Emmanuel",
@@ -16364,7 +16491,7 @@
       },
       {
         "type": "chorus",
-        "text": "Tu étais mort, Tu es vivant, O ressuscité&nbsp;!<br/>Nous attendons ta venue dans la gloire, Viens, Seigneur Jésus&nbsp;!"
+        "text": "Tu étais mort, Tu es vivant, Ô ressuscité&nbsp;!<br/>Nous attendons ta venue dans la gloire, Viens, Seigneur Jésus&nbsp;!"
       }
     ]
   },
@@ -17580,7 +17707,7 @@
   {
     "id": "messe-1-saint-paul-kyrie",
     "title": "(Messe de Saint Paul) Kyrie",
-    "rating": "IEV14-29-01",
+    "rating": "IEV 14-29-01",
     "newrating": "AL68-20",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Liturgie Romaine",
@@ -17618,7 +17745,7 @@
   {
     "id": "messe-1-saint-paul-kyrie-nouvelle-traduction",
     "title": "(Messe de Saint Paul) Kyrie (Nouvelle traduction 28/11/2021)",
-    "rating": "IEV14-29-01",
+    "rating": "IEV 14-29-01",
     "newrating": "AL68-20",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Liturgie Romaine",
@@ -17656,7 +17783,7 @@
   {
     "id": "messe-2-saint-paul-gloria",
     "title": "(Messe de Saint Paul) Gloria",
-    "rating": "IEV14-29-08",
+    "rating": "IEV 14-29-08",
     "newrating": "AL68-20",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Liturgie Romaine",
@@ -17683,7 +17810,7 @@
   {
     "id": "messe-3-saint-paul-alleluia",
     "title": "(Messe de Saint Paul) Alleluia",
-    "rating": "IEV14-29-02",
+    "rating": "IEV 14-29-02",
     "newrating": "AL68-20",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Liturgie Romaine",
@@ -17698,7 +17825,7 @@
   {
     "id": "messe-5-saint-paul-sanctus",
     "title": "(Messe de Saint Paul) Sanctus",
-    "rating": "IEV14-29-03",
+    "rating": "IEV 14-29-03",
     "newrating": "AL68-20",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Liturgie Romaine",
@@ -17732,7 +17859,7 @@
   {
     "id": "messe-6-saint-paul-anamnese",
     "title": "(Messe de Saint Paul) Anamnèse",
-    "rating": "IEV14-29-04",
+    "rating": "IEV 14-29-04",
     "newrating": "AL68-20",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Liturgie Romaine",
@@ -17747,7 +17874,7 @@
   {
     "id": "messe-7-saint-paul-agnus",
     "title": "(Messe de Saint Paul) Agnus",
-    "rating": "IEV14-29-07",
+    "rating": "IEV 14-29-07",
     "newrating": "AL68-20",
     "publisher": "Editions de l'Emmanuel",
     "writer": "Liturgie Romaine",
@@ -18195,7 +18322,7 @@
     "id": "messe-1-de-saint-jean-kyrie",
     "title": "(Messe de Saint Jean) Kyrie",
     "rating": "AL68-19",
-    "newrating": "13-25-01",
+    "newrating": "IEV 13-25-01",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "Liturgie Romaine",
     "composer": "Communauté de l'Emmanuel (Michael Hagemann)",
@@ -18218,7 +18345,7 @@
     "id": "messe-2-de-saint-jean-gloria",
     "title": "(Messe de Saint Jean) Gloria",
     "rating": "AL68-19",
-    "newrating": "13-25-02",
+    "newrating": "IEV 13-25-02",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (Michael Hagemann)",
@@ -18237,7 +18364,7 @@
     "id": "messe-3-de-saint-jean-alleluia",
     "title": "(Messe de Saint Jean) Alleluia",
     "rating": "AL68-19",
-    "newrating": "13-25-03",
+    "newrating": "IEV 13-25-03",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (Michael Hagemann)",
@@ -18252,7 +18379,7 @@
     "id": "messe-5-de-saint-jean-sanctus",
     "title": "(Messe de Saint Jean) Sanctus",
     "rating": "AL68-19",
-    "newrating": "13-25-04",
+    "newrating": "IEV 13-25-04",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (Michael Hagemann)",
@@ -18275,7 +18402,7 @@
     "id": "messe-6-de-saint-jean-anamnese",
     "title": "(Messe de Saint Jean) Anamnèse",
     "rating": "AL68-19",
-    "newrating": "13-25-05",
+    "newrating": "IEV 13-25-05",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (Michael Hagemann)",
@@ -18294,7 +18421,7 @@
     "id": "messe-7-de-saint-jean-agnus",
     "title": "(Messe de Saint Jean) Agnus",
     "rating": "AL68-19",
-    "newrating": "13-25-06",
+    "newrating": "IEV 13-25-06",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (Michael Hagemann)",
@@ -18434,7 +18561,7 @@
   {
     "id": "messe-1-saint-boniface-kyrie",
     "title": "(Messe de Saint Boniface) Kyrie",
-    "rating": "14-28-01",
+    "rating": "IEV 14-28-01",
     "newrating": "AL68-18",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
@@ -18457,7 +18584,7 @@
   {
     "id": "messe-2-saint-boniface-gloria",
     "title": "(Messe de Saint Boniface) Gloria",
-    "rating": "14-28-02",
+    "rating": "IEV 14-28-02",
     "newrating": "AL68-18",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
@@ -18488,7 +18615,7 @@
   {
     "id": "messe-3-saint-boniface-alleluia",
     "title": "(Messe de Saint Boniface) Alleluia",
-    "rating": "14-28-03",
+    "rating": "IEV 14-28-03",
     "newrating": "AL68-18",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
@@ -18503,7 +18630,7 @@
   {
     "id": "messe-5-saint-boniface-sanctus",
     "title": "(Messe de Saint Boniface) Sanctus",
-    "rating": "14-28-04",
+    "rating": "IEV 14-28-04",
     "newrating": "AL68-18",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
@@ -18526,7 +18653,7 @@
   {
     "id": "messe-6-saint-boniface-anamnese",
     "title": "(Messe de Saint Boniface) Anamnèse",
-    "rating": "14-28-05",
+    "rating": "IEV 14-28-05",
     "newrating": "AL68-18",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
@@ -18541,7 +18668,7 @@
   {
     "id": "messe-7-saint-boniface-agnus",
     "title": "(Messe de Saint Boniface) Agnus",
-    "rating": "14-28-06",
+    "rating": "IEV 14-28-06",
     "newrating": "AL68-18",
     "publisher": "Éditions de l'Emmanuel",
     "writer": "AELF",
@@ -19187,7 +19314,7 @@
   {
     "id": "messe-1-de-la-visitation-kyrie",
     "title": "(Messe de la Visitation) Kyrie",
-    "rating": "14-27-01",
+    "rating": "IEV 14-27-01",
     "publisher": "Editions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
@@ -19224,7 +19351,7 @@
   {
     "id": "messe-2-de-la-visitation-gloria",
     "title": "(Messe de la Visitation) Gloria",
-    "rating": "14-27-03",
+    "rating": "IEV 14-27-03",
     "publisher": "Editions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
@@ -19259,7 +19386,7 @@
   {
     "id": "messe-3-de-la-visitation-alleluia",
     "title": "(Messe de la Visitation) Alléluia",
-    "rating": "14-27-02",
+    "rating": "IEV 14-27-02",
     "publisher": "Editions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
@@ -19273,7 +19400,7 @@
   {
     "id": "messe-5-de-la-visitation-sanctus",
     "title": "(Messe de la Visitation) Sanctus",
-    "rating": "14-27-04",
+    "rating": "IEV 14-27-04",
     "publisher": "Editions de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
@@ -19323,7 +19450,7 @@
   {
     "id": "messe-7-de-la-visitation-agnus",
     "title": "(Messe de la Visitation) Agnus",
-    "rating": "14-27-05",
+    "rating": "IEV 14-27-05",
     "publisher": "Edition de l'Emmanuel",
     "writer": "AELF",
     "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
@@ -19538,7 +19665,7 @@
     "id": "messe-1-de-san-lorenzo-kyrie",
     "title": "(Messe de San Lorenzo) Kyrie",
     "rating": "AL595",
-    "newrating": "07-41-01",
+    "newrating": "IEV 07-41-01",
     "publisher": "L'Emmanuel",
     "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
     "composer": "Charles-Eric Hauguel",
@@ -19579,7 +19706,7 @@
     "id": "messe-3-de-san-lorenzo-alleluia",
     "title": "(Messe de San Lorenzo) Alleluia",
     "rating": "AL595",
-    "newrating": "07-41-03",
+    "newrating": "IEV 07-41-03",
     "publisher": "L'Emmanuel",
     "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
     "composer": "Charles-Eric Hauguel",
@@ -19595,7 +19722,7 @@
     "id": "messe-5-de-san-lorenzo-sanctus",
     "title": "(Messe de San Lorenzo) Sanctus",
     "rating": "AL595",
-    "newrating": "07-41-04",
+    "newrating": "IEV 07-41-04",
     "publisher": "L'Emmanuel",
     "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
     "composer": "Charles-Eric Hauguel",
@@ -19623,7 +19750,7 @@
     "id": "messe-6-de-san-lorenzo-anamnese",
     "title": "(Messe de San Lorenzo) Anamnèse",
     "rating": "AL595",
-    "newrating": "07-41-05",
+    "newrating": "IEV 07-41-05",
     "publisher": "L'Emmanuel",
     "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
     "composer": "Charles-Eric Hauguel",
@@ -19654,7 +19781,7 @@
     "id": "messe-de-san-lorenzo-agnus-dui",
     "title": "(Messe de San Lorenzo) Agnus Dui",
     "rating": "AL595",
-    "newrating": "07-41-04",
+    "newrating": "IEV 07-41-04",
     "publisher": "L'Emmanuel",
     "writer": "AELF (Association Épiscopale de Liturgie Francophone)",
     "composer": "Charles-Eric Hauguel",
