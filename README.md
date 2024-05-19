@@ -1512,4 +1512,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe de la divine Miséricorde) Sanctus
   + (Messe de la divine Miséricorde) Anamnèse
   + (Messe de la divine Miséricorde) Agnus
+  + (Messe de la grâce) Je reviens vers toi (Kyrie)
+  + (Messe de la grâce) Gloire à Dieu (Gloria)
+  + (Messe de la grâce) Alléluia
+  + (Messe de la grâce) Tu es saint (Sanctus)
+  + (Messe de la grâce) Agneau de Dieu (Agnus Dei)
 ```

@@ -19963,5 +19963,101 @@
         "text": "3 - Agneau de Dieu,<br/>Qui enlèves les péchés du monde,<br/>Donne-nous la paix,<br/>Donne-nous la paix."
       }
     ]
+  },
+  {
+    "id": "messe-1-de-la-grace-je-reviens-vers-toi-kyrie",
+    "title": "(Messe de la grâce) Je reviens vers toi (Kyrie)",
+    "publisher": "Rejoyce",
+    "composer": "Glorious",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Seigneur je viens pour implorer<br/>Ton pardon sur mon péché."
+      },
+      {
+        "type": "chorus",
+        "text": "De tout mon cœur, de toute ma Foi<br/>De tout mon cœur, je reviens vers toi"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Ô Christ je viens pour implorer<br/>Ton pardon sur mon péché."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Seigneur je viens pour implorer<br/>Ton pardon sur mon péché."
+      }
+    ]
+  },
+  {
+    "id": "messe-2-de-la-grace-gloire-a-dieu-gloria",
+    "title": "(Messe de la grâce) Gloire à Dieu (Gloria)",
+    "publisher": "Rejoyce",
+    "composer": "Glorious",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu au plus haut des cieux<br/>Gloire à Dieu au plus haut des cieux<br/>Paix sur Terre aux hommes qu'Il aime<br/>Aux hommes qu'Il aime&nbsp;(bis)"
+      },
+      {
+        "type": "verse",
+        "text": "Et paix sur la terre, aux hommes qu'Il aime,<br/>Nous te louons, nous te bénissons,          <br/>Nous t'adorons, nous te glorifions, <br/>Nous te rendons grâce pour ton immense gloire<br/><br/>Seigneur Dieu, le Roi du ciel,<br/>Dieu le Père tout puissant.          <br/>Jésus Christ, Seigneur fils unique<br/>Agneau de Dieu, le Fils du Père."
+      },
+      {
+        "type": "verse",
+        "text": "Toi qui enlèves, le péché du monde, <br/>Prends pitié de nous, reçois nos prières  <br/>Toi qui es assis, à droite du Père,<br/>Prends pitié de nous, reçois nos prières<br/><br/>Car Toi seul es saint, Toi seul es Seigneur,<br/>Tu es le Très-Haut, Jésus-Christ, <br/>Dans l'unité du Saint-Esprit, <br/>Et dans la gloire de Dieu le Père."
+      }
+    ]
+  },
+  {
+    "id": "messe-3-de-la-grace-alleluia",
+    "title": "(Messe de la grâce) Alléluia",
+    "publisher": "Rejoyce",
+    "composer": "Glorious",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Alléluia, Alléluia&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Sur ma vie, un seul Nom,<br/>C'est lui Jésus-Christ."
+      }
+    ]
+  },
+  {
+    "id": "messe-5-de-la-grace-tu-es-saint-sanctus",
+    "title": "(Messe de la grâce) Tu es saint (Sanctus)",
+    "publisher": "Rejoyce",
+    "composer": "Glorious",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Tu es Saint, Dieu de l'univers&nbsp;!<br/>Tu es Saint, Dieu de l'univers&nbsp;!<br/>Hosanna au plus haut des cieux, au plus haut des cieux&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Le ciel et la Terre sont remplis de ta gloire, de ta gloire.<br/>Béni soit celui qui vient dans le nom du Seigneur, du Seigneur."
+      }
+    ]
+  },
+  {
+    "id": "messe-7-de-la-grace-agneau-de-dieu-agnus-dei",
+    "title": "(Messe de la grâce) Agneau de Dieu (Agnus Dei)",
+    "publisher": "Rejoyce",
+    "composer": "Glorious",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Agneau de Dieu, toi qui enlèves<br/>Les péchés de notre monde<br/>Entends nos cœurs<br/>Vois notre foi<br/>Viens nous sauver<br/>Viens et prends pitié."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Agneau de Dieu, toi qui enlèves<br/>Les péchés de notre monde<br/>Entends nos cœurs<br/>Vois notre foi<br/>Viens nous sauver<br/>Viens et prends pitié."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Agneau de Dieu, toi qui enlèves<br/>Les péchés de notre monde<br/>Entends nos cœurs<br/>Vois notre foi<br/>Viens nous combler<br/>Donne-nous la paix."
+      }
+    ]
   }
 ]
