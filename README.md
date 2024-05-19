@@ -1503,4 +1503,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction(s) :
     Je t'exalte ô roi mon Dieu
     Psaume 26 - Le Seigneur est ma lumière et mon salut
+    Je n'ai d'autre désir
 ```
