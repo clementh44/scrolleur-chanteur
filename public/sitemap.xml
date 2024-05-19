@@ -3359,4 +3359,29 @@
 		<lastmod>2023-12-09</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-1-de-la-divine-misericorde-kyrie</loc>
+		<lastmod>2024-05-19</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-2-de-la-divine-misericorde-gloria</loc>
+		<lastmod>2024-05-19</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-5-de-la-divine-misericorde-sanctus</loc>
+		<lastmod>2024-05-19</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+    <url>
+      <loc>https://chantons.netlify.app/song/messe-6-de-la-divine-misericorde-anamnese</loc>
+      <lastmod>2024-05-19</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+	<url>
+		<loc>https://chantons.netlify.app/song/messe-7-de-la-divine-misericorde-agnus</loc>
+		<lastmod>2024-05-19</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
 </urlset>

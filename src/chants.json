@@ -19847,5 +19847,121 @@
         "text": "Amen, amen, viens bientôt Seigneur Jésus."
       }
     ]
+  },
+  {
+    "id": "messe-1-de-la-divine-misericorde-kyrie",
+    "title": "(Messe de la divine Miséricorde) Kyrie",
+    "writer": "A.E.L.F.",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Seigneur Jésus Christ,<br/>Venu réconcilier tous les hommes<br/>Avec ton Père et notre Père&nbsp;:<br/>Béni sois-tu, prends pitié de nous."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Seigneur, prends pitié.&nbsp;(x3)"
+      },
+      {
+        "type": "verse",
+        "text": "2 - Seigneur Jésus, toi le serviteur fidèle,<br/>Devenu péché en ce monde<br/>Pour que nous soyons justifiés en toi&nbsp;:<br/>Béni sois-tu, prends pitié de nous."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Ô Christ, prends pitié.&nbsp;(x3)"
+      },
+      {
+        "type": "verse",
+        "text": "3 - Seigneur Jésus, toi qui vis près du Père<br/>Et nous attires vers lui<br/>Dans l'unité du Saint Esprit&nbsp;:<br/>Béni sois-tu, prends pitié de nous."
+      },
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Seigneur, prends pitié.&nbsp;(x3)"
+      }
+    ]
+  },
+  {
+    "id": "messe-2-de-la-divine-misericorde-gloria",
+    "title": "(Messe de la divine Miséricorde) Gloria",
+    "writer": "A.E.L.F.",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Gloire à Dieu, gloire à Dieu<br/>Au plus haut des cieux&nbsp;!<br/>Gloire à Dieu, gloire à Dieu<br/>Au plus haut des cieux&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Gloire à Dieu au plus haut des cieux<br/>Et paix sur la terre aux hommes qu'il aime.<br/>Nous te louons, nous te bénissons,<br/>Nous t'adorons,<br/>Nous te glorifions, nous te rendons grâce<br/>Pour ton immense gloire,"
+      },
+      {
+        "type": "verse",
+        "text": "Seigneur Dieu, Roi du Ciel,<br/>Dieu le Père tout -puissant.<br/>Seigneur, Fils unique, Jésus Christ,<br/>Seigneur Dieu, Agneau de Dieu<br/>Le Fils du Père,"
+      },
+      {
+        "type": "verse",
+        "text": "Toi qui enlèves les péchés du monde,<br/>Prends pitié de nous&nbsp;;<br/>Toi qui enlèves les péchés du monde,<br/>Reçois notre prière,<br/>Toi qui es assis à la droite du Père,<br/>Prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "Car toi seul es Saint,<br/>Toi seul es Seigneur,<br/>Toi seul es le Très-Haut, Jésus Christ,<br/>Avec le Saint Esprit,<br/>Dans la gloire de Dieu le Père.<br/>Amen."
+      }
+    ]
+  },
+  {
+    "id": "messe-5-de-la-divine-misericorde-sanctus",
+    "title": "(Messe de la divine Miséricorde) Sanctus",
+    "writer": "A.E.L.F.",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "text": "Saint&nbsp;! Saint&nbsp;! Saint,<br/>Le Seigneur, Dieu de l'univers&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Le ciel et la terre sont remplis de ta gloire.<br/>Hosanna, hosanna au plus haut des cieux&nbsp;!<br/>Hosanna, hosanna au plus haut des cieux&nbsp;!"
+      },
+      {
+        "type": "verse",
+        "text": "Béni soit celui qui vient au nom du Seigneur.<br/>Hosanna, hosanna au plus haut des cieux&nbsp;!<br/>Hosanna, hosanna au plus haut des cieux&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-6-de-la-divine-misericorde-anamnese",
+    "title": "(Messe de la divine Miséricorde) Anamnèse",
+    "writer": "A.E.L.F.",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "sticky": false,
+        "text": "Gloire à toi qui étais mort,<br/>Gloire à toi qui es vivant,<br/>Notre sauveur et notre Dieu,<br/>Viens, Seigneur Jésus&nbsp;!<br/>Viens, Seigneur Jésus&nbsp;!"
+      }
+    ]
+  },
+  {
+    "id": "messe-7-de-la-divine-misericorde-agnus",
+    "title": "(Messe de la divine Miséricorde) Agnus",
+    "writer": "A.E.L.F.",
+    "composer": "Communauté de l'Emmanuel (L.-E. de Labarthe)",
+    "lyrics": [
+      {
+        "type": "verse",
+        "text": "1 - Agneau de Dieu,<br/>Qui enlèves les péchés du monde,<br/>Prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "2 - Agneau de Dieu,<br/>Qui enlèves les péchés du monde,<br/>Prends pitié de nous."
+      },
+      {
+        "type": "verse",
+        "text": "3 - Agneau de Dieu,<br/>Qui enlèves les péchés du monde,<br/>Donne-nous la paix,<br/>Donne-nous la paix."
+      }
+    ]
   }
 ]

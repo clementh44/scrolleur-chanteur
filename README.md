@@ -1507,4 +1507,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     (Messe de San Lorenzo) Agnus Dei
 
   + Éclate de joie
+  + (Messe de la divine Miséricorde) Kyrie
+  + (Messe de la divine Miséricorde) Gloria
+  + (Messe de la divine Miséricorde) Sanctus
+  + (Messe de la divine Miséricorde) Anamnèse
+  + (Messe de la divine Miséricorde) Agnus
 ```
