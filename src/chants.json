@@ -1,5 +1,30 @@
 [
 {
+"id": "eclate-de-joie",
+"title": "Éclate de joie",
+"publisher": "Ateliers du Chemin Neuf",
+"writer": "Communauté du Chemin Neuf",
+"composer": "Communauté du Chemin Neuf",
+"lyrics": [
+  {
+    "type": "chorus",
+    "text": "Éclate de joie, fille de Sion,<br/>Et tu verras ton Roi danser pour toi.<br/>Éclate de joie, fille de Sion,<br/>Et ton Roi dansera tout autour de toi."
+  },
+  {
+    "type": "verse",
+    "text": "1 - Élargis ta tente, à droite et à gauche.<br/>Étends tes cordages, mets-toi plus au large.<br/>Fais-moi de la place, au fond de ton cœur.<br/>Et je vais venir, tu n'auras plus peur."
+  },
+  {
+    "type": "verse",
+    "text": "2 - Perdue dans tes doutes, je t'avais laissée,<br/>Mais vois je suis là, pour te consoler.<br/>Jamais plus les fleuves ne t'emporteront,<br/>jamais mon visage ne sera caché."
+  },
+  {
+    "type": "verse",
+    "text": "3 - Jamais les collines ne s'éloigneront,<br/>jamais les montagnes ne chancelleront.<br/>Jamais ma tendresse ne te manquera&nbsp;;<br/>ne t'inquiète pas, je suis avec toi."
+  }
+]
+},
+{
 "id": "glorificamus-te",
 "title": "Glorificamus Te",
 "rating": "IEV 18-10",
