@@ -1486,7 +1486,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + À vous d'en être les témoins (Kerygma 2023)
 ```
 
-##### Dernière version
 **22/02/2024 v4.24.9**
 ```
   Correction(s) :
@@ -1496,4 +1495,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Ave Maria de Lourdes V125 DEV71
   + Emmène-moi vers le large
   + Glorificamus Te IEV 18-10 EDIT18-33
+```
+
+##### Dernière version
+**19/05/2024 v4.24.10**
+```
+  Correction(s) :
+    Je t'exalte ô roi mon Dieu
 ```
