@@ -1496,7 +1496,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Glorificamus Te IEV 18-10 EDIT18-33
 ```
 
-##### Dernière version
 **19/05/2024 v4.24.10**
 ```
   Correction(s) :
@@ -1519,6 +1518,7 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
 
 ##### Dernière version
+**30/12/2024 v4.24.11**
 ```
   Corrections :
     (Messe de la Trinité) Gloire à Dieu
