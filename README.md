@@ -1517,3 +1517,12 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe de la grâce) Tu es saint (Sanctus)
   + (Messe de la grâce) Agneau de Dieu (Agnus Dei)
 ```
+
+##### Dernière version
+```
+  Corrections :
+    (Messe de la Trinité) Gloire à Dieu
+    (Messe de la Trinité) Anamnèse
+    (Messe Christus Vincit) Anamnèse
+    (Messe de San Lorenzo) Anamnèse
+```
