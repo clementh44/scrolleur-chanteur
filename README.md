@@ -1398,7 +1398,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Salve Regina
 ```
 
-##### Dernière version
 **19/07/2023 v4.24.4**
 ```
   + Glorifie le seigneur
