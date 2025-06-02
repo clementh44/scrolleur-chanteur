@@ -1517,7 +1517,6 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe de la grâce) Agneau de Dieu (Agnus Dei)
 ```
 
-##### Dernière version
 **30/12/2024 v4.24.11**
 ```
   Corrections :
@@ -1525,4 +1524,10 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     (Messe de la Trinité) Anamnèse
     (Messe Christus Vincit) Anamnèse
     (Messe de San Lorenzo) Anamnèse
+```
+
+##### Dernière version
+**02/06/2025 v4.24.12**
+```
+  Dans la playlist, suppression des ajouts de fonctionnalités pour mettre l'astuce de la couleur d'arrière plan personnalisable
 ```

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Barre d'actions -->
-    <b-badge variant="success">Nouveauté du 13/04</b-badge><small> export/import de la playlist ! | Import des textes de la liturgie de dimanche prochain (bouton Aelf)</small>
+    <b-badge variant="info">Astuce</b-badge> <small><a @click="$emit('toggle-param')" href="#">Dans les paramètres</a>, il est possible d'avoir un fond d'une couleur différente entre l'affichage d'un chant et d'un contenu vide</small>
     <hr />
     <b-button-toolbar class="mb-3">
       <!-- Quadrillage -->
