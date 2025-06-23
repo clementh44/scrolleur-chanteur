@@ -18,7 +18,7 @@
     <b-row>
       <!-- Fenêtre de présentation -->
       <WindowPortal v-model="viewOpened" v-on:shortcuts="manageShortCuts" v-on:close="liveClosing" :width="settings.liveView.window.width" :height="settings.liveView.window.height">
-        <ViewWindow ref="liveWindow" :element="viewBody" :settings="settings" :live="true" :duration="500"></ViewWindow>
+        <ViewWindow ref="liveWindow" :element="viewBody" :settings="settings" :live="true"></ViewWindow>
       </WindowPortal>
 
       <!-- Fenêtre d'aperçu -->
@@ -658,12 +658,10 @@ export default {
         this.currentElementIndex = index
       }
 
-      this.viewBody = { type: "empty" }
       setTimeout(() => {
-        this.$refs.liveWindow.scrollTop()
         this.viewBody = element
-        setTimeout(() => this.$refs.liveWindow.handleScroll(), 100)
-      }, 500)
+        setTimeout(() => this.$refs.liveWindow.handleScroll(), 200)
+      }, 100)
       if (!this.viewOpened) {
         this.toggleView()
       }
@@ -925,6 +923,7 @@ Available elements :
 
 {
   type: file
+  title: ""
   width:
 }
 -->

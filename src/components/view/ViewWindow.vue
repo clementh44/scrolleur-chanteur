@@ -15,12 +15,12 @@
     @scroll.passive="handleScroll()"
   >
     <div :class="[live ? 'user-select-none' : '']">
-      <transition name="fade" :duration="duration">
+      <transition :name="live ? 'fade' : ''" mode="out-in">
         <!-- Type chant -->
         <div
           itemscope
           itemtype="https://schema.org/MusicComposition"
-          key="{{element.title}}"
+          :key="element.title"
           v-if="element.type == 'song'"
           :class="['song', live ? 'px-' + settings.liveView.padding.view : '']"
           :style="[
@@ -28,6 +28,7 @@
               ? {
                   fontSize: settings.liveView.fontSize + 'em',
                   textAlign: settings.song.textAlign,
+                  background: settings.liveView.colors.background,
                 }
               : '',
           ]"
@@ -50,23 +51,26 @@
             ></p>
           </div>
           <div id="invisible-part" v-if="live">&#8205;</div>
+          <div class="empty" :style="[{ background: settings.liveView.colors.background }]" v-if="live"></div>
         </div>
 
         <!-- Type texte -->
         <div
-          key="text"
+          :key="'text' + element.title"
           v-else-if="element.type == 'text'"
           :class="['custom-text', live ? 'px-' + settings.liveView.padding.view : '']"
-          :style="[live ? { fontSize: settings.liveView.fontSize + 'em' } : '']"
+          :style="[live ? { fontSize: settings.liveView.fontSize + 'em', background: settings.liveView.colors.background } : '']"
         >
           <div class="title" v-if="element.isTitleDisplayed" v-html="element.title"></div>
           <div class="custom-text-body" v-html="element.text"></div>
           <div id="invisible-part" class="custom-text-body" v-if="live">&#8205;</div>
+          <div class="empty" :style="[{ background: settings.liveView.colors.background }]" v-if="live"></div>
         </div>
 
         <!-- Type fichier -->
-        <div key="file" v-else-if="element.type == 'file'" class="file">
-          <img :src="element.file" :style="{ width: element.width + '%' }" />
+        <div :key="'file' + element.title" v-else-if="element.type == 'file'" class="file">
+          <img :src="element.file" :style="{ width: element.width + '%', background: settings.liveView.colors.background }" />
+          <div class="empty" :style="[{ background: settings.liveView.colors.background }]" v-if="live"></div>
         </div>
 
         <!-- Type quadrillage -->
@@ -84,10 +88,10 @@
           <hr />
           <p>{{ element.text }}</p>
         </div>
-      </transition>
 
-      <!-- Type vide -->
-      <div class="empty" :style="[{ background: settings.liveView.colors.empty }]" v-if="live"></div>
+        <!-- Type vide -->
+        <div v-else-if="element.type == 'empty'" class="empty" :style="[{ background: settings.liveView.colors.empty }]"></div>
+      </transition>
     </div>
   </div>
 </template>
@@ -99,10 +103,6 @@ export default {
     element: Object,
     settings: Object,
     live: Boolean,
-    duration: {
-      type: Number,
-      default: 0,
-    },
   },
   data() {
     return {
@@ -319,9 +319,6 @@ export default {
     },
     scrollPreviousPart: function () {
       this.scrollViewToPos(this.getPreviousPartIndex())
-    },
-    scrollTop: function () {
-      this.scroll(-99999, 0, false)
     },
     getLineHeight: function () {
       if (this.$el.ownerDocument.getElementById("invisible-part")) {
