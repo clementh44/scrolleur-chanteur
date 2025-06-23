@@ -60,20 +60,25 @@
               <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
             </b-iconstack>
             depuis le <strong>Répertoire</strong>) ; un contenu vide (avec <font-awesome-icon :icon="['fa-regular', 'square']"></font-awesome-icon>) ; un texte personnalisé (avec
-            <font-awesome-layers><font-awesome-icon icon="align-left" transform="left-2" /><font-awesome-icon icon="pen" transform="right-7" />
-          </font-awesome-layers> ) ; une image à importer (avec <font-awesome-icon :icon="'image'"></font-awesome-icon>).
+            <font-awesome-layers><font-awesome-icon icon="align-left" transform="left-2" /><font-awesome-icon icon="pen" transform="right-7" /> </font-awesome-layers> ) ; une image à importer (avec
+            <font-awesome-icon :icon="'image'"></font-awesome-icon>).
           </p>
           <p>Pour afficher un élément de la <strong>Playlist</strong>, il suffit d'appuyer sur <font-awesome-icon :icon="'desktop'"></font-awesome-icon>.</p>
           <p>
-            Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur. Il est aussi possible de télécharger (<font-awesome-icon :icon="'file-export'"></font-awesome-icon>) la playlist (avec les images) pour la partager à d'autres personnes (importer <font-awesome-icon :icon="'file-import'"></font-awesome-icon>).
+            Les paramètres et la playlist (sauf les images) sont automatiquement sauvegardés dans le navigateur. Il est aussi possible de télécharger (<font-awesome-icon
+              :icon="'file-export'"
+            ></font-awesome-icon
+            >) la playlist (avec les images) pour la partager à d'autres personnes (importer <font-awesome-icon :icon="'file-import'"></font-awesome-icon>).
           </p>
           <p>
-            Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la présentation avec le clavier depuis les paramètres (voir le menu en haut).<br/>
+            Vous pouvez changer les <strong>raccourcis clavier</strong> pour contrôler la présentation avec le clavier depuis les paramètres (voir le menu en haut).<br />
             Par défaut : flèches droite/gauche pour naviguer dans la playlist ; flèches haut/bas pour faire monter/descendre l'affichage du texte.
           </p>
           <p>
             <strong
-              ><a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Voir la documentation détaillée</a></strong
+              ><a href="https://docs.google.com/document/d/19MGTOyoW13iaYUX2HcndmDFgLGre_xvMk36dkwvqBm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
+                >Voir la documentation détaillée</a
+              ></strong
             >
           </p>
           <hr />
@@ -235,7 +240,7 @@
                         <b-icon stacked icon="plus" scale="0.75" shift-h="8"></b-icon>
                       </b-iconstack>
                       playlist sous forme de texte personnalisé (avec
-                      <font-awesome-layers><font-awesome-icon icon="align-left" transform="left-2" /><font-awesome-icon icon="pen" transform="right-7"/></font-awesome-layers> ) :
+                      <font-awesome-layers><font-awesome-icon icon="align-left" transform="left-2" /><font-awesome-icon icon="pen" transform="right-7" /></font-awesome-layers> ) :
                       <a href="https://secli.cef.fr/rechercher-des-fiches-de-chants" target="_blank" rel="noopener noreferrer">secli.cef.fr</a> |
                       <a href="https://www.chantonseneglise.fr/recherche" target="_blank" rel="noopener noreferrer">ChantonsEnEglise.fr</a></p
                     >

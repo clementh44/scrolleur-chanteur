@@ -1,85 +1,97 @@
 # Scrolleur Chanteur - v4
-![GitHub last commit](https://img.shields.io/github/last-commit/clementh44/scrolleur-chanteur?label=Update&style=for-the-badge) ![](https://img.shields.io/badge/dynamic/json?color=success&label=Version&prefix=v&query=version&url=https://raw.githubusercontent.com/clementh44/scrolleur-chanteur/master/package.json&style=for-the-badge)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/clementh44/scrolleur-chanteur?label=Mise%20%C3%A0%20jour&style=for-the-badge) ![GitHub package.json dynamic](https://img.shields.io/badge/dynamic/json?color=success&label=Version&prefix=v&query=version&url=https://raw.githubusercontent.com/clementh44/scrolleur-chanteur/master/package.json&style=for-the-badge)
 
 Projet venant d'un besoin d'afficher les paroles de chants lors de messes ou temps de prière.
 Genre de logiciel gratuit de vidéo-projection des paroles de chants et même plus avec un système de zone de texte personnalisée (psaume du jour, annonces particulières, paroles de chants de dernière minute...).
 
-### Utiliser la dernière version : [https://chantons.netlify.app/](https://chantons.netlify.app/)
+## Utiliser la dernière version : [https://chantons.netlify.app/](https://chantons.netlify.app/)
 
 - [Installation locale](#installationlocale)
 - [Changelog](#changelog)
-  - [Version 1.0](#-v10-)
-  - [Version 2.0](#-v20-)
-  - [Version 3.0](#-v30-)
-  - [Version 4.0](#-v40-)
+  - [Version 1.0](#v10)
+  - [Version 2.0](#v20)
+  - [Version 3.0](#v30)
+  - [Version 4.0](#v40)
   - [Dernière version](#dernière-version)
 
 ## Installation locale
+
 ### Prérequis
+
 Installer git, nodeJS (inclus npm qui est un gestionnaire de paquets) et télécharger le projet dans le dossier courant
 
-**Linux**
-```
+#### Linux
+
+```shell
 sudo apt install git nodejs npm
 git clone https://github.com/clementh44/scrolleur-chanteur.git
 ```
 
-**Mac**
+#### Mac
 
 [Homebrew](https://brew.sh/index_fr) est pratique pour gérer les outils du terminal
-```
+
+```shell
 brew installer git nodejs npm
 git clone https://github.com/clementh44/scrolleur-chanteur.git
 ```
 
-**Windows**
+#### Windows
 
 Télécharger et installer [Git ici](https://gitforwindows.org/) et [nodeJs ici](https://nodejs.org/en/download/)
-```
+
+```shell
 git clone https://github.com/clementh44/scrolleur-chanteur.git
 ```
 
- ### Mettre à jour à jour le projet et lancer un serveur
+### Mettre à jour à jour le projet et lancer un serveur
+
 En se plaçant dans le dépôt local (dossier téléchargé localement) :
 
-```
+```shell
 git pull
 npm install
 npm run serve
 ```
 
-puis ouvrir un des liens proposés : http://localhost:8080 ou http://IPserveur:8080
+puis ouvrir un des liens proposés : <http://localhost:8080> ou <http://IPserveur:8080>
 
-
-L’autre possibilité est de faire la commande `npm run build` (à la place de `npm run serve`) et de copier le contenu du dossier *dist* dans un serveur.
-
+L’autre possibilité est de faire la commande `npm run build` (à la place de `npm run serve`) et de copier le contenu du dossier _dist_ dans un serveur.
 
 ## Ancienne version
+
 La version 3 ne sera pas améliorée mais est téléchargeable **[> ici <](https://github.com/clementh44/scrolleur-chanteur/releases/latest)**
 Les chants ajoutés dans la version 4 ne seront peut-être pas dans cette version 3. Ouvrir Ajouter chant.html pour en ajouter manuellement.
 
 ### Consignes pour un chant
+
 - **Titre**
+
   - Majuscule au début
   - bien mettre les accents
-  - mettre titre officiel  /  titre alternatif après
+  - mettre titre officiel / titre alternatif après
   - (Glorious) (Hopen) (Alegria) (Taizé)...
 
 - **id** (pour ordonner les chants dans l'ordre alphabetique) exactement comme le titre mais :
+
   - en minuscule
   - sans-lespace-entre-les-mots
   - sans l'apostrophe '
 
 - **couplet**
-   - commence par le numéro-espace-tiret-espace :
-     - 1 - ...
-     - 2 - ...
-     - 3 - ...
+
+  - commence par le numéro-espace-tiret-espace :
+    - 1 - ...
+    - 2 - ...
+    - 3 - ...
 
 - **PONT**
+
   - comme un refrain mais commençant par PONT sur 1 ligne
 
 - **traduction**
+
   - à ajouter juste après le couplet/refrain/pont...
 
 - **Messes** (pour ajouter une messe)
@@ -106,17 +118,20 @@ si plusieurs messes ont les mêmes paroles, juste modifier l'id et le titre en a
     - 5xx = Rite de conclusion
 
 ## Changelog
-### *** v1.0 ***
+
+### v1.0
 
 création d'un fichier html et ajout des chants à la main
 
-**04/11/17 :**
-```
+#### 04/11/17
+
+```text
   + Alegria
 ```
 
-**04/12/17 :**
-```
+#### 04/12/17
+
+```text
   + Adorez-le
   + Appelés enfants de Dieu
   + Ave Maria (Glorious)
@@ -147,28 +162,31 @@ création d'un fichier html et ajout des chants à la main
   + Victoire à l'Agneau de Dieu
 ```
 
-**07/12/17 :**
-```
+#### 07/12/17
+
+```text
   + Nous Sommes (Hopen)
 ```
 
-**16/12/17 :**
-```
+#### 16/12/17
+
+```text
   + Il est né le divin enfant
 ```
 
-**28/12/17 :**
-```
+#### 28/12/17
+
+```text
   + Aujourd'hui s'est levée la lumière
 ```
 
-### *** v2.0 ***
+### v2.0
 
 Passage en xml pour avoir la liste des chants dans un autre fichier et construire le fichier html automatiquement
 
+#### 04-06/06/18
 
-**04-06/06/18 :**
-```
+```text
   changement en xml pour ordre alphabétique automatique
   ajout d'un bouton pour réduire la marge de gauche
 
@@ -183,8 +201,9 @@ Passage en xml pour avoir la liste des chants dans un autre fichier et construir
   + Vous serez vraiment grands
 ```
 
-**08/06/18 :**
-```
+#### 08/06/18
+
+```text
   ajustement dans le script
 
   + Répands ton feu
@@ -193,15 +212,17 @@ Passage en xml pour avoir la liste des chants dans un autre fichier et construir
   + Esprit de sainteté
 ```
 
-**06/07/18 : (tournoi festif du 7)**
-```
+#### 06/07/18 : (tournoi festif du 7)
+
+```text
   màj Sauveur/Mighty to save
   + que ma bouche en allemand
   Possibilité d'un double titre
 ```
 
-**24/05/2019 : (veillée pour visite pastorale de l'Evêque)**
-```
+#### 24/05/2019 : (veillée pour visite pastorale de l'Evêque)
+
+```text
   ajout tuto
   + Le Saint Esprit Descendra
   + Ne crains pas
@@ -209,8 +230,9 @@ Passage en xml pour avoir la liste des chants dans un autre fichier et construir
   + Marie veillée par trois étoiles
 ```
 
-**28/09/2019 : (Tournoi Festif - louange - messe)**
-```
+#### 28/09/2019 : (Tournoi Festif - louange - messe)
+
+```text
   problème de sécurité cross file > option pour firefox
   liste triée avec les id + accents gérés
   màj bootstrap 3.3.7 > 4.1.3 (ajout de popper/js)
@@ -222,49 +244,56 @@ Passage en xml pour avoir la liste des chants dans un autre fichier et construir
   + Demeurez en mon amour
 ```
 
-**30/09/2019 :**
-```
+#### 30/09/2019
+
+```text
   possibilité de cacher/afficher les paragraphes
   ajout d'un texte d'introduction/explications
 ```
 
-**05/10/2019 :**
-```
+#### 05/10/2019
+
+```text
   javascript dans un fichier
   cacher/afficher uniquement les couplets
   les refrains deviennent toujours visibles au-dessus des couplets > si cela gêne, un clic dessus le replace à sa place fixe
   mise à jour auto du séparateur
 ```
 
-**20/10/2019 : (Taizé lycéens diocèse : messe + temps en diocèse)**
-```
+#### 20/10/2019 : (Taizé lycéens diocèse : messe + temps en diocèse)
+
+```text
   + Choisis la vie
   + Laissez-vous consumer
   coorection Notre Père (Glorious)
   màj boutons actions transparent car trop visible quand zoom
 ```
 
-**27/10/2019 : (messe en famille Derval)**
-```
+#### 27/10/2019 : (messe en famille Derval)
+
+```text
   + Regardez l'humilité de Dieu
 ```
 
-**23/11/2019 : (raclette confirmation)**
-```
+#### 23/11/2019 : (raclette confirmation)
+
+```text
   + Pour tes merveilles
   + Viens, Esprit de Sainteté
   + Jésus, Toi qui as promis
 ```
 
-**03/01/2020 : (rencontre grands jeune)**
-```
+#### 03/01/2020 : (rencontre grands jeune)
+
+```text
   + Le Seigneur nous a aimés
   + Esprit de Dieu, souffle de vie
   + Cantique de Siméon
 ```
 
-**24/01/2020 : (messe en famille Derval)**
-```
+#### 24/01/2020 : (messe en famille Derval)
+
+```text
   + Kyrie (Colombière)
   + Gloire à Dieu (Emmaüs)
   + Je crois en Dieu (symbole des apotres)
@@ -274,34 +303,38 @@ Passage en xml pour avoir la liste des chants dans un autre fichier et construir
   + Le fils de Dieu s'est fait homme
 ```
 
-**31/01/2020 :**
-```
+#### 31/01/2020
+
+```text
   - Kadosh
   - Alleluia
   correction de chants ayant des blocks vides (Couronnée d'étoiles, Marie veillée, Mighty to save)
   travail à zéro pour une lecture sur tout navigateur : liste en json, traitement de la liste en javascript
 ```
 
-### *** v3.0 ***
+### v3.0
 
 Passsage en html/js pour une plus large compatibilité
 
-**02/02/2020 :**
-```
+#### 02/02/2020
+
+```text
   correction du lien pour le css de bootstrap (http > local)
   amélioration des scripts
   amélioration des boutons de personnalisation (en haut)
   création d'un formulaire pour insérer un chant !!!
 ```
 
-**06/02/2020 v3.0.1 :**
-```
+#### 06/02/2020 v3.0.1
+
+```text
   corrections : nom de la page d'ajout de chant, bug manque de PopperJs, bug de mise à jour des espaces vides, bug sur certains chants
   ajouts : curseur en mode pointeur sur les couplets et refrains (puisque cliquables), super aperçu en .gif
 ```
 
-**29/05/2020 v3.1.0 : (Pentecôte)**
-```
+#### 29/05/2020 v3.1.0 : (Pentecôte)
+
+```text
   ajout de l'arrière-plan personnalisable avec une image ou une vidéo :
     > 1 bouton pour importer le fichier depuis son ordinateur (vidéo mp4, webm ou ogg)
     > 1 bouton pour supprimer l'arrière-plan avec un fondu
@@ -317,13 +350,15 @@ Passsage en html/js pour une plus large compatibilité
   + Devenez ce que vous recevez
 ```
 
-**05/06/2020 v3.2.0**
-```
+#### 05/06/2020 v3.2.0
+
+```text
   ajout des explications directement avec le formulaire de création d'un chant
 ```
 
-**05/06/2020 v3.2.1**
-```
+#### 05/06/2020 v3.2.1
+
+```text
   + Viens Esprit Saint (Veni Sancte Spiritus)
   + L'Esprit de Dieu repose sur moi
   + Messe du Partage
@@ -331,8 +366,9 @@ Passsage en html/js pour une plus large compatibilité
   + Peuple de baptisés
 ```
 
-**08/06/2020 v3.2.2**
-```
+#### 08/06/2020 v3.2.2
+
+```text
   mise à jour des packages
   corrections (Notre Père, caractère apostrophe)
   ajout explications pour l'ordinaire
@@ -340,14 +376,16 @@ Passsage en html/js pour une plus large compatibilité
   + couplets La Première en chemin
 ```
 
-**08/06/2020 v3.2.3**
-```
+#### 08/06/2020 v3.2.3
+
+```text
   correction de jquery pour la page du formulaire
   changement des boutons du formulaire
 ```
 
-**11/06/2020 v3.2.4**
-```
+#### 11/06/2020 v3.2.4
+
+```text
   + Peuple de Dieu, marche joyeux
   + Celui qui a mangé de ce pain
   + Tournez les yeux vers le Seigneur
@@ -356,14 +394,16 @@ Passsage en html/js pour une plus large compatibilité
   + N'ayons pas peur de vivre au monde
 ```
 
-**27/06/2020 v3.3.0**
-```
+#### 27/06/2020 v3.3.0
+
+```text
   marge par défaut au niveau 0 (les plus petites)
   ajout du numéro du couplet automatique dans le formulaire
 ```
 
-**27/06/2020 v3.3.1**
-```
+#### 27/06/2020 v3.3.1
+
+```text
   correction Que ma bouche chante ta louange
   + Chantez, priez, célébrez le Seigneur
   + Dieu nous accueille en sa maison
@@ -380,48 +420,56 @@ Passsage en html/js pour une plus large compatibilité
   + Levez les yeux et regardez
 ```
 
-**27/06/2020 v3.4.0**
-```
+#### 27/06/2020 v3.4.0
+
+```text
   ajout de 5 zones personnalisables
   message pour être sûr d'actualiser la page
 ```
 
-**27/06/2020 v3.5.0**
-```
+#### 27/06/2020 v3.5.0
+
+```text
   ajout d'une page d'aide au cadrage avec un vidéo-projecteur
 ```
 
-**06/07/2020 v3.6.0**
-```
+#### 06/07/2020 v3.6.0
+
+```text
   ajout d'un bouton pour cacher tous les couplets
   corrections des noms... lyrics, chorus, verse
 ```
 
-**06/07/2020 v3.6.1**
-```
+#### 06/07/2020 v3.6.1
+
+```text
   + Sur les chemins du monde
   + Au coeur de ce monde
   + Tenons en éveil la mémoire du Seigneur
 ```
 
-**19/07/2020 v3.6.2**
-```
+#### 19/07/2020 v3.6.2
+
+```text
   + Sainte-Anne Ô Bonne Mère
 ```
 
-**21/07/2020 v3.6.3**
-```
+#### 21/07/2020 v3.6.3
+
+```text
   + Messe de Saint-François-Xavier : Kyrie, Gloire à Dieu, Sanctus (Agnus et Anamnèse classique)
 ```
 
-**31/07/2020 v3.6.4**
-```
+#### 31/07/2020 v3.6.4
+
+```text
   + Prenons le large
   + En marchant vers Toi, Seigneur
 ```
 
-**16/08/2020 v3.6.5**
-```
+#### 16/08/2020 v3.6.5
+
+```text
   + Église du Seigneur
   + J'ai vu l'eau vive (Keur Moussa)
   + (Messe Colombière) Gloria
@@ -431,40 +479,47 @@ Passsage en html/js pour une plus large compatibilité
   + Ô Père, je suis ton enfant
 ```
 
-**16/08/2020 v3.6.6**
-```
+#### 16/08/2020 v3.6.6
+
+```text
 corrections
 ```
 
-**21/08/2020 v3.6.7**
-```
+#### 21/08/2020 v3.6.7
+
+```text
   + Les mots que tu nous dis
   + Pain véritable (Pain de vie, corps ressucité)
   + Peuple de frères, peuple du partage
 ```
 
-**31/08/2020 v3.6.8**
-```
+#### 31/08/2020 v3.6.8
+
+```text
   + Psaume de la création
 ```
 
-**06/09/2020 v3.6.9**
-```
+#### 06/09/2020 v3.6.9
+
+```text
   corrections chants
   + Approchons-nous de la table
   + Tu entends mon cri
   + Notre dieu c’est fait homme
 ```
 
-### *** v4.0 ***
+### v4.0
+
 Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netlify.app/)
+
 - sans installation
 - hors ligne
 - sauvegarde des paramètres dans le navigateur
 - facile d'utilisation
 
-**16/09/2020 v4.0.1**
-```
+#### 16/09/2020 v4.0.1
+
+```text
   la version 4 est maintenant la principale
   + Ordinaire de messe Au coeur de ce monde (Rimaud)
   + Si le Père vous appelle
@@ -477,15 +532,17 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Par toute la terre
 ```
 
-**23/09/2020 v4.0.2**
-```
+#### 23/09/2020 v4.0.2
+
+```text
   Scroll vers le haut quand le chant change
   Ajout d'un bouton pour rechercher un titre sur google à partir de la barre de recherche
   Ajout d'un paramètre de personnalisation de la taille de la présentation (utile pour utiliser avec OBS studio par exemple)
 ```
 
-**25/09/2020 v4.0.3**
-```
+#### 25/09/2020 v4.0.3
+
+```text
   fix scrollTop quand la fenêtre de live n'est pas encore ouverte
   fix paramètres de dimensions de la fenêtre
   Aide : ajout d'un lien vers un formulaire
@@ -497,16 +554,18 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Pour que nos cœurs
 ```
 
-**28/09/2020 v4.0.4**
-```
+#### 28/09/2020 v4.0.4
+
+```text
   Ajout de raccourcis clavier :
     echap pour fermer la fenêtre latérale (paramètres ou aperçu)
     flèche gauche ou droite pour afficher l'élément précédent ou suivant de la playlist
   Petit flou sympa dans la fenêtre latérale (léger car pas implémenté sur firefox)
 ```
 
-**10/10/2020 v4.0.5**
-```
+#### 10/10/2020 v4.0.5
+
+```text
   + Laisserons-nous à notre table
   + Aimer, c'est tout donner
   + Il est grand le bonheur de donner
@@ -514,13 +573,15 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Nous t'avons reconnu, Seigneur
 ```
 
-**17/10/2020 v4.0.6**
-```
+#### 17/10/2020 v4.0.6
+
+```text
   + Marie du Rosaire
 ```
 
-**27/10/2020 v4.1.0**
-```
+#### 27/10/2020 v4.1.0
+
+```text
   Pop-up pour le respect des droits d'auteur. Les paroisses cotisent annuellement au SECLI qui retransmet aux éditeurs qui retransmettent aux auteurs.
     L'utilisation de cet outil doit être dans le cadre exclusif d'une paroisse ou d'un groupe cotisant au SECLI.
 
@@ -529,15 +590,17 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   ajout de la cote, éditeur, auteur, compositeur des chants (source : secli.cef.fr) ; séparation des messes même si les paroles sont les même pour ajouter les cotes etc... (Emmaüs, Saint-Claude de la Colombière, Partage, Sylvanès, Soleil des Nations, Ermitage, Trinité, Saint François-Xavier, Au cœur de ce monde)
 ```
 
-**27/10/2020 v4.1.1**
-```
+#### 27/10/2020 v4.1.1
+
+```text
   + Ils sont nombreux les bienheureux
   + Bienheureux le pauvre
   + Dieu nous te louons
 ```
 
-**29/10/2020 v4.2.0**
-```
+#### 29/10/2020 v4.2.0
+
+```text
   Ajout des informations du chant affiché (cote, nouvelle cote SECLI, auteur, compositeur, éditeur). Affichage parametrable.
   Ajout lien don si ça se propage
   Ajout boutons : vider la playlist, intercaller du vide
@@ -545,13 +608,15 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   fix raccourcis clavier en éditant du texte
 ```
 
-**31/10/2020 v4.2.1**
-```
+#### 31/10/2020 v4.2.1
+
+```text
   + Vous êtes sans pareille
 ```
 
-**04/12/2020 v4.2.2**
-```
+#### 04/12/2020 v4.2.2
+
+```text
   + Jésus est le chemin
   + Vienne la rosée
   + Venez, divin Messie
@@ -560,28 +625,32 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Préparez le chemin du Seigneur
 ```
 
-**04/12/2020 v4.3.0**
-```
+#### 04/12/2020 v4.3.0
+
+```text
   délai sur la recherche d'un chant pour plus de fluidité
   amélioration de l'indexation
 ```
 
-**20/12/2020 v4.4.0**
-```
+#### 20/12/2020 v4.4.0
+
+```text
   fix espace blanc quand pas de contenu au début d'un chant (ni titre ou infos)
   Amélioration générale de l'affichage du texte : Titre plus petit, infos Secli plus discrètes, espace entre les lignes plus petit
   Déplacement de la barre latérale
 ```
 
-**22/12/2020 v4.5.0**
-```
+#### 22/12/2020 v4.5.0
+
+```text
   Ajout des explications pour télécharger et installer la v4 localement
   Passage des boutons dans un menu
   Affichage du nombre de chants
 ```
 
-**22/12/2020 v4.5.1**
-```
+#### 22/12/2020 v4.5.1
+
+```text
   + Il es né le divin enfant (corrections) SYLH160 / F160
   + Voici la nuit P156-1
   + La voici, la nuit de Dieu F256
@@ -647,24 +716,28 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Messe de Saint Paul
 ```
 
-**22/12/2020 v4.6.0**
-```
+#### 22/12/2020 v4.6.0
+
+```text
   Personnalisation des couleurs de la présentation
   Ascenseur de la présentation plus discret
 ```
 
-**23/12/2020 v4.6.1**
-```
+#### 23/12/2020 v4.6.1
+
+```text
   + Gloire à Dieu pour le temps de Noël
 ```
 
-**30/12/2020 v4.7.0**
-```
+#### 30/12/2020 v4.7.0
+
+```text
   aide dans le menu
 ```
 
-**06/01/2021 v4.8.0**
-```
+#### 06/01/2021 v4.8.0
+
+```text
   amélioration de l'actualisation des données (Vue.set pour modifier un objet et garder la réactivité)
   correction de l'icone animé de la playlist qui s'écrasait (quand titre long + écran petit)
   raccourcis clavier : on peut rester appuyer, le comportement par défaut est annulé (défilement avec les flèches par exemple)
@@ -691,13 +764,15 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Allez dire à tous les hommes
 ```
 
-**09/01/2021 v4.9.0**
-```
+#### 09/01/2021 v4.9.0
+
+```text
   Quelques optimisations ergonomiques et mises à jour
 ```
 
-**13/01/2021 v4.10.0**
-```
+#### 13/01/2021 v4.10.0
+
+```text
   Amélioration du visuel à la suppression d'un élément
   Correction espace avant le texte (lors du formatage du code)
   Correction : espace vide inutilement affiché dans l'aperçu
@@ -705,16 +780,18 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout du lien vers la documentation en attendant son intégration
 ```
 
-**15/01/2021 v4.10.1**
-```
+#### 15/01/2021 v4.10.1
+
+```text
   + Que tu es bon, Seigneur !
   + Messe dite "de Lourdes" AL23-23 ; AL189 ; A168/C168 ; AL23-14
   + Un homme au cœur de feu T170-1/O170-1
   + Vienne la paix sur notre terre T150-1/M150-1
 ```
 
-**17/01/2021 v4.10.2**
-```
+#### 17/01/2021 v4.10.2
+
+```text
   + Dieu saint - Kyrie Trisagion A96/C585
   + (Messe festive pour les dimanches du temps ordinaire) Gloire à Dieu AL40-83-32
   + (Messe festive pour les dimanches du temps ordinaire) Alleluia AL48-00
@@ -733,8 +810,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Amélioration du défilement par raccourcis clavier (descend/monte d'une ligne)
 ```
 
-**21/01/2021 v4.10.3**
-```
+#### 21/01/2021 v4.10.3
+
+```text
   Format documents avec Prettier
   Correction "Vous recevrez une force"
 
@@ -773,24 +851,28 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Tu nous appelles à t'aimer T52
 ```
 
-**22/01/2021 v4.10.4**
-```
+#### 22/01/2021 v4.10.4
+
+```text
   + Viens embraser nos coeurs K35-29
 ```
 
-**24/01/2021 v4.11.0**
-```
+#### 24/01/2021 v4.11.0
+
+```text
   Ajout d'un bouton pour avoir accès uniquement aux paroles d'un chant depuis le répertoire
   Ajout d'une fenêtre pour les utilisateurs de safari afin d'expliquer le comportement anormal
 ```
 
-**26/01/2021 v4.11.1**
-```
+#### 26/01/2021 v4.11.1
+
+```text
   Ajout d'un sitemap pour mieux se retrouver
 ```
 
-**28/01/2021 v4.11.2**
-```
+#### 28/01/2021 v4.11.2
+
+```text
   Ajout de liens utiles dans l'aide
 
   + (Messe de Saint Boniface) Kyrie 14-28-01 AL68-18
@@ -801,8 +883,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe de Saint Boniface) Agnus 14-28-06 AL68-18
 ```
 
-**05/02/2021 v4.11.3**
-```
+#### 05/02/2021 v4.11.3
+
+```text
   Ajout d'une barre de menu dans la page pour un chant
 
   + Signes par milliers K226 TK226
@@ -814,14 +897,16 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe du peuple de Dieu) Agnus AL597
 ```
 
-**07/02/2021 v4.11.4**
-```
+#### 07/02/2021 v4.11.4
+
+```text
   Corrections chants
   Ajout d'une miniature de l'image dans la playlist
 ```
 
-**08/02/2021 v4.11.5**
-```
+#### 08/02/2021 v4.11.5
+
+```text
   + Vivons en enfants de lumière G14-57-1
   + Avec toi nous irons au désert G229
   + Lave-moi, Seigneur mon Dieu IEV 824
@@ -847,13 +932,15 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Où sont Amour et Charité D511 X567
 ```
 
-**13/02/2021 v4.11.6**
-```
+#### 13/02/2021 v4.11.6
+
+```text
   + Levons les yeux F67-27
 ```
 
-**25/02/2021 v4.12.0**
-```
+#### 25/02/2021 v4.12.0
+
+```text
   Enregistrement automatique de la playlist dans le navigateur : aussi en modifiant les couplets/refrains, textes persos etc...
   Correction du chant où il manquait l'id "rends-nous-la-joie-de-ton-salut"
   Correciton du chant "Avec toi nous irons au désert" où il y avait une répétition inutile
@@ -861,31 +948,36 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Amélioration de la gestion du scroll
 ```
 
-**26/02/2021 v4.12.1**
-```
+#### 26/02/2021 v4.12.1
+
+```text
   + Baptisé dans la lumière de Jésus I297 N297
 ```
 
-**28/02/2021 v4.12.2**
-```
+#### 28/02/2021 v4.12.2
+
+```text
   Corrections chants
   + Agneau de l'Alliance fidèle A240-1 C240-1
 ```
 
-**13/03/2021 v4.12.3**
-```
+#### 13/03/2021 v4.12.3
+
+```text
   Modifications mineures du texte de bienvenue
 ```
 
-**24/03/2021 v4.13.0**
-```
+#### 24/03/2021 v4.13.0
+
+```text
   passage de Bootstrap à vue-bootstrap
   ajout d'une animation au déplacement d'un élément dans la playlist
   ajout d'un logo/favicon
 ```
 
-**25/03/2021 v4.13.1**
-```
+#### 25/03/2021 v4.13.1
+
+```text
   + Vivez l'espérance T52-46
   + Grain de blé H510 GX510
   + Voici celui qui vient Z44-79 HX44-79
@@ -905,8 +997,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   correction Hosanna, Ouvrons les portes au Roi
 ```
 
-**27/03/2021 v4.13.2**
-```
+#### 27/03/2021 v4.13.2
+
+```text
   + (Messe Polyphonie pour un avenir) Kyrie C44-97
   + (Messe Polyphonie pour un avenir) Gloire à Dieu
   + (Messe Polyphonie pour un avenir) Sanctus
@@ -916,8 +1009,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction Revenez à moi
 ```
 
-**08/04/2021 v4.13.3**
-```
+#### 08/04/2021 v4.13.3
+
+```text
   + En toi j'ai mis ma confiance S501 DEV132
   + Heureux celui qui se souvient G552
   + En quel pays de solitude G184 GP184-1
@@ -953,25 +1047,29 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Le Christ est vivant I214
 ```
 
-**09/04/2021 v4.13.4**
-```
+#### 09/04/2021 v4.13.4
+
+```text
   Ajout d'un gif comme tuto rapide
   Ajout d'une couleur pour l'icone de Présentation (en attendant un super redesign...)
 ```
 
-**25/06/2021 v4.13.5**
-```
+#### 25/06/2021 v4.13.5
+
+```text
   + Awesome God (Hillsong)
   + Saint-Esprit (Voici mon cœur) (Glorious)
 ```
 
-**25/06/2021 v4.14.0**
-```
+#### 25/06/2021 v4.14.0
+
+```text
   Ajout d'un système de pagination pour le répertoire : page et actions pour rapide (possibilité d'améliorer la recherche plus tard)
 ```
 
-**21/07/2021 v4.14.1**
-```
+#### 21/07/2021 v4.14.1
+
+```text
   + Je veux voir Dieu (canon)
   + Réjouis-toi, fille de Sion 17-51
   + Faites tout ce qu'il vous dira
@@ -1046,43 +1144,50 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Je suis votre painJe suis votre pain D159-3
 ```
 
-**08/09/2021 v4.14.2**
-```
+#### 08/09/2021 v4.14.2
+
+```text
   mise à jour du sitemap
   Corrections diverses
   ajout des espaces insécables avec \u00a0 ? : ! « » (bis) (x3)
 ```
 
-**08/09/2021 v4.15.0**
-```
+#### 08/09/2021 v4.15.0
+
+```text
   Ajout de marges personnalisées (à gauche et en bas des couplets, refrains et traductions)
 ```
 
-**27/09/2021 v4.16.0**
-```
+#### 27/09/2021 v4.16.0
+
+```text
   Modification de l'affichage de texte (chant ou texte personnalisé) pour pouvoir afficher du format html (modification de la base de données pour retours à la ligne et espaces insécables)
 ```
 
-**07/10/2021 v4.17.0**
-```
+#### 07/10/2021 v4.17.0
+
+```text
   Ajout d'un éditeur plus poussé (tiptap.dev) pour le texte personnalisable
 ```
 
-**07/10/2021 v4.18.0**
-```
+#### 07/10/2021 v4.18.0
+
+```text
   Aide pour l'assemblée avec la nouvelle traduction du Missel Romain en français appliquée au premier dimanche de l'avent le dimanche 28 novembre 2021
 ```
 
-**12/10/2021 v4.18.1**
-```
+#### 12/10/2021 v4.18.1
+
+```text
   Amélioration du SiteMap pour un meilleur référencement sur le long terme
     Supprimer le sitemap existant (le copier)
     npm run sitemap
     Coller les éléments les plus récents dans l'ancien sitemap (page principale et nouveaux chants)
 ```
 
-**13/10/2021 v4.18.2**
-```
+#### 13/10/2021 v4.18.2
+
+```text
   + Nous voici, Église notre mère (Fratello 2016)
 
   quelques corrections
@@ -1097,8 +1202,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout d'un bouton pour rapidement aller vers un couplet, l'afficher et cacher tous les autres
 ```
 
-**17/10/2021 v4.18.3**
-```
+#### 17/10/2021 v4.18.3
+
+```text
   Correction de bug avec des espaces insécables
   Ajout du fichier robot.txt
   Ajout lien dans le message d'annonce de la nouvelle traduction du missel romain
@@ -1106,8 +1212,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout de Google Analytics (essai peut-être temporaire) (plugin vue-gtag)
 ```
 
-**16/11/2021 v4.18.4**
-```
+#### 16/11/2021 v4.18.4
+
+```text
   Nouvelle traduction du Missel Romain :
     Personnalisation de la couleur des éléments modifiés
     Corrections
@@ -1115,8 +1222,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Ajout d'un lien vers une aide
 ```
 
-**26/11/2021 v4.18.5**
-```
+#### 26/11/2021 v4.18.5
+
+```text
   + Comme un ami T58 M534
   + Seigneur, venez E20
   + Viens pour notre attente E34
@@ -1147,8 +1255,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Anamnèse Jésus, Messie humilié
 ```
 
-**10/12/2021 v4.18.6**
-```
+#### 10/12/2021 v4.18.6
+
+```text
   Corrections
     &nbsp; afficher dans le title de la page
     optimisation des packages
@@ -1156,14 +1265,16 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Ajout d'un meta description personnalisé aux chants
 ```
 
-**22/12/2021 v4.18.7**
-```
+#### 22/12/2021 v4.18.7
+
+```text
   Correction
     Fenêtre de l'aperçu tout en haut à cause de l'aide
 ```
 
-**02/01/2022 v4.18.8**
-```
+#### 02/01/2022 v4.18.8
+
+```text
   + En mémoire du Seigneur D304-1
   + Il vient EY73-74
   + (Messe sur des Noëls populaires) Kyrie A13-00
@@ -1176,8 +1287,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Possibilité de personnaliser la couleur des modifications du Missel Romain
 ```
 
-**23/01/2022 v4.19.0**
-```
+#### 23/01/2022 v4.19.0
+
+```text
   + Viens ma toute belle
   + Gloria Guillou AL13-89
 
@@ -1188,13 +1300,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Nettoyage dans le code (forEach en for...of, `${}` pour la concaténation de text)
 ```
 
-**26/01/2022 v4.20.0**
-```
-  Améliorations pour le référencement : h1 et p ; breadcrum ; utilisation de schema.org
-```
+#### 26/01/2022 v4.20.0
 
-**26/01/2022 v4.20.0**
-```
+```text
+  Améliorations pour le référencement : h1 et p ; breadcrum ; utilisation de schema.org
+
   Les refrains peuvent être cachés
   Ajout d'un bouton pour afficher les paramètres depuis la playlist
   Ajout d'un message quand le chant recherché n'existe pas
@@ -1205,13 +1315,15 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     Aide (tooltip) disparait quand le curseur passe dessus (plus pratique)
 ```
 
-**03/02/2022 v4.21.0**
-```
+#### 03/02/2022 v4.21.0
+
+```text
   Optimisation des imports (icons bootstrap et icons FontAwesome) (~30% en moins du javascript)
 ```
 
-**24/02/2022 v4.21.1**
-```
+#### 24/02/2022 v4.21.1
+
+```text
   Correction :
     A toi la gloire (doublon)
 
@@ -1237,8 +1349,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Tu es passé faisant le bien G47-92
 ```
 
-**22/03/2022 v4.21.2**
-```
+#### 22/03/2022 v4.21.2
+
+```text
   Correction de l'icône quand la playlist est vide
 
   + Pain de Dieu, pain de vie D381
@@ -1248,24 +1361,27 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + À la victime pascale
 ```
 
-**27/03/2022 v4.22.0**
-```
+#### 27/03/2022 v4.22.0
+
+```text
   Import-Export de la playlist (chants, textes, images)
   Corrections :
     Import de plusieurs fois la même image impossible
     Affichage de l'aide dans l'éditeur du texte personnalisable reste affiché en passant le curseur dessus
 ```
 
-**13/04/2022 v4.23.0**
-```
+#### 13/04/2022 v4.23.0
+
+```text
   Insertion des textes du prochain dimanche depuis aelf.org
   Corrections :
     petite correction d'affichage
     Heureux les cœurs miséricordieux
 ```
 
-**15/04/2022 v4.23.1**
-```
+#### 15/04/2022 v4.23.1
+
+```text
   Ajout d'un nouveau sitemap pour google........?
   Suppression de l'info du missel romain, liste des ordinaires modifiés tout en bas.
   Modification de l'aide
@@ -1278,16 +1394,18 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Correction de Mendiant du jour
 ```
 
-**17/05/2022 v4.23.2**
-```
+#### 17/05/2022 v4.23.2
+
+```text
   Corrections
     FIX marges sur le chant même quand le texte est centré
     FIX éditeur/aelf sur l'import et la modification par la suite de ce qui est importé
     FIX éditeur sur le retour à la ligne
 ```
 
-**04/06/2022 v4.23.3**
-```
+#### 04/06/2022 v4.23.3
+
+```text
   + Donne-nous ton Fils V116
   + Que ces lieux soient visités JEM647
   + Manifeste-toi JEM452
@@ -1305,8 +1423,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     changement de l'icone d'ajout d'un text personnalisé
 ```
 
-**21/09/2022 v4.23.4**
-```
+#### 21/09/2022 v4.23.4
+
+```text
   Correction du title de la page principale
   Correction du chant Manifeste-toi
   Correction doublon du chant Vous m'avez reconnu
@@ -1333,8 +1452,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Louange à toi, ô Christ IEV : N°17-40 EDIT15-99
 ```
 
-**05/12/2022 v4.23.5**
-```
+#### 05/12/2022 v4.23.5
+
+```text
   + Que soit béni le Nom de Dieu A245 Y245
   + Relever le faible (Glorious)
   + Maranatha, viens Seigneur Jésus E511 EX511
@@ -1353,8 +1473,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Dans nos obscurités (Taizé)
 ```
 
-**10/05/2023 v4.23.6**
-```
+#### 10/05/2023 v4.23.6
+
+```text
   Suppression de JQuery
   Correction des espaces insécables, d'espaces inutiles
 
@@ -1370,13 +1491,15 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Ave Maria sois notre secours IEV : n°10-06
 ```
 
-**12/05/2023 v4.24.0**
-```
+#### 12/05/2023 v4.24.0
+
+```text
   Correction des problèmes de compilation (mise à jour des icones)
 ```
 
-**19/06/2023 v4.24.1**
-```
+#### 19/06/2023 v4.24.1
+
+```text
   Correction(s) :
     Symbole de Nicée (consubstantiel)
     homme > Homme quand cela revient de parler d'humain
@@ -1384,8 +1507,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   Corrections dans les icons suite à la mise à jour de FontAwesome en version 6 https://fontawesome.com/v6/docs/web/setup/upgrade/whats-changed
 ```
 
-**05/07/2023 v4.24.2**
-```
+#### 05/07/2023 v4.24.2
+
+```text
   Correction(s) :
     Angélus : et à l'heure de la mort
     Anamnèse messe de la Trinité : (bis) ajouté
@@ -1393,13 +1517,15 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Totus tuus IEV 16-16 EDIT15-72
 ```
 
-**09/07/2023 v4.24.3**
-```
+#### 09/07/2023 v4.24.3
+
+```text
   + Salve Regina
 ```
 
-**19/07/2023 v4.24.4**
-```
+#### 19/07/2023 v4.24.4
+
+```text
   + Glorifie le seigneur
   + Dansons ensemble
   + Christ est la lumière (Light Of All The Earth) JEM1057
@@ -1425,8 +1551,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + J'attendrai (Glorious)
 ```
 
-**09/09/2023 v4.24.5**
-```
+#### 09/09/2023 v4.24.5
+
+```text
   Correction(s) :
     Gloria (Messe de Lourdes)
     Tu as porté celui qui porte tout
@@ -1442,8 +1569,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Source d'espérance K240
 ```
 
-**15/11/2023 v4.24.6**
-```
+#### 15/11/2023 v4.24.6
+
+```text
   + Dieu de l'Univers, Dieu saint DEV47-29
   + Laissons entrer le Roi de gloire JEM1097
   + Seigneur, par la clarté - Brille, ô Jésus (Lord, the light of your love - Shine Jesus shine) JEM495
@@ -1455,8 +1583,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Victoire, alléluia
 ```
 
-**15/11/2023 v4.24.7**
-```
+#### 15/11/2023 v4.24.7
+
+```text
   + (Messe de San Lorenzo) Kyrie AL595 07-41-01
   + (Messe de San Lorenzo) Gloria AL595
   + (Messe de San Lorenzo) Alleluia AL595 07-41-03
@@ -1466,8 +1595,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + L'Esprit et l'épouse JEM869
 ```
 
-**07/02/2024 v4.24.8**
-```
+#### 07/02/2024 v4.24.8
+
+```text
   Correction(s) :
     Ne crains pas
     Me voici vers Toi
@@ -1485,8 +1615,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + À vous d'en être les témoins (Kerygma 2023)
 ```
 
-**22/02/2024 v4.24.9**
-```
+#### 22/02/2024 v4.24.9
+
+```text
   Correction(s) :
     À toi notre louange
     côtes IEV
@@ -1496,8 +1627,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + Glorificamus Te IEV 18-10 EDIT18-33
 ```
 
-**19/05/2024 v4.24.10**
-```
+#### 19/05/2024 v4.24.10
+
+```text
   Correction(s) :
     Je t'exalte ô roi mon Dieu
     Psaume 26 - Le Seigneur est ma lumière et mon salut
@@ -1517,8 +1649,9 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
   + (Messe de la grâce) Agneau de Dieu (Agnus Dei)
 ```
 
-**30/12/2024 v4.24.11**
-```
+#### 30/12/2024 v4.24.11
+
+```text
   Corrections :
     (Messe de la Trinité) Gloire à Dieu
     (Messe de la Trinité) Anamnèse
@@ -1526,9 +1659,11 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
     (Messe de San Lorenzo) Anamnèse
 ```
 
-##### Dernière version
-**23/06/2025 v4.24.12**
-```
+#### Dernière version
+
+#### 23/06/2025 v4.24.12
+
+```text
   Dans la playlist, suppression des ajouts de fonctionnalités pour mettre l'astuce de la couleur d'arrière plan personnalisable
   Ajout d'une transition en fondu au changement de l'élément affiché dans la présentation
   Mise à jour du style de la barre de défilement dans la présentation

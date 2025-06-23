@@ -1,7 +1,9 @@
 <template>
   <div>
     <!-- Barre d'actions -->
-    <b-badge variant="info">Astuce</b-badge> <small><a @click="$emit('toggle-param')" href="#">Dans les paramètres</a>, il est possible d'avoir un fond d'une couleur différente entre l'affichage d'un chant et d'un contenu vide</small>
+    <b-badge variant="info">Astuce</b-badge>&nbsp;<small
+      ><a @click="$emit('toggle-param')" href="#">Dans les paramètres</a>, il est possible d'avoir un fond d'une couleur différente entre l'affichage d'un chant et d'un contenu vide</small
+    >
     <hr />
     <b-button-toolbar class="mb-3">
       <!-- Quadrillage -->
