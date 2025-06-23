@@ -94,13 +94,19 @@ export default {
 
 <style>
 /* SCROLLBAR */
-div::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 3px;
 }
-div::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: rgb(100 100 100);
 }
-div::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background-color: rgb(127 127 127 / 50%);
+}
+html,
+body,
+div {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(127 127 127 / 50%) rgb(100 100 100);
 }
 </style>

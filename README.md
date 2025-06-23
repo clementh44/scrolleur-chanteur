@@ -1531,4 +1531,5 @@ Version 4 accessible ici : [https://chantons.netlify.app/](https://chantons.netl
 ```
   Dans la playlist, suppression des ajouts de fonctionnalités pour mettre l'astuce de la couleur d'arrière plan personnalisable
   Ajout d'une transition en fondu au changement de l'élément affiché dans la présentation
+  Mise à jour du style de la barre de défilement dans la présentation
 ```
